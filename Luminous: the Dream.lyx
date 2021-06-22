@@ -32,7 +32,7 @@ multicol
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
-\use_dash_ligatures true
+\use_dash_ligatures false
 \graphics xetex
 \default_output_format pdf4
 \output_sync 0
