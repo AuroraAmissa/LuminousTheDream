@@ -7,7 +7,9 @@
 \textclass memoir
 \begin_preamble
 \usepackage{datetime}
+\usepackage{colortbl}
 \end_preamble
+\options xcolor=table
 \use_default_options false
 \begin_modules
 todonotes
@@ -80,6 +82,7 @@ multicol
 \topmargin 1in
 \rightmargin 0.75in
 \bottommargin 1in
+\footskip 0.5in
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
@@ -103,22 +106,6 @@ multicol
 \begin_layout Standard
 \begin_inset ERT
 status open
-
-\begin_layout Plain Layout
-
-% Setup colors
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{luminous-bg}{HTML}{ffd4f3}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -307,6 +294,22 @@ makeatother
 
 \begin_layout Plain Layout
 
+% Setup colors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{lum-bg}{HTML}{ffd4f3}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 % Setup hyperlink formatting
 \end_layout
 
@@ -355,7 +358,7 @@ hypersetup{
 
 
 \backslash
-setuptodonotes{color=luminous-bg}
+setuptodonotes{color=lum-bg}
 \end_layout
 
 \begin_layout Plain Layout
@@ -382,13 +385,24 @@ makeoddfoot{plain}{
 \backslash
 sffamily
 \backslash
-rightmark}{
-\backslash
 leftmark}{
 \backslash
 sffamily
 \backslash
+rightmark}{
+\backslash
+sffamily
+\backslash
 thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeheadrule{plain}{
+\backslash
+textwidth}{1pt}
 \end_layout
 
 \begin_layout Plain Layout
@@ -441,13 +455,24 @@ makeoddfoot{mystyle}{
 \backslash
 sffamily
 \backslash
-rightmark}{
-\backslash
 leftmark}{
 \backslash
 sffamily
 \backslash
+rightmark}{
+\backslash
+sffamily
+\backslash
 thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeheadrule{mystyle}{
+\backslash
+textwidth}{1pt}
 \end_layout
 
 \begin_layout Plain Layout
@@ -593,13 +618,38 @@ status open
 
 \begin_layout Plain Layout
 
-% Luminous style.
- Red box of death because we don't have another good way to switch this
- dynamically
+% Setup command variables
 \end_layout
 
 \begin_layout Plain Layout
 
+
+\backslash
+newcommand
+\backslash
+vtitlefont
+\backslash
+luminousfont
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vtitlecentered
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Common style.
 \end_layout
 
 \begin_layout Plain Layout
@@ -612,7 +662,7 @@ parttitlefont}{
 \backslash
 fontsize{38}{38}
 \backslash
-luminousfont}
+vtitlefont}
 \end_layout
 
 \begin_layout Plain Layout
@@ -625,7 +675,7 @@ chaptitlefont}{
 \backslash
 fontsize{38}{38}
 \backslash
-luminousfont}
+vtitlefont}
 \end_layout
 
 \begin_layout Plain Layout
@@ -640,7 +690,9 @@ setsecheadstyle{
 \backslash
 fontsize{30}{30}
 \backslash
-luminousfont}
+vtitlefont
+\backslash
+vtitlecentered}
 \end_layout
 
 \begin_layout Plain Layout
@@ -651,7 +703,7 @@ setsubsecheadstyle{
 \backslash
 fontsize{20}{20}
 \backslash
-luminousfont}
+vtitlefont}
 \end_layout
 
 \begin_layout Plain Layout
@@ -662,7 +714,7 @@ setsubsubsecheadstyle{
 \backslash
 fontsize{15}{15}
 \backslash
-luminousfont}
+vtitlefont}
 \end_layout
 
 \end_inset
@@ -1559,13 +1611,11 @@ status open
 
 
 \backslash
-setsecheadstyle{
+renewcommand
 \backslash
-fontsize{30}{30}
+vtitlecentered
 \backslash
-luminousfont
-\backslash
-centering}
+centering
 \end_layout
 
 \end_inset
@@ -1859,11 +1909,11 @@ status open
 
 
 \backslash
-setsecheadstyle{
+renewcommand
 \backslash
-fontsize{30}{30}
+vtitlecentered
 \backslash
-luminousfont}
+relax
 \end_layout
 
 \end_inset
@@ -2096,8 +2146,2060 @@ The Luminous are those who wield their hopes and dreams to change the world,
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Character creation process.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Anchors
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Rewrite anchors section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Bright Dreams
+\end_layout
+
+\begin_layout Standard
+The Luminous live in a world slowly falling to cold and unfeeling systems
+ and processes.
+ In their sleep, they dream of the futures the world is too scared to accept.
+ In the waking world, they wield that shining magic, channeling their most
+ dear dreams into the world – if only for a moment – through their force
+ of will.
+\end_layout
+
+\begin_layout Subsection
+Reverie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Reverie|textbf
+\end_layout
+
+\end_inset
+
+The Luminous learn to draw the Dream into reality, suspending the laws of
+ the waking world just long enough to make a difference.
+ Still, there is always a disconnect between what they can dream, and what
+ they can actually do.
+\end_layout
+
+\begin_layout Standard
+A Luminous' Reverie measures how strongly she may connect the waking world
+ and the Dream.
+ As it increases, she is able to have higher traits in Dream Form, maintain
+ more Regalia at once, spend more Motes without cost each turn, and deepens
+ her natural empathic abilities.
+ However...
+ it doesn't come without downsides.
+ As her power grows she also acclimates to the ways of the Dream.
+ For powerful Luminous, adjusting back to their Mundane Form becomes increasingl
+y difficult.
+\end_layout
+
+\begin_layout Standard
+Reverie is a Luminous' Power Stat, granting her Supernatural Tolerance [CofD
+ 70].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="6">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="bottom" width="0.9in">
+<column alignment="left" valignment="bottom" width="0.95in">
+<column alignment="left" valignment="bottom" width="0.9in">
+<column alignment="left" valignment="bottom" width="0.9in">
+<column alignment="left" valignment="bottom" width="0.9in">
+<column alignment="left" valignment="bottom" width="1.45in">
+<row>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Reverie
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Transformed
+\begin_inset Newline newline
+\end_inset
+
+Skill Max
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Mote
+\begin_inset Newline newline
+\end_inset
+
+Capacity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Regalia
+\begin_inset Newline newline
+\end_inset
+
+Capacity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Base
+\begin_inset Newline newline
+\end_inset
+
+Sensitivity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Flicker Duration
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{lum-bg}
+\end_layout
+
+\end_inset
+
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10 minutes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10 minutes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{lum-bg}
+\end_layout
+
+\end_inset
+
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 scene/hour
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 scene/hour
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{lum-bg}
+\end_layout
+
+\end_inset
+
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 scene/hour
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 scenes/hours
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{lum-bg}
+\end_layout
+
+\end_inset
+
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 scenes/hours
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 scenes/hours
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{lum-bg}
+\end_layout
+
+\end_inset
+
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 day
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 day
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Motes
+\end_layout
+
+\begin_layout Standard
+Motes are the small shards of the Dream's power that a Hopeful draws on
+ to fuel her magic.
+ She does not need to gather it from an outside source, but rather simply
+ draws them from deep within her soup.
+ A Luminous may simply spend a certain number of Motes equal to her Mote
+ Capacity safely each turn.
+\end_layout
+
+\begin_layout Standard
+Beyond that, she must draw deeper on her being, converting a small fragment
+ of her own emotions and dreams to fuel the rest of that magic and leaving
+ her feeling down and worn out until she has had the time to recover.
+ When her Mote Capacity is exhausted, she may still intentionally take a
+ box of mild Hope damage to spend an additional Mote for the turn.
+ Should she have no remaining undamaged Hope boxes, she may take a box of
+ severe Hope damage instead.
+\end_layout
+
+\begin_layout Standard
+Unlike most types of supernatural creatures, a Princess cannot spend the
+ Motes to use her powers over multiple turns.
+ If a power costs more Motes than her Mote Capacity, she must spend it all
+ in one turn and take the resulting Hope damage.
+ 
+\end_layout
+
+\begin_layout Subsection
+Invocations
+\end_layout
+
+\begin_layout Standard
+The ideals of each of the Dream Kingdoms resonate throughout the Dream,
+ and Weavers draw on those Invocations to shape their own magics.
+ Learning an Invocation allows a Luminous to draw on the pooled knowledge
+ and magical skills that like-minded Luminous left behind generations ago.
+\end_layout
+
+\begin_layout Standard
+A Luminous may have up to 5 dots in each Invocation.
+ Each Kingdom favors one Invocation, and the Luminous find the Invocation
+ of their home Kingdom the easiest to learn.
+ Due to this tie with the Dream Kingdoms that embody their beliefs, the
+ Invocations are described under the Kingdom that they originate in.
+\end_layout
+
+\begin_layout Standard
+These Invocations reflect a worldview as much a source of power.
+ While a Luminous can use the power of Kingdoms she does not agree with,
+ she does grasp their logic and concepts intuitively and cannot draw on
+ the Dream directly to learn them.
+ As a guideline, a Luminous who agrees with one or two of an Invocation's
+ Beliefs may intuitively learn three dots of it alone.
+ One who agrees with all of them in at least vague terms may learn five
+ dots of it alone.
+ Otherwise, she must be taught the Invocation by someone who already understands
+ its principles better.
+ 
+\end_layout
+
+\begin_layout Subsection
+Regalia, Domains and Charms
+\end_layout
+
+\begin_layout Standard
+Luminous magic is roughly divided into three major categories: Regalia,
+ Domains and Charms.
+\end_layout
+
+\begin_layout Itemize
+The Regalia are the most physical embodiments of a Luminous' power.
+ They are the radiant auras and weapons she summons in their Dream Form
+ to fight or solve the kinds of problems that require a more direct approach.
+\end_layout
+
+\begin_layout Itemize
+A Hopeful's Domains are the elements and concepts that resonate with her
+ Invocations and her own dream.
+ They are the power that defines the Luminous as fundamentally magical in
+ the way they so often seem to be, allowing them to wield the elements as
+ naturally as they move their own body.
+\end_layout
+
+\begin_layout Itemize
+Charms are the more specialized powers of the Luminous, specific spells
+ that allow them to touch upon the more esoteric mysteries of the world
+ – or perhaps even create some of those mysteries themselves.
+\end_layout
+
+\begin_layout Standard
+For more information, see the chapter on The Power of Love (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Chapter-PowerOfLove"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Section
+Dreamer's Heart
+\end_layout
+
+\begin_layout Standard
+Far too often, Luminous find themselves wanting to change the world when
+ they personally experience the cruelties of the world.
+ They cannot help but feel the pains of those around them, and even if they
+ escape the worst of it personally, they almost certainly grow close to
+ someone who suffers from it for one reason or another.
+ They are themselves hurt by a world that tells them they are naive to hope,
+ and a thousand times again when they see the pain reflected in another.
+ 
+\end_layout
+
+\begin_layout Subsection
+Mundane and Supernatural Aspirations
+\end_layout
+
+\begin_layout Standard
+The Hopeful are caught between the mundane and the supernatural, and their
+ goals reflect that.
+ They balance between the strains of everyday life, and the hidden problems
+ of the supernatural world that exists on the margins of society.
+\end_layout
+
+\begin_layout Standard
+Luminous have five Aspirations instead of the usual three.
+ Two of them must relate to her personal life or the broader mundane world,
+ and two of them must relate to the supernatural world.
+ The last Aspiration may be assigned freely.
+\end_layout
+
+\begin_layout Standard
+Sensitivity A Luminous' strong emotions combined with their natural concern
+ for others meld together into a deep empathy they call "Sensitivity", only
+ growing stronger from their magic to connect hearts.
+ Sensitivity is a dice pool equal to half the Hopeful's Reverie rounded
+ up.
+ Merits and other abilities may add additional dice to this pool, and non-Lumino
+us may gain Sensitivity dice through merits or other traits.
+\end_layout
+
+\begin_layout Subsection
+Take their Hand 
+\end_layout
+
+\begin_layout Standard
+As much as the pains of others hurt them too, the Luminous can at least
+ put it to good use.
+ The level of connection they can have makes it easier for them to comfort
+ and understand others.
+ Sensitivity provides the following bonuses:
+\end_layout
+
+\begin_layout Itemize
+You add your Sensitivity as a bonus to mundane Empathy or any Resonate rolls
+ to understand how someone feels, comfort them, or assure them of their
+ own worth and value.
+\end_layout
+
+\begin_layout Itemize
+You may attempt to comfort someone facing a breaking point, reassuring them
+ that at the very least, they are not alone.
+ Roll Presence + Sensitivity.
+ Take Hope damage equal to your number of successes, and add that many dice
+ as a bonus to your target's roll.
+\end_layout
+
+\begin_layout Itemize
+When you act as a Touchstone to another character with a Hope track or similar
+ mechanic, you may add your Sensitivity to the amount of Hope damage healed.
+ A character can benefit from this extra healing only once a day.
+\end_layout
+
+\begin_layout Subsection
+Reflected Wounds
+\end_layout
+
+\begin_layout Standard
+A Luminous fuels her power with the strength of her emotions, and far too
+ often, the weight of the world can turn it back onto her.
+ She cannot help but feel an echo of the emotional pain those who are suffering
+ feels, even as she does her best to help those around her.
+\end_layout
+
+\begin_layout Standard
+Whenever a Hopeful witnesses or learns about a situation that caused someone
+ significant emotional pain, she takes a mild Hope attack with dice equal
+ to her Sensitivity.
+ Deliberate acts of cruelty add a dice to this attack, and particularly
+ heinous acts (such as prolonged deliberate torture) may add up to three
+ dice or instead cause severe Hope damage.
+\end_layout
+
+\begin_layout Standard
+Afterwards, she may immediately replace a short-term aspiration with one
+ to alleviate the pain, or prevent the one who caused it from doing so again.
+ When she completes such an Aspiration, she gains an additional beat and
+ recovers all mild Hope damage.
+ Luminous may have no more than two aspirations from Sensitivity at once.
+\end_layout
+
+\begin_layout Subsection
+Hope 
+\end_layout
+
+\begin_layout Standard
+When a Luminous first Blossoms, she becomes the dreams and wonders she always
+ knew as a child.
+ She reclaims the emotion and imagination that she once knew, feeling her
+ triumphs and struggles as strongly as she did the first time she truly
+ opened her eyes to the world.
+ The challenges of life and the shadows of the world around her hurt her
+ so deeply.
+ But...
+ she can always turn to the wonders remaining in the world.
+ Cling to them for strength, bouncing back than any normal person could
+ ever hope to.
+\end_layout
+
+\begin_layout Standard
+Luminous have Hope instead of Integrity, a measurement of her emotional
+ well being and will to fight.
+ When her Hope is damaged, she feels down and drained, and the conviction
+ to continue her work starts slipping away.
+ At more severe Hope damage, she begins feeling outright helpless in the
+ face of the world's darkness.
+\end_layout
+
+\begin_layout Subsubsection*
+Hope Track 
+\end_layout
+
+\begin_layout Standard
+Luminous have a Hope track equal to their transformed Power + Resistance
+ that behaves similarly to a health track.
+ When an ability refers to a character's Hope, it means the number of undamaged
+ Hope boxes she possesses.
+ Luminous are considered to have an Integrity equivalent equal to 5 + her
+ undamaged Hope boxes (to a maximum of 10).
+\end_layout
+
+\begin_layout Subsubsection*
+Hope Damage and Recovery 
+\end_layout
+
+\begin_layout Standard
+Events that shake a Hopeful's resolve or strain her emotions cause her to
+ suffer an attack against her Hope.
+ She may take two kinds of Hope damage as a result.
+ Mild Hope damage represents simpler emotional strain from her overexerting
+ her magic or simply the weight of life bearing down on her without a release.
+ Severe Hope damage represents fundamentally deeper pains that linger, even
+ when the situation clears up.
+\end_layout
+
+\begin_layout Standard
+Each time a Luminous takes Hope damage, mark it off her Hope track using
+ a slash (/) for mild damage and an (X) for severe damage.
+ Mark mild damage in the leftmost empty box of her Hope track, and severe
+ damage in the leftmost empty box or the leftmost box that is marked with
+ only mild damage.
+ Whenever a Princess takes mild Hope damage when her rightmost Hope box
+ is filled, she instead takes a point of severe Hope damage.
+\end_layout
+
+\begin_layout Standard
+Once a day, whenever she spends time relaxing or otherwise doing something
+ she enjoys without expectation or consequences for failure, roll Hope.
+ She clears a box of mild Hope damage equal to her successes.
+ If one or more of your Touchstones joined her in the activity, she heals
+ an additional box of mild Hope damage, or reduces a box of severe damage
+ to mild damage.
+\end_layout
+
+\begin_layout Subsubsection*
+Attacks against Hope
+\end_layout
+
+\begin_layout Standard
+When something shakes a Princess' resolve or emotional stability, they take
+ an attack against Hope.
+ Attacks can be mild or severe and have a dice rating.
+ Roll a dice pool equal to the die rating of the attack.
+ The Luminous takes a number of the stated severity of Hope damage equal
+ to the corresponding to the number of successes.
+\end_layout
+
+\begin_layout Standard
+If she took any damage from this process and her rightmost box of Hope is
+ marked with damage afterwards, she gains a Hope Condition, chosen by the
+ player from the following list: 
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Hope condition list.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luminous can take Hope attacks due to her Sensitivity, or due to strong
+ emotional shock or significant emotional turmoil for personal reasons.
+ While effects like spending Motes can directly cause Hope damage, this
+ does not count as a Hope attack and never causes Hope Conditions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Die value example list.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Defiant Will
+\end_layout
+
+\begin_layout Quote
+\begin_inset Quotes xld
+\end_inset
+
+It is the chink in the armour of your soul, Kadma.
+ And all I need to make you mine!
+\begin_inset Quotes xrd
+\end_inset
+
+ – Nerissa
+\end_layout
+
+\begin_layout Standard
+The Hopeful draw deeply on their own dreams to power their magic, and forces
+ that try to alter it do not easily escape their notice.
+ A Luminous is always aware of any attempts to use supernatural powers or
+ other extraordinary means to influence, alter or read any aspect of her
+ mind, and reflexively resists them.
+\end_layout
+
+\begin_layout Standard
+She gains a bonus equal to her Hope to contested rolls against such effects.
+ Non-contested rolls against her suffer a penalty equal to her Hope, even
+ if they do not normally allow resistance.
+ If she has no damaged Hope boxes, she additionally adds an automatic success
+ to such contested rolls, and non-contested rolls against her subtract one
+ success from the result.
+ 
+\end_layout
+
+\begin_layout Section
+Echo 
+\end_layout
+
+\begin_layout Standard
+A Dreamer's magic touches the heart of everyone they treasure and love dearly,
+ connecting their dreams together in their deepest sleep.
+ Over time, those close to the Luminous come to understand each other on
+ a level that goes beyond simple words.
+\end_layout
+
+\begin_layout Standard
+Echos function in both Mundane Form and Dream Form.
+ Their influence is typically subtle and hard to notice, however, and only
+ affects those already close to the Luminous.
+\end_layout
+
+\begin_layout Subsection
+Intimacy 
+\end_layout
+
+\begin_layout Standard
+The Dream is woven out of the countless bonds and ties that connect people,
+ interweaving all of humanity together into a single tapestry.
+ The strength of the connection between two given people is called Intimacy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Connected:
+\series default
+ The two people are so close that the distinction between them does not
+ matter, often being bound by magical vows and ties.
+ This usually applies to extremely close lovers, platonic life partners,
+ and those bound by vows such as those between a Changeling and the Avowed
+ or the Weave of Bonds 
+\begin_inset Flex TODO Note (Margin)
+status open
+
+\begin_layout Plain Layout
+TODO: pg link
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strong:
+\series default
+ The two people are very close to each other, often sharing much of their
+ lives with each other and confiding in each other for comfort and support.
+ This often applies to those such as typical married couples, very close
+ friends, parents and their children, or family of choice.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Medium:
+\series default
+ The two people are on friendly terms with each other and come to know each
+ other on deeper terms.
+ This often applies to those such as good friends, confidants, siblings,
+ or a typical dating couple.
+ Weak: The two people have met each other before, and interact on occasion
+ but rarely in particular depth.
+ This often applies to those such as coworkers, gaming partners, extended
+ family, or a friend of a friend.
+ Hostile or unfriendly relationships also fall under this category, though
+ some kinds of ambiguous relationships (such as a passionate rivalry) can
+ justify stronger Intimacy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Described:
+\series default
+ You have a basic idea of who the person is, but have not interacted directly
+ in any significant manner.
+\end_layout
+
+\begin_layout Standard
+These bonds must be mutual and cannot be strained by formal contexts or
+ ingenious premises.
+ If two people have different feelings towards each other, the lower Intimacy
+ implied holds.
+ For example, a therapist and her patient often only have Weak Intimacy,
+ despite how much of her patient's life she learns, as they only interact
+ in formal contexts, and are effectively forbidden from having a relationship
+ beyond a very formal and professional one.
+ Similarly, unrequited love from a stalker rarely produces more than Weak
+ Intimacy unless reciprocated.
+\end_layout
+
+\begin_layout Standard
+Sometimes, Intimacy is used as a penalty to the dice pool of abilities.
+ When it is used in this way, Connected Intimacy provides no penalty, Strong
+ Intimacy inflicts a -2 penalty, Medium intimacy provides a -4 penalty,
+ Weak Intimacy inflicts a -8 penalty, and Described Intimacy inflicts a
+ -12 penalty.
+ When using such an ability, you may use the Intimacy of a person you are
+ touching, at the cost of decreasing the Intimacy by one level.
+\end_layout
+
+\begin_layout Subsection
+Read the Winds
+\end_layout
+
+\begin_layout Standard
+Luminous are innately aware of the general feeling and mood of any location
+ they enter through their Echo.
+ This does not depend on its present occupants, but rather the impression
+ those who frequent the zone leave on the Dream, especially those with the
+ strongest emotions.
+ While this never directly triggers Sensitivity, it can make Hope recovery
+ or even simply relaxing in a place next to impossible.
+\end_layout
+
+\begin_layout Subsection
+Interwoven Dreams 
+\end_layout
+
+\begin_layout Standard
+Luminous and those who are close to each other dream of each other, and
+ with each other, linked by the overlapping Echos of those involved.
+ A Luminous' Echo influences the dreams of those with strong Intimacy with
+ her, and their dreams in turn influence her back.
+\end_layout
+
+\begin_layout Itemize
+Luminous share their dreams they have Connected Intimacy with.
+ In their dreams, they face the same challenges and see the same wonders
+ side by side, perspective sometimes blurring between the two in the Dream's
+ depths.
+ They come to know each other's depths through those half-remembered dreams.
+ Luminous and those with Connected ties to them gain an automatic success
+ on all mundane skill rolls to understand or emphasize with each other.
+ 
+\end_layout
+
+\begin_layout Itemize
+Luminous and those they have Strong Intimacy with often dream of each other,
+ sometimes sharing their dreams entirely.
+ They gain the rote quality on all mundane skill rolls to understand or
+ emphasize with each other.
+ 
+\end_layout
+
+\begin_layout Itemize
+Luminous and those with Medium Intimacy dream of each other in vague terms,
+ catching glimpses of each other's depths they would not otherwise see in
+ their waking lives.
+ They gain 9-Again on mundane skill rolls to understand or emphasize with
+ each other.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lesser degrees of Intimacy are not strong enough to have any effect.
+\end_layout
+
+\begin_layout Standard
+This effect applies separately to a Hopeful's Mundane and Dream forms, and
+ these dreams do not penetrate the protection of Dual Identity at Strong
+ Intimacy or weaker.
+ However, the dreams of those with Connected Intimacy will almost certainly
+ breach those protections by nature.
+\end_layout
+
+\begin_layout Subsection
+Reflected Light 
+\end_layout
+
+\begin_layout Standard
+Even in their waking life, a Luminous' Echo allows her and those closer
+ to her to draw on each other for strength.
+ Once per scene, either may spend a Willpower to reflect a Virtue, Dream,
+ Wish or similar Anchor of someone they have Strong or closer Intimacy with
+ until the scene ends.
+ This grants 9-Again for all actions that follow that Anchor.
+ In addition, Luminous gain the Anchor for all purposes including Willpower
+ recovery.
+\end_layout
+
+\begin_layout Subsection
+Flaring an Echo 
+\end_layout
+
+\begin_layout Standard
+A Luminous may flare her Echo as an instant action at any time, or as an
+ reflexive action while transforming by spending two Willpower.
+ She focuses on the emotion and meanings underlying her Dream, and projects
+ it forth through her Echo.
+\end_layout
+
+\begin_layout Standard
+An Echo intensified in this way conveys her Dream and inner truths to everyone
+ who sees her, not only those with preexisting ties to her.
+ She rolls Reverie + Hope.
+ If she succeeds, she inflicts the Echo Flare tilt on everyone within the
+ general vicinity, granting them 9-again on all actions that align with
+ her Dream and causing actions antithetical to her Dream to lose 10-again.
+\end_layout
+
+\begin_layout Standard
+Someone affected by Echo Flare may shake it off by spending a Willpower
+ reflexively and rolling Composure + Resolve.
+ If she gains an equal number or more successes than the Luminous' roll,
+ she loses the tilt.
+ The tilt otherwise naturally ends at the scene's end.
+\end_layout
+
+\begin_layout Standard
+Luminous may contest an Echo Flare with her own Echo, contesting it with
+ Reverie + Hope.
+ If she wins, she is not affected by the aura, and instead inflicts her
+ own Echo Flare against the other Luminous.
+ Many other types of supernatural beings have innate auras that inflict
+ Conditions or Tilts.
+ Luminous may contest their active flares with her Echo as well, in the
+ same way as Echos.
+ 
+\end_layout
+
+\begin_layout Section
+Transformation 
+\end_layout
+
+\begin_layout Standard
+The mundane world rejects magic, so strongly so that to be openly something
+ else is simply a death sentence.
+ The Hopeful, as always, adapted to their circumstances.
+ Torn between the mundane world they so desperately wish to be better, and
+ the supernatural world they are inevitably a part of, they choose to be
+ both, splitting their two lives across their forms.
+\end_layout
+
+\begin_layout Standard
+In their mundane form, they are truly mundane with only the barest wisps
+ of their magic, and all the vulnerability that entails.
+ In their Dream Form, the Luminous become a living dream, taking on the
+ form they do in their most fond fantasies.
+\end_layout
+
+\begin_layout Standard
+Luminous may switch between their two forms at will, with a transformation
+ action.
+ Transformation normally takes an instant action.
+ Transforming reflexively requires spending a Willpower.
+\end_layout
+
+\begin_layout Subsection
+Mundane Form 
+\end_layout
+
+\begin_layout Standard
+In their mundane form, the Hopeful do not simply wear a mask of normal humanity.
+ Rather, they are simply normal humans as they've always been.
+ Their magic is sealed away in their own heart, as simply another seemingly
+ mundane fantasy.
+\end_layout
+
+\begin_layout Standard
+All supernatural effects treat a Luminous in Mundane Form as if she were
+ a normal mortal, whether this is beneficial or harmful to her.
+ She may transform reflexively to better resist such abilities.
+ Abilities that would cause a Luminous to become another type of supernatural
+ being or otherwise cease to be a Luminous still always fail, even if they
+ would otherwise work on mortals.
+\end_layout
+
+\begin_layout Standard
+However, she loses access to the majority of her supernatural powers.
+ A Luminous in her Mundane Form has no Wisp Capacity, and loses access to
+ her Regalia, Domains and Charms.
+ She still retains her Supernatural Tolerance, but only for purposes of
+ resisting or contesting supernatural abilities.
+\end_layout
+
+\begin_layout Subsection
+Dream Form 
+\end_layout
+
+\begin_layout Standard
+The Hopeful dream vividly and brightly, taking on a form reflecting their
+ deepest wishes, freed from the constraints of reality.
+ In their waking life, they call upon an innate magic to project that form
+ into reality.
+ For some, they become just themselves in a different outfit.
+ Others become fantastical beings of all sorts – winged fairies, catgirls,
+ masked heroes, paladins in shining armor.
+\end_layout
+
+\begin_layout Standard
+In this form, they greet the hidden corners of the world, matching the power
+ of its other denizens with their own shining dreams.
+ In this form, all too often, they seek an escape from the pressures of
+ mundane life.
+ They mingle with the stranger creatures of the night, or join the parties
+ of the Kindred or Architects.
+\end_layout
+
+\begin_layout Standard
+Luminous in their Dream Form are ephemeral beings in phase with astral projectio
+ns, Goetia, and other similar dream entities.
+ They have a Rank equal to half their Reverie (rounded up), are always Materiali
+zed, and may not enter Twilight or create Manifestation Conditions without
+ a specific ability that allows them to do so.
+ They do not have Banes, Bans, Numina, Essence, or Influences and instead
+ use their Regalia, Domains and Charms.
+\end_layout
+
+\begin_layout Standard
+As they have a different set of attributes and skills from most characters
+ in Dream Form, they allocate them using a different process.
+ See Character Creation 
+\begin_inset Flex TODO Note (Margin)
+status open
+
+\begin_layout Plain Layout
+TODO: pg link
+\end_layout
+
+\end_inset
+
+ for more information.
+\end_layout
+
+\begin_layout Subsection
+Dream Health 
+\end_layout
+
+\begin_layout Standard
+A Hopeful's Dream Form is composed of dreamstuff instead of flesh and blood,
+ protecting her material forms from harm.
+ She has a separate health track in Dream Form called Dream Health, with
+ boxes equal to her Resistance + transformed attribute cap.
+ It behaves like a normal health track for all purposes.
+ Damage she takes in her Dream Form never carries over to her mundane form,
+ and furthermore, she may transform reflexively in response to damage or
+ any other source of harm.
+\end_layout
+
+\begin_layout Standard
+Regardless of whether she is currently in her Dream Form, she recovers all
+ damage to her Dream Health after a restful night's sleep when she would
+ recover Willpower.
+ Furthermore, every 15 minutes out of combat, she recovers one box of bashing
+ damage or reduces a box of lethal damage to bashing damage.
+\end_layout
+
+\begin_layout Standard
+As with all ephemeral beings, physical attacks against a Luminous in Dream
+ Form do bashing damage instead of lethal damage.
+ Whenever she takes a box of aggravated damage, she also suffers a box of
+ mild Hope damage.
+ Furthermore, she applies Defense to all attacks including firearms.
+\end_layout
+
+\begin_layout Standard
+Luminous never suffer wound penalties when transformed.
+ Should the rightmost box of her Dream Health be filled with lethal or aggravate
+d damage, she immediately reverts to her Mundane Form and gains the Soul
+ Shocked condition.
+\end_layout
+
+\begin_layout Subsection
+Transformed Attributes 
+\end_layout
+
+\begin_layout Standard
+In a dream, when you break down a metal door, it doesn't matter how strong
+ you are -- only your determination to have it out of the way.
+ When you convince your lover to stay by your side, it's not the words that
+ matter, but the feeling you already hold.
+ When you fix a computer dropped into a lake, it's not really how much you
+ know about computers, but rather how well you can convince your dream that
+ you can.
+\end_layout
+
+\begin_layout Standard
+Luminous in their Dream Forms interact with the world in the same surreal
+ ways, drawing on the collective knowledge of the Dream and their own imaginatio
+n to interact with the world.
+ Even the smallest things they do are touched by this power.
+ Thus, they use the simplified three Attributes of ephemeral entities.
+ Each transformed attribute is equal to the highest of the Luminous' three
+ corresponding mundane attributes.
+\end_layout
+
+\begin_layout Itemize
+Power describes the Luminous' ability to impose upon the world through force
+ of will, intellectual prowess or personality.
+ It equals the highest of Strength, Intelligence, and Presence.
+\end_layout
+
+\begin_layout Itemize
+Finesse describes how well the Luminous can affect the world through great
+ skill or subtle manipulation.
+ It equals the highest of Dexterity, Wits, and Manipulation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Resistance describes how well the Luminous can withstand the will and manipulati
+on of others.
+ It equals the highest of Constitution, Resolve, and Composure.
+\end_layout
+
+\begin_layout Standard
+She uses these attributes in place of each corresponding mundane attribute.
+ If this would cause a roll to use the same attribute twice, the roll is
+ slightly modified.
+ Resistance + Resistance is instead rolled as Resistance + Finesse.
+ Finesse + Finesse is instead rolled as Power + Finesse.
+ Power + Power is instead rolled as Power + Resistance.
+\end_layout
+
+\begin_layout Subsection
+Transformed Skills
+\end_layout
+
+\begin_layout Standard
+Unlike most ephemeral beings, Luminous have a reduced set of eight skills
+ instead of lacking skills.
+ Like their transformed attributes, each transformed skill is the highest
+ of three of their mundane skills reflecting a way of approaching and solving
+ problems more than specific fields of knowledge.
+ When a supernatural power or other mechanic calls for a specific skill,
+ use the combined skill in place of its component skills.
+ In cases where an action would fall under a different transformed skill
+ than the one corresponding to the relevant mundane skill, use the more
+ appropriate transformed skill.
+\end_layout
+
+\begin_layout Subsubsection*
+Force
+\end_layout
+
+\begin_layout Standard
+The Force Skill describes a Luminous' raw physical strength and raw magical
+ power.
+ It is used for actions like hand-to-hand combat, wielding weapons, direct
+ and forceful magical assaults, intimidating another through force of will,
+ or displays of strength.
+ In combat, this is the skill used to make grapples and attack with mundane
+ melee or thrown weapons.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Sample Actions:
+\series default
+ Breaking boards (Power + Force), Stare down (Power + Force), Take a blow
+ (Resistance + Force)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Component Skills:
+\series default
+ Brawl, Weaponry, and Intimidation
+\end_layout
+
+\begin_layout Subsubsection*
+Flow 
+\end_layout
+
+\begin_layout Standard
+The Flow Skill describes the Luminous' ability to move gracefully or precisely
+ and control themselves at high speeds.
+ It is used for actions like dancing, jumping between a building's rooftops,
+ climbing a roof, driving a car in stressful situations or playing sports.
+ In combat, Flow is used to defend against attacks and attack with mundane
+ ranged weapons.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Sample Actions:
+\series default
+ Dance performance (Finesse + Flow), Drive Vehicles (Finesse + Flow), Climb
+ a wall (Power + Flow) 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills:
+\series default
+ Athletics, Drive, Firearm
+\end_layout
+
+\begin_layout Subsubsection*
+Learn 
+\end_layout
+
+\begin_layout Standard
+The Learn Skill describes the Luminous' general knowledge and ability to
+ learn new things.
+ It is used to research a topic, perform web searches, perform scientific
+ experiments, investigate a crime scene or recall general knowledge about
+ fields such as geography or basic maths and sciences.
+ It does not cover specialized or higher level knowledge.
+ Such actions use the Lore skill instead.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Sample Actions: 
+\series default
+Perform an internet search (Finesse + Learn), Recall historical facts (Power
+ + Learn), Examine a crime scene (Finesse + Learn) 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills: 
+\series default
+Academics, Investigate, Survival
+\end_layout
+
+\begin_layout Subsubsection*
+Lore
+\end_layout
+
+\begin_layout Standard
+The Lore Skill describes the Luminous' knowledge of specific technical topics
+ and mechanics of the world.
+ It is used to diagnose and treat illnesses and injuries, hack computer
+ systems, identify animal tracks, or identify the species of a tree.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Sample Actions: 
+\series default
+Hack a computer (Power + Lore), Gather facts into a theory (Power + Lore),
+ Discern misinformation (Resistance + Lore) 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills:
+\series default
+ Medicine, Science, Computer
+\end_layout
+
+\begin_layout Subsubsection*
+Create 
+\end_layout
+
+\begin_layout Standard
+The Create Skill describes the Luminous' ability to create new things or
+ express inner truths.
+ It is used to sew clothing, create paintings, write poems, build a tent
+ in the wilderness, perform magical rituals, and speak convincingly to a
+ large audience.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Sample Actions:
+\series default
+ Compose a poem (Finesse + Create), Design a building (Finesse + Create),
+ Write a program (Power + Create) 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills: 
+\series default
+Crafts, Expression, Survival
+\end_layout
+
+\begin_layout Subsubsection*
+Connect 
+\end_layout
+
+\begin_layout Standard
+The Connect skill describes the Luminous' force of personality and ability
+ to reach out to others.
+ It is used to convince people to your side, make prepared speeches, navigate
+ bureaucracy, reach out to another in need, and prove your trustworthiness
+ to those suspicious of you.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Sample Actions:
+\series default
+ Speak to a crowd (Power + Connect), Navigate bureaucracy (Resistance +
+ Connect), Make an impassioned plea (Power + Connect)
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills:
+\series default
+ Persuasion, Politics, Streetwise
+\end_layout
+
+\begin_layout Subsubsection*
+Shade
+\end_layout
+
+\begin_layout Standard
+The Shade skill describes the Luminous' skill at hiding their intent and
+ acting secretively.
+ It is used to hide yourself physically, lie to another, hide your true
+ emotions, pickpocket items off another, pick open a door, and convey hidden
+ meaning in what you say.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Sample Actions:
+\series default
+ Follow someone secretly (Finesse + Shade), Conceal your emotions (Resistance
+ + Shade), Disguise yourself (Finesse + Shade)
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills:
+\series default
+ Stealth, Subterfuge, Larceny
+\end_layout
+
+\begin_layout Subsubsection*
+Resonate
+\end_layout
+
+\begin_layout Standard
+The Resonate skill describes the Luminous' ability to understand others
+ and the world around you in intuitive ways.
+ It is used to understand others, detect lies and concealed intentions,
+ sympathize with another's pain, understand hidden and occult meanings,
+ handle animals, and fit into a crowd.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Sample Actions:
+\series default
+ Detect a lie (Finesse + Resonate), Fit into a crowd (Power + Resonate),
+ Interpret a dream (Finesse + Resonate) 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Component Skills:
+\series default
+ Empathy, Socialize, Animal Ken
+\end_layout
+
+\begin_layout Subsection
+Transformed Traits 
+\end_layout
+
+\begin_layout Standard
+Due to their different set of attributes and skills, Luminous use different
+ traits in their Dream Form and Mundane Form.
+ In her dream form, she calculates derived attributes as such:
+\end_layout
+
+\begin_layout Itemize
+A Luminous' Dream Form always has a default Size of 5, regardless of her
+ natural size.
+ They have separate Form Merits that may be used to change this.
+ 
+\end_layout
+
+\begin_layout Itemize
+Maximum Willpower is calculated as Resistance + Finesse.
+ Unlike with most of these traits, this total is used for her mundane form
+ as well as her Dream Form.
+ 
+\end_layout
+
+\begin_layout Itemize
+Defense is equal to the lower of her Resistance and Finesse + Flow.
+ 
+\end_layout
+
+\begin_layout Itemize
+Initiative is equal to Finesse + Resistance.
+\end_layout
+
+\begin_layout Itemize
+Speed is equal to Power + Finesse + 5.
+\end_layout
+
+\begin_layout Subsection
+Form-Locked Dots 
+\end_layout
+
+\begin_layout Standard
+A Luminous may buy dots in her transformed attributes or skills directly,
+ instead of increasing the corresponding mundane traits.
+ Furthermore, she may buy dots in merits that only apply to one of her forms.
+ Refund one beat for each experience spent on such a form-locked merit.
+\end_layout
+
+\begin_layout Standard
+Add your character's transformed attribute and skill dots to the normal
+ base ranking derived from her mundane skills.
+ As a Luminous' mundane attribute cap never increases, such dots are the
+ only way for her to gain attributes and skills above 5 dots.
+\end_layout
+
+\begin_layout Subsection
+Dual Identity 
+\end_layout
+
+\begin_layout Standard
+The Hopeful derive one last benefit from their transformation: Their mundane
+ and dream forms appear to be two different people.
+ Regardless of how similar her two forms look, others around her treat them
+ as if they had entirely different appearances.
+ This is not exactly an illusion, as it does not change what people see.
+ Rather, it simply prevents them from recognizing the two forms as the same
+ based on such.
+ This protection extends to magical senses such as a Vampire's taste for
+ blood, or an Uratha's ability to track others by scent.
+\end_layout
+
+\begin_layout Standard
+Supernatural powers used to try and link her two identities are similarly
+ fooled.
+ Powers that use Sympathy or Intimacy treat her two forms as separate --
+ a friend who only knows her in her mundane form has no Sympathy with her
+ Dream Form.
+ Powers that determine information about a Luminous do not directly reveal
+ information that connect her two identities, treating her (at best) as
+ two people with close ties to the same friend group.
+ That may still break her cover in the context of a full investigation,
+ of course.
+\end_layout
+
+\begin_layout Standard
+As powerful as it is, however, a Luminous cannot rely solely on Dual Identity
+ to protect herself.
+ It does not prevent others from suspecting a Luminou' nature based on circumsta
+ntial evidence.
+ She cannot simply dip into a closet only to return as a mysterious magical
+ girl, and not expect others to not draw the connection.
+ She obviously cannot transform in front of someone, and expect Dual Identity
+ to protect her even slightly.
+\end_layout
+
+\begin_layout Standard
+In cases where she needs to intentionally prove her identity, she may spend
+ a Willpower to drop this protection for the rest of a scene.
+ This does not necessarily convince others that she is the same person if
+ she looks radically different in her two forms, but it at least removes
+ any supernatural components of her disguise.
+\end_layout
+
+\begin_layout Subsection
+Flicker 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write section
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Experiences
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Copy experience table into Lyx.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Merits
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Copy Merits into Lyx.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Chapter 4: The Power of Love
+\begin_inset CommandInset label
+LatexCommand label
+name "Chapter-PowerOfLove"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2165,69 +4267,13 @@ status open
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand*{
+renewcommand
 \backslash
-parttitlefont}{
+vtitlefont
 \backslash
-fontsize{38}{38}
-\backslash
-maoufont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand*{
-\backslash
-chaptitlefont}{
-\backslash
-fontsize{38}{38}
-\backslash
-maoufont}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsecheadstyle{
-\backslash
-fontsize{30}{30}
-\backslash
-maoufont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsubsecheadstyle{
-\backslash
-fontsize{20}{20}
-\backslash
-maoufont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsubsubsecheadstyle{
-\backslash
-fontsize{15}{15}
-\backslash
-maoufont}
+maoufont
 \end_layout
 
 \end_inset
@@ -2390,69 +4436,13 @@ status open
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand*{
+renewcommand
 \backslash
-parttitlefont}{
+vtitlefont
 \backslash
-fontsize{38}{38}
-\backslash
-stfont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand*{
-\backslash
-chaptitlefont}{
-\backslash
-fontsize{38}{38}
-\backslash
-stfont}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsecheadstyle{
-\backslash
-fontsize{30}{30}
-\backslash
-stfont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsubsecheadstyle{
-\backslash
-fontsize{20}{20}
-\backslash
-stfont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsubsubsecheadstyle{
-\backslash
-fontsize{15}{15}
-\backslash
-stfont}
+stfont
 \end_layout
 
 \end_inset
