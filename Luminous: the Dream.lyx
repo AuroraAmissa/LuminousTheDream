@@ -830,12 +830,12 @@ literal "false"
 
 \begin_layout Standard
 This work is licensed under the Creative Commons Attribution-ShareAlike
- 3.0 Unported License.
+ 4.0 Unported License.
  To view a copy of this license, visit 
 \begin_inset CommandInset href
 LatexCommand href
 name "their website"
-target "http://creativecommons.org/licenses/by-sa/3.0/"
+target "http://creativecommons.org/licenses/by-sa/4.0/"
 literal "false"
 
 \end_inset
@@ -1241,15 +1241,6 @@ thispagestyle{pn}
 \end_layout
 
 \begin_layout Chapter
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Shining Lights
-\end_layout
-
-\end_inset
-
 Chapter 1: Shining Lights
 \end_layout
 
@@ -1802,15 +1793,6 @@ TODO: Write full kingdom descriptions.
 \end_layout
 
 \begin_layout Chapter
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Distant Dreams
-\end_layout
-
-\end_inset
-
 Chapter 2: Distant Dreams
 \end_layout
 
@@ -1828,15 +1810,6 @@ TODO: Write this chapter.
 \end_layout
 
 \begin_layout Chapter
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-The Path of Light
-\end_layout
-
-\end_inset
-
 Chapter 3: The Path of Light
 \end_layout
 
