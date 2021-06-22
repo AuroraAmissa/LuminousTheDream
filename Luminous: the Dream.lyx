@@ -18,20 +18,20 @@ fixltx2e
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "Fira Sans"
-\font_sans "default" "Fira Sans"
-\font_typewriter "default" "Dancing Script"
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
-\font_sf_scale 90 100
-\font_tt_scale 90 100
-\use_microtype false
-\use_dash_ligatures false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
 \graphics xetex
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -93,8 +93,8 @@ fixltx2e
 \tracking_changes false
 \output_changes false
 \html_math_output 0
-\html_css_as_file 0
-\html_be_strict false
+\html_css_as_file 1
+\html_be_strict true
 \end_header
 
 \begin_body
@@ -128,9 +128,94 @@ definecolor{luminous-bg}{HTML}{ffd4f3}
 
 
 \backslash
-newfontfamily
+makeatletter
+\end_layout
+
+\begin_layout Plain Layout
+
+
 \backslash
-luminousfont[]{Dancing Script Bold}
+setmainfont{FiraSans}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/FiraSans-Regular.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/FiraSans-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/FiraSans-Italic.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newfontfamily{
+\backslash
+luminousfont}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]{Dancing Script Bold}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatother
 \end_layout
 
 \begin_layout Plain Layout
@@ -470,6 +555,73 @@ setsubsubsecheadstyle{
 fontsize{15}{15}
 \backslash
 luminousfont}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Hack to style the title
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatletter
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmonofont{Dancing Script Bold}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/DancingScript-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatother
 \end_layout
 
 \end_inset
