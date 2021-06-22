@@ -1,11 +1,6 @@
-*.pdf
 \#*
 *~
-*.aux
-*.log
-*.out
-*.toc
-*.tex
-*.fdb_latexmk
-*.fls
-*.xdv
+*.kate-swp
+
+*.pdf
+Luminous*.tex
