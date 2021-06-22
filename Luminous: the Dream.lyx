@@ -47,7 +47,7 @@ multicol
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks true
 \pdf_pdfborder false
-\pdf_colorlinks false
+\pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
 \papersize letterpaper
@@ -319,6 +319,11 @@ hypersetup{
 
 \begin_layout Plain Layout
 
+  colorlinks=true,
+\end_layout
+
+\begin_layout Plain Layout
+
   linkcolor=blue, 
 \end_layout
 
@@ -329,7 +334,7 @@ hypersetup{
 
 \begin_layout Plain Layout
 
-  pdfborderstyle={/S/U/W 0} 
+  pdfborderstyle={/S/U/W 0},
 \end_layout
 
 \begin_layout Plain Layout
@@ -814,6 +819,10 @@ thispagestyle{empty}
 
 \end_layout
 
+\begin_layout Chapter
+Foreword
+\end_layout
+
 \begin_layout Standard
 
 \shape italic
@@ -844,7 +853,88 @@ literal "false"
 .
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Section*
+Credits
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Luminous: the Dream
+\shape default
+ is primary written by AuroraAmissa, with help with several contributors.
+ Without their help, this project would have been far more painful than
+ it was.
+\end_layout
+
+\begin_layout Itemize
+Suzune, who wrote many of the basic concepts behind the Maou, and helped
+ immensely in working through basic mechanics of the Luminous.
+\end_layout
+
+\begin_layout Itemize
+Ellie, who has provided me a great deal of support through the earlier parts
+ of the project, and provided very valuable feedback throughout.
+\end_layout
+
+\begin_layout Itemize
+Hanako, who taught me the way of the dark magical girl.
+ :)
+\end_layout
+
+\begin_layout Itemize
+Xelsius, TrueMrMultiverse, WillOfTheWinds, and MushroomBadger who each helped
+ immensely with their feedback and suggestions for Archetypes and similar
+ details.
+\end_layout
+
+\begin_layout Standard
+In the end, this project was inspired by and would not exist with many of
+ its predecessors.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Luminous: the Dream
+\shape default
+ started as a rewrite of 
+\shape italic
+Princess: the Hopeful
+\shape default
+ before it diverged greatly later on in development.
+ Some of its core concepts still survive in the Luminous splat.
+ That collaboration, in many ways, paved the way for systems like this.
+\end_layout
+
+\begin_layout Itemize
+Over time, 
+\shape italic
+Changeling: the Dreaming
+\shape default
+ became more and more of an inspiration for me, as I tried connecting the
+ themes of dreams, activism and magical girls.
+ In many ways, Luminous has become a spiritual successor to it at this point.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Chronicles of Darkness 
+\shape default
+and all its splats shine as a bright example as to what tabletop can be.
+ There is much to learn from their authors and their works for most game
+ designers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 Content Warning
 \end_layout
 
@@ -860,42 +950,7 @@ Luminous: the Dream
  Safety techniques for such things are discussed in [TODO: Chapter link].
 \end_layout
 
-\begin_layout Subsubsection*
-Credits
-\end_layout
-
-\begin_layout Standard
-
-\shape italic
-Luminous: the Dream
-\shape default
- is primarily written by AuroraAmissa with major help from Suzune, Ellie,
- Hanako, Xelsius, and WillOfTheWinds.
- Without their help, this project would have been far more painful than
- it was.
-\end_layout
-
-\begin_layout Standard
-It is heavily inspired by 
-\shape italic
-Changeling: the Dreaming
-\shape default
- and 
-\shape italic
-Princess: the Hopeful
-\shape default
-.
- 
-\shape italic
-Princess: the Hopeful
-\shape default
- was written as a collaboration between many posters on the RPGnet forum.
- Without them, this system would never have existed.
- While it doesn't retain many mechanics or lore from Princess anymore, it
- is still ultimately a different take on the same theme.
-\end_layout
-
-\begin_layout Subsubsection*
+\begin_layout Section*
 Legal Stuff
 \end_layout
 
@@ -945,6 +1000,56 @@ literal "false"
 
  or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
  View, California, 94041, USA.
+\end_layout
+
+\begin_layout Standard
+This work uses fonts licensed under the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SIL Open Font License, Version 1.1"
+target "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+literal "false"
+
+\end_inset
+
+.
+ It uses the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Cormorant"
+target "https://github.com/CatharsisFonts/Cormorant"
+literal "false"
+
+\end_inset
+
+ font by Christian Thalmann, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Dancing Script"
+target "https://github.com/impallari/DancingScript"
+literal "false"
+
+\end_inset
+
+ by Pablo Impallari, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Fira Sans"
+target "https://github.com/mozilla/Fira"
+literal "false"
+
+\end_inset
+
+ by Carrois Apostrophe, and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Quicksand"
+target "https://github.com/andrew-paglinawan/QuicksandFamily"
+literal "false"
+
+\end_inset
+
+ by Andrew Paglinawan.
 \end_layout
 
 \begin_layout Standard
@@ -2419,7 +2524,32 @@ thispagestyle{pn}
 \end_layout
 
 \begin_layout Part
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
 Appendices
+\end_layout
+
+\end_inset
+
+Appendices
+\family sans
+\size small
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
