@@ -12,6 +12,7 @@
 \begin_modules
 todonotes
 fixltx2e
+multicol
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -34,7 +35,7 @@ fixltx2e
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
-\index_command default
+\index_command makeindex
 \paperfontsize 11
 \spacing single
 \use_hyperref true
@@ -215,6 +216,88 @@ input@path,
 
 
 \backslash
+newfontfamily{
+\backslash
+maoufont}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/CormorantInfant-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/CormorantInfant-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/CormorantInfant-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/CormorantInfant-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]{Cormorant Infant Bold}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newfontfamily{
+\backslash
+stfont}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/Quicksand-Medium.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/Quicksand-Medium.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/Quicksand-Medium.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/Quicksand-Medium.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]{Quicksand Bold}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 makeatother
 \end_layout
 
@@ -294,7 +377,9 @@ makeoddfoot{plain}{
 \backslash
 sffamily
 \backslash
-rightmark}{}{
+rightmark}{
+\backslash
+leftmark}{
 \backslash
 sffamily
 \backslash
@@ -334,15 +419,6 @@ thepage}
 
 \begin_layout Plain Layout
 
-
-\backslash
-makefootrule{pn}{
-\backslash
-textwidth}{1pt}{4pt}
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -360,7 +436,9 @@ makeoddfoot{mystyle}{
 \backslash
 sffamily
 \backslash
-rightmark}{}{
+rightmark}{
+\backslash
+leftmark}{
 \backslash
 sffamily
 \backslash
@@ -381,6 +459,20 @@ textwidth}{1pt}{4pt}
 
 \backslash
 makepsmarks{mystyle}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createmark{part}{left}{shownumber}{
+\backslash
+@chapapp
+\backslash
+ }{.
+ 
+\backslash
+ }
 \end_layout
 
 \begin_layout Plain Layout
@@ -468,6 +560,17 @@ nouppercaseheads
 
 \backslash
 pagestyle{mystyle}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+twocoltocetc % two column table of contents
 \end_layout
 
 \begin_layout Plain Layout
@@ -874,6 +977,13 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Introduction
 \end_layout
@@ -1222,9 +1332,11 @@ Part I - Luminous: the Dream
 
 
 \family sans
-\size small
+\size normal
 “If someone tells me that it's wrong to hope, I'll tell them that they're
  wrong every time.” – Madoka Kaname
+\size small
+
 \begin_inset ERT
 status open
 
@@ -1287,6 +1399,15 @@ Luminary
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Luminary|textbf 
+\end_layout
+
+\end_inset
+
 In the times before history even began, we looked to the skies for guidance.
  We saw the sun as a shining beacon that watched over all, the moon a mysterious
  guide that shone through the night, and the stars a fountain of mystery
@@ -1359,6 +1480,15 @@ Sunlight
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Luminary!Sunlight|textbf
+\end_layout
+
+\end_inset
+
 So bright is the Sun, that its light defines the cycle of day and night
  itself.
  Those who follow the path of Sunlight vow to themselves do the same.
@@ -1442,6 +1572,15 @@ Moonlight
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Luminary!Moonlight|textbf
+\end_layout
+
+\end_inset
+
 The moon is no mere reflection of the sun's light.
  Its pale reflected light still guides lost travelers, and its presence
  alone drives the rise and fall of the tides.
@@ -1522,6 +1661,15 @@ Starlight
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Luminary!Starlight|textbf
+\end_layout
+
+\end_inset
+
 A thousand stars shine in the skies, each their own distant worlds in the
  faraway heavens.
  We look to the stars, and a thousand possible futures among them, each
@@ -1630,6 +1778,19 @@ Archetype
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Archetype|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -1667,6 +1828,15 @@ TODO: Double check the descriptions here.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Kingdom|textbf
+\end_layout
+
+\end_inset
+
 The Dream the Luminous visit in their sleep and draw their power from is
  itself a true world, if one built out of stories and feelings rather than
  the matter and physics of the real world.
@@ -1821,7 +1991,445 @@ The Luminous are those who wield their hopes and dreams to change the world,
  
 \end_layout
 
+\begin_layout Chapter
+Chapter 4: The Power of Love
+\end_layout
+
 \begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 5: Colors of the Sky
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 6: Rainbow Skies
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Swap out for Maou fonts.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+parttitlefont}{
+\backslash
+fontsize{38}{38}
+\backslash
+maoufont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+chaptitlefont}{
+\backslash
+fontsize{38}{38}
+\backslash
+maoufont}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsecheadstyle{
+\backslash
+fontsize{30}{30}
+\backslash
+maoufont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsubsecheadstyle{
+\backslash
+fontsize{20}{20}
+\backslash
+maoufont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsubsubsecheadstyle{
+\backslash
+fontsize{15}{15}
+\backslash
+maoufont}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\noindent
+\align center
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Maou: the Lineage
+\end_layout
+
+\end_inset
+
+Part II - Maou: the Lineage
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+\size small
+[TODO: Quote]
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 1: The Lineage
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 2: The Records
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 3: The Path of Will
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 4: The Will to Power
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 5: The Shadowed World
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Chapter 6: Humanity's Reach
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Swap out for Storytelling fonts.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+parttitlefont}{
+\backslash
+fontsize{38}{38}
+\backslash
+stfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+chaptitlefont}{
+\backslash
+fontsize{38}{38}
+\backslash
+stfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsecheadstyle{
+\backslash
+fontsize{30}{30}
+\backslash
+stfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsubsecheadstyle{
+\backslash
+fontsize{20}{20}
+\backslash
+stfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsubsubsecheadstyle{
+\backslash
+fontsize{15}{15}
+\backslash
+stfont}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\paragraph_spacing single
+\noindent
+\align center
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Storytelling
+\end_layout
+
+\end_inset
+
+Part III - Storytelling
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+\size normal
+
+\begin_inset Quotes xld
+\end_inset
+
+Under this great big sky, there are thousands, no, tens of thousands of
+ people.
+ 
+\begin_inset Newline newline
+\end_inset
+
+All kinds of people with all sorts of wishes and feelings hiding inside.
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+– Nanoha Takamachi
+\size small
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Appendices
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+name "Index"
+
+\end_inset
+
 
 \end_layout
 
