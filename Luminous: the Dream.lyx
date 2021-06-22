@@ -1,0 +1,1704 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+\usepackage{datetime}
+\end_preamble
+\use_default_options false
+\begin_modules
+todonotes
+fixltx2e
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "Fira Sans"
+\font_sans "default" "Fira Sans"
+\font_typewriter "default" "Dancing Script"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 90 100
+\font_tt_scale 90 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "Luminous: the Dream"
+\pdf_author "AuroraAmissa"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Setup colors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{luminous-bg}{HTML}{ffd4f3}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Setup fonts
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newfontfamily
+\backslash
+luminousfont[]{Dancing Script Bold}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Setup hyperlink formatting
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypersetup{
+\end_layout
+
+\begin_layout Plain Layout
+
+  linkcolor=blue, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  urlcolor=blue, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  pdfborderstyle={/S/U/W 0} 
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Setup todo style
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setuptodonotes{color=luminous-bg}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Setup page layouts
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makepagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeoddfoot{plain}{
+\backslash
+sffamily
+\backslash
+rightmark}{}{
+\backslash
+sffamily
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makefootrule{plain}{
+\backslash
+textwidth}{1pt}{4pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makepagestyle{pn}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeoddfoot{pn}{}{}{
+\backslash
+sffamily
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makefootrule{pn}{
+\backslash
+textwidth}{1pt}{4pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makepagestyle{mystyle}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeoddfoot{mystyle}{
+\backslash
+sffamily
+\backslash
+rightmark}{}{
+\backslash
+sffamily
+\backslash
+thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makefootrule{mystyle}{
+\backslash
+textwidth}{1pt}{4pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makepsmarks{mystyle}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createmark{chapter}{right}{shownumber}{
+\backslash
+@chapapp
+\backslash
+ }{.
+ 
+\backslash
+ }
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createplainmark{toc}{right}{
+\backslash
+contentsname}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createplainmark{lof}{right}{
+\backslash
+listfigurename}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createplainmark{lot}{right}{
+\backslash
+listtablename}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createplainmark{bib}{right}{
+\backslash
+bibname}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createplainmark{index}{right}{
+\backslash
+indexname} 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+createplainmark{glossary}{right}{
+\backslash
+glossaryname}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+nouppercaseheads
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{mystyle}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Luminous style.
+ Red box of death because we don't have another good way to switch this
+ dynamically
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+parttitlefont}{
+\backslash
+fontsize{38}{38}
+\backslash
+luminousfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand*{
+\backslash
+chaptitlefont}{
+\backslash
+fontsize{38}{38}
+\backslash
+luminousfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsecheadstyle{
+\backslash
+fontsize{30}{30}
+\backslash
+luminousfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsubsecheadstyle{
+\backslash
+fontsize{20}{20}
+\backslash
+luminousfont}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsubsubsecheadstyle{
+\backslash
+fontsize{15}{15}
+\backslash
+luminousfont}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+\family typewriter
+\size giant
+Luminous: the Dream
+\family default
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+\size normal
+A Storytelling Game of Distant Dreams
+\end_layout
+
+\begin_layout Author
+
+\family sans
+\size normal
+Revision 0.1 (Pre-Release)
+\end_layout
+
+\begin_layout Standard
+
+\family sans
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+date{
+\backslash
+protect
+\backslash
+displaydate{
+\backslash
+today}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Do not format the title page with any style.
+\end_layout
+
+\begin_layout Plain Layout
+
+% As we mean to use as a PDF, not print, it's fine that our page numbering
+ beings at 2.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Luminous: the Dream
+\shape default
+ is a fanmade roleplaying game for the Chronicles of Darkness, published
+ by White Wolf Publishing.
+ Players take on the role of magical girls or boys who dream of a better
+ future for all.
+ Who found themselves wielding the power of Light against malign magical
+ forces and the mundane cruelties of the world alike.
+ Because they know they can make a difference.
+ And as long as they can make a difference, they couldn't forgive themselves
+ if they didn't at least try.
+\end_layout
+
+\begin_layout Standard
+The Chronicles of Darkness book is needed to use this book.
+ At the time of preparation, that book is available from 
+\begin_inset CommandInset href
+LatexCommand href
+name "DriveThru RPG"
+target "https://www.drivethrurpg.com/"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Content Warning
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Luminous: the Dream
+\shape default
+ is written to tell stories about facing the cruelties of the world.
+ In the process, it discusses subject matters such as poverty, sexism, racism,
+ and all kinds of the mundane and small cruelties that are too often overlooked.
+ Such heavy topics can often hit too close to home for many players.
+ Safety techniques for such things are discussed in [TODO: Chapter link].
+\end_layout
+
+\begin_layout Subsubsection*
+Credits
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Luminous: the Dream
+\shape default
+ is primarily written by AuroraAmissa with major help from Suzune, Ellie,
+ Hanako, Xelsius, and WillOfTheWinds.
+ Without their help, this project would have been far more painful than
+ it was.
+\end_layout
+
+\begin_layout Standard
+It is heavily inspired by 
+\shape italic
+Changeling: the Dreaming
+\shape default
+ and 
+\shape italic
+Princess: the Hopeful
+\shape default
+.
+ 
+\shape italic
+Princess: the Hopeful
+\shape default
+ was written as a collaboration between many posters on the RPGnet forum.
+ Without them, this system would never have existed.
+ While it doesn't retain many mechanics or lore from Princess anymore, it
+ is still ultimately a different take on the same theme.
+\end_layout
+
+\begin_layout Subsubsection*
+Legal Stuff
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Luminous: the Dream
+\shape default
+ is partly based on the Vocations version of 
+\shape italic
+Princess: the Hopeful
+\shape default
+.
+ The Vocations version of 
+\shape italic
+Princess: the Hopeful
+\shape default
+ was a collaborative effort of many posters who contributed to its development
+ on the RPGnet forums, including Cruton, Azunth, Michael Brazier, EarthScorpion,
+ Luc "Nickname" French, hazard151, Huitzil, Leliel, Kearin, TheKingsRaven,
+ Naomi Li, MagicSwordsman, Martin Padilla, SaulotTheGentle, and Jordy Vanderstuk
+ken.
+ It is available under the CC Attribution-ShareAlike 3.0 Unported License.
+ It can be downloaded from its 
+\begin_inset CommandInset href
+LatexCommand href
+name "homepage"
+target "https://sites.google.com/site/princessthehopeful/home"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This work is licensed under the Creative Commons Attribution-ShareAlike
+ 3.0 Unported License.
+ To view a copy of this license, visit 
+\begin_inset CommandInset href
+LatexCommand href
+name "their website"
+target "http://creativecommons.org/licenses/by-sa/3.0/"
+literal "false"
+
+\end_inset
+
+ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
+ View, California, 94041, USA.
+\end_layout
+
+\begin_layout Standard
+The mention of or reference to any company or product in these pages is
+ not a challenge to the trademark or copyright concerned.
+\end_layout
+
+\begin_layout Standard
+This work uses the supernatural for settings, characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainme
+nt purposes only.
+ Furthermore, this book contains mature content.
+ Reader discretion is advised.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Once you were young.
+ No matter how old we may be, all of us were once young.
+ We looked at the world through truly fresh eyes, felt it as fully and intensely
+ as anyone ever could.
+ When we loved, it was the happiest days we had ever known.
+ When we were hurt, it was the greatest tragedy we had ever felt.
+ And the world shined with possibility.
+ We all thought we had a way to change the world, embracing it with all
+ our hearts.
+ We looked to our heroes and told ourselves "I can do that too".
+ It seemed that if only we were given our chance, we could make the world
+ better.
+ That the pains of the world we felt so strongly were something we could
+ overcome...
+\end_layout
+
+\begin_layout Standard
+
+\size small
+...
+ we believed.
+ We all once believed.
+ And yet, when you look at the world around you today...
+\end_layout
+
+\begin_layout Standard
+
+\size small
+One day, you saw a man huddling in a corner, covered in all too old rags
+ when you came out of the supermarket.
+ So many people passed him, looking at him sadly then turning away.
+ You could see the desperation on his face.
+ You couldn't bear it...
+ You give him what cash you had, and a change of clothes.
+ It wasn't enough.
+ You knew it wasn't enough...
+ Not if you were the only one helping.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+That night, you confided in your old friend from kindergarten.
+ Who you had always relied on, who had always stood by your side back then.
+ ...
+ and yet, this time, she frowned.
+ She asked you if you really thought that money would really change anything,
+ or if he would just use it to buy beer.
+ She told you she was worried about how you would live through college if
+ you kept doing this.
+ She told you that you should let people like that go.
+ That night, you cried yourself to sleep.
+ Why couldn't you just be like them?
+\end_layout
+
+\begin_layout Standard
+
+\size small
+One day, you told your parents that you wanted to be a writer instead of
+ a doctor.
+ They told you that you didn't really want that.
+ That you wouldn't ever be popular anyway, and you'd be starving on the
+ street.
+ They told you that if you threw away your life like that, they wouldn't
+ help you anymore.
+ They told you to stop being stuck in a dream.
+ You weren't sure what else you expected...
+ everywhere you went, there were so many people who had given up on hoping
+ so long ago.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+At least, this time was different.
+ That night, you logged into the same chat room you found a few weeks ago.
+ One full of people who understand your pains.
+ They got it.
+ They also still believed.
+ They also still dreamed.
+ And they comforted you.
+ Showed you a way forward.
+ Reassured you in the path you chose...
+ They told you that it was okay to be you.
+ This time, you had less reason to cry.
+ Even if you still did.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+One day, you saw a boy crying in the toy aisle, clinging tightly to a stuffed
+ animal he wanted.
+ But his parents wouldn't have any of that.
+ Because boys weren't supposed to like things like that.
+ Because boys weren't supposed to cry.
+ Because that is not how the world was supposed to be.
+ And so many onlookers walked by, even watched with sneers on their faces.
+ You couldn't tell who they even were sneering at, the mother or you.
+ It didn't matter.
+ Nobody helped.
+ Nobody else helped.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+...
+ but you tried anyway.
+ Even as they dragged him away as they called you terrible names.
+ He wasn't crying as much anymore.
+ ...
+ maybe, just maybe.
+ You showed him that he wasn't alone in the world.
+ Just like your friends once did for you.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+You never could give up, no matter how hard you tried.
+ No matter how much everyone around you told you to save yourself, that
+ you were naive and only hurting yourself.
+ You couldn't stop caring.
+ You couldn't stop believing.
+ You couldn't stop trying.
+ You couldn't forgive yourself if you did.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+And that...
+ is what makes you a Luminous.
+ Not the shining magic you wield, but the simple fact you could never stop
+ dreaming of a better world.
+ 
+\end_layout
+
+\begin_layout Section
+Setting
+\end_layout
+
+\begin_layout Standard
+Luminous: the Dream is a game about those who dream of a better future inspired
+ by the 
+\shape italic
+mahou shoujo
+\shape default
+ (or magical girl) genre of Japanese anime and manga.
+ It is set in the Chronicles of Darkness, a world much like our own only
+ touched by alien wonders and terrors alike.
+\end_layout
+
+\begin_layout Standard
+...
+ this story is not about them.
+ It is about humanity, and the one power we can truly call our own.
+ Our shining will to change the world.
+ A will that blossomed into a force that could only be called magic.
+\end_layout
+
+\begin_layout Standard
+In this game, you play a Luminous, one of the shining souls that wields
+ the Light.
+ Those like you were hidden, shining dimly through so much of history.
+ ...
+ but shine they did.
+ Writing into the untold margins of history, they built the legacy of light
+ you now inherent.
+ When you Blossomed, you awoke to the world of dreams they hid deep beyond
+ the veil of sleep.
+ A dream that reflected the world they wanted to wake up to some day, and
+ that would shape the Light you would use to bring that world about.
+\end_layout
+
+\begin_layout Standard
+It will not be easy.
+ The world has been a dark place from the start, and even now that clouds
+ humanity's hearts.
+ There were always those who wouldn't or couldn't dream of brighter.
+ Those who merely wished to survive, those who had the hope beaten out of
+ them by their parents, those who did not want to make the world better,
+ only end up on top.
+ They too, have the will to change the world.
+ The Luminous call that reversed mirror of their own power the Darkness.
+\end_layout
+
+\begin_layout Standard
+At least.
+ This time...
+ glimmers of light finally shine through that long and dark night.
+ Over the generations, we have created so many wonders.
+ We had solved so many of our problems.
+ The internet now connects those of the Light together in a way they had
+ never had before.
+ Medicine lessens so many of the pointless tragedies of the past.
+ And so much more...
+\end_layout
+
+\begin_layout Standard
+Perhaps the tide is turning.
+ Perhaps this time, dawn will come.
+ 
+\end_layout
+
+\begin_layout Section
+Themes
+\end_layout
+
+\begin_layout Standard
+While it could be used to tell many kinds of stories, in the end Luminous:
+ the Dream is about the contrast between dreams and idealism vs the harshness
+ of realities and the necessities of survival.
+\end_layout
+
+\begin_layout Subsection*
+Distant Dreams
+\end_layout
+
+\begin_layout Standard
+You dream of a better world, and you know how you could help the world get
+ there.
+ But it's still not easy.
+ A Luminous can defeat the monster, she can win the election and start instituti
+ng reforms, she can rescue the cute boy.
+ But in the end, a single person can still only do so much even with magic.
+ The dream of the Luminous can only be achieved together, when a hundred
+ million small victories add up.
+ It isn't easy.
+ It is a struggle.
+ But it is worth it in the end.
+\end_layout
+
+\begin_layout Subsection*
+Distant Legacies
+\end_layout
+
+\begin_layout Standard
+The Light and Darkness, the human hopes and fears they reflect were all
+ passed down down the generations.
+ All those who live today are heir to that heritage, and the wielders of
+ humankind's Will are no exception.
+\end_layout
+
+\begin_layout Subsection*
+A Turning Point
+\end_layout
+
+\begin_layout Standard
+Perhaps, for the first time in history, something can be done.
+ Even as the technologies and ideas that have made the world better have
+ entrenched the fears and greed of those in power...
+ it too empowers those who hope.
+ For the first time, those like you are able to come together in a way you
+ never had been able to before.
+ Maybe.
+ Just maybe.
+ This time, the Light will win rather than simply shining in the background
+ 
+\end_layout
+
+\begin_layout Section
+Media
+\end_layout
+
+\begin_layout Subsection*
+Magia Record: Puella Magi Madoka Magica Side Story
+\end_layout
+
+\begin_layout Standard
+A different story from the popular original, Magia Record’s focus pivoted
+ more to the human response to the woes of magic in a dark world.
+ It focuses on relationships, girls pulling each other from the brink of
+ despair, and standing up for what’s right.
+ With many side-stories in the original phone game, it showcased slice-of-life
+ episodes that brought attention to the bonds needed to survive being a
+ magical girl.
+\end_layout
+
+\begin_layout Subsection*
+Senki Zesshou Symphogear
+\end_layout
+
+\begin_layout Standard
+While more seinen than most conventional magical girl shows, Symphogear
+ is underlined with themes of heartfelt communication between people who
+ otherwise misunderstand each other, determination to protect, and what
+ we sacrifice in order to protect.
+ The main character, Hibiki, embodies much of what the Luminous stand for,
+ with her belief in the ability to reach to the heart, and the refusal to
+ give up in the heart of darkness, whether it be in actual battle or peoples
+ own despair.
+ Each member of the main cast suffers tragedy, and it’s through their bonds
+ with others that they’re able to stand up again.
+ 
+\end_layout
+
+\begin_layout Subsection*
+The Lego Movie 2: The Second Part
+\end_layout
+
+\begin_layout Standard
+Whereas the first movie focused on creativity and freedom, the second discusses
+ true maturity.
+ It shows that growing up doesn’t mean that the things you believed in when
+ younger have to be forgotten and let go of.
+ It tells of how even in a darker world, hoping is not in vain.
+ The movie shows the world like the Luminous see it; almost everyone else
+ loses their flame, their light, their hope in the world, because they believe
+ it’s the only way to survive.
+ But it isn't true.
+ The song Everything’s Not Awesome summarizes it all fairly well.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\noindent
+\align center
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Luminous: the Dream
+\end_layout
+
+\end_inset
+
+Part I - Luminous: the Dream
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+\size small
+“If someone tells me that it's wrong to hope, I'll tell them that they're
+ wrong every time.” – Madoka Kaname
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Shining Lights
+\end_layout
+
+\end_inset
+
+Chapter 1: Shining Lights
+\end_layout
+
+\begin_layout Standard
+The Luminous built the Dream they draw their Light from over the generations,
+ hiding it away in the corners of humanity's shared subconscious.
+ Their Light is as fluid and shifting a thing as any other dream.
+ Before the Luminous were magical girls, they were the paladins in shining
+ armor, the angels with wings of light, the witch in the forest, the village
+ shaman.
+ All dreaming of a better world, where they and those they love could simply
+ live happily.
+\end_layout
+
+\begin_layout Standard
+In the moment they Blossom, the nascent Hopeful awakens to that shared Dream,
+ using its symbols and ideas to build herself a new form and construct your
+ ideal identity.
+ In that moment, she makes a shard of the Light truly her own power.
+\end_layout
+
+\begin_layout Standard
+Each Hopeful's Light is woven out of three symbols, drawn from the Dream:
+\end_layout
+
+\begin_layout Itemize
+Their Luminary forms the foundation of their magic, reflecting their approach
+ to the world.
+\end_layout
+
+\begin_layout Itemize
+The Archetype shapes their Dream Form and how they project their Light upon
+ the world.
+\end_layout
+
+\begin_layout Itemize
+The Kingdom they are a citizen of in their dreams, reflecting their vision
+ of a better world.
+ 
+\end_layout
+
+\begin_layout Section
+Luminary
+\end_layout
+
+\begin_layout Standard
+In the times before history even began, we looked to the skies for guidance.
+ We saw the sun as a shining beacon that watched over all, the moon a mysterious
+ guide that shone through the night, and the stars a fountain of mystery
+ and wonder.
+ So many of our stories were written around those lights...
+\end_layout
+
+\begin_layout Standard
+When the lights of heaven no longer suffice, the Hopeful may still be the
+ shining protectors and guides of this generation.
+ When a Luminous Blossoms, they draw on the stories of those lights and
+ use it as a foundation for all the rest of their magic.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Those who pattern their magic after Sunlight become shining heroes of light,
+ who wield Regalia that shine as bright as the sun itself.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Those who pattern their magic after Moonlight become mystical guides, shaping
+ the world around them as the moon shapes the tides.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+Those who pattern their magic after Starlight become esoteric witches, wielding
+ charms and spells as diverse and colorful as the stars themselves.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Center section titles for Splats section
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsecheadstyle{
+\backslash
+fontsize{30}{30}
+\backslash
+luminousfont
+\backslash
+centering}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sunlight
+\end_layout
+
+\begin_layout Standard
+So bright is the Sun, that its light defines the cycle of day and night
+ itself.
+ Those who follow the path of Sunlight vow to themselves do the same.
+ They vow to be the ones to turn night to day, to shine for those who are
+ lost in the dark.
+ They are the beacons others look to, and the ones who light the path for
+ others to follow.
+\end_layout
+
+\begin_layout Standard
+They are the heroic warriors whose legends outlive them long after their
+ time is over, the field scientists whose discoveries are cited decades
+ later, the activist organizers who march among those they lead.
+ The Sunlit, more than anything else, are the ones who shine brightly for
+ all to see, the ones who do and visibly so.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Magic:
+\series default
+ The magic of the Sunlit tends to be bright, colorful and personal, leaving
+ neither what they intend to do nor their own nature particularly hard to
+ read.
+ Their transformations too are as colorful and distinctive as their magic,
+ decorated with a crystal clear personal touch revealing their innermost
+ truths.
+\end_layout
+
+\begin_layout Standard
+The boy who was always bullied for how much he loved old stories of knighthood
+ shines in defiance of the world every time he transforms.
+ He carries on that dream regardless, wearing the same shining silver armor
+ he always imagined when he read those stories, covered in both fantastical
+ heraldry and futuristic lights and glows.
+\end_layout
+
+\begin_layout Standard
+The elementary school teacher who always encouraged her students to be their
+ best self teaches by example every time she transforms.
+ She embraces her own childish nature, appearing as a young girl in a classical
+ frilled magical girl costume long into adulthood.
+ At the same time, she refuses to be defined as lesser for it, taking the
+ lead as confidently, and expecting others to follow her regardless of her
+ appearance.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write Benefits section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Inspirations:
+\series default
+ Nanoha Takamachi (Mahou Shoujo Lyrical Nanoha), Sayaka Miki (Puella Magi
+ Madoka Magica) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Moonlight
+\end_layout
+
+\begin_layout Standard
+The moon is no mere reflection of the sun's light.
+ Its pale reflected light still guides lost travelers, and its presence
+ alone drives the rise and fall of the tides.
+ Those who follow the path of Moonlight embody that same strength of being,
+ subtly influencing the world around them without showing their hand.
+\end_layout
+
+\begin_layout Standard
+They are the shrine maidens whose presence preserves the barrier of worlds,
+ the lovers whose kind words let the hero fight another day, day, the dryad
+ who guides visitors through the forest from the shadows.
+ The Moonlit, more than anything else, are the ones who improve the world
+ quietly, without calling attention to themselves.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Magic:
+\series default
+ The magic of the Moonlit is subtle yet powerful, reflecting the innermost
+ nature of the caster in muted tones.
+ It is mysterious and occulted, seeming to just happen around the Moonlit
+ as a simple fact of their being, without them being seen doing anything.
+ Their transformations are similarly shrouded, often easily passing for
+ mundane clothing save for the occasional easily overlooked touch of the
+ supernatural.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write example characters section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write Benefits section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write Inspirations section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Starlight 
+\end_layout
+
+\begin_layout Standard
+A thousand stars shine in the skies, each their own distant worlds in the
+ faraway heavens.
+ We look to the stars, and a thousand possible futures among them, each
+ just as colorful as the rest.
+ Those who follow the path of Starlight seek to embody those colorful worlds,
+ each inspiring themselves and others to shine brightly in their own little
+ ways.
+\end_layout
+
+\begin_layout Standard
+They are the dreamers who write fanciful stories of worlds that could be,
+ the girl who pulls their shy friend out of their shell and shows them the
+ world, the art teacher who tries to bring out the best of each of their
+ student's own styles.
+ The Starlit, more than anything else, are the ones who quietly encourage
+ those around them to be their best selves, showing them the best possible
+ self they can be.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Magic:
+\series default
+ The magic of the Starlit is quiet but colorful, reflecting the caster's
+ true self in a thousand different little ways.
+ Even when it isn't obvious what truth it reflects, it undeniably is a reflectio
+n of something the Starlit values.
+ The transformations are the most varied of all Luminous, reflecting their
+ ideal self with no regard for any other concerns.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write example characters section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write Benefits section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write Inspirations section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Uncenter section titles for Splats section
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsecheadstyle{
+\backslash
+fontsize{30}{30}
+\backslash
+luminousfont}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Archetype
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write text here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Kingdoms
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Double check the descriptions here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Dream the Luminous visit in their sleep and draw their power from is
+ itself a true world, if one built out of stories and feelings rather than
+ the matter and physics of the real world.
+ In that world of dreams, they built eight Kingdoms of Light over the years,
+ dream-like visions of what the world could be some day in the future.
+ Those visions shape the Invocations the Nobles use to shape their magic,
+ written by like-minded Luminous over the generations all preserved in the
+ light of the Dream.
+\end_layout
+
+\begin_layout Standard
+The Kingdom is not quite like the Luminary or Archetype of a Luminous.
+ Rather than being a part of their Dreamscape, it is rather the physical
+ location their Dreamscape resides in.
+ Whether its Threshold appears as a mansion in a major city or an out-of-the-way
+ hollow in an unsuspecting tree, its physical presence in the Kingdom itself
+ is what defines a Noble unambiguously as a member of it.
+\end_layout
+
+\begin_layout Standard
+The eight Dream Kingdoms a Luminous may reside in are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Alhambra, the City-State of Ribbons
+\series default
+: A sanctuary city that preserves the histories of the world as it is and
+ once was.
+ Its Invocation is Ricordo, of preserving and protecting that which you
+ love.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Andarta, the Kingdom of Gardens
+\series default
+: A beautiful kingdom led by nobility sworn to serve the needs of their
+ people.
+ Its Invocation is Decoro, of structure and responsibility.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aztallan, the Freehold of Torches
+\series default
+: A sprawling country whose residents pride themselves on their passions
+ and true values.
+ Its Invocation is Solare, of decisive action and rebellion.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Danann, the Archipelago of Stars
+\series default
+: A series of island nations filled with wonders of science and magic.
+ Its Invocation is Brillare, of learning and wonder at the world.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ildathach, the Domain of Colors
+\series default
+: A dream-like vision of a world triumphing over even the laws of reality.
+ Its Invocation is Prisma, of uncompromising idealism and defiance against
+ what must be.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sancus, the Alliance of Spears
+\series default
+: A close-knit alliance of city-states built over the generations of hard
+ work.
+ Its Invocation is Lavoro, of dutiful determination and military might.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tengri, the Confederacy of Winds
+\series default
+: A mountain range populated by colorful and varied nomadic tribes.
+ Its Invocation is Cieli, of the freedom of the skies and acceptance for
+ all peoples.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Wen-Mung, the Forest of Cycles
+\series default
+: A peaceful forest where all things live in harmony with each other.
+ Its Invocation is Flori, of adaptation and harmony with the world.
+\end_layout
+
+\begin_layout Standard
+Not all Luminous become a member of a kingdom when they Blossom.
+ Unaffiliated Nobles have affinity with two Invocations of their choice
+ (including for buying the Invocation itself), but gain no Kingdom Benefit.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write full kingdom descriptions.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Distant Dreams
+\end_layout
+
+\end_inset
+
+Chapter 2: Distant Dreams
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The Path of Light
+\end_layout
+
+\end_inset
+
+Chapter 3: The Path of Light
+\end_layout
+
+\begin_layout Standard
+The Luminous are those who wield their hopes and dreams to change the world,
+ and their powers stem from that deep desire.
+ This chapter describes how to create a character and basic mechanics of
+ the Luminous.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
