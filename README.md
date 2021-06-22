@@ -8,6 +8,8 @@ Rendering
 
 Luminous is typeset using the [Lyx](https://www.lyx.org/) document processor. It uses the [XeLaTeX](http://xetex.sourceforge.net/) rendering engine. This repository should contain everything you need to render it, as long as you have the needed software.
 
+On Windows, install [TeX Live](https://www.tug.org/texlive/acquire-netinstall.html) and then install [Lyx](https://www.lyx.org/Download#toc3).
+
 On Arch Linux, it requires the following packages: `lyx texlive texlive-latexextra`
 
 License
