@@ -301,7 +301,71 @@ makeatother
 
 
 \backslash
-definecolor{lum-bg}{HTML}{ffd4f3}
+definecolor{lum-bg}{HTML}{ffdbe8}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{lum-li}{HTML}{f5b0c8}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{lum-ln}{HTML}{f26d9b}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{maou-bg}{HTML}{e9dbff}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{maou-li}{HTML}{ccb2f5}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{maou-ln}{HTML}{ae83f2}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{st-bg}{HTML}{ffdbe8}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{st-li}{HTML}{f5b0c8}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{st-ln}{HTML}{f26d9b}
 \end_layout
 
 \begin_layout Plain Layout
@@ -327,12 +391,12 @@ hypersetup{
 
 \begin_layout Plain Layout
 
-  linkcolor=blue, 
+  linkcolor=lum-ln, 
 \end_layout
 
 \begin_layout Plain Layout
 
-  urlcolor=blue, 
+  urlcolor=lum-ln, 
 \end_layout
 
 \begin_layout Plain Layout
@@ -394,6 +458,17 @@ rightmark}{
 sffamily
 \backslash
 thepage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeheadfootruleprefix{plain}{
+\backslash
+vbgcolor}{
+\backslash
+vbgcolor} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -470,6 +545,17 @@ thepage}
 
 
 \backslash
+makeheadfootruleprefix{mystyle}{
+\backslash
+vbgcolor}{
+\backslash
+vbgcolor} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 makeheadrule{mystyle}{
 \backslash
 textwidth}{1pt}
@@ -521,60 +607,6 @@ createmark{chapter}{right}{shownumber}{
 
 \begin_layout Plain Layout
 
-	
-\backslash
-createplainmark{toc}{right}{
-\backslash
-contentsname}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createplainmark{lof}{right}{
-\backslash
-listfigurename}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createplainmark{lot}{right}{
-\backslash
-listtablename}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createplainmark{bib}{right}{
-\backslash
-bibname}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createplainmark{index}{right}{
-\backslash
-indexname} 
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createplainmark{glossary}{right}{
-\backslash
-glossaryname}
-\end_layout
-
-\begin_layout Plain Layout
-
 }
 \end_layout
 
@@ -605,6 +637,11 @@ twocoltocetc % two column table of contents
 
 \begin_layout Plain Layout
 
+
+\backslash
+widowpenalties 1 10000 
+\backslash
+raggedbottom % Avoid splitting paragraphs.
 \end_layout
 
 \end_inset
@@ -641,6 +678,17 @@ newcommand
 vtitlecentered
 \backslash
 relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vbgcolor{
+\backslash
+color{lum-li}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1141,6 +1189,44 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Part
+\noindent
+\align center
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Luminous: the Dream
+\end_layout
+
+\end_inset
+
+Part I - Luminous: the Dream
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+\size normal
+“If someone tells me that it's wrong to hope, I'll tell them that they're
+ wrong every time.” – Madoka Kaname
+\size small
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Introduction
 \end_layout
@@ -1462,51 +1548,6 @@ Whereas the first movie focused on creativity and freedom, the second discusses
  But it isn't true.
  The song Everything’s Not Awesome summarizes it all fairly well.
  
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
-\noindent
-\align center
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Luminous: the Dream
-\end_layout
-
-\end_inset
-
-Part I - Luminous: the Dream
-\begin_inset Newline newline
-\end_inset
-
-
-\family sans
-\size normal
-“If someone tells me that it's wrong to hope, I'll tell them that they're
- wrong every time.” – Madoka Kaname
-\size small
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{pn}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Chapter
@@ -5049,7 +5090,7 @@ Component Skills:
 \series default
  Empathy, Socialize, Animal Ken
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Transformed Skills|)
@@ -5121,7 +5162,7 @@ Dual Identity
 
 \begin_layout Standard
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Transformation!Dual Identity|(textbf
@@ -5171,7 +5212,7 @@ In cases where she needs to intentionally prove her identity, she may spend
  she looks radically different in her two forms, but it at least removes
  any supernatural components of her disguise.
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Dream Form|)
@@ -5181,7 +5222,7 @@ Dream Form|)
 
 
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Transformation!Dual Identity|)
@@ -5191,7 +5232,7 @@ Transformation!Dual Identity|)
 
 
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Transformation|)
@@ -5208,7 +5249,7 @@ Flicker
 
 \begin_layout Standard
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Flicker|(textbf
@@ -5245,7 +5286,7 @@ At Reverie 6 and above, Flicker no longer requires a Luminous to intentionally
  Even mundane dreams and visits to the Dream are enough to cause Flicker
  when she wakes up.
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Flicker|)
@@ -5375,6 +5416,46 @@ vtitlefont
 maoufont
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+vbgcolor{
+\backslash
+color{maou-li}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypersetup{
+\end_layout
+
+\begin_layout Plain Layout
+
+  linkcolor=maou-ln, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  urlcolor=maou-ln,
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setuptodonotes{color=maou-bg}
+\end_layout
+
 \end_inset
 
 
@@ -5408,6 +5489,23 @@ status open
 
 \backslash
 thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this chapter.
 \end_layout
 
 \end_inset
@@ -5542,6 +5640,46 @@ renewcommand
 vtitlefont
 \backslash
 stfont
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+vbgcolor{
+\backslash
+color{st-li}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypersetup{
+\end_layout
+
+\begin_layout Plain Layout
+
+  linkcolor=st-ln, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  urlcolor=st-ln,
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setuptodonotes{color=st-bg}
 \end_layout
 
 \end_inset
