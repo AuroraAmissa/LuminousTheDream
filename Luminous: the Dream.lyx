@@ -5121,7 +5121,7 @@ Dual Identity
 
 \begin_layout Standard
 \begin_inset Index idx
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Transformation!Dual Identity|(textbf
@@ -5171,7 +5171,7 @@ In cases where she needs to intentionally prove her identity, she may spend
  she looks radically different in her two forms, but it at least removes
  any supernatural components of her disguise.
 \begin_inset Index idx
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Dream Form|)
@@ -5203,15 +5203,52 @@ Transformation|)
 \end_layout
 
 \begin_layout Subsection
-Flicker 
+Flicker
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
+\begin_inset Index idx
+status collapsed
 
 \begin_layout Plain Layout
-TODO: Write section
+Flicker|(textbf
+\end_layout
+
+\end_inset
+
+The Hopeful balance on a precipice between dreams and reality, one where
+ it is all too easy to slip.
+ In their Dream Form they are empowered to touch the world in terms of stories
+ and intents, rather than physics and forces.
+ For the Luminous, it is too easy to get used to half-dreaming like that.
+ When a Luminous reverts to Mundane Form, she suffers Flicker as she readjusts
+ her mundane body.
+ At Reverie 1-2, Flicker lasts for 10 minutes.
+ At Reverie 3-5, Flicker ends after 1 scene or 1 hour, whichever comes earlier.
+ At Reverie 6-8, Flicker ends after 4 scenes or 4 hours, whichever comes
+ earlier.
+ At Reverie 9-10, Flicker ends after a day.
+\end_layout
+
+\begin_layout Standard
+When suffering from Flicker, a Luminous is ever so slightly distracted by
+ the dreams and imaginations that would fuel her magic if she were in Dream
+ Form, and ever so slightly clumsy as they fail to have the power she, on
+ some level, expects.
+ She suffers a penalty equal to her Reverie divided by 3 (rounded up) to
+ all actions taken in her Mundane Form.
+\end_layout
+
+\begin_layout Standard
+At Reverie 6 and above, Flicker no longer requires a Luminous to intentionally
+ transform into Dream Form.
+ Even mundane dreams and visits to the Dream are enough to cause Flicker
+ when she wakes up.
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Flicker|)
 \end_layout
 
 \end_inset
