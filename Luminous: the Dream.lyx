@@ -2324,7 +2324,6 @@ Transformed Attributes
 Luminous and characters who are intended to Blossom in play do not choose
  their attributes like most characters.
  Begin by choosing her three transformed attributes (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-TransformedAttrs"
@@ -2377,7 +2376,6 @@ Transformed Skills
 Assign her skills using the same process as her attributes, except skills
  begin at 0 dots instead of 1 dot.
  Assign 15 dots between her transformed skills (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-TransformedSkills"
@@ -2434,7 +2432,6 @@ Luminary
 When she Blossoms, a Luminous builds her Dream Form from the symbols of
  the Dream.
  The first of these is her Luminary (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Luminary"
@@ -2464,7 +2461,6 @@ Whether your character would be a shining hero, an idol whose songs change
  Her Archetype reflects which of those legacies she would wish to continue
  on, and the overall form and concept of her Dream Form.
  Read over the Archetypes (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Archetype"
@@ -2483,7 +2479,6 @@ Kingdom
 
 \begin_layout Standard
 In the Dream, the Luminous built eight great Kingdoms (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Kingdoms"
@@ -2541,7 +2536,6 @@ Touchstone
 
 \begin_layout Standard
 Your character's Touchstone (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Touchstones"
@@ -2564,7 +2558,6 @@ Invocations
 
 \begin_layout Standard
 Each Invocation (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Invocations"
@@ -2613,7 +2606,6 @@ Reverie
 
 \begin_layout Standard
 Reverie (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Reverie"
@@ -3838,7 +3830,6 @@ Charms are the more specialized powers of the Luminous, specific spells
 
 \begin_layout Standard
 For more information, see the chapter on The Power of Love (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Chapter-PowerOfLove"
@@ -4570,7 +4561,6 @@ zed, and may not enter Twilight or create Manifestation Conditions without
 As they have a different set of attributes and skills from most characters
  in Dream Form, they allocate them using a different process.
  See Character Creation (p.
- 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-AttributeSelection"
