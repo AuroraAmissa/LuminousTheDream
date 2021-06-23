@@ -2013,6 +2013,16 @@ Kingdom|textbf
 
 \end_inset
 
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Invocations
+\end_layout
+
+\end_inset
+
 The Dream the Luminous visit in their sleep and draw their power from is
  itself a true world, if one built out of stories and feelings rather than
  the matter and physics of the real world.
@@ -2171,6 +2181,19 @@ The Luminous are those who wield their hopes and dreams to change the world,
 Character Creation
 \end_layout
 
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Character Creation|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 Step One: Character Concept 
 \end_layout
@@ -2228,11 +2251,27 @@ Some of your Aspirations should be short term goals that can be completed
 \end_layout
 
 \begin_layout Subsection*
-Step Two: Select Attributes
+Step Two: Select Attributes 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-AttributeSelection"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Attributes are the innate characteristics of your character, such as how
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Attributes
+\end_layout
+
+\end_inset
+
+ Attributes are the innate characteristics of your character, such as how
  fast, charismatic or smart she is.
  When choosing your attributes, ask yourself what would lead your character
  to lead to her living the life she does, what she would choose to develop,
@@ -2277,7 +2316,16 @@ Step Three: Select Skills
 \end_layout
 
 \begin_layout Standard
-Next, choose your character's Skills.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills
+\end_layout
+
+\end_inset
+
+ Next, choose your character's Skills.
  They reflect the more specific skills she has gained over her life rather
  than her innate traits.
  When choosing Skills, think about your character's background.
@@ -2679,7 +2727,26 @@ name "Sec-DreamAndWish"
 \end_layout
 
 \begin_layout Standard
-When a Luminous Blossoms, the first part of the world she changes is herself.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dream|textbf
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Wish|textbf
+\end_layout
+
+\end_inset
+
+ When a Luminous Blossoms, the first part of the world she changes is herself.
  In her nascent Dreamscape, she weaves an image of her world into her very
  soul.
  While she doesn't truly lose her mortal Virtues and Vices, they no longer
@@ -2743,6 +2810,15 @@ name "Sec-Touchstones"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Touchstones|textbf
+\end_layout
+
+\end_inset
+
 The Hopeful draw on the external world, as much as they rely on their inner
  strength.
  Nobody can just fight their whole life without...
@@ -3577,6 +3653,15 @@ Motes
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Motes|textbf
+\end_layout
+
+\end_inset
+
 Motes are the small shards of the Dream's power that a Hopeful draws on
  to fuel her magic.
  She does not need to gather it from an outside source, but rather simply
@@ -3615,6 +3700,15 @@ name "Sec-Invocations"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Invocations|textbf
+\end_layout
+
+\end_inset
+
 The ideals of each of the Dream Kingdoms resonate throughout the Dream,
  and Weavers draw on those Invocations to shape their own magics.
  Learning an Invocation allows a Luminous to draw on the pooled knowledge
@@ -3648,7 +3742,36 @@ Regalia, Domains and Charms
 \end_layout
 
 \begin_layout Standard
-Luminous magic is roughly divided into three major categories: Regalia,
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Regalia
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Domains
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Charms
+\end_layout
+
+\end_inset
+
+ Luminous magic is roughly divided into three major categories: Regalia,
  Domains and Charms.
 \end_layout
 
@@ -3708,7 +3831,16 @@ Mundane and Supernatural Aspirations
 \end_layout
 
 \begin_layout Standard
-The Hopeful are caught between the mundane and the supernatural, and their
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Aspirations
+\end_layout
+
+\end_inset
+
+ The Hopeful are caught between the mundane and the supernatural, and their
  goals reflect that.
  They balance between the strains of everyday life, and the hidden problems
  of the supernatural world that exists on the margins of society.
@@ -3721,10 +3853,23 @@ Luminous have five Aspirations instead of the usual three.
  The last Aspiration may be assigned freely.
 \end_layout
 
+\begin_layout Subsection
+Sensitivity 
+\end_layout
+
 \begin_layout Standard
-Sensitivity A Luminous' strong emotions combined with their natural concern
- for others meld together into a deep empathy they call "Sensitivity", only
- growing stronger from their magic to connect hearts.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Sensitivity|(textbf
+\end_layout
+
+\end_inset
+
+ A Luminous' strong emotions combined with their natural concern for others
+ meld together into a deep empathy they call "Sensitivity", only growing
+ stronger from their magic to connect hearts.
  Sensitivity is a dice pool equal to half the Hopeful's Reverie rounded
  up.
  Merits and other abilities may add additional dice to this pool, and non-Lumino
@@ -3789,6 +3934,16 @@ Afterwards, she may immediately replace a short-term aspiration with one
  When she completes such an Aspiration, she gains an additional beat and
  recovers all mild Hope damage.
  Luminous may have no more than two aspirations from Sensitivity at once.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Sensitivity|)
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -3796,8 +3951,17 @@ Hope
 \end_layout
 
 \begin_layout Standard
-When a Luminous first Blossoms, she becomes the dreams and wonders she always
- knew as a child.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Hope|(textbf
+\end_layout
+
+\end_inset
+
+ When a Luminous first Blossoms, she becomes the dreams and wonders she
+ always knew as a child.
  She reclaims the emotion and imagination that she once knew, feeling her
  triumphs and struggles as strongly as she did the first time she truly
  opened her eyes to the world.
@@ -3856,7 +4020,16 @@ Each time a Luminous takes Hope damage, mark it off her Hope track using
 \end_layout
 
 \begin_layout Standard
-Once a day, whenever she spends time relaxing or otherwise doing something
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Touchstones
+\end_layout
+
+\end_inset
+
+ Once a day, whenever she spends time relaxing or otherwise doing something
  she enjoys without expectation or consequences for failure, roll Hope.
  She clears a box of mild Hope damage equal to her successes.
  If one or more of your Touchstones joined her in the activity, she heals
@@ -3913,6 +4086,19 @@ TODO: Die value example list.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Hope|)
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Subsection
 Defiant Will
 \end_layout
@@ -3930,7 +4116,16 @@ It is the chink in the armour of your soul, Kadma.
 \end_layout
 
 \begin_layout Standard
-The Hopeful draw deeply on their own dreams to power their magic, and forces
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Defiant Will|textbf
+\end_layout
+
+\end_inset
+
+ The Hopeful draw deeply on their own dreams to power their magic, and forces
  that try to alter it do not easily escape their notice.
  A Luminous is always aware of any attempts to use supernatural powers or
  other extraordinary means to influence, alter or read any aspect of her
@@ -3952,6 +4147,15 @@ Echo
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Echo|(textbf
+\end_layout
+
+\end_inset
+
 A Dreamer's magic touches the heart of everyone they treasure and love dearly,
  connecting their dreams together in their deepest sleep.
  Over time, those close to the Luminous come to understand each other on
@@ -3969,6 +4173,15 @@ Intimacy
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Intimacy|textbf
+\end_layout
+
+\end_inset
+
 The Dream is woven out of the countless bonds and ties that connect people,
  interweaving all of humanity together into a single tapestry.
  The strength of the connection between two given people is called Intimacy.
@@ -4175,7 +4388,16 @@ Luminous may contest an Echo Flare with her own Echo, contesting it with
  Conditions or Tilts.
  Luminous may contest their active flares with her Echo as well, in the
  same way as Echos.
- 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Echo|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -4183,6 +4405,15 @@ Transformation
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformation|(textbf
+\end_layout
+
+\end_inset
+
 The mundane world rejects magic, so strongly so that to be openly something
  else is simply a death sentence.
  The Hopeful, as always, adapted to their circumstances.
@@ -4210,6 +4441,15 @@ Mundane Form
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Mundane Form|(textbf
+\end_layout
+
+\end_inset
+
 In their mundane form, the Hopeful do not simply wear a mask of normal humanity.
  Rather, they are simply normal humans as they've always been.
  Their magic is sealed away in their own heart, as simply another seemingly
@@ -4231,6 +4471,16 @@ However, she loses access to the majority of her supernatural powers.
  her Regalia, Domains and Charms.
  She still retains her Supernatural Tolerance, but only for purposes of
  resisting or contesting supernatural abilities.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Mundane Form|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4238,6 +4488,15 @@ Dream Form
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dream Form|(textbf
+\end_layout
+
+\end_inset
+
 The Hopeful dream vividly and brightly, taking on a form reflecting their
  deepest wishes, freed from the constraints of reality.
  In their waking life, they call upon an innate magic to project that form
@@ -4269,17 +4528,18 @@ zed, and may not enter Twilight or create Manifestation Conditions without
 \begin_layout Standard
 As they have a different set of attributes and skills from most characters
  in Dream Form, they allocate them using a different process.
- See Character Creation 
-\begin_inset Flex TODO Note (Margin)
-status open
-
-\begin_layout Plain Layout
-TODO: pg link
-\end_layout
+ See Character Creation (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-AttributeSelection"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
- for more information.
+) for more information.
 \end_layout
 
 \begin_layout Subsection
@@ -4287,6 +4547,15 @@ Dream Health
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dream Form!Dream Health|(textbf
+\end_layout
+
+\end_inset
+
 A Hopeful's Dream Form is composed of dreamstuff instead of flesh and blood,
  protecting her material forms from harm.
  She has a separate health track in Dream Form called Dream Health, with
@@ -4318,6 +4587,16 @@ Luminous never suffer wound penalties when transformed.
  Should the rightmost box of her Dream Health be filled with lethal or aggravate
 d damage, she immediately reverts to her Mundane Form and gains the Soul
  Shocked condition.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dream Form!Dream Health|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4332,6 +4611,15 @@ name "Sec-TransformedAttrs"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Attributes|(textbf
+\end_layout
+
+\end_inset
+
 In a dream, when you break down a metal door, it doesn't matter how strong
  you are -- only your determination to have it out of the way.
  When you convince your lover to stay by your side, it's not the words that
@@ -4377,6 +4665,16 @@ She uses these attributes in place of each corresponding mundane attribute.
  Resistance + Resistance is instead rolled as Resistance + Finesse.
  Finesse + Finesse is instead rolled as Power + Finesse.
  Power + Power is instead rolled as Power + Resistance.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Attributes|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4391,6 +4689,15 @@ name "Sec-TransformedSkills"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills|(textbf
+\end_layout
+
+\end_inset
+
 Unlike most ephemeral beings, Luminous have a reduced set of eight skills
  instead of lacking skills.
  Like their transformed attributes, each transformed skill is the highest
@@ -4408,6 +4715,15 @@ Force
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Force
+\end_layout
+
+\end_inset
+
 The Force Skill describes a Luminous' raw physical strength and raw magical
  power.
  It is used for actions like hand-to-hand combat, wielding weapons, direct
@@ -4443,6 +4759,15 @@ Flow
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Flow
+\end_layout
+
+\end_inset
+
 The Flow Skill describes the Luminous' ability to move gracefully or precisely
  and control themselves at high speeds.
  It is used for actions like dancing, jumping between a building's rooftops,
@@ -4477,6 +4802,15 @@ Learn
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Learn
+\end_layout
+
+\end_inset
+
 The Learn Skill describes the Luminous' general knowledge and ability to
  learn new things.
  It is used to research a topic, perform web searches, perform scientific
@@ -4512,6 +4846,15 @@ Lore
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Lore
+\end_layout
+
+\end_inset
+
 The Lore Skill describes the Luminous' knowledge of specific technical topics
  and mechanics of the world.
  It is used to diagnose and treat illnesses and injuries, hack computer
@@ -4544,6 +4887,15 @@ Create
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Create
+\end_layout
+
+\end_inset
+
 The Create Skill describes the Luminous' ability to create new things or
  express inner truths.
  It is used to sew clothing, create paintings, write poems, build a tent
@@ -4577,6 +4929,15 @@ Connect
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Connect
+\end_layout
+
+\end_inset
+
 The Connect skill describes the Luminous' force of personality and ability
  to reach out to others.
  It is used to convince people to your side, make prepared speeches, navigate
@@ -4610,6 +4971,15 @@ Shade
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Shade
+\end_layout
+
+\end_inset
+
 The Shade skill describes the Luminous' skill at hiding their intent and
  acting secretively.
  It is used to hide yourself physically, lie to another, hide your true
@@ -4643,6 +5013,15 @@ Resonate
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformed Skills!Resonate
+\end_layout
+
+\end_inset
+
 The Resonate skill describes the Luminous' ability to understand others
  and the world around you in intuitive ways.
  It is used to understand others, detect lies and concealed intentions,
@@ -4669,6 +5048,16 @@ Sample Actions:
 Component Skills:
 \series default
  Empathy, Socialize, Animal Ken
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Transformed Skills|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4731,6 +5120,15 @@ Dual Identity
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transformation!Dual Identity|(textbf
+\end_layout
+
+\end_inset
+
 The Hopeful derive one last benefit from their transformation: Their mundane
  and dream forms appear to be two different people.
  Regardless of how similar her two forms look, others around her treat them
@@ -4772,6 +5170,36 @@ In cases where she needs to intentionally prove her identity, she may spend
  This does not necessarily convince others that she is the same person if
  she looks radically different in her two forms, but it at least removes
  any supernatural components of her disguise.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dream Form|)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Transformation!Dual Identity|)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Transformation|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
