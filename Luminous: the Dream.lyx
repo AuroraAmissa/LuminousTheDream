@@ -2324,6 +2324,7 @@ Transformed Attributes
 Luminous and characters who are intended to Blossom in play do not choose
  their attributes like most characters.
  Begin by choosing her three transformed attributes (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-TransformedAttrs"
@@ -2376,6 +2377,7 @@ Transformed Skills
 Assign her skills using the same process as her attributes, except skills
  begin at 0 dots instead of 1 dot.
  Assign 15 dots between her transformed skills (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-TransformedSkills"
@@ -2432,6 +2434,7 @@ Luminary
 When she Blossoms, a Luminous builds her Dream Form from the symbols of
  the Dream.
  The first of these is her Luminary (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Luminary"
@@ -2461,6 +2464,7 @@ Whether your character would be a shining hero, an idol whose songs change
  Her Archetype reflects which of those legacies she would wish to continue
  on, and the overall form and concept of her Dream Form.
  Read over the Archetypes (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Archetype"
@@ -2479,6 +2483,7 @@ Kingdom
 
 \begin_layout Standard
 In the Dream, the Luminous built eight great Kingdoms (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Kingdoms"
@@ -2536,6 +2541,7 @@ Touchstone
 
 \begin_layout Standard
 Your character's Touchstone (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Touchstones"
@@ -2558,6 +2564,7 @@ Invocations
 
 \begin_layout Standard
 Each Invocation (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Invocations"
@@ -2606,6 +2613,7 @@ Reverie
 
 \begin_layout Standard
 Reverie (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-Reverie"
@@ -3830,6 +3838,7 @@ Charms are the more specialized powers of the Luminous, specific spells
 
 \begin_layout Standard
 For more information, see the chapter on The Power of Love (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Chapter-PowerOfLove"
@@ -4561,6 +4570,7 @@ zed, and may not enter Twilight or create Manifestation Conditions without
 As they have a different set of attributes and skills from most characters
  in Dream Form, they allocate them using a different process.
  See Character Creation (p.
+ 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-AttributeSelection"
@@ -5311,11 +5321,298 @@ Merits
 \end_layout
 
 \begin_layout Standard
+This section contains merits that may be taken by Luminous, or those related
+ to them.
+ More generic merits can be found in the Merits section of the Chronicles
+ of Darkness core book.
+\end_layout
+
+\begin_layout Subsection
+Modified Merits
+\end_layout
+
+\begin_layout Standard
+Certain Merits are modified or not accessible for Luminous characters.
+ This covers merits found in the Chronicles of Darkness core, and the World
+ of Darkness: Innocents book.
+ Further adjustments may be needed for merits from other sourcebooks.
+\end_layout
+
+\begin_layout Subsubsection*
+Alternate Identity 
+\end_layout
+
+\begin_layout Standard
+The Luminous' innate transformation makes it difficult for them to not eventuall
+y end up developing a double life.
+ The Alternate Identity merit [CofD 50] costs one less dot for Luminous.
+ Therefore, she may purchase Alternate Identity •• for one experience, and
+ Alternate Identity ••• for two experiences.
+ This does not grant her a single dot of Alternate Identity for free, as
+ Dual Identity provides a far stronger protection.
+\end_layout
+
+\begin_layout Subsubsection*
+Giant and Small-Framed
+\end_layout
+
+\begin_layout Standard
+The Giant [CofD 47] and Small-Framed [CofD 49] merits do not apply to a
+ Luminous' Dream Form.
+ She may purchase the Giant merit for free if her Dream Form is Size 6,
+ and may purchase the Small-Framed merit for free if her Dream Form is Size
+ 4 or smaller.
+\end_layout
+
+\begin_layout Subsubsection*
+Unseen Sense 
+\end_layout
+
+\begin_layout Standard
+Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
+ or Dreams.
+ Will may be used to detect Maou, transformed Luminous, and their powers.
+ Dreams may be used to detect Asura, Incursions, transformed Luminous, other
+ beings affiliated with the Dream, and any powers used by them.
+ Note that Dual Identity protects Luminous from being detected by such means
+ in Mundane Form as long as they do not use any of their powers..
+\end_layout
+
+\begin_layout Subsubsection*
+Vice-Ridden and Virtuous 
+\end_layout
+
+\begin_layout Standard
+Neither Maou nor Luminous may purchase either Vice-Ridden or Virtuous [CofD
+ 46], as they use different Anchors.
+\end_layout
+
+\begin_layout Subsubsection*
+Giant and Tiny (Innocents) 
+\end_layout
+
+\begin_layout Standard
+The Giant [WoD:I 104] and Tiny [WoD:I 105] merits do not apply to a Luminous'
+ Dream Form.
+ Even child Luminous have a default size of 5 in their Dream Form, and must
+ take the appropriate Form Merits to change this.
+ She may purchase the Giant merit for free if her Dream Form is of size
+ 6.
+ She may purchase the Tiny merit for free if her Dream Form is of Size 3.
+\end_layout
+
+\begin_layout Subsection
+Luminous Merits 
+\end_layout
+
+\begin_layout Standard
+These Merits may only be taken by the Luminous.
+\end_layout
+
+\begin_layout Subsubsection
+Enhanced Sensitivity (• to •••••) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character is unusually sensitive to the emotions of others, even for
+ a Luminous.
+ Add your dots in this merit to your Sensitivity.
+\end_layout
+
+\begin_layout Subsubsection*
+Touchstone (• to •••••) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character has multiple Touchstones.
+ Each dot in the Touchstone Merit allows for an additional Touchstone.
+\end_layout
+
+\begin_layout Subsection
+Form Merits
+\end_layout
+
+\begin_layout Standard
+Form Merits represent innate traits of a Luminous' transformation that are
+ not necessarily represented with a Regalia.
+ Form Merits are never considered form-locked.
+\end_layout
+
+\begin_layout Subsubsection*
+Childish (••) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character appears as a younger child when transformed.
+ She is of Size 3 in Dream Form, and gains a +3 bonus to any attempt to
+ hide or go unnoticed.
+ The Storyteller should consider applying bonuses for other situations where
+ her small size or apparent age may help, such as fitting through a small
+ crawl space, or convincing others of her innocence.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Drawback: 
+\series default
+Your character is treated as she appears outside of the supernatural world.
+ She should expect to be questioned by adults when traveling alone.
+ She receives a -3 modifier to any attempt to physically intimidate another
+ or pass an adult (regardless of whether she is one).
+\end_layout
+
+\begin_layout Subsubsection*
+Innate Regalia (••) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character has a Regalia component that is innate to their form, and
+ cannot simply be summoned and unsummoned at will.
+ Reduce her Regalia Capacity by one.
+ She permanently has a Regalia of your choice active in Dream Form, bound
+ to two Invocations chosen when you buy this merit without cost.
+\end_layout
+
+\begin_layout Subsubsection*
+Paragon (•) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character's Dream Form is particularly large and imposing, towering
+ over most others.
+ She is Size 6 in Dream Form, and gains a +2 bonus to any rolls to physically
+ intimidate another, or reassure someone that she can protect them.
+ The Storyteller should consider applying bonuses for other situations where
+ her larger size may help, such as climbing over tall walls.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Drawback:
+\series default
+ Fitting into small spaces is difficult at best, and often impossible.
+ Hiding is rarely an option.
+ You take a -2 penalty to rolls to hide or go unnoticed.
+\end_layout
+
+\begin_layout Subsubsection*
+Tomoyo's Touch (•) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character is quite the fashionista, and she may appear in whatever
+ outfit she wishes when she transforms into her Dream Form.
+ Her Dream Form still always looks to be the same person, just in a different
+ outfit.
+ If her Dream Form has obviously supernatural features, the most this can
+ do to hide them is to cover them with clothes – it cannot dismiss them
+ entirely.
+\end_layout
+
+\begin_layout Subsubsection*
+Youthful (•) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character is diminutive when transformed.
+ She is Size 4 in Dream Form, and gains a +2 bonus to any rolls to hide,
+ or go unnoticed.
+ The Storyteller should consider applying bonuses for other situations where
+ her small size or unassuming appearance may help, such as fitting through
+ a small crawl space, or reassuring another that she won't harm them.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Drawback: 
+\series default
+Your character might be overlooked or not taken seriously by some people.
+ She takes a -2 penalty to rolls to physically intimidate or threaten others.
+\end_layout
+
+\begin_layout Subsection
+Mundane Merits 
+\end_layout
+
+\begin_layout Standard
+These merits are entirely mundane, and are open to any character type.
+\end_layout
+
+\begin_layout Subsubsection*
+Sensitivity (•• to ••••) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requirements: 
+\series default
+You do not already have Sensitivity from another source; Integrity or an
+ Integrity-like mechanic.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect: 
+\series default
+While a Luminous' empathy is enhanced greatly by her magic, it isn't fundamental
+ly different from simply being very empathic for mundane reasons.
+ Your character gains the Sensitivity trait, with a single dice of Sensitivity.
+ For each additional dot she takes in this merit above 2, she gains an additiona
+l Sensitivity dice.
+\end_layout
+
+\begin_layout Standard
+Non-Luminous characters may only replace a single Aspiration from Sensitivity.
+ If she would receive an Hope attack or Hope damage, she instead rolls Resolve
+ + Composure, penalized by the number of dice or damage she received.
+ If she fails, she receives a Hope Condition.
+ If she dramatically fails, she receives a persistent Hope Condition.
+ 
+\end_layout
+
+\begin_layout Section
+Nakama
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Copy Merits into Lyx.
+TODO: Write this chapter.
 \end_layout
 
 \end_inset
