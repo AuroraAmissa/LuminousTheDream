@@ -1552,7 +1552,14 @@ The Kingdom they are a citizen of in their dreams, reflecting their vision
 \end_layout
 
 \begin_layout Section
-Luminary
+Luminary 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Luminary"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1929,7 +1936,14 @@ relax
 \end_layout
 
 \begin_layout Section
-Archetype
+Archetype 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Archetype"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1966,7 +1980,14 @@ TODO: Write text here.
 \end_layout
 
 \begin_layout Section
-Kingdoms
+Kingdoms 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Kingdoms"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2146,17 +2167,493 @@ The Luminous are those who wield their hopes and dreams to change the world,
  
 \end_layout
 
+\begin_layout Section
+Character Creation
+\end_layout
+
+\begin_layout Subsection*
+Step One: Character Concept 
+\end_layout
+
+\begin_layout Standard
+To begin creating a Luminous, come up with a rough idea of who you want
+ to play.
+ What kind of upbringing did she have? What kind of experiences, good or
+ bad, did she have growing up? What does she think of the world around her?
+ What does she want to see the world become? What has she experienced to
+ lead her to want to change the world? What led up to her Blossoming, if
+ it happened before the game starts?
+\end_layout
+
+\begin_layout Standard
+Don't worry too much about details like Invocations yet.
+ Instead, try to figure out who your character is inside, how they think
+ and feel, and who they see themselves as.
+ From that, distill it into a simple core concept like "young politician"
+ or "aspiring writer".
+ As you go through the character creation process, you can always fall back
+ on this initial seed and do whatever feels right given it or adjust it
+ if you think something else would fit her just a slight bit better.
+\end_layout
+
+\begin_layout Subsubsection*
+Aspirations
+\end_layout
+
+\begin_layout Standard
+Finally, choose your character's Aspirations.
+ Hopeful have two more aspirations than usual, for a total of five.
+ Two of them must be related to the supernatural world, or her Dream Form.
+ What does she want to do to make the world a better place? What supernatural
+ creatures has she run into before, and what does she like to do with them?
+ Has she run into any supernatural problems she wants to solve?
+\end_layout
+
+\begin_layout Standard
+Furthermore, two of her aspirations must relate to her mundane life, or
+ at least the mundane world.
+ Does she have friends she made a promise to? Does she have an internet
+ community to run? What is her school life like, and is there something
+ she would especially like to accomplish there?
+\end_layout
+
+\begin_layout Standard
+Some of your Aspirations should be short term goals that can be completed
+ in a session or two, and at least one should be a longer-term goal that
+ may take a whole Chapter to complete.
+ Aspirations are one of the main ways you earn beats, which advance your
+ character.
+ They help the Storyteller know where you want to go with your character,
+ and what kinds of stories you want them to experience.
+\end_layout
+
+\begin_layout Subsection*
+Step Two: Select Attributes
+\end_layout
+
+\begin_layout Standard
+Attributes are the innate characteristics of your character, such as how
+ fast, charismatic or smart she is.
+ When choosing your attributes, ask yourself what would lead your character
+ to lead to her living the life she does, what she would choose to develop,
+ what skills she relies on, and whether she uses her magic or mundane skills
+ to achieve her goals.
+\end_layout
+
+\begin_layout Standard
+Luminous and characters who are intended to Blossom in play do not choose
+ their attributes like most characters.
+ Begin by choosing her three transformed attributes (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-TransformedAttrs"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Begin with 1 dot in each transformed attribute, then assign 8 dots between
+ her transformed attributes, up to a maximum of 6 dots in any attribute.
+ Then, beginning with 1 dot in each mundane attribute, distribute 12 dots
+ between your character's mundane attributes up to a maximum of 5 dots in
+ any attribute.
+ 
+\end_layout
+
+\begin_layout Standard
+None of your character's mundane attributes may exceed their corresponding
+ transformed attribute and you may not assign more than 5 dots to each of
+ the mundane attribute categories (Physical, Mental and Social).
+ If the highest mundane attribute corresponding to a transformed attribute
+ is lower than the amount you assigned earlier, gain the remainder as transforme
+d attribute dots.
+\end_layout
+
+\begin_layout Subsection*
+Step Three: Select Skills 
+\end_layout
+
+\begin_layout Standard
+Next, choose your character's Skills.
+ They reflect the more specific skills she has gained over her life rather
+ than her innate traits.
+ When choosing Skills, think about your character's background.
+ What had she studied during school? What are her hobbies?
+\end_layout
+
+\begin_layout Standard
+Assign her skills using the same process as her attributes, except skills
+ begin at 0 dots instead of 1 dot.
+ Assign 15 dots between her transformed skills (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-TransformedSkills"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), then assign 22 dots between her mundane skills.
+\end_layout
+
+\begin_layout Standard
+As with attributes, none of your character's mundane skills may exceed the
+ corresponding transformed skill, and you may not assign more than 11 dots
+ to any of the mundane skill categories.
+ If the highest transformed skill corresponding to a transformed skill is
+ lower than the amount you assigned earlier, again gain the remainder as
+ transformed dots.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Step Four: Skill Specialties
+\end_layout
+
+\begin_layout Standard
+You start with three Skill Specialties, representing your character's particular
+ field of competence in a given skill, as opposed to the broader competence
+ Skill dots represent.
+ You write your own Skill Specialties, reflecting where your character truly
+ shines in their broader field.
+ For example, a character may have specialty in Poetry for the Expression
+ skill.
+ As usual, this is a chance to refine your idea of who your character is,
+ as much as a chance to express it.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Step Five: Add Luminous Template 
+\end_layout
+
+\begin_layout Standard
+At this point, you're ready to deal with the more magical aspects of your
+ character.
+\end_layout
+
+\begin_layout Subsubsection*
+Luminary
+\end_layout
+
+\begin_layout Standard
+When she Blossoms, a Luminous builds her Dream Form from the symbols of
+ the Dream.
+ The first of these is her Luminary (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-Luminary"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), the celestial light she patterns her magic after.
+ It forms the basis of how she uses her magic, and decides which of the
+ three powers of the Luminous she focuses on.
+ Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight)
+, and choose the one that fits your character concept the best.
+\end_layout
+
+\begin_layout Subsubsection*
+Archetype 
+\end_layout
+
+\begin_layout Standard
+Whether your character would be a shining hero, an idol whose songs change
+ the world, or a shrine maiden that upholds the boundary between worlds,
+ she is yet still a Luminous.
+ The Luminous have taken on many forms and roles over their long history,
+ after all.
+ Her Archetype reflects which of those legacies she would wish to continue
+ on, and the overall form and concept of her Dream Form.
+ Read over the Archetypes (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-Archetype"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), and choose one that your character would wish to be.
+\end_layout
+
+\begin_layout Subsubsection*
+Kingdom 
+\end_layout
+
+\begin_layout Standard
+In the Dream, the Luminous built eight great Kingdoms (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-Kingdoms"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), reflecting the world as they saw it could be in the distant future.
+ They draw power from their Kingdoms, invoking the principles and feelings
+ that underlie them through their Invocations.
+ Read over the Kingdoms and choose the one that your character would most
+ believe in.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Dream & Will
+\end_layout
+
+\begin_layout Standard
+Choose your character's Dream and Will.
+ While most mortals have a Virtue and a Vice, Luminous draw their strength
+ from their dearest dreams and shining will.
+ Her Dream is the ideal world she would wish to live in, far in the distant
+ future.
+ It is the hope she clings to when she needs reminding what she is fighting
+ for, and the world she dreams of in her sleep.
+ Her Will is the means by which she changes the world, and interacts with
+ it.
+ It is the part of herself she draws on to face the challenges the world
+ bring against her, how she connects with a world that seems far too foreign
+ to her.
+\end_layout
+
+\begin_layout Standard
+For more information, see p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-DreamAndWish"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+Touchstone
+\end_layout
+
+\begin_layout Standard
+Your character's Touchstone (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-Touchstones"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) is what she draws on to remind herself of the light in the world, to ground
+ herself away from the shadows and pains the world tries to drown her in.
+ Think of who or what your character most values in the world, the things
+ and people she would cling to in her darkest moments, and choose a Touchstone
+ for your character.
+\end_layout
+
+\begin_layout Subsubsection*
+Invocations
+\end_layout
+
+\begin_layout Standard
+Each Invocation (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-Invocations"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) is the cumulation of the worldviews, and feelings reflected in one of
+ the Dream Kingdoms.
+ The Luminous draw on them for power, channeling the symbols and magic each
+ Kingdom had built over the long years for themselves.
+ 
+\end_layout
+
+\begin_layout Standard
+Each Luminous starts with three dots in Invocations, one of which must be
+ played in her Kingdom's Invocation.
+ Kingdomless Luminous instead choose two Invocations to have affinity for.
+ They must place at least one dot in each of the two Invocations.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Regalia, Domains and Charms
+\end_layout
+
 \begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Character creation process.
+TODO: Oh god...
+ :(
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection*
+Reverie
+\end_layout
+
+\begin_layout Standard
+Reverie (p.
+ 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "Sec-Reverie"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) measures your character's ability to draw on the Dream's power, and project
+ it onto reality.
+ The higher it is, the more power she can draw on in her waking life, at
+ the cost of losing herself in the dream she draws on for power.
+ It determines how many Motes your character can spend without cost each
+ turn, and the number of Regalia she may sustain.
+\end_layout
+
+\begin_layout Standard
+All Luminous begin with a free dot of Reverie.
+ You may purchase additional dots for five of your starting Merit dots each.
+\end_layout
+
+\begin_layout Subsection*
+Step Six: Merits 
+\end_layout
+
+\begin_layout Standard
+Your character starts with 10 dots of Merits due to being a supernatural
+ being.
+ You may spend them on any non-supernatural Merits found in the Chronicles
+ of Darkness core book, or any of the merits found in this book.
+\end_layout
+
+\begin_layout Subsection*
+Step Seven: Determine Advantages 
+\end_layout
+
+\begin_layout Standard
+All characters have certain characteristics that are derived from their
+ Attributes, Skills and Merits.
+ Calculate the following, and note them on your character sheet.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Size:
+\series default
+ Characters start at Size 5 in both Mundane Form and Dream form
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Hope:
+\series default
+ Transformed Resistance + Transformed Power
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Willpower:
+\series default
+ Transformed Resistance + Transformed Finesse
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mundane Health:
+\series default
+ Size + Stamina
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mundane Speed:
+\series default
+ 5 + Strength + Dexterity
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mundane Initiative:
+\series default
+ Dexterity + Composure
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mundane Defense:
+\series default
+ (Lower of Wits or Dexterity) + Athletics
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dream Health:
+\series default
+ Resistance + Attribute Maximum
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Transformed Defense:
+\series default
+ (Lower of Resistance and Finesse) + Flow
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Transformed Initiative:
+\series default
+ Finesse + Resistance
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Speed:
+\series default
+ 5 + Power + Finesse
 \end_layout
 
 \begin_layout Section
@@ -2164,16 +2661,125 @@ Anchors
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Rewrite anchors section.
+Luminous ground themselves between dreams and reality through their Anchors,
+ without losing any of the light of either.
+ The dark corners of the world, and the balancing act they sustain day by
+ day both wear down on them.
 \end_layout
+
+\begin_layout Subsection
+Dream & Wish 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-DreamAndWish"
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+When a Luminous Blossoms, the first part of the world she changes is herself.
+ In her nascent Dreamscape, she weaves an image of her world into her very
+ soul.
+ While she doesn't truly lose her mortal Virtues and Vices, they no longer
+ anchor her well enough against her own dreams, nor the world's pressures.
+ Rather, she learns to draw on that image of a better world, and the means
+ by which she knows she can touch the world.
+\end_layout
+
+\begin_layout Standard
+Her vision of her ideal world is called her Dream.
+ It is the one possible future out of endless possibilities that she considers
+ truly her own, one she could comfortably live in for herself and those
+ she loves.
+ A Hopeful who Dreams of "Among the Stars" may draw on the magic of Dannan,
+ but that world is ultimately a kind of compromise.
+ Unfettered by such things, they would dream of a world where all have a
+ place among the countless stars, each planet holding its own form of utopia.
+ When a Luminous takes a risk to make their Dream a reality, she regains
+ one Willpower.
+ When a Luminous makes noticeable progress in realizing that Dream for herself
+ or the broader world, she regains all Willpower.
+\end_layout
+
+\begin_layout Standard
+The means by which she knows she can change the world is called her Will.
+ Even if she has many talents, it is the one she holds closest to her heart,
+ the thing she falls back on when everything else fails.
+ A Dreamer who writes for a newspaper in her waking life may have a Will
+ of a 
+\begin_inset Quotes xld
+\end_inset
+
+Writer
+\begin_inset Quotes xrd
+\end_inset
+
+, while one who supports her family and friends may have a Will of 
+\begin_inset Quotes xld
+\end_inset
+
+Counceler
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ Whenever a Luminous overcomes a challenge in affirming her Will, she regains
+ one Willpower.
+ Whenever a Luminous takes a significant risk in the process, she regains
+ all Willpower.
+\end_layout
+
+\begin_layout Subsection
+Touchstones 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Touchstones"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Hopeful draw on the external world, as much as they rely on their inner
+ strength.
+ Nobody can just fight their whole life without...
+ something breaking inside.
+ Not alone, not without something to hold themselves steady.
+ A Touchstone is something or someone tangible that gives the Luminous emotional
+ strength, and reminds her that there is good in the world even now.
+\end_layout
+
+\begin_layout Standard
+Sometimes, those remainders are the people she have helped in life and now
+ walk by her side.
+ Sometimes, it's her family of choice and close friends who once rescued
+ her from her own darkest times.
+ Sometimes, it is the beautiful gardens that remind her of the wonder the
+ world has always had.
+ Whatever form it takes, a Luminous' Touchstones are the things the Luminous
+ can draw on for emotional strength even in the darkest times.
+\end_layout
+
+\begin_layout Standard
+However, their Touchstones represent vulnerabilities in her life as much
+ as they are a source of strength.
+ When a Luminous permanently loses one of her Touchstones, she takes a five-dice
+ severe Hope attack.
+ Whenever a Luminous acts to defend one of her Touchstones, she regains
+ a Willpower point.
+ If this defense causes her serious harm, she regains all her spent Willpower
+ points.
+ 
+\end_layout
+
+\begin_layout Standard
+Luminous begin with a single Touchstone, and may gain more by buying the
+ Touchstone merit.
+ Note that most Luminous also have their Nakama to serve as a second Touchstone.
+ 
 \end_layout
 
 \begin_layout Section
@@ -2190,7 +2796,14 @@ The Luminous live in a world slowly falling to cold and unfeeling systems
 \end_layout
 
 \begin_layout Subsection
-Reverie
+Reverie 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Reverie"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2991,7 +3604,14 @@ Unlike most types of supernatural creatures, a Princess cannot spend the
 \end_layout
 
 \begin_layout Subsection
-Invocations
+Invocations 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Invocations"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3702,6 +4322,13 @@ d damage, she immediately reverts to her Mundane Form and gains the Soul
 
 \begin_layout Subsection
 Transformed Attributes 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-TransformedAttrs"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3753,7 +4380,14 @@ She uses these attributes in place of each corresponding mundane attribute.
 \end_layout
 
 \begin_layout Subsection
-Transformed Skills
+Transformed Skills 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-TransformedSkills"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
