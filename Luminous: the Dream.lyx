@@ -2090,29 +2090,18 @@ The eight Dream Kingdoms a Luminous may reside in are:
 \begin_layout Itemize
 
 \series bold
-Alhambra, the City-State of Ribbons
-\series default
-: A sanctuary city that preserves the histories of the world as it is and
- once was.
- Its Invocation is Ricordo, of preserving and protecting that which you
- love.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Andarta, the Kingdom of Gardens
+Avalon, the Kingdom of Gardens
 \series default
 : A beautiful kingdom led by nobility sworn to serve the needs of their
  people.
- Its Invocation is Decoro, of structure and responsibility.
+ Its Invocation is Rosa, of structure and responsibility.
  
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Aztallan, the Freehold of Torches
+Aztlan, the Freehold of Torches
 \series default
 : A sprawling country whose residents pride themselves on their passions
  and true values.
@@ -2123,10 +2112,21 @@ Aztallan, the Freehold of Torches
 \begin_layout Itemize
 
 \series bold
-Danann, the Archipelago of Stars
+Elysium, the City-State of Ribbons
 \series default
-: A series of island nations filled with wonders of science and magic.
- Its Invocation is Brillare, of learning and wonder at the world.
+: A sanctuary city that preserves the histories of the world as it is and
+ once was.
+ Its Invocation is Ricordo, of preserving and protecting that which you
+ love.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Konohana, the Forest of Cycles
+\series default
+: A peaceful forest where all things live in harmony with each other.
+ Its Invocation is Flori, of adaptation and harmony with the world.
 \end_layout
 
 \begin_layout Itemize
@@ -2137,6 +2137,15 @@ Ildathach, the Domain of Colors
 : A dream-like vision of a world triumphing over even the laws of reality.
  Its Invocation is Prisma, of uncompromising idealism and defiance against
  what must be.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Muirias, the Archipelago of Stars
+\series default
+: A series of island nations filled with wonders of science and magic.
+ Its Invocation is Brillare, of learning and wonder at the world.
 \end_layout
 
 \begin_layout Itemize
@@ -2160,15 +2169,6 @@ Tengri, the Confederacy of Winds
  all peoples.
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Wen-Mung, the Forest of Cycles
-\series default
-: A peaceful forest where all things live in harmony with each other.
- Its Invocation is Flori, of adaptation and harmony with the world.
-\end_layout
-
 \begin_layout Standard
 Not all Luminous become a member of a kingdom when they Blossom.
  Unaffiliated Nobles have affinity with two Invocations of their choice
@@ -2184,6 +2184,70 @@ status open
 TODO: Write full kingdom descriptions.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Center section titles for Splats section
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Uncenter section titles for Splats section
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+relax
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -5807,6 +5871,46 @@ Chapter 1: The Lineage
 \end_layout
 
 \begin_layout Standard
+Life shapes the world around them as it changes.
+ That has been the way it was from the start.
+ At the end of that old Lineage, from the chaotic play of flesh and vine,
+ one species rose beyond.
+ They not only looked upon the world in fixed, instinctive patterns, but
+ came to see it as it truly was.
+ Adrift, lost, and above all else, malleable.
+ They saw that they could change the world, and that they did not exist
+ to its whims.
+ Only when we learned our future was ours to build, did humanity's true
+ story begin.
+\end_layout
+
+\begin_layout Standard
+We looked upon a world that could be ours.
+ Our nascent souls ignited in this revelation, sparking the one power we
+ could truly call our own: Will.
+ Through that power, we built our world of cities, roads and networks over
+ generations.
+ 
+\end_layout
+
+\begin_layout Standard
+The Lineage the Maou inherit is cast down from that era, in all its glory
+ and faults.
+ They are the ones that maintain the path humanity set themselves on generations
+ ago.
+ They vow to maintain humanity on the true path, pruning the branches that
+ would lead humanity back into the chaos and wilderness of old.
+\end_layout
+
+\begin_layout Standard
+Their Ancestry reflects the ideals they hold, and the path they wish to
+ see humanity continue down.
+ Their Keystone is the means by which they anchor their Will into a coherent
+ force.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -5814,6 +5918,157 @@ status open
 TODO: Write this chapter.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Keystones
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Center section titles for Splats section
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Keystone of Dreams
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Epithets:
+\series default
+ Luminous, Dreamers, Hopeful, Weavers 
+\end_layout
+
+\begin_layout Standard
+Every human dreams in the night, even if they forget it in the day.
+ We dream of impossible worlds that could never be, and wish with all our
+ hearts to make them so regardless.
+ The Keystone of Dreams holds the power to bind them into reality, upending
+ natural law in favor of the light of stories and dreams.
+ It holds the power to connect dreams, allowing those who would never meet
+ in reality to know each other in a way siblings and lovers would envy.
+\end_layout
+
+\begin_layout Standard
+That is all true, and yet, it is no longer a power of the Maou.
+ In an era before the first records were written into history, the first
+ Dreamers built their own worlds into the Astral, a reflection of what they
+ wished the world to be.
+ Through their ephemeral touch, they built families and small communities
+ bound by shared understanding.
+ Through their Light, they erased the pains of the world and brought what
+ would be tragedies towards better endings.
+\end_layout
+
+\begin_layout Standard
+The Dreamers always imagined what the world could be if it were only a small
+ bit fundamentally different, rather than looking to the here and now.
+ When they wanted to prepare for tomorrow, and the Maou wanted to live for
+ today, they always fought.
+ The two sides drifted apart, sketching the shape of an inevitable tragedy
+ to come.
+\end_layout
+
+\begin_layout Standard
+Those who hold the Keystone of Dreams are Luminous, the wayward children
+ of the Lineage.
+ They are the ones who dream of worlds far better than those the Maou build,
+ and yet who cannot be allowed to bring them into reality for fear of what
+ their dreams may break.
+ ...
+ in effect, in every way that matters, they are no longer Maou.
+\end_layout
+
+\begin_layout Standard
+Should a Maou try to grasp the old Code of Dreams regardless, they would
+ find that they had fragmented into countless Invocations reflecting the
+ worlds the Weavers built in their dreams.
+ In theory, a Maou with amicable ties to the Luminous may still be taught
+ an Invocation, the same way they learn other foreign Codes.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Uncenter section titles for Splats section
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+relax
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -5841,11 +6096,58 @@ Chapter 3: The Path of Will
 \end_layout
 
 \begin_layout Standard
+The Willful hold the fate of humanity in their hands.
+ They are bound by ancient accords to maintain the structures and pillars
+ that maintain humanity's hold on the world.
+ In exchange for that vow, they are given the privilege of magic.
+ This chapter describes the basic powers and mechanics of the Maou.
+ 
+\end_layout
+
+\begin_layout Section
+Character Creation
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Write this chapter.
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Anchors
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Ways
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
 \end_layout
 
 \end_inset
@@ -5854,7 +6156,14 @@ TODO: Write this chapter.
 \end_layout
 
 \begin_layout Chapter
-Chapter 4: The Will to Power
+Chapter 4: The Will to Power 
+\begin_inset CommandInset label
+LatexCommand label
+name "Chapter-TheWillToPower"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
