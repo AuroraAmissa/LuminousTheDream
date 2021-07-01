@@ -8,10 +8,9 @@
 \begin_preamble
 \usepackage{datetime}
 \usepackage{colortbl}
-\usepackage{tcolorbox}
-\usepackage[markifdraft]{gitinfo2}
+\usepackage[markifdraft,marknotags]{gitinfo2}
 \end_preamble
-\options xcolor=table,draft,___draft_marker___
+\options xcolor=table,todonotes=obeyDraft,draft,___draft_marker___
 \use_default_options true
 \begin_modules
 todonotes
@@ -427,6 +426,43 @@ hypersetup{
 
 \backslash
 setuptodonotes{color=lum-bg}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Setup gitinfo2
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+gitMarkPref}{Draft}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+gitMark}{
+\backslash
+gitBranch
+\backslash
+,@
+\backslash
+,
+\backslash
+gitDescribe{} (
+\backslash
+gitAuthorDate)}
 \end_layout
 
 \begin_layout Plain Layout
@@ -869,7 +905,20 @@ A Storytelling Game of Distant Dreams
 
 \family sans
 \size normal
-Revision 0.1 (Pre-Release)
+Revision 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gitDescribe
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
