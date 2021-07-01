@@ -8,6 +8,7 @@
 \begin_preamble
 \usepackage{datetime}
 \usepackage{colortbl}
+\usepackage{tcolorbox}
 \end_preamble
 \options xcolor=table
 \use_default_options false
@@ -15,6 +16,8 @@
 todonotes
 fixltx2e
 multicol
+tcolorbox
+pdfform
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -642,6 +645,13 @@ twocoltocetc % two column table of contents
 widowpenalties 1 10000 
 \backslash
 raggedbottom % Avoid splitting paragraphs.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+firmlists % Reduce list spacing.
 \end_layout
 
 \end_inset
@@ -2155,7 +2165,7 @@ Sancus, the Alliance of Spears
 \series default
 : A close-knit alliance of city-states built over the generations of hard
  work.
- Its Invocation is Lavoro, of dutiful determination and military might.
+ Its Invocation is Accordi, of duties to one another and military might.
  
 \end_layout
 
@@ -2219,6 +2229,10 @@ centering
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+TODO
 \end_layout
 
 \begin_layout Standard
@@ -3023,6 +3037,7 @@ Reverie is a Luminous' Power Stat, granting her Supernatural Tolerance [CofD
 
 \begin_layout Standard
 \begin_inset Float table
+placement h
 wide false
 sideways false
 status open
@@ -3070,11 +3085,7 @@ Skill Max
 \begin_layout Plain Layout
 
 \series bold
-Mote
-\begin_inset Newline newline
-\end_inset
-
-Capacity
+Mote Pool
 \end_layout
 
 \end_inset
@@ -3156,7 +3167,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1
+3
 \end_layout
 
 \end_inset
@@ -3212,7 +3223,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1
+4
 \end_layout
 
 \end_inset
@@ -3280,7 +3291,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+4
 \end_layout
 
 \end_inset
@@ -3336,7 +3347,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+5
 \end_layout
 
 \end_inset
@@ -3404,7 +3415,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-2
+5
 \end_layout
 
 \end_inset
@@ -3413,7 +3424,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+4
 \end_layout
 
 \end_inset
@@ -3460,7 +3471,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+6
 \end_layout
 
 \end_inset
@@ -3528,7 +3539,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+7
 \end_layout
 
 \end_inset
@@ -3537,7 +3548,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+5
 \end_layout
 
 \end_inset
@@ -3584,7 +3595,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-3
+8
 \end_layout
 
 \end_inset
@@ -3593,7 +3604,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+5
 \end_layout
 
 \end_inset
@@ -3652,7 +3663,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+9
 \end_layout
 
 \end_inset
@@ -3661,7 +3672,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-5
+6
 \end_layout
 
 \end_inset
@@ -3708,7 +3719,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-5
+10
 \end_layout
 
 \end_inset
@@ -3770,27 +3781,20 @@ Motes|textbf
 Motes are the small shards of the Dream's power that a Hopeful draws on
  to fuel her magic.
  She does not need to gather it from an outside source, but rather simply
- draws them from deep within her soup.
- A Luminous may simply spend a certain number of Motes equal to her Mote
- Capacity safely each turn.
+ draws them from deep within her soul.
+ She has a 
 \end_layout
 
 \begin_layout Standard
-Beyond that, she must draw deeper on her being, converting a small fragment
+A Luminous has a Mote Pool which refills to its capacity at the beginning
+ of every Scene.
+ Beyond that, she must draw deeper on her being, converting a small bit
  of her own emotions and dreams to fuel the rest of that magic and leaving
  her feeling down and worn out until she has had the time to recover.
  When her Mote Capacity is exhausted, she may still intentionally take a
  box of mild Hope damage to spend an additional Mote for the turn.
  Should she have no remaining undamaged Hope boxes, she may take a box of
  severe Hope damage instead.
-\end_layout
-
-\begin_layout Standard
-Unlike most types of supernatural creatures, a Princess cannot spend the
- Motes to use her powers over multiple turns.
- If a power costs more Motes than her Mote Capacity, she must spend it all
- in one turn and take the resulting Hope damage.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -3981,7 +3985,7 @@ Sensitivity|(textbf
 us may gain Sensitivity dice through merits or other traits.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Take their Hand 
 \end_layout
 
@@ -4013,7 +4017,7 @@ When you act as a Touchstone to another character with a Hope track or similar
  A character can benefit from this extra healing only once a day.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Reflected Wounds
 \end_layout
 
@@ -4926,7 +4930,7 @@ The Learn Skill describes the Luminous' general knowledge and ability to
 \begin_inset Newline newline
 \end_inset
 
-
+f
 \begin_inset Newline newline
 \end_inset
 
@@ -5473,7 +5477,7 @@ Luminous Merits
 These Merits may only be taken by the Luminous.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Enhanced Sensitivity (• to •••••) 
 \end_layout
 
