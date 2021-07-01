@@ -10,7 +10,9 @@ Luminous is typeset using the [Lyx](https://www.lyx.org/) document processor. It
 
 On Windows, install [TeX Live](https://www.tug.org/texlive/acquire-netinstall.html) and then install [Lyx](https://www.lyx.org/Download#toc3).
 
-On Arch Linux, it requires the following packages: `lyx texlive texlive-latexextra`
+On Arch Linux, it requires the following packages: `lyx texlive texlive-latexextra`.
+
+Note that it (optionally) uses the `gitinfo2` package to embed revision information into the output PDF. Use a `git config --local core.hooksPath hooks` command if you want to enable this for your copy.
 
 License
 -------

@@ -9,9 +9,10 @@
 \usepackage{datetime}
 \usepackage{colortbl}
 \usepackage{tcolorbox}
+\usepackage[markifdraft]{gitinfo2}
 \end_preamble
-\options xcolor=table
-\use_default_options false
+\options xcolor=table,draft,___draft_marker___
+\use_default_options true
 \begin_modules
 todonotes
 fixltx2e
