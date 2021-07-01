@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cp "Luminous: the Dream.lyx" "Luminous: the Dream - Release.lyx"
-sed -i "s/,draft,___draft_marker___//g" "Luminous: the Dream - Release.lyx"
-lyx "Luminous: the Dream - Release.lyx" -E pdf4 "Luminous: the Dream - Release.pdf"
-
+cp "Luminous: the Dream.lyx" "LtD_Release.lyx"
+sed -i "s/usepackage\\[mark/usepackage[/g" "LtD_Release.lyx"
+lyx "LtD_Release.lyx" -E pdf4 "LtD_Release_Temp.pdf"
+qpdf "LtD_Release_Temp.pdf" "LtD_Release.pdf" \
+    --compress-streams=n --object-streams=generate --coalesce-contents --optimize-images

@@ -8,9 +8,9 @@
 \begin_preamble
 \usepackage{datetime}
 \usepackage{colortbl}
-\usepackage[markifdraft,marknotags]{gitinfo2}
+\usepackage[mark,raisemark=1.75\baselineskip]{gitinfo2}
 \end_preamble
-\options xcolor=table,todonotes=obeyDraft,draft,___draft_marker___
+\options xcolor=table,todonotes=obeyDraft
 \use_default_options true
 \begin_modules
 todonotes
@@ -46,6 +46,7 @@ pdfform
 \use_hyperref true
 \pdf_title "Luminous: the Dream"
 \pdf_author "AuroraAmissa"
+\pdf_subject "A Storytelling game of Distant Dreams"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen true
@@ -73,7 +74,7 @@ pdfform
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 0
 \use_minted 0
@@ -354,78 +355,32 @@ definecolor{maou-ln}{HTML}{ae83f2}
 
 
 \backslash
-definecolor{st-bg}{HTML}{ffdbe8}
+definecolor{st-bg}{HTML}{dbf2ff}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-definecolor{st-li}{HTML}{f5b0c8}
+definecolor{st-li}{HTML}{b2ddf5}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-definecolor{st-ln}{HTML}{f26d9b}
+definecolor{st-ln}{HTML}{6ec2f2}
 \end_layout
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup hyperlink formatting
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-hypersetup{
-\end_layout
-
-\begin_layout Plain Layout
-
-  colorlinks=true,
-\end_layout
-
-\begin_layout Plain Layout
-
-  linkcolor=lum-ln, 
-\end_layout
-
-\begin_layout Plain Layout
-
-  urlcolor=lum-ln, 
-\end_layout
-
-\begin_layout Plain Layout
-
-  pdfborderstyle={/S/U/W 0},
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup todo style
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setuptodonotes{color=lum-bg}
+definecolor{watermark}{HTML}{a0a0a0}
 \end_layout
 
 \begin_layout Plain Layout
@@ -443,7 +398,9 @@ setuptodonotes{color=lum-bg}
 \backslash
 renewcommand{
 \backslash
-gitMarkPref}{Draft}
+gitMarkPref}{Playtest 
+\backslash
+textbullet{} This version is subject to change}
 \end_layout
 
 \begin_layout Plain Layout
@@ -463,6 +420,28 @@ gitBranch
 gitDescribe{} (
 \backslash
 gitAuthorDate)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+gitMarkFormat}{
+\backslash
+color{watermark}
+\backslash
+fontsize{7}{0}
+\backslash
+sffamily}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+boolfalse{gitInf@mark}
 \end_layout
 
 \begin_layout Plain Layout
@@ -506,9 +485,9 @@ thepage}
 \backslash
 makeheadfootruleprefix{plain}{
 \backslash
-vbgcolor}{
+vlicolor}{
 \backslash
-vbgcolor} 
+vlicolor} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -587,9 +566,9 @@ thepage}
 \backslash
 makeheadfootruleprefix{mystyle}{
 \backslash
-vbgcolor}{
+vlicolor}{
 \backslash
-vbgcolor} 
+vlicolor} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -733,9 +712,88 @@ relax
 \backslash
 newcommand
 \backslash
+vcolorset{lum}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Common commands
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vbgcolorname{
+\backslash
+vcolorset-bg}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
 vbgcolor{
 \backslash
-color{lum-li}}
+color{
+\backslash
+vbgcolorname}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vlncolorname{
+\backslash
+vcolorset-ln}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vlncolor{
+\backslash
+color{
+\backslash
+vlncolorname}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vlicolorname{
+\backslash
+vcolorset-li}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vlicolor{
+\backslash
+color{
+\backslash
+vlicolorname}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -755,7 +813,7 @@ renewcommand*{
 \backslash
 parttitlefont}{
 \backslash
-fontsize{38}{38}
+fontsize{38}{30}
 \backslash
 vtitlefont}
 \end_layout
@@ -768,7 +826,7 @@ renewcommand*{
 \backslash
 chaptitlefont}{
 \backslash
-fontsize{38}{38}
+fontsize{38}{30}
 \backslash
 vtitlefont}
 \end_layout
@@ -810,6 +868,55 @@ setsubsubsecheadstyle{
 fontsize{15}{15}
 \backslash
 vtitlefont}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setuptodonotes{color=
+\backslash
+vbgcolorname}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypersetup{
+\end_layout
+
+\begin_layout Plain Layout
+
+  colorlinks=true,
+\end_layout
+
+\begin_layout Plain Layout
+
+  linkcolor=
+\backslash
+vlncolorname, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  urlcolor=
+\backslash
+vlncolorname,
+\end_layout
+
+\begin_layout Plain Layout
+
+  pdfborderstyle={/S/U/W 0},
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
@@ -913,31 +1020,9 @@ status open
 
 
 \backslash
-gitDescribe
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family sans
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
+gitDescribe{} (
 \backslash
-date{
-\backslash
-protect
-\backslash
-displaydate{
-\backslash
-today}}
+gitAuthorDate)
 \end_layout
 
 \end_inset
@@ -3027,6 +3112,33 @@ Luminous begin with a single Touchstone, and may gain more by buying the
  
 \end_layout
 
+\begin_layout Subsection
+Aspirations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Aspirations
+\end_layout
+
+\end_inset
+
+ The Hopeful are caught between the mundane and the supernatural, and their
+ goals reflect that.
+ They balance between the strains of everyday life, and the hidden problems
+ of the supernatural world that exists on the margins of society.
+\end_layout
+
+\begin_layout Standard
+Luminous have five Aspirations instead of the usual three.
+ Two of them must relate to her personal life or the broader mundane world,
+ and two of them must relate to the supernatural world.
+ The last Aspiration may be assigned freely.
+\end_layout
+
 \begin_layout Section
 Bright Dreams
 \end_layout
@@ -3986,33 +4098,6 @@ Far too often, Luminous find themselves wanting to change the world when
 \end_layout
 
 \begin_layout Subsection
-Mundane and Supernatural Aspirations
-\end_layout
-
-\begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Aspirations
-\end_layout
-
-\end_inset
-
- The Hopeful are caught between the mundane and the supernatural, and their
- goals reflect that.
- They balance between the strains of everyday life, and the hidden problems
- of the supernatural world that exists on the margins of society.
-\end_layout
-
-\begin_layout Standard
-Luminous have five Aspirations instead of the usual three.
- Two of them must relate to her personal life or the broader mundane world,
- and two of them must relate to the supernatural world.
- The last Aspiration may be assigned freely.
-\end_layout
-
-\begin_layout Subsection
 Sensitivity 
 \end_layout
 
@@ -4035,7 +4120,7 @@ Sensitivity|(textbf
 us may gain Sensitivity dice through merits or other traits.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Take their Hand 
 \end_layout
 
@@ -4067,7 +4152,7 @@ When you act as a Touchstone to another character with a Hope track or similar
  A character can benefit from this extra healing only once a day.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Reflected Wounds
 \end_layout
 
@@ -5829,38 +5914,7 @@ maoufont
 \backslash
 renewcommand
 \backslash
-vbgcolor{
-\backslash
-color{maou-li}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypersetup{
-\end_layout
-
-\begin_layout Plain Layout
-
-  linkcolor=maou-ln, 
-\end_layout
-
-\begin_layout Plain Layout
-
-  urlcolor=maou-ln,
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setuptodonotes{color=maou-bg}
+vcolorset{maou}
 \end_layout
 
 \end_inset
@@ -6300,38 +6354,7 @@ stfont
 \backslash
 renewcommand
 \backslash
-vbgcolor{
-\backslash
-color{st-li}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypersetup{
-\end_layout
-
-\begin_layout Plain Layout
-
-  linkcolor=st-ln, 
-\end_layout
-
-\begin_layout Plain Layout
-
-  urlcolor=st-ln,
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setuptodonotes{color=st-bg}
+vcolorset{st}
 \end_layout
 
 \end_inset
@@ -6424,6 +6447,53 @@ status open
 
 \backslash
 thispagestyle{pn}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Just disable colorful hyperlinks at this point.
+ Makes the index look bad.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypersetup{
+\end_layout
+
+\begin_layout Plain Layout
+
+  colorlinks=false,
+\end_layout
+
+\begin_layout Plain Layout
+
+  linkcolor=black, 
+\end_layout
+
+\begin_layout Plain Layout
+
+  urlcolor=black,
+\end_layout
+
+\begin_layout Plain Layout
+
+  pdfborderstyle={/S/U/W 0},
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
