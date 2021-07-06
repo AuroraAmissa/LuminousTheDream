@@ -8,7 +8,7 @@
 \begin_preamble
 \usepackage{datetime}
 \usepackage{colortbl}
-\usepackage[mark,raisemark=1.75\baselineskip]{gitinfo2}
+\usepackage[mark,raisemark=1.65\baselineskip]{gitinfo2}
 \end_preamble
 \options xcolor=table,todonotes=obeyDraft
 \use_default_options true
@@ -18,6 +18,7 @@ fixltx2e
 multicol
 tcolorbox
 pdfform
+enumitem
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -121,45 +122,6 @@ status open
 
 \backslash
 makeatletter
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setmainfont{FiraSans}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/FiraSans-Regular.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/FiraSans-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/FiraSans-Italic.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]
 \end_layout
 
 \begin_layout Plain Layout
@@ -289,12 +251,134 @@ input@path,
 
 
 \backslash
-makeatother
+setromanfont{FiraSans}[
 \end_layout
 
 \begin_layout Plain Layout
 
+	Path           = 
+\backslash
+input@path,
 \end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/FiraSans-Regular.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/FiraSans-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/FiraSans-Italic.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsansfont{FiraSans}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/FiraSans-Regular.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/FiraSans-Bold.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/FiraSans-Italic.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setmonofont{DejaVu Sans Mono}[
+\end_layout
+
+\begin_layout Plain Layout
+
+	Path           = 
+\backslash
+input@path,
+\end_layout
+
+\begin_layout Plain Layout
+
+	UprightFont    = fonts/DejaVuSansMono.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldFont       = fonts/DejaVuSansMono.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	ItalicFont     = fonts/DejaVuSansMono.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+	BoldItalicFont = fonts/DejaVuSansMono.ttf,
+\end_layout
+
+\begin_layout Plain Layout
+
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatother
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
@@ -457,6 +541,21 @@ boolfalse{gitInf@mark}
 
 
 \backslash
+newcommand
+\backslash
+footertextsize
+\backslash
+small
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 makepagestyle{plain}
 \end_layout
 
@@ -466,13 +565,19 @@ makepagestyle{plain}
 \backslash
 makeoddfoot{plain}{
 \backslash
+footertextsize
+\backslash
 sffamily
 \backslash
 leftmark}{
 \backslash
+footertextsize
+\backslash
 sffamily
 \backslash
 rightmark}{
+\backslash
+footertextsize
 \backslash
 sffamily
 \backslash
@@ -525,6 +630,8 @@ makepagestyle{pn}
 \backslash
 makeoddfoot{pn}{}{}{
 \backslash
+footertextsize
+\backslash
 sffamily
 \backslash
 thepage}
@@ -547,13 +654,19 @@ makepagestyle{mystyle}
 \backslash
 makeoddfoot{mystyle}{
 \backslash
+footertextsize
+\backslash
 sffamily
 \backslash
 leftmark}{
 \backslash
+footertextsize
+\backslash
 sffamily
 \backslash
 rightmark}{
+\backslash
+footertextsize
 \backslash
 sffamily
 \backslash
@@ -649,34 +762,7 @@ pagestyle{mystyle}
 
 \begin_layout Plain Layout
 
-
-\backslash
-twocoltocetc % two column table of contents
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-widowpenalties 1 10000 
-\backslash
-raggedbottom % Avoid splitting paragraphs.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-firmlists % Reduce list spacing.
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Typography
+% Setup typography
 \end_layout
 
 \begin_layout Plain Layout
@@ -707,6 +793,55 @@ hyphenpenalty=2500 % Less hyphens please...
 
 \backslash
 hbadness=2500
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+twocoltocetc % two column table of contents
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+widowpenalties 1 10000 
+\backslash
+raggedbottom % Avoid splitting paragraphs.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+firmlists % Reduce list spacing.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+labelitemi}{$
+\backslash
+texttt{❖}$}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlist[itemize]{leftmargin=1.2em}
 \end_layout
 
 \end_inset
@@ -1086,80 +1221,35 @@ vlncolorname,
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Title
+
+\size giant
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% Hack to style the title
-\end_layout
-
-\begin_layout Plain Layout
-
+\size giant
 
 \backslash
-makeatletter
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setmonofont{Dancing Script Bold}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeatother
+luminousfont{
 \end_layout
 
 \end_inset
 
+Luminous: the Dream
+\size default
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
-\begin_layout Title
+\end_inset
 
-\family typewriter
-\size giant
-Luminous: the Dream
-\family default
-\size default
 
 \begin_inset Newline newline
 \end_inset
@@ -1447,7 +1537,7 @@ literal "false"
 
 \end_inset
 
- by Carrois Apostrophe, and 
+ by Carrois Apostrophe, 
 \begin_inset CommandInset href
 LatexCommand href
 name "Quicksand"
@@ -1456,7 +1546,16 @@ literal "false"
 
 \end_inset
 
- by Andrew Paglinawan.
+ by Andrew Paglinawan, and 
+\begin_inset CommandInset href
+LatexCommand href
+name "DejaVu Sans Mono"
+target "https://dejavu-fonts.github.io/"
+literal "false"
+
+\end_inset
+
+ by various contributors.
 \end_layout
 
 \begin_layout Standard
@@ -2004,7 +2103,7 @@ They are the heroic warriors whose legends outlive them long after their
  time is over, the field scientists whose discoveries are cited decades
  later, the activist organizers who march among those they lead.
  The Sunlit, more than anything else, are the ones who shine brightly for
- all to see, the ones who do and visibly so.
+ all to see, the ones who act visibly in the open.
 \end_layout
 
 \begin_layout Standard
@@ -2040,16 +2139,16 @@ The elementary school teacher who always encouraged her students to be their
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
 
-\begin_layout Plain Layout
-TODO: Write Benefits section.
-\end_layout
-
-\end_inset
-
-
+\series bold
+Benefits:
+\series default
+ Luminous who resonate with Sunlight have a particular affinity for Regalia.
+ They may maintain up to three Regalia with no bound Invocations without
+ cost, and have one additional Regalia Capacity.
+ Furthermore, they qualify for Regalia upgrade requirements as if they had
+ one more dot in each Invocation they have at least one dot in.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2057,8 +2156,7 @@ TODO: Write Benefits section.
 \series bold
 Inspirations:
 \series default
- Nanoha Takamachi (Mahou Shoujo Lyrical Nanoha), Sayaka Miki (Puella Magi
- Madoka Magica) 
+ Nanoha Takamachi (Lyrical Nanoha), Sayaka Miki (Madoka Magica) 
 \end_layout
 
 \begin_layout Standard
@@ -2091,10 +2189,10 @@ The moon is no mere reflection of the sun's light.
 
 \begin_layout Standard
 They are the shrine maidens whose presence preserves the barrier of worlds,
- the lovers whose kind words let the hero fight another day, day, the dryad
- who guides visitors through the forest from the shadows.
+ the lovers whose kind words let the hero fight another day, the dryad who
+ guides visitors through the forest from the shadows.
  The Moonlit, more than anything else, are the ones who improve the world
- quietly, without calling attention to themselves.
+ quietly in the shadows, pulling the world towards its best future.
 \end_layout
 
 \begin_layout Standard
@@ -2138,16 +2236,11 @@ TODO: Write Benefits section.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
 
-\begin_layout Plain Layout
-TODO: Write Inspirations section.
-\end_layout
-
-\end_inset
-
-
+\series bold
+Inspirations:
+\series default
+ Will Vandom (W.I.T.C.H.), Aelita (Code Lyoko), Aura (.hack//)
 \end_layout
 
 \begin_layout Standard
@@ -2176,18 +2269,17 @@ A thousand stars shine in the skies, each their own distant worlds in the
  We look to the stars, and a thousand possible futures among them, each
  just as colorful as the rest.
  Those who follow the path of Starlight seek to embody those colorful worlds,
- each inspiring themselves and others to shine brightly in their own little
+ each inspiring themselves and others to shine brightly in their own unique
  ways.
 \end_layout
 
 \begin_layout Standard
-They are the dreamers who write fanciful stories of worlds that could be,
- the girl who pulls their shy friend out of their shell and shows them the
- world, the art teacher who tries to bring out the best of each of their
- student's own styles.
- The Starlit, more than anything else, are the ones who quietly encourage
- those around them to be their best selves, showing them the best possible
- self they can be.
+They are the dreamers who write fanciful stories of the worlds that could
+ be, the girl who inspires her shy friend out of her shell through her own
+ bright cheeriness, the art teacher who encourages her students to draw
+ what they truly want.
+ The Starlit, more than anything else, are the ones who show others what
+ is possible, that they could do the same themselves if they dared.
 \end_layout
 
 \begin_layout Standard
@@ -2217,29 +2309,23 @@ TODO: Write example characters section.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
 
-\begin_layout Plain Layout
-TODO: Write Benefits section.
-\end_layout
-
-\end_inset
-
-
+\series bold
+Benefits:
+\series default
+ Luminous who resonate with Starlight have a particular affinity for Charms.
+ They may Invoke a single Invocation for no Mote cost when they cast a Charm.
+ Furthermore, they qualify for Charm upgrade requirements as if they had
+ one more dot in each Invocation they have at least one dot in.
+ 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
 
-\begin_layout Plain Layout
-TODO: Write Inspirations section.
-\end_layout
-
-\end_inset
-
-
+\series bold
+Inspirations:
+\series default
+ Sakura Kinomoto (Cardcaptor Sakura), 
 \end_layout
 
 \begin_layout Standard
@@ -2251,50 +2337,6 @@ status open
 
 \backslash
 uncentertitles
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Archetype 
-\begin_inset CommandInset label
-LatexCommand label
-name "Sec-Archetype"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Archetype|textbf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write text here.
 \end_layout
 
 \end_inset
@@ -2516,14 +2558,6 @@ Muirias is one of the smaller Dream Kingdoms, covering a series of islands
 \begin_layout Standard
 
 \series bold
-Nicknames:
-\series default
- Stargazers, Seekers
-\end_layout
-
-\begin_layout Standard
-
-\series bold
 Benefit:
 \series default
  Stargazers are always eager to share the stories and knowledge they learn
@@ -2542,69 +2576,12 @@ an appropriate skill.
  matter.
 \end_layout
 
-\begin_layout Subsubsection*
-Everyday Life
-\end_layout
-
 \begin_layout Standard
-An elementary school teacher tries to teach her students the wonder of science,
- beyond the dry descriptions in the textbooks.
- She doesn't know how long it will last.
- Kids just a year older already bully her students for being interested
- in what she has to teach.
- She works a second job on weekends sometimes to feed her own children.
- But she still tries.
- After all, she still wished someone had done the same for her, so many
- years ago...
-\end_layout
 
-\begin_layout Standard
-A young boy wants to explore the world in all its colors.
- He wanted to see the fairies in the forest, the mermaids in the sea.
- Everyone said it was dangerous, that it wasn't worth it.
- That those wonders didn't exist...
- One day, he went anyway, into that park forest.
- There weren't the fairies of myth, but every time he turned over a new
- rock, he saw a new and wonderful bug he never had before.
- There weren't mermaids in the ponds, but he saw plants he never knew before
- by the lake's side.
- In the end, he found what he had come for after all.
-\end_layout
-
-\begin_layout Subsubsection*
-Dreams and Wonders 
-\end_layout
-
-\begin_layout Standard
-The teacher always knew her own son got it all too well.
- She knew that sometimes at night, he went out into town...
- He always returned, telling stories of people he met, and places he saw.
- She got it...
- But never stopped worrying.
- One day, she followed him, under cover of night, wanting to know.
- In a long abandoned building, she fell into the same crack between worlds
- her son rushed into.
- In a world of nightmare, she still wished with all her heart to protect
- her dear son.
- A spark ignited in her.
- And she took her son's side against the creatures of that world.
- ...
- and she saw.
- That she and her son had a world to explore together.
-\end_layout
-
-\begin_layout Standard
-One day, the boy found something different in the woods.
- A wisp fluttered on the winds, like nothing that should be.
- He followed it deep into the forest.
- Off the trails, past creeks.
- And when it eluded him past a raging river, he reached for a power he always
- knew was there on the edge of his awareness.
- He jumped, flying over that river with wings of starlight.
- The wisp returned to the witch who birthed it.
- She didn't know how to explain the boy to her students or what he was.
- Seeing the same spark in his eyes as her own, she offered to teach him
- as well, Awakened or not.
+\series bold
+Nicknames:
+\series default
+ Stargazers, Seekers
 \end_layout
 
 \begin_layout Subsubsection
@@ -2699,6 +2676,124 @@ Ban:
  to another.
 \end_layout
 
+\begin_layout Subsubsection
+Stories
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+An elementary school teacher tries to teach her students the wonder of science,
+ beyond the dry descriptions in the textbooks.
+ She doesn't know how long it will last.
+ Kids just a year older already bully her students for being interested
+ in what she has to teach.
+ She works a second job on weekends sometimes to feed her own children.
+ ...
+ but she still tries.
+ After all, she still wished someone had done the same for her, so many
+ years ago...
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The teacher always knew her own son got it all too well.
+ She knew that sometimes at night, he went out into town...
+ He always returned, telling stories of people he met, and places he saw.
+ She got it...
+ But never stopped worrying.
+ One day, she followed him, under cover of night, wanting to know.
+ In a long abandoned building, she fell into the same crack between worlds
+ her son rushed into.
+ In a world of nightmare, she still wished with all her heart to protect
+ her dear son.
+ A spark ignited in her.
+ And she took her son's side against the creatures of that world.
+ ...
+ and she saw.
+ That she and her son had a world to explore together.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+A young boy wants to explore the world in all its colors.
+ He wanted to see the fairies in the forest, the mermaids in the sea.
+ Everyone said it was dangerous, that it wasn't worth it.
+ That those wonders didn't exist...
+ One day, he went anyway, into that park forest.
+ There weren't the fairies of myth, but every time he turned over a new
+ rock, he saw a new and wonderful bug he never had before.
+ There weren't mermaids in the ponds, but he saw plants he never knew before
+ by the lake's side.
+ In the end, he found what he had come for after all.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+One day, the boy found something different in the woods.
+ A wisp fluttered on the winds, like nothing that should be.
+ He followed it deep into the forest.
+ Off the trails, past creeks.
+ And when it eluded him past a raging river, he reached for a power he always
+ knew was there on the edge of his awareness.
+ He jumped, flying over that river with wings of starlight.
+ The wisp returned to the witch who birthed it.
+ She didn't know how to explain the boy to her students or what he was.
+ Seeing the same spark in his eyes as her own, she offered to teach him
+ as well, Awakened or not.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
@@ -2708,6 +2803,50 @@ status open
 
 \backslash
 uncentertitles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Archetype 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Archetype"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Archetype|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write text here.
 \end_layout
 
 \end_inset
@@ -2982,6 +3121,13 @@ noprefix "false"
  three powers of the Luminous she focuses on.
  Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight)
 , and choose the one that fits your character concept the best.
+\end_layout
+
+\begin_layout Standard
+It may well be that your character could fit into multiple Luminaries.
+ Often, such characters tend to have the Luminary that reflect the kind
+ of power they would be more comfortable wielding, if their personality
+ could go either way.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3507,9 +3653,8 @@ A Luminous' Reverie measures how strongly she may connect the waking world
  her natural empathic abilities.
  However...
  it doesn't come without downsides.
- As her power grows she also acclimates to the ways of the Dream.
- For powerful Luminous, adjusting back to their Mundane Form becomes increasingl
-y difficult.
+ As her power grows she also acclimates to the ways of the Dream, and adjusting
+ back to her Mundane Form becomes increasingly difficult.
 \end_layout
 
 \begin_layout Standard
@@ -3519,7 +3664,7 @@ Reverie is a Luminous' Power Stat, granting her Supernatural Tolerance [CofD
 
 \begin_layout Standard
 \begin_inset Float table
-placement h
+placement b
 wide false
 sideways false
 status open
@@ -4355,19 +4500,11 @@ Motes are the small shards of the Dream's power that a Hopeful draws on
  to fuel her magic.
  She does not need to gather it from an outside source, but rather simply
  draws them from deep within her soul.
- She has a 
-\end_layout
-
-\begin_layout Standard
-A Luminous has a Mote Pool which refills to its capacity at the beginning
- of every Scene.
- Beyond that, she must draw deeper on her being, converting a small bit
- of her own emotions and dreams to fuel the rest of that magic and leaving
- her feeling down and worn out until she has had the time to recover.
- When her Mote Capacity is exhausted, she may still intentionally take a
- box of mild Hope damage to spend an additional Mote for the turn.
- Should she have no remaining undamaged Hope boxes, she may take a box of
- severe Hope damage instead.
+ She has a Motes Pool which refills to its capacity at the beginning of
+ every scene.
+ Beyond that, she can draw on her own emotional strength to fuel her magic.
+ For every Mote she draws in this way, she takes a box of mild Hope damage,
+ leaving her feeling down and exhausted until she has time to recover.
 \end_layout
 
 \begin_layout Subsection
@@ -6717,13 +6854,6 @@ TODO: Write this section.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -6754,10 +6884,19 @@ Keystone of Dreams
 \noindent
 \align center
 
-\series bold
-Epithets:
-\series default
- Luminous, Dreamers, Hopeful, Weavers 
+\emph on
+\begin_inset Quotes xld
+\end_inset
+
+Our dreams aren't just meaningless imaginings of our subconscious.
+\begin_inset Newline newline
+\end_inset
+
+They are a reflection of the worlds we truly want, that are yet to be.
+\begin_inset Quotes xrd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -6801,12 +6940,44 @@ Those who hold the Keystone of Dreams are Luminous, the wayward children
 \end_layout
 
 \begin_layout Standard
-Should a Maou try to grasp the old Code of Dreams regardless, they would
- find that they had fragmented into countless Invocations reflecting the
- worlds the Weavers built in their dreams.
+
+\series bold
+Benefits:
+\series default
+ Maou cannot take the Keystone of Dreams.
+ When learning the powers of the Maou, or interacting with some of their
+ abilities, however, Luminous are considered to have the Keystone of Dreams
+ with no Ancestry.
+ They do not add their Reverie or Code ratings to their dice pools, instead
+ relying on their transformed attributes and skills.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+
+\series bold
+Nicknames:
+\series default
+ Luminous, Dreamers, Hopeful, Weavers 
+\end_layout
+
+\begin_layout Subsubsection*
+Code: Idealis
+\end_layout
+
+\begin_layout Standard
+The old Code of Idealis is no longer exists in any meaningful way.
+ Should a Maou try to grasp it regardless, they would find that it had fragmente
+d into countless Invocations reflecting worlds the Weavers built in their
+ dreams.
  In theory, a Maou with amicable ties to the Luminous may still be taught
  an Invocation, the same way they learn other foreign Codes.
- 
+\end_layout
+
+\begin_layout Standard
+A few rare abilities of the Maou may be Invoked using Idealis.
+ Any Luminous Invocation will fulfill this requirement.
 \end_layout
 
 \begin_layout Standard
@@ -6826,6 +6997,7 @@ uncentertitles
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Newpage newpage
 \end_inset
 
