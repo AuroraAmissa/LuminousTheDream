@@ -922,7 +922,7 @@ vsubsubsecsize{15}
 \backslash
 newcommand
 \backslash
-centertitles{
+setsplatlayout{
 \end_layout
 
 \begin_layout Plain Layout
@@ -956,6 +956,13 @@ vsubsubsecsize{20}
 
 \begin_layout Plain Layout
 
+	
+\backslash
+defaultlists
+\end_layout
+
+\begin_layout Plain Layout
+
 }
 \end_layout
 
@@ -965,7 +972,7 @@ vsubsubsecsize{20}
 \backslash
 newcommand
 \backslash
-uncentertitles{
+setnormallayout{
 \end_layout
 
 \begin_layout Plain Layout
@@ -995,6 +1002,13 @@ vsubsecsize{20}
 renewcommand
 \backslash
 vsubsubsecsize{15}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+firmlists
 \end_layout
 
 \begin_layout Plain Layout
@@ -1961,9 +1975,9 @@ Chapter 1: Shining Lights
 \end_layout
 
 \begin_layout Standard
-The Luminous built the Dream they draw their Light from over the generations,
+The Luminous built the Dream they draw their magic from over the generations,
  hiding it away in the corners of humanity's shared subconscious.
- Their Light is as fluid and shifting a thing as any other dream.
+ Their nature is as fluid and shifting as any other dream.
  Before the Luminous were magical girls, they were the paladins in shining
  armor, the angels with wings of light, the witch in the forest, the village
  shaman.
@@ -1988,14 +2002,14 @@ Their Luminary forms the foundation of their magic, reflecting their approach
 \end_layout
 
 \begin_layout Itemize
-The Archetype shapes their Dream Form and how they project their Light upon
- the world.
-\end_layout
-
-\begin_layout Itemize
 The Kingdom they are a citizen of in their dreams, reflecting their vision
  of a better world.
  
+\end_layout
+
+\begin_layout Itemize
+The Archetype shapes their Dream Form and how they project their Light upon
+ the world.
 \end_layout
 
 \begin_layout Section
@@ -2060,7 +2074,7 @@ status open
 
 
 \backslash
-centertitles
+setsplatlayout
 \end_layout
 
 \end_inset
@@ -2336,7 +2350,7 @@ status open
 
 
 \backslash
-uncentertitles
+setnormallayout
 \end_layout
 
 \end_inset
@@ -2408,7 +2422,7 @@ The eight Dream Kingdoms a Luminous may reside in are:
 \begin_layout Itemize
 
 \series bold
-Avalon, the Kingdom of Gardens
+Avalon, the Last Garden
 \series default
 : A beautiful kingdom led by nobility sworn to serve the needs of their
  people.
@@ -2419,7 +2433,7 @@ Avalon, the Kingdom of Gardens
 \begin_layout Itemize
 
 \series bold
-Aztlan, the Freehold of Torches
+Aztlan, the Torchlit Freehold
 \series default
 : A sprawling country whose residents pride themselves on their passions
  and true values.
@@ -2430,7 +2444,7 @@ Aztlan, the Freehold of Torches
 \begin_layout Itemize
 
 \series bold
-Elysium, the City-State of Ribbons
+Elysium, the Library of Ages
 \series default
 : A sanctuary city that preserves the histories of the world as it is and
  once was.
@@ -2450,7 +2464,7 @@ Konohana, the Forest of Cycles
 \begin_layout Itemize
 
 \series bold
-Ildathach, the Domain of Colors
+Ildathach, the Colorful Dream
 \series default
 : A dream-like vision of a world triumphing over even the laws of reality.
  Its Invocation is Prisma, of uncompromising idealism and defiance against
@@ -2460,7 +2474,7 @@ Ildathach, the Domain of Colors
 \begin_layout Itemize
 
 \series bold
-Muirias, the Archipelago of Stars
+Muirias, the Crystal Isles
 \series default
 : A series of island nations filled with wonders of science and magic.
  Its Invocation is Brillare, of learning and wonder at the world.
@@ -2469,7 +2483,7 @@ Muirias, the Archipelago of Stars
 \begin_layout Itemize
 
 \series bold
-Sancus, the Alliance of Spears
+Sancus, the Pyre Alliance
 \series default
 : A close-knit alliance of city-states built over the generations of hard
  work.
@@ -2502,7 +2516,7 @@ status open
 
 
 \backslash
-centertitles
+setsplatlayout
 \end_layout
 
 \end_inset
@@ -2549,10 +2563,11 @@ Naming their Kingdom after the great sea city of the Tuatha de Danann, the
 \end_layout
 
 \begin_layout Standard
-Muirias is one of the smaller Dream Kingdoms, covering a series of islands
- connected by boats and other more exotic means of transport.
- Its cities strongly resemble modern civilization, but in a way that highlights
- the magic and knowledge they hold in their hands.
+
+\series bold
+Member Nicknames:
+\series default
+ Stargazers, Seekers
 \end_layout
 
 \begin_layout Standard
@@ -2563,7 +2578,7 @@ Benefit:
  Stargazers are always eager to share the stories and knowledge they learn
  over their years.
  Once per scene, when you tell a story or teach something new to a person
- or a small group, roll
+ or a small group, roll Presence
 \begin_inset space ~
 \end_inset
 
@@ -2576,69 +2591,65 @@ an appropriate skill.
  matter.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Nicknames:
-\series default
- Stargazers, Seekers
-\end_layout
-
-\begin_layout Subsubsection
-Beliefs
+\begin_layout Subsubsection*
+The Crystal Isles 
 \end_layout
 
 \begin_layout Standard
-Muirias was founded on one simple feeling: "I want to know!"
+In their dream of Muirias, the Stargazers wove an archipelago connected
+ by boats, bridges of solidified light, and other yet more exotic means
+ of transport.
+ Its cities strongly resemble modern civilization, but in a way that highlights
+ the magic and knowledge they hold in their hands.
+ Their gleaming cities are built of crystalline spires of polished ceramic,
+ stone, and glass.
+ Further out into the wilderness, their towns and villas seem to girdle
+ the beaches with diamond spires.
 \end_layout
 
 \begin_layout Standard
+The ground floor of the towers are lined with the essential facilities of
+ everyday life – grocery stores, restaurants and so forth.
+ Behind the crystal exteriors and shining spires that rise above, the Crystal
+ Isles are filled with the hallmarks of modern industry, workshops producing
+ magical wonders, and schools and colleges both small and large.
+\end_layout
 
-\series bold
-Salvation in Understanding:
-\series default
- Humanity flounders in the darkness of ignorance.
- When bad things happen, is there not a reason? Even if the unknown is terrifyin
-g, is there not a truth on the other side? When we learn the answers to
- such questions, we learn the wonders we were once afraid of, and the answers
- to problems that were once insurmountable.
- Society's greatest achievements were always made when we learned more of
+\begin_layout Subsubsection*
+Beliefs 
+\end_layout
+
+\begin_layout Standard
+Above all else, Muirias brings together those Luminous where people value
+ knowledge, without losing sight of the fundamental wonder and curiosity
+ that drives people to discover.
+ To them, to reduce the world to what is physically true is to rob it of
+ the magic that drives that curiosity forward.
+ The marvels of the world cannot be seen simply through textbooks and rote
+ memorization.
+ So many meaningful truths can only be learned when you experience them
+ for yourself.
+\end_layout
+
+\begin_layout Standard
+When you understand well enough the truth behind those wonders and what
+ makes them wonderful, then you can weave your own.
+ When the world is known, there is no more reason to fear what is unknown.
+ Thus, the only way forward is to pierce the mists of ignorance.
+\end_layout
+
+\begin_layout Standard
+Society's greatest achievements were always made when we learned more of
  the world around us.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-The World Shines:
-\series default
- Knowledge for its own sake rots us from the inside.
- If you deny the wonders the world can hold, in favor of cold, meaningless
- explanations, the magic of the world disappears.
- In myths, we learn what those who once lived valued and how they viewed
- the world.
- In religion, we find ways to appreciate the beauty in this world.
- In the constellations we are born under, we find ways to understand ourselves.
- Meaning is not the sole province of the proven and provable.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Shine as a Constellation: 
-\series default
-Simply hoarding knowledge in the belief that you alone can wield it rightfully
- is the height of hubris.
- It is a self-fulfilling prophecy of the worst kind.
- The more you deceive and hide from your peers, the less they will be able
- to understand or help you when you most need it.
- It is a path only for those who want to control, not to enlighten.
- Share the light of knowledge, and bring the world upwards towards a brighter
- future, together.
+ Towards that end, knowledge must be shared, not hoarded.
+ People must be shown the world, not have it reduced to mathematical laws
+ and cold facts.
+ There is a brighter future in learning and information.
  The more minds that we can work with, the better we all will be.
 \end_layout
 
-\begin_layout Subsubsection
-Invocation: Brillare
+\begin_layout Subsubsection*
+Invocation: Brillare 
 \end_layout
 
 \begin_layout Standard
@@ -2676,7 +2687,7 @@ Ban:
  to another.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Stories
 \end_layout
 
@@ -2700,16 +2711,11 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
-An elementary school teacher tries to teach her students the wonder of science,
- beyond the dry descriptions in the textbooks.
- She doesn't know how long it will last.
- Kids just a year older already bully her students for being interested
- in what she has to teach.
- She works a second job on weekends sometimes to feed her own children.
- ...
- but she still tries.
- After all, she still wished someone had done the same for her, so many
- years ago...
+An elementary school teacher tries to teach her students the wonders behind
+ the dry science in the textbooks, fighting against the children just a
+ grade up who bully those who like to learn.
+ She works two jobs just to feed herself and her family.
+ Even so, she persists, because she knows she can make a difference.
 \begin_inset VSpace defskip
 \end_inset
 
@@ -2717,21 +2723,24 @@ An elementary school teacher tries to teach her students the wonder of science,
 \end_layout
 
 \begin_layout Plain Layout
-The teacher always knew her own son got it all too well.
- She knew that sometimes at night, he went out into town...
- He always returned, telling stories of people he met, and places he saw.
- She got it...
- But never stopped worrying.
- One day, she followed him, under cover of night, wanting to know.
- In a long abandoned building, she fell into the same crack between worlds
- her son rushed into.
- In a world of nightmare, she still wished with all her heart to protect
- her dear son.
- A spark ignited in her.
- And she took her son's side against the creatures of that world.
- ...
- and she saw.
- That she and her son had a world to explore together.
+Her own son gets it.
+ He explores the world on his own terms, going out into town often.
+ He was always bringing back stories of the places he saw and the people
+ he met out there, but it always felt as if he was leaving something out.
+ She understood the curiosity he had, but never so much the secrecy.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+One day, she followed him under the cover of night, wanting to know what
+ he was truly up to.
+ She chased him into a long abandoned building, only to find herself chased
+ by the creature of nightmares her son was fighting.
+ When her son could no longer protect her from it, she took it into her
+ own hands, Blossoming to stand by his side.
 \end_layout
 
 \end_inset
@@ -2761,11 +2770,11 @@ status open
 \begin_layout Plain Layout
 A young boy wants to explore the world in all its colors.
  He wanted to see the fairies in the forest, the mermaids in the sea.
- Everyone said it was dangerous, that it wasn't worth it.
+ He was told that it wasn't worth it.
  That those wonders didn't exist...
- One day, he went anyway, into that park forest.
- There weren't the fairies of myth, but every time he turned over a new
- rock, he saw a new and wonderful bug he never had before.
+ One day, he went anyway on his own, into that park forest.
+ There weren't the fairies of his fairy tales, but every time he turned
+ over a new rock, he saw a new and wonderful bug he never had before.
  There weren't mermaids in the ponds, but he saw plants he never knew before
  by the lake's side.
  In the end, he found what he had come for after all.
@@ -2776,17 +2785,30 @@ A young boy wants to explore the world in all its colors.
 \end_layout
 
 \begin_layout Plain Layout
-One day, the boy found something different in the woods.
- A wisp fluttered on the winds, like nothing that should be.
- He followed it deep into the forest.
- Off the trails, past creeks.
- And when it eluded him past a raging river, he reached for a power he always
- knew was there on the edge of his awareness.
- He jumped, flying over that river with wings of starlight.
- The wisp returned to the witch who birthed it.
- She didn't know how to explain the boy to her students or what he was.
- Seeing the same spark in his eyes as her own, she offered to teach him
- as well, Awakened or not.
+Even a year later, he still liked it in the woods.
+ It was...
+ somehow different still, a place to just watch all the animals, observe
+ all the little intricacies of how they lived their lives.
+ But, that day, he found something different.
+ A wisp fluttered on the winds, glowing with an impossible light.
+ He chose to believe.
+ He followed it deeper into the forest than he had ever gone before, off
+ the trails and past raging creeks.
+ When it eluded him past a raging river, he reached for an nameless power
+ inside him he always knew was there...
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Flying over that river with wings of starlight, she saw a witch on the other
+ side with her students.
+ She didn't know how to explain him to them, how to handle the sudden disruption
+ of her own lesson.
+ Instead, seeing that same spark in his eyes she always knew, she offered
+ to teach him as well, Awakened or not.
 \end_layout
 
 \end_inset
@@ -2802,7 +2824,7 @@ status open
 
 
 \backslash
-uncentertitles
+setnormallayout
 \end_layout
 
 \end_inset
@@ -3341,7 +3363,7 @@ All characters have certain characteristics that are derived from their
 \series bold
 Size:
 \series default
- Characters start at Size 5 in both Mundane Form and Dream form
+ Characters start at Size 5 in both Mundane Form and Dream Form.
 \end_layout
 
 \begin_layout Itemize
@@ -3403,6 +3425,14 @@ Dream Health:
 \begin_layout Itemize
 
 \series bold
+Transformed Speed:
+\series default
+ 5 + Power + Finesse
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 Transformed Defense:
 \series default
  (Lower of Resistance and Finesse) + Flow
@@ -3414,14 +3444,6 @@ Transformed Defense:
 Transformed Initiative:
 \series default
  Finesse + Resistance
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Speed:
-\series default
- 5 + Power + Finesse
 \end_layout
 
 \begin_layout Section
@@ -6861,7 +6883,7 @@ status open
 
 
 \backslash
-centertitles
+setsplatlayout
 \end_layout
 
 \end_inset
@@ -6988,7 +7010,7 @@ status open
 
 
 \backslash
-uncentertitles
+setnormallayout
 \end_layout
 
 \end_inset
