@@ -670,6 +670,45 @@ raggedbottom % Avoid splitting paragraphs.
 firmlists % Reduce list spacing.
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Typography
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+parfillskip}{0pt plus 1fil} % Paragraph spacing
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emergencystretch=0.1em
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyphenpenalty=2500 % Less hyphens please...
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbadness=2500
+\end_layout
+
 \end_inset
 
 
@@ -3206,14 +3245,15 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="6">
+<lyxtabular version="3" rows="11" columns="7">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="bottom" width="0.9in">
-<column alignment="left" valignment="bottom" width="0.95in">
-<column alignment="left" valignment="bottom" width="0.9in">
-<column alignment="left" valignment="bottom" width="0.9in">
-<column alignment="left" valignment="bottom" width="0.9in">
-<column alignment="left" valignment="bottom" width="1.45in">
+<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="1.2in">
 <row>
 <cell alignment="left" valignment="bottom" usebox="none">
 \begin_inset Text
@@ -3232,11 +3272,7 @@ Reverie
 \begin_layout Plain Layout
 
 \series bold
-Transformed
-\begin_inset Newline newline
-\end_inset
-
-Skill Max
+Dream Trait Maximum
 \end_layout
 
 \end_inset
@@ -3258,11 +3294,7 @@ Mote Pool
 \begin_layout Plain Layout
 
 \series bold
-Regalia
-\begin_inset Newline newline
-\end_inset
-
-Capacity
+Regalia Capacity
 \end_layout
 
 \end_inset
@@ -3273,11 +3305,7 @@ Capacity
 \begin_layout Plain Layout
 
 \series bold
-Base
-\begin_inset Newline newline
-\end_inset
-
-Sensitivity
+Base Sensitivity
 \end_layout
 
 \end_inset
@@ -3288,7 +3316,18 @@ Sensitivity
 \begin_layout Plain Layout
 
 \series bold
-Flicker Duration
+Flicker Intensity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Flicker Trigger
 \end_layout
 
 \end_inset
@@ -3356,7 +3395,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-10 minutes
+-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transformation
 \end_layout
 
 \end_inset
@@ -3412,7 +3460,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-10 minutes
+-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transformation
 \end_layout
 
 \end_inset
@@ -3480,7 +3537,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 scene/hour
+-1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transformation
 \end_layout
 
 \end_inset
@@ -3536,7 +3602,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 scene/hour
+-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transformation
 \end_layout
 
 \end_inset
@@ -3604,7 +3679,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 scene/hour
+-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transformation
 \end_layout
 
 \end_inset
@@ -3660,7 +3744,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-4 scenes/hours
+-2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dreams
 \end_layout
 
 \end_inset
@@ -3701,7 +3794,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-7
+8
 \end_layout
 
 \end_inset
@@ -3728,7 +3821,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-4 scenes/hours
+-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dreams
 \end_layout
 
 \end_inset
@@ -3757,7 +3859,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-8
+10
 \end_layout
 
 \end_inset
@@ -3784,7 +3886,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-4 scenes/hours
+-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dreams
 \end_layout
 
 \end_inset
@@ -3825,7 +3936,7 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-9
+15
 \end_layout
 
 \end_inset
@@ -3852,7 +3963,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 day
+-3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constant
 \end_layout
 
 \end_inset
@@ -3881,7 +4001,8 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+20\SpecialChar softhyphen
+
 \end_layout
 
 \end_inset
@@ -3908,7 +4029,16 @@ rowcolor{lum-bg}
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 day
+-4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constant
 \end_layout
 
 \end_inset
@@ -5387,7 +5517,7 @@ The Hopeful derive one last benefit from their transformation: Their mundane
 \begin_layout Standard
 Supernatural powers used to try and link her two identities are similarly
  fooled.
- Powers that use Sympathy or Intimacy treat her two forms as separate --
+ Powers that use Sympathy or Intimacy treat her two forms as separate –
  a friend who only knows her in her mundane form has no Sympathy with her
  Dream Form.
  Powers that determine information about a Luminous do not directly reveal
@@ -5400,8 +5530,8 @@ Supernatural powers used to try and link her two identities are similarly
 \begin_layout Standard
 As powerful as it is, however, a Luminous cannot rely solely on Dual Identity
  to protect herself.
- It does not prevent others from suspecting a Luminou' nature based on circumsta
-ntial evidence.
+ It does not prevent others from suspecting a Luminous' nature based on
+ circumstantial evidence.
  She cannot simply dip into a closet only to return as a mysterious magical
  girl, and not expect others to not draw the connection.
  She obviously cannot transform in front of someone, and expect Dual Identity
@@ -5460,36 +5590,43 @@ Flicker|(textbf
 
 \end_inset
 
-The Hopeful balance on a precipice between dreams and reality, one where
- it is all too easy to slip.
- In their Dream Form they are empowered to touch the world in terms of stories
- and intents, rather than physics and forces.
- For the Luminous, it is too easy to get used to half-dreaming like that.
- When a Luminous reverts to Mundane Form, she suffers Flicker as she readjusts
- her mundane body.
- At Reverie 1-2, Flicker lasts for 10 minutes.
- At Reverie 3-5, Flicker ends after 1 scene or 1 hour, whichever comes earlier.
- At Reverie 6-8, Flicker ends after 4 scenes or 4 hours, whichever comes
- earlier.
- At Reverie 9-10, Flicker ends after a day.
+For the Hopeful, the balance between reality and their own dreams is all
+ too easy to lose.
+ In their Dream Form, they are empowered to touch the world in terms of
+ stories and intents, rather than physics and forces.
+ They find it all too easy to get used to that kind of half-dreaming existence.
 \end_layout
 
 \begin_layout Standard
-When suffering from Flicker, a Luminous is ever so slightly distracted by
- the dreams and imaginations that would fuel her magic if she were in Dream
- Form, and ever so slightly clumsy as they fail to have the power she, on
- some level, expects.
- She suffers a penalty equal to her Reverie divided by 3 (rounded up) to
- all actions taken in her Mundane Form.
- Once per scene, if she fails an important roll or suffers social complications
- due to this, she gains a Beat.
+When she reverts to Mundane Form after transforming or visiting the Dream
+ in a lucid dream, she suffers Flicker.
+ She is ever so slightly distracted by the dreams and imaginations that
+ would fuel her magic if she were in Dream Form, and she takes a penalty
+ equal to her Reverie divided by 3 (rounded up) to all actions taken in
+ her Mundane Form.
+ Once a scene, if she fails an important roll or suffers significant social
+ complications due to this, she gains a Beat.
 \end_layout
 
 \begin_layout Standard
-At Reverie 6 and above, Flicker no longer requires a Luminous to intentionally
- transform into Dream Form.
- Even mundane dreams and visits to the Dream are enough to cause Flicker
- when she wakes up.
+Flicker lasts for ten minutes if the Luminous had been transformed for less
+ than a scene, one scene if she had been transformed for a whole scene or
+ longer, one hour if she had been transformed for a day or longer, one day
+ if she had been transformed for a week or longer, and one week if she had
+ been transformed for a month or longer.
+ Every time the Flicker duration elapses, the penalty lowers by one.
+ If she transforms or otherwise triggers Flicker before it fully fades,
+ the penalty severity resets.
+ Further transformations cannot decrease the duration for Flicker to fade,
+ but it can increase it.
+\end_layout
+
+\begin_layout Standard
+Furthermore, at Reverie 6 or above, Flicker no longer requires a Luminous
+ to intentionally transform.
+ Mundane dreams trigger Flicker too, with a duration of one hour.
+ At Reverie 9, her Flicker penalty can no longer be reduced below -1.
+ At Reverie 10, it can no longer be reduced below -2.
 \begin_inset Index idx
 status open
 
@@ -5862,6 +5999,256 @@ TODO: Write this chapter.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Young Luminous
+\end_layout
+
+\begin_layout Standard
+Far too many Hopeful do not have the luxury of waiting until adulthood to
+ grasp the power of the Dream.
+ The cruelties of the world always start far too early.
+ Especially compared with other types of supernatural beings, Luminous tend
+ to Blossom very early, with all the complications and benefits it comes
+ with.
+ On one hand...
+ becoming something else is too often effectively the end of their childhood.
+ On the other hand, too often that childhood is one they would not wish
+ to continue even if they had the choice.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Luminous: the Dream
+\emph default
+ may be used with the rules for child characters found in 
+\emph on
+World of Darkness: Innocents
+\emph default
+.
+ While such a game is fundamentally a Luminous chronicle at its heart, those
+ rules are still useful to represent a characters' significant younger Mundane
+ Form.
+ The Luminous template may be used in combination with the Innocent template.
+ Create the character as a normal Luminous with the following modifications:
+\end_layout
+
+\begin_layout Itemize
+She has a lower number of mundane skill dots equal to the normal total for
+ her age, and may not place dots in a category exceeding the normal maximum
+ for her age's primary category.
+\end_layout
+
+\begin_layout Itemize
+Her mundane skills have a cap of three dots, which increases to four dots
+ at Reverie 2 and five dots at Reverie 4.
+ At Reverie 4, refund all Prodigy merits under the Sanctity of Merits.
+\end_layout
+
+\begin_layout Itemize
+She has the Study skill instead of Academics and Science.
+ It counts as part of the Learn transformed skill.
+\end_layout
+
+\begin_layout Itemize
+She may buy the Youthful merit for free.
+\end_layout
+
+\begin_layout Itemize
+In Mundane Form, the usual rules for young characters apply to her.
+ For example, she suffers increased wounds penalties, is easy to beat down,
+ and has a significant disadvantage versus adults.
+\end_layout
+
+\begin_layout Itemize
+In her Dream Form, she is never subjected to any of the rules of 
+\emph on
+Innocents
+\emph default
+, regardless of her size or appearance.
+ With some cunning, she may even acquire social merits normally forbidden
+ to young characters – up to and including a full adult Alternate Identity
+ given enough persistence and an appropriate Dream Form.
+\end_layout
+
+\begin_layout Subsection*
+World of Darkness: Innocents Summary 
+\end_layout
+
+\begin_layout Standard
+This section contains a brief summary of the important rules for child character
+s found in 
+\emph on
+World of Darkness: Innocents
+\emph default
+.
+ Using the full source book is very much recommended as it also provides
+ useful thematic guidelines and flavor context as to the rules.
+ This summary, then, is meant for use as a quick reference, as a backup
+ if you do not have access to 
+\emph on
+Innocents
+\emph default
+, and to serve as a partial update to Chronicles of Darkness rules.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Virtue/Vice:
+\series default
+ Children use Virtue/Vice like other mortals.
+ While in Innocents, they have different Anchors called Asset/Fault, these
+ work identically to CofD's version of Virtue/Vice.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Morality and Triggers:
+\series default
+ Children use Integrity like other mortals.
+ As Triggers were a replacement for derangements in Innocents, they are
+ superseded by breaking point conditions.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attributes:
+\series default
+ Children allocate attributes the same way as older characters.
+ As their dots are compared to the average of their age, they are still
+ worse than adults with the same scores.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Skills:
+\series default
+ Young characters are normally capped to 3 dots in each skill.
+ Furthermore, they have fewer skill points to allocate based on their age.
+ 7-year-old children allocate 6/5/2 skills, 8-year-olds allocate 7/4/2,
+ 9-year-olds allocate 7/4/2, 10-year-olds allocate 8/5/3, 11-year-olds allocate
+ 8/5/3, 12-year-olds allocate 9/5/3, and teenagers allocate 10/6/4.
+ Children younger than 10 have 1 skill speciality, children 10 or older
+ have 2 skill specialities.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Skill List:
+\series default
+ Children have a Study skill representing their skill at studying and schoolwork.
+ This replaces their Academics and Science skills.
+ They may not have the Drive skill except in special circumstances that
+ would logically allow it.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Escape:
+\series default
+ Children are especially skilled at escaping from combat.
+ As long as their opponent is not fully focused on them, a child may attempt
+ to escape or hide.
+ Escape requires an Dexterity + Wits vs Wits + Composure roll, and hiding
+ requires a Dexterity + Stealth vs Wits + Composure roll.
+ Notably, in the context of Luminous, a transformation is certainly enough
+ of a distraction to invoke this rule.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Firearms:
+\series default
+ The first time in a combat a character under about the age of 12 unused
+ to gunfire is shot at, must spend a point of Willpower or be Beaten Down.
+ Furthermore, when such a character attempts to shoot a firearm at someone
+ for the first time, she must pass a Resolve + Composure roll or she misses
+ and must roll again the next time she tries.
+ Luminous who have fought in Dream Form before are exempt from this penalty.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Wound Penalties:
+\series default
+ Children are especially vulnerable to wound penalties compared to adults.
+ Instead of the normal benchmarks, she suffers a -1 penalty to all actions
+ when her fifth-to-last health box is damaged, loses 10-again when her fourth-to
+-last is marked, suffers a -2 penalty when her third-to-last health box
+ is damaged, cannot spend Willpower to boost rolls when her second-to-last
+ is marked, and suffers a -3 penalty when her last box is damaged.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Stunning:
+\series default
+ The Stunning rules in Innocents are superseded by Beaten Down & Surrender
+ optional rule.
+ That rule always applies to children, even in chronicles where it doesn't
+ to adults.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Adults vs Children:
+\series default
+ Adults gain 8-again on all rolls against children, except when they try
+ to hide or escape.
+ Unarmed attacks by children against adults suffer a penalty equal to their
+ Stamina.
+\end_layout
+
+\begin_layout Subsection*
+Converting Children to Adults 
+\end_layout
+
+\begin_layout Standard
+One day, childhood must end even for the most imaginative or childish of
+ people.
+ Even the Luminous, who are caught in the middle of the responsibility of
+ adulthood and the wonders and dreams of childhood, are burdened with everchangi
+ng obligations and restrictions in their mundane life.
+ While many choose to spend their younger years continuing their fight,
+ others often lay low for quite a while to establish themselves further
+ in adult life.
+ To skip a child character to adulthood, apply the following changes:
+\end_layout
+
+\begin_layout Itemize
+Remove any merits that no longer make sense and refund them under the Sanctity
+ of Merits.
+\end_layout
+
+\begin_layout Itemize
+Reduce all mundane skills the character has dots in by one dot (down to
+ a minimum of one dot), then give them mundane skill dots up to the normal
+ adult total of 22 if they have less.
+ For Luminous characters, if this would reduce one of their transformed
+ skills, she gains transformed skill dots to make up the difference.
+ If this would increase her transformed skills, she loses transformed skill
+ dots to make up the difference if possible.
+\end_layout
+
+\begin_layout Itemize
+Grant the character 20 experiences + 1 experience for every year that has
+ passed.
+\end_layout
+
+\begin_layout Itemize
+Luminous characters gain a dot of Reverie in addition.
 \end_layout
 
 \begin_layout Chapter
