@@ -756,6 +756,119 @@ vcolorset{lum}
 
 \begin_layout Plain Layout
 
+
+\backslash
+newcommand
+\backslash
+vsubsecsize{20}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vsubsubsecsize{15}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Setup macros
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+centertitles{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vsubsecsize{30}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vsubsubsecsize{20}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+uncentertitles{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vsubsecsize{20}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vsubsubsecsize{15}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -893,9 +1006,15 @@ vtitlecentered}
 \backslash
 setsubsecheadstyle{
 \backslash
-fontsize{20}{20}
+fontsize{
 \backslash
-vtitlefont}
+vsubsecsize}{
+\backslash
+vsubsecsize}
+\backslash
+vtitlefont
+\backslash
+vtitlecentered}
 \end_layout
 
 \begin_layout Plain Layout
@@ -904,7 +1023,11 @@ vtitlefont}
 \backslash
 setsubsubsecheadstyle{
 \backslash
-fontsize{15}{15}
+fontsize{
+\backslash
+vsubsubsecsize}{
+\backslash
+vsubsubsecsize}
 \backslash
 vtitlefont}
 \end_layout
@@ -1836,18 +1959,9 @@ status open
 
 \begin_layout Plain Layout
 
-% Center section titles for Splats section
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-centering
+centertitles
 \end_layout
 
 \end_inset
@@ -1862,7 +1976,7 @@ centering
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Sunlight
 \end_layout
 
@@ -1954,7 +2068,7 @@ Inspirations:
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Moonlight
 \end_layout
 
@@ -2043,7 +2157,7 @@ TODO: Write Inspirations section.
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Starlight 
 \end_layout
 
@@ -2134,18 +2248,9 @@ status open
 
 \begin_layout Plain Layout
 
-% Uncenter section titles for Splats section
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-relax
+uncentertitles
 \end_layout
 
 \end_inset
@@ -2209,19 +2314,6 @@ Kingdoms
 \begin_inset CommandInset label
 LatexCommand label
 name "Sec-Kingdoms"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Double check the descriptions here.
-\end_layout
 
 \end_inset
 
@@ -2361,36 +2453,14 @@ Not all Luminous become a member of a kingdom when they Blossom.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write full kingdom descriptions.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% Center section titles for Splats section
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-centering
+centertitles
 \end_layout
 
 \end_inset
@@ -2405,8 +2475,228 @@ centering
 
 \end_layout
 
-\begin_layout Section
-TODO
+\begin_layout Subsection
+Muirias, the Archipelago of Stars
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+
+\emph on
+"The universe is beautiful, whether you look at the big things or the small
+\begin_inset Newline newline
+\end_inset
+
+Some day the world will remember that..."
+\end_layout
+
+\begin_layout Standard
+In legend, the Tuatha de Danann sailed onto the island of Ireland from four
+ myth-shrouded cities: Falias, Goirias, Findias, and Muirias.
+ They brought their sciences, arts and ways of magic, teaching the natives
+ all they knew to be their equal.
+\end_layout
+
+\begin_layout Standard
+Naming their Kingdom after the great sea city of the Tuatha de Danann, the
+ Luminous of Muirias vow to teach all they know the world to offer.
+ They dream of a world where people seek to learn of the sciences and stories,
+ not only for the sake of what practical value they may hold, but to experience
+ the wonders of the world through them.
+\end_layout
+
+\begin_layout Standard
+Muirias is one of the smaller Dream Kingdoms, covering a series of islands
+ connected by boats and other more exotic means of transport.
+ Its cities strongly resemble modern civilization, but in a way that highlights
+ the magic and knowledge they hold in their hands.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Nicknames:
+\series default
+ Stargazers, Seekers
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Benefit:
+\series default
+ Stargazers are always eager to share the stories and knowledge they learn
+ over their years.
+ Once per scene, when you tell a story or teach something new to a person
+ or a small group, roll
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+an appropriate skill.
+ If you succeed, they gain their choice of Inspired or Informed on the subject
+ matter.
+\end_layout
+
+\begin_layout Subsubsection*
+Everyday Life
+\end_layout
+
+\begin_layout Standard
+An elementary school teacher tries to teach her students the wonder of science,
+ beyond the dry descriptions in the textbooks.
+ She doesn't know how long it will last.
+ Kids just a year older already bully her students for being interested
+ in what she has to teach.
+ She works a second job on weekends sometimes to feed her own children.
+ But she still tries.
+ After all, she still wished someone had done the same for her, so many
+ years ago...
+\end_layout
+
+\begin_layout Standard
+A young boy wants to explore the world in all its colors.
+ He wanted to see the fairies in the forest, the mermaids in the sea.
+ Everyone said it was dangerous, that it wasn't worth it.
+ That those wonders didn't exist...
+ One day, he went anyway, into that park forest.
+ There weren't the fairies of myth, but every time he turned over a new
+ rock, he saw a new and wonderful bug he never had before.
+ There weren't mermaids in the ponds, but he saw plants he never knew before
+ by the lake's side.
+ In the end, he found what he had come for after all.
+\end_layout
+
+\begin_layout Subsubsection*
+Dreams and Wonders 
+\end_layout
+
+\begin_layout Standard
+The teacher always knew her own son got it all too well.
+ She knew that sometimes at night, he went out into town...
+ He always returned, telling stories of people he met, and places he saw.
+ She got it...
+ But never stopped worrying.
+ One day, she followed him, under cover of night, wanting to know.
+ In a long abandoned building, she fell into the same crack between worlds
+ her son rushed into.
+ In a world of nightmare, she still wished with all her heart to protect
+ her dear son.
+ A spark ignited in her.
+ And she took her son's side against the creatures of that world.
+ ...
+ and she saw.
+ That she and her son had a world to explore together.
+\end_layout
+
+\begin_layout Standard
+One day, the boy found something different in the woods.
+ A wisp fluttered on the winds, like nothing that should be.
+ He followed it deep into the forest.
+ Off the trails, past creeks.
+ And when it eluded him past a raging river, he reached for a power he always
+ knew was there on the edge of his awareness.
+ He jumped, flying over that river with wings of starlight.
+ The wisp returned to the witch who birthed it.
+ She didn't know how to explain the boy to her students or what he was.
+ Seeing the same spark in his eyes as her own, she offered to teach him
+ as well, Awakened or not.
+\end_layout
+
+\begin_layout Subsubsection
+Beliefs
+\end_layout
+
+\begin_layout Standard
+Muirias was founded on one simple feeling: "I want to know!"
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Salvation in Understanding:
+\series default
+ Humanity flounders in the darkness of ignorance.
+ When bad things happen, is there not a reason? Even if the unknown is terrifyin
+g, is there not a truth on the other side? When we learn the answers to
+ such questions, we learn the wonders we were once afraid of, and the answers
+ to problems that were once insurmountable.
+ Society's greatest achievements were always made when we learned more of
+ the world around us.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The World Shines:
+\series default
+ Knowledge for its own sake rots us from the inside.
+ If you deny the wonders the world can hold, in favor of cold, meaningless
+ explanations, the magic of the world disappears.
+ In myths, we learn what those who once lived valued and how they viewed
+ the world.
+ In religion, we find ways to appreciate the beauty in this world.
+ In the constellations we are born under, we find ways to understand ourselves.
+ Meaning is not the sole province of the proven and provable.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Shine as a Constellation: 
+\series default
+Simply hoarding knowledge in the belief that you alone can wield it rightfully
+ is the height of hubris.
+ It is a self-fulfilling prophecy of the worst kind.
+ The more you deceive and hide from your peers, the less they will be able
+ to understand or help you when you most need it.
+ It is a path only for those who want to control, not to enlighten.
+ Share the light of knowledge, and bring the world upwards towards a brighter
+ future, together.
+ The more minds that we can work with, the better we all will be.
+\end_layout
+
+\begin_layout Subsubsection
+Invocation: Brillare
+\end_layout
+
+\begin_layout Standard
+Brillare is born of the joys of learning, of childlike curiosity and wonder
+ at the world.
+ It encourages one to always seek to know the world better, and reach for
+ the unknown rather than fearing it.
+ Those who resonate with Brilliare are charged to reveal the secrets that
+ made the world dark for so long.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Free Invocation:
+\series default
+ Brillare applies at no cost when the Princess intends to discover a new
+ truth not known to the Luminous, to teach others something new to them,
+ or when correcting those who were deceived by others.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ban:
+\series default
+ Those who make use of Brillare should want to know, to teach and bring
+ together.
+ A Luminous who attempts to deceive someone unopposed to herself or her
+ allies for no good cause, helps another to do so, or runs from the unknown
+ rather than seeking to discover its truth may not apply the Invocation
+ until the next dawn.
+ Simple selfish gain is not enough reason to deceive another to Muirias,
+ it must be to protect the privacy or secrecy of another or to prevent harm
+ to another.
 \end_layout
 
 \begin_layout Standard
@@ -2415,18 +2705,9 @@ status open
 
 \begin_layout Plain Layout
 
-% Uncenter section titles for Splats section
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-relax
+uncentertitles
 \end_layout
 
 \end_inset
@@ -6448,18 +6729,9 @@ status open
 
 \begin_layout Plain Layout
 
-% Center section titles for Splats section
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-centering
+centertitles
 \end_layout
 
 \end_inset
@@ -6474,7 +6746,7 @@ centering
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Keystone of Dreams
 \end_layout
 
@@ -6543,18 +6815,9 @@ status open
 
 \begin_layout Plain Layout
 
-% Uncenter section titles for Splats section
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-relax
+uncentertitles
 \end_layout
 
 \end_inset
