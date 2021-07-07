@@ -9,8 +9,8 @@
 \usepackage{datetime}
 \usepackage{colortbl}
 \usepackage[mark,raisemark=1.65\baselineskip]{gitinfo2}
+\usepackage[english]{babel}
 \end_preamble
-\options xcolor=table,todonotes=obeyDraft
 \use_default_options true
 \begin_modules
 todonotes
@@ -21,6 +21,11 @@ pdfform
 enumitem
 \end_modules
 \maintain_unincluded_children false
+\begin_local_layout
+Format 66
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+\end_local_layout
 \language english
 \language_package default
 \inputencoding auto
@@ -77,7 +82,7 @@ enumitem
 \paperorientation portrait
 \suppress_date true
 \justification true
-\use_refstyle 0
+\use_refstyle 1
 \use_minted 0
 \index Index
 \shortcut idx
@@ -778,21 +783,21 @@ parfillskip}{0pt plus 1fil} % Paragraph spacing
 
 
 \backslash
-emergencystretch=0.1em
+emergencystretch=0.05em
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-hyphenpenalty=2500 % Less hyphens please...
+hyphenpenalty=1000 % Less hyphens please...
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-hbadness=2500
+hbadness=1000
 \end_layout
 
 \begin_layout Plain Layout
@@ -1018,6 +1023,56 @@ firmlists
 
 \begin_layout Plain Layout
 
+
+\backslash
+newcommand
+\backslash
+resethyper{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+hypersetup{
+\end_layout
+
+\begin_layout Plain Layout
+
+		colorlinks=true,
+\end_layout
+
+\begin_layout Plain Layout
+
+		linkcolor=
+\backslash
+vlncolorname, 
+\end_layout
+
+\begin_layout Plain Layout
+
+		urlcolor=
+\backslash
+vlncolorname,
+\end_layout
+
+\begin_layout Plain Layout
+
+		pdfborderstyle={/S/U/W 0},
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1198,36 +1253,7 @@ vbgcolorname}
 
 
 \backslash
-hypersetup{
-\end_layout
-
-\begin_layout Plain Layout
-
-  colorlinks=true,
-\end_layout
-
-\begin_layout Plain Layout
-
-  linkcolor=
-\backslash
-vlncolorname, 
-\end_layout
-
-\begin_layout Plain Layout
-
-  urlcolor=
-\backslash
-vlncolorname,
-\end_layout
-
-\begin_layout Plain Layout
-
-  pdfborderstyle={/S/U/W 0},
-\end_layout
-
-\begin_layout Plain Layout
-
-}
+resethyper
 \end_layout
 
 \end_inset
@@ -2008,8 +2034,8 @@ The Kingdom they are a citizen of in their dreams, reflecting their vision
 \end_layout
 
 \begin_layout Itemize
-The Archetype shapes their Dream Form and how they project their Light upon
- the world.
+Their Archetype shapes their Dream Form and how they project their Light
+ upon the world.
 \end_layout
 
 \begin_layout Section
@@ -2399,11 +2425,11 @@ Invocations
 The Dream the Luminous visit in their sleep and draw their power from is
  itself a true world, if one built out of stories and feelings rather than
  the matter and physics of the real world.
- In that world of dreams, they built eight Kingdoms of Light over the years,
+ In that world of dreams, they wove eight Kingdoms of Light over the years,
  dream-like visions of what the world could be some day in the future.
  Those visions shape the Invocations the Nobles use to shape their magic,
- written by like-minded Luminous over the generations all preserved in the
- light of the Dream.
+ written by like-minded Luminous over the generations and preserved in the
+ depths of the Dream.
 \end_layout
 
 \begin_layout Standard
@@ -2426,7 +2452,7 @@ Avalon, the Last Garden
 \series default
 : A beautiful kingdom led by nobility sworn to serve the needs of their
  people.
- Its Invocation is Rosa, of structure and responsibility.
+ Its Invocation is Rosa, of social order and responsibility.
  
 \end_layout
 
@@ -2444,12 +2470,12 @@ Aztlan, the Torchlit Freehold
 \begin_layout Itemize
 
 \series bold
-Elysium, the Library of Ages
+Elysium, the Record of the Lost
 \series default
 : A sanctuary city that preserves the histories of the world as it is and
  once was.
- Its Invocation is Ricordo, of preserving and protecting that which you
- love.
+ Its Invocation is Ricordo, of preserving history and protecting that which
+ you love.
 \end_layout
 
 \begin_layout Itemize
@@ -2476,7 +2502,8 @@ Ildathach, the Colorful Dream
 \series bold
 Muirias, the Crystal Isles
 \series default
-: A series of island nations filled with wonders of science and magic.
+: A nation built on a series of islands filled with wonders of science and
+ magic.
  Its Invocation is Brillare, of learning and wonder at the world.
 \end_layout
 
@@ -2560,6 +2587,7 @@ Naming their Kingdom after the great sea city of the Tuatha de Danann, the
  They dream of a world where people seek to learn of the sciences and stories,
  not only for the sake of what practical value they may hold, but to experience
  the wonders of the world through them.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -3017,18 +3045,20 @@ Transformed Attributes
 \begin_layout Standard
 Luminous and characters who are intended to Blossom in play do not choose
  their attributes like most characters.
- Begin by choosing her three transformed attributes (p.
- 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "Sec-TransformedAttrs"
-plural "false"
-caps "false"
-noprefix "false"
+ Begin by choosing her three 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[Sec-TransformedAttrs]{transformed attributes}
+\end_layout
 
 \end_inset
 
-).
+.
  Begin with 1 dot in each transformed attribute, then assign 8 dots between
  her transformed attributes, up to a maximum of 6 dots in any attribute.
  Then, beginning with 1 dot in each mundane attribute, distribute 12 dots
@@ -3070,18 +3100,20 @@ Transformed Skills
 \begin_layout Standard
 Assign her skills using the same process as her attributes, except skills
  begin at 0 dots instead of 1 dot.
- Assign 15 dots between her transformed skills (p.
- 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "Sec-TransformedSkills"
-plural "false"
-caps "false"
-noprefix "false"
+ Assign 15 dots between her 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[Sec-TransformedSkills]{transformed skills}
+\end_layout
 
 \end_inset
 
-), then assign 22 dots between her mundane skills.
+, then assign 22 dots between her mundane skills.
 \end_layout
 
 \begin_layout Standard
@@ -3127,10 +3159,9 @@ Luminary
 \begin_layout Standard
 When she Blossoms, a Luminous builds her Dream Form from the symbols of
  the Dream.
- The first of these is her Luminary (p.
- 
+ The first of these is her 
 \begin_inset CommandInset ref
-LatexCommand pageref
+LatexCommand nameref
 reference "Sec-Luminary"
 plural "false"
 caps "false"
@@ -3138,7 +3169,7 @@ noprefix "false"
 
 \end_inset
 
-), the celestial light she patterns her magic after.
+, the celestial light she patterns her magic after.
  It forms the basis of how she uses her magic, and decides which of the
  three powers of the Luminous she focuses on.
  Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight)
@@ -3164,10 +3195,9 @@ Whether your character would be a shining hero, an idol whose songs change
  after all.
  Her Archetype reflects which of those legacies she would wish to continue
  on, and the overall form and concept of her Dream Form.
- Read over the Archetypes (p.
- 
+ Read over the 
 \begin_inset CommandInset ref
-LatexCommand pageref
+LatexCommand nameref
 reference "Sec-Archetype"
 plural "false"
 caps "false"
@@ -3175,7 +3205,7 @@ noprefix "false"
 
 \end_inset
 
-), and choose one that your character would wish to be.
+, and choose one that your character would wish to be.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3183,10 +3213,9 @@ Kingdom
 \end_layout
 
 \begin_layout Standard
-In the Dream, the Luminous built eight great Kingdoms (p.
- 
+In the Dream, the Luminous built eight great 
 \begin_inset CommandInset ref
-LatexCommand pageref
+LatexCommand nameref
 reference "Sec-Kingdoms"
 plural "false"
 caps "false"
@@ -3194,7 +3223,7 @@ noprefix "false"
 
 \end_inset
 
-), reflecting the world as they saw it could be in the distant future.
+, reflecting the world as they saw it could be in the distant future.
  They draw power from their Kingdoms, invoking the principles and feelings
  that underlie them through their Invocations.
  Read over the Kingdoms and choose the one that your character would most
@@ -3222,8 +3251,7 @@ Choose your character's Dream and Will.
 \end_layout
 
 \begin_layout Standard
-For more information, see p.
- 
+For more information, see the 
 \begin_inset CommandInset ref
 LatexCommand pageref
 reference "Sec-DreamAndWish"
@@ -3233,7 +3261,7 @@ noprefix "false"
 
 \end_inset
 
-.
+ section.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3241,18 +3269,20 @@ Touchstone
 \end_layout
 
 \begin_layout Standard
-Your character's Touchstone (p.
- 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "Sec-Touchstones"
-plural "false"
-caps "false"
-noprefix "false"
+Your character's 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[Sec-Touchstones]{Touchstone}
+\end_layout
 
 \end_inset
 
-) is what she draws on to remind herself of the light in the world, to ground
+ is what she draws on to remind herself of the light in the world, to ground
  herself away from the shadows and pains the world tries to drown her in.
  Think of who or what your character most values in the world, the things
  and people she would cling to in her darkest moments, and choose a Touchstone
@@ -3264,19 +3294,21 @@ Invocations
 \end_layout
 
 \begin_layout Standard
-Each Invocation (p.
- 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "Sec-Invocations"
-plural "false"
-caps "false"
-noprefix "false"
+Each 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[Sec-Invocations]{Invocation}
+\end_layout
 
 \end_inset
 
-) is the cumulation of the worldviews, and feelings reflected in one of
- the Dream Kingdoms.
+ is the cumulation of the worldviews, and feelings reflected in one of the
+ Dream Kingdoms.
  The Luminous draw on them for power, channeling the symbols and magic each
  Kingdom had built over the long years for themselves.
  
@@ -3313,10 +3345,8 @@ Reverie
 \end_layout
 
 \begin_layout Standard
-Reverie (p.
- 
 \begin_inset CommandInset ref
-LatexCommand pageref
+LatexCommand nameref
 reference "Sec-Reverie"
 plural "false"
 caps "false"
@@ -3324,7 +3354,7 @@ noprefix "false"
 
 \end_inset
 
-) measures your character's ability to draw on the Dream's power, and project
+ measures your character's ability to draw on the Dream's power, and project
  it onto reality.
  The higher it is, the more power she can draw on in her waking life, at
  the cost of losing herself in the dream she draws on for power.
@@ -3458,7 +3488,7 @@ Luminous ground themselves between dreams and reality through their Anchors,
 \end_layout
 
 \begin_layout Subsection
-Dream & Wish 
+Dream & Will 
 \begin_inset CommandInset label
 LatexCommand label
 name "Sec-DreamAndWish"
@@ -4637,18 +4667,20 @@ Charms are the more specialized powers of the Luminous, specific spells
 \end_layout
 
 \begin_layout Standard
-For more information, see the chapter on The Power of Love (p.
- 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "Chapter-PowerOfLove"
-plural "false"
-caps "false"
-noprefix "false"
+For more information, see the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[Chapter-PowerOfLove]{Power of Love}
+\end_layout
 
 \end_inset
 
-).
+ chapter..
  
 \end_layout
 
@@ -4991,7 +5023,7 @@ Intimacy
 status open
 
 \begin_layout Plain Layout
-Intimacy|textbf
+Intimacy|(textbf
 \end_layout
 
 \end_inset
@@ -5044,8 +5076,16 @@ Medium:
  other on deeper terms.
  This often applies to those such as good friends, confidants, siblings,
  or a typical dating couple.
- Weak: The two people have met each other before, and interact on occasion
- but rarely in particular depth.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Weak:
+\series default
+ The two people have met each other before, and interact on occasion but
+ rarely in particular depth.
  This often applies to those such as coworkers, gaming partners, extended
  family, or a friend of a friend.
  Hostile or unfriendly relationships also fall under this category, though
@@ -5083,6 +5123,16 @@ Sometimes, Intimacy is used as a penalty to the dice pool of abilities.
  -12 penalty.
  When using such an ability, you may use the Intimacy of a person you are
  touching, at the cost of decreasing the Intimacy by one level.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Intimacy|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -5097,6 +5147,20 @@ Luminous are innately aware of the general feeling and mood of any location
  strongest emotions.
  While this never directly triggers Sensitivity, it can make Hope recovery
  or even simply relaxing in a place next to impossible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Note the various types of taint and Astral conditions that Read the
+ Winds will find.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -5170,6 +5234,15 @@ Flaring an Echo
 \end_layout
 
 \begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Echo!Flaring an Echo
+\end_layout
+
+\end_inset
+
 A Luminous may flare her Echo as an instant action at any time, or as an
  reflexive action while transforming by spending two Willpower.
  She focuses on the emotion and meanings underlying her Dream, and projects
@@ -5342,18 +5415,20 @@ zed, and may not enter Twilight or create Manifestation Conditions without
 \begin_layout Standard
 As they have a different set of attributes and skills from most characters
  in Dream Form, they allocate them using a different process.
- See Character Creation (p.
- 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "Sec-AttributeSelection"
-plural "false"
-caps "false"
-noprefix "false"
+ See the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[Sec-AttributeSelection]{Character Creation}
+\end_layout
 
 \end_inset
 
-) for more information.
+ section for more information.
 \end_layout
 
 \begin_layout Subsection
@@ -6744,6 +6819,13 @@ renewcommand
 vcolorset{maou}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+resethyper
+\end_layout
+
 \end_inset
 
 
@@ -7201,6 +7283,13 @@ renewcommand
 vcolorset{st}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+resethyper
+\end_layout
+
 \end_inset
 
 
@@ -7338,6 +7427,46 @@ hypersetup{
 \begin_layout Plain Layout
 
 }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+emittodos
+\backslash
+listoftodos
+\end_layout
+
+\begin_layout Plain Layout
+
+%%DRAFT%%
+\backslash
+renewcommand
+\backslash
+emittodos
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+todototoc 
+\backslash
+emittodos
 \end_layout
 
 \end_inset
