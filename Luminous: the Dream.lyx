@@ -6,17 +6,16 @@
 \origin unavailable
 \textclass memoir
 \begin_preamble
+\usepackage[english]{babel}
 \usepackage{datetime}
 \usepackage{colortbl}
 \usepackage[mark,raisemark=1.65\baselineskip]{gitinfo2}
-\usepackage[english]{babel}
+\usepackage[raster, fitting]{tcolorbox}
 \end_preamble
 \use_default_options true
 \begin_modules
 todonotes
 fixltx2e
-multicol
-tcolorbox
 pdfform
 enumitem
 \end_modules
@@ -25,6 +24,7 @@ enumitem
 Format 66
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
+PackageOptions tcolorbox raster
 \end_local_layout
 \language english
 \language_package default
@@ -4591,24 +4591,20 @@ The ideals of each of the Dream Kingdoms resonate throughout the Dream,
 
 \begin_layout Standard
 A Luminous may have up to 5 dots in each Invocation.
- Each Kingdom favors one Invocation, and the Luminous find the Invocation
- of their home Kingdom the easiest to learn.
- Due to this tie with the Dream Kingdoms that embody their beliefs, the
- Invocations are described under the Kingdom that they originate in.
+ Each Invocation is described under the Kingdom that favors them, and Luminous
+ of that Kingdom find that Invocation easiest to learn.
+ They reflect a worldview as much as a source of power.
+ While a Luminous may use the Invocations of Kingdoms she does not agree
+ with, she does not grasp their logic or concepts intuitively and must be
+ taught them by someone who already understand their principles.
 \end_layout
 
 \begin_layout Standard
-These Invocations reflect a worldview as much a source of power.
- While a Luminous can use the power of Kingdoms she does not agree with,
- she does grasp their logic and concepts intuitively and cannot draw on
- the Dream directly to learn them.
- As a guideline, a Luminous who agrees with one or two of an Invocation's
- Beliefs may intuitively learn three dots of it alone.
- One who agrees with all of them in at least vague terms may learn five
- dots of it alone.
- Otherwise, she must be taught the Invocation by someone who already understands
- its principles better.
- 
+As a guideline, a Luminous who agrees at least partly with an Kingdom's
+ beliefs may intuitively learn its Invocation up to three dots without a
+ teacher.
+ A Luminous who agrees with all its beliefs in at least vague terms (or
+ is a member of the Kingdom) may learn all five dots of it intuitively.
 \end_layout
 
 \begin_layout Subsection
@@ -5775,7 +5771,7 @@ Component Skills:
 \end_layout
 
 \begin_layout Subsubsection*
-Create 
+Shape 
 \end_layout
 
 \begin_layout Standard
@@ -5788,7 +5784,7 @@ Transformed Skills!Create
 
 \end_inset
 
-The Create Skill describes the Luminous' ability to create new things or
+The Shape Skill describes the Luminous' ability to create new things or
  express inner truths.
  It is used to sew clothing, create paintings, write poems, build a tent
  in the wilderness, perform magical rituals, and speak convincingly to a
@@ -5804,8 +5800,8 @@ The Create Skill describes the Luminous' ability to create new things or
 
 Sample Actions:
 \series default
- Compose a poem (Finesse + Create), Design a building (Finesse + Create),
- Write a program (Power + Create) 
+ Compose a poem (Finesse + Shape), Design a building (Finesse + Shape),
+ Write a program (Power + Shape) 
 \begin_inset Newline newline
 \end_inset
 
@@ -7385,6 +7381,13 @@ status open
 thispagestyle{pn}
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
