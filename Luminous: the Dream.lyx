@@ -5660,7 +5660,7 @@ When a Luminous acts upon the world through imagination and thought, she
 \end_layout
 
 \begin_layout Standard
-Even if it isn't blatantly supernatural, the surreal ways Weaving touches
+While Weaving isn't blatantly supernatural, the surreal ways it touches
  the world are still not subtle.
  A Luminous defies gravity, the motion of her feet doesn't quite line up
  with how fast she moves, and many other little inconsistencies.
@@ -6471,11 +6471,184 @@ name "Chapter-PowerOfLove"
 \end_layout
 
 \begin_layout Standard
+The Luminous shape the magic of the Dream in many diverse shapes, even if
+ they all stem from the same original source.
+ They divide their powers between three major categories, each favored by
+ one of their Luminaries:
+\end_layout
+
+\begin_layout Itemize
+Regalia allow the Luminous to modify their transformations, granting them
+ new physical or magical capabilities.
+ The Sunlit specialize in Regalia, and are able to maintain more of them
+ than other Luminous.
+\end_layout
+
+\begin_layout Itemize
+Domains allow the Luminous to manipulate and wield the elements around them
+ as if they were part of their own body.
+ The Moonlit specialize in Domains, [TODO: Benefits?] 
+\end_layout
+
+\begin_layout Itemize
+Charms are the shining spells the Luminous may cast to change the world
+ around them.
+ The Starlit specialize in Domains, allowing them to cast them for cheaper
+ than other Luminous.
+\end_layout
+
+\begin_layout Standard
+All rolls involved in a Luminous' magic are innately Weaving Actions and
+ cannot be performed using mundane skills.
+\end_layout
+
+\begin_layout Section
+Clash of Wills 
+\end_layout
+
+\begin_layout Standard
+Sometimes, opposing supernatural beings will use their powers in ways where
+ both can't succeed at the same time and it isn't clear which ability should
+ trump another.
+ When the effects of supernatural abilities clash in this way, it triggers
+ a Clash of Wills.
+\end_layout
+
+\begin_layout Standard
+Each Luminous involved rolls Reverie + the highest Invocation involved in
+ the power.
+ The player who rolls the highest wins, and their ability takes effect.
+ If no Invocations can be applied to the power, use the Luminous' highest
+ Invocation instead.
+ On a tie, reroll the contest until one player rolls more successes than
+ each other player.
+ Other types of supernatural being have their own dice pools for Clash of
+ Wills, which can be found in their source books.
+\end_layout
+
+\begin_layout Standard
+Characters may spend Willpower to bolster the contested roll, but only if
+ they are physically present and aware that their powers are clashing.
+ Certain powers, such as those with exceptionally long durations, are more
+ enduring in a clash.
+ Day-long effects add one die to the clash roll, week-long effects add two,
+ month-long three, and effects that could last a year or longer add four.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Regalia
+\end_layout
+
+\begin_layout Standard
+With their Regalia, the Luminous may enhance their Dream Form with shining
+ weapons and radiant auras.
+ The same Regalia may have as many different forms and appearances as the
+ number of Luminous who use it.
+ Wings of Light may appear as a pair of faerie wings, a veil of winds carrying
+ the Luminous aloft, black-feathered raven wings, or even a jetpack.
+\end_layout
+
+\begin_layout Standard
+While a sword looks separate from a Luminous, to her it is simply another
+ part of her Dream Form as any part of her body.
+ Regalia do not function for anyone other than the Luminous, dissolving
+ into motes of light in a short moment should it leave its Weaver's presence.
+ Disarming Luminous is usually pointless, as they may reflexively recall
+ any Regalia they have lost at no cost.
+\end_layout
+
+\begin_layout Standard
+Regalia each have an base effect, and multiple upgrades or variants.
+ Upgrades and Variants are not purchased separately, but are automatically
+ applied when you bind an Invocation to the Regalia.
+ For example, an Upgrade requiring 
+\begin_inset Quotes xld
+\end_inset
+
+Rosa •••
+\begin_inset Quotes xrd
+\end_inset
+
+ automatically applies if you bind Rosa to the Regalia and have at least
+ three dots in Rosa.
+ Variants are Upgrades that replace the base effect of the Regalia.
+ If you activate multiple Variants, you must choose one of them (or none)
+ to replace the base effect, and the rest do nothing.
+\end_layout
+
+\begin_layout Standard
+A Luminous may spend or swap Regalia when she transforms into her Dream
+ Form, as an instant action, or by spending a Willpower as an reflexive
+ action.
+ She unbinds any Regalia she may have active, and gains a number of points
+ equal to her Regalia Capacity, each of which may be used to bind a single
+ Invocation to a single Regalia.
+ The same Invocation can be bound to multiple Regalia, and multiple Invocations
+ can be bound to a single Regalia.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Write this chapter.
+TODO: Write actual Regalia.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Domains
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Charms
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
 \end_layout
 
 \end_inset
