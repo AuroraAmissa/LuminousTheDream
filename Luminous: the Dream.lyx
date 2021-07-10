@@ -3032,7 +3032,7 @@ name "Sec-AttributeSelection"
 status open
 
 \begin_layout Plain Layout
-Transformed Attributes
+Dream Attributes
 \end_layout
 
 \end_inset
@@ -3048,7 +3048,7 @@ Transformed Attributes
 \begin_layout Standard
 Luminous and characters who are intended to Blossom in play do not choose
  their attributes like most characters.
- Begin by choosing her three 
+ Begin by assign dots to her three 
 \begin_inset ERT
 status open
 
@@ -3056,14 +3056,14 @@ status open
 
 
 \backslash
-hyperref[Sec-TransformedAttrs]{transformed attributes}
+hyperref[Sec-TransformedAttrs]{dream attributes}
 \end_layout
 
 \end_inset
 
 .
- Begin with 1 dot in each transformed attribute, then assign 8 dots between
- her transformed attributes, up to a maximum of 6 dots in any attribute.
+ Begin with 1 dot in each dream attribute, then assign 8 dots between then,
+ up to a maximum of 6 dots in any attribute.
  Then, beginning with 1 dot in each mundane attribute, distribute 12 dots
  between your character's mundane attributes up to a maximum of 5 dots in
  any attribute.
@@ -3072,11 +3072,11 @@ hyperref[Sec-TransformedAttrs]{transformed attributes}
 
 \begin_layout Standard
 None of your character's mundane attributes may exceed their corresponding
- transformed attribute and you may not assign more than 5 dots to each of
- the mundane attribute categories (Physical, Mental and Social).
- If the highest mundane attribute corresponding to a transformed attribute
- is lower than the amount you assigned earlier, gain the remainder as transforme
-d attribute dots.
+ dream attribute and you may not assign more than 5 dots to each of the
+ mundane attribute categories (Physical, Mental and Social).
+ If the highest mundane attribute corresponding to a dream attribute is
+ lower than the amount you assigned earlier, gain the remainder as dream
+ attribute dots.
 \end_layout
 
 \begin_layout Subsection*
@@ -3088,7 +3088,7 @@ Step Three: Select Skills
 status open
 
 \begin_layout Plain Layout
-Transformed Skills
+Weaving Skills
 \end_layout
 
 \end_inset
@@ -3111,7 +3111,7 @@ status open
 
 
 \backslash
-hyperref[Sec-TransformedSkills]{transformed skills}
+hyperref[Sec-TransformedSkills]{Weaving Skills}
 \end_layout
 
 \end_inset
@@ -3121,11 +3121,11 @@ hyperref[Sec-TransformedSkills]{transformed skills}
 
 \begin_layout Standard
 As with attributes, none of your character's mundane skills may exceed the
- corresponding transformed skill, and you may not assign more than 11 dots
- to any of the mundane skill categories.
- If the highest transformed skill corresponding to a transformed skill is
- lower than the amount you assigned earlier, again gain the remainder as
- transformed dots.
+ corresponding Weaving Skill, and you may not assign more than 11 dots to
+ any of the mundane skill categories.
+ If the highest mundane skill corresponding to a Weaving skill is lower
+ than the amount you assigned earlier, gain the remainder as Weaving skill
+ dots.
  
 \end_layout
 
@@ -3181,7 +3181,7 @@ noprefix "false"
 
 \begin_layout Standard
 It may well be that your character could fit into multiple Luminaries.
- Often, such characters tend to have the Luminary that reflect the kind
+ Often, such characters tend to have the Luminary that reflects the kind
  of power they would be more comfortable wielding, if their personality
  could go either way.
 \end_layout
@@ -5316,10 +5316,19 @@ In their mundane form, they are truly mundane with only the barest wisps
 \end_layout
 
 \begin_layout Standard
-Luminous may switch between their two forms at will, with a transformation
- action.
- Transformation normally takes an instant action.
- Transforming reflexively requires spending a Willpower.
+A Luminous may roll Reverie + Hope as a reflexive action in order to transform
+ into her Dream Form.
+ If she fails, she must spend a Willpower or else she does not transform
+ and receives a Hope Condition of her choice.
+ She may revert to her Mundane Form at any time as an reflexive action.
+\end_layout
+
+\begin_layout Standard
+Transforming creates a brief but spectacular display of lights and colors
+ arranged in whatever symbolism fits the Luminous.
+ This is extremely obvious and attention grabbing, and will generally makes
+ transforming stealthily impossible, unless is completely hidden in a closet,
+ bathroom or similar place.
 \end_layout
 
 \begin_layout Subsection
@@ -5336,10 +5345,9 @@ Mundane Form|(textbf
 
 \end_inset
 
-In their mundane form, the Hopeful do not simply wear a mask of normal humanity.
- Rather, they are simply normal humans as they've always been.
- Their magic is sealed away in their own heart, as simply another seemingly
- mundane fantasy.
+In their mundane form, the Hopeful do not simply wear a mask of humanity.
+ They are the same mundane self they were before they blossomed, with their
+ magic sealed away in their own heart as just another dream.
 \end_layout
 
 \begin_layout Standard
@@ -5353,8 +5361,8 @@ All supernatural effects treat a Luminous in Mundane Form as if she were
 
 \begin_layout Standard
 However, she loses access to the majority of her supernatural powers.
- A Luminous in her Mundane Form has no Wisp Capacity, and loses access to
- her Regalia, Domains and Charms.
+ A Luminous in her Mundane Form cannot access her Mote Pool, and loses access
+ to her Regalia, Domains and Charms without the Worldly keyword.
  She still retains her Supernatural Tolerance, but only for purposes of
  resisting or contesting supernatural abilities.
 \begin_inset Index idx
@@ -5398,21 +5406,21 @@ In this form, they greet the hidden corners of the world, matching the power
  In this form, all too often, they seek an escape from the pressures of
  mundane life.
  They mingle with the stranger creatures of the night, or join the parties
- of the Kindred or Architects.
+ of the Kindred or Lords.
 \end_layout
 
 \begin_layout Standard
 Luminous in their Dream Form are ephemeral beings in phase with astral projectio
 ns, Goetia, and other similar dream entities.
- They have a Rank equal to half their Reverie (rounded up), are always Materiali
-zed, and may not enter Twilight or create Manifestation Conditions without
- a specific ability that allows them to do so.
+ They have an honorary Rank equal to half their Reverie (rounded up), are
+ always Materialized, and may not enter Twilight or create Manifestation
+ Conditions without a specific ability that allows them to do so.
  They do not have Banes, Bans, Numina, Essence, or Influences and instead
  use their Regalia, Domains and Charms.
 \end_layout
 
 \begin_layout Standard
-As they have a different set of attributes and skills from most characters
+As the Luminous have a different set of attributes from most characters
  in Dream Form, they allocate them using a different process.
  See the 
 \begin_inset ERT
@@ -5444,34 +5452,38 @@ Dream Form!Dream Health|(textbf
 
 \end_inset
 
-A Hopeful's Dream Form is composed of dreamstuff instead of flesh and blood,
- protecting her material forms from harm.
- She has a separate health track in Dream Form called Dream Health, with
- boxes equal to her Resistance + transformed attribute cap.
- It behaves like a normal health track for all purposes.
- Damage she takes in her Dream Form never carries over to her mundane form,
- and furthermore, she may transform reflexively in response to damage or
- any other source of harm.
+Dream Form protects a Luminous from physical harm, replacing her body with
+ an illusion woven of the stuff of dreams.
+ She has a separate health track called Dream Health, with boxes equal to
+ her Resistance + transformed attribute cap.
+ It serves as her health track for all purposes in Dream Form.
+ She may transform reflexively in response to damage, in which case the
+ damage is dealt to her Dream Health.
 \end_layout
 
 \begin_layout Standard
-Regardless of whether she is currently in her Dream Form, she recovers all
- damage to her Dream Health after a restful night's sleep when she would
- recover Willpower.
+Dream Health is more her will to not be hurt manifest physically than a
+ measure of her body's physical integrity, and thus Luminous are often far
+ more resilient than their delicate appearances may imply.
+ In Dream Form, she does not suffer wound penalties and physical attacks
+ against her are reduced in one level of severity – from aggravated to lethal,
+ or lethal to bashing.
+ Without supernatural force to convey it, her opponent cannot truly contest
+ the Luminous' will directly and struggles to hurt her in a meaningful way.
+\end_layout
+
+\begin_layout Standard
+However, aggravated damage against her Dream Form disrupts her mental balance
+ in addition to its usual harm.
+ She takes a box of mild Hope damage for every box of aggravated damage
+ she receives.
+\end_layout
+
+\begin_layout Standard
+Regardless of her current from, a Luminous heals all damage to her Dream
+ Health whenever she would recover Willpower from sleeping.
  Furthermore, every 15 minutes out of combat, she recovers one box of bashing
  damage or reduces a box of lethal damage to bashing damage.
-\end_layout
-
-\begin_layout Standard
-As with all ephemeral beings, physical attacks against a Luminous in Dream
- Form do bashing damage instead of lethal damage.
- Whenever she takes a box of aggravated damage, she also suffers a box of
- mild Hope damage.
- Furthermore, she applies Defense to all attacks including firearms.
-\end_layout
-
-\begin_layout Standard
-Luminous never suffer wound penalties when transformed.
  Should the rightmost box of her Dream Health be filled with lethal or aggravate
 d damage, she immediately reverts to her Mundane Form and gains the Soul
  Shocked condition.
@@ -5488,7 +5500,7 @@ Dream Form!Dream Health|)
 \end_layout
 
 \begin_layout Subsection
-Transformed Attributes 
+Dream Attributes 
 \begin_inset CommandInset label
 LatexCommand label
 name "Sec-TransformedAttrs"
@@ -5503,28 +5515,15 @@ name "Sec-TransformedAttrs"
 status open
 
 \begin_layout Plain Layout
-Transformed Attributes|(textbf
+Dream Attributes|(textbf
 \end_layout
 
 \end_inset
 
-In a dream, when you break down a metal door, it doesn't matter how strong
- you are -- only your determination to have it out of the way.
- When you convince your lover to stay by your side, it's not the words that
- matter, but the feeling you already hold.
- When you fix a computer dropped into a lake, it's not really how much you
- know about computers, but rather how well you can convince your dream that
- you can.
-\end_layout
-
-\begin_layout Standard
-Luminous in their Dream Forms interact with the world in the same surreal
- ways, drawing on the collective knowledge of the Dream and their own imaginatio
-n to interact with the world.
- Even the smallest things they do are touched by this power.
- Thus, they use the simplified three Attributes of ephemeral entities.
- Each transformed attribute is equal to the highest of the Luminous' three
- corresponding mundane attributes.
+Transformed Dreamers have bodies woven out of illusion and fictions, and
+ through that, they break through many of their usual mundane limits.
+ As with all ephemeral entities, they use a set of simplified three Attributes
+ instead of the usual nine.
 \end_layout
 
 \begin_layout Itemize
@@ -5547,17 +5546,67 @@ on of others.
 \end_layout
 
 \begin_layout Standard
-She uses these attributes in place of each corresponding mundane attribute.
+They use these attributes in place of each corresponding mundane attribute,
+ but still form dice pools as a mortal does – as they have skills unlike
+ most ephemera.
  If this would cause a roll to use the same attribute twice, the roll is
  slightly modified.
- Resistance + Resistance is instead rolled as Resistance + Finesse.
- Finesse + Finesse is instead rolled as Power + Finesse.
- Power + Power is instead rolled as Power + Resistance.
+ Resistance
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+Resistance is instead rolled as Resistance
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+Finesse.
+ Finesse
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+Finesse is instead rolled as Power
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+Finesse.
+ Power
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+Power is instead rolled as Power
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+Resistance.
 \begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
-Transformed Attributes|)
+Dream Attributes|)
 \end_layout
 
 \end_inset
@@ -5566,7 +5615,81 @@ Transformed Attributes|)
 \end_layout
 
 \begin_layout Subsection
-Transformed Skills 
+Weaving Actions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving|(textbf
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving!Weaving Actions|(textbf
+\end_layout
+
+\end_inset
+
+To the Luminous, walking by putting one foot in front of the other feels
+ the same as simply imagining moving forward.
+ There is no hard line between jumping onto their bed, or imagining an gravity
+ defying leap between roofs.
+ Luminous are caught between dreams and reality in their Dream Form, and
+ they may draw on that to touch the world in all the ways they could in
+ a dream.
+ Whether they move or only imagine doing so, it still happens.
+\end_layout
+
+\begin_layout Standard
+When a Luminous acts upon the world through imagination and thought, she
+ performs a Weaving Action.
+ Instead of rolling a dice pool using a normal skill, she uses a different
+ set of eight Weaving Skills.
+ Weaving is as natural to a Luminous as any other action, and thus has no
+ cost.
+ As such, they may reflexively roll any dice pool as a Weaving Action, even
+ when contesting rolls or for rolls caused by hostile magic.
+\end_layout
+
+\begin_layout Standard
+Even if it isn't blatantly supernatural, the surreal ways Weaving touches
+ the world are still not subtle.
+ A Luminous defies gravity, the motion of her feet doesn't quite line up
+ with how fast she moves, and many other little inconsistencies.
+ Any witnesses may roll Perception to notice the nonphysical nature of her
+ actions.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving!Weaving Actions|)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Weaving Skills 
 \begin_inset CommandInset label
 LatexCommand label
 name "Sec-TransformedSkills"
@@ -5581,21 +5704,22 @@ name "Sec-TransformedSkills"
 status open
 
 \begin_layout Plain Layout
-Transformed Skills|(textbf
+Weaving!Weaving Skills|(textbf
 \end_layout
 
 \end_inset
 
-Unlike most ephemeral beings, Luminous have a reduced set of eight skills
- instead of lacking skills.
- Like their transformed attributes, each transformed skill is the highest
- of three of their mundane skills reflecting a way of approaching and solving
- problems more than specific fields of knowledge.
- When a supernatural power or other mechanic calls for a specific skill,
- use the combined skill in place of its component skills.
- In cases where an action would fall under a different transformed skill
- than the one corresponding to the relevant mundane skill, use the more
- appropriate transformed skill.
+Luminous use a separate set of eight Skills for their Weaving.
+ These Weaving Skills are each the highest of three of their mundane skills
+ like their Dream Attributes, each reflecting their skill at certain ways
+ of approaching problems through the lens of a dream.
+\end_layout
+
+\begin_layout Standard
+When Weaving, most actions use the Weaving Skill that contains the usual
+ Mundane Skill in use.
+ However, at the Storyteller's discretion, they may decide a different Weaving
+ Skill is more appropriate based on the descriptions in this section.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5607,39 +5731,28 @@ Force
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Force
+Weaving!Weaving Skills!Force
 \end_layout
 
 \end_inset
 
-The Force Skill describes a Luminous' raw physical strength and raw magical
- power.
- It is used for actions like hand-to-hand combat, wielding weapons, direct
- and forceful magical assaults, intimidating another through force of will,
- or displays of strength.
- In combat, this is the skill used to make grapples and attack with mundane
+Force represents force of will, raw magical strength.
+ It is used for actions that directly contest your will versus those around
+ you and the world itself.
+ Kicking a door down instead of picking the lock is forceful.
+ Staring someone down to cow them rather than negotiating is forceful.
+ Force is comprised of the Brawl, Weaponry and Intimidation mundane skills.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+In combat, this is the skill used to make grapples and attack with mundane
  melee or thrown weapons.
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Sample Actions:
-\series default
- Breaking boards (Power + Force), Stare down (Power + Force), Take a blow
- (Resistance + Force)
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Component Skills:
-\series default
- Brawl, Weaponry, and Intimidation
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5651,17 +5764,17 @@ Flow
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Flow
+Weaving!Weaving Skills!Flow
 \end_layout
 
 \end_inset
 
-The Flow Skill describes the Luminous' ability to move gracefully or precisely
- and control themselves at high speeds.
- It is used for actions like dancing, jumping between a building's rooftops,
- climbing a roof, driving a car in stressful situations or playing sports.
- In combat, Flow is used to defend against attacks and attack with mundane
- ranged weapons.
+Flow is graceful movement, purposeful motion.
+ It is used for actions that move, things that do not stand still in the
+ world.
+ Climb a wall or fly over it, flowing like the winds.
+ Dancing gracefully to seduce your crush.
+ Flow is compromised of the Athletics, Drive and Firearms mundane skills.
 \begin_inset Newline newline
 \end_inset
 
@@ -5670,19 +5783,9 @@ The Flow Skill describes the Luminous' ability to move gracefully or precisely
 \end_inset
 
 
-\series bold
-Sample Actions:
-\series default
- Dance performance (Finesse + Flow), Drive Vehicles (Finesse + Flow), Climb
- a wall (Power + Flow) 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills:
-\series default
- Athletics, Drive, Firearm
+\emph on
+In combat, this skill is used to defend against attacks and attack with
+ mundane ranged weapons.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5694,39 +5797,19 @@ Learn
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Learn
+Weaving!Weaving Skills!Learn
 \end_layout
 
 \end_inset
 
-The Learn Skill describes the Luminous' general knowledge and ability to
- learn new things.
- It is used to research a topic, perform web searches, perform scientific
- experiments, investigate a crime scene or recall general knowledge about
- fields such as geography or basic maths and sciences.
- It does not cover specialized or higher level knowledge.
- Such actions use the Lore skill instead.
-\begin_inset Newline newline
-\end_inset
-
-f
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Sample Actions: 
-\series default
-Perform an internet search (Finesse + Learn), Recall historical facts (Power
- + Learn), Examine a crime scene (Finesse + Learn) 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills: 
-\series default
-Academics, Investigate, Survival
+Learn is to see past lies, to look for deeper truths.
+ It is used for actions that seek a new truth, to learn something that is
+ not already known.
+ Look into a microscope to examine the detailed weave of a mysterious cloth
+ to learn its origin.
+ Search the internet for a fact you forgot and learn something you never
+ knew in the process.
+ Learn is comprised of the Academics, Investigate and Survival mundane skills.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5738,36 +5821,19 @@ Lore
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Lore
+Weaving!Weaving Skills!Lore
 \end_layout
 
 \end_inset
 
-The Lore Skill describes the Luminous' knowledge of specific technical topics
- and mechanics of the world.
- It is used to diagnose and treat illnesses and injuries, hack computer
- systems, identify animal tracks, or identify the species of a tree.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Sample Actions: 
-\series default
-Hack a computer (Power + Lore), Gather facts into a theory (Power + Lore),
- Discern misinformation (Resistance + Lore) 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills:
-\series default
- Medicine, Science, Computer
+Lore is memory, preexisting knowledge of the world.
+ Is used for actions that apply existing knowledge, to bring information
+ together and turn it into something new.
+ Draw on all the exploits you've used to hack networks before to hack a
+ computer system you've never seen before.
+ Realize the lie someone is telling you to the face, because you know things
+ work differently.
+ Lore is compromised of the Medicine, Science and Computer mundane skills.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5779,37 +5845,17 @@ Shape
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Create
+Weaving!Weaving Skills!Shape
 \end_layout
 
 \end_inset
 
-The Shape Skill describes the Luminous' ability to create new things or
- express inner truths.
- It is used to sew clothing, create paintings, write poems, build a tent
- in the wilderness, perform magical rituals, and speak convincingly to a
- large audience.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Sample Actions:
-\series default
- Compose a poem (Finesse + Shape), Design a building (Finesse + Shape),
- Write a program (Power + Shape) 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills: 
-\series default
-Crafts, Expression, Survival
+Shape is changing the world, creating new things.
+ It used for actions that create magical truths or mundane objects alike.
+ Write a poem to touch your lover's heart.
+ Shape the dream around you, imposing laws against those who would harm
+ your lover.
+ Shape is compromised of the Crafts, Expression and Survival mundane skills.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5821,37 +5867,19 @@ Connect
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Connect
+Weaving!Weaving Skills!Connect
 \end_layout
 
 \end_inset
 
-The Connect skill describes the Luminous' force of personality and ability
- to reach out to others.
- It is used to convince people to your side, make prepared speeches, navigate
- bureaucracy, reach out to another in need, and prove your trustworthiness
- to those suspicious of you.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Sample Actions:
-\series default
- Speak to a crowd (Power + Connect), Navigate bureaucracy (Resistance +
- Connect), Make an impassioned plea (Power + Connect)
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills:
-\series default
- Persuasion, Politics, Streetwise
+Connect is force of personality, one's own charisma.
+ It is used for actions that convince another, impress others with who you
+ are.
+ Make a speech to a crowd, impressing your ideals to all who would listen.
+ Convince a bureaucrat to let you talk to the higher up when the rules make
+ no sense.
+ Connect is compromised of the Persuasion, Politics and Streetwise mundane
+ skills.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5863,37 +5891,18 @@ Shade
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Shade
+Weaving!Weaving Skills!Shade
 \end_layout
 
 \end_inset
 
-The Shade skill describes the Luminous' skill at hiding their intent and
- acting secretively.
- It is used to hide yourself physically, lie to another, hide your true
- emotions, pickpocket items off another, pick open a door, and convey hidden
- meaning in what you say.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Sample Actions:
-\series default
- Follow someone secretly (Finesse + Shade), Conceal your emotions (Resistance
- + Shade), Disguise yourself (Finesse + Shade)
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills:
-\series default
- Stealth, Subterfuge, Larceny
+Shade is hidden shadows, to protect by veiling.
+ It is used for actions that conceal things from others, or present a face
+ that is not true.
+ Hide your sadness from another, showing them only the happiness they expect
+ of you.
+ Hide in the shadows, revealing yourself only when you are most needed.
+ Shade is compromised of the Stealth, Subterfuge, and Larceny mundane skills.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5905,51 +5914,24 @@ Resonate
 status open
 
 \begin_layout Plain Layout
-Transformed Skills!Resonate
+Weaving!Weaving Skills!Resonate
 \end_layout
 
 \end_inset
 
-The Resonate skill describes the Luminous' ability to understand others
- and the world around you in intuitive ways.
- It is used to understand others, detect lies and concealed intentions,
- sympathize with another's pain, understand hidden and occult meanings,
- handle animals, and fit into a crowd.
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Sample Actions:
-\series default
- Detect a lie (Finesse + Resonate), Fit into a crowd (Power + Resonate),
- Interpret a dream (Finesse + Resonate) 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Component Skills:
-\series default
- Empathy, Socialize, Animal Ken
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Transformed Skills|)
-\end_layout
-
-\end_inset
-
-
+Resonate is understanding another, feeling another's feelings.
+ It is used for actions that offer an hand to another, to show another that
+ you understand them.
+ Reach an hand out to the girl with sad eyes, tell them that your fights
+ are behind you.
+ See past the lies of the cult leader, seeing the rotten intent behind his
+ words.
+ Resonate is comprised of the Empathy, Socialize and Animal Ken mundane
+ skills.
 \end_layout
 
 \begin_layout Subsection
-Transformed Traits 
+Dream Form Traits 
 \end_layout
 
 \begin_layout Standard
@@ -5974,7 +5956,6 @@ Maximum Willpower is calculated as Resistance + Finesse.
 
 \begin_layout Itemize
 Defense is equal to the lower of her Resistance and Finesse + Flow.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -5990,17 +5971,19 @@ Form-Locked Dots
 \end_layout
 
 \begin_layout Standard
-A Luminous may buy dots in her transformed attributes or skills directly,
+A Luminous may buy dots in her Dream Attributes or Weaving Skills directly,
  instead of increasing the corresponding mundane traits.
- Furthermore, she may buy dots in merits that only apply to one of her forms.
- Refund one beat for each experience spent on such a form-locked merit.
+ These dots are added to the dots derived from your character's mundane
+ skills, and are the only way for the Luminous to have attributes or skills
+ above 5 dots.
+ Their mundane attribute cap never increases.
 \end_layout
 
 \begin_layout Standard
-Add your character's transformed attribute and skill dots to the normal
- base ranking derived from her mundane skills.
- As a Luminous' mundane attribute cap never increases, such dots are the
- only way for her to gain attributes and skills above 5 dots.
+Furthermore, she may buy dots in merits that only apply to one of her forms.
+ Refund one beat for each experience spent on such a form-locked merit.
+ The Storyteller should only allow this for merits where the merit only
+ being available in a certain form would be relevant.
 \end_layout
 
 \begin_layout Subsection
@@ -6047,7 +6030,7 @@ As powerful as it is, however, a Luminous cannot rely solely on Dual Identity
  It does not prevent others from suspecting a Luminous' nature based on
  circumstantial evidence.
  She cannot simply dip into a closet only to return as a mysterious magical
- girl, and not expect others to not draw the connection.
+ girl, and not expect others to not draw the connection eventually.
  She obviously cannot transform in front of someone, and expect Dual Identity
  to protect her even slightly.
 \end_layout
@@ -6118,6 +6101,8 @@ When she reverts to Mundane Form after transforming or visiting the Dream
  would fuel her magic if she were in Dream Form, and she takes a penalty
  equal to her Reverie divided by 3 (rounded up) to all actions taken in
  her Mundane Form.
+ However, she gains a bonus on her Transformation rolls equal to the usual
+ penalty.
  Once a scene, if she fails an important roll or suffers significant social
  complications due to this, she gains a Beat.
 \end_layout
@@ -6229,7 +6214,7 @@ Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
  Dreams may be used to detect Asura, Incursions, transformed Luminous, other
  beings affiliated with the Dream, and any powers used by them.
  Note that Dual Identity protects Luminous from being detected by such means
- in Mundane Form as long as they do not use any of their powers..
+ in Mundane Form as long as they do not use any of their powers.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -6516,6 +6501,50 @@ TODO: Write this chapter.
 \end_layout
 
 \begin_layout Section
+The Dream
+\end_layout
+
+\begin_layout Subsection
+Dream Form
+\end_layout
+
+\begin_layout Standard
+A Luminous' Dream Form is nothing truly unique in a world of dreams.
+ All visitors in the Dream (or other mental spaces) manifest a Dream Form
+ rather than their physical bodies.
+ The Dream Forms of mortals have their own limitations, however, compared
+ to those of the Luminous:
+\end_layout
+
+\begin_layout Itemize
+Instead of using the highest of his attributes, a mortal's Dream Attributes
+ are based on his mental attributes.
+ He uses Intelligence for Power, Wits for Finesse, and Resolve for Resistance.
+\end_layout
+
+\begin_layout Itemize
+Mortals suffer wound penalties to Dream Health as usual.
+ Neither Luminous or mortals have any protection against physical attacks
+ in the Dream, as all attacks are partly magical in a sense.
+\end_layout
+
+\begin_layout Itemize
+Mortals cannot perform Weaving Actions, have no Weaving Skills, and do not
+ have Dual Identity.
+ As such, they add Athletics instead of Flow to their Defense.
+\end_layout
+
+\begin_layout Standard
+The Luminous enjoy additional benefits in the Dream proper.
+ They are always in their Dream Form, but may still take on the appearance
+ of their Mundane Form.
+ Dual Identity applies as usual when they do so.
+ Furthermore, in either form, she may choose whether supernatural powers
+ affect her as if she were a mortal or a supernatural being.
+ 
+\end_layout
+
+\begin_layout Section
 Young Luminous
 \end_layout
 
@@ -6563,7 +6592,7 @@ Her mundane skills have a cap of three dots, which increases to four dots
 
 \begin_layout Itemize
 She has the Study skill instead of Academics and Science.
- It counts as part of the Learn transformed skill.
+ It counts as part of the Learn Weaving skill.
 \end_layout
 
 \begin_layout Itemize
