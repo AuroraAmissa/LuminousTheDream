@@ -2480,7 +2480,7 @@ Luminous: the Dream
  This book discusses subject matters such as poverty, sexism, racism, and
  all kinds of the mundane and small cruelties that are too often overlooked.
  Beyond that, its supernatural elements involve themes of irreality, blurred
- identity, and rejection of reality.
+ boundaries between people, and rejection of reality.
 \end_layout
 
 \begin_layout Standard
@@ -6767,7 +6767,7 @@ Touchstones
 status open
 
 \begin_layout Plain Layout
-A subtle mechanic.
+A subtle mechanic, and one that serves a lot of purposes.
  Hope is a pretty mild mechanic as long as you keep damage low.
  But emotional strain has a way of spiraling, and the Hope mechanic reflects
  that.
@@ -6783,6 +6783,18 @@ can't
 Take Their Hand is pretty core to the economy here too.
  People like you...
  get it better, understand better how to help others like them.
+\end_layout
+
+\begin_layout Plain Layout
+Finally, this is the keystone that encourages Luminous to have some kind
+ of a mundane life.
+ Hope recovery is slow and takes time – they thrive in situations where
+ they can live a quieter life, and keep their magical work somewhat separate
+ from it.
+ They can't easily handle having no time to rest, when the supernatural
+ follows them home.
+ Thus, Dual Identity and maintaining that secrecy becomes all the more important
+ for them.
 \end_layout
 
 \end_inset
@@ -7182,7 +7194,9 @@ Luminous and those they have Strong Intimacy with often dream of each other,
  sometimes sharing their dreams entirely.
  They gain the rote quality on all mundane skill rolls to understand or
  emphasize with each other.
- 
+ Furthermore, they know by heart each other's Anchors and any similarly
+ character defining traits such as Bans, a Changeling's Taboos, or a Mage's
+ Obsessions.
 \end_layout
 
 \begin_layout Itemize
@@ -7248,9 +7262,14 @@ Reflected Light
 \begin_layout Standard
 Even in their waking life, a Luminous' Echo allows her and those closer
  to her to draw on each other for strength.
- Once per scene, either may spend a Willpower to reflect a Virtue, Dream,
- Wish or similar Anchor of someone they have Strong or closer Intimacy with
- until the scene ends.
+ Remembering the feelings they wove into their shared dreams, they may draw
+ on each other's best traits when their own resolve wavers.
+\end_layout
+
+\begin_layout Standard
+Once per scene, either may spend a Willpower to reflect a Virtue, Dream,
+ Wish or similar Anchor that reflects a positive pillar of one's self from
+ someone they have Strong or closer Intimacy with until the scene ends.
  This grants 9-Again for all actions that follow that Anchor, and are treated
  as if they had the Anchor for all purposes.
 \end_layout
@@ -7267,13 +7286,20 @@ A Luminous can draw on her relationships with others, drawing on their own
  people, and the closest thing they get baseline to an aura flare.
 \end_layout
 
+\begin_layout Plain Layout
+The system in general is full of designs like this.
+ Anchors and Aspirations are not only useful as out of character traits;
+ their manipulation is the best representation there is in the Storyteller
+ system for representing magics that shape one's own heart.
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Subsection
-Flaring an Echo 
+Aria
 \end_layout
 
 \begin_layout Standard
@@ -7281,61 +7307,89 @@ Flaring an Echo
 status open
 
 \begin_layout Plain Layout
-Echo!Flaring an Echo
+Aria|(textbf
 \end_layout
 
 \end_inset
 
-A Luminous may flare her Echo as an instant action at any time, or as an
- reflexive action while transforming by spending two Willpower.
- She focuses on the emotion and meanings underlying her Dream, and projects
- it forth through her Echo.
+The words you read and hear in a dream aren't always...
+ well, words.
+ If you look at them too closely, they don't make sense, they don't even
+ make letters.
+ But, if you take them for granted, and simply take a dream for a dream
+ – they weave together into an unspoken song, conveying meaning in a way
+ words can't.
+ Aria isn't truly a language, it's that language of dreams reflected through
+ a Luminous' Echo.
 \end_layout
 
 \begin_layout Standard
-An Echo intensified in this way conveys her Dream and inner truths to everyone
- who sees her, not only those with preexisting ties to her.
- She rolls Reverie + Hope.
- If she succeeds, she inflicts the Echo Flare tilt on everyone within the
- general vicinity, granting them 9-again on all actions that align with
- her Dream and causing actions antithetical to her Dream to lose 10-again.
+If a Luminous chooses to, she may weave Aria into her words, conveying her
+ meaning unfailingly.
+ This gives any listening to her an automatic successes on rolls to determine
+ her emotional state, or the true meaning and context behind her words.
 \end_layout
 
 \begin_layout Standard
-Someone affected by Echo Flare may shake it off by spending a Willpower
- reflexively and rolling Composure + Resolve.
- If she gains an equal number or more successes than the Luminous' roll,
- she loses the tilt.
- The tilt otherwise naturally ends at the scene's end.
+By spending a Mote, she may use her Aria without words.
+ She speaks a statement lasting no more than a turn in sounds that cannot
+ resolve into words, reflecting the Luminous' own nature.
+ One who styles herself a witch may speak in tongues, a musician may sing
+ words that resolve into a piano melody rather than any voice.
+ When used in this way, Aria does not depend on a shared language, and may
+ convey information equivalent to a paragraph or two in that time span in
+ a single turn.
 \end_layout
 
 \begin_layout Standard
-Luminous may contest an Echo Flare with her own Echo, contesting it with
- Reverie + Hope.
- If she wins, she is not affected by the aura, and instead inflicts her
- own Echo Flare against the other Luminous.
- Many other types of supernatural beings have innate auras that inflict
- Conditions or Tilts.
- Luminous may contest their active flares with her Echo as well, in the
- same way as Echos.
+By spending a further Willpower, she may 
+\begin_inset Quotes xld
+\end_inset
+
+tune
+\begin_inset Quotes xrd
+\end_inset
+
+ her Aria such that only certain listeners may resolve the meaning, others
+ only hearing the strange sounds.
+ No mundane means can understand this communication, although supernatural
+ powers to understand languages may pierce this protection by winning a
+ Clash of Wills.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The 
+\begin_inset Quotes xld
+\end_inset
+
+splat language
+\begin_inset Quotes xrd
+\end_inset
+
+ of the Luminous.
+ This is both their means to identify Luminous (who wish to be known) and
+ their way to talk to each other secretly.
+ An...
+ actual language doesn't feel quite right for an splat as ephemeral feeling
+ as them.
+ Aria fits the Luminous in the same way the Royal Tongue fits Princesses.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
-Echo|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Probably want to cut this in favor of a supernatural language.
+Aria|)
 \end_layout
 
 \end_inset
@@ -7388,6 +7442,29 @@ Transforming creates a brief but spectacular display of lights and colors
  bathroom or similar place.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The heart of what makes Luminous a magical girl splat, more than anything
+ else.
+ They 
+\emph on
+transform
+\emph default
+, becoming their ideal self in the process.
+ I've kept a transformation roll, since it reflects a pretty common theme
+ and plot beat in magical girl anime.
+ Transforming despite their own compromised emotions by act of will, or
+ failing and suffering more emotionally for it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Mundane Form 
 \end_layout
@@ -7427,6 +7504,44 @@ status open
 
 \begin_layout Plain Layout
 Mundane Form|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Mundane Form is both a strong protection and a weakness for the Luminous.
+ They can't choose to Spoof as a Demon could, they simply 
+\emph on
+are
+\emph default
+ mundane in their everyday life with all its weaknesses and all the advantages
+ it has for hiding their nature.
+\end_layout
+
+\begin_layout Plain Layout
+This mechanic alone makes Luminous something between a mortal chronicle
+ and a supernatural splat – despite the fact that it is certainly a full
+ template of its own.
+ Transforming wantonly is dangerous for the Luminous, and sometimes their
+ best answer to a problem is to do it as mortals do – if with a few extra
+ tricks and protections.
+\end_layout
+
+\begin_layout Plain Layout
+I've chosen to use mortal game style antagonists as Luminous' bread and
+ butter for this reason.
+ They have their own problems – those to do with the Astral and dreams,
+ but...
+ they partly play a mortal chronicle too.
+ With such antagonists, they can choose their approach – or perhaps have
+ the situation choose it for them.
 \end_layout
 
 \end_inset
@@ -7495,6 +7610,32 @@ hyperref[Sec-AttributeSelection]{Character Creation}
  section for more information.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Luminous project their dreams into reality.
+ They are magical girls because the first part of their Dream they protect
+ on the world is themselves.
+\end_layout
+
+\begin_layout Plain Layout
+This is the same Dream Form mechanic other splats use in the Astral and
+ dreams.
+ That is on purpose.
+ As far as any other splat would see it if they knew only half the story,
+ the Luminous are manifested Goetia/dreamborn.
+ It takes some specialized knowledge that they exist to understand that
+ they're more than that, that they have a mundane form and physical body
+ as well.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Dream Health 
 \end_layout
@@ -7549,6 +7690,44 @@ status open
 
 \begin_layout Plain Layout
 Dream Form!Dream Health|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Magical girls don't worry about dying to a little breeze.
+ That goes against so many premises of the genre, even ones where combat
+ is common.
+\end_layout
+
+\begin_layout Plain Layout
+Dream Health means a Luminous' opponents must specifically want to 
+\emph on
+kill
+\emph default
+ her to permanently kill her, not simply collapse her transformation.
+ In fights between Luminous, or fights between the Maou and Luminous, this
+ second health bar makes any conflict more like a duel than a proper fight
+ to the death.
+ Neither want to just outright kill each other, after all.
+\end_layout
+
+\begin_layout Plain Layout
+In Princess, Holy Shield served this purpose.
+ You can't just pop a strong Princess by rolling 8 dice on your attack due
+ to a few exploding dice; you have to actually exhaust their Wisp supply
+ before you can do that.
+ It's...
+ frankly a little overpowered.
+ Dream Health achieves this same goal without giving them overwhelming protectio
+ns.
 \end_layout
 
 \end_inset
@@ -7671,6 +7850,21 @@ Dream Attributes|)
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Standard ephemeral rules.
+ This is mainly a bit of clarification since Luminous are meant to be a
+ full playable splat.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Weaving Actions
 \end_layout
@@ -7738,6 +7932,46 @@ status open
 
 \begin_layout Plain Layout
 Weaving|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Another of the things that defines the feel of Luminous.
+ They don't interact with the world as mortals or even most supernatural
+ beings do.
+ To them, they move by intent as in a dream.
+ Imagine moving in impossible ways and simply doing so.
+ Strange body plans and unfamiliar body parts don't phase them the slightest
+ – before they learn how to control them physically they can simply Weave
+ their way through the adjustment period.
+\end_layout
+
+\begin_layout Plain Layout
+Mechanically, this serves as one of their major advantages.
+ They have higher dice pools on average between Dream Attributes and Weaving
+ Actions.
+ In fact, this replaces the normal supernatural trait added to supernatural
+ powers.
+ Since this gives them larger dice pools already, it's not entirely necessary
+ for the Luminous.
+\end_layout
+
+\begin_layout Plain Layout
+This also is meant as a partial patch to the problem some supernatural splats
+ have that...
+ powers require very specific Skills, limiting builds in a strange way.
+ Why does a Changeling who lives in a city with no wilderness for ages have
+ a Survival skill? Especially when its entire purpose is to cast Elemental
+ Weapon? Because Luminous powers always use Weaving Skills, this problem
+ is far lessened.
 \end_layout
 
 \end_inset
@@ -8023,6 +8257,24 @@ Initiative is equal to Finesse + Resistance.
 Speed is equal to Power + Finesse + 5.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Again, Luminous is a fully playable splat, and their Dream Form is a core
+ mechanic.
+ None of the official source books make it clear what exactly Dream Forms
+ use for these traits, and that's not too bad because it's not nearly as
+ core to them as they are to Luminous.
+ This is inferred from the ephemeral rules.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Form-Locked Dots 
 \end_layout
@@ -8130,6 +8382,31 @@ Transformation|)
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+I've written this as an uncontested power along the level of Liar's Tongue.
+ I don't think even Clashes of Will versus Dual Identity is particularly
+ good gameplay.
+ Luminous have enough ways to let slip their secret, and usually leave enough
+ holes for investigation to slip through.
+\end_layout
+
+\begin_layout Plain Layout
+Luminous are meant to live, to rely on their friends.
+ They can't do the perfect spycraft or operational security that Demons
+ rely on usually.
+ Hence, their power papers over the largest gaps, while still demanding
+ they take some amount of (more reasonable) care.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Flicker
 \end_layout
@@ -8188,6 +8465,49 @@ status open
 
 \begin_layout Plain Layout
 Flicker|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The actual downside of the Luminous.
+ It always felt strange to me that in Princess, their downside is also their
+ core driving motive.
+ It felt...
+ strange, and like an almost weirdly cold portrayal of hyperempathy.
+ To care to that amount hurts you, yes, but...
+ it is ultimately what drives you.
+ And what lets you keep caring in a world that would rather you not.
+\end_layout
+
+\begin_layout Plain Layout
+Flicker, then, is something that the dream themes of Luminous make possible.
+ They get used to falling into their dreams, letting those winds carry them
+ around.
+ They get used to dreaming in the waking world.
+ When they revert to their Mundane Form, it crashes back on them.
+ This draws attention to the fine line they walk, gives strong roleplay
+ opportunities for people to portray what this looks like in practice.
+\end_layout
+
+\begin_layout Plain Layout
+It also forces 
+\emph on
+most
+\emph default
+ Luminous to be careful about when they transform, without artificial limits
+ like the rolls to stay transformed that Princess uses.
+ Subtly though, it still allows you to play Mirrory Luminous without a specific
+ mechanic that allows you to do so.
+ After all, you suffer no effects from Flicker if you simply do not untransform.
+ Both modes avoid the downside, with their own complications on either end.
 \end_layout
 
 \end_inset
@@ -8319,6 +8639,22 @@ Effect:
  Add your dots in this merit to your Sensitivity.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Sensitivity is an upside trait now, in many ways.
+ This merit lets you enhance its upsides and downsides alike.
+ Probably should take this on the mentory or maternal type in the group.
+ Whomever cares for the others.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Touchstone (• to •••••) 
 \end_layout
@@ -8370,6 +8706,38 @@ Your character is treated as she appears outside of the supernatural world.
  or pass an adult (regardless of whether she is one).
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Though not very elegant, this lets a Luminous' Dream Form age and size be
+ completely uncoupled from her Mundane Form at reasonable costs.
+\end_layout
+
+\begin_layout Plain Layout
+Just...
+ well.
+ If you look like a kid, people are going to treat you like one.
+ Most people don't believe you when you say 
+\begin_inset Quotes xld
+\end_inset
+
+I swear I'm a transformed magical girl!
+\begin_inset Quotes xrd
+\end_inset
+
+ because they don't think magical girls exist.
+ Also, that's a thing mostly little kids (...
+ i.e.
+ what you look like) care about, not adults.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Innate Regalia (••) 
 \end_layout
@@ -8384,6 +8752,26 @@ Effect:
  Reduce her Regalia Capacity by one.
  She permanently has a Regalia of your choice active in Dream Form, bound
  to two Invocations chosen when you buy this merit without cost.
+ The Regalia has to be something you can justify to the Storyteller as innate
+ to your character's body.
+ For example, a robot girl may have her Levinbolt integrated into her arm,
+ and a fairy boy may have his Wings of Light be...
+ well, physical wings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A basic design trick.
+ This lets you mechanically reflect a large variety of different physical
+ forms, without the long list of supernatural merits Exalted has.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -8497,6 +8885,26 @@ Non-Luminous characters may only replace a single Aspiration from Sensitivity.
  If she fails, she receives a Hope Condition.
  If she dramatically fails, she receives a persistent Hope Condition.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Luminous aren't the only ones who get it, who are empathic enough to be
+ hurt by it.
+ Making Sensitivity a mundane merit is important for Luminous Hope economy
+ (allowing them to take mortals as Touchstones effectively), and pushes
+ the themes that...
+ well.
+ There are just people like that out in the world, magical or not.
+ They just have to find each other.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -9430,21 +9838,21 @@ Changeling: the Lost 2e
 Chapter 5: Colors of the Sky
 \end_layout
 
+\begin_layout Section
+The Dream
+\end_layout
+
 \begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Write this chapter.
+TODO: Write this section.
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-The Dream
 \end_layout
 
 \begin_layout Subsection
@@ -9487,6 +9895,20 @@ The Luminous enjoy additional benefits in the Dream proper.
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This is just Beast/Changeling/Mage's Dream Form, of course.
+ Just explained in terms of the Luminous one, not on its own terms.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Fading
 \end_layout
@@ -9526,6 +9948,82 @@ Fading Luminous no longer regain Willpower form rest, and suffer a box of
  light.
  The same occurs if their Dream Health is exhausted, or they suffers the
  Soul Shocked Condition for any other reason.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+...
+ a final plot beat for a Luminous at the end, and quite a grand roleplaying
+ opportunity at that.
+ A name call back to the original pitch for Princess: the Hopeful, at that.
+\end_layout
+
+\begin_layout Plain Layout
+Physical realities such as old age, dying, or not having a soul don't quite
+ affect the Luminous nearly as hard as they should.
+ After all, they are people who have become dreams.
+ Still, it's not...
+ exactly easy to do.
+ They just fade away if they run out of Hope, and the constant Severe Hope
+ damage makes it hard.
+\end_layout
+
+\begin_layout Plain Layout
+With Touchstones involved, they can still only clear one Severe damage a
+ day – breaking even in the process.
+ It takes the Take Their Hand power from Sensitivity to get ahead of existing
+ Severe damage.
+ Difficult but possible, as intended.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Elder Luminous...?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+As much as they can theoretically live indefinitely despite Fading, no Luminous
+ older than a century and a half or so have shown themselves to the broader
+ community.
+ Some say it's because of how difficult it is for a Luminous to hang on,
+ especially as their friends pass away by mundane means...
+ and, finding others like that is near impossible before the modern era.
+\end_layout
+
+\begin_layout Plain Layout
+Perhaps a few group of truly elder Luminous have hidden themselves away
+ in some corner of the Dream or some deep forest together.
+ It is...
+ known that Nakamas may indeed be able to sustain themselves like that.
+ If they exist, they either don't know how much the world has grown, or
+ simply don't wish to show themselves.
+ Others say its unlikely – the boredom such isolation should cause would
+ have Faded them by now.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -10151,6 +10649,22 @@ Nicknames:
  Luminous, Dreamers, Hopeful, Weavers 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Let's be real here.
+ This entire section isn't really for gameplay, it's for fluff.
+ Anything put here about how Luminous and Maou powers interact will be repeated
+ elsewhere in more depth and with more clarity.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Code: Idealis
 \end_layout
@@ -10518,13 +11032,35 @@ The magic of the Luminous is centered upon shaping their own Dreams, and
 Similarly, Changelings in the Dream (as the Luminous define it) may Dreamweave
  as in personal dreams.
  They lose this power in the hearts of the Dream Kingdoms or the Deep Dream.
- She may apply Dreamweaving successes to Conceptual 
+ She may apply Dreamweaving successes make Conceptual Attacks if her actions
+ could justify doing so.
 \end_layout
 
 \begin_layout Standard
 Maou may similarly Hedgespin by paying Motes, but cannot do so as naturally.
  They cannot perform Paradigm shifts, and must possess Fabula ••• or Prisma
  at •.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Dreams and fae magic are closely tied.
+ Luminous can approach the Hedge with their experience manipulating dreams,
+ and Changelings can approach the Dream with their experiences in Arcadia.
+\end_layout
+
+\begin_layout Plain Layout
+Maou...
+ need a little bit of help, or at least specialist knowledge that doesn't
+ come by default.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -10584,6 +11120,33 @@ The Weave of Bonds fundamentally destroys the separation Liar's Tongue relies
  consider this a benefit more than an downside.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This was a hard one to figure out.
+ Demons lie, their deceptions and the Pacts that force them are so core
+ to their splat.
+ Luminous have a power that connects hearts.
+ Every Demon power that reflects their abilities to lie draw on the separation
+ between their bodies and their minds.
+ Which...
+ doesn't help much when Luminous connect minds directly.
+\end_layout
+
+\begin_layout Plain Layout
+Still, it isn't any good if Demons are stymied from making Pacts with a
+ Luminous even tangentially involved.
+ Hence, the Echo is...
+ a danger for Demons, but not one that stops them from trying.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Pacts
 \end_layout
@@ -10605,6 +11168,28 @@ Similarly, a Soul Pact treats her two forms separately.
 ing her entirely.
  This has the usual effects of a Demon attempting to take a supernatural
  soul as a Cover.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Making a Pact 
+\emph on
+with
+\emph default
+ a Luminous, though.
+ Now 
+\emph on
+that
+\emph default
+ justifies some complications.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -10633,6 +11218,22 @@ In the context of Mage, Defiant Will is somewhat broader than its description
  a Luminous' relationships with anyone them have Strong or Connected Intimacy
  with also trigger Defiant Will, in addition to the obvious Mind effects.
  More indirect Arcana like Fate or Time are not impeded.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Withstand is complicated.
+ I really wish I could make Hope factor into Withstand somehow too, but
+ the scaling never quite worked out without extreme complexity.
+ Easier to just hit their dice pool.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -10700,6 +11301,30 @@ Similarly, a Luminous' Hope is simply a measurement of their mental stability.
  Conditions, not heal the underlying Hope damage.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Transferring Motes would just break the game.
+ They regenerate per scene, and...
+ that's a subtle but powerful advantage of theirs.
+ It shouldn't at all be easily shared.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Giving anyone the ability to restore Hope by fiat would also break the game's
+ themes.
+ Luminous have to struggle versus Hope, and any powerful enough healing
+ ability, in my opinion, will damage that severely.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Soul Magic
 \end_layout
@@ -10744,6 +11369,41 @@ status open
 
 \begin_layout Plain Layout
 TODO: Maou souls? Likely depends on what their final mechanics are.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Here, have a free roleplaying opportunity.
+ :3
+\end_layout
+
+\begin_layout Plain Layout
+I don't really like how a lot of fanworks (or at least players of them)
+ treat Mage' opinion of what is what as the core canonical answer.
+ Luminous think of their Soulspaces as their soul, even if Mages would say
+ it's actually their Oneiros.
+ There's no point in bending the rest of the book for Mage's sake – I use
+ the terms that are most understandable and 
+\begin_inset Quotes xld
+\end_inset
+
+feel right
+\begin_inset Quotes xrd
+\end_inset
+
+ for conveying the tone I want.
+\end_layout
+
+\begin_layout Plain Layout
+I can always explain later how it looks to Mages.
 \end_layout
 
 \end_inset
