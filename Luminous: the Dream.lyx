@@ -5,26 +5,62 @@
 \save_transient_properties true
 \origin unavailable
 \textclass memoir
-\begin_preamble
-\usepackage[english]{babel}
-\usepackage{datetime}
-\usepackage{colortbl}
-\usepackage[mark,raisemark=1.65\baselineskip]{gitinfo2}
-\usepackage[raster, fitting]{tcolorbox}
-\end_preamble
 \use_default_options true
 \begin_modules
 todonotes
 fixltx2e
 pdfform
 enumitem
+InStar
 \end_modules
 \maintain_unincluded_children false
 \begin_local_layout
 Format 66
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
-PackageOptions tcolorbox raster
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Do not Render"
+  LatexType             command
+  LatexName             ignorethis
+  ResetsFont            true
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             command
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	    1
+    PassThruChars       "\[]{}"
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:Commentary
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Commentary"
+  LatexType             command
+  LatexName             lumcommentary
+  ResetsFont            true
+  BgColor               pink
+End
+
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
 \end_local_layout
 \language english
 \language_package default
@@ -112,6 +148,374 @@ PackageOptions tcolorbox raster
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ignorethis[1]
+\backslash
+relax
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IgnoreThis
+status open
+
+\begin_layout Section*
+LaTeX Prelude (Not in doc)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This thing exists so there's an link to the prelude in the outline.
+ It will not be generated unless something goes very wrong.
+ Also, I'm a little shit and will use this box here.
+ :)
+\end_layout
+
+\begin_layout Plain Layout
+This section defines the package imports that allow me to do what I do in
+ this document, and the commands that the build_*.sh scripts use to define
+ settings for the build script.
+ Rather...
+ inelegant, but I couldn't think of better.
+\end_layout
+
+\begin_layout Plain Layout
+This whole section runs in the preamble, before 
+\backslash
+begin{document}, but there's no real visible sign of this due to the hack
+ for it kinda sucking...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage[english]{babel}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{datetime}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{colortbl}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage[raster, fitting, skins, breakable]{tcolorbox}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+ifrelease and 
+\backslash
+ifnrelease.
+ Defaults to release *not* on.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ifrelease[1]
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+%%REMOVE_FOR_RELEASE%%
+\backslash
+renewcommand
+\backslash
+ifrelease[1]{#1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ifnrelease[1]{#1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifrelease { 
+\backslash
+renewcommand
+\backslash
+ifnrelease[1]
+\backslash
+relax }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ifcommentary[1]{#1} % default ON!
+\end_layout
+
+\begin_layout Plain Layout
+
+%%REMOVE_FOR_NO_COMMENTARY%%
+\backslash
+renewcommand
+\backslash
+ifcommentary[1]
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ifncommentary[1]{#1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifcommentary { 
+\backslash
+renewcommand
+\backslash
+ifncommentary[1]
+\backslash
+relax }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ifplaytest[1]
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+%%REMOVE_FOR_PLAYTEST%%
+\backslash
+renewcommand
+\backslash
+ifplaytest[1]{#1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+ifnplaytest[1]{#1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifplaytest { 
+\backslash
+renewcommand
+\backslash
+ifnplaytest[1]
+\backslash
+relax }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Only use gitinfo2 marks in non-release builds
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifnrelease { 
+\backslash
+usepackage[mark,raisemark=1.65
+\backslash
+baselineskip]{gitinfo2} }
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifrelease { 
+\backslash
+usepackage{gitinfo2} } 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+ignorethis{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IgnoreThis
+status open
+
+\begin_layout Subsubsection*
+Setup Fonts
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This loads the fonts for the rulebook.
+ Good typography makes all the difference for the 'feel' of a rulebook.
+\end_layout
+
+\begin_layout Plain Layout
+I would suggest you learn LaTeX, or at least the basics of LyX if you want
+ to do something like Luminous.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Standard
 \begin_inset ERT
@@ -387,7 +791,70 @@ status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+renewcommand
+\backslash
+ignorethis{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IgnoreThis
+status open
+
+\begin_layout Subsubsection*
+Setup Basic Styling
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Boring styling.
+ This defines a lot of colors and the overall page layout.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 % Setup colors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{lum-tbg}{HTML}{ffebf2}
 \end_layout
 
 \begin_layout Plain Layout
@@ -419,6 +886,13 @@ definecolor{lum-ln}{HTML}{f26d9b}
 
 
 \backslash
+definecolor{maou-tbg}{HTML}{f3ebff}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 definecolor{maou-bg}{HTML}{e9dbff}
 \end_layout
 
@@ -438,6 +912,13 @@ definecolor{maou-ln}{HTML}{ae83f2}
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{st-tbg}{HTML}{ebf8ff}
 \end_layout
 
 \begin_layout Plain Layout
@@ -469,6 +950,42 @@ definecolor{st-ln}{HTML}{6ec2f2}
 
 
 \backslash
+definecolor{comment-tbg}{HTML}{ffe6fd}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{comment-li}{HTML}{fcb8f7}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{cw-tbg}{HTML}{ffe6e6}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{cw-li}{HTML}{ff787a}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 definecolor{watermark}{HTML}{a0a0a0}
 \end_layout
 
@@ -485,9 +1002,35 @@ definecolor{watermark}{HTML}{a0a0a0}
 
 
 \backslash
+newcommand
+\backslash
+drafttext{Draft}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifplaytest { 
+\backslash
+renewcommand
+\backslash
+drafttext{Playtest} }
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 renewcommand{
 \backslash
-gitMarkPref}{Playtest 
+gitMarkPref}{
+\backslash
+drafttext{} 
 \backslash
 textbullet{} This version is subject to change}
 \end_layout
@@ -860,6 +1403,68 @@ status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+renewcommand
+\backslash
+ignorethis{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IgnoreThis
+status open
+
+\begin_layout Subsubsection*
+Setup Section Styling
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This section defines the variables and commands used for the per-section
+ styling.
+\end_layout
+
+\begin_layout Plain Layout
+I do this sometimes for e.g.
+ centering the splat titles, or the different colors and fonts in the three
+ sections of this book.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 % Setup command variables
 \end_layout
 
@@ -900,7 +1505,9 @@ vcolorset{lum}
 \backslash
 newcommand
 \backslash
-vsubsecsize{20}
+vsubsecsize
+\backslash
+relax
 \end_layout
 
 \begin_layout Plain Layout
@@ -909,7 +1516,9 @@ vsubsecsize{20}
 \backslash
 newcommand
 \backslash
-vsubsubsecsize{15}
+vsubsubsecsize
+\backslash
+relax
 \end_layout
 
 \begin_layout Plain Layout
@@ -947,7 +1556,9 @@ centering
 \backslash
 renewcommand
 \backslash
-vsubsecsize{30}
+vsubsecsize{
+\backslash
+fontsize{30}{30}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -956,7 +1567,9 @@ vsubsecsize{30}
 \backslash
 renewcommand
 \backslash
-vsubsubsecsize{20}
+vsubsubsecsize{
+\backslash
+fontsize{22}{27}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -997,7 +1610,9 @@ relax
 \backslash
 renewcommand
 \backslash
-vsubsecsize{20}
+vsubsecsize{
+\backslash
+fontsize{22}{27}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1006,7 +1621,9 @@ vsubsecsize{20}
 \backslash
 renewcommand
 \backslash
-vsubsubsecsize{15}
+vsubsubsecsize{
+\backslash
+fontsize{16}{20}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1210,11 +1827,7 @@ vtitlecentered}
 \backslash
 setsubsecheadstyle{
 \backslash
-fontsize{
-\backslash
-vsubsecsize}{
-\backslash
-vsubsecsize}
+vsubsecsize
 \backslash
 vtitlefont
 \backslash
@@ -1227,11 +1840,7 @@ vtitlecentered}
 \backslash
 setsubsubsecheadstyle{
 \backslash
-fontsize{
-\backslash
-vsubsubsecsize}{
-\backslash
-vsubsubsecsize}
+vsubsubsecsize
 \backslash
 vtitlefont}
 \end_layout
@@ -1253,7 +1862,249 @@ vbgcolorname}
 
 
 \backslash
+setnormallayout
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 resethyper
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+ignorethis{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IgnoreThis
+status open
+
+\begin_layout Subsubsection*
+Custom Insets Commands
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This section implements the custom insets (like this box right here!).
+\end_layout
+
+\begin_layout Plain Layout
+This helps the structure of the document be more understandable, without
+ it being chock full of raw LaTeX any more than it already is.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Custom insets
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tcbset{textmarker/.style={% 
+\end_layout
+
+\begin_layout Plain Layout
+
+	skin=enhancedmiddle jigsaw,breakable,parbox=false, 
+\end_layout
+
+\begin_layout Plain Layout
+
+	boxrule=0mm,leftrule=2.5pt,rightrule=2.5pt,boxsep=0mm,arc=0mm,outer arc=0mm,
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	left=4mm,right=4mm,top=3.5mm,bottom=3.5mm,toptitle=1mm,bottomtitle=1mm,oversize
+\end_layout
+
+\begin_layout Plain Layout
+
+}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newtcolorbox{lum-sidebarenv}{textmarker,colback=lum-tbg,colframe=lum-li}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newtcolorbox{maou-sidebarenv}{textmarker,colback=maou-tbg,colframe=maou-li}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newtcolorbox{st-sidebarenv}{textmarker,colback=st-tbg,colframe=st-li}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newtcolorbox{comment-sidebarenv}{textmarker,colback=comment-tbg,colframe=comment
+-li}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newtcolorbox{cw-sidebarenv}{textmarker,colback=cw-tbg,colframe=cw-li}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumsidebar[2]{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{
+\backslash
+vcolorset-sidebarenv}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+subsubsection*{#1}
+\end_layout
+
+\begin_layout Plain Layout
+
+		#2
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{
+\backslash
+vcolorset-sidebarenv}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumcommentary[1]{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+ifcommentary {
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+begin{comment-sidebarenv}
+\end_layout
+
+\begin_layout Plain Layout
+
+			#1
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+end{comment-sidebarenv}
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
@@ -1314,7 +2165,9 @@ status open
 \backslash
 gitDescribe{} (
 \backslash
-gitAuthorDate)
+gitAuthorDate
+\backslash
+ifcommentary{, author commentary})
 \end_layout
 
 \end_inset
@@ -1357,7 +2210,14 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Chapter
-Foreword
+Foreword 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Foreword"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1369,7 +2229,7 @@ Luminous: the Dream
  by White Wolf Publishing.
  Players take on the role of magical girls or boys who dream of a better
  future for all.
- Who found themselves wielding the power of Light against malign magical
+ Who found themselves wielding the power of dreams against malign magical
  forces and the mundane cruelties of the world alike.
  Because they know they can make a difference.
  And as long as they can make a difference, they couldn't forgive themselves
@@ -1388,6 +2248,127 @@ literal "false"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This version of Luminous: the Dream contains author commentary (from AuroraAmiss
+a).
+ This is mainly meant to help explain how various design decisions in this
+ fansplat came about, and thus help people writing general CofD fansplats
+ or addons for Luminous to better understand the themes and subtler points
+ of the system's design.
+ As a bonus, if you're a Storyteller, it'll probably give you quite a bit
+ of insight into how to run the game that I can't easily write into the
+ text 
+\begin_inset Quotes xld
+\end_inset
+
+normally
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+Boxes in this color are said personal commentary, and do not exist in the
+ normal copies of this document.
+\end_layout
+
+\begin_layout Plain Layout
+I saw a lot of the D&D/Pathfinder homebrew on the Giant in the Playground
+ forums use collapsible for a similar purpose, and I found the insights
+ there so valuable.
+ Similarly, Mark Rosewater's own blog on the design of Magic: the Gathering
+ and its mechanics were invaluable in my own personal growth as a game designer.
+ The community of fan set authors that built around it was equally amazing.
+ In a sense, this version of Luminous is my way to pass on that legacy to
+ a different community.
+\end_layout
+
+\begin_layout Plain Layout
+This is...
+ very much a passion project for me, born out of loving so much of Princess:
+ the Hopeful, and yet seeing so much of its flaws just lurking under the
+ surface.
+ In many ways, it is a return to the original pitch by Cruton, before Princess
+ was touched by so many other hands.
+ So perhaps I should say this is a fork of Princess: the Fading, not Hopeful.
+\end_layout
+
+\begin_layout Plain Layout
+In my opinion, Princess became 
+\emph on
+diluted
+\emph default
+ over its development process, its themes lost when it was touched by so
+ many different people with so many different opinions.
+ Some people were afraid it was too like Changeling: the Dreaming, and tried
+ to distinguish it.
+ Others had different ideas as to how dark Princess should be, how light
+ it could be without contradicting the World of Darkness.
+\end_layout
+
+\begin_layout Plain Layout
+Luminous refines the themes of Princess, casting the Dream as the very heart
+ of what magical girls are.
+ In Luminous, magical girls are those who cannot stand the shadows of the
+ world and cannot let go of the dreams they first saw in their childhood.
+ For them, the Dream is a source of all their power, not simply some Trap.
+ In that sense, it embraces the comparison to Changeling: the Dreaming.
+\end_layout
+
+\begin_layout Plain Layout
+In the process, it discards many of the themes that made up the Darkness
+ in Princess.
+ The dark forces that eat away at the heart of humanity, the struggle against
+ an seemingly overwhelming opponent — in favor of far more human 
+\begin_inset Quotes xld
+\end_inset
+
+main
+\begin_inset Quotes xrd
+\end_inset
+
+ antagonists.
+ Another homebrew author, MushroomBadger, has taken up those themes at the
+ heart of their own fork of Princess – Beloved: the Promise.
+\end_layout
+
+\begin_layout Plain Layout
+Both of us, in some way, came to the same conclusion independently – Something
+ of Princess has to be cut for its themes to come together.
+ I chose to make the Dream central, and MushroomBadger choose to cut the
+ Dreamlands.
+\end_layout
+
+\begin_layout Plain Layout
+Princess is an amazing game despite all its flaws, one that brought the
+ possibility of World of Darkness fanworks on this scale to the 
+\begin_inset Quotes xld
+\end_inset
+
+popular consciousness
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ For those who want to do better, it also serves as a lesson.
+ The first of them is...
+ that themes are at the heart of every Chronicles of Darkness game, not
+ ideas, or mechanics.
+ A great idea that contradicts the rest of your work will bring it all down,
+ not add to it.
+ Design is about what you cut, not what you do.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -1471,20 +2452,116 @@ and all its splats shine as a bright example as to what tabletop can be.
 
 \end_layout
 
-\begin_layout Section*
-Content Warning
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+printcw{
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
-\shape italic
+\emph on
 Luminous: the Dream
-\shape default
- is written to tell stories about facing the cruelties of the world.
- In the process, it discusses subject matters such as poverty, sexism, racism,
- and all kinds of the mundane and small cruelties that are too often overlooked.
- Such heavy topics can often hit too close to home for many players.
+\emph default
+ tells stories of the line between the escapism of dreams and the cruelties
+ of reality.
+ This book discusses subject matters such as poverty, sexism, racism, and
+ all kinds of the mundane and small cruelties that are too often overlooked.
+ Beyond that, its supernatural elements involve themes of irreality, blurred
+ identity, and rejection of reality.
+\end_layout
+
+\begin_layout Standard
+If you are sensitive to such content, please take care when reading or playing
+ Luminous.
  Safety techniques for such things are discussed in [TODO: Chapter link].
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex ContentWarning
+status open
+
+\begin_layout Section*
+Content Warning
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printcw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A standard content warning, really.
+ Typeset in red, because stuff like this really needs to be read.
+ It may not be needed for every CofD splat, but Luminous has good reason
+ for one – touching on multiple themes I know some people have trouble with.
+ 
+\emph on
+Changeling: the Lost
+\emph default
+ similarly had one of these for very good reasons.
+\end_layout
+
+\begin_layout Plain Layout
+Please don't be afraid to put these in your systems, if yours is similar.
+ Don't feel obligated if your system doesn't touch on so much sensitive
+ topics.
+\end_layout
+
+\begin_layout Plain Layout
+This is further duplicated in the Introduction section, because people may
+ indeed skip the Foreword sometimes.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -1824,6 +2901,35 @@ Setting
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This is the author commentary version of Luminous, and contains notes on
+ design by its primary designer.
+ If you're confused, please read the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[chap:Foreword]{foreword}
+\end_layout
+
+\end_inset
+
+ instead of skipping to the introduction.
+ :P
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \emph on
 Luminous: the Dream
@@ -1884,6 +2990,35 @@ So many more people saw a bright future ahead, dreaming once more.
  is the time to make a difference.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex ContentWarning
+status open
+
+\begin_layout Section
+Content Warning
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printcw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Themes
 \end_layout
@@ -1903,14 +3038,85 @@ Luminous: the Dream
  She may defeat the monster on her own.
  Maybe even she could be elected, help guide the city council towards reform.
  She can rescue the boy she loves.
- But, in the end., a single person can only do so much even with magic.
 \end_layout
 
 \begin_layout Standard
-The dreams of the Luminous can only be made reality together, when a hundred
- million small victories add up.
+But even with their shining magic, they may only do so much on their own.
+ They can only win when a hundred million small victories one day add up
+ into something greater.
  Even as they are closer than ever before, their dreams always seems a distant
- future, rather than anything possible now.
+ future, still trapped faraway behind the veil of sleep.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+\begin_inset Quotes xld
+\end_inset
+
+Distant Dreams
+\begin_inset Quotes xrd
+\end_inset
+
+ is the title of Luminous.
+ 
+\begin_inset Quotes xld
+\end_inset
+
+A Storytelling Game of Distant Dreams
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ So is 
+\begin_inset Quotes xld
+\end_inset
+
+Dream
+\begin_inset Quotes xrd
+\end_inset
+
+ part of the main title.
+ The word 
+\begin_inset Quotes xld
+\end_inset
+
+Dream
+\begin_inset Quotes xrd
+\end_inset
+
+ means a lot of different things, and that is intentional.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Does 
+\begin_inset Quotes xld
+\end_inset
+
+Distant Dreams
+\begin_inset Quotes xrd
+\end_inset
+
+ mean how far from reality a dream is – the way the Luminous are not all
+ there in reality, so close are they to that Dream? Or is it about how far
+ away the world they dream of is? After all, 
+\begin_inset Quotes xld
+\end_inset
+
+dream
+\begin_inset Quotes xrd
+\end_inset
+
+ also means an ideal one imagines.
+ This section is about the latter, but both are core to Luminous.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1919,14 +3125,64 @@ Distant Legacies
 
 \begin_layout Standard
 None of the powers of the Luminous or the Maou who oppose to them were given
- to humanity.
- Just like the technology of mundane humanity, they were built over the
- generations out of necessity, shaped by the ideas of the time.
+ to them.
+ They were built over the generations out of necessity, shaped by the ideas
+ of the time.
  There was a time before the Luminous knew how to veil their two forms in
  a Dual Identity.
  There was a time long long ago where the Luminous and the Maou considered
  each other the same thing.
- Even if those times are over now, they aren't forgotten.
+ The scars and powers of those ages still remain to this day.
+\end_layout
+
+\begin_layout Standard
+Just the same as for mundane humanity.
+ The technologies we rely on, that connect so many Luminous to each other
+ were built on ages of advancements and discoveries.
+ The pains that haunt the Luminous and those they love are echoes of traumas
+ from generations past.
+ The story of the Willful and humanity are mirrors of each other, down to
+ the last...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Luminous is a story about humanity, its past and its future.
+ Chronicles of Darkness splats are outsider stories.
+\end_layout
+
+\begin_layout Plain Layout
+Changelings are those who were hurt and traumatized, and rely on each other.
+ After all, the broader world doesn't understand such things, blame things
+ they can't control on them.
+ Vampires are less of a metaphor for anything in reality, but no less an
+ outsider story – literally waking only when most people sleep.
+ Demons and Prometheans are those who were never human, but seek to be –
+ both in their own ways.
+\end_layout
+
+\begin_layout Plain Layout
+The Luminous aren't much different.
+ They dream too brightly for the World of Darkness, hope for too much.
+ Normally voices like theirs are snuffed out, by people who care too much
+ to just sit by as they watch their dreams destroy them.
+ People are jealous, or fearful of those who want to change the world for
+ the better.
+ ...
+ and they are all too willing to accept cruelties those as empathetic as
+ the Luminous simply can't.
+\end_layout
+
+\begin_layout Plain Layout
+Even if they are not inhuman, they are still outsiders.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1943,6 +3199,33 @@ Perhaps for the first time in history, the Luminous see a way they can win.
  of the Renaissance.
  Maybe, just maybe...
  something could change this time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The World of Darkness is traditionally stories of survival.
+ Luminous is not.
+ Like the Sin-Eaters who wish to retake the Underworld, and the Changelings
+ who wish to retake their life, the Luminous wish to retake the waking world
+ from the cruelties of those who don't care, the scars of generations of
+ pain.
+\end_layout
+
+\begin_layout Plain Layout
+It is no accident that, like those two games, its themes are brighter than
+ most of the Chronicles of Darkness.
+ Changeling is about recovery and moving forward despite once being hurt,
+ Geist is about enjoying your second chance at life as you seek to do better,
+ and Luminous is about those who seek to change the world as they lose themselve
+s in their dreams.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -2005,7 +3288,8 @@ Chapter 1: Shining Lights
 
 \begin_layout Standard
 The Luminous built the Dream they draw their magic from over the generations,
- hiding it away in the corners of humanity's shared subconscious.
+ hiding it away in the edges of their dreams, in a place where the dreams
+ of humanity naturally bleed together.
  Their nature is as fluid and shifting as any other dream.
  Before the Luminous were magical girls, they were the paladins in shining
  armor, the angels with wings of light, the witch in the forest, the village
@@ -2015,14 +3299,12 @@ The Luminous built the Dream they draw their magic from over the generations,
 \end_layout
 
 \begin_layout Standard
-In the moment they Blossom, the nascent Hopeful awakens to that shared Dream,
- using its symbols and ideas to build herself a new form and construct your
- ideal identity.
- In that moment, she makes a shard of the Light truly her own power.
-\end_layout
-
-\begin_layout Standard
-Each Hopeful's Light is woven out of three symbols, drawn from the Dream:
+In the moment they Blossom, they shape their soul into a world they call
+ their Soulspace.
+ They weave the symbols of the Dream together into a world reflecting their
+ own deepest truths, and through that, they take on its power for their
+ own.
+ Three central symbols define who they are as a Luminous:
 \end_layout
 
 \begin_layout Itemize
@@ -2037,7 +3319,7 @@ The Kingdom they are a citizen of in their dreams, reflecting their vision
 \end_layout
 
 \begin_layout Itemize
-Their Archetype shapes their Dream Form and how they project their Light
+Their Archetype shapes their Dream Form and how they project their will
  upon the world.
 \end_layout
 
@@ -2093,6 +3375,24 @@ Those who pattern their magic after Moonlight become mystical guides, shaping
 Those who pattern their magic after Starlight become esoteric witches, wielding
  charms and spells as diverse and colorful as the stars themselves.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The Luminous X-Splat.
+ There's fewer of them than most splats, but that's made up for by using
+ having Archetypes and more Y-Splats than normal.
+ The idea is that these three – due to how broad they are – can describe
+ all characters already, and they tie into both a strong flavor linchpin
+ and the splat's mechanics.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2539,6 +3839,33 @@ Not all Luminous become a member of a kingdom when they Blossom.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The Luminous Y-Splat.
+ It's ultimately not too different from Princess' Courts, but without the
+ royalty theme.
+ Only Avalon still has any connotations of being Noble, because it aligns
+ with its core themes and ideas.
+\end_layout
+
+\begin_layout Plain Layout
+I feel Twilight Courts were one of the bigger mistakes of Princess.
+ They were extreme (or otherwise tainted) versions of perfectly workable
+ worldviews, and almost seemed to present those worldviews as necessarily
+ twilight, not simply embedded in corrupted Courts.
+ Most of these Kingdoms are modified from P:tH's courts, modified to be
+ more comprehensive and less...
+ strangely opinionated.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2547,6 +3874,120 @@ status open
 
 \backslash
 setsplatlayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Avalon, the Last Garden
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Avalon writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aztlan, the Torchlit Freehold
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Aztlan writeup.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Elysium, the Record of the Lost
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Elysium writeup.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Konohana, the Forest of Cycles
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Konohana writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ildathach, the Colorful Dream
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Ildathach writeup.
 \end_layout
 
 \end_inset
@@ -2848,6 +4289,61 @@ Flying over that river with wings of starlight, she saw a witch on the other
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sancus, the Pyre Alliance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Sancus writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tengri, the Confederacy of Winds
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Tengri writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2858,13 +4354,6 @@ status open
 setnormallayout
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -2943,6 +4432,42 @@ The Luminous are those who wield their hopes and dreams to change the world,
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+This is one of the sections that I tried to improve on the standard Chronicles
+ of Darkness splatbook format with.
+\end_layout
+
+\begin_layout Plain Layout
+It's more focused on the mechanics, giving only a basic description of any
+ part of what being a Luminous is like, and leaving more detailed 
+\begin_inset Quotes xld
+\end_inset
+
+what it feels like
+\begin_inset Quotes xrd
+\end_inset
+
+ fluff to Chapter 2.
+ Hopefully this serves better to explain the mechanical heart of them 
+\begin_inset Quotes xld
+\end_inset
+
+at a glance
+\begin_inset Quotes xrd
+\end_inset
+
+ like so.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Character Creation
 \end_layout
@@ -2983,6 +4508,21 @@ Don't worry too much about details like Invocations yet.
  As you go through the character creation process, you can always fall back
  on this initial seed and do whatever feels right given it or adjust it
  if you think something else would fit her just a slight bit better.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+I was never really good at collapsing down my characters into an easily
+ expressed high concept.
+ Still, I don't know any better advice to give.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3077,6 +4617,33 @@ None of your character's mundane attributes may exceed their corresponding
  If the highest mundane attribute corresponding to a dream attribute is
  lower than the amount you assigned earlier, gain the remainder as dream
  attribute dots.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+I had to think for a long time about whether it was a good idea to change
+ attribute and skill generation like this or not.
+\end_layout
+
+\begin_layout Plain Layout
+I decided I should, in the end, to avoid making people feel like they have
+ to optimize to make their Luminous character 
+\emph on
+good
+\emph default
+.
+ Since they have a fixed total of both mundane and transformed dots, there's
+ no real question of optimizing/gaming the best-of-three rules.
+ To avoid it being too complicated and mathy for most players to work out,
+ this pretty much removes attribute category prioritization.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -3535,7 +5102,7 @@ Her vision of her ideal world is called her Dream.
  It is the one possible future out of endless possibilities that she considers
  truly her own, one she could comfortably live in for herself and those
  she loves.
- A Hopeful who Dreams of "Among the Stars" may draw on the magic of Dannan,
+ A Hopeful who Dreams of "Among the Stars" may draw on the magic of Muirias,
  but that world is ultimately a kind of compromise.
  Unfettered by such things, they would dream of a world where all have a
  place among the countless stars, each planet holding its own form of utopia.
@@ -3571,6 +5138,31 @@ Counceler
  one Willpower.
  Whenever a Luminous takes a significant risk in the process, she regains
  all Willpower.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Standard alternative Anchors for a supernatural splat, really.
+ Even though Luminous are a near-human splat like Mage, I felt it wasn't
+ too thematically appropriate to keep Virtue/Vice to reflect that.
+\end_layout
+
+\begin_layout Plain Layout
+It's clever, and would add a little bit of flavor to the idea that they
+ are still ultimately human/mortal, despite it all, but...
+ I feel it'd be missing out on an amazing opportunity to add to the other
+ themes.
+ Alternative anchors are really fun.
+ You are asked explicitly to define your characters in terms appropriate
+ for the game's themes, and that's fun.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3633,6 +5225,23 @@ Luminous begin with a single Touchstone, and may gain more by buying the
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Touchstones are nice.
+ Luminous is a game about relationships, and hence it seemed very thematically
+ appropriate for them to have the mechanic.
+ The general setup here is pretty similar to that of Changeling; just without
+ the threat of detachment.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Aspirations
 \end_layout
@@ -3658,6 +5267,21 @@ Luminous have five Aspirations instead of the usual three.
  Two of them must relate to her personal life or the broader mundane world,
  and two of them must relate to the supernatural world.
  The last Aspiration may be assigned freely.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Similar to P:tH Dream Version's titular mechanic, I suppose.
+ Luminous balance two lives, and this is a means to make players think about
+ how their characters live, not just the supernatural monster of the day.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -3728,12 +5352,12 @@ status open
 \begin_inset Tabular
 <lyxtabular version="3" rows="11" columns="7">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="bottom" width="0.8in">
-<column alignment="left" valignment="bottom" width="0.8in">
-<column alignment="left" valignment="bottom" width="0.8in">
-<column alignment="left" valignment="bottom" width="0.8in">
-<column alignment="left" valignment="bottom" width="0.8in">
-<column alignment="left" valignment="bottom" width="0.8in">
+<column alignment="left" valignment="bottom" width="0.7722in">
+<column alignment="left" valignment="bottom" width="0.7722in">
+<column alignment="left" valignment="bottom" width="0.7722in">
+<column alignment="left" valignment="bottom" width="0.7722in">
+<column alignment="left" valignment="bottom" width="0.7722in">
+<column alignment="left" valignment="bottom" width="0.7722in">
 <column alignment="left" valignment="bottom" width="1.2in">
 <row>
 <cell alignment="left" valignment="bottom" usebox="none">
@@ -4555,11 +6179,40 @@ Motes are the small shards of the Dream's power that a Hopeful draws on
  to fuel her magic.
  She does not need to gather it from an outside source, but rather simply
  draws them from deep within her soul.
- She has a Motes Pool which refills to its capacity at the beginning of
- every scene.
+ She has a Mote Pool which refills to its capacity at the beginning of every
+ scene.
  Beyond that, she can draw on her own emotional strength to fuel her magic.
- For every Mote she draws in this way, she takes a box of mild Hope damage,
- leaving her feeling down and exhausted until she has time to recover.
+ For every Mote she draws beyond her Mote Pool, she takes a box of mild
+ Hope damage, leaving her feeling down and exhausted until she has time
+ to recover.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A Luminous' supernatural fuel isn't Motes.
+ It's Hope.
+ Hope serves as both a Clarity-like Integrity mechanic, and a Luminous'
+ supernatural fuel.
+ However, the idea of Motes gives me to name what you pay when you use your
+ magic (saying Hope directly sounds...
+ wrong in its implications).
+\end_layout
+
+\begin_layout Plain Layout
+The refilling Mote Pool, then, mitigates you casting from Integrity just
+ a little.
+ It also serves a secondary purpose of encouraging Luminous to use small
+ amounts of magic often – magical girls solving relatively trivial issues
+ with magic tends to be a common theme in any show that doesn't make a point
+ about using magic responsibly.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4605,6 +6258,66 @@ As a guideline, a Luminous who agrees at least partly with an Kingdom's
  teacher.
  A Luminous who agrees with all its beliefs in at least vague terms (or
  is a member of the Kingdom) may learn all five dots of it intuitively.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Pretty unchanged from P:tH on the surface level, although used far differently.
+ For one, I try to not encourage arguments with the Storyteller over whether
+ your character should really have four dots of Specchio, or whether she
+ really aligns with tenet 2 of the Court's beliefs.
+ 
+\begin_inset Quotes xld
+\end_inset
+
+Your character might need a teacher for the Invocation
+\begin_inset Quotes xrd
+\end_inset
+
+ is far easier a pill to swallow than 
+\begin_inset Quotes xld
+\end_inset
+
+sorry your build doesn't work
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+Beyond that, the dot rating of Invocations are only used as dice pools for
+ Clash of Wills in Luminous.
+ Rather, they unlock upgrades to Regalia/Charms and let you do more with
+ your Domains.
+ Since those upgrades are free, unlike in P:tH, spending experiences on
+ Invocations increases the power level of your character directly – and
+ in an interesting way.
+ There isn't that space between 
+\begin_inset Quotes xld
+\end_inset
+
+I bought an Invocation
+\begin_inset Quotes xrd
+\end_inset
+
+ and 
+\begin_inset Quotes xld
+\end_inset
+
+I got a four-dot upgrade to a Charm
+\begin_inset Quotes xrd
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4679,12 +6392,52 @@ hyperref[Chapter-PowerOfLove]{Power of Love}
 
 \end_inset
 
- chapter..
- 
+ chapter.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The three different power categories makes it easier for me to formalize
+ different mechanics and roles for each.
+ From a design perspective, the difference is this:
+\end_layout
+
+\begin_layout Itemize
+Regalia are equipment and passive effects that improve the Luminous.
+ They are the closest a Luminous has to passive abilities, that make them
+ better by just having them.
+\end_layout
+
+\begin_layout Itemize
+Domains are things that shape the world directly, in freeform ways more
+ like Influences than anything else.
+ They are used often, but are still active, not passive.
+\end_layout
+
+\begin_layout Itemize
+Charms are powerful but narrower abilities that give the Luminous things
+ that feel like powerful 
+\begin_inset Quotes xld
+\end_inset
+
+spells
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ They are the most active of their powers, requiring very explicit casting.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Dreamer's Heart
+Shining Heart
 \end_layout
 
 \begin_layout Standard
@@ -4721,6 +6474,25 @@ Sensitivity|(textbf
 us may gain Sensitivity dice through merits or other traits.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The kind of strong empathy that Sensitivity reflects isn't just an magical
+ ailment/drawback as Princess' writing implies.
+ It's what makes them Blossom in the first place.
+ I've kept this mechanic because it's so appropriate to the core of what
+ magical girls do.
+ The mundane merit version of it is to try and reinforce this point.
+ All of a Luminous' supernatural empathy is their Echo, not Sensitivity.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Take their Hand 
 \end_layout
@@ -4748,9 +6520,39 @@ You may attempt to comfort someone facing a breaking point, reassuring them
 \end_layout
 
 \begin_layout Itemize
-When you act as a Touchstone to another character with a Hope track or similar
- mechanic, you may add your Sensitivity to the amount of Hope damage healed.
- A character can benefit from this extra healing only once a day.
+When you participate in a character recovering Hope damage, you may add
+ your Sensitivity to the amount of mild Hope damage healed.
+ Alternatively, you may roll Sensitivity to heal a box of mild Hope damage
+ or reduce a box of severe Hope damage to mild for each success you roll.
+ A character can benefit from this ability only once a day.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+In short, the kinds of upsides you should expect from feeling others' pain.
+ The last ability especially encourages Luminous to take on those who also
+ have Sensitivity (whether they're mundane, Luminous, or something stranger),
+ because those are the people who would understand their struggles.
+\end_layout
+
+\begin_layout Plain Layout
+Luminous live in a dark world where most people don't...
+ 
+\emph on
+get it
+\emph default
+, after all.
+ This is the second reason for Sensitivity to be a mundane merit – a mechanical
+ way to represent the kinda people who know the struggle of the Luminous,
+ even if they don't aren't magical girls for it.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4791,6 +6593,36 @@ Sensitivity|)
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Sensitivity is both a source of Hope recovery and a source of Hope damage.
+ It biases towards the former if you try to do something about Sensitivity
+ triggers, however.
+\end_layout
+
+\begin_layout Plain Layout
+That's the point.
+ To give players that sense of desperation that Luminous should feel in-characte
+r, that need to 
+\emph on
+do something, anything
+\emph default
+.
+ That they have to do something about the problems and small cruelties of
+ the world they run into every day, and reflecting the fact that people
+ like that tend to...
+ not feel great over it when they just...
+ can't.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Hope 
 \end_layout
@@ -4827,6 +6659,39 @@ Luminous have Hope instead of Integrity, a measurement of her emotional
  face of the world's darkness.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Appropriately for a magical girl splat, Hope is the beating heart of their
+ mechanics.
+ Everything leads back into Hope – either recovering it or damaging it.
+ Compared to P:tH, this merges Shadows and Belief into a single mechanic.
+ Like the Changeling Clarity mechanic Hope is inspired by, it serves as
+ a far better representation of short-term mental stability than the slow
+ fight against insanity of Integrity.
+\end_layout
+
+\begin_layout Plain Layout
+Like Beast too, it serves as both Supernatural Fuel and Integrity.
+ Unlike Beast, it's an Integrity mechanic first and foremost.
+ Hence, Luminous do not have a proper 
+\begin_inset Quotes xld
+\end_inset
+
+Fuel recovery
+\begin_inset Quotes xrd
+\end_inset
+
+ condition – it's flavored more as a way of unwinding and destressing.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Hope Track 
 \end_layout
@@ -4838,6 +6703,21 @@ Luminous have a Hope track equal to their transformed Power + Resistance
  Hope boxes she possesses.
  Luminous are considered to have an Integrity equivalent equal to 5 + her
  undamaged Hope boxes (to a maximum of 10).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Luminous are always High Integrity.
+ They aren't damaged in the same way as Changelings, hence they shouldn't
+ have the same capped Integrity.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4877,9 +6757,37 @@ Touchstones
  Once a day, whenever she spends time relaxing or otherwise doing something
  she enjoys without expectation or consequences for failure, roll Hope.
  She clears a box of mild Hope damage equal to her successes.
- If one or more of your Touchstones joined her in the activity, she heals
+ If one or more of her Touchstones joined her in the activity, she heals
  an additional box of mild Hope damage, or reduces a box of severe damage
  to mild damage.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A subtle mechanic.
+ Hope is a pretty mild mechanic as long as you keep damage low.
+ But emotional strain has a way of spiraling, and the Hope mechanic reflects
+ that.
+ Since the dice pool for recovering Hope is remaining Hope, you simply 
+\emph on
+can't
+\emph default
+ heal any more on your own once you have no remaining undamaged boxes.
+ You have to rely on your Touchstones to pull you out of such a state.
+\end_layout
+
+\begin_layout Plain Layout
+Take Their Hand is pretty core to the economy here too.
+ People like you...
+ get it better, understand better how to help others like them.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4932,6 +6840,22 @@ TODO: Die value example list.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Clarity is weird.
+ You roll a dice pool to check the severity of the damage, then a second
+ pool based on Wyrd to see how much you actually take (if any).
+ Hope attacks are far simpler, since they have no reason to scale with Reverie.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Index idx
 status open
 
@@ -4948,18 +6872,6 @@ Hope|)
 Defiant Will
 \end_layout
 
-\begin_layout Quote
-\begin_inset Quotes xld
-\end_inset
-
-It is the chink in the armour of your soul, Kadma.
- And all I need to make you mine!
-\begin_inset Quotes xrd
-\end_inset
-
- – Nerissa
-\end_layout
-
 \begin_layout Standard
 \begin_inset Index idx
 status open
@@ -4971,7 +6883,7 @@ Defiant Will|textbf
 \end_inset
 
  The Hopeful draw deeply on their own dreams to power their magic, and forces
- that try to alter it do not easily escape their notice.
+ that try to alter them do not easily escape their notice.
  A Luminous is always aware of any attempts to use supernatural powers or
  other extraordinary means to influence, alter or read any aspect of her
  mind, and reflexively resists them.
@@ -4985,6 +6897,32 @@ She gains a bonus equal to her Hope to contested rolls against such effects.
  to such contested rolls, and non-contested rolls against her subtract one
  success from the result.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+I've never heard of a magical girl anime where the villain beats them by
+ just mind controlling them.
+ Breaking them first and mind controlling them...
+ yes.
+ But they have to go through that first step.
+ Defiant Will adds massive penalties that most supernaturals can't reasonably
+ overcome – especially when powers of this nature tend to already have resists
+ or contests.
+\end_layout
+
+\begin_layout Plain Layout
+In Princess, this is a charm that might as well as be mandatory.
+ If everyone is likely to take it anyway, why not make it a base mechanic
+ instead?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -5008,9 +6946,26 @@ A Dreamer's magic touches the heart of everyone they treasure and love dearly,
 \end_layout
 
 \begin_layout Standard
-Echos function in both Mundane Form and Dream Form.
- Their influence is typically subtle and hard to notice, however, and only
+Echo function in both Mundane Form and Dream Form.
+ Its influence is typically subtle and hard to notice, however, and only
  affects those already close to the Luminous.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Echos, like Hope, are core to what Luminous are.
+ It is their power to connect hearts through the power of dreams.
+ It is what makes relationships so important to them.
+ It's their Aura, technically, but works through dreams in a way that makes
+ it not really interact well with other splat's Auras.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -5109,7 +7064,7 @@ These bonds must be mutual and cannot be strained by formal contexts or
  For example, a therapist and her patient often only have Weak Intimacy,
  despite how much of her patient's life she learns, as they only interact
  in formal contexts, and are effectively forbidden from having a relationship
- beyond a very formal and professional one.
+ beyond a very professional one.
  Similarly, unrequited love from a stalker rarely produces more than Weak
  Intimacy unless reciprocated.
 \end_layout
@@ -5127,6 +7082,22 @@ status open
 
 \begin_layout Plain Layout
 Intimacy|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Sympathy being a Princess mechanic always felt weird to me.
+ I liked Intimacy in Dream version way better for being...
+ more like what a magical girl should care about.
+ They care about relationships, not locks of hair.
 \end_layout
 
 \end_inset
@@ -5155,6 +7126,28 @@ status open
 \begin_layout Plain Layout
 TODO: Note the various types of taint and Astral conditions that Read the
  Winds will find.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Mage Sight drives Mages towards Mysteries, and Read the Winds drives Luminous
+ towards places where they can 
+\emph on
+help
+\emph default
+.
+ This is meant as a thing Storytellers weave into descriptions constantly,
+ one of the things that makes Luminous not able to ignore the fact they're
+ supernatural in daily life, even if they solve their problems in mundane
+ ways.
 \end_layout
 
 \end_inset
@@ -5198,7 +7191,6 @@ Luminous and those with Medium Intimacy dream of each other in vague terms,
  their waking lives.
  They gain 9-Again on mundane skill rolls to understand or emphasize with
  each other.
- 
 \end_layout
 
 \begin_layout Itemize
@@ -5213,6 +7205,42 @@ This effect applies separately to a Hopeful's Mundane and Dream forms, and
  breach those protections by nature.
 \end_layout
 
+\begin_layout Standard
+Through these dreams, the Luminous can learn of other supernatural creatures
+ to a depth beyond any other outsider.
+ She gains an intuitive understanding of what broadly drives any kind of
+ supernatural creature she has Medium Intimacy with.
+ She gains an deeper understanding at Strong Intimacy, usually learning
+ of deeper insights of how they see the world and their place in it – especially
+ if she partly lives it herself through Reflected Light.
+ At Connected Intimacy, she simply 
+\emph on
+gets it
+\emph default
+.
+ Through her shared dreams, she knows deeply and personally what it would
+ be like to be something else, had she been changed before she found the
+ Dream.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Luminous draw those who they are close to close together passively.
+ Their power connects dreams, and through it, creates an lasting and deep
+ understanding in waking life.
+ Plus, this serves somewhat as a Luminous' answer to Beast Kinship.
+ Rather than an innate connection, they come to understand those they are
+ close to in general – supernatural or otherwise.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Reflected Light 
 \end_layout
@@ -5223,9 +7251,25 @@ Even in their waking life, a Luminous' Echo allows her and those closer
  Once per scene, either may spend a Willpower to reflect a Virtue, Dream,
  Wish or similar Anchor of someone they have Strong or closer Intimacy with
  until the scene ends.
- This grants 9-Again for all actions that follow that Anchor.
- In addition, Luminous gain the Anchor for all purposes including Willpower
- recovery.
+ This grants 9-Again for all actions that follow that Anchor, and are treated
+ as if they had the Anchor for all purposes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A Luminous can draw on her relationships with others, drawing on their own
+ strengths for her own.
+ They are magical girls after all.
+ This is the cumulation of their theme of relationships, of the ties between
+ people, and the closest thing they get baseline to an aura flare.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -5279,6 +7323,19 @@ status open
 
 \begin_layout Plain Layout
 Echo|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Probably want to cut this in favor of a supernatural language.
 \end_layout
 
 \end_inset
@@ -6608,6 +8665,10 @@ TODO: Write actual Regalia.
 
 \end_layout
 
+\begin_layout Subsection
+Wings of Light
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
@@ -6654,6 +8715,715 @@ TODO: Write this section.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Resonant Truth
+\end_layout
+
+\begin_layout Standard
+In our dreams, we remember things we never dreamed, and are merely part
+ of its story.
+ Likewise, the Luminous may ask of the world to show them things as in those
+ dreams.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Cost:
+\series default
+ 1 Mote 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Keywords: 
+\series default
+Sensory, Networked, Intimacy, Veiled 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Dice Pool:
+\series default
+ Finesse + Resonate - the target's Composure 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Action:
+\series default
+ Instant
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Success:
+\series default
+ The Luminous may ask a question of the Dream for every success they roll,
+ glimmering information about the target's current situation.
+ This manifests as a vague dream-like impressions, but it does answer her
+ questions in broad terms.
+ She may not cast Echoing Truth again on the target for a scene.
+\end_layout
+
+\begin_layout Itemize
+What general emotion are they feeling currently? 
+\end_layout
+
+\begin_layout Itemize
+Are they currently hurt or in danger? 
+\end_layout
+
+\begin_layout Itemize
+Are they under an obvious mental influence of any sort?
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Exceptional Success: 
+\series default
+Successes are their own reward.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Failure:
+\series default
+ The Luminous learns nothing of her target.
+ She may not cast Echoing Truth again on the target for a day.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Dramatic Failure:
+\series default
+ The Luminous learns nothing of her target, and they become aware of your
+ attempt to read their story.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Prismatic Echo
+\end_layout
+
+\begin_layout Standard
+Drawing on the lessons behind her on Invocations, the Luminous gleams deeper
+ truths from the Dream.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Any Invocation •••
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ The Luminous may ask addition questions of the Dream.
+ This Upgrade may be applied multiple times, each time with an different
+ Invocation.
+ Every Invocation you apply this Upgrade with allows you to ask a different
+ set of questions.
+\end_layout
+
+\begin_layout Itemize
+Is there anyone or anything here they feel strongly about? 
+\end_layout
+
+\begin_layout Itemize
+Are the target a supernatural being of any kind? 
+\end_layout
+
+\begin_layout Itemize
+(Rosa) What is an organization or formal social group they have strong ties
+ to? 
+\end_layout
+
+\begin_layout Itemize
+(Rosa) Who do they consider their direct superior or direct subordinate?
+ 
+\end_layout
+
+\begin_layout Itemize
+(Solare) Who is a person they love, and how do they feel about them?
+\end_layout
+
+\begin_layout Itemize
+(Solare) What Aspiration or other similar long-term goal is closest to their
+ mind right now?
+\end_layout
+
+\begin_layout Itemize
+(Ricordo) What memory or person could they not stand to lose?
+\end_layout
+
+\begin_layout Itemize
+(Ricordo) What would they consider their ideal paradise for themselves?
+ 
+\end_layout
+
+\begin_layout Itemize
+(Flori) What is a way in which they are not willing to change, and one way
+ in which they are? 
+\end_layout
+
+\begin_layout Itemize
+(Flori) How do the spirits of their house and gardens view them? 
+\end_layout
+
+\begin_layout Itemize
+(Prisma) What is their preferred name, and what is an alternative name they
+ are known by? 
+\end_layout
+
+\begin_layout Itemize
+(Prisma) In an ideal world, what kind of life would they live? 
+\end_layout
+
+\begin_layout Itemize
+(Brillare) What is one of their greatest competencies? 
+\end_layout
+
+\begin_layout Itemize
+(Brillare) Who is a person who taught them, or they have taught something
+ important?
+\end_layout
+
+\begin_layout Itemize
+(Accordi) Who is a person they have harmed or broken a promise to recently?
+\end_layout
+
+\begin_layout Itemize
+(Accordi) Who is a person they rely on for comfort and support in dark times?
+\end_layout
+
+\begin_layout Itemize
+(Caeli) What people or groups do they think of themselves as part of first
+ and foremost? 
+\end_layout
+
+\begin_layout Itemize
+(Caeli) What is a restriction or rule they chafe against in their daily
+ life?
+\end_layout
+
+\begin_layout Subsubsection*
+Variant: Light of Truth
+\end_layout
+
+\begin_layout Standard
+Rather than gleaning scattered truths, the Luminous calls upon the Dream
+ to answer a single piercing questions.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Any Invocation •••••
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Cost:
+\series default
+ 1 Willpower, 3 Motes
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Keywords:
+\series default
+ Sensory, Networked
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Dice Pool:
+\series default
+ Finesse + Resonate - target's Composure
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Action:
+\series default
+ Instant
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Success: 
+\series default
+The Luminous learns the answer to a single question in detail.
+ Rather than vague impressions, she learns the answer in full and truthful
+ detail.
+ The target likewise gains an vague intuitive impression of the question
+ asked and who did so.
+\end_layout
+
+\begin_layout Itemize
+What kind of supernatural being is the character, and how would others of
+ their kind classify them? 
+\end_layout
+
+\begin_layout Itemize
+(Rosa) What is the greatest secret they know about an organization they
+ are a part of? 
+\end_layout
+
+\begin_layout Itemize
+(Solare) Who are all the people they have Connected or Strong Intimacy with?
+ 
+\end_layout
+
+\begin_layout Itemize
+(Ricordo) How will they be remembered if they passed away now? 
+\end_layout
+
+\begin_layout Itemize
+(Flori) What stories would the spirits tell of them? 
+\end_layout
+
+\begin_layout Itemize
+(Prisma) What is their true name, and what other names are they known by?
+ 
+\end_layout
+
+\begin_layout Itemize
+(Brillare) What is one thing they are hiding from you?
+\end_layout
+
+\begin_layout Itemize
+(Accordi) How does the community they are a part of think of them? 
+\end_layout
+
+\begin_layout Itemize
+(Cieli) How would they describe their true self, if they knew of its entirety?
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Exceptional Success: 
+\series default
+The target is not made aware of your question.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Failure:
+\series default
+ You learn nothing of the target.
+ You may not use Light of Truth on the target for a month.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Dramatic Failure:
+\series default
+ Your attempt backfires.
+ Your target learns of the answer to the question you asked, as if they
+ had used Light of Truth against you.
+\end_layout
+
+\begin_layout Subsection
+Shining Vow
+\end_layout
+
+\begin_layout Standard
+The Luminous reaches out with her Echo as she speaks a promise.
+ Her magic conveys her own feelings about the promise unerringly, showing
+ the world the resolve that lies behind her words.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Cost:
+\series default
+ 1 Willpower, 1 Mote
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Keywords:
+\series default
+ Sensory, Networked, Veiled 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Dice Pool:
+\series default
+ None 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Action:
+\series default
+ Instant
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Duration:
+\series default
+ Indefinite
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ Anyone the Luminous spoke her promise to becomes fully aware of her sincerity.
+ This can serve as Soft Leverage in Social Maneuvering, or provide an appropriat
+e bonus to a social roll.
+\end_layout
+
+\begin_layout Standard
+Regardless, she is magically binds her to fulfill own promise, replacing
+ one of her Aspirations.
+ When the Aspiration is fulfilled, she gains an additional beat and recovers
+ all mild Hope damage.
+ If she abandons her promise, or acts intentionally against its spirit,
+ the Aspiration ends and she takes a box of severe Hope damage and gains
+ a Hope condition.
+\end_layout
+
+\begin_layout Standard
+This Charm fails if she does not mean her promise genuinely.
+ Anyone present becomes aware of her lack of resolve, and it does not bind
+ her to her own empty promise.
+ Furthermore, the Charm may only be used to seal promises to do a specific
+ action, not anything more complex.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Knight's Code 
+\end_layout
+
+\begin_layout Standard
+The Nobility of Avalon see their highest calling as that to protect those
+ in need, and that vow carries a deep weight for them beyond simple sincerity.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Rosa •
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects: 
+\series default
+When a Noble uses Shining Vow to promise to protect another or relieve them
+ of an ill that has befallen them, she may grant the Inspired condition
+ aligned to the ideals of Avalon to all those who hear her promise.
+\end_layout
+
+\begin_layout Subsubsection*
+Variant: Royal Witness 
+\end_layout
+
+\begin_layout Standard
+Contracts and agreements form the basis of any organized society.
+ Declaring that she will bare witness to an oath, a Noble lays bare the
+ true sincerity behind the it.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Rosa •••••
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Cost:
+\series default
+ 1 Willpower, 1 Mote per participant
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Keywords:
+\series default
+ Sensory, Networked
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Dice Pool:
+\series default
+ None 
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Duration:
+\series default
+ Indefinite
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ Any participants who made statements of intent meant to convince another
+ become a target of the Charm.
+ If all participants are genuine and sincere in their intentions, the Charm
+ binds them all magically to fulfill their own duties.
+ Each participant replaces one of their Aspirations as if they had used
+ Shining Vow themselves.
+ If one or more of the participants do not intend to uphold their end of
+ the oath, the Charm reveals their deception to all involved parties, and
+ has no further effects.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Binding Oaths 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Upgrade:-Binding-Oaths"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Prismatic understand the true power of promises.
+ Drawing on the stories of the fae, they bind their own will to their promises.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Prisma •
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Additional Cost:
+\series default
+ 1 Mote
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ You may seal promises to behave in a certain way, avoid certain actions,
+ or other more abstract restrictions.
+ When making such a promise, she gains the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[sec:Sealed-Vow-(persistent)]{Sealed Vow}
+\end_layout
+
+\end_inset
+
+ Condition instead of replacing an Aspiration.
+\end_layout
+
+\begin_layout Subsubsection*
+Variant: Sealing Thread 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Variant:-Sealing-Thread"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One does not make promises causally in the presence of the fae, nor those
+ who draw on their stories.
+ The Sidhe weaves a binding of dreams upon those who make careless vows.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Prisma •••••
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Cost:
+\series default
+ 1 Willpower, 1 Mote
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Keywords:
+\series default
+ Sensory, Networked, Veiled
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Dice Pool:
+\series default
+ None
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Duration:
+\series default
+ Indefinite
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ The Sidhe binds someone who makes a statement of intent in her presence
+ to their word, regardless of whether they meant it or not.
+ They gain the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[sec:Sealed-Vow-(persistent)]{Sealed Vow}
+\end_layout
+
+\end_inset
+
+ Condition relating to their promise.
+\end_layout
+
+\begin_layout Subsubsection*
+Variant: Wyrd-Bound Vow
+\end_layout
+
+\begin_layout Standard
+The oaths of the Luminous are mere whispers on the wind compared to bound
+ by Wyrd.
+ A Dreamer may weave her power with that of the Wyrd, binding herself forever
+ to an Oath with the fae.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Requires:
+\series default
+ Faerie Origin or Prisma •
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Cost: 
+\series default
+Special (see text)
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Keywords: 
+\series default
+Sensory, Veiled
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Dice Pool: 
+\series default
+None
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Duration:
+\series default
+ Indefinite
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ The Luminous joins herself to an Wyrd-bound Oath initialized by a Changeling
+ or stranger being of Faerie.
+ This uses the usual rules found on pages 212-214 of 
+\emph on
+Changeling: the Lost 2e
+\emph default
+.
+ Luminous spend Motes instead of Glamour to seal such promises, and must
+ draw those Motes from Hope instead of a Mote Pool.
+ They may not initiate such Oaths without a Changeling's help – the normal
+ powers of Shining Vow are the most they can do on their own.
 \end_layout
 
 \begin_layout Chapter
@@ -6718,6 +9488,47 @@ The Luminous enjoy additional benefits in the Dream proper.
 \end_layout
 
 \begin_layout Section
+Fading
+\end_layout
+
+\begin_layout Standard
+When they Blossom, the Luminous become living dreams.
+ Though those dreams never truly stop being human at their heart, they are
+ still what will remain of the Luminous at the very end.
+ As long as their dreams live, they do too, even when their mundane body
+ withers away from time.
+\end_layout
+
+\begin_layout Standard
+If a Hopeful dies in her Mundane Form while still able to transform, she
+ may transform one last time, burning away her Mundane Form entirely in
+ the process.
+ She immediately refills her Motes Pool and heals all Hope damage.
+ Her physical body is lost to her and she begins to Fade.
+ The same may happen if she retreats into the dream and lets her mundane
+ body wither away, or simply outlives her natural lifespan while transformed.
+\end_layout
+
+\begin_layout Standard
+Regardless of how it comes to be, the Luminous begin to dissolve into the
+ Dream, as the stray thoughts of humanity and foreign emotions lap at the
+ edges of their mind.
+ They anchor themselves against those tides by force of will, clinging tight
+ to those they love, to the place they know they have in the world.
+ Hope sustains them in the same way food and air does a mundane human.
+\end_layout
+
+\begin_layout Standard
+Fading Luminous no longer regain Willpower form rest, and suffer a box of
+ severe Hope damage every day.
+ Should their entire Hope track be filled with severe Damage, their will
+ dissipates fully into the Dream and their body dissolves into motes of
+ light.
+ The same occurs if their Dream Health is exhausted, or they suffers the
+ Soul Shocked Condition for any other reason.
+\end_layout
+
+\begin_layout Section
 Young Luminous
 \end_layout
 
@@ -6779,12 +9590,14 @@ In Mundane Form, the usual rules for young characters apply to her.
 \end_layout
 
 \begin_layout Itemize
-In her Dream Form, she is never subjected to any of the rules of 
-\emph on
-Innocents
-\emph default
-, regardless of her size or appearance.
- With some cunning, she may even acquire social merits normally forbidden
+Luminous do not suffer any of the usual drawbacks of childhood in their
+ Dream Form.
+ While their mundane actions versus adults are still penalized, this does
+ not apply to Weaving Actions or the use of magic.
+\end_layout
+
+\begin_layout Itemize
+With some cunning, Luminous may acquire social merits normally forbidden
  to young characters – up to and including a full adult Alternate Identity
  given enough persistence and an appropriate Dream Form.
 \end_layout
@@ -6928,11 +9741,11 @@ Adults vs Children:
 \end_layout
 
 \begin_layout Subsection*
-Converting Children to Adults 
+Growing Up
 \end_layout
 
 \begin_layout Standard
-One day, childhood must end even for the most imaginative or childish of
+One day, childhood must end even for the most imaginative or innocent of
  people.
  Even the Luminous, who are caught in the middle of the responsibility of
  adulthood and the wonders and dreams of childhood, are burdened with everchangi
@@ -6969,6 +9782,77 @@ Luminous characters gain a dot of Reverie in addition.
 
 \begin_layout Chapter
 Chapter 6: Rainbow Skies
+\end_layout
+
+\begin_layout Standard
+The Luminous only wove a small part of the Dream all of humanity shares
+ into their Kingdoms.
+ Beyond them, the skies are dyed in so many colors, touched by so many strange
+ powers.
+ Long ago, a rare few Hopeful seeked to understand them, dove deeply enough
+ into their mysteries, that some nameless barrier broke.
+ Beyond that barrier, the wove the first 
+\end_layout
+
+\begin_layout Standard
+May other colorful forces touch the Dream shared by all of humanity.
+ Beyond the Dream Kingdoms, the skies are dyed in so many other rainbow
+ colors.
+ Long ago, a rare few Hopeful seeked to understand the powers of those other
+\end_layout
+
+\begin_layout Standard
+The shining Dream of the Luminous is only one small part of a much grander
+ Dream, one that so many other strange beings touch.
+ Long ago, a rare few Nobles seeked to understand those powers.
+ They called upon the Light's innate adaptability, drawing a fragment of
+ those powers into their own selves.
+ In such a way, they crafted the first Weaves.
+\end_layout
+
+\begin_layout Standard
+The process is...
+ strangely familiar, for the gravity it holds.
+ The Princess simply draws a part of the Dream touched by a different force
+ into their soul, just as they do when they learn an Invocation.
+ In that moment, their new Weave and Origin infuse every aspect of their
+ existing magic, changing them into something fundamentally different...
+ and yet, still a Princess.
+\end_layout
+
+\begin_layout Standard
+Those who choose this path all have their own reasons.
+ Some wish to try and redeem a concept that humanity always struggled with,
+ to see the light in something that should be a darkness.
+ Some...
+ simply wish for it, simply because something about the power they called
+ upon felt right.
+\end_layout
+
+\begin_layout Standard
+...
+ and far too often, Princesses choose such a power as a means to hide.
+ They have not always had the magic of Transformation, after all.
+ Even in the modern era, cloaking as a member of a different supernatural
+ community is an enticing way to avoid notice in places where the protection
+ of Dual Identity is not enough to avoid notice.
+\end_layout
+
+\begin_layout Standard
+Rarer still, the Princess, for who they are resonates so much with a particular
+ Weave, that they accept it during their Blossoming itself.
+ They all have their own stories to tell, with a single common theme: a
+ wish dear to their heart that ordinary Light could not fulfill on its own...
+\end_layout
+
+\begin_layout Standard
+Systems: All Weave are gained as 3 dot merits.
+ A Princess who takes on a Weave automatically gains an origin of her choice
+ compatible with her Weave and the Weave's base ability.
+ She starts with a rank for every dot of her Inner Light, and gains one
+ more every time she increases it.
+ For each rank, she may buy a single Perk associated with her Weave.
+ A Princess may never have more than one Weave at any one time.
 \end_layout
 
 \begin_layout Standard
@@ -7552,6 +10436,321 @@ thispagestyle{pn}
 
 \end_layout
 
+\begin_layout Chapter
+Chapter 1: Crossing Paths
+\end_layout
+
+\begin_layout Standard
+The World of Darkness is filled with all kinds of supernatural beings, all
+ with their own stories and paths.
+ Luminous and Maou alike often cross paths with them in the course of their
+ duties and explorations.
+ This chapter provides guidelines for how they would tend to interact, and
+ rules clarifications when the powers of other beings may interfere with
+ those of the Willful.
+\end_layout
+
+\begin_layout Section
+Changeling: the Lost
+\end_layout
+
+\begin_layout Subsection*
+Interactions
+\end_layout
+
+\begin_layout Standard
+Changelings and Luminous both touch on dreams and stories, if from opposite
+ directions.
+ Both seek comfort in their friends and support systems.
+ Those similarities lead to a few interactions between their powers and
+ worlds.
+\end_layout
+
+\begin_layout Subsubsection*
+Clarity and Hope
+\end_layout
+
+\begin_layout Standard
+Clarity and Hope are very similar mechanics, both serving as a health-like
+ track that replaces Integrity.
+ Supernatural powers that can effect either Hope or Clarity should apply
+ to the other without modifications.
+ 
+\end_layout
+
+\begin_layout Standard
+At the Storyteller's discretion, Changelings with the Sensitivity merit
+ may suffer Clarity damage and Clarity conditions rather than Hope conditions
+ alone, using the same mechanics as for Luminous.
+\end_layout
+
+\begin_layout Subsubsection*
+Pledges
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write interactions for Pledges.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+The Hedge and The Dream
+\end_layout
+
+\begin_layout Standard
+The magic of the Luminous is centered upon shaping their own Dreams, and
+ imposing it upon reality to begin with.
+ Hedgespinning comes as naturally to them as any fae creature, and they
+ may simply pay Motes in place of Glamour.
+ They cannot shape the Hedge as they do the Dream – while it responds to
+ emotion and thought, it is still a solid world of its own.
+\end_layout
+
+\begin_layout Standard
+Similarly, Changelings in the Dream (as the Luminous define it) may Dreamweave
+ as in personal dreams.
+ They lose this power in the hearts of the Dream Kingdoms or the Deep Dream.
+ She may apply Dreamweaving successes to Conceptual 
+\end_layout
+
+\begin_layout Standard
+Maou may similarly Hedgespin by paying Motes, but cannot do so as naturally.
+ They cannot perform Paradigm shifts, and must possess Fabula ••• or Prisma
+ at •.
+\end_layout
+
+\begin_layout Section
+Demon: the Descent
+\end_layout
+
+\begin_layout Subsection*
+Interactions
+\end_layout
+
+\begin_layout Standard
+Luminous hold the power to connect people's hearts, and Demons hide powers
+ to lie to the world itself.
+ Their powers inevitably conflict, and worse yet, the two cannot simply
+ avoid each other.
+ Both veil themselves as mundane humans, and they cannot recognize each
+ other for what they are.
+\end_layout
+
+\begin_layout Subsubsection*
+Bonds and Lies
+\end_layout
+
+\begin_layout Standard
+A Demon's may lies fool the Dream itself.
+ If he hides his true feelings from the one he loves, he may suppress bonds
+ of Intimacy that would normally be woven.
+ If he presents himself as feeling closer to someone than he does, he may
+ create bonds of Intimacy he does not truly mean.
+ However, to create a false bond of Intimacy like that means to put one's
+ self at the mercy of a Luminous' Echo.
+ Her power was not meant to be lied to, and it acts unwittingly to create
+ a bond rather than reinforce one that already exists.
+\end_layout
+
+\begin_layout Standard
+As long as a Demon fakes Strong Intimacy with a Luminous, her Echo conducts
+ Social Maneuvering against the Demon with the goal to bring his true feelings
+ in line with his false Intimacy.
+ Every week, she rolls Power + Resonate - the Demon's Composure to attempt
+ to open a door.
+ Should he fake an Connected Intimacy instead, this roll gains the rote
+ quality and occurs once per night.
+\end_layout
+
+\begin_layout Standard
+Echoes, thankfully, cannot reveal a Demon's nature to the Luminous.
+ It treats a Demon's Covers as if they were protected by a Luminous' Dual
+ Identity, even at Strong or Connected Intimacy.
+ This does not require a roll and is not Spoofing.
+\end_layout
+
+\begin_layout Standard
+The Weave of Bonds fundamentally destroys the separation Liar's Tongue relies
+ on – it has no effect on a Demon's Partner.
+ Any Demon who would willingly accept such a Weave, though, would likely
+ consider this a benefit more than an downside.
+\end_layout
+
+\begin_layout Subsubsection*
+Pacts
+\end_layout
+
+\begin_layout Standard
+Demon Pacts do not pierce a Luminous' Dual Identity, unless the Demon is
+ aware of it and specifically writes the Pact to account for her two forms.
+ Thus, a Luminous could trade away her relationship with a friend in Mundane
+ Form to a Demon, and still maintain that relationship in her Dream Form
+ – and in fact, this is the default for Demons unaware of her nature.
+\end_layout
+
+\begin_layout Standard
+Similarly, a Soul Pact treats her two forms separately.
+ A Soul Pact with a Luminous' Mundane Form gives the Demon her entire mundane
+ life as usual – however, the Luminous may live on through her Dream Form
+ (with the usual effects of Fading).
+ A Soul Pact with a Luminous' Dream Form consumes both her identities, annihilat
+ing her entirely.
+ This has the usual effects of a Demon attempting to take a supernatural
+ soul as a Cover.
+\end_layout
+
+\begin_layout Section
+Mage: the Awakening
+\end_layout
+
+\begin_layout Subsection*
+Interactions
+\end_layout
+
+\begin_layout Subsubsection*
+Defiant Will
+\end_layout
+
+\begin_layout Standard
+While Mages hae a separate system of Withstand instead of the usual contested
+ or resisted rolls, Defiant Will still applies penalties to their Dice Pools
+ in addition to the usual Withstand.
+ 
+\end_layout
+
+\begin_layout Standard
+In the context of Mage, Defiant Will is somewhat broader than its description
+ would imply.
+ Attempts to use Death to influence a Willful's soul, or use Space to affect
+ a Luminous' relationships with anyone them have Strong or Connected Intimacy
+ with also trigger Defiant Will, in addition to the obvious Mind effects.
+ More indirect Arcana like Fate or Time are not impeded.
+\end_layout
+
+\begin_layout Subsubsection*
+Arcana and Willful Magic
+\end_layout
+
+\begin_layout Standard
+The magic of the Luminous and Maou have varied effects on the world, and
+ hence the best Arcana to use depends the power being studied.
+ Luminous magic tends to work by means similar to the Mind, Space and Forces
+ Arcana.
+ Maou magic tends to work by means similar to the Fate, Mind and Matter
+ Arcana.
+\end_layout
+
+\begin_layout Standard
+The description of powers have more influence than their effects – for example,
+ while Mages would normally achieve effects like Shining Vow using Fate,
+ the Charm would be best studied using the Mind Arcana.
+\end_layout
+
+\begin_layout Standard
+A Luminous' Dream Form is obviously a projection of her dreams under Mind
+ Mage Sight, and other Arcana treat her as what she appears to be.
+ Normally Life is required to affect her as with most living beings, but
+ some Luminous may have less conventional forms.
+ A Luminous' Echo is best studied with Mind and Space.Bonds of Intimacy are
+ usually similar to the corresponding Sympathetic ties.
+ If needed, a Mage may add Mind 1 to Space spells to specifically view or
+ manipulate Intimacy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Maou mechanics? Likely depends on what their final mechanics are.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Motes and Hope
+\end_layout
+
+\begin_layout Standard
+To Mages, Motes are something very similar to Willpower – simply found in
+ an abnormal abundance for a normal human.
+ As it is not truly a form of energy, the most Mages can do is drain a Mote
+ Pool as a Mind Unraveling spell.
+\end_layout
+
+\begin_layout Standard
+Similarly, a Luminous' Hope is simply a measurement of their mental stability.
+ To a Mage, does not feel as if a source of supernatural power at all.
+ A Mage may cause mild Hope damage equal to Potency with a Mind Flaying
+ spell, or severe damage with a Mind Unraveling spell.
+ Healing Hope damage is far harder as magically granted emotional strength
+ does not fuel a Luminous' magic.
+ In mechanical terms, the most a Mage can do to help with Hope is cure Hope
+ Conditions, not heal the underlying Hope damage.
+\end_layout
+
+\begin_layout Subsubsection*
+Soul Magic
+\end_layout
+
+\begin_layout Standard
+While the Luminous call their dream worlds Soulspaces, they is more a modificati
+on of their Oneiros than a soul as a Mage would call it.
+ They still have a true soul, which is treated as an Awakened Soul, even
+ in Mundane Form.
+ Dual Identity cloaks this fact, and a Mage who tries to use the spell 
+\begin_inset Quotes xld
+\end_inset
+
+Sever Soul
+\begin_inset Quotes xrd
+\end_inset
+
+ on an untransformed Luminous does not learn why her spell has failed and
+ her powers do not detect her soul as anything other than mundane.
+\end_layout
+
+\begin_layout Standard
+Furthermore, Luminous do not suffer from Soul Loss as most beings do.
+ The root cause of Fading is not the lack of a physical body – but rather
+ their lack of a soul as Mages would recognize it.
+ Luminous suffer a variant of Fading instead of Soul Loss.
+ As long her as her physical body remains alive, she may still transform
+ and still has a Mundane Form.
+ Should she Fade in such a state, she loses all Luminous powers and gains
+ the Thrall condition [M:tAw 318].
+\end_layout
+
+\begin_layout Standard
+As a Luminous can more or less sustain herself indefinitely without a soul,
+ it's far from unheard of for Luminous aware of this fact to offer their
+ own souls to save someone from Soul Loss.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Maou souls? Likely depends on what their final mechanics are.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -7586,6 +10785,90 @@ thispagestyle{pn}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Chapter
+Conditions
+\end_layout
+
+\begin_layout Standard
+This chapter lists Conditions that may apply to characters in the course
+ of a Luminous chronicle.
+\end_layout
+
+\begin_layout Section
+Sealed Vow (persistent) 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sealed-Vow-(persistent)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The character is bound to their word through the power of a Luminous' magic.
+ Should she abandon her promise or act in violation of it, she takes a box
+ of severe Hope damage (if she has Hope, or a similar track) and receives
+ a Hope Condition.
+ The next time each person she made her promise to talks with her, they
+ become aware of her transgression.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Possible Sources:
+\series default
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[subsec:Upgrade:-Binding-Oaths]{Binding Oaths}
+\end_layout
+
+\end_inset
+
+ or 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[subsec:Variant:-Sealing-Thread]{Sealing Thread}
+\end_layout
+
+\end_inset
+
+ upgrade to Shining Vow.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Resolution:
+\series default
+ The promise becomes moot because a premise of it is no longer true, or
+ it reaches its natural conclusion.
+ Sealed Vow also ends without providing a beat if the character violates
+ its terms.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Beat:
+\series default
+ The character suffers significant hardship, or abandons other goals in
+ favor of upholding her promise.
 \end_layout
 
 \begin_layout Standard
@@ -7650,31 +10933,11 @@ status open
 
 
 \backslash
-newcommand
-\backslash
-emittodos
-\backslash
-listoftodos
-\end_layout
-
-\begin_layout Plain Layout
-
-%%DRAFT%%
-\backslash
-renewcommand
-\backslash
-emittodos
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-
+ifnrelease { 
 \backslash
 todototoc 
 \backslash
-emittodos
+listoftodos }
 \end_layout
 
 \end_inset
