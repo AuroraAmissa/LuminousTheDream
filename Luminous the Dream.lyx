@@ -245,6 +245,29 @@ usepackage{colortbl}
 usepackage[raster, fitting, skins, breakable]{tcolorbox}
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Set encoding for tex4ebook
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage[T1]{fontenc}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage[utf8]{inputenc} 
+\end_layout
+
 \end_inset
 
 
@@ -256,12 +279,9 @@ status open
 
 \begin_layout Plain Layout
 
-% 
-\backslash
-ifrelease and 
-\backslash
-ifnrelease.
- Defaults to release *not* on.
+% Build conditional commands.
+ A bit of a hack, but...
+ w/e.
 \end_layout
 
 \begin_layout Plain Layout
@@ -778,6 +798,26 @@ input@path,
 
 \backslash
 makeatother
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% epub typography
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+familydefault}{
+\backslash
+sfdefault}
 \end_layout
 
 \end_inset
@@ -1316,7 +1356,7 @@ renewcommand
 \backslash
 afterpartskip
 \backslash
-bigskip % allow quotes on the title pages.
+relax % allow quotes on the title pages.
 \end_layout
 
 \begin_layout Plain Layout
@@ -2165,7 +2205,7 @@ status open
 A Storytelling Game of Distant Dreams
 \end_layout
 
-\begin_layout Author
+\begin_layout Date
 
 \family sans
 \size normal
@@ -2730,6 +2770,13 @@ LatexCommand tableofcontents
 \noindent
 \align center
 Luminous: the Dream
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -10442,6 +10489,13 @@ Maou: the Lineage
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -10929,6 +10983,13 @@ resethyper
 \noindent
 \align center
 Storytelling
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
