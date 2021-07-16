@@ -10,7 +10,7 @@ mkdir -vp dist || exit 1
 ln -s ../fonts build/fonts || exit 1
 
 copy_luminous_lyx() {
-    cp "Luminous: the Dream.lyx" "build/$1.lyx"
+    cp "Luminous the Dream.lyx" "build/$1.lyx"
 }
 activate_tag() {
     sed -i "s/%%REMOVE_FOR_$2%%//g" "build/$1.lyx"
@@ -27,14 +27,14 @@ render_luminous() {
     cp "build/$1.pdf" "build/out/$2$3.pdf"
 }
 create_archive() {
-    cp -rf fonts build.sh *.md "Luminous: the Dream.lyx" build/sources
+    cp -rf fonts build.sh *.md build/sources
     rm build/sources/fonts/*.ttf
     mkdir "build/sources/.git"
     cp .git/gitHeadInfo.gin build/sources/.git
 
-    mv "build/sources" "build/Luminous: the Dream Sources - Revision $VERSION"
+    mv "build/sources" "build/Luminous the Dream Sources - Revision $VERSION"
     cd build
-    tar --xz -cvf "out/Bonus Files/LuminousSources-$VERSION.tar.xz" "Luminous: the Dream Sources - Revision $VERSION"
+    tar --xz -cvf "out/Bonus Files/LuminousSources-$VERSION.tar.xz" "Luminous the Dream Sources - Revision $VERSION"
     cd ..
 
     cd build/out
@@ -50,35 +50,41 @@ release)
     copy_luminous_lyx LtD
     activate_tag LtD RELEASE
     activate_tag LtD NO_COMMENTARY
-    render_luminous LtD "" "Luminous: the Dream"
+    render_luminous LtD "" "Luminous the Dream"
 
     copy_luminous_lyx LtDComm
     activate_tag LtDComm RELEASE
-    render_luminous LtDComm "Bonus Files/" "Luminous: the Dream (Author Commentary)"
+    render_luminous LtDComm "Bonus Files/" "Luminous the Dream (Author Commentary)"
     
-    create_archive "Luminous: the Dream - Release $VERSION"
+    create_archive "Luminous the Dream v$VERSION"
 ;;
 playtest)
     copy_luminous_lyx LtD
     activate_tag LtD PLAYTEST
     activate_tag LtD NO_COMMENTARY
-    render_luminous LtD "" "Luminous: the Dream Playtest"
+    render_luminous LtD "" "Luminous the Dream Playtest"
 
     copy_luminous_lyx LtDComm
     activate_tag LtDComm PLAYTEST
-    render_luminous LtDComm "Bonus Files/" "Luminous: the Dream Playtest (Author Commentary)"
+    render_luminous LtDComm "Bonus Files/" "Luminous the Dream Playtest (Author Commentary)"
     
-    create_archive "Luminous: the Dream - Playtest $VERSION"
+    create_archive "Luminous the Dream - Playtest v$VERSION"
 ;;
 *)
+    if [ ! -z "$BUILD_NUMBER" ]; then
+        ZVERSION="r$BUILD_NUMBER"
+    else
+        ZVERSION="v$VERSION"
+    fi
+
     copy_luminous_lyx LtD
     activate_tag LtD NO_COMMENTARY
-    render_luminous LtD "" "Luminous: the Dream Draft"
+    render_luminous LtD "" "Luminous the Dream Draft"
 
     copy_luminous_lyx LtDComm
-    render_luminous LtDComm "Bonus Files/" "Luminous: the Dream Draft (Author Commentary)"
+    render_luminous LtDComm "Bonus Files/" "Luminous the Dream Draft (Author Commentary)"
     
-    create_archive "Luminous: the Dream - Draft $VERSION"
+    create_archive "Luminous the Dream - Draft $ZVERSION"
 ;;
 esac
 
