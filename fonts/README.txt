@@ -14,6 +14,6 @@ The following fonts should be present in this directory after downloading:
 * FiraSans-Bold.ttf
 * FiraSans-Italic.ttf
 * FiraSans-Regular.ttf
-* Quicksand-Medium.ttf
+* Quicksand-SemiBold.ttf
 
 Alternatively, get the fonts from the full source code here: https://github.com/Lymia/LuminousTheDream

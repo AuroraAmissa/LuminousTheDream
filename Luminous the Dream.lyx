@@ -633,27 +633,27 @@ input@path,
 
 \begin_layout Plain Layout
 
-	UprightFont    = fonts/Quicksand-Medium.ttf,
+	UprightFont    = fonts/Quicksand-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	BoldFont       = fonts/Quicksand-Medium.ttf,
+	BoldFont       = fonts/Quicksand-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	ItalicFont     = fonts/Quicksand-Medium.ttf,
+	ItalicFont     = fonts/Quicksand-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-	BoldItalicFont = fonts/Quicksand-Medium.ttf,
+	BoldItalicFont = fonts/Quicksand-SemiBold.ttf,
 \end_layout
 
 \begin_layout Plain Layout
 
-]{Quicksand Bold}
+]{Quicksand Semi Bold}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1302,6 +1302,21 @@ nouppercaseheads
 
 \backslash
 pagestyle{mystyle}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+afterpartskip
+\backslash
+bigskip % allow quotes on the title pages.
 \end_layout
 
 \begin_layout Plain Layout
@@ -2120,7 +2135,6 @@ status open
 
 \begin_layout Plain Layout
 
-\size giant
 
 \backslash
 luminousfont{
@@ -2715,26 +2729,23 @@ LatexCommand tableofcontents
 \begin_layout Part
 \noindent
 \align center
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
 Luminous: the Dream
 \end_layout
 
-\end_inset
+\begin_layout Standard
+\noindent
+\align center
 
-Part I - Luminous: the Dream
+\family sans
+“If someone tells me that it's wrong to hope, I'll tell them that they're
+ wrong every time.” 
 \begin_inset Newline newline
 \end_inset
 
+– Madoka Kaname
+\end_layout
 
-\family sans
-\size normal
-“If someone tells me that it's wrong to hope, I'll tell them that they're
- wrong every time.” – Madoka Kaname
-\size small
-
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2742,9 +2753,18 @@ status open
 
 
 \backslash
-thispagestyle{pn}
+thispagestyle{pn} 
+\backslash
+vfil
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -10418,23 +10438,23 @@ resethyper
 \begin_layout Part
 \noindent
 \align center
-\begin_inset Argument 1
+Maou: the Lineage
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-Maou: the Lineage
+TODO: Maou front page quote.
 \end_layout
 
 \end_inset
 
-Part II - Maou: the Lineage
-\begin_inset Newline newline
-\end_inset
 
+\end_layout
 
-\family sans
-\size small
-[TODO: Quote]
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -10442,9 +10462,18 @@ status open
 
 
 \backslash
-thispagestyle{pn}
+thispagestyle{pn} 
+\backslash
+vfil
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -10899,43 +10928,25 @@ resethyper
 \paragraph_spacing single
 \noindent
 \align center
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
 Storytelling
 \end_layout
 
-\end_inset
-
-Part III - Storytelling
-\begin_inset Newline newline
-\end_inset
-
-
-\family sans
-\size normal
-
-\begin_inset Quotes xld
-\end_inset
-
-Under this great big sky, there are thousands, no, tens of thousands of
+\begin_layout Standard
+\noindent
+\align center
+"Under this great big sky, there are thousands, no, tens of thousands of
  people.
- 
 \begin_inset Newline newline
 \end_inset
 
-All kinds of people with all sorts of wishes and feelings hiding inside.
-\begin_inset Quotes xrd
-\end_inset
-
-
+All kinds of people with all sorts of wishes and feelings hiding inside."
 \begin_inset Newline newline
 \end_inset
 
 – Nanoha Takamachi
-\size small
+\end_layout
 
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -10943,9 +10954,18 @@ status open
 
 
 \backslash
-thispagestyle{pn}
+thispagestyle{pn} 
+\backslash
+vfil
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -11420,19 +11440,10 @@ I can always explain later how it looks to Mages.
 \end_layout
 
 \begin_layout Part
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
 Appendices
 \end_layout
 
-\end_inset
-
-Appendices
-\family sans
-\size small
-
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -11440,9 +11451,18 @@ status open
 
 
 \backslash
-thispagestyle{pn}
+thispagestyle{pn} 
+\backslash
+vfil
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
