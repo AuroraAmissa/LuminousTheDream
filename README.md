@@ -3,6 +3,8 @@ Luminous: the Dream
 
 *Luminous: the Dream* is a [Chronicles of Darkness](http://theonyxpath.com/category/worlds/chroniclesofdarkness/) fanwork inspired by both *Princess: the Hopeful* and *Changeling: the Dreaming*. It's about magical girls. It's fun, and still very much in progress.
 
+A rendered copy of the current version of Luminous may be found on [my website](https://lymia.moe/jenkins/job/LuminousTheDream/).
+
 Rendering
 ---------
 
