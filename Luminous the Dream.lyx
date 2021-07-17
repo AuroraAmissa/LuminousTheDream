@@ -2963,6 +2963,13 @@ And that...
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Setting
 \end_layout
@@ -3008,7 +3015,7 @@ mahou shoujo
  (or magical girl) genre of Japanese anime and manga.
  It is set in the Chronicles of Darkness, a world much like our own only
  touched by alien wonders and terrors alike.
- This story is truly about them, though.
+ This story is not truly about those horrors.
  It is about humanity, and the one power we can truly call our own.
  Our shining will to change the world.
  A will that blossomed into a force that could only be called magic.
@@ -6387,6 +6394,43 @@ I got a four-dot upgrade to a Charm
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Codes and Invocations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Maou have their own Invocations they call Codes.
+ In their eyes, the Luminous wield the Code of Idealis, the means to channel
+ their Will through their own dreams.
+ Luminous may never learn Codes intuitively, but if they manage to find
+ a teacher, they may learn them the same way they do an unfamiliar Invocation
+ – and thus learn the Edicts, Aspects and Domains they provide.
+\end_layout
+
+\begin_layout Plain Layout
+In stranger cases, they may even have Affinity for a Code.
+ This requires a Luminous to be Kingdomless, and they cannot choose Codes
+ for both their affinity Invocations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Regalia, Domains and Charms
 \end_layout
@@ -6639,15 +6683,20 @@ Whenever a Hopeful witnesses or learns about a situation that caused someone
  to her Sensitivity.
  Deliberate acts of cruelty add a dice to this attack, and particularly
  heinous acts (such as prolonged deliberate torture) may add up to three
- dice or instead cause severe Hope damage.
+ dice, or add the Rote Quality in extreme cases.
 \end_layout
 
 \begin_layout Standard
 Afterwards, she may immediately replace a short-term aspiration with one
  to alleviate the pain, or prevent the one who caused it from doing so again.
  When she completes such an Aspiration, she gains an additional beat and
- recovers all mild Hope damage.
- Luminous may have no more than two aspirations from Sensitivity at once.
+ recovers mild Hope damage equal to her Sensitivity.
+ If the Aspiration was a Long-Term Aspiration, she recovers all mild Hope
+ damage instead.
+\end_layout
+
+\begin_layout Standard
+Luminous may have no more than two aspirations from Sensitivity at once.
 \begin_inset Index idx
 status open
 
@@ -7018,8 +7067,11 @@ Echo|(textbf
 
 \end_inset
 
-A Dreamer's magic touches the heart of everyone they treasure and love dearly,
- connecting their dreams together in their deepest sleep.
+All of humanity's dreams are part of one whole.
+ The Dream binds them together into one tapestry.
+ Drawing on those connections, a Luminous' magic touches the heart of everyone
+ they treasure and love dearly, drawing their dreams together in their deepest
+ sleep.
  Over time, those close to the Luminous come to understand each other on
  a level that goes beyond simple words.
 \end_layout
@@ -7386,42 +7438,47 @@ The words you read and hear in a dream aren't always...
  But, if you take them for granted, and simply take a dream for a dream
  – they weave together into an unspoken song, conveying meaning in a way
  words can't.
- Aria isn't truly a language, it's that language of dreams reflected through
- a Luminous' Echo.
 \end_layout
 
 \begin_layout Standard
-If a Luminous chooses to, she may weave Aria into her words, conveying her
- meaning unfailingly.
- This gives any listening to her an automatic successes on rolls to determine
- her emotional state, or the true meaning and context behind her words.
-\end_layout
-
-\begin_layout Standard
-By spending a Mote, she may use her Aria without words.
- She speaks a statement lasting no more than a turn in sounds that cannot
- resolve into words, reflecting the Luminous' own nature.
+Thus, Aria isn't truly a language, it's that language of dreams reflected
+ through a Luminous' Echo.
+ When one speaks Aria, she says words in sounds that never quite resolve
+ into words, yet whose character reflects her own nature.
  One who styles herself a witch may speak in tongues, a musician may sing
  words that resolve into a piano melody rather than any voice.
- When used in this way, Aria does not depend on a shared language, and may
- convey information equivalent to a paragraph or two in that time span in
- a single turn.
 \end_layout
 
 \begin_layout Standard
-By spending a further Willpower, she may 
-\begin_inset Quotes xld
+Still, anyone who hears her statement understands her fully, at a depth
+ that is not possible through ordinary language.
+ Aria gives anyone listening to her an automatic success on rolls to determine
+ her emotional state, the true intent and context behind her words, and
+ the deeper meanings of what she said.
+\end_layout
+
+\begin_layout Standard
+While it has no innate written form, any media that can convey sound (such
+ as video calls over the internet, or a plain phone call) also conveys Aria.
+ Recordings of Aria only keep its magical properties for about 5 minutes,
+ after which listeners no longer understand it as anything other than pretty
+ sounds.
+\end_layout
+
+\begin_layout Standard
+Anyone who hears Aria recognizes it for what it is.
+ Through their language of dreams, the Luminous may allow themselves to
+ be recognized, even in their mundane forms.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Aria|)
+\end_layout
+
 \end_inset
 
-tune
-\begin_inset Quotes xrd
-\end_inset
 
- her Aria such that only certain listeners may resolve the meaning, others
- only hearing the strange sounds.
- No mundane means can understand this communication, although supernatural
- powers to understand languages may pierce this protection by winning a
- Clash of Wills.
 \end_layout
 
 \begin_layout Standard
@@ -7444,19 +7501,6 @@ splat language
  actual language doesn't feel quite right for an splat as ephemeral feeling
  as them.
  Aria fits the Luminous in the same way the Royal Tongue fits Princesses.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Aria|)
 \end_layout
 
 \end_inset
@@ -8591,7 +8635,7 @@ Experiences
 status open
 
 \begin_layout Plain Layout
-TODO: Copy experience table into Lyx.
+TODO: Write experience table.
 \end_layout
 
 \end_inset
@@ -8657,8 +8701,8 @@ Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
  Will may be used to detect Maou, transformed Luminous, and their powers.
  Dreams may be used to detect Asura, Incursions, transformed Luminous, other
  beings affiliated with the Dream, and any powers used by them.
- Note that Dual Identity protects Luminous from being detected by such means
- in Mundane Form as long as they do not use any of their powers.
+ Note that Dual Identity protects Luminous from being detected by either
+ means in Mundane Form as long as they do not use any of their powers.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -8720,6 +8764,24 @@ Sensitivity is an upside trait now, in many ways.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Silent Aria (••)
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect:
+\series default
+ Your character may veil their Aria in normal language.
+ It grants others automatic successes on rolls to understand her as usual,
+ however it does not identify her as a Luminous and nor is it obviously
+ supernatural.
+ Furthermore, this allows her to weave her Aria into written media – the
+ effects of which fade after about five minutes as audio recordings of it
+ do.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -8929,8 +8991,8 @@ Sensitivity (•• to ••••)
 \series bold
 Requirements: 
 \series default
-You do not already have Sensitivity from another source; Integrity or an
- Integrity-like mechanic.
+You do not already have Sensitivity from another source; and have human-like
+ enough emotions to emphasize strongly with others.
 \end_layout
 
 \begin_layout Standard
@@ -8992,7 +9054,7 @@ TODO: Write this chapter.
 \end_layout
 
 \begin_layout Chapter
-Chapter 4: The Power of Love
+Chapter 4: The Power of Love 
 \begin_inset CommandInset label
 LatexCommand label
 name "Chapter-PowerOfLove"
@@ -9003,35 +9065,29 @@ name "Chapter-PowerOfLove"
 \end_layout
 
 \begin_layout Standard
-The Luminous shape the magic of the Dream in many diverse shapes, even if
- they all stem from the same original source.
- They divide their powers between three major categories, each favored by
- one of their Luminaries:
-\end_layout
-
-\begin_layout Itemize
-Regalia allow the Luminous to modify their transformations, granting them
- new physical or magical capabilities.
- The Sunlit specialize in Regalia, and are able to maintain more of them
- than other Luminous.
-\end_layout
-
-\begin_layout Itemize
-Domains allow the Luminous to manipulate and wield the elements around them
- as if they were part of their own body.
- The Moonlit specialize in Domains, [TODO: Benefits?] 
-\end_layout
-
-\begin_layout Itemize
-Charms are the shining spells the Luminous may cast to change the world
- around them.
- The Starlit specialize in Domains, allowing them to cast them for cheaper
- than other Luminous.
+All Luminous must draw their magic from their imagination – whether they
+ were lost in their own dreams, or learned to be so after their Blossoming.
+ In an act of will, they call the form they take in those dreams into reality.
+ When that alone isn't enough to overcome the world's woes, they turn to
+ their greater powers.
+ In further acts of will, they project more of their Dream into the walking
+ world.
 \end_layout
 
 \begin_layout Standard
-All rolls involved in a Luminous' magic are innately Weaving Actions and
- cannot be performed using mundane skills.
+Through their Regalia, the Luminous weave further extensions of their will
+ into their Dream Form, manifesting as shining arms, auras of light or wings
+ of stardust.
+ Through their Domains, the Luminous shape not only their own being but
+ the world around them, commanding fire and winds dance to their touch.
+ Through their Charms, the Luminous draw the ways and concepts of the Dream
+ into reality, asking the world follow the laws of Dream over reality.
+\end_layout
+
+\begin_layout Standard
+All forms of Luminous magic are innately Weaving Actions.
+ They aren't mundane acts, but rather ways to imagine and then Weave those
+ imaginings into the waking world.
 \end_layout
 
 \begin_layout Section
@@ -9080,51 +9136,63 @@ Regalia
 \end_layout
 
 \begin_layout Standard
-With their Regalia, the Luminous may enhance their Dream Form with shining
- weapons and radiant auras.
- The same Regalia may have as many different forms and appearances as the
- number of Luminous who use it.
- Wings of Light may appear as a pair of faerie wings, a veil of winds carrying
- the Luminous aloft, black-feathered raven wings, or even a jetpack.
+With their Regalia, the Luminous weave superhuman abilities and touches
+ of magic into their Dream Form.
+ Even when they appear to be equipment and shining arms, a Luminous' Regalia
+ are not truly separate from her.
+ Her sword feels like as much part her as her lace wings, and she wields
+ it with an almost surreal fluidity.
 \end_layout
 
 \begin_layout Standard
-While a sword looks separate from a Luminous, to her it is simply another
- part of her Dream Form as any part of her body.
- Regalia do not function for anyone other than the Luminous, dissolving
- into motes of light in a short moment should it leave its Weaver's presence.
- Disarming Luminous is usually pointless, as they may reflexively recall
- any Regalia they have lost at no cost.
+As extensions of her Dream Form, Regalia are not truly equipment – although
+ they may be used as such, and can provide equipment bonuses as if they
+ were such.
+ Regalia do not function for anyone other than the Luminous who summoned
+ them, and dissolve into motes of light a short moment after they leave
+ their presence.
+ Disarming Luminous is rarely useful, as they may reflexively recall any
+ Regalia they have lost on their turn at no cost.
 \end_layout
 
 \begin_layout Standard
-Regalia each have an base effect, and multiple upgrades or variants.
- Upgrades and Variants are not purchased separately, but are automatically
- applied when you bind an Invocation to the Regalia.
- For example, an Upgrade requiring 
-\begin_inset Quotes xld
-\end_inset
-
-Rosa •••
-\begin_inset Quotes xrd
-\end_inset
-
- automatically applies if you bind Rosa to the Regalia and have at least
- three dots in Rosa.
- Variants are Upgrades that replace the base effect of the Regalia.
- If you activate multiple Variants, you must choose one of them (or none)
- to replace the base effect, and the rest do nothing.
-\end_layout
-
-\begin_layout Standard
-A Luminous may spend or swap Regalia when she transforms into her Dream
- Form, as an instant action, or by spending a Willpower as an reflexive
- action.
- She unbinds any Regalia she may have active, and gains a number of points
- equal to her Regalia Capacity, each of which may be used to bind a single
- Invocation to a single Regalia.
+A Luminous may summon her Regalia when she transforms into her Dream form,
+ as an instant action, or by spending a Willpower as a reflexive action.
+ She unsummons any existing Regalia she may have active.
+ For every point of Regalia Capacity she has, she may bind a single Invocation
+ to a single Regalia.
  The same Invocation can be bound to multiple Regalia, and multiple Invocations
  can be bound to a single Regalia.
+\end_layout
+
+\begin_layout Standard
+She benefits from the base effect of any Regalia she has an Invocation bound
+ to.
+ She gains the effects of all Upgrades to a Regalia she has the proper Invocatio
+n bound to, and enough dots in the Invocation to qualify for.
+ Variants are special Upgrades that replace the base effect of the Regalia.
+ When swapping Regalia, she may replace the base effect of any Regalia with
+ an Variant she qualifies for.
+\end_layout
+
+\begin_layout Subsection
+Wings of Light
+\end_layout
+
+\begin_layout Standard
+So many people look up to the birds, dream of seeing the skies as they do.
+ Drawing on that wish, the Luminous may fly alongside the birds, carried
+ aloft pairs of faerie wings, black-feathered raven wings, and a mantles
+ of wind.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effects:
+\series default
+ The Luminous may fly freely in the air, and has a species factor of 10
+ to her speed while flying.
 \end_layout
 
 \begin_layout Standard
@@ -9132,16 +9200,12 @@ A Luminous may spend or swap Regalia when she transforms into her Dream
 status open
 
 \begin_layout Plain Layout
-TODO: Write actual Regalia.
+TODO: Upgrades for Wings of Air.
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Wings of Light
 \end_layout
 
 \begin_layout Standard
@@ -9244,7 +9308,7 @@ Success:
  glimmering information about the target's current situation.
  This manifests as a vague dream-like impressions, but it does answer her
  questions in broad terms.
- She may not cast Echoing Truth again on the target for a scene.
+ She may not cast Echoing Truth again on the target for a scene./
 \end_layout
 
 \begin_layout Itemize
@@ -9285,6 +9349,21 @@ Dramatic Failure:
 \series default
  The Luminous learns nothing of her target, and they become aware of your
  attempt to read their story.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A simple Charm with powerful applications.
+ The base ability here is weaker than with most Charms, because it works
+ with any Invocation.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -9588,11 +9667,11 @@ e bonus to a social roll.
 \begin_layout Standard
 Regardless, she is magically binds her to fulfill own promise, replacing
  one of her Aspirations.
- When the Aspiration is fulfilled, she gains an additional beat and recovers
- all mild Hope damage.
- If she abandons her promise, or acts intentionally against its spirit,
- the Aspiration ends and she takes a box of severe Hope damage and gains
- a Hope condition.
+ This Aspiration has the same benefits as those from a Sensitivity trigger,
+ and does not fall under its cap.
+ If she abandons her promise (including by replacing the Aspiration), or
+ acts intentionally against its spirit, the Aspiration ends and she takes
+ a box of severe Hope damage and gains a Hope condition.
 \end_layout
 
 \begin_layout Standard
@@ -9601,6 +9680,21 @@ This Charm fails if she does not mean her promise genuinely.
  her to her own empty promise.
  Furthermore, the Charm may only be used to seal promises to do a specific
  action, not anything more complex.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+A very magical girlish way to seal your own promises.
+ Royal Witness in P:tH was fun, but things like this...
+ feel more by the genre.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -9695,6 +9789,21 @@ Effects:
  the oath, the Charm reveals their deception to all involved parties, and
  has no further effects.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Although...
+ Invocations are still allowed to shift the genre.
+ :)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -9901,6 +10010,21 @@ Changeling: the Lost 2e
  powers of Shining Vow are the most they can do on their own.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Little things like this make crossover games far more interesting and fun,
+ without being significantly in the way of normal play.
+ Would recommend.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Chapter 5: Colors of the Sky
 \end_layout
@@ -9978,6 +10102,23 @@ This is just Beast/Changeling/Mage's Dream Form, of course.
 \end_layout
 
 \begin_layout Section
+Notions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Notions section; the Luminous Token-like.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Fading
 \end_layout
 
@@ -10024,8 +10165,8 @@ status open
 
 \begin_layout Plain Layout
 ...
- a final plot beat for a Luminous at the end, and quite a grand roleplaying
- opportunity at that.
+ a final plot beat for a Luminous at the end of their story, and a long-term
+ roleplaying opportunity.
  A name call back to the original pitch for Princess: the Hopeful, at that.
 \end_layout
 
@@ -10070,23 +10211,24 @@ Elder Luminous...?
 \end_layout
 
 \begin_layout Plain Layout
-As much as they can theoretically live indefinitely despite Fading, no Luminous
- older than a century and a half or so have shown themselves to the broader
- community.
+While they can theoretically live indefinitely, no Luminous older than a
+ century and a half or so have shown themselves to the broader community.
  Some say it's because of how difficult it is for a Luminous to hang on,
- especially as their friends pass away by mundane means...
- and, finding others like that is near impossible before the modern era.
+ especially as their friends pass away with the passage of time.
+ Before the internet and the Information Age, finding others who got it
+ was always a struggle.
 \end_layout
 
 \begin_layout Plain Layout
 Perhaps a few group of truly elder Luminous have hidden themselves away
  in some corner of the Dream or some deep forest together.
- It is...
- known that Nakamas may indeed be able to sustain themselves like that.
- If they exist, they either don't know how much the world has grown, or
- simply don't wish to show themselves.
- Others say its unlikely – the boredom such isolation should cause would
- have Faded them by now.
+ A close-knit Nakama of elder Luminous may indeed be able to sustain themselves
+ like that.
+ But...
+ if they exist, they've certainly since secluded themselves away or chosen
+ to guide the world from the shadows as the Maou do.
+ Others say even that's unlikely – that such isolation would itself tear
+ at the Luminous and that they wouldn't survive like that.
 \end_layout
 
 \end_inset
@@ -10538,11 +10680,250 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
+
+\size small
+Once we took the world into our hands.
+ We defied the gods.
+ We ate the Forbidden Fruit.
+ We stole the secrets of fire from the Gods.
+ In that one moment we forged the power that became our regal and unwavering
+ Will.
+ And we built.
+ We built a world to call our own over long centuries.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+The bonfires we stole beat back the darkness that covered the world just
+ ever so little.
+ Ever so little that we could see clearly what we had to do to make the
+ world ours.
+ We plowed the ground, following the secrets we stole from the Tree of Knowledge.
+ We sowed the seeds that would one day take root.
+ That one day would sustain a world eons to come.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+In our stories, we remember how we set off on our long and dark path.
+ We warn of the thorns we would find on that path...
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Sakura leaned over a railing atop a tower, overlooking a city of shining
+ glass and regal metal, still gleaming even under the pale moonlight.
+ Thinking of the rice fields that once covered that entire concrete landscape.
+ Soon it would be her turn to write.
+ Her grandfather once taught her his own legacy, how to shape the Will that
+ lie in all our hearts.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+He taught she must do, what her purpose in this world must be.
+ He taught her how to rule.
+ He taught her the hard choices she would have to make, when the Dark gave
+ her no perfect answer.
+ ...
+ and how to strike back at the Dark's grasp, so she would never have to
+ once more.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+But now, he rested on what would soon be his deathbed.
+ She turned back, back through the door she willed open.
+ Walking back down sterile white halls and tiled floors.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+When it came his time...
+ she would say her goodbyes, hold his hand.
+ 
+\begin_inset Quotes xld
+\end_inset
+
+Big girls don't cry
+\begin_inset Quotes xrd
+\end_inset
+
+, he once said.
+ They both knew it was a lie.
+ But it was a lie that pushed her forward.
+ It was time to face the truth now.
+ She stepped out, back into the streets of the city she would soon call
+ her own, staring into the sky.
+ The tears had already dried.
+ She was simply left with the burdens she inherited and the memories of
+ what she had lost.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Even if nobody would recognize her face at the end of her own chapter,.
+ even if she must pass on the torch unseen one day, even if she would have
+ to remind those who were powerful and those who dreamed alike why she must
+ be feared too, even if she had to face the Dark alone...
+ she was happy to have a place in this world.
+ And she knew.
+ Every once of those things would happen, one day.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+Caught between so many forces, cities like this were always only a breeze
+ away from falling apart at the seams.
+ When the Dreamers seek to reweave its weft, she would be there to guide
+ their hand.
+ When stranger forces came to take it for their own, she would be there
+ to stand against them.
+ When the powerful forget that they will one day have their own descendants,
+ she would be there to remind them.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+When it came her own time to fade away, she would pass that torch on once
+ more.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+She repeated to herself the vows her grandfather taught her to those skies.
+ 
+\begin_inset Quotes xld
+\end_inset
+
+By my hand, may they never fade.
+ By my hand, may they never know the Dark of night.
+\begin_inset Quotes xrd
+\end_inset
+
+ Those Vows were what made her Maou, separated her from hedge witches and
+ psychics.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+She looked back to the world around her.
+\end_layout
+
+\begin_layout Standard
+
+\size small
+She would...
+ set to work soon.
+ To claim the legacy her grandfather left her.
+\end_layout
+
+\begin_layout Section
+Setting
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Maou: the Lineage
+\emph default
+ is a game about those who drive the world forward from the shadows.
+ They are the ones behind stories of the Illuminati, stories of the Freemasons.
+ In a world besieged by Darkness and shadows, they alone hold the line.
+ They alone carry on the torch that keeps humanity afloat a sea of shadows.
+\end_layout
+
+\begin_layout Standard
+In this game, you play one of the Maou, one such soul who wields the only
+ power humanity may call its own – our power to bend the world to our will.
+ Some shaped the world through technology, through medicine, through decrees
+ alone.
+ They never learned of our true potential, the power they could reach for
+ if they reached deep inside.
+ You did.
+\end_layout
+
+\begin_layout Standard
+You hold a legacy from a time before we knew how to write our words onto
+ paper, and know you will one day pass it on.
+ In the space in between, you do what you can to keep the world your ancestors
+ built alive.
+ Whether you hold obvious power or rule from the shadows, that is your purpose,
+ and that is the Vow you made when you agreed to carry on that legacy.
+\end_layout
+
+\begin_layout Standard
+It will not be easy.
+ Shadows strike at the world from all directions.
+ The closest thing you have to an ally dream so brightly that they threaten
+ to lull the world into an eternal sleep.
+ Humanity's eyes are covered with an veil, pulled over them by the Dark
+ forces of the world.
+ They hold a knife at humanity's throat, threatening to cut it all if they
+ came to know.
+ So you walk the path alone.
+\end_layout
+
+\begin_layout Standard
+You know that this world should belong to humanity.
+ You know this isn't how it's meant to be.
+ So you will fight.
+ If humanity cannot know of the Dark, you will give them the most light
+ they can have in its shadows.
+ If they cannot be allowed to know of what you are, you will guide their
+ path towards that future from the shadows.
+\end_layout
+
+\begin_layout Standard
+It's too late to turn back from this path.
+ Until the day the tide turns, you will stand tall.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
 status open
 
 \begin_layout Plain Layout
-TODO: Write this chapter.
+Maou are a fusion of the concepts behind the Twilight Courts, Mnemosynes,
+ the royalty themes of Princesses all at once.
+ The Darkness was never a suitable antagonist for Princesses, and they are
+ even less so one for the Luminous.
+\end_layout
+
+\begin_layout Plain Layout
+As the ideas developed, I realized that Maou are quite an interesting faction
+ of their own.
+ At worst dark gray, than ever truly black.
+ They are not the true antagonists of Luminous, and nor are Luminous the
+ true antagonists of the Maou.
+ Hence, I decide to make them simply another playable splat of their own
+ right.
+\end_layout
+
+\begin_layout Plain Layout
+...
+ the line is blurry at the best of times.
+ The powers of the Luminous set them apart, yes, but...
+ do they truly want different things? Are their views truly incompatible?
+ Is it as the Luminous say, that they are allies, and the Maou simply scared?
+ Is it as the Maou say, and that the Luminous mean well, but do not understand
+ the world?
+\end_layout
+
+\begin_layout Plain Layout
+They are certainly different, that is for sure.
+ The scars of an schism older than history still remain...
 \end_layout
 
 \end_inset
@@ -10830,7 +11211,7 @@ Character Creation
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
+TODO: Maou character creation.
 \end_layout
 
 \end_inset
@@ -10843,11 +11224,52 @@ Anchors
 \end_layout
 
 \begin_layout Standard
+The Maou face the world through their sheer force of will.
+ For all the power it grants, they must still draw that will from somewhere.
+\end_layout
+
+\begin_layout Subsection
+Will
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
+TODO: Write Will (Maou Anchor) section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Both the Luminous and the Maou share this anchor – the same way they share
+ the power of Will.
+ Little fluff things like this are great for pushing themes like that.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Purpose
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write Purpose (Maou Anchor) section.
 \end_layout
 
 \end_inset
@@ -10860,16 +11282,36 @@ The Ways
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write this section.
+Over the long generations, bit by bit, humanity carved out a place for themselve
+s in a world that was never meant for them.
+ It is that legacy that the Maou inherit, and it is that legacy that they
+ draw their power from.
 \end_layout
 
-\end_inset
+\begin_layout Subsection
+Ascendancy
+\end_layout
 
+\begin_layout Standard
+Maou too have a vision for the world, ones that bring humanity to greater
+ heights, who see us overcoming barriers we had never thought possible.
+ Ascendancy measures the amount of power they hold over the tides of the
+ Astral, and their ability to shape reality to their will.
+ This is a Maou's power stat, granting her Supernatural Tolerance [CofD
+ 70].
+ 
+\end_layout
 
+\begin_layout Subsection
+Motes
+\end_layout
+
+\begin_layout Standard
+Maou use Motes much like the Luminous, 
+\end_layout
+
+\begin_layout Subsection
+Codes
 \end_layout
 
 \begin_layout Chapter
@@ -10894,6 +11336,30 @@ TODO: Write this chapter.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Luminous Magics
+\end_layout
+
+\begin_layout Standard
+Maou may learn the powers of the Luminous, but they enforce their Will upon
+ reality in very different ways.
+ When using the powers of Idealis, Maou use their own Shaping Actions rather
+ than Weaving Actions.
+ This section gives the dice pools Maou use for Luminous powers.
+\end_layout
+
+\begin_layout Subsection
+Charms
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Resonant Truth:
+\series default
+ Wits + Empathy - target's Composure
 \end_layout
 
 \begin_layout Chapter
@@ -11047,6 +11513,61 @@ The World of Darkness is filled with all kinds of supernatural beings, all
 \end_layout
 
 \begin_layout Section
+Beast: the Primordial
+\end_layout
+
+\begin_layout Subsection*
+Interactions
+\end_layout
+
+\begin_layout Standard
+The Beasts see themselves as kin to all supernatural beings.
+ As much as they are rooted in humanity's history, the Luminous and Maou
+ are still supernatural.
+\end_layout
+
+\begin_layout Subsubsection*
+Kinship
+\end_layout
+
+\begin_layout Standard
+Maou and Luminous both have the same Kinship with Beasts as the Awakened.
+ However, a Luminous' Mundane Form veils this fact – she has no Kinship
+ with Beasts in Mundane Form.
+ Due to their stronger connection with the mundane, Thicker Than Water does
+ not affect the Luminous.
+ However, if a Beast applies the Family Ties condition, it applies even
+ in a Luminous' Mundane Form.
+\end_layout
+
+\begin_layout Standard
+Passing Resemblance has little use with the Luminous or the Maou.
+ They do not have means to recognize each other passively, instead using
+ their powers to reveal their nature to others.
+ At best, a Beast can pass for a transformed Luminous by faking the dissonance
+ with physics that Weaving Actions can cause.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+There's no fluff reason Luminous should ignore Thicker Than Water; this
+ is more a mechanical fix.
+ Social Maneuvering gets 
+\emph on
+weird
+\emph default
+ when impressions flop back and forth as that would imply.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Changeling: the Lost
 \end_layout
 
@@ -11071,30 +11592,24 @@ Clarity and Hope are very similar mechanics, both serving as a health-like
  track that replaces Integrity.
  Supernatural powers that can effect either Hope or Clarity should apply
  to the other without modifications.
- 
+ Supernatural powers that do not involve some component of genuine interaction
+ cannot heal Hope.
+ A Mage spell would not have much significant effect in restoring Hope,
+ but the Fortifying Presence Contract can heal Hope as easily as Clarity.
+\end_layout
+
+\begin_layout Standard
+If one of a Changeling's Touchstones possesses Sensitivity, they may use
+ Take their Hand to heal Clarity, not only Hope.
 \end_layout
 
 \begin_layout Standard
 At the Storyteller's discretion, Changelings with the Sensitivity merit
  may suffer Clarity damage and Clarity conditions rather than Hope conditions
  alone, using the same mechanics as for Luminous.
-\end_layout
-
-\begin_layout Subsubsection*
-Pledges
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write interactions for Pledges.
-\end_layout
-
-\end_inset
-
-
+ Roll Clarity attacks caused by Sensitivity using the rules for Hope attacks
+ – the Changeling simply takes mild Clarity damage equal to the number of
+ successes the attack shows.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -11282,6 +11797,11 @@ Mage: the Awakening
 Interactions
 \end_layout
 
+\begin_layout Standard
+Mages touch all parts of the world with their magic, and the Luminous and
+ Maou are no different.
+\end_layout
+
 \begin_layout Subsubsection*
 Defiant Will
 \end_layout
@@ -11308,8 +11828,8 @@ status open
 
 \begin_layout Plain Layout
 Withstand is complicated.
- I really wish I could make Hope factor into Withstand somehow too, but
- the scaling never quite worked out without extreme complexity.
+ I really wish I could make Hope factor into Withstand somehow, but the
+ scaling never quite worked out without extreme complexity.
  Easier to just hit their dice pool.
 \end_layout
 
@@ -11388,7 +11908,7 @@ Similarly, a Luminous' Hope is simply a measurement of their mental stability.
 status open
 
 \begin_layout Plain Layout
-Transferring Motes would just break the game.
+Transferring Motes would cause a lot of balance issues.
  They regenerate per scene, and...
  that's a subtle but powerful advantage of theirs.
  It shouldn't at all be easily shared.
@@ -11400,6 +11920,13 @@ Giving anyone the ability to restore Hope by fiat would also break the game's
  themes.
  Luminous have to struggle versus Hope, and any powerful enough healing
  ability, in my opinion, will damage that severely.
+ Changeling's Clarity recovery Contract works because it's so mild, and
+ has a significant social interaction component.
+ It makes 
+\emph on
+sense
+\emph default
+ in context of Luminous.
 \end_layout
 
 \end_inset
@@ -11446,16 +11973,11 @@ As a Luminous can more or less sustain herself indefinitely without a soul,
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Maou souls? Likely depends on what their final mechanics are.
-\end_layout
-
-\end_inset
-
-
+Maou are far less interesting in this regard.
+ Their souls are treated as Awakened Souls.
+ They do not innately lose their ability to use their magic when Soulless;
+ however because Willpower is their core resources, they will suffer magically
+ for it as well.
 \end_layout
 
 \begin_layout Standard
