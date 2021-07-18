@@ -52,7 +52,6 @@ InsetLayout Flex:Commentary
   BgColor               pink
 End
 
-
 InsetLayout Flex:ContentWarning
   LyXType               custom
   Decoration            classic
@@ -120,6 +119,31 @@ End
 \justification true
 \use_refstyle 1
 \use_minted 0
+\branch Commentary
+\selected 1
+\filename_suffix 0
+\color #fdb9c7
+\end_branch
+\branch Playtest
+\selected 0
+\filename_suffix 0
+\color #daf6f5
+\end_branch
+\branch Release
+\selected 0
+\filename_suffix 0
+\color #d3ecff
+\end_branch
+\branch Rulebook
+\selected 1
+\filename_suffix 0
+\color #ffffff
+\end_branch
+\branch CiBuild
+\selected 0
+\filename_suffix 0
+\color #e0a7ff
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -274,164 +298,24 @@ usepackage[utf8]{inputenc}
 \end_layout
 
 \begin_layout In Preamble
+\begin_inset Branch Release
+inverted 0
+status open
+
+\begin_layout In Preamble
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% Build conditional commands.
- A bit of a hack, but...
- w/e.
+
+\backslash
+usepackage{gitinfo2}
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
+\end_inset
 
 
-\backslash
-newcommand
-\backslash
-ifrelease[1]
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-%%REMOVE_FOR_RELEASE%%
-\backslash
-renewcommand
-\backslash
-ifrelease[1]{#1}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-ifnrelease[1]{#1}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-ifrelease { 
-\backslash
-renewcommand
-\backslash
-ifnrelease[1]
-\backslash
-relax }
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-ifcommentary[1]{#1} % default ON!
-\end_layout
-
-\begin_layout Plain Layout
-
-%%REMOVE_FOR_NO_COMMENTARY%%
-\backslash
-renewcommand
-\backslash
-ifcommentary[1]
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-ifncommentary[1]{#1}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-ifcommentary { 
-\backslash
-renewcommand
-\backslash
-ifncommentary[1]
-\backslash
-relax }
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-ifplaytest[1]
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-%%REMOVE_FOR_PLAYTEST%%
-\backslash
-renewcommand
-\backslash
-ifplaytest[1]{#1}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-ifnplaytest[1]{#1}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-ifplaytest { 
-\backslash
-renewcommand
-\backslash
-ifnplaytest[1]
-\backslash
-relax }
 \end_layout
 
 \end_inset
@@ -440,50 +324,26 @@ relax }
 \end_layout
 
 \begin_layout In Preamble
+\begin_inset Branch Release
+inverted 1
+status open
+
+\begin_layout In Preamble
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-% Only use gitinfo2 marks in non-release builds
-\end_layout
 
-\begin_layout Plain Layout
-
-
-\backslash
-ifnrelease { 
 \backslash
 usepackage[mark,raisemark=1.65
 \backslash
-baselineskip]{gitinfo2} }
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-ifrelease { 
-\backslash
-usepackage{gitinfo2} } 
+baselineskip]{gitinfo2}
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand
-\backslash
-ignorethis{
 \end_layout
 
 \end_inset
@@ -516,20 +376,6 @@ I would suggest you learn LaTeX, or at least the basics of LyX if you want
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
 \end_layout
 
 \end_inset
@@ -826,24 +672,6 @@ sfdefault}
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand
-\backslash
-ignorethis{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Flex IgnoreThis
 status open
 
@@ -871,17 +699,62 @@ Boring styling.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch Playtest
+inverted 0
+status open
+
+\begin_layout In Preamble
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-}
+
+\backslash
+newcommand
+\backslash
+drafttext{Playtest}
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Playtest
+inverted 1
+status open
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+drafttext{Draft}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -1036,30 +909,6 @@ definecolor{watermark}{HTML}{a0a0a0}
 \begin_layout Plain Layout
 
 % Setup gitinfo2
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-drafttext{Draft}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-ifplaytest { 
-\backslash
-renewcommand
-\backslash
-drafttext{Playtest} }
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -1453,24 +1302,6 @@ setlist[itemize]{leftmargin=1.2em}
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand
-\backslash
-ignorethis{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Flex IgnoreThis
 status open
 
@@ -1504,17 +1335,6 @@ I do this sometimes for e.g.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \begin_inset ERT
 status open
 
@@ -1933,24 +1753,6 @@ resethyper
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand
-\backslash
-ignorethis{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Flex IgnoreThis
 status open
 
@@ -1974,20 +1776,6 @@ This helps the structure of the document be more understandable, without
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
 \end_layout
 
 \end_inset
@@ -2117,6 +1905,50 @@ vcolorset-sidebarenv}
 }
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Commentary
+inverted 1
+status open
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumcommentary[1]
+\backslash
+relax
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Commentary
+inverted 0
+status open
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
 \begin_layout Plain Layout
 
 
@@ -2130,36 +1962,29 @@ lumcommentary[1]{
 
 	
 \backslash
-ifcommentary {
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
 begin{comment-sidebarenv}
 \end_layout
 
 \begin_layout Plain Layout
 
-			#1
+		#1
 \end_layout
 
 \begin_layout Plain Layout
 
-		
+	
 \backslash
 end{comment-sidebarenv}
 \end_layout
 
 \begin_layout Plain Layout
 
-	}
+}
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
 
-}
+
 \end_layout
 
 \end_inset
@@ -2209,7 +2034,52 @@ A Storytelling Game of Distant Dreams
 
 \family sans
 \size normal
-Revision 
+\begin_inset Branch Release
+inverted 0
+status open
+
+\begin_layout Date
+
+\family sans
+\size normal
+Version
+\end_layout
+
+\end_inset
+
+
+\begin_inset Branch Release
+inverted 1
+status open
+
+\begin_layout Standard
+\begin_inset Branch Playtest
+inverted 0
+status open
+
+\begin_layout Standard
+Playtest
+\end_layout
+
+\end_inset
+
+
+\begin_inset Branch Playtest
+inverted 1
+status open
+
+\begin_layout Standard
+Draft
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset ERT
 status open
 
@@ -2217,16 +2087,40 @@ status open
 
 
 \backslash
-gitDescribe{} (
-\backslash
-gitAuthorDate
-\backslash
-ifcommentary{, author commentary})
+gitDescribe{}
 \end_layout
 
 \end_inset
 
 
+\family default
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gitAuthorDate{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Branch Commentary
+inverted 0
+status open
+
+\begin_layout Standard
+
+\size normal
+, author commentary
+\end_layout
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Standard
@@ -2302,6 +2196,76 @@ literal "false"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Release
+inverted 1
+status open
+
+\begin_layout Standard
+This is a 
+\begin_inset Branch CiBuild
+inverted 0
+status open
+
+\begin_layout Standard
+automatically rendered
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Branch Playtest
+inverted 0
+status open
+
+\begin_layout Standard
+playtest
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Branch Playtest
+inverted 1
+status open
+
+\begin_layout Standard
+draft
+\end_layout
+
+\end_inset
+
+ version of Luminous: the Draft.
+ The mechanics and lore of this book may change at a later date, and many
+ parts of this system have yet to be fully finalized.
+ 
+\begin_inset Branch Playtest
+inverted 1
+status open
+
+\begin_layout Standard
+A current version of this document may be found on Aurora's 
+\begin_inset CommandInset href
+LatexCommand href
+name "Jenkins"
+target "https://lymia.moe/jenkins/job/LuminousTheDream/"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -12648,6 +12612,11 @@ hypersetup{
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch Release
+inverted 1
+status open
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -12655,11 +12624,14 @@ status open
 
 
 \backslash
-ifnrelease { 
-\backslash
 todototoc 
 \backslash
-listoftodos }
+listoftodos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

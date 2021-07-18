@@ -11,9 +11,10 @@ ln -s ../fonts build/fonts || exit 1
 
 copy_luminous_lyx() {
     cp "Luminous the Dream.lyx" "build/$1.lyx" || exit 1
+    sed -i -e '/\\branch .*/,+1s/\\selected.*/\\selected 0/' "build/$1.lyx" || exit 1
 }
-activate_tag() {
-    sed -i "s/%%REMOVE_FOR_$2%%//g" "build/$1.lyx" || exit 1
+activate_branch() {
+    sed -i -e '/\\branch '$2'.*/,+1s/\\selected.*/\\selected 1/' "build/$1.lyx" || exit 1
 }
 render_luminous() {
     # Create .tex output
@@ -57,45 +58,41 @@ create_archive() {
 
 VERSION="$(git describe --tags --long --always --match '[0-9]*.*')"
 
+copy_luminous_lyx LtD || exit 1
+copy_luminous_lyx LtDComm || exit 1
+activate_branch LtDComm Commentary || exit 1
+
+ZVERSION="v$VERSION"
+
 case $1 in
 release)
-    copy_luminous_lyx LtD || exit 1
-    activate_tag LtD RELEASE || exit 1
-    activate_tag LtD NO_COMMENTARY || exit 1
-    render_luminous LtD "" "Luminous the Dream" || exit 1
-
-    copy_luminous_lyx LtDComm || exit 1
-    activate_tag LtDComm RELEASE || exit 1
-    render_luminous LtDComm "Bonus Files/" "Luminous the Dream (Author Commentary)" || exit 1
-    
-    create_archive "Luminous the Dream v$VERSION" || exit 1
+    activate_branch LtD Release || exit 1
+    activate_branch LtDComm Release || exit 1    
+    FILE_MARKER=""
+    ZIP_FILE_BIND=""
 ;;
 playtest)
-    copy_luminous_lyx LtD || exit 1
-    activate_tag LtD PLAYTEST || exit 1
-    activate_tag LtD NO_COMMENTARY || exit 1
-    render_luminous LtD "" "Luminous the Dream Playtest" || exit 1
-
-    copy_luminous_lyx LtDComm || exit 1
-    activate_tag LtDComm PLAYTEST || exit 1
-    render_luminous LtDComm "Bonus Files/" "Luminous the Dream Playtest (Author Commentary)" || exit 1
-    
-    create_archive "Luminous the Dream - Playtest v$VERSION" || exit 1
+    activate_branch LtD Playtest || exit 1
+    activate_branch LtDComm Playtest || exit 1    
+    FILE_MARKER=" Playtest"
+    ZIP_FILE_BIND=" - Playtest"
 ;;
-*)
+ci)
     if [ ! -z "$BUILD_NUMBER" ]; then
         ZVERSION="r$BUILD_NUMBER"
-    else
-        ZVERSION="v$VERSION"
     fi
-
-    copy_luminous_lyx LtD || exit 1
-    activate_tag LtD NO_COMMENTARY || exit 1
-    render_luminous LtD "" "Luminous the Dream Draft" || exit 1
-
-    copy_luminous_lyx LtDComm || exit 1
-    render_luminous LtDComm "Bonus Files/" "Luminous the Dream Draft (Author Commentary)" || exit 1
     
-    create_archive "Luminous the Dream - Draft $ZVERSION" || exit 1
+    activate_branch LtD CiBuild || exit 1
+    activate_branch LtDComm CiBuild || exit 1    
+    FILE_MARKER=" Draft"
+    ZIP_FILE_BIND=" - Draft"
+;;
+*)
+    FILE_MARKER=" Draft"
+    ZIP_FILE_BIND=" - Draft"
 ;;
 esac
+
+render_luminous LtD "" "Luminous the Dream$FILE_MAKER" || exit 1
+render_luminous LtDComm "Bonus Files/" "Luminous the Dream$FILE_MARKER (Author Commentary)" || exit 1
+create_archive "Luminous the Dream$ZIP_FILE_BIND $ZVERSION" || exit 1
