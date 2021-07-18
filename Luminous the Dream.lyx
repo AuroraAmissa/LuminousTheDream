@@ -82,7 +82,7 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
-\paperfontsize 11
+\paperfontsize 10
 \spacing single
 \use_hyperref true
 \pdf_title "Luminous: the Dream"
@@ -1433,7 +1433,7 @@ renewcommand
 \backslash
 vsubsecsize{
 \backslash
-fontsize{30}{30}}
+fontsize{28}{30}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1444,7 +1444,7 @@ renewcommand
 \backslash
 vsubsubsecsize{
 \backslash
-fontsize{22}{27}}
+fontsize{20.5}{24.5}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1487,7 +1487,7 @@ renewcommand
 \backslash
 vsubsecsize{
 \backslash
-fontsize{22}{27}}
+fontsize{20.5}{24.5}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1498,7 +1498,7 @@ renewcommand
 \backslash
 vsubsubsecsize{
 \backslash
-fontsize{16}{20}}
+fontsize{15.5}{20}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1661,7 +1661,7 @@ renewcommand*{
 \backslash
 parttitlefont}{
 \backslash
-fontsize{38}{30}
+fontsize{38}{34}
 \backslash
 vtitlefont}
 \end_layout
@@ -1674,7 +1674,7 @@ renewcommand*{
 \backslash
 chaptitlefont}{
 \backslash
-fontsize{38}{30}
+fontsize{38}{34}
 \backslash
 vtitlefont}
 \end_layout
@@ -1689,7 +1689,7 @@ vtitlefont}
 \backslash
 setsecheadstyle{
 \backslash
-fontsize{30}{30}
+fontsize{28}{30}
 \backslash
 vtitlefont
 \backslash
@@ -1718,6 +1718,31 @@ setsubsubsecheadstyle{
 vsubsubsecsize
 \backslash
 vtitlefont}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeforesecskip{1.5ex}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeforesubsecskip{1.5ex}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeforesubsubsecskip{1.5ex}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1813,7 +1838,7 @@ tcbset{textmarker/.style={%
 
 \begin_layout Plain Layout
 
-	left=4mm,right=4mm,top=3.5mm,bottom=3.5mm,toptitle=1mm,bottomtitle=1mm,oversize
+	left=2.5mm,right=2.5mm,top=2.5mm,bottom=2.5mm,toptitle=1mm,bottomtitle=1mm,oversize
 \end_layout
 
 \begin_layout Plain Layout
@@ -2786,8 +2811,6 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-
-\size small
 Once you were young.
  No matter how old we may be, all of us were once young.
  We looked at the world through truly fresh eyes, felt it as fully and intensely
@@ -2805,8 +2828,6 @@ Once you were young.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 ...
  we believed.
  We all once believed.
@@ -2814,8 +2835,6 @@ Once you were young.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 One day, you saw a man huddling in a corner, covered in all too old rags
  when you came out of the supermarket.
  So many people passed him, looking at him sadly then turning away.
@@ -2828,8 +2847,6 @@ One day, you saw a man huddling in a corner, covered in all too old rags
 \end_layout
 
 \begin_layout Standard
-
-\size small
 That night, you confided in your old friend from kindergarten.
  Who you had always relied on, who had always stood by your side back then.
  ...
@@ -2844,8 +2861,6 @@ That night, you confided in your old friend from kindergarten.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 One day, you told your parents that you wanted to be a writer instead of
  a doctor.
  They told you that you didn't really want that.
@@ -2860,8 +2875,6 @@ One day, you told your parents that you wanted to be a writer instead of
 \end_layout
 
 \begin_layout Standard
-
-\size small
 At least, this time was different.
  That night, you logged into the same chat room you found a few weeks ago.
  One full of people who understand your pains.
@@ -2877,8 +2890,6 @@ At least, this time was different.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 One day, you saw a boy crying in the toy aisle, clinging tightly to a stuffed
  animal he wanted.
  But his parents wouldn't have any of that.
@@ -2893,8 +2904,6 @@ One day, you saw a boy crying in the toy aisle, clinging tightly to a stuffed
 \end_layout
 
 \begin_layout Standard
-
-\size small
 ...
  but you tried anyway.
  Even as they dragged him away as they called you terrible names.
@@ -2906,8 +2915,6 @@ One day, you saw a boy crying in the toy aisle, clinging tightly to a stuffed
 \end_layout
 
 \begin_layout Standard
-
-\size small
 You never could give up, no matter how hard you tried.
  No matter how much everyone around you told you to save yourself, that
  you were naive and only hurting yourself.
@@ -2918,8 +2925,6 @@ You never could give up, no matter how hard you tried.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 And that...
  is what makes you a Luminous.
  Not the shining magic you wield, but the simple fact you could never stop
@@ -8759,7 +8764,7 @@ Sensitivity is an upside trait now, in many ways.
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Silent Aria (••)
 \end_layout
 
@@ -11099,8 +11104,6 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-
-\size small
 Once we took the world into our hands.
  We defied the gods.
  We ate the Forbidden Fruit.
@@ -11112,8 +11115,6 @@ Once we took the world into our hands.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 The bonfires we stole beat back the darkness that covered the world just
  ever so little.
  Ever so little that we could see clearly what we had to do to make the
@@ -11124,15 +11125,11 @@ The bonfires we stole beat back the darkness that covered the world just
 \end_layout
 
 \begin_layout Standard
-
-\size small
 In our stories, we remember how we set off on our long and dark path.
  We warn of the thorns we would find on that path...
 \end_layout
 
 \begin_layout Standard
-
-\size small
 Sakura leaned over a railing atop a tower, overlooking a city of shining
  glass and regal metal, still gleaming even under the pale moonlight.
  Thinking of the rice fields that once covered that entire concrete landscape.
@@ -11142,8 +11139,6 @@ Sakura leaned over a railing atop a tower, overlooking a city of shining
 \end_layout
 
 \begin_layout Standard
-
-\size small
 He taught she must do, what her purpose in this world must be.
  He taught her how to rule.
  He taught her the hard choices she would have to make, when the Dark gave
@@ -11154,16 +11149,12 @@ He taught she must do, what her purpose in this world must be.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 But now, he rested on what would soon be his deathbed.
  She turned back, back through the door she willed open.
  Walking back down sterile white halls and tiled floors.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 When it came his time...
  she would say her goodbyes, hold his hand.
  
@@ -11186,8 +11177,6 @@ Big girls don't cry
 \end_layout
 
 \begin_layout Standard
-
-\size small
 Even if nobody would recognize her face at the end of her own chapter,.
  even if she must pass on the torch unseen one day, even if she would have
  to remind those who were powerful and those who dreamed alike why she must
@@ -11198,8 +11187,6 @@ Even if nobody would recognize her face at the end of her own chapter,.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 Caught between so many forces, cities like this were always only a breeze
  away from falling apart at the seams.
  When the Dreamers seek to reweave its weft, she would be there to guide
@@ -11211,15 +11198,11 @@ Caught between so many forces, cities like this were always only a breeze
 \end_layout
 
 \begin_layout Standard
-
-\size small
 When it came her own time to fade away, she would pass that torch on once
  more.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 She repeated to herself the vows her grandfather taught her to those skies.
  
 \begin_inset Quotes xld
@@ -11235,14 +11218,10 @@ By my hand, may they never fade.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 She looked back to the world around her.
 \end_layout
 
 \begin_layout Standard
-
-\size small
 She would...
  set to work soon.
  To claim the legacy her grandfather left her.
