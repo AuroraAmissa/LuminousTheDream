@@ -120,7 +120,7 @@ End
 \use_refstyle 1
 \use_minted 0
 \branch Commentary
-\selected 1
+\selected 0
 \filename_suffix 0
 \color #fdb9c7
 \end_branch
@@ -133,11 +133,6 @@ End
 \selected 0
 \filename_suffix 0
 \color #d3ecff
-\end_branch
-\branch Rulebook
-\selected 1
-\filename_suffix 0
-\color #ffffff
 \end_branch
 \branch CiBuild
 \selected 0
@@ -3232,7 +3227,7 @@ dream
 \end_layout
 
 \begin_layout Subsection*
-Lasting Scars
+Longing and Scars
 \end_layout
 
 \begin_layout Standard
@@ -4536,6 +4531,25 @@ Chapter 2: Distant Dreams
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+
+\emph on
+\begin_inset Quotes xld
+\end_inset
+
+But he didn't know if he was Zhuang Zhou who had dreamt he was a butterfly,
+\begin_inset Newline newline
+\end_inset
+
+or a butterfly dreaming that he was Zhuang Zhou.
+\begin_inset Quotes xrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 To most people, dreams are simply your brain processing old memories, recycling
  them in endless variations.
  Meaningless, nothing worth paying attention to.
@@ -4597,29 +4611,50 @@ In the hidden corners of every dream, one soul blurs into another.
 \end_layout
 
 \begin_layout Standard
-That is the Dream as the Luminous know it.
- The place they know they can find comfort in every night, even when the
- burdens of the waking world threaten to break them.
+In the Dream's skies, a thousand millions souls shine, each a single star.
+ In the depths of the Dream, twisting pathways lead to a world of higher
+ minded ideals, small dreams melding into worlds representing all cities,
+ or all wars.
 \end_layout
 
 \begin_layout Standard
-In its very surface, the dreams you see are still wonderful, but...
- ordinary.
- They are the individual dreams of a thousand million worlds.
- The Luminous look up to it, seeing it as a starry sky.
- Each star, the shape of a soul.
+But...
+ in the twilight in between, the Dream sustains something like a second
+ Earth – a world reflecting all the complexity and wonder the waking world
+ has in a thousand ways....
 \end_layout
 
 \begin_layout Standard
-In the depths of the Dream, loves and passionate emotion gives way to a
- world of higher minded ideas.
- There are no longer gardens worlds where lovers dream together, but a world
- reflecting the idea of gardens shared by all of humanity.
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+The Dream was hard to fully solidify on.
+ I had to work around the fact that there's three different official splats
+ all with their own, different things to say.
+ The Primordial Dream of the Beasts, the Astral of the Mages, the Oneiromancy
+ of the Changelings.
 \end_layout
 
-\begin_layout Standard
-They are beautiful, each in their own right, but...
- Luminous call the twilight in between home.
+\begin_layout Plain Layout
+The trick is to make it a difference of in-character viewpoints too.
+ Luminous are those who live in the surface of the Dream (by their reckoning),
+ which is still personal like the Oneiros, yet having some of the interconnected
+ness of the Temenos.
+ They become part of those dreams, see it as a place to live alongside Earth.
+ In that way, they differ from both Mages and Beasts – that one core difference
+ in thematics drives a lot of their different terminology and their different
+ experience of the Dream/Astral.
+\end_layout
+
+\begin_layout Plain Layout
+It is the same world, just interpreted through so many different views...
+ Like many things in the world.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4649,20 +4684,18 @@ But...
  Maybe they never cared.
  Maybe they always knew deep in their hearts that there is a greater truth
  under it all.
- They find those pathways in their dreams.
- They feel drawn to them, whether aware of what they were doing or not.
- They wander into that twilight, and their own dreaming mind shapes the
- Dream around them into something they would wish to see once more.
+ They find those pathways in their dreams, drawn to them by a nameless yearning
+ they so often do not even realize.
+ In that twilight, their own dreaming mind shaped the Dream around them,
+ bringing a touch of their own wishes into it.
 \end_layout
 
 \begin_layout Standard
-In the distant past, that was all there was.
- Transient dreaming, shaped by passing visitors.
- But over time, something changed.
- Those who dreamed like came back, over and over.
- As their weaving overlapped, grew together, they took shape into something
- like the waking world – only brighter, only more colorful.
- Only without the pains that drove them into their dreams in the first place...
+Over generations, something clicked into place.
+ Those who dreamed alike were drawn together, came to the same dream over
+ and over.
+ With so many seeing them, those dreams came together into something like
+ a world – the seeds of the eight Dream Kingdoms.
 \end_layout
 
 \begin_layout Subsection
@@ -4670,56 +4703,314 @@ Residents of a Dream
 \end_layout
 
 \begin_layout Standard
-People expected the Dream to be a world, so it became one.
- A town could not be empty, a city must bustle...
- Thus, it gave birth to souls that never knew the waking world, and always
- lived in that grand Dream.
+The nascent Dream Kingdoms looked like the waking world, so it became like
+ it.
+ A town could not be empty and still be called a town, a city that does
+ not bustle feels empty.
+ Thus, the Dream gave birth to new souls, new live to fill those voids.
+ Even in a world governed by the laws of story and emotion, to those born
+ there, the Dream was simply home.
 \end_layout
 
 \begin_layout Standard
-Those Dreamborn are its true residents.
- They live as any waking person does, with their own personalities, thoughts,
- memories, beliefs, goals and ambitions.
- The Dreamers who built the Kingdoms, but it was the Dreamborn who expected
- it to be their home.
- They gave them a measure of stability it never had when it was shaped only
- by passing dreamers.
- With their touch, a world that once only pretended to be a world became...
- a true world of its own right.
- A place with its own laws of story and dream, a place that could provide
- the conflicts and joys that make a life...
- true and worth living.
- A place full of others to love, of others to rely on.
+They became its true residents.
+ They had personalities, thoughts, memories, beliefs, goals, ambitions all
+ the same as all the visitors from the waking world.
+ They too influenced it, with their own wishes.
+ They wanted a life, a meaningful place to call home.
+ Their wishes too shaped the world, and crystallized into the eight Dream
+ Kingdoms.
 \end_layout
 
 \begin_layout Standard
-And when those first Dreamers once more embraced the world they began, they
- too changed.
- Their dreams stopped being truly their own, and instead part of that grander
- world.
- Whether by choice, or some nameless law of dreams, they became part of
- that world of their own right, living a second life in their sleep.
+Life demand stability, challenges, conflicts, a reason to be.
+ The Dream was all too happy to tell such a story.
 \end_layout
 
 \begin_layout Standard
-The first residents of two worlds.
- Who both lived in the Dream and the waking world.
+And, well.
+ If the Dream Kingdoms were to be a world to live in, some of those Dreamers
+ wished to embrace it too.
+ In the depths of their hearts, they would live a second life in their dreams
+ in those Kingdoms, their personal dreams melding into its weave.
+ Most did not even realize there was anything special to it.
+ They lived in a second life in their dreams, and that was simply how they
+ were.
 \end_layout
 
 \begin_layout Standard
-They were the ones who would become the Luminous.
+Other stories tell of Dreamborn who were born in the waking world too, their
+ story entwining with that of a newborn child.
+ They would dream of the waking world, waking up to the stories they were
+ born in.
+ Maybe they really found a way to dream of the waking world from a Dream.
+ Maybe they were simply Dreamers who forgot which world they were truly
+ born into.
+\end_layout
+
+\begin_layout Standard
+It didn't truly matter.
+ They were true residents of both worlds, and in each world dreamed of the
+ other.
+ In a way, to them, both were equally true.
+\end_layout
+
+\begin_layout Subsection
+Shadows of Memory
+\end_layout
+
+\begin_layout Standard
+It wasn't only the happy moments, ephemeral fantasies that formed the nascent
+ Dream.
+ Humanity never had an easy life in the waking world, and that too reflected
+ in their dreams.
+ Terror-filled nightmares of predators, of earthquakes, of great floods,
+ of what lurks in the darkness.
+ The insidious pains from human cruelties and the realities of war.
+ All of those things too reflected into the Dream.
+\end_layout
+
+\begin_layout Standard
+The Dream too is an often dark place, in its own ways.
+ The Kingdoms offer sanctuary, and even they can sometimes be darkened by
+ the broader world.
+\end_layout
+
+\begin_layout Subsection
+Scars of a Forgotten Past
 \end_layout
 
 \begin_layout Section
 The Waking World
 \end_layout
 
+\begin_layout Standard
+Every dream ends for better or worse, even if it may continue another night.
+ The world one awakens to is...
+ dark, shadowed, more solid.
+ It is not a happy place for most Dreamers.
+\end_layout
+
+\begin_layout Standard
+The scars of generations, small cruelties added up over the generations.
+ In the modern era, people have stopped believing in wonders.
+ They simply seek to survive, and forget about the wonders.
+ They dismiss people who ask for better by saying 
+\begin_inset Quotes xld
+\end_inset
+
+welcome to the real world
+\begin_inset Quotes xrd
+\end_inset
+
+ and such things.
+ Even from the our start, all of us were marked with the invisible scars
+ of a forgotten past.
+\end_layout
+
+\begin_layout Standard
+The Luminous see a better world in their sleep – but few truly want to abandon
+ the waking world either.
+ Beyond all the darkness and sadness, there are simple pleasures in this
+ world.
+ Rather than the bright and colorful dream vistas they see their sleep,
+ there are quieter things.
+ A walk down the beach, hand in hand with a lover.
+ Quiet birdsong in a serene forest.
+ A bridge over a raging river, splashing those that cross with cool mist.
+ A quiet art store whose owner spreads joy through their crafts.
+\end_layout
+
+\begin_layout Standard
+In hidden corners, under the surface of even the most dull place this world
+ should be colorful too.
+ Perhaps that alone isn't enough to starve off the pains of the world.
+ Still, it's enough to try.
+ It's enough to give hope...
+\end_layout
+
 \begin_layout Subsection
-The Boundary Between
+Scars of a Forgotten Past
+\end_layout
+
+\begin_layout Standard
+The pain was there from the very start, back before we ever spoke a word
+ to each other, back before we started our first fire.
+ In the depths of the Dream, there were always ruins of 
+\emph on
+something
+\emph default
+ that came before.
+\end_layout
+
+\begin_layout Standard
+In an forgotten age, we divided ourselves from the world by forging a Boundary
+ Stone, marking the start of our dreams and the end of the world's.
+ It so clearly came from before, marked with so many languages that resembles
+ no known language.
+ The first work of a great civilization, from long ago, surely.
+ But...
+ that was not to be.
+ Some great cataclysm erased them so thoroughly, that all the Dream remembers
+ is vague impressions of rituals, of religions, of festivals that once were.
+\end_layout
+
+\begin_layout Standard
+The Dream don't even remember what happened well enough to fear it.
+ The Luminous once searched the realms of fear for an answer, only to see
+ that even the horrors that lived there only remember that there...
+ was something to fear, not its shape or color.
+ But the fear remained.
+ But the scars and burdens remained...
+ Our legacy may be our own, but ours scars began far earlier.
+\end_layout
+
+\begin_layout Standard
+Humanity found its footing again, of course.
+ But it never bore those wounds well, especially not in a world they – in
+ a deep corner of their minds – knew was darker than the world that should
+ have been.
+ Perhaps that was what made people give up hope so easily.
+ Generations of wars, famines, epidemics added onto those ancient scars,
+ and something...
+ broke.
+\end_layout
+
+\begin_layout Standard
+In the current day, so many have even abandoned their own dreams, accepting
+ a dark world in the hopes that they can at least have scraps of light for
+ themselves if they did.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Was it a great shattering, in which the world was covered in a Lie? Where
+ we replaced the gods with tyrants just as bad, breaking the world in the
+ process?
+\end_layout
+
+\begin_layout Plain Layout
+Was it a sundering, where the primal fury and wisdom of the Shadow was split
+ from the Flesh? When Pangaea ended, and the savage, beautiful, interconnected
+ nature was for the first time tamed?
+\end_layout
+
+\begin_layout Plain Layout
+Was it when a thousand voices drowned out the Primordial Dream that should
+ guide us on the right path?
+\end_layout
+
+\begin_layout Plain Layout
+Was it when a great curse was laid on us all, giving birth to monsters of
+ blood and their blood ties that bound that curse to the rest of humanity?
+\end_layout
+
+\begin_layout Plain Layout
+Was it when the first True Fae was born, reshaping Arcadia into something
+ it never should have been?
+\end_layout
+
+\begin_layout Plain Layout
+Every splat talks of a deep past in vague terms.
+ Some are more explicit it about others, but that bittersweet note of loss
+ never leaves most splats.
+ Luminous is no different.
+ In their Dream, they see signs of worlds that once were, things that were
+ beautiful, things once lost.
+ They blame the start of the generational trauma humanity faces on those
+ eras, only made worse by our darkened world.
+ They too hope for better.
+\end_layout
+
+\begin_layout Plain Layout
+As the Lost build their freeholds, as the Mages seek Ascension, the Luminous
+ seek to change the world.
+ They are caught between two worlds, and want 
+\emph on
+both
+\emph default
+ to shine as brightly as they possibly can.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Blossoming
+\end_layout
+
+\begin_layout Standard
+The Dreamers could never stand for the shadows of the world.
+ Dreams are not quite like the waking world – boundaries between concepts
+ and people blur, and understanding is far easier.
+ They know the pains those people feel, how much the pressures of the world
+ hurt them.
+ They know how much those they advise to dream less brightly suffer for
+ it.
+\end_layout
+
+\begin_layout Standard
+In the waking world, they can't help but care.
+ They can't help but dream of better.
+ After all.
+ In their dreams, they see an reflection of how the world could be better,
+ if only they could teach others to dream too.
+\end_layout
+
+\begin_layout Standard
+It isn't even the large cruelties that hurt the most.
+ It's the small things that wear down on everyone's souls.
+ People at least acknowledge racism matters, that people shouldn't be judged
+ for the the color of their skin or who they love.
+ It's the small things nobody thinks to remark on, because it's become so
+ normal.
+\end_layout
+
+\begin_layout Standard
+Parents isolate their children from their friends as punishment and call
+ it grounding.
+ Teachers drown their students with test after test, making them afraid
+ that if they don't pass, they simply won't have a chance to live.
+ In schools, they say 
+\begin_inset Quotes xld
+\end_inset
+
+study is what is important right now
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ In adulthood, they say 
+\begin_inset Quotes xld
+\end_inset
+
+work is what is important right now
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ When do people get a chance to live?
+\end_layout
+
+\begin_layout Standard
+Everywhere they go, they see people being crushed under those things, large
+ and small.
+ They catch glimpses of it through their ties to the Dream, through 
+\end_layout
+
+\begin_layout Section
+Daydreams
+\end_layout
+
+\begin_layout Standard
+The Luminous are those caught between reality and dreams, the mundane and
+ the supernatural.
+ They refuse to reject either, instead embracing both with all their heart.
 \end_layout
 
 \begin_layout Chapter
@@ -6718,7 +7009,8 @@ Charms are the more specialized powers of the Luminous, specific spells
 \end_layout
 
 \begin_layout Standard
-For more information, see the 
+Most of these powers may only be used in Dream Form, with some exceptions.
+ For more information, see the 
 \begin_inset ERT
 status open
 
@@ -7643,11 +7935,11 @@ Even in their waking life, a Luminous' Echo allows her and those closer
 \end_layout
 
 \begin_layout Standard
-Once per scene, either may spend a Willpower to reflect a Virtue, Dream,
+Once per scene, either may spend two Willpower to reflect a Virtue, Dream,
  Wish or similar Anchor that reflects a positive pillar of one's self from
  someone they have Strong or closer Intimacy with until the scene ends.
- This grants 9-Again for all actions that follow that Anchor, and are treated
- as if they had the Anchor for all purposes.
+ This grants 9-Again for all actions that follow that Anchor, and she is
+ treated as if they had the Anchor for all purposes.
 \end_layout
 
 \begin_layout Standard
@@ -8969,6 +9261,20 @@ Vice-Ridden and Virtuous
 \begin_layout Standard
 Neither Maou nor Luminous may purchase either Vice-Ridden or Virtuous [CofD
  46], as they use different Anchors.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[subsec:Another-Dream]{Another Dream}
+\end_layout
+
+\end_inset
+
+ merit does something similar, while being compatible with Luminous.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -8991,6 +9297,35 @@ Luminous Merits
 
 \begin_layout Standard
 These Merits may only be taken by the Luminous.
+\end_layout
+
+\begin_layout Subsubsection*
+Another Dream (••) 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Another-Dream"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Effect: 
+\series default
+Most Luminous only act ever so slightly different in their Dream Form.
+ For whatever reason – whether she embraced a very different role in her
+ dreams, or simply for how long she had dreamed without Blossoming – your
+ character acts significantly different between her two forms.
+\end_layout
+
+\begin_layout Standard
+She has a different Dream or Wishes in her Dream Form, and is treated as
+ if she had both anchors in either form for purposes of defending against
+ social maneuvering, or supernatural abilities.
+ However, she may only benefit once from a single kind of anchor in a scene.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -10310,6 +10645,42 @@ TODO: Write this section.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Nomenclature
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Some of the other supernatural beings of the World of Darkness have their
+ own terminologies for the Astral, notably the Architects, the Awakened
+ and the Begotten.
+\end_layout
+
+\begin_layout Plain Layout
+Maou and Mages use very technical terms for the Dream, 
+\end_layout
+
+\begin_layout Plain Layout
+Beasts use terms 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Dream Form
 \end_layout
@@ -10498,6 +10869,17 @@ Perhaps a few group of truly elder Luminous have hidden themselves away
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+The Lucid
+\end_layout
+
+\begin_layout Standard
+The Dream Kingdoms are not only inhabited by the Luminous.
+ The vast majority of those who came to dream in their grounds never Blossom,
+ never realize that there is more to it than a particularly stable recurring
+ dream.
 \end_layout
 
 \begin_layout Section
@@ -11024,7 +11406,7 @@ Spirit
 \end_layout
 
 \begin_layout Standard
-The world itself dreams too, hidden far in the World Dream beyond the Threshold.
+The world itself dreams too, hidden far in the World Dream beyond the Foundation.
  As the waking world reflects onto the Shadow, so too do the spirits that
  live in it reflect into the World Dream.
  Long ago, a Luminous braved the Gales to reach its heart, and learned of
@@ -12272,8 +12654,8 @@ Interactions
 
 \begin_layout Standard
 The Beasts see themselves as kin to all supernatural beings.
- As much as they are rooted in humanity's history, the Luminous and Maou
- are still supernatural.
+ Though the Luminous and Maou see themselves as humanity's own legacy, they
+ are still supernatural enough for a Beat to make a connection.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -12281,21 +12663,38 @@ Kinship
 \end_layout
 
 \begin_layout Standard
-Maou and Luminous both have the same Kinship with Beasts as the Awakened.
- However, a Luminous' Mundane Form veils this fact – she has no Kinship
- with Beasts in Mundane Form.
- Due to their stronger connection with the mundane, Thicker Than Water does
- not affect the Luminous.
- However, if a Beast applies the Family Ties condition, it applies even
- in a Luminous' Mundane Form.
+Luminous in their Dream Form have the same Kinship with Beasts as Mages
+ do, but they have no kinship in Mundane Form.
+ With her mundane self grounding her in humanity, a Beast's arguments of
+ Kinship often fall flat.
+ Thicker Than Water has no effect on her in either of her forms.
+ However, the Family Ties condition applies to both a Luminous' forms once
+ established – assuming the Beast is aware of her mundane identity.
 \end_layout
 
 \begin_layout Standard
-Passing Resemblance has little use with the Luminous or the Maou.
- They do not have means to recognize each other passively, instead using
- their powers to reveal their nature to others.
- At best, a Beast can pass for a transformed Luminous by faking the dissonance
- with physics that Weaving Actions can cause.
+Origins may chance a Luminous' Kinship, however.
+ Luminous with the Spirit Origin have full Kinship in their Dream Form and
+ none in their Mundane Form.
+ Luminous with the Wyrd Origin have full Kinship, and Thicker Than Water
+ applies to them.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Kinship on remaining Origins.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maou as well have the same Kinship to Beasts as Mages.
 \end_layout
 
 \begin_layout Standard
