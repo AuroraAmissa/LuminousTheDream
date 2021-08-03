@@ -3,7 +3,7 @@
 *.kate-swp
 
 *.pdf
-Luminous*.tex
+*.tex
 
 /build
 /dist

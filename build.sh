@@ -10,6 +10,8 @@ mkdir -vp dist || exit 1
 ln -s ../fonts build/fonts || exit 1
 
 copy_luminous_lyx() {
+    mkdir "build/$1"
+    
     cp "Luminous the Dream.lyx" "build/$1.lyx" || exit 1
     sed -i -e '/\\branch .*/,+1s/\\selected.*/\\selected 0/' "build/$1.lyx" || exit 1
 }

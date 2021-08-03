@@ -7,26 +7,17 @@
 \textclass memoir
 \use_default_options true
 \begin_modules
+enumitem
 todonotes
 fixltx2e
-pdfform
-enumitem
 InStar
+pdfform
 \end_modules
 \maintain_unincluded_children false
 \begin_local_layout
 Format 66
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
-
-InsetLayout Flex:IgnoreThis
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Do not Render"
-  LatexType             command
-  LatexName             ignorethis
-  ResetsFont            true
-End
 
 InsetLayout Flex:Sidebar
   LyXType               custom
@@ -119,26 +110,6 @@ End
 \justification true
 \use_refstyle 1
 \use_minted 0
-\branch Commentary
-\selected 0
-\filename_suffix 0
-\color #fdb9c7
-\end_branch
-\branch Playtest
-\selected 0
-\filename_suffix 0
-\color #daf6f5
-\end_branch
-\branch Release
-\selected 0
-\filename_suffix 0
-\color #d3ecff
-\end_branch
-\branch CiBuild
-\selected 0
-\filename_suffix 0
-\color #e0a7ff
-\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -169,2009 +140,10 @@ End
 \begin_body
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_Backup_Include.lyx"
 
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-ignorethis[1]
-\backslash
-relax
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex IgnoreThis
-status open
-
-\begin_layout Section*
-LaTeX Prelude (Not in doc)
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This thing exists so there's an link to the prelude in the outline.
- It will not be generated unless something goes very wrong.
- Also, I'm a little shit and will use this box here.
- :)
-\end_layout
-
-\begin_layout Plain Layout
-This section defines the package imports that allow me to do what I do in
- this document, and the commands that the build_*.sh scripts use to define
- settings for the build script.
- Rather...
- inelegant, but I couldn't think of better.
-\end_layout
-
-\begin_layout Plain Layout
-This whole section runs in the preamble, before 
-\backslash
-begin{document}, but there's no real visible sign of this due to the hack
- for it kinda sucking...
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[english]{babel}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage{datetime}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage{colortbl}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[raster, fitting, skins, breakable]{tcolorbox}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Set encoding for tex4ebook
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[T1]{fontenc}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[utf8]{inputenc} 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout In Preamble
-\begin_inset Branch Release
-inverted 0
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage{gitinfo2}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout In Preamble
-\begin_inset Branch Release
-inverted 1
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[mark,raisemark=1.65
-\backslash
-baselineskip]{gitinfo2}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex IgnoreThis
-status open
-
-\begin_layout Subsubsection*
-Setup Fonts
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This loads the fonts for the rulebook.
- Good typography makes all the difference for the 'feel' of a rulebook.
-\end_layout
-
-\begin_layout Plain Layout
-I would suggest you learn LaTeX, or at least the basics of LyX if you want
- to do something like Luminous.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Setup fonts
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeatletter
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newfontfamily{
-\backslash
-luminousfont}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]{Dancing Script Bold}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newfontfamily{
-\backslash
-maoufont}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]{Cormorant Infant Bold}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newfontfamily{
-\backslash
-stfont}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]{Quicksand Semi Bold}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setromanfont{FiraSans}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/FiraSans-Regular.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/FiraSans-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/FiraSans-Italic.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsansfont{FiraSans}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/FiraSans-Regular.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/FiraSans-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/FiraSans-Italic.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setmonofont{DejaVu Sans Mono}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/DejaVuSansMono.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/DejaVuSansMono.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/DejaVuSansMono.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/DejaVuSansMono.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeatother
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% epub typography
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-familydefault}{
-\backslash
-sfdefault}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex IgnoreThis
-status open
-
-\begin_layout Subsubsection*
-Setup Basic Styling
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Boring styling.
- This defines a lot of colors and the overall page layout.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch Playtest
-inverted 0
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-drafttext{Playtest}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch Playtest
-inverted 1
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-drafttext{Draft}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Setup colors
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-tbg}{HTML}{ffebf2}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-bg}{HTML}{ffdbe8}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-li}{HTML}{f5b0c8}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-ln}{HTML}{f26d9b}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-tbg}{HTML}{f3ebff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-bg}{HTML}{e9dbff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-li}{HTML}{ccb2f5}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-ln}{HTML}{ae83f2}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-tbg}{HTML}{ebf8ff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-bg}{HTML}{dbf2ff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-li}{HTML}{b2ddf5}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-ln}{HTML}{6ec2f2}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{comment-tbg}{HTML}{ffe6fd}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{comment-li}{HTML}{fcb8f7}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{cw-tbg}{HTML}{ffe6e6}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{cw-li}{HTML}{ff787a}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{watermark}{HTML}{a0a0a0}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup gitinfo2
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-gitMarkPref}{
-\backslash
-drafttext{} 
-\backslash
-textbullet{} This version is subject to change}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-gitMark}{
-\backslash
-gitBranch
-\backslash
-,@
-\backslash
-,
-\backslash
-gitDescribe{} (
-\backslash
-gitAuthorDate)}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-gitMarkFormat}{
-\backslash
-color{watermark}
-\backslash
-fontsize{7}{0}
-\backslash
-sffamily}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-boolfalse{gitInf@mark}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup page layouts
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-footertextsize
-\backslash
-small
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makepagestyle{plain}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeoddfoot{plain}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-leftmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-rightmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeheadfootruleprefix{plain}{
-\backslash
-vlicolor}{
-\backslash
-vlicolor} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeheadrule{plain}{
-\backslash
-textwidth}{1pt}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makefootrule{plain}{
-\backslash
-textwidth}{1pt}{4pt}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makepagestyle{pn}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeoddfoot{pn}{}{}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makepagestyle{mystyle}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeoddfoot{mystyle}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-leftmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-rightmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeheadfootruleprefix{mystyle}{
-\backslash
-vlicolor}{
-\backslash
-vlicolor} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeheadrule{mystyle}{
-\backslash
-textwidth}{1pt}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makefootrule{mystyle}{
-\backslash
-textwidth}{1pt}{4pt}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makepsmarks{mystyle}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createmark{part}{left}{shownumber}{
-\backslash
-@chapapp
-\backslash
- }{.
- 
-\backslash
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createmark{chapter}{right}{shownumber}{
-\backslash
-@chapapp
-\backslash
- }{.
- 
-\backslash
- }
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-nouppercaseheads
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagestyle{mystyle}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand
-\backslash
-afterpartskip
-\backslash
-relax % allow quotes on the title pages.
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup typography
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setlength{
-\backslash
-parfillskip}{0pt plus 1fil} % Paragraph spacing
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-emergencystretch=0.05em
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyphenpenalty=1000 % Less hyphens please...
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hbadness=1000
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-twocoltocetc % two column table of contents
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-widowpenalties 1 10000 
-\backslash
-raggedbottom % Avoid splitting paragraphs.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-firmlists % Reduce list spacing.
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-labelitemi}{$
-\backslash
-texttt{❖}$}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setlist[itemize]{leftmargin=1.2em}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex IgnoreThis
-status open
-
-\begin_layout Subsubsection*
-Setup Section Styling
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This section defines the variables and commands used for the per-section
- styling.
-\end_layout
-
-\begin_layout Plain Layout
-I do this sometimes for e.g.
- centering the splat titles, or the different colors and fonts in the three
- sections of this book.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Setup command variables
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vtitlefont
-\backslash
-luminousfont
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vtitlecentered
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vcolorset{lum}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vsubsecsize
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vsubsubsecsize
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup macros
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-setsplatlayout{
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-renewcommand
-\backslash
-vsubsecsize{
-\backslash
-fontsize{28}{30}}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-renewcommand
-\backslash
-vsubsubsecsize{
-\backslash
-fontsize{20.5}{24.5}}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-defaultlists
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-setnormallayout{
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-renewcommand
-\backslash
-vtitlecentered
-\backslash
-relax
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-renewcommand
-\backslash
-vsubsecsize{
-\backslash
-fontsize{20.5}{24.5}}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-renewcommand
-\backslash
-vsubsubsecsize{
-\backslash
-fontsize{15.5}{20}}
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-firmlists
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-resethyper{
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-hypersetup{
-\end_layout
-
-\begin_layout Plain Layout
-
-		colorlinks=true,
-\end_layout
-
-\begin_layout Plain Layout
-
-		linkcolor=
-\backslash
-vlncolorname, 
-\end_layout
-
-\begin_layout Plain Layout
-
-		urlcolor=
-\backslash
-vlncolorname,
-\end_layout
-
-\begin_layout Plain Layout
-
-		pdfborderstyle={/S/U/W 0},
-\end_layout
-
-\begin_layout Plain Layout
-
-	}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Common commands
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vbgcolorname{
-\backslash
-vcolorset-bg}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vbgcolor{
-\backslash
-color{
-\backslash
-vbgcolorname}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vlncolorname{
-\backslash
-vcolorset-ln}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vlncolor{
-\backslash
-color{
-\backslash
-vlncolorname}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vlicolorname{
-\backslash
-vcolorset-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-vlicolor{
-\backslash
-color{
-\backslash
-vlicolorname}}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Common style.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand*{
-\backslash
-parttitlefont}{
-\backslash
-fontsize{38}{34}
-\backslash
-vtitlefont}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand*{
-\backslash
-chaptitlefont}{
-\backslash
-fontsize{38}{34}
-\backslash
-vtitlefont}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsecheadstyle{
-\backslash
-fontsize{28}{30}
-\backslash
-vtitlefont
-\backslash
-vtitlecentered}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsubsecheadstyle{
-\backslash
-vsubsecsize
-\backslash
-vtitlefont
-\backslash
-vtitlecentered}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setsubsubsecheadstyle{
-\backslash
-vsubsubsecsize
-\backslash
-vtitlefont}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setbeforesecskip{1.5ex}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setbeforesubsecskip{1.5ex}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setbeforesubsubsecskip{1.5ex}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setuptodonotes{color=
-\backslash
-vbgcolorname}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setnormallayout
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-resethyper
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex IgnoreThis
-status open
-
-\begin_layout Subsubsection*
-Custom Insets Commands
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This section implements the custom insets (like this box right here!).
-\end_layout
-
-\begin_layout Plain Layout
-This helps the structure of the document be more understandable, without
- it being chock full of raw LaTeX any more than it already is.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Custom insets
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-tcbset{textmarker/.style={% 
-\end_layout
-
-\begin_layout Plain Layout
-
-	skin=enhancedmiddle jigsaw,breakable,parbox=false, 
-\end_layout
-
-\begin_layout Plain Layout
-
-	boxrule=0mm,leftrule=2.5pt,rightrule=2.5pt,boxsep=0mm,arc=0mm,outer arc=0mm,
- 
-\end_layout
-
-\begin_layout Plain Layout
-
-	left=2.5mm,right=2.5mm,top=2.5mm,bottom=2.5mm,toptitle=1mm,bottomtitle=1mm,oversize
-\end_layout
-
-\begin_layout Plain Layout
-
-}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{lum-sidebarenv}{textmarker,colback=lum-tbg,colframe=lum-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{maou-sidebarenv}{textmarker,colback=maou-tbg,colframe=maou-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{st-sidebarenv}{textmarker,colback=st-tbg,colframe=st-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{comment-sidebarenv}{textmarker,colback=comment-tbg,colframe=comment
--li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{cw-sidebarenv}{textmarker,colback=cw-tbg,colframe=cw-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-lumsidebar[2]{
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-begin{
-\backslash
-vcolorset-sidebarenv}
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-subsubsection*{#1}
-\end_layout
-
-\begin_layout Plain Layout
-
-		#2
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-end{
-\backslash
-vcolorset-sidebarenv}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch Commentary
-inverted 1
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-lumcommentary[1]
-\backslash
-relax
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch Commentary
-inverted 0
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-lumcommentary[1]{
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-begin{comment-sidebarenv}
-\end_layout
-
-\begin_layout Plain Layout
-
-		#1
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-end{comment-sidebarenv}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Title
-
-\size giant
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-luminousfont{
-\end_layout
-
-\end_inset
-
-Luminous: the Dream
-\size default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\family sans
-\size normal
-A Storytelling Game of Distant Dreams
-\end_layout
-
-\begin_layout Date
-
-\family sans
-\size normal
-\begin_inset Branch Release
-inverted 0
-status open
-
-\begin_layout Date
-
-\family sans
-\size normal
-Version
-\end_layout
-
-\end_inset
-
-
-\begin_inset Branch Release
-inverted 1
-status open
-
-\begin_layout Standard
-\begin_inset Branch Playtest
-inverted 0
-status open
-
-\begin_layout Standard
-Playtest
-\end_layout
-
-\end_inset
-
-
-\begin_inset Branch Playtest
-inverted 1
-status open
-
-\begin_layout Standard
-Draft
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gitDescribe{}
-\end_layout
-
-\end_inset
-
-
-\family default
- (
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-gitAuthorDate{}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Branch Commentary
-inverted 0
-status open
-
-\begin_layout Standard
-
-\size normal
-, author commentary
-\end_layout
-
-\end_inset
-
-)
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Do not format the title page with any style.
-\end_layout
-
-\begin_layout Plain Layout
-
-% As we mean to use as a PDF, not print, it's fine that our page numbering
- beings at 2.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -2219,68 +191,14 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch Release
-inverted 1
+\begin_inset ERT
 status open
 
-\begin_layout Standard
-This is a 
-\begin_inset Branch CiBuild
-inverted 0
-status open
-
-\begin_layout Standard
-automatically rendered
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Branch Playtest
-inverted 0
-status open
-
-\begin_layout Standard
-playtest
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Branch Playtest
-inverted 1
-status open
-
-\begin_layout Standard
-draft
-\end_layout
-
-\end_inset
-
- version of Luminous: the Draft.
- The mechanics and lore of this book may change at a later date, and many
- parts of this system have yet to be fully finalized.
- 
-\begin_inset Branch Playtest
-inverted 1
-status open
-
-\begin_layout Standard
-A current version of this document may be found on Aurora's 
-\begin_inset CommandInset href
-LatexCommand href
-name "Jenkins"
-target "https://lymia.moe/jenkins/job/LuminousTheDream/"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
+\begin_layout Plain Layout
 
 
+\backslash
+playtesttext {Luminous: the Dream}
 \end_layout
 
 \end_inset
@@ -5070,37 +2988,71 @@ Character Creation
 status open
 
 \begin_layout Plain Layout
-Character Creation|textbf
+Character Creation|(textbf
 \end_layout
 
 \end_inset
 
+This section shows how to turn the basic idea for a Luminous into something
+ that works with the game rules, fleshing out the heart of who she is in
+ both her waking life and the Dream in the process.
+ Every player should have a character sheet for Luminous – either the online
+ version designed for text games, or the offline printable version for in-person
+ games.
+ Regardless of which you choose, it will be your guide to character creation.
+\end_layout
 
+\begin_layout Standard
+All the players in a chronicle should create their characters together if
+ at all possible.
+ Luminous: the Dream especially focuses on relationships, and the bonds
+ between people – it helps to have who other people are playing and how
+ your character relates to them in mind even during the earlier stages of
+ character creation.
 \end_layout
 
 \begin_layout Subsection*
-Step One: Character Concept 
+Step One: Character Concept
 \end_layout
 
 \begin_layout Standard
-To begin creating a Luminous, come up with a rough idea of who you want
- to play.
- What kind of upbringing did she have? What kind of experiences, good or
- bad, did she have growing up? What does she think of the world around her?
- What does she want to see the world become? What has she experienced to
- lead her to want to change the world? What led up to her Blossoming, if
- it happened before the game starts?
+The first part of character creation is to come up with a rough idea of
+ who your character is at the heart.
+ What kind of person do you want to play? What was her upbringing like,
+ and who are her friends in either world? Does she consider herself a resident
+ of the dream, or merely a visitor? What problems does she see in the waking
+ world, and what does she want to do about them?
 \end_layout
 
 \begin_layout Standard
-Don't worry too much about details like Invocations yet.
- Instead, try to figure out who your character is inside, how they think
- and feel, and who they see themselves as.
- From that, distill it into a simple core concept like "young politician"
- or "aspiring writer".
- As you go through the character creation process, you can always fall back
- on this initial seed and do whatever feels right given it or adjust it
- if you think something else would fit her just a slight bit better.
+Ideally, you can solidify her whole concept into a single coherent high
+ concept, such as 
+\begin_inset Quotes xld
+\end_inset
+
+children's writers who finds inspiration in dreams
+\begin_inset Quotes xrd
+\end_inset
+
+, 
+\begin_inset Quotes xld
+\end_inset
+
+blogger who sways minds through her words and dreams
+\begin_inset Quotes xrd
+\end_inset
+
+, or 
+\begin_inset Quotes xld
+\end_inset
+
+peacekeeper for Seattle's supernatural beings
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ Having such a concept gives you something to refer back to when deciding
+ what option fits your character better.
 \end_layout
 
 \begin_layout Standard
@@ -5123,30 +3075,49 @@ Aspirations
 \end_layout
 
 \begin_layout Standard
-Finally, choose your character's Aspirations.
- Hopeful have two more aspirations than usual, for a total of five.
- Two of them must be related to the supernatural world, or her Dream Form.
- What does she want to do to make the world a better place? What supernatural
- creatures has she run into before, and what does she like to do with them?
- Has she run into any supernatural problems she wants to solve?
-\end_layout
-
-\begin_layout Standard
-Furthermore, two of her aspirations must relate to her mundane life, or
- at least the mundane world.
- Does she have friends she made a promise to? Does she have an internet
- community to run? What is her school life like, and is there something
- she would especially like to accomplish there?
-\end_layout
-
-\begin_layout Standard
-Some of your Aspirations should be short term goals that can be completed
+Aspirations are the main way your character earns beats, and thus advances
+ their abilities.
+ Furthermore, they help the Storyteller know where you want to go with your
+ character, and the kinds of stories you want to experience through them.
+ Some of your Aspirations should be short term goals that can be completed
  in a session or two, and at least one should be a longer-term goal that
- may take a whole Chapter to complete.
- Aspirations are one of the main ways you earn beats, which advance your
- character.
- They help the Storyteller know where you want to go with your character,
- and what kinds of stories you want them to experience.
+ may take a whole Chapter.
+\end_layout
+
+\begin_layout Standard
+Hopeful have two more aspirations than usual, for a total of five.
+ Two Aspirations belong to your character's Mundane Form and must relate
+ to the waking world or her mundane life, the other two belong to her Dream
+ Form and must relate to her life in the Dream or her supernatural life,
+ and her final Aspiration may be chosen freely.
+ Does she have something she wants to do with her friends in either world?
+ Is there a community she is important to? What is her school life or job
+ like, and is there something she wants to do there? How does she use magic
+ to make the waking world a better place?
+\end_layout
+
+\begin_layout Standard
+Don't be afraid of writing Aspirations that add little bits of context to
+ your character, even if they are easy to fulfill.
+ For example, a simple one like 
+\begin_inset Quotes xld
+\end_inset
+
+Find a place to live
+\begin_inset Quotes xrd
+\end_inset
+
+ establishes that your character doesn't currently have one and one like
+ 
+\begin_inset Quotes xld
+\end_inset
+
+Reconnect with my cousin
+\begin_inset Quotes xrd
+\end_inset
+
+ is a great excuse to get the party together – assuming that cousin is another
+ player character.
 \end_layout
 
 \begin_layout Subsection*
@@ -5170,18 +3141,13 @@ Dream Attributes
 
 \end_inset
 
- Attributes are the innate characteristics of your character, such as how
- fast, charismatic or smart she is.
- When choosing your attributes, ask yourself what would lead your character
- to lead to her living the life she does, what she would choose to develop,
- what skills she relies on, and whether she uses her magic or mundane skills
- to achieve her goals.
-\end_layout
-
-\begin_layout Standard
-Luminous and characters who are intended to Blossom in play do not choose
- their attributes like most characters.
- Begin by assign dots to her three 
+ All Chronicles of Darkness have nine mundane attributes representing their
+ innate capabilities.
+ Each mundane attribute starts with one free dot.
+ Pick an category of attributes (Physical, Mental, and Social) to distribute
+ 5 dots within, another category to distribute 4 dots within, then distribute
+ 3 dots to the last category.
+ Afterwards, assign your character's 
 \begin_inset ERT
 status open
 
@@ -5195,48 +3161,17 @@ hyperref[Sec-TransformedAttrs]{dream attributes}
 \end_inset
 
 .
- Begin with 1 dot in each dream attribute, then assign 8 dots between then,
- up to a maximum of 6 dots in any attribute.
- Then, beginning with 1 dot in each mundane attribute, distribute 12 dots
- between your character's mundane attributes up to a maximum of 5 dots in
- any attribute.
- 
+ Start with one dot in each, then distribute 8 dots between them.
 \end_layout
 
 \begin_layout Standard
-None of your character's mundane attributes may exceed their corresponding
- dream attribute and you may not assign more than 5 dots to each of the
- mundane attribute categories (Physical, Mental and Social).
- If the highest mundane attribute corresponding to a dream attribute is
- lower than the amount you assigned earlier, gain the remainder as dream
- attribute dots.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-I had to think for a long time about whether it was a good idea to change
- attribute and skill generation like this or not.
-\end_layout
-
-\begin_layout Plain Layout
-I decided I should, in the end, to avoid making people feel like they have
- to optimize to make their Luminous character 
-\emph on
-good
-\emph default
-.
- Since they have a fixed total of both mundane and transformed dots, there's
- no real question of optimizing/gaming the best-of-three rules.
- To avoid it being too complicated and mathy for most players to work out,
- this pretty much removes attribute category prioritization.
-\end_layout
-
-\end_inset
-
-
+Two dots in an attribute is normal human ability.
+ One dots is a notable difficiency, three dots is above average, four is
+ remarkable, and five is the limits of human ability.
+ Anything above that is outright superhuman; beyond any mundane human's
+ ability.
+ Luminous may never have mundane attributes or skills over 5 dots, and cannot
+ have Dream attributes over 6 dots at character creation.
 \end_layout
 
 \begin_layout Subsection*
@@ -5253,17 +3188,11 @@ Weaving Skills
 
 \end_inset
 
- Next, choose your character's Skills.
- They reflect the more specific skills she has gained over her life rather
- than her innate traits.
- When choosing Skills, think about your character's background.
- What had she studied during school? What are her hobbies?
-\end_layout
-
-\begin_layout Standard
-Assign her skills using the same process as her attributes, except skills
- begin at 0 dots instead of 1 dot.
- Assign 15 dots between her 
+ Skills work similarly to attributes, representing learned skills and training.
+ Assign her mundane skills in the same way as attributes, except skills
+ begin with no dots.
+ Assign 11 dots to one category, 7 to the second, and 4 to the last.
+ Similarly, they assign their 
 \begin_inset ERT
 status open
 
@@ -5276,17 +3205,9 @@ hyperref[Sec-TransformedSkills]{Weaving Skills}
 
 \end_inset
 
-, then assign 22 dots between her mundane skills.
-\end_layout
-
-\begin_layout Standard
-As with attributes, none of your character's mundane skills may exceed the
- corresponding Weaving Skill, and you may not assign more than 11 dots to
- any of the mundane skill categories.
- If the highest mundane skill corresponding to a Weaving skill is lower
- than the amount you assigned earlier, gain the remainder as Weaving skill
- dots.
- 
+ like their dream attributes.
+ Assign 15 dots between her Weaving Skills, none of which may exceed 6 at
+ character creation.
 \end_layout
 
 \begin_layout Subsection*
@@ -5294,16 +3215,16 @@ Step Four: Skill Specialties
 \end_layout
 
 \begin_layout Standard
-You start with three Skill Specialties, representing your character's particular
- field of competence in a given skill, as opposed to the broader competence
- Skill dots represent.
- You write your own Skill Specialties, reflecting where your character truly
- shines in their broader field.
- For example, a character may have specialty in Poetry for the Expression
- skill.
- As usual, this is a chance to refine your idea of who your character is,
- as much as a chance to express it.
- 
+You start with three Skill Specialties in your mundane skills, and one in
+ your Weaving Skills.
+ They represent your character's best skills in a given field, as opposed
+ to the broader competence Skill dots represent.
+ You may choose skill specialties freely, writing down whatever feels appropriat
+e to your character.
+ As usual, this is a chance to refine your idea of who your character is.
+ A specialty for Expression (Poetry) implies someone perhaps more artistic,
+ while Expression (Public Speaking) implies someone more persuasive and
+ social.
 \end_layout
 
 \begin_layout Subsection*
@@ -5311,8 +3232,8 @@ Step Five: Add Luminous Template
 \end_layout
 
 \begin_layout Standard
-At this point, you're ready to deal with the more magical aspects of your
- character.
+At this point, you're ready to deal with the outright magical aspects of
+ your character.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5320,9 +3241,9 @@ Luminary
 \end_layout
 
 \begin_layout Standard
-When she Blossoms, a Luminous builds her Dream Form from the symbols of
- the Dream.
- The first of these is her 
+When she Blossoms, a Luminous grasps at the symbols of the Dream to truly
+ stabilize the nascent power she would come to wield.
+ The first of these she takes on is her 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "Sec-Luminary"
@@ -5333,17 +3254,41 @@ noprefix "false"
 \end_inset
 
 , the celestial light she patterns her magic after.
- It forms the basis of how she uses her magic, and decides which of the
- three powers of the Luminous she focuses on.
- Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight)
-, and choose the one that fits your character concept the best.
+ It forms the basis of how she uses her magic, and decides whether she focuses
+ on Regalia, Domains or Charms.
 \end_layout
 
 \begin_layout Standard
-It may well be that your character could fit into multiple Luminaries.
- Often, such characters tend to have the Luminary that reflects the kind
- of power they would be more comfortable wielding, if their personality
- could go either way.
+Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight),
+ and choose the one that fits your character concept the best.
+ It may well be that she could fit into multiple Luminaries.
+ In that case, base your decision on what kind of power you think your character
+ would be the most comfortable wielding, if their personality could go either
+ way.
+\end_layout
+
+\begin_layout Subsubsection*
+Kingdom 
+\end_layout
+
+\begin_layout Standard
+The Starlit Dream stabilized into eight great 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "Sec-Kingdoms"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, each a vision of what the waking world could one day be, with just a slight
+ touch of magic.
+ The Luminous draw the magics they always wielded in their dream into reality,
+ invoking the underlying principles and feelings that their Kingdoms represent.
+ Read over the Kingdoms and choose the one that your character would most
+ believe in.
+ 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5354,11 +3299,15 @@ Archetype
 Whether your character would be a shining hero, an idol whose songs change
  the world, or a shrine maiden that upholds the boundary between worlds,
  she is yet still a Luminous.
- The Luminous have taken on many forms and roles over their long history,
- after all.
- Her Archetype reflects which of those legacies she would wish to continue
- on, and the overall form and concept of her Dream Form.
- Read over the 
+ The dreams of humanity shift with the stories they tell, and the Luminous
+ often end up reflecting them as well.
+ Your character's Archetype represents the form she takes in her dreams,
+ and the ideals she evokes in her appearance and style.
+ 
+\end_layout
+
+\begin_layout Standard
+Read over the 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "Sec-Archetype"
@@ -5369,33 +3318,12 @@ noprefix "false"
 \end_inset
 
 , and choose one that your character would wish to be.
+ If you wish, you can work with your Storyteller to make a custom one, if
+ you feel none of the ones here fit.
 \end_layout
 
 \begin_layout Subsubsection*
-Kingdom 
-\end_layout
-
-\begin_layout Standard
-In the Dream, the Luminous built eight great 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "Sec-Kingdoms"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, reflecting the world as they saw it could be in the distant future.
- They draw power from their Kingdoms, invoking the principles and feelings
- that underlie them through their Invocations.
- Read over the Kingdoms and choose the one that your character would most
- believe in.
- 
-\end_layout
-
-\begin_layout Subsubsection*
-Dream & Will
+Dream & Wish
 \end_layout
 
 \begin_layout Standard
@@ -5575,10 +3503,14 @@ Willpower:
  Transformed Resistance + Transformed Finesse
 \end_layout
 
+\begin_layout Subsubsection*
+Mundane Form
+\end_layout
+
 \begin_layout Itemize
 
 \series bold
-Mundane Health:
+Health:
 \series default
  Size + Stamina
 \end_layout
@@ -5586,7 +3518,7 @@ Mundane Health:
 \begin_layout Itemize
 
 \series bold
-Mundane Speed:
+Speed:
 \series default
  5 + Strength + Dexterity
 \end_layout
@@ -5594,7 +3526,7 @@ Mundane Speed:
 \begin_layout Itemize
 
 \series bold
-Mundane Initiative:
+Initiative:
 \series default
  Dexterity + Composure
 \end_layout
@@ -5602,15 +3534,19 @@ Mundane Initiative:
 \begin_layout Itemize
 
 \series bold
-Mundane Defense:
+Defense:
 \series default
  (Lower of Wits or Dexterity) + Athletics
+\end_layout
+
+\begin_layout Subsubsection*
+Dream Form
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Dream Health:
+Health:
 \series default
  Resistance + Attribute Maximum
 \end_layout
@@ -5618,7 +3554,7 @@ Dream Health:
 \begin_layout Itemize
 
 \series bold
-Transformed Speed:
+Speed:
 \series default
  5 + Power + Finesse
 \end_layout
@@ -5626,17 +3562,30 @@ Transformed Speed:
 \begin_layout Itemize
 
 \series bold
-Transformed Defense:
+Initiative:
 \series default
- (Lower of Resistance and Finesse) + Flow
+ Finesse + Resistance
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Transformed Initiative:
+Defense:
 \series default
- Finesse + Resistance
+ (Lower of Resistance and Finesse) + Flow
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Character Creation|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -5651,10 +3600,23 @@ Luminous ground themselves between dreams and reality through their Anchors,
 \end_layout
 
 \begin_layout Subsection
-Dream & Will 
+Dream & Wish 
 \begin_inset CommandInset label
 LatexCommand label
 name "Sec-DreamAndWish"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Dream and Wish, not really doing Dream/Will anymore.
+\end_layout
 
 \end_inset
 
@@ -10663,17 +8625,63 @@ Nomenclature
 \end_layout
 
 \begin_layout Plain Layout
-Some of the other supernatural beings of the World of Darkness have their
- own terminologies for the Astral, notably the Architects, the Awakened
- and the Begotten.
+Other supernatural beings and occult experts have their own name for the
+ Dream, and their own views of its structure.
+ In general, compared to them, the Luminous prefer simple plain language
+ terms, or ones drawn from popular culture over the more formal language
+ most of them employ.
 \end_layout
 
 \begin_layout Plain Layout
-Maou and Mages use very technical terms for the Dream, 
+Maou, Mages, and human scholars of the Astral use very technical terms for
+ the Dream, making literature references to esoteric concepts.
+ They see the Astral as a journey from the world below, into ever more true
+ worlds above – from personal dreams, to the higher truths of humanity,
+ to the higher truths of the world, and to more esoteric things beyond.
+ They refer to a Soulspace as a 
+\emph on
+Oneiros
+\emph default
+ (plural 
+\emph on
+Oneiroi
+\emph default
+), the Dream as the 
+\emph on
+Temenos
+\emph default
+, the Foundation as the 
+\emph on
+Omphalos
+\emph default
+ or Boundary Stone, and the World Dream as the Anima Mundi.
+ They call the Dreamborn (including Luminous, really) 
+\emph on
+Goetia
+\emph default
+ and do not typically draw the distinction between Dreamborn and Actors.
 \end_layout
 
 \begin_layout Plain Layout
-Beasts use terms 
+The Begotten use plain language terms similar to the Luminous, mixed with
+ the more formal terms of human academics.
+ They are home in the Primordial Dream, a layer deeper than most Luminous
+ ever touch upon, and their perspective sees much of the Dream the Luminous
+ know of as 
+\begin_inset Quotes xld
+\end_inset
+
+above
+\begin_inset Quotes xrd
+\end_inset
+
+ their own dream.
+ To them, the Dream as the Luminous call it and the Sea of Stars are the
+ Bright Dream.
+ The Foundation is the Cave, and the World Dream is the Mother's Land.
+ They share the Luminous terms of Actors and Dreamborn.
+ For everything else or when they need to make finer distinctions, they
+ tend to use the same terms as human scholars.
 \end_layout
 
 \end_inset
@@ -13278,99 +11286,6 @@ Beat:
 \series default
  The character suffers significant hardship, or abandons other goals in
  favor of upholding her promise.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Just disable colorful hyperlinks at this point.
- Makes the index look bad.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-hypersetup{
-\end_layout
-
-\begin_layout Plain Layout
-
-  colorlinks=false,
-\end_layout
-
-\begin_layout Plain Layout
-
-  linkcolor=black, 
-\end_layout
-
-\begin_layout Plain Layout
-
-  urlcolor=black,
-\end_layout
-
-\begin_layout Plain Layout
-
-  pdfborderstyle={/S/U/W 0},
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch Release
-inverted 1
-status open
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-todototoc 
-\backslash
-listoftodos
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset index_print
-LatexCommand printindex
-type "idx"
-name "Index"
-
-\end_inset
-
-
 \end_layout
 
 \end_body
