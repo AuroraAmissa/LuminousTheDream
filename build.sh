@@ -2,27 +2,27 @@
 
 echo "Building Luminous distribution..."
 
-rm -rfv build || exit 1
-mkdir -vp build/out/"Bonus Files" || exit 1
-mkdir -vp build/sources || exit 1
-mkdir -vp build/tex || exit 1
-mkdir -vp dist || exit 1
-ln -s ../fonts build/fonts || exit 1
+echo " - Creating directory structure"
+rm -rf build || exit 1
+mkdir -p build/out/"Bonus Files" || exit 1
+mkdir -p build/sources || exit 1
+mkdir -p build/tex || exit 1
+mkdir -p dist || exit 1
 
-copy_luminous_lyx() {
-    mkdir "build/$1"
-    
-    cp "Luminous the Dream.lyx" "build/$1.lyx" || exit 1
-    sed -i -e '/\\branch .*/,+1s/\\selected.*/\\selected 0/' "build/$1.lyx" || exit 1
-}
+echo " - Linking in external files"
+ln -s ../fonts build/fonts || exit 1
+ln -s ../includes build/includes || exit 1
+
+echo " - Copying in .lyx files"
+cp *.lyx build || exit 1
+
+echo " - Disabling all branches"
+sed -i -e '/\\branch .*/,+1s/\\selected.*/\\selected 0/' build/*.lyx || exit 1
+
 activate_branch() {
     sed -i -e '/\\branch '$2'.*/,+1s/\\selected.*/\\selected 1/' "build/$1.lyx" || exit 1
 }
 render_luminous() {
-    # Create .tex output
-    lyx "build/$1.lyx" -E xetex "build/$1.tex" || exit 1
-    cp "build/$1.tex" "build/sources/$3.tex" || exit 1
-
     # Creates the direct output PDF
     lyx "build/$1.lyx" -E pdf4 "build/$1_Temp.pdf" || exit 1
     
@@ -42,12 +42,13 @@ render_luminous() {
     #cp "build/$1.epub" "build/out/$2$3.epub" || exit 1
 }
 create_archive() {
-    cp -rf fonts build.sh *.md build/sources || exit 1
+    cp -rf fonts includes build.sh *.md *.lyx build/sources || exit 1
     rm build/sources/fonts/*.ttf || exit 1
-    mkdir "build/sources/.git" || exit 1
-    cp .git/gitHeadInfo.gin build/sources/.git || exit 1
+    cp gitHeadInfo.gin build/sources # not mandatory
+    cp .git/gitHeadInfo.gin build/sources # not mandatory
+    mv build/sources/includes/gitinfo_static.tex build/sources/includes/gitinfo.tex || exit 1
 
-    mv "build/sources" "build/Luminous the Dream Sources - Revision $VERSION" || exit 1
+    mv "build/sources" "build/LuminousSources_$VERSION" || exit 1
     cd build
     tar --xz -cvf "out/Bonus Files/LuminousSources-$VERSION.tar.xz" "Luminous the Dream Sources - Revision $VERSION" || exit 1
     cd ..
@@ -59,23 +60,16 @@ create_archive() {
 }
 
 VERSION="$(git describe --tags --long --always --match '[0-9]*.*')"
-
-copy_luminous_lyx LtD || exit 1
-copy_luminous_lyx LtDComm || exit 1
-activate_branch LtDComm Commentary || exit 1
-
 ZVERSION="v$VERSION"
 
 case $1 in
 release)
-    activate_branch LtD Release || exit 1
-    activate_branch LtDComm Release || exit 1    
+    activate_branch Format_Common Release || exit 1
     FILE_MARKER=""
     ZIP_FILE_BIND=""
 ;;
 playtest)
-    activate_branch LtD Playtest || exit 1
-    activate_branch LtDComm Playtest || exit 1    
+    activate_branch Format_Common Playtest || exit 1
     FILE_MARKER=" Playtest"
     ZIP_FILE_BIND=" - Playtest"
 ;;
@@ -84,8 +78,7 @@ ci)
         ZVERSION="r$BUILD_NUMBER"
     fi
     
-    activate_branch LtD CiBuild || exit 1
-    activate_branch LtDComm CiBuild || exit 1    
+    activate_branch Format_Common CiBuild || exit 1
     FILE_MARKER=" Draft"
     ZIP_FILE_BIND=" - Draft"
 ;;
@@ -95,6 +88,6 @@ ci)
 ;;
 esac
 
-render_luminous LtD "" "Luminous the Dream$FILE_MAKER" || exit 1
-render_luminous LtDComm "Bonus Files/" "Luminous the Dream$FILE_MARKER (Author Commentary)" || exit 1
+render_luminous Book_Luminous "" "Luminous the Dream$FILE_MAKER" || exit 1
+render_luminous Book_Luminous_Comm "Bonus Files/" "Luminous the Dream$FILE_MARKER (Author Commentary)" || exit 1
 create_archive "Luminous the Dream$ZIP_FILE_BIND $ZVERSION" || exit 1

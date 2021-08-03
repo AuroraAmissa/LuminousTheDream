@@ -146,7 +146,7 @@ End
 \color #daf6f5
 \end_branch
 \branch Release
-\selected 0
+\selected 1
 \filename_suffix 0
 \color #d3ecff
 \end_branch
@@ -335,6 +335,22 @@ usepackage[utf8]{inputenc}
 \end_layout
 
 \begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{includes/gitinfo.tex}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
 \begin_inset Branch Release
 inverted 0
 status open
@@ -347,7 +363,9 @@ status open
 
 
 \backslash
-usepackage{gitinfo2}
+usepackage[
+\backslash
+gitinfoflags]{gitinfo2}
 \end_layout
 
 \end_inset
@@ -373,7 +391,9 @@ status open
 
 
 \backslash
-usepackage[mark,raisemark=1.65
+usepackage[
+\backslash
+gitinfoflags,mark,raisemark=1.65
 \backslash
 baselineskip]{gitinfo2}
 \end_layout
@@ -2124,11 +2144,8 @@ selectfont {#2}
 inverted 0
 status open
 
-\begin_layout Date
-
-\family sans
-\size normal
-Version
+\begin_layout Standard
+Revision
 \end_layout
 
 \end_inset

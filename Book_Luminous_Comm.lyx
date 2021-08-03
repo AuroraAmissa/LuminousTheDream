@@ -166,7 +166,7 @@ End
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "Format_Common.lyx"
 
 \end_inset
@@ -195,13 +195,6 @@ lumcustomtitle{Luminous: the Dream}{A Storytelling Game of Distant Dreams}
 LatexCommand include
 filename "Content_Luminous.lyx"
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
 
