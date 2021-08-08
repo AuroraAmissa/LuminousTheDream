@@ -12,6 +12,7 @@ fixltx2e
 enumitem
 InStar
 pdfform
+multicol
 \end_modules
 \maintain_unincluded_children false
 \begin_local_layout
@@ -177,17 +178,6 @@ filename "Format_Common.lyx"
 \begin_layout Standard
 \begin_inset ERT
 status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand
-\backslash
-lumcommentary[1]
-\backslash
-relax
-\end_layout
 
 \begin_layout Plain Layout
 

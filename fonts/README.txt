@@ -10,8 +10,8 @@ The following fonts should be present in this directory after downloading:
 * CormorantInfant-Bold.ttf
 * DancingScript-Bold.ttf
 * DejaVuSansMono.ttf
-* FiraSans-BoldItalic.ttf
-* FiraSans-Bold.ttf
+* FiraSans-Medium.ttf
+* FiraSans-MediumItalic.ttf
 * FiraSans-Italic.ttf
 * FiraSans-Regular.ttf
 * Quicksand-SemiBold.ttf

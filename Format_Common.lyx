@@ -146,7 +146,7 @@ End
 \color #daf6f5
 \end_branch
 \branch Release
-\selected 1
+\selected 0
 \filename_suffix 0
 \color #d3ecff
 \end_branch
@@ -600,7 +600,7 @@ input@path,
 
 \begin_layout Plain Layout
 
-	BoldFont       = fonts/FiraSans-Bold.ttf,
+	BoldFont       = fonts/FiraSans-Medium.ttf,
 \end_layout
 
 \begin_layout Plain Layout
@@ -610,7 +610,7 @@ input@path,
 
 \begin_layout Plain Layout
 
-	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
+	BoldItalicFont = fonts/FiraSans-MediumItalic.ttf,
 \end_layout
 
 \begin_layout Plain Layout
@@ -639,7 +639,7 @@ input@path,
 
 \begin_layout Plain Layout
 
-	BoldFont       = fonts/FiraSans-Bold.ttf,
+	BoldFont       = fonts/FiraSans-Medium.ttf,
 \end_layout
 
 \begin_layout Plain Layout
@@ -649,7 +649,7 @@ input@path,
 
 \begin_layout Plain Layout
 
-	BoldItalicFont = fonts/FiraSans-BoldItalic.ttf,
+	BoldItalicFont = fonts/FiraSans-MediumItalic.ttf,
 \end_layout
 
 \begin_layout Plain Layout
@@ -1522,6 +1522,60 @@ defaultlists
 \backslash
 newcommand
 \backslash
+setsecsplatlayout{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vtitlecentered
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vsubsecsize{
+\backslash
+fontsize{20.5}{24.5}}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vsubsubsecsize{
+\backslash
+fontsize{15.5}{20}}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+defaultlists
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
 setnormallayout{
 \end_layout
 
@@ -2002,26 +2056,51 @@ status open
 \backslash
 newcommand
 \backslash
-lumcommentary[1]{
+lumcommentary[1]
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+enablecommentary{
 \end_layout
 
 \begin_layout Plain Layout
 
 	
+\backslash
+renewcommand
+\backslash
+lumcommentary[1]{
+\end_layout
+
+\begin_layout Plain Layout
+
+		
 \backslash
 begin{comment-sidebarenv}
 \end_layout
 
 \begin_layout Plain Layout
 
-		#1
+			##1
 \end_layout
 
 \begin_layout Plain Layout
 
-	
+		
 \backslash
 end{comment-sidebarenv}
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
 \end_layout
 
 \begin_layout Plain Layout
