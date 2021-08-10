@@ -16,6 +16,7 @@ pdfform
 \maintain_unincluded_children false
 \begin_local_layout
 Format 66
+
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
 
@@ -32,7 +33,7 @@ InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
   LabelString           "Sidebar"
-  LatexType             command
+  LatexType             environment
   LatexName             lumsidebar
   Argument 1
     LabelString         "Title"
@@ -57,6 +58,15 @@ InsetLayout Flex:ContentWarning
   LabelString           "Content Warning"
   LatexType             environment
   LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             twocolumnbox
   ResetsFont            true
 End
 
@@ -282,6 +292,37 @@ status open
 
 
 \backslash
+ifdefined
+\backslash
+includeonceformatcommonpreamble 
+\backslash
+relax 
+\backslash
+else
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+includeonceformatcommonpreamble{--}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
 usepackage[english]{babel}
 \end_layout
 
@@ -304,6 +345,34 @@ usepackage{colortbl}
 
 \backslash
 usepackage[raster, fitting, skins, breakable]{tcolorbox}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{multicol}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{verbatim} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{eso-pic}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{graphicx}
 \end_layout
 
 \begin_layout Plain Layout
@@ -401,6 +470,22 @@ baselineskip]{gitinfo2}
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+fi
 \end_layout
 
 \end_inset
@@ -1093,15 +1178,6 @@ vlicolor}
 
 
 \backslash
-makeheadrule{plain}{
-\backslash
-textwidth}{1pt}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 makefootrule{plain}{
 \backslash
 textwidth}{1pt}{4pt}
@@ -1176,15 +1252,6 @@ makeheadfootruleprefix{mystyle}{
 vlicolor}{
 \backslash
 vlicolor} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeheadrule{mystyle}{
-\backslash
-textwidth}{1pt}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1306,6 +1373,13 @@ hbadness=1000
 
 \begin_layout Plain Layout
 
+
+\backslash
+raggedcolumns
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1313,15 +1387,6 @@ hbadness=1000
 
 \backslash
 twocoltocetc % two column table of contents
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-widowpenalties 1 10000 
-\backslash
-raggedbottom % Avoid splitting paragraphs.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1351,6 +1416,63 @@ texttt{❖}$}
 
 \backslash
 setlist[itemize]{leftmargin=1.2em}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+defaultparagraphsplitting{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+widowpenalties 1 10000 
+\backslash
+raggedbottom % Avoid splitting paragraphs.
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+twocolumnparagraphsplitting{
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+widowpenalties 1 500 
+\backslash
+raggedbottom % Split paragraphs, but not too aggressively.
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+defaultparagraphsplitting
 \end_layout
 
 \end_inset
@@ -2001,44 +2123,27 @@ newtcolorbox{cw-sidebarenv}{textmarker,colback=cw-tbg,colframe=cw-li}
 
 
 \backslash
-newcommand
-\backslash
-lumsidebar[2]{
+newenvironment{lumsidebar}[1]
 \end_layout
 
 \begin_layout Plain Layout
 
-	
+	{
 \backslash
 begin{
 \backslash
-vcolorset-sidebarenv}
-\end_layout
-
-\begin_layout Plain Layout
-
-		
+vcolorset-sidebarenv} 
 \backslash
-subsubsection*{#1}
+subsubsection*{#1}}
 \end_layout
 
 \begin_layout Plain Layout
 
-		#2
-\end_layout
-
-\begin_layout Plain Layout
-
-	
+	{
 \backslash
 end{
 \backslash
-vcolorset-sidebarenv}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
+vcolorset-sidebarenv}}
 \end_layout
 
 \end_inset
@@ -2114,6 +2219,37 @@ end{comment-sidebarenv}
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newenvironment{twocolumnbox}
+\end_layout
+
+\begin_layout Plain Layout
+
+	{
+\backslash
+twocolumnparagraphsplitting 
+\backslash
+begin{multicols}{2}}
+\end_layout
+
+\begin_layout Plain Layout
+
+	{
+\backslash
+end{multicols} 
+\backslash
+defaultparagraphsplitting}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Flex IgnoreThis
 status open
 

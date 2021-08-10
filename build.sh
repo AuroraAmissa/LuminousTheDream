@@ -24,7 +24,7 @@ activate_branch() {
 }
 render_luminous() {
     # Creates the direct output PDF
-    lyx "build/$1.lyx" -E pdf4 "build/$1_Temp.pdf" || exit 1
+    lyx -v "build/$1.lyx" -E pdf4 "build/$1_Temp.pdf" || exit 1
     
     # Encrypt and recompress the PDF. This isn't really used for any real security, it's just here to avoid accidental modification.
     # Also to encourge anyone who wants to fork or do other weird stuff to *actually* use LyX instead of some weird PDF editor...

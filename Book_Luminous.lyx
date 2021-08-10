@@ -15,69 +15,6 @@ pdfform
 multicol
 \end_modules
 \maintain_unincluded_children false
-\begin_local_layout
-Format 66
-PackageOptions xcolor table
-PackageOptions todonotes colorinlistoftodos
-
-InsetLayout Flex:IgnoreThis
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Do not Render"
-  LatexType             command
-  LatexName             ignorethis
-  ResetsFont            true
-End
-
-InsetLayout Flex:Sidebar
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Sidebar"
-  LatexType             command
-  LatexName             lumsidebar
-  Argument 1
-    LabelString         "Title"
-    Mandatory	    1
-  EndArgument
-  ResetsFont            true
-End
-
-InsetLayout Flex:Commentary
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Commentary"
-  LatexType             command
-  LatexName             lumcommentary
-  ResetsFont            true
-  BgColor               pink
-End
-
-InsetLayout Flex:ContentWarning
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Content Warning"
-  LatexType             environment
-  LatexName             cw-sidebarenv
-  ResetsFont            true
-End
-
-InsetLayout Flex:NewCommand
-  LyXType               custom
-  Decoration            classic
-  LabelString           "New Command"
-  LatexType             command
-  LatexName             newcommand
-  ResetsFont            true
-  Argument 1
-    LabelString         "Command"
-    Mandatory	    1
-    PassThruChars       "\[]{}_"
-  EndArgument
-  Argument 2
-    LabelString         "Argument Count"
-  EndArgument
-End
-\end_local_layout
 \language english
 \language_package default
 \inputencoding auto

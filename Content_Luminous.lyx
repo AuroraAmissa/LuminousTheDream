@@ -12,11 +12,11 @@ todonotes
 fixltx2e
 InStar
 pdfform
-multicol
 \end_modules
 \maintain_unincluded_children false
 \begin_local_layout
 Format 66
+
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
 
@@ -24,12 +24,11 @@ InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
   LabelString           "Sidebar"
-  LatexType             command
+  LatexType             environment
   LatexName             lumsidebar
   Argument 1
     LabelString         "Title"
     Mandatory	    1
-    PassThruChars       "\[]{}"
   EndArgument
   ResetsFont            true
 End
@@ -50,6 +49,15 @@ InsetLayout Flex:ContentWarning
   LabelString           "Content Warning"
   LatexType             environment
   LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             twocolumnbox
   ResetsFont            true
 End
 \end_local_layout
@@ -144,6 +152,28 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_Common.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPictureBG{
+\backslash
+includegraphics[width=
+\backslash
+paperwidth,height=
+\backslash
+paperheight]{includes/lum_bg}}
+\end_layout
 
 \end_inset
 
@@ -3591,25 +3621,27 @@ Willpower:
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Multiple Columns
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
-\begin_inset Argument 1
+\begin_inset Flex TwoColumnBox
 status open
-
-\begin_layout Plain Layout
-
-2
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Subsubsection*
 Mundane Form
@@ -3681,6 +3713,11 @@ Initiative:
 Defense:
 \series default
  (Lower of Resistance and Finesse) + Flow
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -5691,35 +5728,28 @@ Transformation|(textbf
 
 \end_inset
 
-The mundane world rejects magic, so strongly so that to be openly something
- else is simply a death sentence.
- The Hopeful, as always, adapted to their circumstances.
- Torn between the mundane world they so desperately wish to be better, and
- the supernatural world they are inevitably a part of, they choose to be
- both, splitting their two lives across their forms.
+Mundane society always rejected the supernatural, manipulated by so many
+ actors in the shadows.
+ To be openly not mundane would be a death sentence for the Hopeful.
+ They, as always, adapted, and found an answer in their dreams.
+ 
 \end_layout
 
 \begin_layout Standard
-In their mundane form, they are truly mundane with only the barest wisps
- of their magic, and all the vulnerability that entails.
- In their Dream Form, the Luminous become a living dream, taking on the
- form they do in their most fond fantasies.
-\end_layout
-
-\begin_layout Standard
-A Luminous may roll Reverie + Hope as a reflexive action in order to transform
- into her Dream Form.
- If she fails, she must spend a Willpower or else she does not transform
- and receives a Hope Condition of her choice.
- She may revert to her Mundane Form at any time as an reflexive action.
+Luminous have a Mundane Form in which they are simply normal humans, and
+ a Dream Form in which they draw the magic and light of the Dream into reality.
+ They may roll Reverie + Hope a a reflexive action in order to transform
+ into Dream Form.
+ Should they fail, they receive a Hope Condition and must spend a Willpower
+ to transform.
 \end_layout
 
 \begin_layout Standard
 Transforming creates a brief but spectacular display of lights and colors
  arranged in whatever symbolism fits the Luminous.
  This is extremely obvious and attention grabbing, and will generally makes
- transforming stealthily impossible, unless is completely hidden in a closet,
- bathroom or similar place.
+ transforming stealthily impossible, unless she is completely hidden in
+ a closet, bathroom or similar place.
 \end_layout
 
 \begin_layout Standard
@@ -5759,26 +5789,26 @@ Mundane Form|(textbf
 
 \end_inset
 
-In their mundane form, the Hopeful do not simply wear a mask of humanity.
- They are the same mundane self they were before they blossomed, with their
- magic sealed away in their own heart as just another dream.
+A Luminous' Mundane Form is not simply a mask of humanity; outside of their
+ dreams and the power they can summon, they are truly mundane in the eyes
+ of the world.
 \end_layout
 
 \begin_layout Standard
-All supernatural effects treat a Luminous in Mundane Form as if she were
- a normal mortal, whether this is beneficial or harmful to her.
- She may transform reflexively to better resist such abilities.
+All supernatural effects treat a Luminous' Mundane Form as if she were a
+ normal mortal, whether this is beneficial or harmful to her.
+ She may transform reflexively to better resist such abilities if she is
+ aware of them.
  Abilities that would cause a Luminous to become another type of supernatural
- being or otherwise cease to be a Luminous still always fail, even if they
- would otherwise work on mortals.
+ being or otherwise cease to be a Luminous still always fail.
 \end_layout
 
 \begin_layout Standard
-However, she loses access to the majority of her supernatural powers.
- A Luminous in her Mundane Form cannot access her Mote Pool, and loses access
- to her Regalia, Domains and Charms without the Worldly keyword.
- She still retains her Supernatural Tolerance, but only for purposes of
- resisting or contesting supernatural abilities.
+In addition, she loses access to the majority of her magic.
+ In Mundane Form, Luminous cannot use their Mote Pools, cannot summon Regalia,
+ and may only use Domains and Charms that explicitly allow it.
+ She still has Supernatural Tolerance, but loses her Supernatural Potency
+ for other purposes.
 \begin_inset Index idx
 status open
 
@@ -5843,51 +5873,23 @@ Dream Form|(textbf
 
 \end_inset
 
-The Hopeful dream vividly and brightly, taking on a form reflecting their
- deepest wishes, freed from the constraints of reality.
- In their waking life, they call upon an innate magic to project that form
- into reality.
- For some, they become just themselves in a different outfit.
- Others become fantastical beings of all sorts – winged fairies, catgirls,
- masked heroes, paladins in shining armor.
+Luminous live a different life in their Dreams, taking on a form reflecting
+ their deepest wishes – freed from the constraints of reality.
+ Even in the waking world, they can project that different self into reality.
+ Sometimes, that's just themselves in a different outfit.
+ For others, they become fantastical beings of all sorts– winged fairies,
+ catgirls, masked heroes, paladins in shining armor.
 \end_layout
 
 \begin_layout Standard
-In this form, they greet the hidden corners of the world, matching the power
- of its other denizens with their own shining dreams.
- In this form, all too often, they seek an escape from the pressures of
- mundane life.
- They mingle with the stranger creatures of the night, or join the parties
- of the Kindred or Lords.
-\end_layout
-
-\begin_layout Standard
-Luminous in their Dream Form are ephemeral beings in phase with astral projectio
-ns, Goetia, and other similar dream entities.
- They have an honorary Rank equal to half their Reverie (rounded up), are
- always Materialized, and may not enter Twilight or create Manifestation
- Conditions without a specific ability that allows them to do so.
- They do not have Banes, Bans, Numina, Essence, or Influences and instead
- use their Regalia, Domains and Charms.
-\end_layout
-
-\begin_layout Standard
-As the Luminous have a different set of attributes from most characters
- in Dream Form, they allocate them using a different process.
- See the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[Sec-AttributeSelection]{Character Creation}
-\end_layout
-
-\end_inset
-
- section for more information.
+A Luminous' Dream Form gives her the power and presence to interact with
+ other supernatural beings on equal grounds, and use the shining magic they
+ must to change the world.
+ In Dream Form, Luminous are ephemeral beings in phase with astral projections,
+ Dreamborn, and similar entities.
+ They have a Rank dependent on their Reverie, are always Manifested, and
+ may not enter Twilight or create Manifestation Conditions without specific
+ abilities.
 \end_layout
 
 \begin_layout Standard
@@ -5930,24 +5932,20 @@ Dream Form!Dream Health|(textbf
 
 \end_inset
 
-Dream Form protects a Luminous from physical harm, replacing her body with
- an illusion woven of the stuff of dreams.
- She has a separate health track called Dream Health, with boxes equal to
- her Resistance + transformed attribute cap.
- It serves as her health track for all purposes in Dream Form.
- She may transform reflexively in response to damage, in which case the
- damage is dealt to her Dream Health.
+A Dream Form is a separate body, woven out of illusion and dreamstuff rather
+ than matter.
+ It has its own health track called Dream Health, with boxes equal to the
+ Luminous' Resistance + her transformed attribute cap.
+ 
 \end_layout
 
 \begin_layout Standard
-Dream Health is more her will to not be hurt manifest physically than a
- measure of her body's physical integrity, and thus Luminous are often far
- more resilient than their delicate appearances may imply.
- In Dream Form, she does not suffer wound penalties and physical attacks
- against her are reduced in one level of severity – from aggravated to lethal,
- or lethal to bashing.
- Without supernatural force to convey it, her opponent cannot truly contest
- the Luminous' will directly and struggles to hurt her in a meaningful way.
+Dream Health is less her dream body's physical integrity, and more her will
+ to not be hurt made manifest.
+ Thus, Luminous are often far too resilient for their delicate appearances.
+ They do not suffer wound penalties in Dream Form, and furthermore mundane
+ physical attacks against them are reduced in one level of severity – from
+ aggravated to lethal, or lethal to bashing.
 \end_layout
 
 \begin_layout Standard
@@ -6036,35 +6034,30 @@ Dream Attributes|(textbf
 
 \end_inset
 
-Transformed Dreamers have bodies woven out of illusion and fictions, and
- through that, they break through many of their usual mundane limits.
- As with all ephemeral entities, they use a set of simplified three Attributes
+Transformed Luminous are not bound by the limits of mundane bodies.
+ As with all ephemeral entities, they use a set of three simplified Attributes
  instead of the usual nine.
 \end_layout
 
 \begin_layout Itemize
 Power describes the Luminous' ability to impose upon the world through force
  of will, intellectual prowess or personality.
- It equals the highest of Strength, Intelligence, and Presence.
 \end_layout
 
 \begin_layout Itemize
 Finesse describes how well the Luminous can affect the world through great
  skill or subtle manipulation.
- It equals the highest of Dexterity, Wits, and Manipulation.
- 
 \end_layout
 
 \begin_layout Itemize
 Resistance describes how well the Luminous can withstand the will and manipulati
 on of others.
- It equals the highest of Constitution, Resolve, and Composure.
 \end_layout
 
 \begin_layout Standard
-They use these attributes in place of each corresponding mundane attribute,
- but still form dice pools as a mortal does – as they have skills unlike
- most ephemera.
+Luminous purchase dots of Dream Attributes separately from their mundane
+ attributes, and use them in place of the corresponding mundane attributes
+ in Dream Form.
  If this would cause a roll to use the same attribute twice, the roll is
  slightly modified.
  Resistance
@@ -6169,32 +6162,38 @@ Weaving!Weaving Actions|(textbf
 
 \end_inset
 
-To the Luminous, walking by putting one foot in front of the other feels
- the same as simply imagining moving forward.
- There is no hard line between jumping onto their bed, or imagining an gravity
- defying leap between roofs.
- Luminous are caught between dreams and reality in their Dream Form, and
- they may draw on that to touch the world in all the ways they could in
- a dream.
- Whether they move or only imagine doing so, it still happens.
+In a dream, there isn't a difference between a dreamer's imagination and
+ the world around them.
+ She don't need to put one foot in front of the other or move a muscle to
+ walk forward...
+ just, will it to be so.
 \end_layout
 
 \begin_layout Standard
-When a Luminous acts upon the world through imagination and thought, she
- performs a Weaving Action.
- Instead of rolling a dice pool using a normal skill, she uses a different
- set of eight Weaving Skills.
- Weaving is as natural to a Luminous as any other action, and thus has no
- cost.
- As such, they may reflexively roll any dice pool as a Weaving Action, even
- when contesting rolls or for rolls caused by hostile magic.
+The Luminous call that kind of action Weaving – to act by imagination as
+ in a dream.
+ They blur the line between reality and dreams, and learn to Weaving their
+ will into the world as naturally as they move.
+ It doesn't matter if she doesn't have the coordination to leap nimbly from
+ roof to roof in her mundane life, she merely has to imagine doing so.
+ It doesn't matter if she's never touched a gun before in reality, she must
+ simply weave together a story where she hits.
 \end_layout
 
 \begin_layout Standard
-While Weaving isn't blatantly supernatural, the surreal ways it touches
- the world are still not subtle.
- A Luminous defies gravity, the motion of her feet doesn't quite line up
- with how fast she moves, and many other little inconsistencies.
+Transformed Luminous may use an appropriate Weaving Skill in place of a
+ normal skill as part of any roll they make.
+ When she does so as a part of an proactive action on her part, it becomes
+ a Weaving Action.
+ Weaving Skills are a separate set of eight skills, that the Luminous buys
+ separately as with Dream Attributes.
+\end_layout
+
+\begin_layout Standard
+Acting in such a way isn't blatantly supernatural, but often still leaves
+ subtle tells that not everything is right.
+ Maybe she defies gravity, drifting in the air far longer than she should.
+ Maybe the motion of her feet doesn't quite line up with how fast she moves.
  Any witnesses may roll Perception to notice the nonphysical nature of her
  actions.
 \begin_inset Index idx
@@ -6280,24 +6279,18 @@ Weaving!Weaving Skills|(textbf
 
 \end_inset
 
-Luminous use a separate set of eight Skills for their Weaving.
- These Weaving Skills are each the highest of three of their mundane skills
- like their Dream Attributes, each reflecting their skill at certain ways
- of approaching problems through the lens of a dream.
+
 \end_layout
 
 \begin_layout Standard
-When Weaving, most actions use the Weaving Skill that contains the usual
- Mundane Skill in use.
- However, at the Storyteller's discretion, they may decide a different Weaving
- Skill is more appropriate based on the descriptions in this section.
-\end_layout
+\begin_inset Flex TwoColumnBox
+status open
 
 \begin_layout Subsubsection*
 Force
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6307,30 +6300,30 @@ Weaving!Weaving Skills!Force
 
 \end_inset
 
-Force represents force of will, raw magical strength.
+Force is the principle of forceful action.
  It is used for actions that directly contest your will versus those around
  you and the world itself.
- Kicking a door down instead of picking the lock is forceful.
- Staring someone down to cow them rather than negotiating is forceful.
- Force is comprised of the Brawl, Weaponry and Intimidation mundane skills.
-\begin_inset Newline newline
+\series bold
+
+\begin_inset VSpace smallskip
 \end_inset
 
 
 \begin_inset Newline newline
 \end_inset
 
-
-\emph on
-In combat, this is the skill used to make grapples and attack with mundane
- melee or thrown weapons.
+Example Actions:
+\series default
+ Knock down a door.
+ Stare someone down.
+ Overpower someone with magic.
 \end_layout
 
 \begin_layout Subsubsection*
 Flow 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6340,30 +6333,29 @@ Weaving!Weaving Skills!Flow
 
 \end_inset
 
-Flow is graceful movement, purposeful motion.
- It is used for actions that move, things that do not stand still in the
- world.
- Climb a wall or fly over it, flowing like the winds.
- Dancing gracefully to seduce your crush.
- Flow is compromised of the Athletics, Drive and Firearms mundane skills.
-\begin_inset Newline newline
+Flow is the principle of movement.
+ It is used for graceful actions, and moving about the world with purpose.
+\series bold
+
+\begin_inset VSpace smallskip
 \end_inset
 
 
 \begin_inset Newline newline
 \end_inset
 
-
-\emph on
-In combat, this skill is used to defend against attacks and attack with
- mundane ranged weapons.
+Example Actions:
+\series default
+ Fly over or climb a wall.
+ Dance gracefully.
+ Dodge a blow.
 \end_layout
 
 \begin_layout Subsubsection*
 Learn 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6373,21 +6365,30 @@ Weaving!Weaving Skills!Learn
 
 \end_inset
 
-Learn is to see past lies, to look for deeper truths.
- It is used for actions that seek a new truth, to learn something that is
- not already known.
- Look into a microscope to examine the detailed weave of a mysterious cloth
- to learn its origin.
- Search the internet for a fact you forgot and learn something you never
- knew in the process.
- Learn is comprised of the Academics, Investigate and Survival mundane skills.
+Learn is the principle of discovery.
+ It is used to seek new truths, and uncover things about the world that
+ nobody has learned before.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Research an old book.
+ Examine evidence.
+ Decipher an arcane riddle.
 \end_layout
 
 \begin_layout Subsubsection*
 Lore
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6397,43 +6398,30 @@ Weaving!Weaving Skills!Lore
 
 \end_inset
 
-Lore is memory, preexisting knowledge of the world.
- Is used for actions that apply existing knowledge, to bring information
- together and turn it into something new.
- Draw on all the exploits you've used to hack networks before to hack a
- computer system you've never seen before.
- Realize the lie someone is telling you to the face, because you know things
- work differently.
- Lore is compromised of the Medicine, Science and Computer mundane skills.
-\end_layout
+Lore is the principle of knowledge.
+ It is used to apply a body of knowledge, and draw new conclusions from
+ old information.
+\series bold
 
-\begin_layout Subsubsection*
-Shape 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Shape
-\end_layout
-
+\begin_inset VSpace smallskip
 \end_inset
 
-Shape is changing the world, creating new things.
- It used for actions that create magical truths or mundane objects alike.
- Write a poem to touch your lover's heart.
- Shape the dream around you, imposing laws against those who would harm
- your lover.
- Shape is compromised of the Crafts, Expression and Survival mundane skills.
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Hack a computer network.
+ Call out false information.
+ Diagnose a disease.
 \end_layout
 
 \begin_layout Subsubsection*
-Connect 
+Heart 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6443,44 +6431,30 @@ Weaving!Weaving Skills!Connect
 
 \end_inset
 
-Connect is force of personality, one's own charisma.
- It is used for actions that convince another, impress others with who you
- are.
- Make a speech to a crowd, impressing your ideals to all who would listen.
- Convince a bureaucrat to let you talk to the higher up when the rules make
- no sense.
- Connect is compromised of the Persuasion, Politics and Streetwise mundane
- skills.
-\end_layout
+Heart is the principle of expression.
+ It is used to express one's own truths and convince others by force of
+ personality.
+\series bold
 
-\begin_layout Subsubsection*
-Shade
-\end_layout
-
-\begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Shade
-\end_layout
-
+\begin_inset VSpace smallskip
 \end_inset
 
-Shade is hidden shadows, to protect by veiling.
- It is used for actions that conceal things from others, or present a face
- that is not true.
- Hide your sadness from another, showing them only the happiness they expect
- of you.
- Hide in the shadows, revealing yourself only when you are most needed.
- Shade is compromised of the Stealth, Subterfuge, and Larceny mundane skills.
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Write a poem.
+ Convince someone to help you.
+ Make a speech.
 \end_layout
 
 \begin_layout Subsubsection*
 Resonate
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6490,15 +6464,108 @@ Weaving!Weaving Skills!Resonate
 
 \end_inset
 
-Resonate is understanding another, feeling another's feelings.
- It is used for actions that offer an hand to another, to show another that
- you understand them.
- Reach an hand out to the girl with sad eyes, tell them that your fights
- are behind you.
- See past the lies of the cult leader, seeing the rotten intent behind his
- words.
- Resonate is comprised of the Empathy, Socialize and Animal Ken mundane
- skills.
+Resonate is the principle of connection.
+ It is used to understand another's feelings and connect emotionally.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Reach out to someone in need.
+ Detect a lie.
+ Comfort your best friend.
+\end_layout
+
+\begin_layout Subsubsection*
+Shape 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving!Weaving Skills!Shape
+\end_layout
+
+\end_inset
+
+Shape is the principle of creation.
+ It is used to create or fix things and engineer new designs.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Design a building.
+ Write a computer program.
+ Repair a car.
+\end_layout
+
+\begin_layout Subsubsection*
+Shade
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving!Weaving Skills!Shade
+\end_layout
+
+\end_inset
+
+Shade is the principle of concealment.
+ It is used to hide in all kinds of ways and deceive others.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Example Actions: 
+\series default
+Hide your true feelings.
+ Avoid being seen.
+ Pickpocket someone's keys.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Weaving!Weaving Skills|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -7344,6 +7411,13 @@ TODO: Write experience table.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Merits 
 \begin_inset CommandInset label
@@ -7356,18 +7430,15 @@ name "sec:Merits"
 \end_layout
 
 \begin_layout Standard
-This section contains merits that may be taken by Luminous, or those related
- to them.
- More generic merits can be found in the Merits section of the Chronicles
- of Darkness core book.
-\end_layout
+\begin_inset Flex TwoColumnBox
+status open
 
 \begin_layout Subsection
 Modified Merits
 \end_layout
 
-\begin_layout Standard
-Certain Merits are modified or not accessible for Luminous characters.
+\begin_layout Plain Layout
+Certain Merits are modified for Luminous characters.
  This covers merits found in the Chronicles of Darkness core, and the World
  of Darkness: Innocents book.
  Further adjustments may be needed for merits from other sourcebooks.
@@ -7377,21 +7448,17 @@ Certain Merits are modified or not accessible for Luminous characters.
 Alternate Identity 
 \end_layout
 
-\begin_layout Standard
-The Luminous' innate transformation makes it difficult for them to not eventuall
-y end up developing a double life.
- The Alternate Identity merit [CofD 50] costs one less dot for Luminous.
- Therefore, she may purchase Alternate Identity •• for one experience, and
- Alternate Identity ••• for two experiences.
- This does not grant her a single dot of Alternate Identity for free, as
- Dual Identity provides a far stronger protection.
+\begin_layout Plain Layout
+The Alternate Identity merit [CofD 50] costs one less experience for Luminous
+ establishing a Dual Identity formally, as they only require appropriate
+ documentation, not the basic groundwork.
 \end_layout
 
 \begin_layout Subsubsection*
 Giant and Small-Framed
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Giant [CofD 47] and Small-Framed [CofD 49] merits do not apply to a
  Luminous' Dream Form.
  She may purchase the Giant merit for free if her Dream Form is Size 6,
@@ -7403,13 +7470,20 @@ The Giant [CofD 47] and Small-Framed [CofD 49] merits do not apply to a
 Unseen Sense 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
  or Dreams.
- Will may be used to detect Maou, transformed Luminous, and their powers.
+\end_layout
+
+\begin_layout Plain Layout
+Will may be used to detect Maou, transformed Luminous, and their powers.
  Dreams may be used to detect Asura, Incursions, transformed Luminous, other
  beings affiliated with the Dream, and any powers used by them.
- Note that Dual Identity protects Luminous from being detected by either
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Note that Dual Identity protects Luminous from being detected by either
  means in Mundane Form as long as they do not use any of their powers.
 \end_layout
 
@@ -7417,7 +7491,7 @@ Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
 Vice-Ridden and Virtuous 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Neither Maou nor Luminous may purchase either Vice-Ridden or Virtuous [CofD
  46], as they use different Anchors.
  The 
@@ -7440,11 +7514,9 @@ hyperref[subsec:Another-Dream]{Another Dream}
 Giant and Tiny (Innocents) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Giant [WoD:I 104] and Tiny [WoD:I 105] merits do not apply to a Luminous'
  Dream Form.
- Even child Luminous have a default size of 5 in their Dream Form, and must
- take the appropriate Form Merits to change this.
  She may purchase the Giant merit for free if her Dream Form is of size
  6.
  She may purchase the Tiny merit for free if her Dream Form is of Size 3.
@@ -7454,7 +7526,7 @@ The Giant [WoD:I 104] and Tiny [WoD:I 105] merits do not apply to a Luminous'
 Luminous Merits 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 These Merits may only be taken by Luminous.
 \end_layout
 
@@ -7469,29 +7541,46 @@ name "subsec:Another-Dream"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect: 
 \series default
-Most Luminous only act ever so slightly different in their Dream Form.
- For whatever reason – whether she embraced a very different role in her
- dreams, or simply for how long she had dreamed without Blossoming – your
- character acts significantly different between her two forms.
+Your character has a significantly different personality in her Dream Form.
+ She has a different Dream or Wish in her Dream Form, and may use either
+ Anchor in either form to defend against social maneuvering or supernatural
+ abilities.
 \end_layout
 
-\begin_layout Standard
-She has a different Dream or Wishes in her Dream Form, and is treated as
- if she had both anchors in either form for purposes of defending against
- social maneuvering, or supernatural abilities.
- However, she may only benefit once from a single kind of anchor in a scene.
+\begin_layout Subsubsection*
+Childish (••) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character appears as a younger child when transformed.
+ She is of Size 3 in Dream Form, and gains a +3 bonus to any attempt to
+ hide, go unnoticed, or other actions her size may help with.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Drawback: 
+\series default
+Your character is treated as someone as old as she appears.
+ She receives a -3 modifier to any attempt to physically intimidate another
+ or pass as an adult (regardless of whether she is one).
 \end_layout
 
 \begin_layout Subsubsection*
 Dream's Rebuke (•••)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect:
@@ -7506,7 +7595,7 @@ Effect:
 Enhanced Sensitivity (• to •••) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect:
@@ -7516,7 +7605,7 @@ Effect:
  Add your dots in this merit to your Sensitivity dice.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7533,115 +7622,30 @@ Sensitivity is an upside trait now, in many ways.
 \end_layout
 
 \begin_layout Subsubsection*
-Silent Aria (••)
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Effect:
-\series default
- Your character may veil their Aria in normal language.
- It grants others automatic successes on rolls to understand her as usual,
- however it does not identify her as a Luminous and nor is it obviously
- supernatural.
- Furthermore, this allows her to weave her Aria into written media – the
- effects of which fade after about five minutes as audio recordings of it
- do.
-\end_layout
-
-\begin_layout Subsection
-Form Merits
-\end_layout
-
-\begin_layout Standard
-Form Merits represent innate traits of a Luminous' transformation that are
- not necessarily represented with a Regalia.
- Form Merits are never considered form-locked.
-\end_layout
-
-\begin_layout Subsubsection*
-Childish (••) 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Effect:
-\series default
- Your character appears as a younger child when transformed.
- She is of Size 3 in Dream Form, and gains a +3 bonus to any attempt to
- hide or go unnoticed.
- The Storyteller should consider applying bonuses for other situations where
- her small size or apparent age may help, such as fitting through a small
- crawl space, or convincing others of her innocence.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Drawback: 
-\series default
-Your character is treated as she appears outside of the supernatural world.
- She should expect to be questioned by adults when traveling alone.
- She receives a -3 modifier to any attempt to physically intimidate another
- or pass an adult (regardless of whether she is one).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Though not very elegant, this lets a Luminous' Dream Form age and size be
- completely uncoupled from her Mundane Form at reasonable costs.
+Innate Regalia (••)
 \end_layout
 
 \begin_layout Plain Layout
-Just...
- well.
- If you look like a kid, people are going to treat you like one.
- Most people don't believe you when you say 
-\begin_inset Quotes xld
-\end_inset
-
-I swear I'm a transformed magical girl!
-\begin_inset Quotes xrd
-\end_inset
-
- because they don't think magical girls exist.
- Also, that's a thing mostly little kids (...
- i.e.
- what you look like) care about, not adults.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-Innate Regalia (••) 
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 Effect:
 \series default
- Your character has a Regalia component that is innate to their form, and
- cannot simply be summoned and unsummoned at will.
- Reduce her Regalia Capacity by one.
- She permanently has a Regalia of your choice active in Dream Form, bound
- to two Invocations chosen when you buy this merit without cost.
- The Regalia has to be something you can justify to the Storyteller as innate
- to your character's body.
- For example, a robot girl may have her Levinbolt integrated into her arm,
- and a fairy boy may have his Wings of Light be...
- well, physical wings.
+ Your character has a Regalia that is innate to her Dream Form.
+ She automatically summons it when she transforms at no Mote cost.
+ This merit may be taken up to three times.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\series bold
+Drawback:
+\series default
+ The Regalia cannot be disabled in any way.
+ If it has variants, you must choose one when you take this merit – you
+ cannot use other variants.
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7660,20 +7664,18 @@ A basic design trick.
 Paragon (•) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect:
 \series default
- Your character's Dream Form is particularly large and imposing, towering
- over most others.
+ Your character's Dream Form is particularly large, towering over most others.
  She is Size 6 in Dream Form, and gains a +2 bonus to any rolls to physically
- intimidate another, or reassure someone that she can protect them.
- The Storyteller should consider applying bonuses for other situations where
- her larger size may help, such as climbing over tall walls.
+ intimidate another, reassure someone that she can protect them, or other
+ actions her size may help with.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Drawback:
@@ -7684,41 +7686,50 @@ Drawback:
 \end_layout
 
 \begin_layout Subsubsection*
-Tomoyo's Touch (•) 
+Silent Aria (••)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect:
 \series default
- Your character is quite the fashionista, and she may appear in whatever
- outfit she wishes when she transforms into her Dream Form.
- Her Dream Form still always looks to be the same person, just in a different
- outfit.
- If her Dream Form has obviously supernatural features, the most this can
- do to hide them is to cover them with clothes – it cannot dismiss them
- entirely.
+ Your character may hide their Aria in different forms of communication.
+ This is not obviously supernatural, and allows her to weave her Aria into
+ written media.
+\end_layout
+
+\begin_layout Subsubsection*
+Tomoyo's Touch (•) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character may appear in whatever outfit she wishes when she transforms
+ into her Dream Form.
+ She still looks to be the same person, just in a different outfit.
+ This does not let her hide supernatural features, except by covering them
+ with clothes.
 \end_layout
 
 \begin_layout Subsubsection*
 Youthful (•) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect:
 \series default
  Your character is diminutive when transformed.
  She is Size 4 in Dream Form, and gains a +2 bonus to any rolls to hide,
- or go unnoticed.
- The Storyteller should consider applying bonuses for other situations where
- her small size or unassuming appearance may help, such as fitting through
- a small crawl space, or reassuring another that she won't harm them.
+ or other actions her size may help with.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Drawback: 
@@ -7731,45 +7742,43 @@ Your character might be overlooked or not taken seriously by some people.
 Mundane Merits 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 These merits are entirely mundane, and are open to any character type.
 \end_layout
 
 \begin_layout Subsubsection*
-Sensitivity (•• to ••••) 
+Sensitivity (• to •••) 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requirements: 
 \series default
-You do not already have Sensitivity from another source; and have human-like
- enough emotions to emphasize strongly with others.
+You do not already have Sensitivity from another source; and have roughly
+ human-like emotions.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effect: 
 \series default
-While a Luminous' empathy is enhanced greatly by her magic, it isn't fundamental
-ly different from simply being very empathic for mundane reasons.
- Your character gains the Sensitivity trait, with a single dice of Sensitivity.
- For each additional dot she takes in this merit above 2, she gains an additiona
-l Sensitivity dice.
+While a Luminous' magic enhances her empathy greatly, it is still not fundamenta
+lly different from mundane empathy.
+ Your character gains the Sensitivity trait, with die equal to your dots
+ in this merit.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Non-Luminous characters may only replace a single Aspiration from Sensitivity.
- If she would receive an Hope attack or Hope damage, she instead rolls Resolve
- + Composure, penalized by the number of dice or damage she received.
+ If they would receive an Hope attack or damage, she instead rolls Resolve
+ + Composure, penalized by the number of dice or damage.
  If she fails, she receives a Hope Condition.
- If she dramatically fails, she receives a persistent Hope Condition.
- 
+ If she would regain Hope, she instead clears all Hope Conditions.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7781,6 +7790,11 @@ Luminous aren't the only ones who get it, who are empathic enough to be
  well.
  There are just people like that out in the world, magical or not.
  They just have to find each other.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8008,18 +8022,22 @@ TODO: Write this section.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex TwoColumnBox
+status open
+
 \begin_layout Subsection
 Resonant Truth
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In our dreams, we remember things we never dreamed, and are merely part
  of its story.
  Likewise, the Luminous may ask of the world to show them things as in those
  dreams.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Cost:
@@ -8051,7 +8069,7 @@ Action:
  Instant
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Success:
@@ -8075,7 +8093,7 @@ Are they currently hurt or in danger?
 Are they under an obvious mental influence of any sort?
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Exceptional Success: 
@@ -8084,7 +8102,7 @@ Successes are their own reward.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Failure:
@@ -8094,7 +8112,7 @@ Failure:
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Dramatic Failure:
@@ -8103,7 +8121,7 @@ Dramatic Failure:
  attempt to read their story.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -8122,12 +8140,12 @@ A simple Charm with powerful applications.
 Upgrade: Prismatic Echo
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Drawing on the lessons behind her on Invocations, the Luminous gleams deeper
  truths from the Dream.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8135,7 +8153,7 @@ Requires:
  Any Invocation •••
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
@@ -8232,12 +8250,12 @@ Are the target a supernatural being of any kind?
 Variant: Light of Truth
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Rather than gleaning scattered truths, the Luminous calls upon the Dream
  to answer a single piercing questions.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8277,7 +8295,7 @@ Action:
  Instant
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Success: 
@@ -8329,7 +8347,7 @@ What kind of supernatural being is the character, and how would others of
 (Cieli) How would they describe their true self, if they knew of its entirety?
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Exceptional Success: 
@@ -8337,7 +8355,7 @@ Exceptional Success:
 The target is not made aware of your question.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Failure:
@@ -8346,7 +8364,7 @@ Failure:
  You may not use Light of Truth on the target for a month.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Dramatic Failure:
@@ -8367,13 +8385,13 @@ name "subsec:Shining-Vow"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Luminous reaches out with her Echo as she speaks a promise.
  Her magic conveys her own feelings about the promise unerringly, showing
  the world the resolve that lies behind her words.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Cost:
@@ -8413,7 +8431,7 @@ Duration:
  Indefinite
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
@@ -8423,7 +8441,7 @@ Effects:
 e bonus to a social roll.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Regardless, she is magically binds her to fulfill own promise, replacing
  one of her Aspirations.
  This Aspiration has the same benefits as those from a Sensitivity trigger,
@@ -8433,7 +8451,7 @@ Regardless, she is magically binds her to fulfill own promise, replacing
  a box of severe Hope damage and gains a Hope condition.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -8446,7 +8464,7 @@ TODO: The Hope recovery from this is probably too strong.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 This Charm fails if she does not mean her promise genuinely.
  Anyone present becomes aware of her lack of resolve, and it does not bind
  her to her own empty promise.
@@ -8454,7 +8472,7 @@ This Charm fails if she does not mean her promise genuinely.
  action, not anything more complex.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -8473,12 +8491,12 @@ A very magical girlish way to seal your own promises.
 Upgrade: Knight's Code 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Nobility of Avalon see their highest calling as that to protect those
  in need, and that vow carries a deep weight for them beyond simple sincerity.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8486,7 +8504,7 @@ Requires:
  Rosa •
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects: 
@@ -8500,13 +8518,13 @@ When a Noble uses Shining Vow to promise to protect another or relieve them
 Variant: Royal Witness 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Contracts and agreements form the basis of any organized society.
  Declaring that she will bare witness to an oath, a Noble lays bare the
  true sincerity behind the it.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8546,7 +8564,7 @@ Duration:
  Indefinite
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
@@ -8563,7 +8581,7 @@ Effects:
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -8589,12 +8607,12 @@ name "subsec:Upgrade:-Binding-Oaths"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Prismatic understand the true power of promises.
  Drawing on the stories of the fae, they bind their own will to their promises.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8610,7 +8628,7 @@ Additional Cost:
  1 Mote
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
@@ -8644,13 +8662,13 @@ name "subsec:Variant:-Sealing-Thread"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 One does not make promises causally in the presence of the fae, nor those
  who draw on their stories.
  The Sidhe weaves a binding of dreams upon those who make careless vows.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8690,7 +8708,7 @@ Duration:
  Indefinite
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
@@ -8717,14 +8735,14 @@ hyperref[sec:Sealed-Vow-(persistent)]{Sealed Vow}
 Variant: Wyrd-Bound Vow
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The oaths of the Luminous are mere whispers on the wind compared to bound
  by Wyrd.
  A Dreamer may weave her power with that of the Wyrd, binding herself forever
  to an Oath with the fae.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Requires:
@@ -8764,7 +8782,7 @@ Duration:
  Indefinite
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
@@ -8782,7 +8800,7 @@ Changeling: the Lost 2e
  powers of Shining Vow are the most they can do on their own.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -8790,6 +8808,11 @@ status open
 Little things like this make crossover games far more interesting and fun,
  without being significantly in the way of normal play.
  Would recommend.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8929,8 +8952,8 @@ Dream Form
 A Luminous' Dream Form is nothing truly unique in a world of dreams.
  All visitors in the Dream (or other mental spaces) manifest a Dream Form
  rather than their physical bodies.
- The Dream Forms of mortals have their own limitations, however, compared
- to those of the Luminous:
+ The Dream Forms of mortals (and most other kinds of supernatural beings)
+ have their own limitations, however, compared to those of the Luminous:
 \end_layout
 
 \begin_layout Itemize
@@ -8952,13 +8975,12 @@ Mortals cannot perform Weaving Actions, have no Weaving Skills, and do not
 \end_layout
 
 \begin_layout Standard
-The Luminous enjoy additional benefits in the Dream proper.
- They are always in their Dream Form, but may still take on the appearance
- of their Mundane Form.
- Dual Identity applies as usual when they do so.
- Furthermore, in either form, she may choose whether supernatural powers
- affect her as if she were a mortal or a supernatural being.
- 
+In addition, Luminous Transformation works differently in the Dream.
+ They treat their Dream Form as their default form, and must roll in order
+ to transform into their Mundane Form.
+ They lose none of their powers or abilities in Mundane Form, but still
+ has the benefits of Dual Identity and is still affected by supernatural
+ powers as if she were a mortal.
 \end_layout
 
 \begin_layout Standard
