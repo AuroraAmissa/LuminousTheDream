@@ -2,8 +2,8 @@
 *~
 *.kate-swp
 
-*.pdf
-*.tex
+/*.pdf
+/*.tex
 
 /build
 /dist
