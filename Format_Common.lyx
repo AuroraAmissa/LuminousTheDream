@@ -438,6 +438,13 @@ usepackage{graphicx}
 
 \begin_layout Plain Layout
 
+
+\backslash
+usepackage{gitinfo2}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -456,32 +463,7 @@ usepackage[T1]{fontenc}
 
 
 \backslash
-usepackage[utf8]{inputenc} 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-% Setup gitinfo
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-input{includes/gitinfo.tex}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[
-\backslash
-gitinfoflags]{gitinfo2}
+usepackage[utf8]{inputenc}
 \end_layout
 
 \end_inset
