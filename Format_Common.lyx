@@ -846,15 +846,11 @@ renewcommand{
 \backslash
 gitMark}{
 \backslash
-gitBranch
+gitDescribe{} 
 \backslash
-,@
+textbullet{} 
 \backslash
-,
-\backslash
-gitDescribe{} (
-\backslash
-gitAuthorDate)}
+gitAuthorDate}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1942,9 +1938,33 @@ beforechapskip{22pt}
 
 
 \backslash
+newcommand
+\backslash
+lumquotechapskip{
+\backslash
 setlength
 \backslash
-afterchapskip{15pt}
+afterchapskip{15pt}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumnormalchapskip{
+\backslash
+setlength
+\backslash
+afterchapskip{30pt}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+lumnormalchapskip
 \end_layout
 
 \begin_layout Plain Layout
@@ -2890,6 +2910,13 @@ status open
 
 \begin_layout Plain Layout
 
+
+\backslash
+lumquotechapskip
+\end_layout
+
+\begin_layout Plain Layout
+
 #1
 \end_layout
 
@@ -2898,6 +2925,13 @@ status open
 
 \backslash
 vspace{18pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+lumnormalchapskip
 \end_layout
 
 \end_inset
