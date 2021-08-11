@@ -5,7 +5,6 @@ echo "Building Luminous distribution..."
 echo " - Creating directory structure"
 rm -rf build || exit 1
 mkdir -p build/out/"Bonus Files" || exit 1
-mkdir -p build/sources || exit 1
 mkdir -p build/tex || exit 1
 mkdir -p dist || exit 1
 
@@ -29,7 +28,7 @@ render_luminous() {
     # Encrypt and recompress the PDF. This isn't really used for any real security, it's just here to avoid accidental modification.
     # Also to encourge anyone who wants to fork or do other weird stuff to *actually* use LyX instead of some weird PDF editor...
     qpdf "build/$1_Temp.pdf" "build/$1.pdf" \
-        --compress-streams=y --object-streams=generate --coalesce-contents --optimize-images \
+        --compress-streams=y --object-streams=generate --coalesce-contents \
         --encrypt "" "pls dont do anything weird with the password :( :(" 128 \
         --extract=y --assemble=n --annotate=n --form=n --modify-other=n --print=full --modify=none --cleartext-metadata -- || exit 1
     cp "build/$1.pdf" "build/out/$2$3.pdf" || exit 1
@@ -42,17 +41,6 @@ render_luminous() {
     #cp "build/$1.epub" "build/out/$2$3.epub" || exit 1
 }
 create_archive() {
-    cp -rf fonts includes build.sh *.md *.lyx build/sources || exit 1
-    rm build/sources/fonts/*.ttf || exit 1
-    cp gitHeadInfo.gin build/sources # not mandatory
-    cp .git/gitHeadInfo.gin build/sources # not mandatory
-    mv build/sources/includes/gitinfo_static.tex build/sources/includes/gitinfo.tex || exit 1
-
-    mv "build/sources" "build/LuminousSources_$VERSION" || exit 1
-    cd build
-    tar --xz -cvf "out/Bonus Files/LuminousSources-$VERSION.tar.xz" "Luminous the Dream Sources - Revision $VERSION" || exit 1
-    cd ..
-
     cd build/out
     zip -r "$1.zip" * || exit 1
     mv "$1.zip" ../../dist || exit 1

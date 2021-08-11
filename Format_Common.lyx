@@ -86,6 +86,15 @@ InsetLayout Flex:NewCommand
     LabelString         "Argument Count"
   EndArgument
 End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
 \end_local_layout
 \language english
 \language_package default
@@ -398,14 +407,14 @@ usepackage[T1]{fontenc}
 usepackage[utf8]{inputenc} 
 \end_layout
 
-\end_inset
-
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout In Preamble
-\begin_inset ERT
-status open
+\begin_layout Plain Layout
+
+% Setup gitinfo
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -414,20 +423,6 @@ status open
 input{includes/gitinfo.tex}
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout In Preamble
-\begin_inset Branch Release
-inverted 0
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
 \begin_layout Plain Layout
 
 
@@ -435,41 +430,6 @@ status open
 usepackage[
 \backslash
 gitinfoflags]{gitinfo2}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout In Preamble
-\begin_inset Branch Release
-inverted 1
-status open
-
-\begin_layout In Preamble
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-usepackage[
-\backslash
-gitinfoflags,mark,raisemark=1.65
-\backslash
-baselineskip]{gitinfo2}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -539,129 +499,6 @@ status open
 
 \backslash
 makeatletter
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newfontfamily{
-\backslash
-luminousfont}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/DancingScript-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]{Dancing Script Bold}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newfontfamily{
-\backslash
-maoufont}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/CormorantInfant-Bold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]{Cormorant Infant Bold}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newfontfamily{
-\backslash
-stfont}[
-\end_layout
-
-\begin_layout Plain Layout
-
-	Path           = 
-\backslash
-input@path,
-\end_layout
-
-\begin_layout Plain Layout
-
-	UprightFont    = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldFont       = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	ItalicFont     = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-	BoldItalicFont = fonts/Quicksand-SemiBold.ttf,
-\end_layout
-
-\begin_layout Plain Layout
-
-]{Quicksand Semi Bold}
 \end_layout
 
 \begin_layout Plain Layout
@@ -902,6 +739,102 @@ status open
 
 \begin_layout Plain Layout
 
+% Setup page style tracking
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatletter
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+pretocmd{
+\backslash
+pagestyle}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+gdef
+\backslash
+@regularpagestyle{#1}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+gdef
+\backslash
+thepagestyle{
+\backslash
+if@specialpage
+\backslash
+@specialstyle
+\backslash
+else
+\backslash
+@regularpagestyle
+\backslash
+fi}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	}
+\end_layout
+
+\begin_layout Plain Layout
+
+	{
+\backslash
+message{(patching of 
+\backslash
+string
+\backslash
+pagestyle
+\backslash
+ succeeded)}}
+\end_layout
+
+\begin_layout Plain Layout
+
+	{
+\backslash
+message{(patching of 
+\backslash
+string
+\backslash
+pagestyle
+\backslash
+ failed)}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatother 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 % Setup colors
 \end_layout
 
@@ -909,103 +842,7 @@ status open
 
 
 \backslash
-definecolor{lum-tbg}{HTML}{ffebf2}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-bg}{HTML}{ffdbe8}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-li}{HTML}{f5b0c8}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{lum-ln}{HTML}{f26d9b}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-tbg}{HTML}{f3ebff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-bg}{HTML}{e9dbff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-li}{HTML}{ccb2f5}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{maou-ln}{HTML}{ae83f2}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-tbg}{HTML}{ebf8ff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-bg}{HTML}{dbf2ff}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-li}{HTML}{b2ddf5}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{st-ln}{HTML}{6ec2f2}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{comment-tbg}{HTML}{ffe6fd}
+definecolor{comment-bg}{HTML}{ffe6fd}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1017,13 +854,9 @@ definecolor{comment-li}{HTML}{fcb8f7}
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
-definecolor{cw-tbg}{HTML}{ffe6e6}
+definecolor{cw-bg}{HTML}{ffe6e6}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1035,18 +868,19 @@ definecolor{cw-li}{HTML}{ff787a}
 
 \begin_layout Plain Layout
 
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
 definecolor{watermark}{HTML}{a0a0a0}
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
@@ -1109,6 +943,7 @@ boolfalse{gitInf@mark}
 
 \begin_layout Plain Layout
 
+	
 \end_layout
 
 \begin_layout Plain Layout
@@ -1161,26 +996,6 @@ footertextsize
 sffamily
 \backslash
 thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeheadfootruleprefix{plain}{
-\backslash
-vlicolor}{
-\backslash
-vlicolor} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makefootrule{plain}{
-\backslash
-textwidth}{1pt}{4pt}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1247,26 +1062,6 @@ thepage}
 
 
 \backslash
-makeheadfootruleprefix{mystyle}{
-\backslash
-vlicolor}{
-\backslash
-vlicolor} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makefootrule{mystyle}{
-\backslash
-textwidth}{1pt}{4pt}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 makepsmarks{mystyle}{%
 \end_layout
 
@@ -1281,7 +1076,7 @@ createmark{part}{left}{shownumber}{
  }{.
  
 \backslash
- }
+ }%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1295,7 +1090,7 @@ createmark{chapter}{right}{shownumber}{
  }{.
  
 \backslash
- }
+ }%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1481,6 +1276,167 @@ defaultparagraphsplitting
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Setup page background support
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPictureBG {%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+includegraphics[width=
+\backslash
+paperwidth,height=
+\backslash
+paperheight]{includes/bg_
+\backslash
+vcolorset}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Release
+inverted 1
+status open
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Add gitmark2 thing.
+ This is obv copied from gitinfo2.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Copied to put this above the background layer, not under.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+AddToShipoutPictureFG{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+AtPageLowerLeft{%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+raisebox{1.75
+\backslash
+baselineskip}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+			
+\backslash
+makebox[
+\backslash
+paperwidth]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+begin{minipage}[b]{
+\backslash
+paperwidth}%
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+renewcommand{
+\backslash
+baselinestretch}{1}%
+\end_layout
+
+\begin_layout Plain Layout
+
+					
+\backslash
+centering{
+\backslash
+gitMarkFormat
+\backslash
+gitMarkPref{} 
+\backslash
+textbullet{} 
+\backslash
+gitMark}%
+\end_layout
+
+\begin_layout Plain Layout
+
+				
+\backslash
+end{minipage}%
+\end_layout
+
+\begin_layout Plain Layout
+
+			}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}% 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex IgnoreThis
 status open
 
@@ -1519,6 +1475,191 @@ status open
 
 \begin_layout Plain Layout
 
+% Command for declaring a section.
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+% Parameters:
+\end_layout
+
+\begin_layout Plain Layout
+
+% 1 - Section name (not command)
+\end_layout
+
+\begin_layout Plain Layout
+
+% 2 - Section Title Font Name
+\end_layout
+
+\begin_layout Plain Layout
+
+% 3 - Section Title Font Path
+\end_layout
+
+\begin_layout Plain Layout
+
+% 4 - Background color
+\end_layout
+
+\begin_layout Plain Layout
+
+% 5 - Line/Title color
+\end_layout
+
+\begin_layout Plain Layout
+
+% 6 - Link color
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatletter%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+definesection[6]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+expandafter
+\backslash
+newfontfamily
+\backslash
+csname #1titlefont
+\backslash
+endcsname[%
+\end_layout
+
+\begin_layout Plain Layout
+
+		Path           = 
+\backslash
+input@path,%
+\end_layout
+
+\begin_layout Plain Layout
+
+		UprightFont    = #3,%
+\end_layout
+
+\begin_layout Plain Layout
+
+		BoldFont       = #3,%
+\end_layout
+
+\begin_layout Plain Layout
+
+		ItalicFont     = #3,%
+\end_layout
+
+\begin_layout Plain Layout
+
+		BoldItalicFont = #3,%
+\end_layout
+
+\begin_layout Plain Layout
+
+	]{#2}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+definecolor{#1-bg}{HTML}{#4}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+definecolor{#1-li}{HTML}{#5}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+definecolor{#1-ln}{HTML}{#6}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+newtcolorbox{#1-sidebarenv}{textmarker,colback=#1-bg,colframe=#1-li}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+makeatother%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+setsection[1]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vcolorset{#1}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+resethyper%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 % Setup command variables
 \end_layout
 
@@ -1530,7 +1671,7 @@ newcommand
 \backslash
 vtitlefont
 \backslash
-luminousfont
+luminoustitlefont
 \end_layout
 
 \begin_layout Plain Layout
@@ -1550,7 +1691,7 @@ relax
 \backslash
 newcommand
 \backslash
-vcolorset{lum}
+vcolorset{luminous}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2044,15 +2185,6 @@ status open
 
 \begin_layout Plain Layout
 
-% Custom insets
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
 
 \backslash
 tcbset{textmarker/.style={% 
@@ -2083,36 +2215,15 @@ tcbset{textmarker/.style={%
 
 
 \backslash
-newtcolorbox{lum-sidebarenv}{textmarker,colback=lum-tbg,colframe=lum-li}
+newtcolorbox{comment-sidebarenv}{textmarker,colback=comment-bg,colframe=comment-
+li}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-newtcolorbox{maou-sidebarenv}{textmarker,colback=maou-tbg,colframe=maou-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{st-sidebarenv}{textmarker,colback=st-tbg,colframe=st-li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{comment-sidebarenv}{textmarker,colback=comment-tbg,colframe=comment
--li}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-newtcolorbox{cw-sidebarenv}{textmarker,colback=cw-tbg,colframe=cw-li}
+newtcolorbox{cw-sidebarenv}{textmarker,colback=cw-bg,colframe=cw-li}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2586,6 +2697,85 @@ literal "false"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex NewCommand
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+lumpartquote
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+#1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{pn} 
+\backslash
+vfil
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Flex NewCommand
 status open
 

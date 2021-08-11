@@ -104,7 +104,7 @@ pdfform
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "Format_Common.lyx"
+filename "Format_Luminous.lyx"
 
 \end_inset
 
