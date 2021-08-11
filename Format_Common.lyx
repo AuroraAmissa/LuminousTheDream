@@ -95,6 +95,15 @@ InsetLayout Flex:LumPartQuote
   LatexName             lumpartquote
   ResetsFont            true
 End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "CRow"
+  LatexType             command
+  LatexName             lumtablecolorrow
+  ResetsFont            true
+End
 \end_local_layout
 \language english
 \language_package default
@@ -2356,6 +2365,28 @@ begin{multicols}{2}}
 end{multicols} 
 \backslash
 defaultparagraphsplitting}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+crw{
+\backslash
+rowcolor{
+\backslash
+vcolorset-bg}}
 \end_layout
 
 \end_inset

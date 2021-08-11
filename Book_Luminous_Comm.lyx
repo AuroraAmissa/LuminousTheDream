@@ -14,6 +14,12 @@ InStar
 pdfform
 \end_modules
 \maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+\end_local_layout
 \language english
 \language_package default
 \inputencoding auto
