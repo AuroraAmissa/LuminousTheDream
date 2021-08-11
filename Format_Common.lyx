@@ -96,12 +96,12 @@ InsetLayout Flex:LumPartQuote
   ResetsFont            true
 End
 
-InsetLayout Flex:LumPartQuote
+InsetLayout Flex:LumChapQuote
   LyXType               custom
   Decoration            classic
-  LabelString           "CRow"
+  LabelString           "Chapter Quote"
   LatexType             command
-  LatexName             lumtablecolorrow
+  LatexName             lumchapquote
   ResetsFont            true
 End
 \end_local_layout
@@ -163,11 +163,6 @@ End
 \justification true
 \use_refstyle 1
 \use_minted 0
-\branch Commentary
-\selected 0
-\filename_suffix 0
-\color #fdb9c7
-\end_branch
 \branch Playtest
 \selected 0
 \filename_suffix 0
@@ -347,7 +342,7 @@ status open
 
 \backslash
 geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=0.75in,rmargin=0.75in
-,footskip=0.76in}
+,footskip=0.78in}
 \end_layout
 
 \end_inset
@@ -787,10 +782,6 @@ drafttext{Draft}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -1259,7 +1250,7 @@ AtPageLowerLeft{%
 
 		
 \backslash
-raisebox{1.7em}{%
+raisebox{1.575em}{%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1953,7 +1944,29 @@ vlicolorname}}
 
 \begin_layout Plain Layout
 
-% Common style.
+% Headings style
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength
+\backslash
+beforechapskip{22pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength
+\backslash
+afterchapskip{15pt}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1979,7 +1992,9 @@ chaptitlefont}{
 \backslash
 fontsize{38}{34}
 \backslash
-vtitlefont}
+vtitlefont
+\backslash
+centering}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2054,6 +2069,11 @@ setbeforesubsubsecskip{1.5ex}
 
 \begin_layout Plain Layout
 
+% Setup section layout
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 setuptodonotes{color=
@@ -2116,6 +2136,103 @@ status open
 
 
 \backslash
+newcommand
+\backslash
+lumsidebargap
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumsidebarrule
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumsidebarnormal{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+lumsidebargap{1.9mm}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+lumsidebarrule{1.6pt}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumsidebartwocolumn{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+lumsidebargap{1.2mm}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+lumsidebarrule{1.35pt}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+lumsidebarnormal
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 tcbset{textmarker/.style={% 
 \end_layout
 
@@ -2126,13 +2243,20 @@ tcbset{textmarker/.style={%
 
 \begin_layout Plain Layout
 
-	boxrule=0mm,leftrule=2.5pt,rightrule=2.5pt,boxsep=0mm,arc=0mm,outer arc=0mm,
- 
+	boxrule=0pt,leftrule=
+\backslash
+lumsidebarrule,rightrule=
+\backslash
+lumsidebarrule,boxsep=0mm,arc=0mm,outer arc=0mm, 
 \end_layout
 
 \begin_layout Plain Layout
 
-	left=2.5mm,right=2.5mm,top=2.5mm,bottom=2.5mm,toptitle=1mm,bottomtitle=1mm,oversize
+	left=
+\backslash
+lumsidebargap,right=
+\backslash
+lumsidebargap,top=2mm,bottom=2mm,toptitle=1mm,bottomtitle=1mm,oversize
 \end_layout
 
 \begin_layout Plain Layout
@@ -2273,6 +2397,8 @@ newenvironment{twocolumnbox}
 
 	{
 \backslash
+lumsidebartwocolumn 
+\backslash
 twocolumnparagraphsplitting 
 \backslash
 begin{multicols}{2}}
@@ -2284,7 +2410,9 @@ begin{multicols}{2}}
 \backslash
 end{multicols} 
 \backslash
-defaultparagraphsplitting}
+defaultparagraphsplitting 
+\backslash
+lumsidebarnormal}
 \end_layout
 
 \end_inset
@@ -2693,7 +2821,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace medskip
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -2743,6 +2871,64 @@ vfil
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex NewCommand
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+lumchapquote
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+#1
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{18pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex NewCommand
 status open
 

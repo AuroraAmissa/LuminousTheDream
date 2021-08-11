@@ -20,6 +20,15 @@ Format 66
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
 
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Do not Render"
+  LatexType             command
+  LatexName             ignorethis
+  ResetsFont            true
+End
+
 InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
@@ -61,12 +70,38 @@ InsetLayout Flex:TwoColumnBox
   ResetsFont            true
 End
 
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	    1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+End
+
 InsetLayout Flex:LumPartQuote
   LyXType               custom
   Decoration            classic
   LabelString           "Part Quote"
   LatexType             command
   LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
   ResetsFont            true
 End
 \end_local_layout
@@ -230,24 +265,6 @@ literal "false"
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Make the entire document prettier.
- A lot of small formatting things like chapter headings could be improved
- still.
- More colorful, perhaps.
- Many possible ideas.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -798,9 +815,21 @@ status open
 \family sans
 “If someone tells me that it's wrong to hope, I'll tell them that they're
  wrong every time.” 
+\family default
+\emph on
+
 \begin_inset Newline newline
 \end_inset
 
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\family sans
+\emph default
 Madoka Kaname, 
 \series bold
 Puella Magi Madoka Magica
@@ -2525,6 +2554,12 @@ Chapter 2: Distant Dreams
 \begin_layout Standard
 \noindent
 \align center
+\begin_inset Flex LumChapQuote
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 
 \emph on
 \begin_inset Quotes xld
@@ -2539,14 +2574,23 @@ or a butterfly dreaming that he was Zhuang Zhou.
 \end_inset
 
 
-\emph default
-
 \begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
 \end_inset
 
 Zhuang Zhou, 
 \series bold
 Zhuangzi
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8827,6 +8871,12 @@ Chapter 5: Colors of the Sky
 \begin_layout Standard
 \noindent
 \align center
+\begin_inset Flex LumChapQuote
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
 
 \emph on
 “Did you count the stars or something?”
@@ -8835,14 +8885,23 @@ Chapter 5: Colors of the Sky
 
 “We don’t have to count them,” Meg said.
  “They just need to be known by Name.”
-\emph default
-
 \begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
 \end_inset
 
 Madeleine L'Engle, 
 \series bold
 A Wind in the Door
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -10428,7 +10487,7 @@ setsplatlayout
 \end_layout
 
 \begin_layout Subsection
-Keystone of Dreams
+Keystone of Dreams 
 \end_layout
 
 \begin_layout Standard
@@ -10838,9 +10897,19 @@ status open
 \end_inset
 
 All kinds of people with all sorts of wishes and feelings hiding inside."
+\emph on
+
 \begin_inset Newline newline
 \end_inset
 
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\emph default
 Nanoha Takamachi, 
 \series bold
 Magical Girl Lyrical Nanoha

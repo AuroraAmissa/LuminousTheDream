@@ -145,26 +145,6 @@ End
 \justification true
 \use_refstyle 1
 \use_minted 0
-\branch Commentary
-\selected 0
-\filename_suffix 0
-\color #fdb9c7
-\end_branch
-\branch Playtest
-\selected 0
-\filename_suffix 0
-\color #daf6f5
-\end_branch
-\branch Release
-\selected 0
-\filename_suffix 0
-\color #d3ecff
-\end_branch
-\branch CiBuild
-\selected 0
-\filename_suffix 0
-\color #e0a7ff
-\end_branch
 \index Index
 \shortcut idx
 \color #008000
