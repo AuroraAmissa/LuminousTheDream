@@ -243,6 +243,23 @@ status open
 
 
 \backslash
+definesection{forward}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	{Dancing Script Bold}{fonts/DancingScript-Bold.ttf}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	{ffebf2}{f5b0c8}{f26d9b}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 definesection{luminous}%
 \end_layout
 
@@ -292,9 +309,13 @@ definesection{lumst}%
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
-setsection{luminous}
+setsection{forward}
 \end_layout
 
 \end_inset

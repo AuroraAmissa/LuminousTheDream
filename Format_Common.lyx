@@ -339,6 +339,54 @@ status open
 
 \begin_layout Plain Layout
 
+% Define layout
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=0.75in,rmargin=0.75in
+,footskip=0.76in}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Memoir-related configuration
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+strictpagecheck
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Load various packages
+\end_layout
+
+\begin_layout Plain Layout
+
 
 \backslash
 usepackage[english]{babel}
@@ -743,98 +791,6 @@ drafttext{Draft}
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Setup page style tracking
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeatletter
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-pretocmd{
-\backslash
-pagestyle}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-gdef
-\backslash
-@regularpagestyle{#1}%
-\end_layout
-
-\begin_layout Plain Layout
-
-		
-\backslash
-gdef
-\backslash
-thepagestyle{
-\backslash
-if@specialpage
-\backslash
-@specialstyle
-\backslash
-else
-\backslash
-@regularpagestyle
-\backslash
-fi}%
-\end_layout
-
-\begin_layout Plain Layout
-
-	}
-\end_layout
-
-\begin_layout Plain Layout
-
-	{
-\backslash
-message{(patching of 
-\backslash
-string
-\backslash
-pagestyle
-\backslash
- succeeded)}}
-\end_layout
-
-\begin_layout Plain Layout
-
-	{
-\backslash
-message{(patching of 
-\backslash
-string
-\backslash
-pagestyle
-\backslash
- failed)}}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeatother 
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -879,7 +835,7 @@ definecolor{cw-li}{HTML}{ff787a}
 
 
 \backslash
-definecolor{watermark}{HTML}{a0a0a0}
+definecolor{watermark}{HTML}{909090}
 \end_layout
 
 \end_inset
@@ -979,66 +935,6 @@ small
 
 
 \backslash
-makepagestyle{plain}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeoddfoot{plain}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-leftmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-rightmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makepagestyle{pn}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-makeoddfoot{pn}{}{}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 makepagestyle{mystyle}
 \end_layout
 
@@ -1052,19 +948,13 @@ footertextsize
 \backslash
 sffamily
 \backslash
-leftmark}{
+thepage}{}{
 \backslash
 footertextsize
 \backslash
 sffamily
 \backslash
-rightmark}{
-\backslash
-footertextsize
-\backslash
-sffamily
-\backslash
-thepage}
+leftmark}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1078,21 +968,7 @@ makepsmarks{mystyle}{%
 
 	
 \backslash
-createmark{part}{left}{shownumber}{
-\backslash
-@chapapp
-\backslash
- }{.
- 
-\backslash
- }%
-\end_layout
-
-\begin_layout Plain Layout
-
-	
-\backslash
-createmark{chapter}{right}{shownumber}{
+createmark{chapter}{left}{shownumber}{
 \backslash
 @chapapp
 \backslash
@@ -1119,6 +995,17 @@ nouppercaseheads
 
 \backslash
 pagestyle{mystyle}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+aliaspagestyle{plain}{mystyle}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1297,6 +1184,17 @@ status open
 
 
 \backslash
+newcommand
+\backslash
+vbgimage
+\backslash
+relax
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 AddToShipoutPictureBG {%
 \end_layout
 
@@ -1310,7 +1208,7 @@ paperwidth,height=
 \backslash
 paperheight]{includes/bg_
 \backslash
-vcolorset}%
+vbgimage}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1361,9 +1259,7 @@ AtPageLowerLeft{%
 
 		
 \backslash
-raisebox{1.75
-\backslash
-baselineskip}{%
+raisebox{1.7em}{%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1643,7 +1539,29 @@ setsection[1]{%
 \backslash
 renewcommand
 \backslash
+vtitlefont{
+\backslash
+csname #1titlefont
+\backslash
+endcsname}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
 vcolorset{#1}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+vbgimage{#1}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1680,7 +1598,7 @@ newcommand
 \backslash
 vtitlefont
 \backslash
-luminoustitlefont
+relax
 \end_layout
 
 \begin_layout Plain Layout
@@ -1700,7 +1618,9 @@ relax
 \backslash
 newcommand
 \backslash
-vcolorset{luminous}
+vcolorset
+\backslash
+relax
 \end_layout
 
 \begin_layout Plain Layout
@@ -2447,6 +2367,22 @@ status open
 
 \end_layout
 
+\begin_layout In Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 
 \size giant
@@ -2787,7 +2723,7 @@ status open
 
 
 \backslash
-thispagestyle{pn} 
+thispagestyle{empty} 
 \backslash
 vfil
 \end_layout

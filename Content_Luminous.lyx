@@ -167,6 +167,22 @@ filename "Format_Luminous.lyx"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{luminous}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Foreword 
 \begin_inset CommandInset label
@@ -11384,16 +11400,11 @@ Appendices
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\begin_inset Flex LumPartQuote
 status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-thispagestyle{pn} 
-\backslash
-vfil
 \end_layout
 
 \end_inset
