@@ -70,6 +70,15 @@ InsetLayout Flex:TwoColumnBox
   ResetsFont            true
 End
 
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             twocolumnboxfill
+  ResetsFont            true
+End
+
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
@@ -441,6 +450,20 @@ usepackage{graphicx}
 
 \backslash
 usepackage{gitinfo2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{enumitem} % Fallback
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+usepackage{todonotes} % Fallback
 \end_layout
 
 \begin_layout Plain Layout
@@ -2194,6 +2217,38 @@ lumsidebarrule{1.6pt}%
 \backslash
 newcommand
 \backslash
+lumsidebarpageinset{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+lumsidebargap{2.75mm}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+renewcommand
+\backslash
+lumsidebarrule{1.6pt}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
 lumsidebartwocolumn{%
 \end_layout
 
@@ -2417,8 +2472,41 @@ defaultparagraphsplitting
 lumsidebarnormal}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+newenvironment{twocolumnboxfill}
+\end_layout
+
+\begin_layout Plain Layout
+
+	{
+\backslash
+lumsidebartwocolumn 
+\backslash
+twocolumnparagraphsplitting 
+\backslash
+begin{multicols*}{2}}
+\end_layout
+
+\begin_layout Plain Layout
+
+	{
+\backslash
+end{multicols*} 
+\backslash
+defaultparagraphsplitting 
+\backslash
+lumsidebarnormal}
+\end_layout
+
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 

@@ -70,6 +70,15 @@ InsetLayout Flex:TwoColumnBox
   ResetsFont            true
 End
 
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             twocolumnboxfill
+  ResetsFont            true
+End
+
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
@@ -2541,13 +2550,6 @@ setnormallayout
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align center
 \begin_inset Flex LumChapQuote
@@ -3779,8 +3781,617 @@ Character Creation|)
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lumsidebarpageinset
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\backslash
+Huge
+\end_layout
+
+\end_inset
+
+ Character Creation Summary
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{Character Creation Summary}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TwoColumnBox
+status open
+
+\begin_layout Subsubsection*
+Step One: Concept
+\end_layout
+
+\begin_layout Plain Layout
+Create a character concept, and five Aspirations.
+\end_layout
+
+\begin_layout Subsubsection*
+Step Two: Attributes 
+\end_layout
+
+\begin_layout Plain Layout
+Distribute 5/4/3 dots in each mundane category, and 8 dots of Dream Attributes.
+\end_layout
+
+\begin_layout Subsubsection*
+Step Three: Skills
+\end_layout
+
+\begin_layout Plain Layout
+Distribute 11/7/4 dots in each mundane category, and 15 dots of Weaving
+ Skills.
+\end_layout
+
+\begin_layout Subsubsection*
+Step Four: Skill Specialties
+\end_layout
+
+\begin_layout Plain Layout
+Choose three mundane Skill Specialties, and one Weaving Skill Specialty.
+\end_layout
+
+\begin_layout Subsubsection*
+Step Five: Add Luminous Template 
+\end_layout
+
+\begin_layout Plain Layout
+Choose Luminary, Archetype, Kingdom (if any), Dream, and Wish.
+ Describe your Dream Form.
+ Add 3 dots of Invocations (at least one in each favored Invocation) and
+ take 4 Regalia or Charms.
+\end_layout
+
+\begin_layout Subsubsection*
+Step Six: Add Merits 
+\end_layout
+
+\begin_layout Plain Layout
+Select 10 dots of Merits.
+ You may spend 5 dots on a dot of Reverie.
+\end_layout
+
+\begin_layout Subsubsection*
+Step Seven: Advantages 
+\end_layout
+
+\begin_layout Plain Layout
+Calculate maximum Hope, and maximum Willpower.
+ Calculate Health, Speed, Initiative, and Defense for both Dream and Mundane
+ Forms.
+ Formulas can be found on the character sheet.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\backslash
+textcolor{luminous-ln}{
+\backslash
+rule{10cm}{0.75pt}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TwoColumnBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Subsubsection*
+Luminaries
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sunlight:
+\series default
+ Passionate and forceful, shining with light as bright as the sun itself.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Moonlight:
+\series default
+ Indirect and mysterious, changing the world as the moon creates the tides.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Starlight:
+\series default
+ Colorful and bright in a thousand ways, diverse as the colorful stars.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Subsubsection*
+Kingdoms
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Avalon
+\series default
+: A kingdom built on social order and responsibility.
+ Their Invocation is Rosa.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aztlan
+\series default
+: A sprawling country built on passion and rebellion.
+ Their Invocation is Solare.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elysium
+\series default
+: An underground sanctuary built on preservation and history.
+ Their Invocation is Ricordo.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Konohana
+\series default
+: A forest whose inhabitants value adaptation and harmony.
+ Their Invocation is Flori.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ildathach
+\series default
+: A dream-like world of idealism and defiance.
+ Its Invocation is Prisma.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Muirias
+\series default
+: An island nation built on learning and wonder.
+ Its Invocation is Brillare.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sancus
+\series default
+: An alliance of city-states built on duty and might.
+ Its Invocation is Accordi.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tengri
+\series default
+: A mountain settled by tribes built on freedom and acceptance.
+ Its Invocation is Cieli.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Archetype
+\end_layout
+
+\begin_layout Plain Layout
+Luminous have an Archetype, reflecting the particular form of their Dream
+ Form.
+ See the 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "Sec-Archetype"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ section for details.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Subsubsection*
+Starting Experience
+\end_layout
+
+\begin_layout Plain Layout
+For some games, it may be appropriate to the start with more experienced
+ characters.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Established Nakama: 
+\series default
+10 Experiences
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Rising Stars:
+\series default
+ 25 Experiences
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Regional Heroes:
+\series default
+ 35 Experiences
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Dream Princess: 
+\series default
+50 Experiences
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Queen of Dreams:
+\series default
+ 100 Experiences 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Subsubsection*
+Experience Costs
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attributes: 
+\series default
+4 Experiences per dot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Skills:
+\series default
+ 2 Experiences per dot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Skill Specialties:
+\series default
+ 1 Experience
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Merits:
+\series default
+ 1 Experience per dot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reverie:
+\series default
+ 5 Experiences per dot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Favored Invocation: 
+\series default
+3 Experiences per dot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Other Invocation:
+\series default
+ 4 Experiences per dot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Regalia or Charm: 
+\series default
+4 Experiences
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lost Willpower dot:
+\series default
+ 1 Experience
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lumsidebarnormal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Shining Hearts
+Character Advancement
+\end_layout
+
+\begin_layout Standard
+Luminous gain Experiences and Beats like any other character.
+ They are described on page 76-77 of 
+\series bold
+Chronicles of Darkness
+\series default
+.
+ Luminous-specific traits cost the following number of experiences:
+\end_layout
+
+\begin_layout Itemize
+Dream Attributes and Weaving Skills cost the same amount of experiences
+ as their mundane counterparts.
+\end_layout
+
+\begin_layout Itemize
+Each dot of Reverie costs 5 Experiences.
+\end_layout
+
+\begin_layout Itemize
+Favored Invocations cost 3 Experiences per dot, and other Invocations cost
+ 4 Experiences per dot.
+\end_layout
+
+\begin_layout Itemize
+Regalia and Charms cost 4 Experiences each.
+\end_layout
+
+\begin_layout Section
+Shining Heart
 \end_layout
 
 \begin_layout Standard
@@ -4120,6 +4731,144 @@ do something, anything
  like that tend to...
  not feel great over it when they just...
  can't.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Intimacy 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Intimacy|(textbf
+\end_layout
+
+\end_inset
+
+The Dream is woven out of the countless bonds and ties that connect people,
+ combining into a greater whole.
+ The strength of that connection between two people is called Intimacy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Connected:
+\series default
+ The two people are so close that the distinction between them does not
+ matter, often being bound by magical vows and ties.
+ This usually applies to extremely close lovers, platonic life partners,
+ and those bound by vows such as those between a Changeling and the Avowed
+ or the 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Weave-of-Bonds"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Strong:
+\series default
+ The two people are very close to each other, often sharing much of their
+ lives with each other and confiding in each other for comfort and support.
+ This often applies to those such as typical married couples, very close
+ friends, parents and their children, or family of choice.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Medium:
+\series default
+ The two people are on friendly terms with each other and come to know each
+ other on deeper terms.
+ This often applies to those such as good friends, confidants, siblings,
+ or a typical dating couple.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Weak:
+\series default
+ The two people have met each other before, and interact on occasion but
+ rarely in particular depth.
+ This often applies to those such as coworkers, gaming partners, extended
+ family, or a friend of a friend.
+ Hostile or unfriendly relationships also fall under this category, though
+ some kinds of ambiguous relationships (such as a passionate rivalry) can
+ justify stronger Intimacy.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Described:
+\series default
+ You have a basic idea of who the person is, but have not interacted directly
+ in any significant manner.
+\end_layout
+
+\begin_layout Standard
+Only mutual bonds have the power to shift the Dream.
+ If two people have different feelings towards each other, the lower Intimacy
+ implied holds.
+ For example, a therapist and her patient often only have Weak Intimacy,
+ simply because the therapist is effectively forbidden from having a relationshi
+p with her patients beyond a professional one.
+ Similarly, unrequited love from a stalker rarely produces more than Weak
+ Intimacy unless reciprocated.
+\end_layout
+
+\begin_layout Standard
+Sometimes, Intimacy is called upon as a bonus or penalty for a supernatural
+ ability.
+ When used as a penalty, Connected Intimacy causes no penalty, Strong causes
+ -2, Medium causes -4, Weak causes -8, and Described causes -12.
+ When used as a bonus, Connected Intimacy provides a +6 bonus, Strong provides
+ +4, Medium provides +2.
+ Lower Intimacy provides no bonus.
+ Furthermore, when using such an ability, you may use the Intimacy of a
+ person you are touching, at the cost of decreasing the Intimacy by one
+ level.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Intimacy|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Sympathy being a Princess mechanic always felt weird to me.
+ I liked Intimacy in Dream version way better for being...
+ more like what a magical girl should care about.
+ They care about relationships, not locks of hair.
 \end_layout
 
 \end_inset
@@ -4524,14 +5273,6 @@ The highest possible Luminous trait cap is 15, not 10.
  their dice pools do not add +Reverie or +Invocation unlike most splats.
  Weaving Skills can be increased faster than Dream Attributes to encourage
  these huge dice pools to be more specialized than general.
-\end_layout
-
-\begin_layout Plain Layout
-Luminous rely less on their Power Stat than most splats, since it doesn't
- limit their use of powers in any way.
- Kinda like Changeling in that regard, just they don't even have Motes/turn
- limits from it.
- If you have a Weave, Reverie often becomes critical.
 \end_layout
 
 \end_inset
@@ -5117,7 +5858,7 @@ Transformation
 \begin_inset Text
 
 \begin_layout Plain Layout
--3
+-2
 \end_layout
 
 \end_inset
@@ -6321,9 +7062,6 @@ Weaving!Weaving Skills|(textbf
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Flex TwoColumnBox
 status open
 
@@ -6594,9 +7332,6 @@ Hide your true feelings.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Index idx
 status open
 
@@ -6664,27 +7399,7 @@ Again, Luminous is a fully playable splat, and their Dream Form is a core
 \end_layout
 
 \begin_layout Subsection
-Form-Locked Dots 
-\end_layout
-
-\begin_layout Standard
-A Luminous may buy dots in her Dream Attributes or Weaving Skills directly,
- instead of increasing the corresponding mundane traits.
- These dots are added to the dots derived from your character's mundane
- skills, and are the only way for the Luminous to have attributes or skills
- above 5 dots.
- Their mundane attribute cap never increases.
-\end_layout
-
-\begin_layout Standard
-Furthermore, she may buy dots in merits that only apply to one of her forms.
- Refund one beat for each experience spent on such a form-locked merit.
- The Storyteller should only allow this for merits where the merit only
- being available in a certain form would be relevant.
-\end_layout
-
-\begin_layout Subsection
-Dual Identity 
+Dual Identity
 \end_layout
 
 \begin_layout Standard
@@ -6697,35 +7412,18 @@ Transformation!Dual Identity|(textbf
 
 \end_inset
 
-The Hopeful derive one last benefit from their transformation: Their mundane
- and dream forms appear to be two different people.
- Regardless of how similar her two forms look, others around her treat them
- as if they had entirely different appearances.
- This is not exactly an illusion, as it does not change what people see.
- Rather, it simply prevents them from recognizing the two forms as the same
- based on such.
- This protection extends to magical senses such as a Vampire's taste for
- blood, or an Uratha's ability to track others by scent.
+ Luminous are, in a sense, a different person in their dreams.
+ The Dream itself intervenes to embed that idea in all others they meet,
+ prevent them from easily drawing a connection.
+ Regardless of how similar a Luminous looks in her two forms, anyone who
+ meets her in both forms has the impression that they are different people
+ and do not recognize the similarity on appearances alone.
 \end_layout
 
 \begin_layout Standard
-Supernatural powers used to try and link her two identities are similarly
- fooled.
- Powers that use Sympathy or Intimacy treat her two forms as separate –
- a friend who only knows her in her mundane form has no Sympathy with her
- Dream Form.
- Powers that determine information about a Luminous do not directly reveal
- information that connect her two identities, treating her (at best) as
- two people with close ties to the same friend group.
- That may still break her cover in the context of a full investigation,
- of course.
-\end_layout
-
-\begin_layout Standard
-As powerful as it is, however, a Luminous cannot rely solely on Dual Identity
- to protect herself.
- It does not prevent others from suspecting a Luminous' nature based on
- circumstantial evidence.
+Despite this, sufficient evidence can break this illusion.
+ For one, it does not prevent others from suspecting a Luminous' nature
+ based on circumstantial evidence.
  She cannot simply dip into a closet only to return as a mysterious magical
  girl, and not expect others to not draw the connection eventually.
  She obviously cannot transform in front of someone, and expect Dual Identity
@@ -6733,11 +7431,16 @@ As powerful as it is, however, a Luminous cannot rely solely on Dual Identity
 \end_layout
 
 \begin_layout Standard
-In cases where she needs to intentionally prove her identity, she may spend
- a Willpower to drop this protection for the rest of a scene.
- This does not necessarily convince others that she is the same person if
- she looks radically different in her two forms, but it at least removes
- any supernatural components of her disguise.
+Even supernatural powers are fooled by this presumption.
+ Magical senses like a vampire's taste for blood or a werewolf's scent tracking
+ do not connect her two forms.
+ Powers that use Intimacy or similar mechanics treat her two forms as separate
+ people with separate relationships.
+ Powers used to try and extract information about her, at best, treat her
+ as two people with close ties to the same friend group.
+ Of course, this may be enough information to piece together the rest of
+ the pieces by investigation.
+ 
 \begin_inset Index idx
 status open
 
@@ -6795,6 +7498,37 @@ Luminous are meant to live, to rely on their friends.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Form-Locked Merits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Luminous may take Merits that only function in one of their forms.
+ For example, someone could only have Striking Looks in her Dream Form,
+ or only have Fame in her Mundane Form.
+ As an optional rule, the Storyteller may require this of all social merits
+ representing relationships with other people, unless the player can justify
+ them being available in both forms.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Flicker
 \end_layout
@@ -6809,45 +7543,45 @@ Flicker|(textbf
 
 \end_inset
 
-For the Hopeful, the balance between reality and their own dreams is all
- too easy to lose.
- In their Dream Form, they are empowered to touch the world in terms of
- stories and intents, rather than physics and forces.
- They find it all too easy to get used to that kind of half-dreaming existence.
+ For a Luminous, the Dream doesn't feel any less real than the waking world,
+ simply different.
+ Too often, it is easy to get lost somewhere in between.
+ In her Dream Form, she may touch the world in terms of stories and intents
+ rather than physics and forces.
+ In that state, it is all too easy to get used to half-dreaming.
 \end_layout
 
 \begin_layout Standard
-When she reverts to Mundane Form after transforming or visiting the Dream
- in a lucid dream, she suffers Flicker.
+When a Luminous reverts to Mundane Form after transforming, she suffers
+ Flicker.
  She is ever so slightly distracted by the dreams and imaginations that
- would fuel her magic if she were in Dream Form, and she takes a penalty
- equal to her Reverie divided by 3 (rounded up) to all actions taken in
- her Mundane Form.
- However, she gains a bonus on her Transformation rolls equal to the usual
- penalty.
+ would fuel her magic if she were in Dream Form, and takes a penalty equal
+ to her Reverie divided by 3 (rounded up) to all actions taken in her Mundane
+ Form.
+ She gains a bonus on her Transformation rolls equal to that penalty.
  Once a scene, if she fails an important roll or suffers significant social
  complications due to this, she gains a Beat.
 \end_layout
 
 \begin_layout Standard
-Flicker lasts for ten minutes if the Luminous had been transformed for less
- than a scene, one scene if she had been transformed for a whole scene or
- longer, one hour if she had been transformed for a day or longer, one day
- if she had been transformed for a week or longer, and one week if she had
- been transformed for a month or longer.
- Every time the Flicker duration elapses, the penalty lowers by one.
- If she transforms or otherwise triggers Flicker before it fully fades,
- the penalty severity resets.
- Further transformations cannot decrease the duration for Flicker to fade,
- but it can increase it.
+If it was caused by transformation, the Flicker penalty reduces by one every
+ ten minutes.
+ This duration increases to an hour (or a scene, whichever is shorter) if
+ she has been transformed for a whole scene or longer, four hours (or two
+ scenes) if she has been transformed for a day or longer, one day if she
+ has been transformed for a week or longer, or one week if she has been
+ transformed for a month or longer.
+ If she transforms again while suffering Flicker, track the two instances
+ separately and use the higher penalty.
 \end_layout
 
 \begin_layout Standard
-Furthermore, at Reverie 6 or above, Flicker no longer requires a Luminous
- to intentionally transform.
- Mundane dreams trigger Flicker too, with a duration of one hour.
- At Reverie 9, her Flicker penalty can no longer be reduced below -1.
- At Reverie 10, it can no longer be reduced below -2.
+While she enters Dream Form when she dreams, this does not trigger Flicker
+ until her Reverie increases to 6 or above.
+ Afterwards, she suffers Flicker with an duration of one hour whenever she
+ wakes.
+ At Reverie 9 or above, her Flicker penalty can no longer be reduced below
+ -2.
 \begin_inset Index idx
 status open
 
@@ -6924,19 +7658,19 @@ Echo|(textbf
 
 \end_inset
 
-All of humanity's dreams are part of one whole.
- The Dream binds them together into one tapestry.
- Drawing on those connections, a Luminous' magic touches the heart of everyone
- they treasure and love dearly, drawing their dreams together in their deepest
- sleep.
- Over time, those close to the Luminous come to understand each other on
- a level that goes beyond simple words.
+The Dream binds together all of humanity in one tapestry.
+ All dreams are part of something greater.
+ Luminous may draw on those connections, touching the heart of everyone
+ they treasure and love dearly.
+ Their Echo brings people together in the deepest reaches of sleep, teaching
+ those it touches to understand each other on a level that goes beyond simple
+ words.
 \end_layout
 
 \begin_layout Standard
 Echo function in both Mundane Form and Dream Form.
- Its influence is typically subtle and hard to notice, however, and only
- affects those already close to the Luminous.
+ Its influence is subtle and hard to notice, however, and only affects those
+ already close to the Luminous.
 \end_layout
 
 \begin_layout Standard
@@ -6949,143 +7683,6 @@ Echos, like Hope, are core to what Luminous are.
  It is what makes relationships so important to them.
  It's their Aura, technically, but works through dreams in a way that makes
  it not really interact well with other splat's Auras.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Intimacy 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Intimacy|(textbf
-\end_layout
-
-\end_inset
-
-The Dream is woven out of the countless bonds and ties that connect people,
- interweaving all of humanity together into a single tapestry.
- The strength of the connection between two given people is called Intimacy.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Connected:
-\series default
- The two people are so close that the distinction between them does not
- matter, often being bound by magical vows and ties.
- This usually applies to extremely close lovers, platonic life partners,
- and those bound by vows such as those between a Changeling and the Avowed
- or the 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "sec:Weave-of-Bonds"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Strong:
-\series default
- The two people are very close to each other, often sharing much of their
- lives with each other and confiding in each other for comfort and support.
- This often applies to those such as typical married couples, very close
- friends, parents and their children, or family of choice.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Medium:
-\series default
- The two people are on friendly terms with each other and come to know each
- other on deeper terms.
- This often applies to those such as good friends, confidants, siblings,
- or a typical dating couple.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Weak:
-\series default
- The two people have met each other before, and interact on occasion but
- rarely in particular depth.
- This often applies to those such as coworkers, gaming partners, extended
- family, or a friend of a friend.
- Hostile or unfriendly relationships also fall under this category, though
- some kinds of ambiguous relationships (such as a passionate rivalry) can
- justify stronger Intimacy.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Described:
-\series default
- You have a basic idea of who the person is, but have not interacted directly
- in any significant manner.
-\end_layout
-
-\begin_layout Standard
-These bonds must be mutual and cannot be strained by formal contexts or
- ingenious premises.
- If two people have different feelings towards each other, the lower Intimacy
- implied holds.
- For example, a therapist and her patient often only have Weak Intimacy,
- despite how much of her patient's life she learns, as they only interact
- in formal contexts, and are effectively forbidden from having a relationship
- beyond a very professional one.
- Similarly, unrequited love from a stalker rarely produces more than Weak
- Intimacy unless reciprocated.
-\end_layout
-
-\begin_layout Standard
-Sometimes, Intimacy is used as a penalty to the dice pool of abilities.
- When it is used in this way, Connected Intimacy provides no penalty, Strong
- Intimacy inflicts a -2 penalty, Medium intimacy provides a -4 penalty,
- Weak Intimacy inflicts a -8 penalty, and Described Intimacy inflicts a
- -12 penalty.
- When using such an ability, you may use the Intimacy of a person you are
- touching, at the cost of decreasing the Intimacy by one level.
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Intimacy|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Sympathy being a Princess mechanic always felt weird to me.
- I liked Intimacy in Dream version way better for being...
- more like what a magical girl should care about.
- They care about relationships, not locks of hair.
 \end_layout
 
 \end_inset
@@ -7148,10 +7745,10 @@ Interwoven Dreams
 \end_layout
 
 \begin_layout Standard
-Luminous and those who are close to each other dream of each other, and
- with each other, linked by the overlapping Echos of those involved.
- A Luminous' Echo influences the dreams of those with strong Intimacy with
- her, and their dreams in turn influence her back.
+Luminous and those who are close to them dream of each other, and with each
+ other.
+ Those who are friends with the Luminous find themselves bound by a weave
+ of interconnecting Echoes, all their dreams coming to influence one another.
 \end_layout
 
 \begin_layout Itemize
@@ -7261,7 +7858,7 @@ gets it
 \end_layout
 
 \begin_layout Subsection
-Reflected Light 
+Reflected Light
 \end_layout
 
 \begin_layout Standard
@@ -7307,18 +7904,18 @@ Balance-wise, 9-again isn't...
 \begin_inset Formula $\frac{3}{8}$
 \end_inset
 
- successes per dice with 9-again.
+ successes per die with 9-again.
  That is only an additional 
 \begin_inset Formula $\frac{1}{24}$
 \end_inset
 
- successes per dice, or in other words, the equivalent of a +1 bonus per
+ successes per die, or in other words, the equivalent of a +1 bonus per
  8 dice.
  In general, for 
 \begin_inset Formula $n$
 \end_inset
 
--again, the average number of successes rolled is 
+-again, the average number of successes rolled per die is 
 \begin_inset Formula $\frac{3}{n-1}$
 \end_inset
 
@@ -7436,7 +8033,7 @@ splat language
 \end_layout
 
 \begin_layout Section
-Experiences
+Nakama
 \end_layout
 
 \begin_layout Standard
@@ -7444,7 +8041,7 @@ Experiences
 status open
 
 \begin_layout Plain Layout
-TODO: Write experience table.
+TODO: Write this chapter.
 \end_layout
 
 \end_inset
@@ -7471,7 +8068,7 @@ name "sec:Merits"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TwoColumnBox
+\begin_inset Flex TwoColumnBoxFill
 status open
 
 \begin_layout Subsection
@@ -7846,23 +8443,6 @@ Luminous aren't the only ones who get it, who are empathic enough to be
 
 \end_layout
 
-\begin_layout Section
-Nakama
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write this chapter.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter
 Chapter 4: The Power of Love 
 \begin_inset CommandInset label
@@ -7955,62 +8535,285 @@ With their Regalia, the Luminous weave superhuman abilities and touches
 \end_layout
 
 \begin_layout Standard
-As extensions of her Dream Form, Regalia are not truly equipment – although
- they may be used as such, and can provide equipment bonuses as if they
- were such.
- Regalia do not function for anyone other than the Luminous who summoned
- them, and dissolve into motes of light a short moment after they leave
- their presence.
+As the are extensions of her Dream Form, Regalia do not function for anyone
+ other than the Luminous who summoned them, and dissolve into motes of light
+ a short moment after they leave their presence.
  Disarming Luminous is rarely useful, as they may reflexively recall any
  Regalia they have lost on their turn at no cost.
 \end_layout
 
 \begin_layout Standard
-A Luminous may summon her Regalia when she transforms into her Dream form,
- as an instant action, or by spending a Willpower as a reflexive action.
- She unsummons any existing Regalia she may have active.
- For every point of Regalia Capacity she has, she may bind a single Invocation
- to a single Regalia.
- The same Invocation can be bound to multiple Regalia, and multiple Invocations
- can be bound to a single Regalia.
+Luminous may summon Regalia when she transforms into her Dream Form or as
+ a reflective action at the start of each turn.
+ Regalia each have a base effect, and multiple Upgrades or Variants.
+ Upgrades enhance the base effect of the Regalia, and Variants replace it
+ – hence, only one Variant may be used at a time.
 \end_layout
 
 \begin_layout Standard
-She benefits from the base effect of any Regalia she has an Invocation bound
- to.
- She gains the effects of all Upgrades to a Regalia she has the proper Invocatio
-n bound to, and enough dots in the Invocation to qualify for.
- Variants are special Upgrades that replace the base effect of the Regalia.
- When swapping Regalia, she may replace the base effect of any Regalia with
- an Variant she qualifies for.
+Each Regalia costs a single Mote to summon, and a further Mote at the beginning
+ of each new scene in which she wants to maintain it.
+ Luminous may furthermore pay a single Mote to change the upgrades or variants
+ she has active on a Regalia or desummon one at no cost.
+\end_layout
+
+\begin_layout Section*
+Regalia List
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Subsection
+Binary Star
+\end_layout
+
+\begin_layout Plain Layout
+Luminous find themselves needing to be in two places at once to maintain
+ their secrets.
+ Thankfully, they can.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ The Luminous splits her Dream Form into two bodies, dispersing her awareness
+ between them.
+ This is disorienting and distracting to say the least, but she can often
+ remain functional enough to at least get the job done.
+ One of the bodies may be her Mundane Form, but this effect is only cosmetic.
+ She is treated as if she were in Dream Form, albeit still with the protection
+ of Dual Identity.
+\end_layout
+
+\begin_layout Plain Layout
+Both bodies share a single bar of Dream Health, and she may choose one of
+ her bodies to return to when she reverts to Mundane Form for any reason.
+ Regalia must be summoned independently for both bodies.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Drawback:
+\series default
+ The Luminous loses 10-again on all actions, takes a -3 penalty to all mundane
+ actions, and suffers a -1 penalty on even Weaving Actions.
+ In combat or other stressful situations, she may only take Instant Actions
+ with one of her bodies each turn.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: True Focus
+\end_layout
+
+\begin_layout Plain Layout
+Luminous do not shy away from even the strangest dream, weaving them all
+ the same as any other.
+ This is no different.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Brillare or Prisma •••
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects: 
+\series default
+The Luminous suffers no penalties to her Weaving Actions.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Workforce
+\end_layout
+
+\begin_layout Plain Layout
+Sancus teaches the value in the fruits of labor, and see further value in
+ a Regalia normally only to cover for one's own absence.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Accordi •
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ The Luminous may perform any physical tasks she sets both her bodies to
+ in half the time.
+ This halves the roll time for relevant extended actions.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Phalanx
+\end_layout
+
+\begin_layout Plain Layout
+The coordination required for military tactics takes quite an amount of
+ training to achieve.
+ Of course, one way to cut it short is to be your own army.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Accordi •••
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ Coordinating with herself, the Luminous pins down her opponents or otherwise.
+ Once a turn in combat, she may assist her other body's actions with a reflexive
+ teamwork action.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Twin Blades
+\end_layout
+
+\begin_layout Plain Layout
+Gathering all her focus, the Legionary pins down her target with perfect
+ coordination.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Accordi •••••
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ Once per scene in combat, the Legionary may spend a Willpower to make a
+ separate instant action with both her bodies.
 \end_layout
 
 \begin_layout Subsection
 Wings of Light
 \end_layout
 
-\begin_layout Standard
-So many people look up to the birds, dream of seeing the skies as they do.
- Drawing on that wish, the Luminous may fly alongside the birds, carried
- aloft pairs of faerie wings, black-feathered raven wings, and a mantles
- of wind.
+\begin_layout Plain Layout
+So many people dream of seeing the skies as the birds do.
+ The Luminous too do so, summoning wings or veils of wind to take to the
+ skies.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Effects:
 \series default
  The Luminous may fly freely in the air, and has a species factor of 10
  to her speed while flying.
+ She may bring a single person with her by taking their hand, and extending
+ her magic of flight to her partner.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
+\begin_layout Subsubsection*
+Upgrade: Evasive Tactics
+\end_layout
 
 \begin_layout Plain Layout
-TODO: Upgrades for Wings of Air.
+Flowing with the winds, the Luminous dodges attacks aimed at her with unnatural
+ fluidity.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Caeli or Flori •••
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ When flying, the Luminous may apply Defense against ranged attacks.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Violence's Reward
+\end_layout
+
+\begin_layout Plain Layout
+Konohana believes violence to be a last resort to be shunned.
+ Thus, she bids the winds teach the lesson to all who attempt to harm her.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Flori •••••
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ When successfully dodging an ranged attack, the Luminous may redirect it
+ back at its source.
+ She rolls for the attack as if it were her own.
+ This effect may only be used once a turn.
+\end_layout
+
+\begin_layout Subsubsection*
+Upgrade: Rainbow Burst
+\end_layout
+
+\begin_layout Plain Layout
+Why fly in the skies if you can't do anything with it? To a Sylph, flight
+ can simply serve as a way to get where she needs to be.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Requires:
+\series default
+ Caeli •••••
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effects:
+\series default
+ By spending a Mote, the Luminous may cloak herself in a veil of light,
+ traveling across the skies with great speed.
+ She uses the vehicle rules to move [CofD 98-99].
+ Her safe speed is [Power + Finesse + Flow] * 15 and in crashes, she always
+ counts as the light object.
 \end_layout
 
 \end_inset
@@ -8066,8 +8869,12 @@ TODO: Write this section.
 
 \end_layout
 
+\begin_layout Section*
+Charm List
+\end_layout
+
 \begin_layout Standard
-\begin_inset Flex TwoColumnBox
+\begin_inset Flex TwoColumnBoxFill
 status open
 
 \begin_layout Subsection
