@@ -1407,12 +1407,17 @@ status open
 
 \begin_layout Plain Layout
 
-% 5 - Line/Title color
+% 5 - Deemphasized color
 \end_layout
 
 \begin_layout Plain Layout
 
-% 6 - Link color
+% 6 - Line/Title color
+\end_layout
+
+\begin_layout Plain Layout
+
+% 7 - Link color
 \end_layout
 
 \begin_layout Plain Layout
@@ -1428,7 +1433,7 @@ makeatletter%
 \backslash
 newcommand
 \backslash
-definesection[6]{%
+definesection[7]{%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1487,14 +1492,21 @@ definecolor{#1-bg}{HTML}{#4}%
 
 	
 \backslash
-definecolor{#1-li}{HTML}{#5}%
+definecolor{#1-de}{HTML}{#5}%
 \end_layout
 
 \begin_layout Plain Layout
 
 	
 \backslash
-definecolor{#1-ln}{HTML}{#6}%
+definecolor{#1-li}{HTML}{#6}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+definecolor{#1-ln}{HTML}{#7}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -1889,6 +1901,30 @@ vbgcolor{
 color{
 \backslash
 vbgcolorname}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vdecolorname{
+\backslash
+vcolorset-de}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+vdecolor{
+\backslash
+color{
+\backslash
+vdecolorname}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -2507,10 +2543,6 @@ lumsidebarnormal}
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2527,9 +2559,25 @@ rowcolor{
 vcolorset-bg}}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lcl{
+\backslash
+cellcolor{
+\backslash
+vcolorset-ln}}
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Flex IgnoreThis
 status open
 

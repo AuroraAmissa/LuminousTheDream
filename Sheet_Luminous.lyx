@@ -97,24 +97,52 @@ InsetLayout Flex:LumForm
   ResetsFont            true
 End
 
-InsetLayout Flex:TextFieldFill
+InsetLayout Flex:TextBeforeAfter
   LyXType               custom
   LatexType             command
   Decoration            classic
-  LatexName             TextFieldFill
-  LabelString           "TextFieldFill"
+  LatexName             TextBeforeAfter
+  LabelString           "TextBeforeAfter"
   Argument 1
-    MenuString          "PDF Form Parameters"
-    LabelString         "Params"
-    Tooltip             "Insert PDF form parameters here"
+    LabelString         "Before"
+    Mandatory           1
     AutoInsert          1
-    PassThruChars       "\[]{}"
+  EndArgument
+  Argument 2
+    LabelString         "After"
+    Mandatory           1
+    AutoInsert          1
   EndArgument
   LabelFont
     Color               magenta
     Size                Small
   EndFont
-  Requires	              hyperref
+End
+InsetLayout Flex:TextFieldBeforeAfter
+  LyXType               custom
+  LatexType             command
+  Decoration            classic
+  LatexName             TextFieldBeforeAfter
+  LabelString           "TextFieldBeforeAfter"
+  Argument 1
+    LabelString         "Params"
+    PassThruChars       "\[]{}"
+    Mandatory           1
+  EndArgument
+  Argument 2
+    LabelString         "Before"
+    Mandatory           1
+    AutoInsert          1
+  EndArgument
+  Argument 3
+    LabelString         "After"
+    Mandatory           1
+    AutoInsert          1
+  EndArgument
+  LabelFont
+    Color               magenta
+    Size                Small
+  EndFont
 End
 
 InsetLayout Flex:LumFormBar
@@ -138,9 +166,25 @@ End
 InsetLayout Flex:LumFormDot
   LyXType               custom
   Decoration            classic
-  LabelString           "O"
+  LabelString           "○"
   LatexType             command
   LatexName             lumformdot
+  ResetsFont            true
+End
+InsetLayout Flex:LumFormBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "◻"
+  LatexType             command
+  LatexName             lumformbox
+  ResetsFont            true
+End
+InsetLayout Flex:LumFormTrack
+  LyXType               custom
+  Decoration            classic
+  LabelString           "◻"
+  LatexType             command
+  LatexName             lumformtrack
   ResetsFont            true
 End
 InsetLayout Flex:LumFormDots
@@ -184,7 +228,7 @@ End
 \paperfontsize 10
 \spacing single
 \use_hyperref true
-\pdf_title "Luminous: the Dream"
+\pdf_title "Luminous Character Sheet (1 Page)"
 \pdf_author "AuroraAmissa"
 \pdf_subject "A Storytelling game of Distant Dreams"
 \pdf_bookmarks true
@@ -338,7 +382,11 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -352,8 +400,17 @@ Name:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -367,8 +424,17 @@ Player:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -382,8 +448,17 @@ Chronicle:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -397,8 +472,17 @@ Dream:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -412,8 +496,17 @@ Wish:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -427,8 +520,17 @@ Concept:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -442,8 +544,17 @@ Luminary:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -457,8 +568,17 @@ Archetype:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
-\begin_inset Flex TextFieldFill
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
@@ -482,14 +602,13 @@ Kingdom:
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex LumFormBar
-status open
+\end_inset
 
-\begin_layout Plain Layout
-Attributes
+
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset VSpace -7.5pt
 \end_inset
 
 
@@ -497,70 +616,70 @@ Attributes
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="11">
+<lyxtabular version="3" rows="1" columns="11">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0.775in">
-<column alignment="right" valignment="top" width="1.1in">
+<column alignment="right" valignment="top" width="0.773333in">
+<column alignment="right" valignment="top" width="0.14in">
+<column alignment="left" valignment="top" width="0.775in">
+<column alignment="right" valignment="top" width="0.773333in">
+<column alignment="right" valignment="top" width="0.14in">
+<column alignment="left" valignment="top" width="0.775in">
+<column alignment="right" valignment="top" width="0.773333in">
 <column alignment="left" valignment="middle" width="0.2in">
 <column alignment="left" valignment="top" width="0.775in">
-<column alignment="right" valignment="top" width="0.8in">
-<column alignment="right" valignment="top" width="0.1in">
-<column alignment="left" valignment="top" width="0.775in">
-<column alignment="right" valignment="top" width="0.8in">
-<column alignment="right" valignment="top" width="0.1in">
-<column alignment="left" valignment="top" width="0.775in">
-<column alignment="right" valignment="top" width="0.8in">
+<column alignment="right" valignment="top" width="1.1in">
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none" width="4.925in">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-Power
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+\begin_inset Flex LumFormBar
+status open
 
 \begin_layout Plain Layout
-\begin_inset Flex LumFormFillDots
-status collapsed
+Mundane Attributes
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
-
-\end_layout
-
+\begin_inset VSpace -22pt
 \end_inset
 
- 
-\begin_inset Flex LumFormDots
-status collapsed
+
+\end_layout
 
 \begin_layout Plain Layout
+\noindent
+\align left
+\begin_inset Flex Multiple Columns
+status open
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
-\begin_inset Text
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
+3
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
@@ -569,49 +688,14 @@ Intelligence
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Flex LumFormFillDots
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
 
 
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+\begin_inset Argument 2
+status open
 
 \begin_layout Plain Layout
 
 \series bold
-Strength
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 \begin_inset Flex LumFormFillDots
 status collapsed
 
@@ -625,35 +709,7 @@ status collapsed
 \end_layout
 
 \end_inset
-</cell>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Presence
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Flex LumFormFillDots
-status collapsed
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -662,60 +718,13 @@ status collapsed
 
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
 
 \begin_layout Plain Layout
-
-\series bold
-Finesse
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Flex LumFormFillDots
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Flex LumFormDots
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
@@ -724,11 +733,14 @@ Wits
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\begin_inset Argument 2
+status open
 
 \begin_layout Plain Layout
+
+\series bold
 \begin_inset Flex LumFormFillDots
 status collapsed
 
@@ -742,18 +754,112 @@ status collapsed
 \end_layout
 
 \end_inset
-</cell>
-<cell multirow="4" alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Resolve
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Flex LumFormFillDots
+status collapsed
 
 \begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Strength
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Flex LumFormFillDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
@@ -762,11 +868,14 @@ Dexterity
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\begin_inset Argument 2
+status open
 
 \begin_layout Plain Layout
+
+\series bold
 \begin_inset Flex LumFormFillDots
 status collapsed
 
@@ -780,18 +889,112 @@ status collapsed
 \end_layout
 
 \end_inset
-</cell>
-<cell multirow="4" alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Stamina
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Flex LumFormFillDots
+status collapsed
 
 \begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Presence
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Flex LumFormFillDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
@@ -800,11 +1003,14 @@ Manipulation
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\begin_inset Argument 2
+status open
 
 \begin_layout Plain Layout
+
+\series bold
 \begin_inset Flex LumFormFillDots
 status collapsed
 
@@ -818,24 +1024,185 @@ status collapsed
 \end_layout
 
 \end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Composure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Flex LumFormFillDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
 </cell>
-</row>
-<row>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\series bold
-Resistance
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none" width="1.875in">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Flex LumFormBar
+status open
+
+\begin_layout Plain Layout
+Dream Attributes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Power
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
 \begin_inset Flex LumFormFillDots
 status collapsed
 
@@ -859,32 +1226,49 @@ status collapsed
 \end_layout
 
 \end_inset
-</cell>
-<cell multirow="4" alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
 \series bold
-Resolve
+Finesse
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\begin_inset Argument 2
+status open
 
 \begin_layout Plain Layout
+
+\series bold
 \begin_inset Flex LumFormFillDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
 status collapsed
 
 \begin_layout Plain Layout
@@ -897,32 +1281,49 @@ status collapsed
 \end_layout
 
 \end_inset
-</cell>
-<cell multirow="4" alignment="right" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
 \begin_layout Plain Layout
 
 \series bold
-Stamina
+Resistance
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
+
+
+\begin_inset Argument 2
+status open
 
 \begin_layout Plain Layout
+
+\series bold
 \begin_inset Flex LumFormFillDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
 status collapsed
 
 \begin_layout Plain Layout
@@ -935,8 +1336,18 @@ status collapsed
 \end_layout
 
 \end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
 </cell>
-<cell multirow="4" alignment="right" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -945,25 +1356,4524 @@ status collapsed
 
 \end_inset
 </cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -24pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="2.25in">
+<column alignment="center" valignment="top" width="0.2in">
+<column alignment="center" valignment="top" width="4.55in">
+<row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Flex LumFormBar
+status open
+
+\begin_layout Plain Layout
+Mundane Skills
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \series bold
-Composure
+\begin_inset space \hfill{}
+\end_inset
+
+Mental
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Academics
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Computer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Crafts
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Investigation
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Medicine
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Occult
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Politics
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Science
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset space \hfill{}
+\end_inset
+
+Physical
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Athletics
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Brawl
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Drive
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Firearms
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Larceny
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Stealth
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Survival
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Weaponry
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset space \hfill{}
+\end_inset
+
+Social
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Animal Ken
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Empathy
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Expression
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Intimidation
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Persuasion
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Socialize
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Streetwise
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Subterfuge
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormBar
+status open
+
+\begin_layout Plain Layout
+Weaving Skills
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Force
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Flow
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Learn
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Lore
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Heart
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Resonate
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Shape
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Shade
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Flex LumFormFillDots
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormBar
+status open
+
+\begin_layout Plain Layout
+Other Traits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -22pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Flex Multiple Columns
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\series bold
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset space \hfill{}
+\end_inset
+
+Merits
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
 status collapsed
 
 \begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset space \hfill{}
+\end_inset
+
+Invocations
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset space \hfill{}
+\end_inset
+
+Domains
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset space \hfill{}
+\end_inset
+
+Regalia & Charms
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Intimacy
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Connected:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Strong:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Medium:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Aspirations
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\series bold
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Multiple Columns
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Reverie
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Willpower
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -24pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Hope
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Conditions
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Sensitivity
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Flicker:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Multiple Columns
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Beats:
+\series default
+ 
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormBox
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt, align=1
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Experiences:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormBar
+status open
+
+\begin_layout Plain Layout
+Mundane Form
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Health
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDot
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDot
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Multiple Columns
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Size:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Speed:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Defense:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Armor:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Initiative:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 6pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex LumFormBar
+status open
+
+\begin_layout Plain Layout
+Dream Form
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -10pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\series bold
+Dream Health
+\series default
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormDots
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex LumFormTrack
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex Multiple Columns
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Size:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Speed:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Defense:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Armor:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TextFieldBeforeAfter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+charsize=8pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Initiative:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -982,8 +5892,125 @@ status collapsed
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset VSpace -30pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
 \begin_layout Plain Layout
 
+
+\backslash
+raisebox{-19pt}[0pt][0pt]{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.4
+\noindent
+
+\series bold
+\size scriptsize
+Attributes:
+\series default
+
+\begin_inset space ~
+\end_inset
+
+5/4/3 + 8 Dream • 
+\series bold
+Skills:
+\series default
+ 11/7/4 (+3 Specialties) + 15 Weaving • 
+\series bold
+Abilities:
+\series default
+ 8 dots in Invocations, Regalia, Domains, or Charms • 
+\series bold
+Merits:
+\series default
+ 10 dots
+\series bold
+ Mundane
+\begin_inset space ~
+\end_inset
+
+Form:
+\series default
+ Health = Stamina + Size, Speed = 5 + Strength + Dexterity, Initiative =
+ Dexterity + Composure, Defense = (Lower of Wits or Dexterity) + Athletics
+ 
+\series bold
+Dream
+\begin_inset space ~
+\end_inset
+
+Form:
+\series default
+ Health = Resistance + Attribute Cap, Speed = 5 + Power + Finesse, Initiative
+ = Finesse + Resistance, Defense = (Lower of Resistance and Finesse)
+\begin_inset space ~
+\end_inset
+
++
+\series bold
+
+\begin_inset space ~
+\end_inset
+
+
+\series default
+Flow 
+\series bold
+Shared:
+\series default
+ Reverie = 1 (+1 per 5 merit dots), Willpower = Resistance + Finesse, Hope
+ = Resistance + Power
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset

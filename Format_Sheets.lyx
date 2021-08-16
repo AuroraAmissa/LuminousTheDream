@@ -96,24 +96,52 @@ InsetLayout Flex:LumForm
   ResetsFont            true
 End
 
-InsetLayout Flex:TextFieldFill
+InsetLayout Flex:TextBeforeAfter
   LyXType               custom
   LatexType             command
   Decoration            classic
-  LatexName             TextFieldFill
-  LabelString           "TextFieldFill"
+  LatexName             TextBeforeAfter
+  LabelString           "TextBeforeAfter"
   Argument 1
-    MenuString          "PDF Form Parameters"
-    LabelString         "Params"
-    Tooltip             "Insert PDF form parameters here"
+    LabelString         "Before"
+    Mandatory           1
     AutoInsert          1
-    PassThruChars       "\[]{}"
+  EndArgument
+  Argument 2
+    LabelString         "After"
+    Mandatory           1
+    AutoInsert          1
   EndArgument
   LabelFont
     Color               magenta
     Size                Small
   EndFont
-  Requires	              hyperref
+End
+InsetLayout Flex:TextFieldBeforeAfter
+  LyXType               custom
+  LatexType             command
+  Decoration            classic
+  LatexName             TextFieldBeforeAfter
+  LabelString           "TextFieldBeforeAfter"
+  Argument 1
+    LabelString         "Params"
+    PassThruChars       "\[]{}"
+    Mandatory           1
+  EndArgument
+  Argument 2
+    LabelString         "Before"
+    Mandatory           1
+    AutoInsert          1
+  EndArgument
+  Argument 3
+    LabelString         "After"
+    Mandatory           1
+    AutoInsert          1
+  EndArgument
+  LabelFont
+    Color               magenta
+    Size                Small
+  EndFont
 End
 
 InsetLayout Flex:LumFormBar
@@ -137,9 +165,25 @@ End
 InsetLayout Flex:LumFormDot
   LyXType               custom
   Decoration            classic
-  LabelString           "O"
+  LabelString           "○"
   LatexType             command
   LatexName             lumformdot
+  ResetsFont            true
+End
+InsetLayout Flex:LumFormBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "◻"
+  LatexType             command
+  LatexName             lumformbox
+  ResetsFont            true
+End
+InsetLayout Flex:LumFormTrack
+  LyXType               custom
+  Decoration            classic
+  LabelString           "◻"
+  LatexType             command
+  LatexName             lumformtrack
   ResetsFont            true
 End
 InsetLayout Flex:LumFormDots
@@ -473,6 +517,151 @@ Fld@additionalactions
 
 
 \backslash
+def
+\backslash
+PDFForm@Text{%
+\end_layout
+
+\begin_layout Plain Layout
+
+  /Subtype/Widget%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+Fld@annotflags
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+Fld@pageobjref
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+Fld@annotnames
+\end_layout
+
+\begin_layout Plain Layout
+
+  /FT/Tx%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+Fld@flags
+\end_layout
+
+\begin_layout Plain Layout
+
+  /Q 
+\backslash
+Fld@align
+\end_layout
+
+\begin_layout Plain Layout
+
+  /BS<</W 
+\backslash
+Fld@borderwidth
+\backslash
+space /S /
+\backslash
+Fld@borderstyle>>%
+\end_layout
+
+\begin_layout Plain Layout
+
+  % Do not generate rotation, bordercolor, or background color
+\end_layout
+
+\begin_layout Plain Layout
+
+  /DA(/Helv 
+\backslash
+strip@pt
+\backslash
+Fld@charsize
+\backslash
+space Tf%
+\end_layout
+
+\begin_layout Plain Layout
+
+      
+\backslash
+ifx
+\backslash
+Fld@color
+\backslash
+@empty
+\backslash
+else
+\backslash
+space
+\backslash
+Fld@color
+\backslash
+fi)%
+\end_layout
+
+\begin_layout Plain Layout
+
+  /DV(
+\backslash
+Hy@escapestring{
+\backslash
+Fld@default})%
+\end_layout
+
+\begin_layout Plain Layout
+
+  /V(
+\backslash
+Hy@escapestring{
+\backslash
+Fld@value})%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+Fld@additionalactions
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+ifnum
+\backslash
+Fld@maxlen>
+\backslash
+z@/MaxLen 
+\backslash
+Fld@maxlen 
+\backslash
+fi
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 makeatother
 \end_layout
 
@@ -503,9 +692,31 @@ TextFieldLength
 
 
 \backslash
+newlength
+\backslash
+tfbagap
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength
+\backslash
+tfbagap{3pt}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 newcommand
 \backslash
-TextFieldFill[2][]{%
+TextBeforeAfter[3]{%
 \end_layout
 
 \begin_layout Plain Layout
@@ -525,7 +736,7 @@ linewidth}%
 \backslash
 settowidth{
 \backslash
-dimen0}{#2 }%
+dimen0}{#1}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -543,20 +754,209 @@ dimen0}%
 
 	
 \backslash
-addtolength
+settowidth{
 \backslash
-TextFieldLength{-1em}%
+dimen0}{#2}%
 \end_layout
 
 \begin_layout Plain Layout
 
 	
 \backslash
+addtolength
+\backslash
+TextFieldLength{-
+\backslash
+dimen0}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+raisebox{0pt}[9pt]{#1}
+\backslash
+hspace{
+\backslash
+TextFieldLength}
+\backslash
+raisebox{0pt}[9pt]{#2}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+TextFieldBeforeAfter[4]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+setlength
+\backslash
+TextFieldLength{
+\backslash
+linewidth}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+ifstrempty{#2}{}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+settowidth{
+\backslash
+dimen0}{#2}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+addtolength
+\backslash
+TextFieldLength{-
+\backslash
+dimen0}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+addtolength
+\backslash
+TextFieldLength{-
+\backslash
+tfbagap}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+raisebox{0pt}[9pt]{#2}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hspace{
+\backslash
+tfbagap}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+ifstrempty{#3}{}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+settowidth{
+\backslash
+dimen0}{#3}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+addtolength
+\backslash
+TextFieldLength{-
+\backslash
+dimen0}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+addtolength
+\backslash
+TextFieldLength{-
+\backslash
+tfbagap}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+raisebox{-3pt}[9pt]{
+\backslash
 TextField[#1,width=
 \backslash
-TextFieldLength]{
+TextFieldLength]{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
 \backslash
-raisebox{3pt}{#2 }}%
+llap{
+\backslash
+raisebox{1pt}[9pt]{
+\backslash
+underline{
+\backslash
+hspace{
+\backslash
+TextFieldLength}}}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+ifstrempty{#3}{}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hspace{
+\backslash
+tfbagap}
+\backslash
+raisebox{0pt}[9pt]{#3}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -623,7 +1023,7 @@ selectfont{#1}} }}
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace -7.5pt
+\begin_inset VSpace -8pt
 \end_inset
 
 
@@ -747,16 +1147,10 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset VSpace 3.5pt
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -764,7 +1158,7 @@ status open
 
 
 \backslash
-raisebox{1.5ex}{%
+raisebox{1.5ex}[14pt]{%
 \end_layout
 
 \begin_layout Plain Layout
@@ -791,7 +1185,7 @@ vlncolor{%
 
 		
 \backslash
-hspace{5pt}
+hspace{3.5pt}
 \backslash
 hrulefill
 \backslash
@@ -813,7 +1207,7 @@ hspace{10pt}
 \backslash
 hrulefill
 \backslash
-hspace{5pt}%
+hspace{3.5pt}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -829,9 +1223,6 @@ hspace{5pt}%
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset VSpace -2.5pt
 \end_inset
 
@@ -942,6 +1333,190 @@ status open
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex NewCommand
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\backslash
+lumformbox
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+raisebox{0.5pt}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex CheckBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+checkboxsymbol=
+\backslash
+ding{110}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+llap{
+\backslash
+large
+\backslash
+tt{}◻}
+\backslash
+hspace{0.225pt}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newlength
+\backslash
+lumformdotalign
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+lumformtrack[1]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+settowidth
+\backslash
+lumformdotalign{
+\backslash
+lumformdot{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+raisebox{0.5pt}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+hspace{
+\backslash
+lumformdotalign}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+llap{
+\backslash
+raisebox{-1pt}{
+\backslash
+TextField[height=8pt, width=8pt, charsize=6.5pt,align=1]{}}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+llap{
+\backslash
+Large
+\backslash
+tt{}◻}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	}%
+\end_layout
+
+\begin_layout Plain Layout
+
+}
 \end_layout
 
 \end_inset
