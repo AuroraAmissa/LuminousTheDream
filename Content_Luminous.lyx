@@ -251,11 +251,8 @@ Luminous: the Dream
  by White Wolf Publishing.
  Players take on the role of magical girls or boys who dream of a better
  future for all.
- Who found themselves wielding the power of dreams against malign magical
+ Who find themselves wielding the power of dreams against malign magical
  forces and the mundane cruelties of the world alike.
- Because they know they can make a difference.
- And as long as they can make a difference, they couldn't forgive themselves
- if they didn't at least try.
 \end_layout
 
 \begin_layout Standard
@@ -463,9 +460,18 @@ Hanako, who taught me the way of the dark magical girl.
 \end_layout
 
 \begin_layout Itemize
-Xelsius, TrueMrMultiverse, WillOfTheWinds, and MushroomBadger who each helped
- immensely with their feedback and suggestions for Archetypes and similar
- details.
+Xelsius, who has been a consistent source of feedback and encourgement throughou
+t the project.
+\end_layout
+
+\begin_layout Itemize
+MushromBadger whose work on Beloved showed many alternative ways of how
+ something like what I am doing could be done.
+\end_layout
+
+\begin_layout Itemize
+TrueMrMultiverse, WillOfTheWinds, and all the others who helped immensely
+ with their feedback and suggestions for Archetypes and similar details.
 \end_layout
 
 \begin_layout Standard
@@ -491,8 +497,8 @@ Princess: the Hopeful
 \shape default
 \emph default
  before it diverged greatly later on in development.
- Some of its core concepts still survive in the Luminous splat.
- That collaboration, in many ways, paved the way for systems like this.
+ Even if few traces of it remain in Luminous, Princess still paved the way
+ for fanworks like this.
 \end_layout
 
 \begin_layout Itemize
@@ -510,6 +516,19 @@ Changeling: the Dreaming
 \end_layout
 
 \begin_layout Itemize
+The 
+\series bold
+Exalted 2e
+\series default
+ sourcebook, 
+\series bold
+Graceful Wicked Masques
+\series default
+, despite its very different theme, was an ample source of inspiration as
+ to how to present the Astral/Dream in a way befitting its nature.
+\end_layout
+
+\begin_layout Itemize
 
 \series bold
 \shape italic
@@ -521,7 +540,8 @@ Chronicles of Darkness
 \shape default
 and all its splats shine as a bright example as to what tabletop can be.
  There is much to learn from their authors and their works for most game
- designers.
+ designers, and how they improved on its earlier editions.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -982,11 +1002,56 @@ And that...
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float table
+placement b
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex ContentWarning
+status open
+
+\begin_layout Section
+Content Warning
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+printcw
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
 \begin_layout Section
 Setting
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -1015,39 +1080,48 @@ hyperref[chap:Foreword]{foreword}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Luminous: the Dream
 \series default
- is a game about those who dream of a better future inspired by the 
-\shape italic
-mahou shoujo
-\shape default
- (or magical girl) genre of Japanese anime and manga.
- It is set in the Chronicles of Darkness, a world much like our own only
- touched by alien wonders and terrors alike.
- This story is not truly about those horrors.
- It is about humanity, and the one power we can truly call our own.
- Our shining will to change the world.
- A will that blossomed into a force that could only be called magic.
+ is a roleplaying game inspired by the mahou shoujo (or magical girl) genre
+ of anime and manga, about a world caught between bleak mundanity and terrifying
+ supernatural horrors.
 \end_layout
 
-\begin_layout Standard
-In this game, you play a Luminous, one of the shining souls that wields
- the power of the Dream.
- Those like you were hidden, shining dimly through so much of history.
- ...
- but shine they did.
- Writing into the untold margins of history, they built the legacy you now
- inherent.
- When you Blossomed, you awoke to the world of dreams they hid deep beyond
- the veil of sleep.
- Drawing on that grand Dream, you found a magic you just maybe could truly
- change the world with.
+\begin_layout Plain Layout
+Humanity lost the will to believe long ago.
+ They are afraid to dream for what they may lose.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+Luminous are the shining souls that refuse to believe that it is how it
+ must be.
+ Each once Realized the power they held in their hearts in a fleeting moment,
+ embracing their dreams and bonds with all their might.
+ In the eternal waking dream that follows, they fight in the names of the
+ wonders they know exist.
+\end_layout
+
+\begin_layout Plain Layout
+Even in a monochrome world, there are those who see a different path.
+ They build beautiful gardens, wrote stories from their deepest heart.
+ They hold those they loved close, and give them a place to call home.
+\end_layout
+
+\begin_layout Plain Layout
+Even among the terrors of night, there are those who shine like stars.
+ The fae who protect each other more than anything, those Bound who seek
+ to change death itself.
+\end_layout
+
+\begin_layout Plain Layout
+there were always those who shined brighter.
+ The fae who hold 
+\end_layout
+
+\begin_layout Plain Layout
 It will not be easy.
  The world has always been an unkind place.
  Generations of darkness scar the heart of humanity.
@@ -1059,7 +1133,7 @@ It will not be easy.
  in just the same way.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Glimmers of light shine through that long and dark night.
  We had created so many wonders over the generations, and they simply accumulate.
  Even if the scars remain, so many of the problems that once plagued humanity
@@ -1069,14 +1143,14 @@ Glimmers of light shine through that long and dark night.
  For the first time, people could see that nobody is truly alone.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 So many more people saw a bright future ahead, dreaming once more.
  So many more people saw more reason to fear what was to come.
  Now, if ever...
  is the time to make a difference.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -1130,7 +1204,6 @@ Even if they are not inhuman, they are still outsiders.
 belong
 \emph default
 .
- 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1138,35 +1211,6 @@ That is a luxury for people who can stop caring.
  For people who can cut away their rough edges to fit into a sea of gray.
  For those who can ignore the pains of generations to just maybe live a
  little...
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex ContentWarning
-status open
-
-\begin_layout Section
-Content Warning
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-printcw
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -1182,7 +1226,7 @@ Themes
 Distant Dreams
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 At its heart, 
 \series bold
 Luminous: the Dream
@@ -1195,7 +1239,7 @@ Luminous: the Dream
  She can rescue the boy she loves.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 But even with their shining magic, they may only do so much on their own.
  They can only win when a hundred million small victories one day add up
  into something greater.
@@ -1203,7 +1247,7 @@ But even with their shining magic, they may only do so much on their own.
  future, still trapped faraway behind the veil of sleep.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -1243,7 +1287,6 @@ Dream
 \end_inset
 
  means a lot of different things, and that is intentional.
- 
 \end_layout
 
 \begin_layout Plain Layout
@@ -1278,14 +1321,14 @@ dream
 Longing and Scars
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 At the edges of their shared Dream, Luminous see so many remnants of a lost
  things, of worlds that once were.
  The scars linger, older than humanity's earliest memories.
  We don't remember why, but the pain remains.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Through the generations, that dark legacy scarred us.
  Parents teach their children to be afraid, that dreaming too bright is
  dangerous.
@@ -1295,13 +1338,13 @@ Through the generations, that dark legacy scarred us.
  Survival was the name of the game from the beginning.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous dream of better, because something stubborn in them cannot accept
  a world like that – and it was that spark that drove them to Blossom in
  the first place.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -1333,7 +1376,7 @@ It's a story about what humanity has built too, what we have done in the
 A Turning Point
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Humanity's story has been anything but static.
  The Luminous built their Dream in secret, as the world changed around them.
  There was a time before any Luminous knew how to veil their two forms in
@@ -1342,7 +1385,7 @@ Humanity's story has been anything but static.
  Perhaps for the first time in history, they see a way they can win.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The world stands on a precipice that cannot be backed away from.
  The same technologies and ideas that entrench the fears and greed of those
  in power empower those who hope.
@@ -1353,7 +1396,7 @@ The world stands on a precipice that cannot be backed away from.
  something could change this time.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -1388,7 +1431,7 @@ Media
 Senki Zesshou Symphogear
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Symphogear follows the story of Hibiki, an ordinary girl who ends up bound
  to an ancient relic that allowed her to transform and fight the Noise that
  plagued the noise with the power of song.
@@ -1398,7 +1441,7 @@ Symphogear follows the story of Hibiki, an ordinary girl who ends up bound
  About the scars of the past, and what must be done to heal them.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Even in the heart of darkness, Hibiki refuses to give up.
  She stays strong in her belief in the ability to reach to the heart, always
  fighting both physical battles and against people's own despair.
@@ -1410,7 +1453,7 @@ Even in the heart of darkness, Hibiki refuses to give up.
 Magia Record: Puella Magi Madoka Magica Side Story
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The original anime, Puella Magi Madoka Magica, is already resonant with
  the themes of Luminous.
  For all it is praised for its dark themes, at its heart, Madoka Magica
@@ -1420,7 +1463,7 @@ The original anime, Puella Magi Madoka Magica, is already resonant with
  of hope Luminous stand for.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Magia Record, then, pivots the focus more to the human responses to the
  woes of magic in a dark world.
  It, to some extant, embraces the story that always existed under the original's
@@ -1437,7 +1480,7 @@ Magia Record, then, pivots the focus more to the human responses to the
 The Lego Movie 2: The Second Part
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Whereas the first movie focused on creativity and freedom, the second discusses
  true maturity.
  It shows that growing up doesn’t mean that the things you believed in when
@@ -1449,6 +1492,11 @@ Whereas the first movie focused on creativity and freedom, the second discusses
  But it isn't true.
  The song Everything’s Not Awesome summarizes it all fairly well.
  
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -5281,6 +5329,30 @@ The highest possible Luminous trait cap is 15, not 10.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+tc[1]{
+\backslash
+raisebox{0pt}[0pt]{
+\backslash
+hspace{0.75em}
+\backslash
+llap{-#1}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 placement tbh
 wide false
@@ -5292,18 +5364,19 @@ status open
 <lyxtabular version="3" rows="11" columns="8">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="bottom" width="0.5in">
-<column alignment="left" valignment="bottom" width="0.5in">
-<column alignment="left" valignment="bottom" width="0.713333in">
-<column alignment="left" valignment="bottom" width="0.713333in">
-<column alignment="left" valignment="bottom" width="0.713333in">
-<column alignment="left" valignment="bottom" width="0.713333in">
-<column alignment="left" valignment="bottom" width="0.713333in">
-<column alignment="left" valignment="bottom" width="1.1in">
+<column alignment="left" valignment="bottom" width="0.4in">
+<column alignment="left" valignment="bottom" width="0.726667in">
+<column alignment="left" valignment="bottom" width="0.726667in">
+<column alignment="left" valignment="bottom" width="0.726667in">
+<column alignment="left" valignment="bottom" width="0.726667in">
+<column alignment="left" valignment="bottom" width="0.726667in">
+<column alignment="left" valignment="bottom" width="1.3in">
 <row>
 <cell alignment="left" valignment="bottom" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
 
 \series bold
 Reverie
@@ -5311,10 +5384,11 @@ Reverie
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="bottom" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
 
 \series bold
 Rank
@@ -5326,20 +5400,10 @@ Rank
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
 
 \series bold
 Max Dream Attribute
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Weaving Skill Cap
 \end_layout
 
 \end_inset
@@ -5348,6 +5412,30 @@ Weaving Skill Cap
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
+
+\series bold
+Weaving Skill Cap
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Max Active Luminance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
 
 \series bold
 Mote Pool
@@ -5359,6 +5447,7 @@ Mote Pool
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
 
 \series bold
 Base
@@ -5374,19 +5463,13 @@ Sensitivity
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
 
 \series bold
-Flicker Intensity
-\end_layout
-
+Flicker Duration /
+\begin_inset Newline newline
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\series bold
 Flicker Trigger
 \end_layout
 
@@ -5394,7 +5477,7 @@ Flicker Trigger
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5415,7 +5498,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5424,7 +5507,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5433,7 +5516,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5442,7 +5525,16 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5451,7 +5543,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5460,27 +5552,30 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--1
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{1}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Transformation
+ / Transformation
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5489,7 +5584,7 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5498,7 +5593,7 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5507,7 +5602,7 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5516,7 +5611,16 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5525,7 +5629,7 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5534,27 +5638,30 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--1
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{1}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Transformation
+ / Transformation
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5575,7 +5682,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5584,7 +5691,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5593,7 +5700,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5602,72 +5709,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Transformation
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5676,16 +5718,16 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-5
+4
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5694,27 +5736,7 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Transformation
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5725,17 +5747,19 @@ status open
 
 
 \backslash
-crw
+tc{1}
 \end_layout
 
 \end_inset
 
-5
+ / Transformation
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5744,34 +5768,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5780,54 +5777,25 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--2
+7
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Transformation
+9
 \end_layout
 
 \end_inset
 </cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5836,16 +5804,114 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+5
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{2}
+\end_layout
+
+\end_inset
+
+ / Transformation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+crw
+\end_layout
+
+\end_inset
+
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5854,27 +5920,116 @@ Transformation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--2
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{2}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Dreams
+ / Transformation
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{2}
+\end_layout
+
+\end_inset
+
+ / Dreams
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5895,7 +6050,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5904,7 +6059,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5913,7 +6068,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5922,7 +6077,16 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5931,7 +6095,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5940,27 +6104,30 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{3}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Dreams
+ / Dreams
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5969,7 +6136,7 @@ Dreams
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5978,7 +6145,7 @@ Dreams
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5987,7 +6154,7 @@ Dreams
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5996,7 +6163,16 @@ Dreams
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6005,7 +6181,7 @@ Dreams
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6014,27 +6190,30 @@ Dreams
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{3}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Dreams
+ / Dreams
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6055,7 +6234,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6064,7 +6243,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6073,7 +6252,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6082,7 +6261,16 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6091,7 +6279,7 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6100,27 +6288,30 @@ crw
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{3}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Constant
+ / Constant (-1)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6129,7 +6320,7 @@ Constant
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6138,7 +6329,7 @@ Constant
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6147,7 +6338,7 @@ Constant
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6156,7 +6347,16 @@ Constant
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unlimited
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6165,7 +6365,7 @@ Constant
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6174,20 +6374,23 @@ Constant
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--4
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tc{4}
 \end_layout
 
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-Constant
+ / Constant (-2)
 \end_layout
 
 \end_inset
@@ -6922,6 +7125,19 @@ Standard ephemeral rules.
 
 \begin_layout Subsection
 Weaving Actions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Move this to chapter 4.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8265,6 +8481,19 @@ Innate Regalia (••)
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: How do I do this?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \series bold
 Effect:
@@ -8335,13 +8564,26 @@ Silent Aria (••)
 \series bold
 Effect:
 \series default
- Your character may hide their Aria in different forms of communication.
- This is not obviously supernatural, and allows her to weave her Aria into
- written media.
+ Your character may hide their Aria in different forms of communication,
+ such as a text message, spoken sentence, or piano song.
+ This is not obviously supernatural, unlike Aria normally.
 \end_layout
 
 \begin_layout Subsubsection*
 Tomoyo's Touch (•) 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: How do I do this?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -8485,6 +8727,19 @@ Clash of Wills
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Update Clash of Wills for new power structure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Sometimes, opposing supernatural beings will use their powers in ways where
  both can't succeed at the same time and it isn't clear which ability should
  trump another.
@@ -8512,6 +8767,323 @@ Characters may spend Willpower to bolster the contested roll, but only if
  Day-long effects add one die to the clash roll, week-long effects add two,
  month-long three, and effects that could last a year or longer add four.
  
+\end_layout
+
+\begin_layout Section
+Evocations
+\end_layout
+
+\begin_layout Standard
+The Dream is woven of the light of all of humanity.
+ Memories, emotion and stories melded together into a single unimaginable
+ world.
+ Through their Evocations, the Luminous draw a small thread of its light
+ into the waking world, overturning its laws with those of the Dream.
+ For an ephemeral moment, the stories and hope they see in their dreams
+ may exist in their waking life too.
+\end_layout
+
+\begin_layout Standard
+Even if they aren't truly real as the powers of other supernatural beings,
+ those fleeting moments are all the Luminous need, in the end.
+ The stories they layer over the waking world allow them to do impossible
+ things still, even if all traces of their magic fade back into illusion
+ when all is done.
+\end_layout
+
+\begin_layout Subsection
+Creating Evocations
+\end_layout
+
+\begin_layout Standard
+Evocations are woven out of the 
+\end_layout
+
+\begin_layout Subsubsection*
+Passive Evoking
+\end_layout
+
+\begin_layout Subsubsection*
+Active Evoking
+\end_layout
+
+\begin_layout Subsection
+Transience
+\end_layout
+
+\begin_layout Standard
+Evocations, and all their direct effects upon the world are a story.
+ Stories bright enough to overturn the world's law for a moment, perhaps,
+ but stories nevertheless.
+ When they fade, all their direct disappear as if they were never cast.
+ Videos of the magic fade as if nothing happened – leaving only the barest
+ traces superimposed as if pasted on top to explain truly impossible actions.
+ Even wounds and apparent death caused by a Luminous' magic fades like a
+ dream when all is said and done.
+\end_layout
+
+\begin_layout Standard
+An Evocation automatically fades at the end of the Scene in which it were
+ cast, and may be ended prematurely by its caster by spending a Willpower.
+\end_layout
+
+\begin_layout Standard
+Only a precious few of an Evocation's effects can remain when it ends.
+ Memories of the event, and any mental changes created by them are not affected.
+ Nor are effects wrought upon a Luminous' Dream Form or other Dreamborn
+ – as they were never real in the first place.
+ Otherwise, to make permanent changes, the Luminous must confirm her magic
+ with mundane action – after all, those are still 
+\emph on
+real
+\emph default
+ to the waking world, even if they were only possible because of an illusion.
+\end_layout
+
+\begin_layout Standard
+Though a Luminous couldn't simply banish toxins from the soil, she could
+ collect them into a pool with her magic, then collect them in a bottle.
+ She couldn't teleport the items out of a safe, but she could blow off the
+ door and simply carry them off.
+ And well...
+ when words fail and fights break out, she may ensure her opponent stays
+ dead as any mortal may.
+\end_layout
+
+\begin_layout Section
+Charms
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write updated Charms section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ideal List
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Subsection
+Rosa
+\end_layout
+
+\begin_layout Plain Layout
+Rosa is the 
+\end_layout
+
+\begin_layout Subsection
+Prisma
+\end_layout
+
+\begin_layout Plain Layout
+Prisma is the Ideal of Ildathach, born out of the will to outshine the world
+ itself, the shining light of one's innermost truths.
+ It encourages those who follow it to never hide their true dreams, and
+ shine as brightly as they can without compromise.
+\end_layout
+
+\begin_layout Subsubsection*
+Colors (•)
+\end_layout
+
+\begin_layout Plain Layout
+Prisma asks its wielders to never forget how every person and everything
+ are special at their core.
+ No matter how much the world tries to bury their colors, they could always
+ be reawakened.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Luminance -:
+\series default
+ Colors allows a Luminous to manipulate literal color and summon a colorful
+ prismatic light with Elements.
+ This can be used to light dark spaces, inflict the Blinded tilt [CofD 281],
+ or similar effects.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Luminance •:
+\series default
+ Prisma may be Evoked to draw on the best qualities of things.
+\end_layout
+
+\begin_layout Subsubsection*
+Radiance (••)
+\end_layout
+
+\begin_layout Subsubsection*
+Names (•••)
+\end_layout
+
+\begin_layout Plain Layout
+The Dream describes all things someone or something is through its Name.
+ The Sidhe may reverse that relationship, changing a name to change what
+ it names.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Controlling Skill:
+\series default
+ Heart
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+1 Success:
+\series default
+ Change a single property of the target temporarily.
+ A knife may become dull, or a tree branch sharp enough to pierce skin.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+2+ Successes:
+\series default
+ Replace the target's Name with another.
+ Anyone who interacts or sees it does not recognize it as anything other
+ than what it is named for, even if its properties are completely different.
+ A pencil made into a calculator is clearly broken, a person made into a
+ slob is still avoided by her peers.
+\end_layout
+
+\begin_layout Plain Layout
+Anyone who experiences this discrepancy may make an Intelligence + Wits
+ check to pierce the illusion.
+ Each additional success invested into this effect inflicts a penalty of
+ -2 onto that check.
+\end_layout
+
+\begin_layout Subsubsection*
+Change (•••)
+\end_layout
+
+\begin_layout Subsubsection*
+Defiance (••••)
+\end_layout
+
+\begin_layout Subsubsection*
+Creation (•••••)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Domain List
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Subsection
+Elements
+\end_layout
+
+\begin_layout Plain Layout
+This Domain allow Luminous to shape the world around them.
+ Rather than dividing the world into individual objects or other pieces,
+ Elements shapes the world at the level of materials and substances.
+\end_layout
+
+\begin_layout Plain Layout
+With it, Luminous may cause the wood of doors or neat gardens to grow wildly
+ to entangle someone, or lash out against someone with a whip of water.
+\end_layout
+
+\begin_layout Plain Layout
+Self-willed beings do not fall under the domain of Elements.
+ To the Dream, they are something more than simple matter, defining the
+ world rather than being defined by it.
+\end_layout
+
+\begin_layout Subsubsection*
+Elemental Weaving (•)
+\end_layout
+
+\begin_layout Plain Layout
+The Luminous touches the elements around her, wielding them alongside her
+ Weaving.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Controlling Attribute:
+\series default
+ Finesse
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+1+ Successes:
+\series default
+ Your character maintains control of an amount of the substance, using it
+ as a tool.
+ This provides a +1 equipment bonus to further Weaving Actions, and can
+ serve as
+\end_layout
+
+\begin_layout Plain Layout
+This requires she have an element able to control the physical element being
+ manipulated, rather than an abstract property of it.
+\end_layout
+
+\begin_layout Subsection
+Forms
+\end_layout
+
+\begin_layout Plain Layout
+This Domain allows the Luminous to shape the bodies and forms of any self-willed
+ being, weaving the magic of the Dream into them.
+\end_layout
+
+\begin_layout Plain Layout
+With it, Luminous may transform themselves into mermaids to explore the
+ seas, or grow wings of light to explore the skies.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8814,54 +9386,6 @@ Effects:
  She uses the vehicle rules to move [CofD 98-99].
  Her safe speed is [Power + Finesse + Flow] * 15 and in crashes, she always
  counts as the light object.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Domains
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write this section.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Charms
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Write this section.
 \end_layout
 
 \end_inset
@@ -9678,7 +10202,7 @@ Little things like this make crossover games far more interesting and fun,
 status open
 
 \begin_layout Chapter
-Chapter 5: Colors of the Sky
+Chapter 5: Stars in the Sky
 \end_layout
 
 \begin_layout Plain Layout
@@ -9857,6 +10381,107 @@ status open
 This is just Beast/Changeling/Mage's Dream Form, of course.
  Standard mechanic, but explained in terms of the Luminous Dream Form in
  this system due to how central it is for the main splat.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dream Combat
+\end_layout
+
+\begin_layout Standard
+The Dream is not quite a peaceful place.
+ Conflict happens in every world, for better or worse.
+ ...
+ and, just like in the waking world, sometimes there is no option but to
+ force your way through another.
+\end_layout
+
+\begin_layout Standard
+You could fight in a dream the same way you do in reality.
+ You pull out a sword, slicing away at your opponent's (dream) flesh.
+ But...
+ a Luminous sees deeper by nature.
+ After all, she is in part a native of the Dream.
+ A sword is mere a symbol for imposing one's will on another.
+ The wounds the sword inflicts are an unmistakable mark of your will on
+ another – they cannot simply imagine it away, because they were not the
+ one to imagine it in the first place.
+\end_layout
+
+\begin_layout Standard
+Instead of a sword, a Luminous could wield a cutting argument, imposing
+ on her target's mind in a way that reaches beyond mundane persuasion.
+ She could weave a story of an party all too loud for the introvert, forcing
+ them to retreat.
+ A dream weapon only has to be a reflection of one's will, and the wounds
+ it inflicts any mark that cannot simply be imagined away.
+\end_layout
+
+\begin_layout Standard
+That is the heart of dream combat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+It always felt weird to me that dream combat in Mt:Aw mostly boiled down
+ to the same as physical combat.
+ Changeling is better with Shifts and such mechanics, by far.
+\end_layout
+
+\begin_layout Plain Layout
+In my case, I'm using mechanics inspired by Shaping Combat in the Graceful
+ Wicked Masques splatbook for Exalted 2e and to a latter extent how combat
+ flows in Exalted 3e.
+ So, I suppose, this is the part where I go full Jenna Moran.
+ Compared to that system, this is simplified and more abstract, but it is
+ still the core inspiration.
+\end_layout
+
+\begin_layout Plain Layout
+Dream combat isn't brutal like combat in the waking world, but that doesn't
+ mean it isn't scary in its own ways.
+ After all, your soul is laid bare to your opponent's will should you fail.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Intent
+\end_layout
+
+\begin_layout Standard
+In dream combat, intent doesn't simply give focus to why a fight is happening
+ – it is the fundamental basis of the world itself.
+ When someone resorts to force in the Dream, they initiate Dream Combat,
+ and all participants must declare their Intent.
+ Intent determines their win condition, and the kind of story they must
+ tell to achieve it.
+\end_layout
+
+\begin_layout Standard
+If you wish to destroy a Goetia you don't like, you're probably limited
+ to a story of violence of one sort or another.
+ If you simply want to get past a door guard unharmed, you have far more
+ options.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: aaaa.
 \end_layout
 
 \end_inset
@@ -10949,16 +11574,38 @@ Maou: the Lineage
 status open
 
 \begin_layout Plain Layout
-\begin_inset Flex TODO Note (inline)
-status open
+\noindent
+\align center
+When the finger points to the
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Plain Layout
-TODO: Maou front page quote.
-\end_layout
+yonder moon, 
+\begin_inset Newline newline
+\end_inset
 
+The fool will look at the fingertip.
+ 
+\emph on
+
+\begin_inset Newline newline
 \end_inset
 
 
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+Epitaph of Twilight, 
+\series bold
+.hack//MUTATION
 \end_layout
 
 \end_inset
@@ -11739,80 +12386,126 @@ name "chap:Chapter-1:-Crossing"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
 The World of Darkness is filled with all kinds of supernatural beings, all
  with their own stories and paths.
- Luminous and Maou alike often cross paths with them in the course of their
- duties and explorations.
- This chapter provides guidelines for how they would tend to interact, and
- rules clarifications when the powers of other beings may interfere with
- those of the Willful.
+ Luminous often cross paths with them in the course of their duties and
+ explorations.
+ This chapter provides guidelines on Luminous crossover campaigns.
 \end_layout
 
 \begin_layout Section
-Beast: the Primordial
+Beast
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Plain Layout
+Luminous and the Begotten are at once all too similar, and all too different.
+ Both are native to the Dream in their own ways, one from the bright dreams
+ of humanity and the other from their deepest fears.
+\end_layout
+
+\begin_layout Plain Layout
+Their fundamental natures too often put them at odds with each other, regardless
+ of their will or what they want.
+ A Luminous' ties to the Dream cause her to feel the emotions of the community
+ and those around her as deeply as if they were her own, and yet a Beast
+ must fill it with fear in order to survive, driven by their own Hunger.
+\end_layout
+
+\begin_layout Plain Layout
+Few beasts can (or often want to) feed in a way that don't hurt the Luminous.
+ They can rarely avoid each other forever, and their powers inevitably draw
+ them together.
+\end_layout
+
+\begin_layout Plain Layout
+...
+ and as much as both have powers that connect people, it rarely can truly
+ overcome that incompatibility.
+ Most Beasts see the Luminous as another kind of Hero, and Luminous see
+ the Begotten as another kind of Distorted.
+ This barrier is not insurmountable, by any means – but their relationship
+ is defined by high highs and low lows.
+\end_layout
+
+\begin_layout Subsection
+Chronicles
+\end_layout
+
+\begin_layout Plain Layout
+Luminous and Beast share a fair number of themes, for all their conflicts.
+ With work, a Chronicle focusing on Beasts and Luminous can work.
+\end_layout
+
+\begin_layout Plain Layout
+Both have powers that lead them towards them encountering broad rather than
+ specific supernatural problems, leading them naturally towards crossover.
+ With both involved in a Chronicle, it's hard to avoid this shared theme.
+ Storytellers should certainly embrace it, but not lead to a feeling that
+ all is 
+\emph on
+known
+\emph default
+.
+ Not all problems would be recognizable to any kind of supernatural being
+ – some are Outsiders, some are just what they are.
+\end_layout
+
+\begin_layout Plain Layout
+Both too, have an underlying theme of family and community.
+ They seek companionship in those like them, and accept their inner natures,
+ drawing on them for power.
+ There is a connection to be forged, and a Chronicle with the two would
+ likely have a feeling of family to it – of a small group that does their
+ best in a world that would like neither to exist
+\end_layout
+
+\begin_layout Plain Layout
+Their conflicts, though...
+ cannot be fully avoided, even then.
+ Sensitivity and Hunger will always lead the two to conflict, and it will
+ always define Chronicles shared between the two.
+ The Storyteller should certainly be aware of this conflict, and drive it
+ in directions that benefit the overall story, inflaming it sometimes if
+ needed.
+\end_layout
+
+\begin_layout Subsection
 Interactions
 \end_layout
 
-\begin_layout Standard
-The Beasts see themselves as kin to all supernatural beings.
- Though the Luminous and Maou see themselves as humanity's own legacy, they
- are still supernatural enough for a Beat to make a connection.
+\begin_layout Plain Layout
+Luminous and Begotten draw their power from different parts of the same
+ whole.
+ Their powers often interact as the mirrors they are.
 \end_layout
 
 \begin_layout Subsubsection*
 Kinship
 \end_layout
 
-\begin_layout Standard
-Luminous in their Dream Form have the same Kinship with Beasts as Mages
- do, but they have no kinship in Mundane Form.
- With her mundane self grounding her in humanity, a Beast's arguments of
- Kinship often fall flat.
- Thicker Than Water has no effect on her in either of her forms.
- However, the Family Ties condition applies to both a Luminous' forms once
- established – assuming the Beast is aware of her mundane identity.
+\begin_layout Plain Layout
+Kinship between the Luminous and Begotten are strained by the Luminous'
+ strong ties to the mundane.
+ Luminous have only partial Kinship with Beasts in Dream Form, and none
+ in Mundane Form.
+ Thicker Than Water has no effect on Luminous in either form.
+ Family Dinner, likewise, often does not apply – Hope recovery alone never
+ counts, although Luminous are often still driven to hunt in ways that can
+ satisfy its conditions.
 \end_layout
-
-\begin_layout Standard
-Origins may chance a Luminous' Kinship, however.
- Luminous with the Spirit Origin have full Kinship in their Dream Form and
- none in their Mundane Form.
- Luminous with the Wyrd Origin have full Kinship, and Thicker Than Water
- applies to them.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
 
 \begin_layout Plain Layout
-TODO: Kinship on remaining Origins.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Maou as well have the same Kinship to Beasts as Mages.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Flex Commentary
 status open
 
 \begin_layout Plain Layout
-There's no fluff reason Luminous should ignore Thicker Than Water; this
- is more a mechanical fix.
- Social Maneuvering gets 
-\emph on
-weird
-\emph default
- when impressions flop back and forth as that would imply.
+There is no flavor reason to fuck over Thicker than Water here – this is
+ mostly a mechanical fix to avoid weirdness around Luminous changing their
+ Kinship category so often.
 \end_layout
 
 \end_inset
@@ -11820,15 +12513,65 @@ weird
 
 \end_layout
 
+\begin_layout Subsubsection*
+Nightmares
+\end_layout
+
+\begin_layout Plain Layout
+Most Luminous dream of a world that isn't afraid to step into a bright future,
+ fighting against the force of fear itself.
+ As such, Nightmares based on them are rarely so much based on their dreams
+ or ideals, but rather the powers they use towards that goal.
+ Common examples include ones that break down a target's grasp on reality,
+ or drowning them in their own imagination.
+\end_layout
+
+\begin_layout Subsubsection*
+Power of Dreams
+\end_layout
+
+\begin_layout Plain Layout
+While Beasts are also natives of the Dream, Evocations do not have permanent
+ effect on them as they do with Luminous as they are still more flesh than
+ dream.
+ Lairs, and their Horror, however, are vulnerable to the full force of a
+ Luminous' Evocations.
+\end_layout
+
+\begin_layout Plain Layout
+The Luminous draw on the Dream's fundamental power to connect people and
+ concepts through their Journeys and Intimacy, and Beasts through their
+ Kinship and Burrows.
+ Burrows can be drawn between a Luminous' Soulspace and a Chamber in the
+ same way as Brood Layers.
+ Luminous may forge and redefine such connections, taking a point of severe
+ Hope Damage in place of spending Satiety.
+ When redefining or resisting unwanted connections, she may add Hope as
+ a bonus to her Clash of Wills.
+\end_layout
+
 \begin_layout Section
-Changeling: the Lost
+Changeling
+\end_layout
+
+\begin_layout Plain Layout
+The Lost were once hurt in Arcadia, and...
+ the Luminous on Earth.
+ Their origin is different, but something of their heart is resonant.
+ Both find hope in those like them, and in that, they bond with each other
+ with an natural ease most supernatural beings could not match.
+ Both want to build something better, protect those who are like them.
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Subsection*
 Interactions
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Changelings and Luminous both touch on dreams and stories, if from opposite
  directions.
  Both seek comfort in their friends and support systems.
@@ -11840,7 +12583,7 @@ Changelings and Luminous both touch on dreams and stories, if from opposite
 Clarity and Hope
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Clarity and Hope are very similar mechanics, both serving as a health-like
  track that replaces Integrity.
  Supernatural powers that can effect either Hope or Clarity should apply
@@ -11851,12 +12594,12 @@ Clarity and Hope are very similar mechanics, both serving as a health-like
  but the Fortifying Presence Contract can heal Hope as easily as Clarity.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 If one of a Changeling's Touchstones possesses Sensitivity, they may use
  Take their Hand to heal Clarity, not only Hope.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 At the Storyteller's discretion, Changelings with the Sensitivity merit
  may suffer Clarity damage and Clarity conditions rather than Hope conditions
  alone, using the same mechanics as for Luminous.
@@ -11869,7 +12612,7 @@ At the Storyteller's discretion, Changelings with the Sensitivity merit
 The Hedge and The Dream
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The magic of the Luminous is centered upon shaping their own Dreams, and
  imposing it upon reality to begin with.
  Hedgespinning comes as naturally to them as any fae creature, and they
@@ -11878,7 +12621,7 @@ The magic of the Luminous is centered upon shaping their own Dreams, and
  emotion and thought, it is still a solid world of its own.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Similarly, Changelings in the Dream (as the Luminous define it) may Dreamweave
  as in personal dreams.
  They lose this power in the hearts of the Dream Kingdoms or the Deep Dream.
@@ -11886,13 +12629,13 @@ Similarly, Changelings in the Dream (as the Luminous define it) may Dreamweave
  could justify doing so.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Maou may similarly Hedgespin by paying Motes, but cannot do so as naturally.
  They cannot perform Paradigm shifts, and must possess Fabula ••• or Prisma
  at •.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -11910,14 +12653,30 @@ Dreams and fae magic are closely tied.
 \end_layout
 
 \begin_layout Section
-Demon: the Descent
+Luminous x Demon
+\end_layout
+
+\begin_layout Plain Layout
+If there is anything the Luminous and Unchained have in common, it is that
+ they are good at hiding.
+ Demons live many lives, wear many faces, each seeming just as mundane as
+ the others.
+ Luminous hide behind their Mundane Form, only revealing their true dreams
+ when they must.
+ In that sense, most of the time the two hardly even know they are interacting
+ with another supernatural being.
+\end_layout
+
+\begin_layout Plain Layout
+When they do find out, it's usually the awkward result of one of a Demon's
+ Pacts.
 \end_layout
 
 \begin_layout Subsection*
 Interactions
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous hold the power to connect people's hearts, and Demons hide powers
  to lie to the world itself.
  Their powers inevitably conflict, and worse yet, the two cannot simply
@@ -11930,7 +12689,7 @@ Luminous hold the power to connect people's hearts, and Demons hide powers
 Bonds and Lies
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A Demon's may lies fool the Dream itself.
  If he hides his true feelings from the one he loves, he may suppress bonds
  of Intimacy that would normally be woven.
@@ -11942,7 +12701,7 @@ A Demon's may lies fool the Dream itself.
  a bond rather than reinforce one that already exists.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 As long as a Demon fakes Strong Intimacy with a Luminous, her Echo conducts
  Social Maneuvering against the Demon with the goal to bring his true feelings
  in line with his false Intimacy.
@@ -11952,21 +12711,21 @@ As long as a Demon fakes Strong Intimacy with a Luminous, her Echo conducts
  quality and occurs once per night.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Echoes, thankfully, cannot reveal a Demon's nature to the Luminous.
  It treats a Demon's Covers as if they were protected by a Luminous' Dual
  Identity, even at Strong or Connected Intimacy.
  This does not require a roll and is not Spoofing.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Weave of Bonds fundamentally destroys the separation Liar's Tongue relies
  on – it has no effect on a Demon's Partner.
  Any Demon who would willingly accept such a Weave, though, would likely
  consider this a benefit more than an downside.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -11997,7 +12756,7 @@ Still, it isn't any good if Demons are stymied from making Pacts with a
 Pacts
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Demon Pacts do not pierce a Luminous' Dual Identity, unless the Demon is
  aware of it and specifically writes the Pact to account for her two forms.
  Thus, a Luminous could trade away her relationship with a friend in Mundane
@@ -12005,7 +12764,7 @@ Demon Pacts do not pierce a Luminous' Dual Identity, unless the Demon is
  – and in fact, this is the default for Demons unaware of her nature.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Similarly, a Soul Pact treats her two forms separately.
  A Soul Pact with a Luminous' Mundane Form gives the Demon her entire mundane
  life as usual – however, the Luminous may live on through her Dream Form
@@ -12016,7 +12775,7 @@ ing her entirely.
  soul as a Cover.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -12039,14 +12798,14 @@ that
 \end_layout
 
 \begin_layout Section
-Mage: the Awakening
+Luminous x Mage
 \end_layout
 
 \begin_layout Subsection*
 Interactions
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Mages touch all parts of the world with their magic, and the Luminous and
  Maou are no different.
 \end_layout
@@ -12055,14 +12814,14 @@ Mages touch all parts of the world with their magic, and the Luminous and
 Defiant Will
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 While Mages hae a separate system of Withstand instead of the usual contested
  or resisted rolls, Defiant Will still applies penalties to their Dice Pools
  in addition to the usual Withstand.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In the context of Mage, Defiant Will is somewhat broader than its description
  would imply.
  Attempts to use Death to influence a Willful's soul, or use Space to affect
@@ -12071,7 +12830,7 @@ In the context of Mage, Defiant Will is somewhat broader than its description
  More indirect Arcana like Fate or Time are not impeded.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -12091,33 +12850,42 @@ Withstand is complicated.
 Arcana and Willful Magic
 \end_layout
 
-\begin_layout Standard
-The magic of the Luminous and Maou have varied effects on the world, and
- hence the best Arcana to use depends the power being studied.
- Luminous magic tends to work by means similar to the Mind, Space and Forces
- Arcana.
- Maou magic tends to work by means similar to the Fate, Mind and Matter
- Arcana.
+\begin_layout Plain Layout
+Evocations are a projection of stories and imagination upon the world, and
+ thus fall under the combined purview of the Mind, Fate and Prime Arcana.
+ Active Mage Sight bound to any of the three may detect the casting of an
+ Evocation – however, afterwards, the Dream's laws come into effect.
+ In Mage Sight, an active Evocation feels as if the true Supernal symbols
+ underlying the Fallen World are buried under those of the Evocation.
 \end_layout
 
-\begin_layout Standard
-The description of powers have more influence than their effects – for example,
- while Mages would normally achieve effects like Shining Vow using Fate,
- the Charm would be best studied using the Mind Arcana.
+\begin_layout Plain Layout
+While those underlying truths reassert themselves when the glamour fades,
+ Awakened magic still treats all things created or modified by an Evocation
+ as what they appear to be – as with all things of the Astral.
+ Thus, a dreamwoven rock falls under the purview of the Matter Arcana as
+ if it were fully real.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A Luminous' Dream Form is obviously a projection of her dreams under Mind
  Mage Sight, and other Arcana treat her as what she appears to be.
  Normally Life is required to affect her as with most living beings, but
- some Luminous may have less conventional forms.
- A Luminous' Echo is best studied with Mind and Space.Bonds of Intimacy are
- usually similar to the corresponding Sympathetic ties.
+ some Luminous may have less conventional forms that require different Arcana.
+ Mages cannot force transformation or detransformation directly, and Mind
+ Shield provides no protection against Evocations that do not affect the
+ mind directly.
+\end_layout
+
+\begin_layout Plain Layout
+A Luminous' Echo is best studied with Mind and Space.
+ Bonds of Intimacy are usually similar to the corresponding Sympathetic
+ ties.
  If needed, a Mage may add Mind 1 to Space spells to specifically view or
  manipulate Intimacy.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -12134,14 +12902,14 @@ TODO: Maou mechanics? Likely depends on what their final mechanics are.
 Motes and Hope
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 To Mages, Motes are something very similar to Willpower – simply found in
  an abnormal abundance for a normal human.
  As it is not truly a form of energy, the most Mages can do is drain a Mote
  Pool as a Mind Unraveling spell.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Similarly, a Luminous' Hope is simply a measurement of their mental stability.
  To a Mage, does not feel as if a source of supernatural power at all.
  A Mage may cause mild Hope damage equal to Potency with a Mind Flaying
@@ -12152,7 +12920,7 @@ Similarly, a Luminous' Hope is simply a measurement of their mental stability.
  Conditions, not heal the underlying Hope damage.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -12161,7 +12929,6 @@ Transferring Motes would cause a lot of balance issues.
  They regenerate per scene, and...
  that's a subtle but powerful advantage of theirs.
  It shouldn't at all be easily shared.
- 
 \end_layout
 
 \begin_layout Plain Layout
@@ -12187,7 +12954,7 @@ sense
 Soul Magic
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 While the Luminous call their dream worlds Soulspaces, they is more a modificati
 on of their Oneiros than a soul as a Mage would call it.
  They still have a true soul, which is treated as an Awakened Soul, even
@@ -12204,7 +12971,7 @@ Sever Soul
  her powers do not detect her soul as anything other than mundane.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Furthermore, Luminous do not suffer from Soul Loss as most beings do.
  The root cause of Fading is not the lack of a physical body – but rather
  their lack of a soul as Mages would recognize it.
@@ -12215,13 +12982,13 @@ Furthermore, Luminous do not suffer from Soul Loss as most beings do.
  the Thrall condition [M:tAw 318].
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 As a Luminous can more or less sustain herself indefinitely without a soul,
  it's far from unheard of for Luminous aware of this fact to offer their
  own souls to save someone from Soul Loss.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Maou are far less interesting in this regard.
  Their souls are treated as Awakened Souls.
  They do not innately lose their ability to use their magic when Soulless;
@@ -12229,7 +12996,7 @@ Maou are far less interesting in this regard.
  for it as well.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -12257,6 +13024,67 @@ feel right
 
 \begin_layout Plain Layout
 I can always explain later how it looks to Mages.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Luminous x Princess
+\end_layout
+
+\begin_layout Plain Layout
+For their very different origins, Luminous and Princesses get along with
+ little trouble.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The Elephant in the Room
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Luminous began as a version of Princess, before its themes diverged too
+ much to be recognizable.
+ While the two can coexist, two splats built around magical girls themes
+ and changing the world for the better can often create an unfortunate thematic
+ redundancy.
+\end_layout
+
+\begin_layout Plain Layout
+Unless you have a good idea as to how to take advantage of their differences
+ and similarities as a Storyteller, it is probably better to choose one
+ or the other for your chronicle.
+\end_layout
+
+\begin_layout Plain Layout
+In general, this would involve pushing further the theme of Princesses being
+ in a fight against the Darkness (something Luminous are not amazing at
+ participating in), and pushing the more 
+\series bold
+Dreaming
+\series default
+-like themes of Luminous such as their stewardship over dreams or their
+ opposition to Disbelief.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

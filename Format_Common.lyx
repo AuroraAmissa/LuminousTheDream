@@ -1141,9 +1141,9 @@ twocolumnparagraphsplitting{
 
 	
 \backslash
-widowpenalties 1 500 
+widowpenalties 1 800 
 \backslash
-raggedbottom % Split paragraphs, but not too aggressively.
+raggedbottom % Split paragraphs, but not 100% aggressively.
 \end_layout
 
 \begin_layout Plain Layout
@@ -2765,19 +2765,6 @@ status open
 
 \backslash
 gitAuthorDate{}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Branch Commentary
-inverted 0
-status open
-
-\begin_layout Standard
-
-\size normal
-, author commentary
 \end_layout
 
 \end_inset
