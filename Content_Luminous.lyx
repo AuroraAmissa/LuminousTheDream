@@ -552,24 +552,14 @@ and all its splats shine as a bright example as to what tabletop can be.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
+\begin_inset Flex ContentWarning
 status open
 
+\begin_layout Section*
+Content Warning
+\end_layout
+
 \begin_layout Plain Layout
-
-
-\backslash
-newcommand
-\backslash
-printcw{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 Luminous: the Dream
@@ -582,7 +572,7 @@ Luminous: the Dream
  boundaries between people, and rejection of reality.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 If you are sensitive to such content, please take care when reading or playing
  
 \series bold
@@ -590,44 +580,6 @@ Luminous
 \series default
 .
  Safety techniques for such things are discussed in [TODO: Chapter link].
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex ContentWarning
-status open
-
-\begin_layout Section*
-Content Warning
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-printcw
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -655,11 +607,6 @@ Changeling: the Lost
 Please don't be afraid to put these in your systems, if yours is similar.
  Don't feel obligated if your system doesn't touch on so much sensitive
  topics.
-\end_layout
-
-\begin_layout Plain Layout
-This is further duplicated in the Introduction section, because people may
- indeed skip the Foreword sometimes.
 \end_layout
 
 \end_inset
@@ -874,182 +821,8 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Once you were young.
- No matter how old we may be, all of us were once young.
- We looked at the world through truly fresh eyes, felt it as fully and intensely
- as anyone ever could.
- When we loved, it was the happiest days we had ever known.
- When we were hurt, it was the greatest tragedy we had ever felt.
- And the world shined with possibility.
- We all thought we had a way to change the world, embracing it with all
- our hearts.
- We looked to our heroes and told ourselves "I can do that too".
- It seemed that if only we were given our chance, we could make the world
- better.
- That the pains of the world we felt so strongly were something we could
- overcome...
-\end_layout
-
-\begin_layout Standard
-...
- we believed.
- We all once believed.
- And yet, when you look at the world around you today...
-\end_layout
-
-\begin_layout Standard
-One day, you saw a man huddling in a corner, covered in all too old rags
- when you came out of the supermarket.
- So many people passed him, looking at him sadly then turning away.
- You could see the desperation on his face.
- You couldn't bear it...
- You give him what cash you had, and a change of clothes.
- It wasn't enough.
- You knew it wasn't enough...
- Not if you were the only one helping.
-\end_layout
-
-\begin_layout Standard
-That night, you confided in your old friend from kindergarten.
- Who you had always relied on, who had always stood by your side back then.
- ...
- and yet, this time, she frowned.
- She asked you if you really thought that money would really change anything,
- or if he would just use it to buy beer.
- She told you she was worried about how you would live through college if
- you kept doing this.
- She told you that you should let people like that go.
- That night, you cried yourself to sleep.
- Why couldn't you just be like them?
-\end_layout
-
-\begin_layout Standard
-One day, you told your parents that you wanted to be a writer instead of
- a doctor.
- They told you that you didn't really want that.
- That you wouldn't ever be popular anyway, and you'd be starving on the
- street.
- They told you that if you threw away your life like that, they wouldn't
- help you anymore.
- They told you to stop being stuck in a dream.
- You weren't sure what else you expected...
- everywhere you went, there were so many people who had given up on hoping
- so long ago.
-\end_layout
-
-\begin_layout Standard
-At least, this time was different.
- That night, you logged into the same chat room you found a few weeks ago.
- One full of people who understand your pains.
- They got it.
- They also still believed.
- They also still dreamed.
- And they comforted you.
- Showed you a way forward.
- Reassured you in the path you chose...
- They told you that it was okay to be you.
- This time, you had less reason to cry.
- Even if you still did.
-\end_layout
-
-\begin_layout Standard
-One day, you saw a boy crying in the toy aisle, clinging tightly to a stuffed
- animal he wanted.
- But his parents wouldn't have any of that.
- Because boys weren't supposed to like things like that.
- Because boys weren't supposed to cry.
- Because that is not how the world was supposed to be.
- And so many onlookers walked by, even watched with sneers on their faces.
- You couldn't tell who they even were sneering at, the mother or you.
- It didn't matter.
- Nobody helped.
- Nobody else helped.
-\end_layout
-
-\begin_layout Standard
-...
- but you tried anyway.
- Even as they dragged him away as they called you terrible names.
- He wasn't crying as much anymore.
- ...
- maybe, just maybe.
- You showed him that he wasn't alone in the world.
- Just like your friends once did for you.
-\end_layout
-
-\begin_layout Standard
-You never could give up, no matter how hard you tried.
- No matter how much everyone around you told you to save yourself, that
- you were naive and only hurting yourself.
- You couldn't stop caring.
- You couldn't stop believing.
- You couldn't stop trying.
- You couldn't forgive yourself if you did.
-\end_layout
-
-\begin_layout Standard
-And that...
- is what makes you a Luminous.
- Not the shining magic you wield, but the simple fact you could never stop
- dreaming of a better world.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-placement b
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Flex ContentWarning
-status open
-
-\begin_layout Section
-Content Warning
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-printcw
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Flex TwoColumnBoxFill
 status open
-
-\begin_layout Section
-Setting
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Flex Commentary
@@ -1081,73 +854,115 @@ hyperref[chap:Foreword]{foreword}
 \end_layout
 
 \begin_layout Plain Layout
+Humanity lost the will to believe long ago, floundering in the dark for
+ so long.
+ They grew afraid of what they may lose, of what they may break if they
+ dream of better.
+ Those who yet still dream must be taught otherwise, so they aren't lost
+ to the harsh world.
+ Such is the nature of survival.
+ So it has always been.
+\end_layout
+
+\begin_layout Plain Layout
+And yet, you knew there was more.
+ You dreamed even in the darkest of nights, hoping to one day to outshine
+ the shadows.
+ You held your dream close, never letting the world erode it away.
+ Of cities of crystal towers and forests of colorful light.
+ Of a better world.
+\end_layout
+
+\begin_layout Plain Layout
+In those dreams, you weren't alone.
+ You dreamed with those who believed in the same future.
+ Just maybe, it wasn't an illusion.
+ Maybe there was more to this world, that dream.
+ Pushing away the little voice in the corner of your mind, that such things
+ are impossible, you clung onto that hope.
+\end_layout
+
+\begin_layout Plain Layout
+Even as the world pushed you into a corner, asked for you to yield...
+ you stood.
+ When everything was on the line, you refused to break, let the world turn
+ you into another cog in the machine.
+\end_layout
+
+\begin_layout Plain Layout
+In a fleeting moment, you saw that dream again.
+ But, this time, you held all its power in your own hands.
+ You shaped it into a light to call your own, awakening into an endless
+ waking dream.
+\end_layout
+
+\begin_layout Plain Layout
+And with the light of two worlds, just maybe, you could really make a difference.
+\end_layout
+
+\begin_layout Section
+Setting
+\end_layout
+
+\begin_layout Plain Layout
 
 \series bold
 Luminous: the Dream
 \series default
- is a roleplaying game inspired by the mahou shoujo (or magical girl) genre
- of anime and manga, about a world caught between bleak mundanity and terrifying
+ is a roleplaying game set in the 
+\series bold
+Chronicles of Darkness
+\series default
+, a world much like our own but caught between bleak mundanity and terrifying
  supernatural horrors.
+ Night fell long ago, and the humanity still struggles against the supernatural
+ darkness that envelops it.
 \end_layout
 
 \begin_layout Plain Layout
-Humanity lost the will to believe long ago.
- They are afraid to dream for what they may lose.
+...
+ even in such a world, no one person is truly alone.
+ In the depths of everyone's dreams, there are paths into a broader world,
+ a shared dream of all of humanity.
+ Long ago, eight great Dream Kingdoms were imagined within, each an reflection
+ of a world that could one day be real.
+ A rare few became a part of that world, dreaming of a second life in that
+ world.
+ A rarer few still find a shining power between the two worlds.
 \end_layout
 
 \begin_layout Plain Layout
-Luminous are the shining souls that refuse to believe that it is how it
- must be.
- Each once Realized the power they held in their hearts in a fleeting moment,
- embracing their dreams and bonds with all their might.
- In the eternal waking dream that follows, they fight in the names of the
- wonders they know exist.
+They are the Luminous.
+ In a moment they call their Realization, they once ignited a power deep
+ in their soul.
+ With it, they weave their imagination into reality, taking on the form
+ of their dreams.
 \end_layout
 
 \begin_layout Plain Layout
-Even in a monochrome world, there are those who see a different path.
- They build beautiful gardens, wrote stories from their deepest heart.
- They hold those they loved close, and give them a place to call home.
+Their story is not a happy one.
+ Every Luminous was once hurt by the world in one way or another; asked
+ to stop dreaming so brightly, stop caring so much.
+ For all the power they hold, the shadows of the world seem far too vast
+ for any one person – magical or otherwise – to fix.
+ But they still try.
 \end_layout
 
 \begin_layout Plain Layout
-Even among the terrors of night, there are those who shine like stars.
- The fae who protect each other more than anything, those Bound who seek
- to change death itself.
+After, all they feel the pains and joys of the world as deeply as their
+ own.
+ And...
+ the world is broken, hurt, scarred.
+ The Dream the Luminous draw on is not all bright light and idyllic forests.
+ Our pains and sorrows reflect on them just as deeply, even coming to distort
+ the world further and further away from light.
 \end_layout
 
 \begin_layout Plain Layout
-there were always those who shined brighter.
- The fae who hold 
-\end_layout
-
-\begin_layout Plain Layout
-It will not be easy.
- The world has always been an unkind place.
- Generations of darkness scar the heart of humanity.
- So many people are afraid to dream, and so focus on preserving what they
- already have.
- So many people are scared that any change to the world would crumble it
- all down, and hence fear those who dream brightly.
- Some people once dreamed, and had them broken by those who were scared
- in just the same way.
-\end_layout
-
-\begin_layout Plain Layout
-Glimmers of light shine through that long and dark night.
- We had created so many wonders over the generations, and they simply accumulate.
- Even if the scars remain, so many of the problems that once plagued humanity
- are now past.
- The internet connects the Luminous together in a way they had never been
- before.
- For the first time, people could see that nobody is truly alone.
-\end_layout
-
-\begin_layout Plain Layout
-So many more people saw a bright future ahead, dreaming once more.
- So many more people saw more reason to fear what was to come.
- Now, if ever...
- is the time to make a difference.
+But that's okay.
+ In time, even such a world can be healed, brick by brick, dream by dream
+ and person by person.
+ That is the task that falls to the Luminous.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1222,209 +1037,92 @@ That is a luxury for people who can stop caring.
 Themes
 \end_layout
 
-\begin_layout Subsection*
-Distant Dreams
-\end_layout
-
 \begin_layout Plain Layout
-At its heart, 
+
 \series bold
-Luminous: the Dream
+Luminous
 \series default
- is about the contrast between dreams and idealism vs the harshness of realities
- and the necessities of survival.
- A Luminous may dream of a better world, that they know may one day be true.
- She may defeat the monster on her own.
- Maybe even she could be elected, help guide the city council towards reform.
- She can rescue the boy she loves.
-\end_layout
-
-\begin_layout Plain Layout
-But even with their shining magic, they may only do so much on their own.
- They can only win when a hundred million small victories one day add up
- into something greater.
- Even as they are closer than ever before, their dreams always seems a distant
- future, still trapped faraway behind the veil of sleep.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-\begin_inset Quotes xld
-\end_inset
-
-Distant Dreams
-\begin_inset Quotes xrd
-\end_inset
-
- is the title of Luminous.
- 
-\begin_inset Quotes xld
-\end_inset
-
-A Storytelling Game of Distant Dreams
-\begin_inset Quotes xrd
-\end_inset
-
-.
- So is 
-\begin_inset Quotes xld
-\end_inset
-
-Dream
-\begin_inset Quotes xrd
-\end_inset
-
- part of the main title.
- The word 
-\begin_inset Quotes xld
-\end_inset
-
-Dream
-\begin_inset Quotes xrd
-\end_inset
-
- means a lot of different things, and that is intentional.
-\end_layout
-
-\begin_layout Plain Layout
-Does 
-\begin_inset Quotes xld
-\end_inset
-
-Distant Dreams
-\begin_inset Quotes xrd
-\end_inset
-
- mean how far from reality a dream is – the way the Luminous are not all
- there in reality, so close are they to that Dream? Or is it about how far
- away the world they dream of is? After all, 
-\begin_inset Quotes xld
-\end_inset
-
-dream
-\begin_inset Quotes xrd
-\end_inset
-
- also means an ideal one imagines.
- This section is about the latter, but both are core to Luminous.
-\end_layout
-
-\end_inset
-
-
+ is built to tell stories like the 
+\emph on
+mahou shoujo
+\emph default
+ genre of anime.
+ Stories of hope, of imagination, of love.
+ Stories that don't shy away from the dark corners of life, but refuse to
+ let them consume it.
 \end_layout
 
 \begin_layout Subsection*
-Longing and Scars
+Hope and Struggle
 \end_layout
 
 \begin_layout Plain Layout
-At the edges of their shared Dream, Luminous see so many remnants of a lost
- things, of worlds that once were.
- The scars linger, older than humanity's earliest memories.
- We don't remember why, but the pain remains.
-\end_layout
-
-\begin_layout Plain Layout
-Through the generations, that dark legacy scarred us.
- Parents teach their children to be afraid, that dreaming too bright is
- dangerous.
- They want the best for them, and so ask them to blend in so they wouldn't
- be bullied for what they are.
- The cruelties of the world were always too large to fight.
- Survival was the name of the game from the beginning.
-\end_layout
-
-\begin_layout Plain Layout
-Luminous dream of better, because something stubborn in them cannot accept
- a world like that – and it was that spark that drove them to Blossom in
- the first place.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-So much of Chronicles is about something lost.
- The Supernal Realms were cast aside from the Fallen World.
- Father Wolf was killed by his children, rending Spirit and Flesh asunder.
- The Beasts knew a time before the scale of humanity stretched the Primordial
- Dream thin.
- In a sense, it was Princess' main theme, and Luminous doesn't fully discard
- it.
-\end_layout
-
-\begin_layout Plain Layout
-It's a story about what humanity has built too, what we have done in the
- meanwhile.
- Hence, Luminous don't consider themselves heirs from a time before, unlike
+Survival always comes at the cost of hope.
+ One could save themselves, let those they love face their fate without
  them.
- But they can't avoid the remnants – their Dream remembers, even if they
- don't.
+ To stand by their side to fight an impossible tide, in an implausible hope...
+ One could accept the world as it is, with all its injustices and cruelties.
+ Trying to fight back only makes others push back twice as hard.
 \end_layout
 
-\end_inset
-
-
+\begin_layout Plain Layout
+Though it may be painful and harsh, a life in the shadows is still a life.
+ To be a Luminous is to struggle on regardless.
+ To have hope in a world which burns it away, wielding a power to outshine
+ reality itself.
 \end_layout
 
 \begin_layout Subsection*
-A Turning Point
+Lights and Shadows
 \end_layout
 
 \begin_layout Plain Layout
-Humanity's story has been anything but static.
- The Luminous built their Dream in secret, as the world changed around them.
- There was a time before any Luminous knew how to veil their two forms in
- a Dual Identity, as there was a time before humanity could talk to anyone
- in the world with a few presses of a button.
- Perhaps for the first time in history, they see a way they can win.
+To care is to see the world at its darkest.
+ One can live burying their heads in the sand, only saving themselves...
+ but, to care for others is to see every thing that hurts every person.
+ It means to see an overwhelming tapestry of pains and injustices, small
+ and large.
+ 
 \end_layout
 
 \begin_layout Plain Layout
-The world stands on a precipice that cannot be backed away from.
- The same technologies and ideas that entrench the fears and greed of those
- in power empower those who hope.
- In today's world, the Hopeful can come together in a way they never had
- been able to before and Blossom in numbers not heard of since the heights
- of the Renaissance.
- Maybe, just maybe...
- something could change this time.
+...
+ but in the midst all the shadows, it means to see the small lights too.
+ There are others who kept their dreams, other kind souls who care just
+ as you do.
+ There are secret gardens, untouched by the darkness.
+ To care is also to know all the small joys of life, so easy to overlook
+ in trying to hide from the shadows.
+\end_layout
+
+\begin_layout Subsection*
+Love and Scars
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The World of Darkness is traditionally stories of survival.
- Luminous is not.
- Like the Sin-Eaters who wish to retake the Underworld, and the Changelings
- who wish to retake their life, Luminous wish to retake the waking world
- from the cruelties of those who don't care, the scars of generations of
- pain.
+Nobody lives in this world without being hurt.
+ The shadows seem everywhere, and the Luminous can't look away.
+ But just because one has been hurt doesn't mean they can't live.
+ It doesn't mean they can't still find comfort in each other.
 \end_layout
 
 \begin_layout Plain Layout
-It is no accident that, like those two games, its themes are brighter than
- most of the Chronicles of Darkness.
- Changeling is about recovery and moving forward despite once being hurt,
- Geist is about enjoying your second chance at life as you seek to do better,
- and Luminous is about those who seek to change the world as they lose themselve
-s in their dreams.
-\end_layout
-
-\end_inset
-
-
+No Luminous can stand alone.
+ They can't do enough to change the world on their own.
+ Thankfully they don't have to.
+ They have their friends, lovers, family, and allies.
+ Even in a Luminous' darkest hours, she has those people to pick her back
+ up, as she once helped them.
+ So they all bring each other up.
 \end_layout
 
 \begin_layout Section
 Media
+\end_layout
+
+\begin_layout Plain Layout
+I recommend the following works of media as possible inspiration in line
+ with Luminous' themes.
 \end_layout
 
 \begin_layout Subsection*
@@ -1433,65 +1131,66 @@ Senki Zesshou Symphogear
 
 \begin_layout Plain Layout
 Symphogear follows the story of Hibiki, an ordinary girl who ends up bound
- to an ancient relic that allowed her to transform and fight the Noise that
- plagued the noise with the power of song.
- At its heart, it is a story about heartfelt communication that pierces
- misunderstandings, the determination to protect those you love, and the
- sacrifices one makes to do so.
+ to an ancient relic, allowing her to transform and fight the Noise that
+ threaten the world.
+ At its heart, it is a story of heartfelt communication, the determination
+ to protect those you love, and the sacrifices one makes to do so.
  About the scars of the past, and what must be done to heal them.
 \end_layout
 
 \begin_layout Plain Layout
-Even in the heart of darkness, Hibiki refuses to give up.
- She stays strong in her belief in the ability to reach to the heart, always
- fighting both physical battles and against people's own despair.
- Each member of the main cast suffers tragedy, and it's through their bonds
- with others that they're able to stand up again.
+Hibiki stays strong in her belief to reach to the heart throughout, fighting
+ against people's despair as much she does the Noise.
+ When the members of the cast suffer tragedy, it is true their bonds with
+ each other that they're able to stand up again.
 \end_layout
 
 \begin_layout Subsection*
-Magia Record: Puella Magi Madoka Magica Side Story
+Magia Record
 \end_layout
 
 \begin_layout Plain Layout
-The original anime, Puella Magi Madoka Magica, is already resonant with
- the themes of Luminous.
- For all it is praised for its dark themes, at its heart, Madoka Magica
- is a love story and a story of hope.
- Madoka Kaname shone through the shadows, to rewrite the world itself.
- More than any other character in popular media, she represents the kind
- of hope Luminous stand for.
+Magia Record is the spiritual successor to Puella Magi Madoka Magica, a
+ dark magical girl story that helped to popularized the genre.
+ For all its original is known for its darkness, though, it is still a story
+ of hope and love.
+ It is no wonder then, that its successor too fits well as an inspiration
+ for 
+\series bold
+Luminous
+\series default
+ chronicles.
 \end_layout
 
 \begin_layout Plain Layout
-Magia Record, then, pivots the focus more to the human responses to the
- woes of magic in a dark world.
- It, to some extant, embraces the story that always existed under the original's
- darkness.
- It focuses on relationships, girls pulling their friends from the brink
- of despair, and standing up for what's right.
- In the side-stories shown in the original phone game, it told the same
- kind of slice-of-life stories that Luminous embraces.
- Of magical girls caring for each other, of the bonds between them that
- let them survive in a dark world.
+The anime and video game pivots the focus more to human responses to the
+ woes of magic.
+ It embraces the personal stories that underlie Madoka's cosmic level story,
+ focusing on the relationships between magical girls and the friends that
+ pull them back from the brink of despair.
+ The phone game, in particular, tells the kinds of slice-of-life story Luminous
+ embraces – of magical girls who care for and love each other.
 \end_layout
 
 \begin_layout Subsection*
-The Lego Movie 2: The Second Part
+Library of Runia
 \end_layout
 
 \begin_layout Plain Layout
-Whereas the first movie focused on creativity and freedom, the second discusses
- true maturity.
- It shows that growing up doesn’t mean that the things you believed in when
- younger have to be forgotten and let go of.
- It tells of how even in a darker world, hoping is not in vain.
- The movie shows the world like Luminous see it; almost everyone else loses
- their flame, their light, their hope in the world, because they believe
- it’s the only way to survive.
- But it isn't true.
- The song Everything’s Not Awesome summarizes it all fairly well.
- 
+Library of Runia is a video game by Project Moon, following the story of
+ librarians who staff a magical library.
+ Through its powers, they learn the stories of the City they live in and
+ explore the past traumas and emotional scars.
+ In that sense, it is a deeply emotional story, about people, emotions,
+ growth and change more than anything else.
+\end_layout
+
+\begin_layout Plain Layout
+Both the main protagonists, Angela and Roland have their own dark pasts
+ and scars that are revealed through the game's progress.
+ As dark as the City it portrays is, it shows the little glimmers of hope
+ that lie within, and how Angela and Roland alike come to regain the hope
+ that things can be better.
 \end_layout
 
 \end_inset
@@ -10202,7 +9901,7 @@ Little things like this make crossover games far more interesting and fun,
 status open
 
 \begin_layout Chapter
-Chapter 5: Stars in the Sky
+Chapter 5: A Sea of Stars
 \end_layout
 
 \begin_layout Plain Layout
@@ -12460,7 +12159,12 @@ Both too, have an underlying theme of family and community.
  drawing on them for power.
  There is a connection to be forged, and a Chronicle with the two would
  likely have a feeling of family to it – of a small group that does their
- best in a world that would like neither to exist
+ best in a world that would like neither to exist.
+\end_layout
+
+\begin_layout Plain Layout
+In other words, whether they call it a Brood or Nakama, that is likely what
+ a mixed group of Luminous and Beasts would amount to.
 \end_layout
 
 \begin_layout Plain Layout
@@ -12557,17 +12261,49 @@ Changeling
 \begin_layout Plain Layout
 The Lost were once hurt in Arcadia, and...
  the Luminous on Earth.
- Their origin is different, but something of their heart is resonant.
- Both find hope in those like them, and in that, they bond with each other
- with an natural ease most supernatural beings could not match.
- Both want to build something better, protect those who are like them.
+ Both know of wonders far beyond the mundane world, and learned the power
+ to wield them for themselves.
+ Both are lost in a world they do not fully fit into.
 \end_layout
 
 \begin_layout Plain Layout
+For their far different backgrounds, something of their hearts are resonant.
+ Both...
+ understand.
+ They find comfort in community, support each other, want to build something
+ better to protect each other and those they love.
+ Through that shared resonance, they bond with an ease unusual among differing
+ kinds of supernatural being.
+\end_layout
+
+\begin_layout Plain Layout
+Still, their differing supernatural natures can still be problematic, especially
+ when it comes to first reactions.
+ Luminous reach for a power that erodes the boundary between dreams and
+ reality, in a way all too familiar to the Lost.
+ Luminous magic reminds of Arcadia, and that...
+ can be a painful remainder at best, and actively damaging to a changeling's
+ grasp on reality at worst.
+\end_layout
+
+\begin_layout Subsection
+Chronicles
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsection
 Interactions
 \end_layout
 
@@ -12629,27 +12365,32 @@ Similarly, Changelings in the Dream (as the Luminous define it) may Dreamweave
  could justify doing so.
 \end_layout
 
-\begin_layout Plain Layout
-Maou may similarly Hedgespin by paying Motes, but cannot do so as naturally.
- They cannot perform Paradigm shifts, and must possess Fabula ••• or Prisma
- at •.
+\begin_layout Subsubsection*
+Oaths
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Dreams and fae magic are closely tied.
- Luminous can approach the Hedge with their experience manipulating dreams,
- and Changelings can approach the Dream with their experiences in Arcadia.
- Maou, meanwhile, need a little bit of help, or at least specialist knowledge
- that doesn't come by default.
+Luminous have a Charm that allow them to join to Wyrd-bound Pacts as a full
+ participant.
+ This has farther reaching consequences than it may seem at first glance.
+ Membership in Freeholds is an Oath, and so is membership in their courts.
 \end_layout
 
-\end_inset
+\begin_layout Plain Layout
+Joining a Freehold has no particular mechanical implications, beyond justifying
+ Status and similar merits.
+ With Storyteller permission, Luminous may take Mantle or Court Goodwill
+ in chronicles where it is appropriate.
+ Mantle influences a Luminous' Dream Form, do not retain the Glamour gain
+ clause, and Luminous spend Motes in place of Glamour.
+\end_layout
 
-
+\begin_layout Plain Layout
+Some powers of Mantles may need to be altered to fit Luminous.
+ For the default seasonal courts: Spring •••• applies with your character's
+ Dream, Spring ••••• applies to Hope rather than Clarity conditions.
+ Autumn ••• applies to the Mote cost of Evocations, Autumn ••••• counts
+ as an Evocation and is subject to Transience.
 \end_layout
 
 \begin_layout Section
@@ -13032,7 +12773,7 @@ I can always explain later how it looks to Mages.
 \end_layout
 
 \begin_layout Section
-Luminous x Princess
+Princess
 \end_layout
 
 \begin_layout Plain Layout
