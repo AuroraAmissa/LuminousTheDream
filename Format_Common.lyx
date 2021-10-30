@@ -2059,7 +2059,9 @@ titlenohyphen
 \backslash
 fontsize{38}{34}
 \backslash
-vtitlefont}
+vtitlefont
+\backslash
+centering}
 \end_layout
 
 \begin_layout Plain Layout

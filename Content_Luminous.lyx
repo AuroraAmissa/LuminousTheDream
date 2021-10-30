@@ -2926,7 +2926,7 @@ Luminous are those caught between reality and dreams, the mundane and the
 \noindent
 \align center
 \begin_inset Flex LumChapQuote
-status collapsed
+status open
 
 \begin_layout Chapter
 Chapter 3: Children of Twilight
@@ -2972,7 +2972,7 @@ Puella Magi Madoka Magica
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex TwoColumnBox
+\begin_inset Flex TwoColumnBoxFill
 status open
 
 \begin_layout Plain Layout
@@ -3062,16 +3062,16 @@ Step One: Character Concept
 
 \begin_layout Plain Layout
 The first part of character creation is to come up with a rough idea of
- who your character is at the heart.
- What kind of person do you want to play? What was her upbringing like,
- and who are her friends in either world? Does she consider herself a resident
- of the dream, or merely a visitor? What problems does she see in the waking
- world, and what does she want to do about them?
+ who you want to play.
+ What was her upbringing like, and who are her friends in either world?
+ Does she consider herself a resident of the dream, or merely a visitor?
+ What problems does she see in the waking world, and what does she want
+ to do about them?
 \end_layout
 
 \begin_layout Plain Layout
-Ideally, you can solidify her whole concept into a single coherent high
- concept, such as 
+You should solidify her whole concept into a single coherent high concept,
+ such as 
 \begin_inset Quotes xld
 \end_inset
 
@@ -3096,8 +3096,8 @@ peacekeeper for Seattle's supernatural beings
 \end_inset
 
 .
- Having such a concept gives you something to refer back to when deciding
- what option fits your character better.
+ You can refer back to it when deciding what options fit your character
+ better, and refine it as your character develops.
 \end_layout
 
 \begin_layout Plain Layout
@@ -3120,22 +3120,27 @@ Aspirations
 \end_layout
 
 \begin_layout Plain Layout
-Aspirations are the main way your character earns beats, and thus advances
+Aspirations are the main way your character earns Beats and thus advances
  their abilities.
- Furthermore, they help the Storyteller know where you want to go with your
- character, and the kinds of stories you want to experience through them.
- Some of your Aspirations should be short term goals that can be completed
- in a session or two, and at least one should be a longer-term goal that
- may take a whole Chapter.
+ They help the Storyteller know what you want to do as your character, and
+ the kinds of stories you want to experience through them.
 \end_layout
 
 \begin_layout Plain Layout
-Hopeful have two more aspirations than usual, for a total of five.
- Two Aspirations belong to your character's Mundane Form and must relate
- to the waking world or her mundane life, the other two belong to her Dream
- Form and must relate to her life in the Dream or her supernatural life,
- and her final Aspiration may be chosen freely.
- Does she have something she wants to do with her friends in either world?
+Luminous have five Aspirations; two more than usual.
+ Most of them should be short-term goals that can be completed in a session
+ or two, and one or two should be a longer-term goal that may take a whole
+ Chapter or longer.
+ The division Luminous often feel between their mundane and dream selves
+ is reflected in their Aspirations.
+ Of her five, two of them must relate to the waking world or her mundane
+ life.
+ The other two must relate to her life in the Dream or her supernatural
+ life.
+\end_layout
+
+\begin_layout Plain Layout
+Does she have something she wants to do with her friends in either world?
  Is there a community she is important to? What is her school life or job
  like, and is there something she wants to do there? How does she use magic
  to make the waking world a better place?
@@ -3186,9 +3191,9 @@ Dream Attributes
 
 \end_inset
 
- All Chronicles of Darkness have nine mundane attributes representing their
- innate capabilities.
- Each mundane attribute starts with one free dot.
+ All characters have nine mundane attributes representing their innate mundane
+ capabilities.
+ Each starts with one free dot.
  Pick an category of attributes (Physical, Mental, and Social) to distribute
  5 dots within, another category to distribute 4 dots within, then distribute
  3 dots to the last category.
@@ -3273,6 +3278,19 @@ e to your character.
 
 \begin_layout Subsection*
 Step Five: Add Luminous Template 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Section needs rewrite!
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -3620,6 +3638,39 @@ Character Creation|)
 
 \end_layout
 
+\begin_layout Section
+Character Advancement
+\end_layout
+
+\begin_layout Plain Layout
+Luminous gain Experiences and Beats like any other character.
+ They are described on page 76-77 of 
+\series bold
+Chronicles of Darkness
+\series default
+.
+ Luminous-specific traits cost the following number of experiences:
+\end_layout
+
+\begin_layout Itemize
+Dream Attributes and Weaving Skills cost the same amount of experiences
+ as their mundane counterparts.
+ Weaving Skills do not have specialties.
+\end_layout
+
+\begin_layout Itemize
+Each dot of Reverie costs 5 Experiences.
+\end_layout
+
+\begin_layout Itemize
+Favored Invocations cost 3 Experiences per dot, and other Invocations cost
+ 4 Experiences per dot.
+\end_layout
+
+\begin_layout Itemize
+Regalia and Charms cost 4 Experiences each.
+\end_layout
+
 \end_inset
 
 
@@ -3884,7 +3935,7 @@ Kingdoms
 Avalon
 \series default
 : A kingdom built on social order and responsibility.
- Their Invocation is Rosa.
+ Its Invocation is Rosa.
 \end_layout
 
 \begin_layout Itemize
@@ -3893,7 +3944,7 @@ Avalon
 Aztlan
 \series default
 : A sprawling country built on passion and rebellion.
- Their Invocation is Solare.
+ Its Invocation is Solare.
 \end_layout
 
 \begin_layout Itemize
@@ -3902,7 +3953,7 @@ Aztlan
 Elysium
 \series default
 : An underground sanctuary built on preservation and history.
- Their Invocation is Ricordo.
+ Its Invocation is Ricordo.
 \end_layout
 
 \begin_layout Itemize
@@ -3911,7 +3962,7 @@ Elysium
 Konohana
 \series default
 : A forest whose inhabitants value adaptation and harmony.
- Their Invocation is Flori.
+ Its Invocation is Flori.
 \end_layout
 
 \begin_layout Itemize
@@ -4202,56 +4253,27 @@ lumsidebarnormal
 
 \end_layout
 
-\begin_layout Section
-Character Advancement
-\end_layout
-
 \begin_layout Standard
-Luminous gain Experiences and Beats like any other character.
- They are described on page 76-77 of 
-\series bold
-Chronicles of Darkness
-\series default
-.
- Luminous-specific traits cost the following number of experiences:
-\end_layout
-
-\begin_layout Itemize
-Dream Attributes and Weaving Skills cost the same amount of experiences
- as their mundane counterparts.
- Weaving Skills do not have specialties.
-\end_layout
-
-\begin_layout Itemize
-Each dot of Reverie costs 5 Experiences.
-\end_layout
-
-\begin_layout Itemize
-Favored Invocations cost 3 Experiences per dot, and other Invocations cost
- 4 Experiences per dot.
-\end_layout
-
-\begin_layout Itemize
-Regalia and Charms cost 4 Experiences each.
-\end_layout
+\begin_inset Flex TwoColumnBoxFill
+status open
 
 \begin_layout Section
 Shining Heart
 \end_layout
 
-\begin_layout Standard
-When they Blossom, the Luminous set off on a path in the twilight between
- dreams and the waking world.
- Embracing both worlds with all their heart, they seek out the vision of
- a better world they saw in between.
- Wielding the light of two worlds, they would bring that Dream into reality.
+\begin_layout Plain Layout
+During her Realization, a Luminous sets off on a path in the twilight between
+ dreams and reality.
+ Embracing both worlds with all her heart and wielding the power of dreams,
+ she seeks to bring about the vision of a better world she once saw in her
+ sleep.
 \end_layout
 
 \begin_layout Subsection
 Anchors
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous aren't lost in a dream, not quite.
  For all they embrace the Dream, they do not forget the waking world in
  the process.
@@ -4262,7 +4284,7 @@ Luminous aren't lost in a dream, not quite.
  they ground themselves in the things meaningful in both worlds.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4299,7 +4321,7 @@ name "subsec:Dream"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4318,7 +4340,7 @@ The Luminous know the waking world can better.
  Something must change for everyone's sake.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 When a Luminous first Blossoms, she sees within her own soul a world she
  would wish to wake up to.
  That vision is called her Dream.
@@ -4342,7 +4364,7 @@ name "subsec:Wish"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4362,7 +4384,7 @@ However she sees herself in relation to the Dream and the waking world,
  living.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A Luminous' Wish is the life she wishes to have, and how she finds comfort
  in two worlds besieged by darkness.
  It is deeply a reflection of her own self, and as much about who she wants
@@ -4377,7 +4399,7 @@ A Luminous' Wish is the life she wishes to have, and how she finds comfort
 Aspirations
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4399,7 +4421,7 @@ Luminous care about a lot.
  The last may be chosen freely.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4418,7 +4440,7 @@ Similar to P:tH Dream Version's titular mechanic, I suppose.
 Sensitivity 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4436,14 +4458,14 @@ Sensitivity|(textbf
  they would like to or not.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 While there is nothing innately supernatural about such strong empathy,
  the magic of the Luminous makes it inevitable that they will eventually
  gain it.
  Even perfectly mundane humans can have Sensitivity through a merit.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4463,7 +4485,7 @@ The kind of strong empathy that Sensitivity reflects isn't just an magical
 Take their Hand 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 There is power in caring for others.
  So many people are adrift, with nobody who truly understands them on their
  own terms.
@@ -4485,7 +4507,7 @@ You may attempt to comfort someone facing a breaking point, reassuring them
  as a bonus to your target's roll.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4517,14 +4539,14 @@ get it
 Reflected Wounds
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A Luminous fuels her power with the strength of her emotions, and far too
  often, the weight of the world can turn it back onto her.
  She cannot help but feel an echo of the emotional pain those who are suffering
  feels, even as she does her best to help those around her.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Whenever a Hopeful witnesses or learns about a situation that caused someone
  significant emotional pain, she takes a mild Hope attack with dice equal
  to her Sensitivity.
@@ -4533,7 +4555,7 @@ Whenever a Hopeful witnesses or learns about a situation that caused someone
  dice, or even cause severe Hope damage instead in extreme cases.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Afterwards, she may immediately replace a short-term aspiration with one
  to alleviate the pain, or prevent the one who caused it from doing so again.
  When she completes such an Aspiration, she gains an additional beat and
@@ -4553,7 +4575,7 @@ Sensitivity|)
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4587,7 +4609,7 @@ do something, anything
 Intimacy 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4671,7 +4693,7 @@ Described:
  in any significant manner.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Only mutual bonds have the power to shift the Dream.
  If two people have different feelings towards each other, the lower Intimacy
  implied holds.
@@ -4682,7 +4704,7 @@ p with her patients beyond a professional one.
  Intimacy unless reciprocated.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Sometimes, Intimacy is called upon as a bonus or penalty for a supernatural
  ability.
  When used as a penalty, Connected Intimacy causes no penalty, Strong causes
@@ -4705,7 +4727,7 @@ Intimacy|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4725,7 +4747,7 @@ Sympathy being a Princess mechanic always felt weird to me.
 Hope 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4748,7 +4770,7 @@ Hope|(textbf
  ever hope to.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous have Hope instead of Integrity, a measurement of her emotional
  well being and will to fight.
  When her Hope is damaged, she feels down and drained, and the conviction
@@ -4757,7 +4779,7 @@ Luminous have Hope instead of Integrity, a measurement of her emotional
  face of the world's darkness.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4794,7 +4816,7 @@ Fuel recovery
 Hope Track 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous have a Hope track equal to their transformed Power + Resistance
  that behaves similarly to a health track.
  When an ability refers to a character's Hope, it means the number of undamaged
@@ -4803,7 +4825,7 @@ Luminous have a Hope track equal to their transformed Power + Resistance
  undamaged Hope boxes (to a maximum of 10).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4823,7 +4845,7 @@ Luminous are always High Integrity.
 Hope Damage and Recovery 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Events that shake a Hopeful's resolve or strain her emotions cause her to
  suffer an attack against her Hope.
  She may take two kinds of Hope damage as a result.
@@ -4833,7 +4855,7 @@ Events that shake a Hopeful's resolve or strain her emotions cause her to
  when the situation clears up.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Each time a Luminous takes Hope damage, mark it off her Hope track using
  a slash (/) for mild damage and an (X) for severe damage.
  Mark mild damage in the leftmost empty box of her Hope track, and severe
@@ -4843,14 +4865,14 @@ Each time a Luminous takes Hope damage, mark it off her Hope track using
  is filled, she instead takes a point of severe Hope damage.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Once a day, whenever she spends time relaxing or otherwise doing something
  she enjoys without expectation or consequences for failure, roll Hope.
  She clears a box of mild Hope damage equal to her successes.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -4863,7 +4885,7 @@ TODO: Intimacy-based recovery.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4908,7 +4930,7 @@ Finally, this is the keystone that encourages Luminous to have some kind
 Attacks against Hope
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 When something shakes a Princess' resolve or emotional stability, they take
  an attack against Hope.
  Attacks can be mild or severe and have a dice rating.
@@ -4917,7 +4939,7 @@ When something shakes a Princess' resolve or emotional stability, they take
  to the corresponding to the number of successes.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 If she took any damage from this process and her rightmost box of Hope is
  marked with damage afterwards, she gains a Hope Condition, chosen by the
  player from the following list: 
@@ -4933,14 +4955,14 @@ TODO: Hope condition list.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous can take Hope attacks due to her Sensitivity, or due to strong
  emotional shock or significant emotional turmoil for personal reasons.
  While effects like spending Motes can directly cause Hope damage, this
  does not count as a Hope attack and never causes Hope Conditions.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -4953,7 +4975,7 @@ TODO: Die value example list.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -4969,7 +4991,7 @@ Clarity is weird.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -4986,7 +5008,7 @@ Hope|)
 Defiant Will
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -5007,7 +5029,7 @@ Defiant Will|textbf
  on the Clash or elect to not contest the effect.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 This protection applies against effects that outright manipulate things
  such as her emotions, thought process, memory, relationships.
  More subtle effects such as those that change her perceptions, read her
@@ -5017,7 +5039,7 @@ This protection applies against effects that outright manipulate things
  with the Luminous, or who already has mental influence over such a person.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 While Defiant Will also works against more indirect powers such as a Demon's
  reality manipulation or a Mage's Sympathy manipulation, this is far more
  obviously supernatural.
@@ -5026,7 +5048,7 @@ While Defiant Will also works against more indirect powers such as a Demon's
  being a strong-willed mortal.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -5056,7 +5078,7 @@ In Princess, this is a charm that might as well as be mandatory.
 Bright Dreams
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Luminous join the laws of the Dream and waking world together, and from
  that unison touch upon a power greater than either world.
  Whether they call it Light, Song, or simply magic, it is all the same.
@@ -5075,7 +5097,7 @@ name "Sec-Reverie"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -5097,12 +5119,12 @@ Luminous draw on a light born of two worlds to fuel their magic.
  back to her Mundane Form becomes increasingly difficult.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Reverie is a Luminous' Power Stat, granting her Supernatural Tolerance [CofD
  70].
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -5125,7 +5147,7 @@ The highest possible Luminous trait cap is 15, not 10.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -5149,7 +5171,7 @@ llap{-#1}}}
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Float table
 placement tbh
 wide false
@@ -6209,7 +6231,7 @@ tc{4}
 Motes
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6232,7 +6254,7 @@ Motes are the small shards of magic that Luminous draw on to fuel their
  to recover.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6271,7 +6293,7 @@ name "Sec-Invocations"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6288,7 +6310,7 @@ The memories and skills of Luminous who have since faded away are not lost.
  own by drawing on the collective memory of the Dream.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Each Dream Kingdom has an Invocation, resonating with the stories and magics
  of all Luminous who had ever been a part of it.
  A Luminous may have up to 5 dots in each Invocation.
@@ -6298,7 +6320,7 @@ Each Dream Kingdom has an Invocation, resonating with the stories and magics
  taught them by someone who already understand their principles.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 As a guideline, a Luminous who agrees at least partly with an Kingdom's
  beliefs may intuitively learn its Invocation up to three dots without a
  teacher.
@@ -6306,7 +6328,7 @@ As a guideline, a Luminous who agrees at least partly with an Kingdom's
  is a member of the Kingdom) may learn all five dots of it intuitively.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6366,7 +6388,7 @@ I got a four-dot upgrade to a Charm
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Sidebar
 status open
 
@@ -6408,7 +6430,7 @@ Luminous may never learn Codes intuitively, but if they manage to find a
 Regalia, Domains and Charms
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6461,7 +6483,7 @@ Charms are the more specialized powers of a Luminous, spells that touch
  for herself.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 For more information, see the 
 \begin_inset ERT
 status open
@@ -6478,7 +6500,7 @@ hyperref[Chapter-PowerOfLove]{Power of Love}
  chapter.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6500,7 +6522,7 @@ All of these categories of abilities were just Charms in P:tH.
 Transformation
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6517,7 +6539,7 @@ Mundane society always rejected the supernatural, manipulated by so many
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous have a Mundane Form in which they are simply normal humans, and
  a Dream Form in which they draw the magic and light of the Dream into reality.
  They may roll Reverie + Hope a a reflexive action in order to transform
@@ -6526,7 +6548,7 @@ Luminous have a Mundane Form in which they are simply normal humans, and
  to transform.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Transforming creates a brief but spectacular display of lights and colors
  arranged in whatever symbolism fits the Luminous.
  This is extremely obvious and attention grabbing, and will generally makes
@@ -6534,7 +6556,7 @@ Transforming creates a brief but spectacular display of lights and colors
  a closet, bathroom or similar place.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6561,7 +6583,7 @@ transform
 Mundane Form 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6576,7 +6598,7 @@ A Luminous' Mundane Form is not simply a mask of humanity; outside of their
  of the world.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 All supernatural effects treat a Luminous' Mundane Form as if she were a
  normal mortal, whether this is beneficial or harmful to her.
  She may transform reflexively to better resist such abilities if she is
@@ -6585,7 +6607,7 @@ All supernatural effects treat a Luminous' Mundane Form as if she were a
  being or otherwise cease to be a Luminous still always fail.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In addition, she loses access to the majority of her magic.
  In Mundane Form, Luminous cannot use their Mote Pools, cannot summon Regalia,
  and may only use Domains and Charms that explicitly allow it.
@@ -6603,7 +6625,7 @@ Mundane Form|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6645,7 +6667,7 @@ I've chosen to use mortal game style antagonists as Luminous' bread and
 Dream Form 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6663,7 +6685,7 @@ Luminous live a different life in their Dreams, taking on a form reflecting
  catgirls, masked heroes, paladins in shining armor.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A Luminous' Dream Form gives her the power and presence to interact with
  other supernatural beings on equal grounds, and use the shining magic they
  must to change the world.
@@ -6674,7 +6696,7 @@ A Luminous' Dream Form gives her the power and presence to interact with
  abilities.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6704,7 +6726,7 @@ This is the same Dream Form mechanic other splats use in the Astral and
 Dream Health 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6721,7 +6743,7 @@ A Dream Form is a separate body, woven out of illusion and dreamstuff rather
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Dream Health is less her dream body's physical integrity, and more her will
  to not be hurt made manifest.
  Thus, Luminous are often far too resilient for their delicate appearances.
@@ -6730,14 +6752,14 @@ Dream Health is less her dream body's physical integrity, and more her will
  aggravated to lethal, or lethal to bashing.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 However, aggravated damage against her Dream Form disrupts her mental balance
  in addition to its usual harm.
  She takes a box of mild Hope damage for every box of aggravated damage
  she receives.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Regardless of her current from, a Luminous heals all damage to her Dream
  Health whenever she would recover Willpower from sleeping.
  Furthermore, every 15 minutes out of combat, she recovers one box of bashing
@@ -6757,7 +6779,7 @@ Dream Form!Dream Health|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6806,7 +6828,7 @@ name "Sec-TransformedAttrs"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6836,7 +6858,7 @@ Resistance describes how well the Luminous can withstand the will and manipulati
 on of others.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous purchase dots of Dream Attributes separately from their mundane
  attributes, and use them in place of the corresponding mundane attributes
  in Dream Form.
@@ -6905,7 +6927,7 @@ Dream Attributes|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -6924,7 +6946,7 @@ Standard ephemeral rules.
 Weaving Actions
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -6937,7 +6959,7 @@ TODO: Move this to chapter 4.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6964,7 +6986,7 @@ In a dream, there isn't a difference between a dreamer's imagination and
  just, will it to be so.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Luminous call that kind of action Weaving – to act by imagination as
  in a dream.
  They blur the line between reality and dreams, and learn to Weaving their
@@ -6975,7 +6997,7 @@ The Luminous call that kind of action Weaving – to act by imagination as
  simply weave together a story where she hits.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Transformed Luminous may use an appropriate Weaving Skill in place of a
  normal skill as part of any roll they make.
  When she does so as a part of an proactive action on her part, it becomes
@@ -6984,7 +7006,7 @@ Transformed Luminous may use an appropriate Weaving Skill in place of a
  separately as with Dream Attributes.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Acting in such a way isn't blatantly supernatural, but often still leaves
  subtle tells that not everything is right.
  Maybe she defies gravity, drifting in the air far longer than she should.
@@ -7013,7 +7035,7 @@ Weaving|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7064,7 +7086,7 @@ name "Sec-TransformedSkills"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -7075,8 +7097,7 @@ Weaving!Weaving Skills|(textbf
 \end_inset
 
 
-\begin_inset Flex TwoColumnBox
-status open
+\end_layout
 
 \begin_layout Subsubsection*
 Force
@@ -7112,7 +7133,7 @@ Example Actions:
 \end_layout
 
 \begin_layout Subsubsection*
-Flow 
+Flow
 \end_layout
 
 \begin_layout Plain Layout
@@ -7144,7 +7165,7 @@ Example Actions:
 \end_layout
 
 \begin_layout Subsubsection*
-Learn 
+Learn
 \end_layout
 
 \begin_layout Plain Layout
@@ -7210,7 +7231,7 @@ Example Actions:
 \end_layout
 
 \begin_layout Subsubsection*
-Heart 
+Heart
 \end_layout
 
 \begin_layout Plain Layout
@@ -7275,7 +7296,7 @@ Example Actions:
 \end_layout
 
 \begin_layout Subsubsection*
-Shape 
+Shape
 \end_layout
 
 \begin_layout Plain Layout
@@ -7340,11 +7361,6 @@ Example Actions:
 Hide your true feelings.
  Avoid being seen.
  Pickpocket someone's keys.
-\end_layout
-
-\end_inset
-
-
 \begin_inset Index idx
 status open
 
@@ -7361,7 +7377,7 @@ Weaving!Weaving Skills|)
 Dream Form Traits 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Due to their different set of attributes and skills, Luminous use different
  traits in their Dream Form and Mundane Form.
  In her dream form, she calculates derived attributes as such:
@@ -7393,7 +7409,7 @@ Initiative is equal to Finesse + Resistance.
 Speed is equal to Power + Finesse + 5.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7415,7 +7431,7 @@ Again, Luminous is a fully playable splat, and their Dream Form is a core
 Dual Identity
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -7433,7 +7449,7 @@ Transformation!Dual Identity|(textbf
  and do not recognize the similarity on appearances alone.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Despite this, sufficient evidence can break this illusion.
  For one, it does not prevent others from suspecting a Luminous' nature
  based on circumstantial evidence.
@@ -7443,7 +7459,7 @@ Despite this, sufficient evidence can break this illusion.
  to protect her even slightly.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Even supernatural powers are fooled by this presumption.
  Magical senses like a vampire's taste for blood or a werewolf's scent tracking
  do not connect her two forms.
@@ -7486,7 +7502,7 @@ Transformation|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7511,7 +7527,7 @@ Luminous are meant to live, to rely on their friends.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Sidebar
 status open
 
@@ -7546,7 +7562,7 @@ Luminous may take Merits that only function in one of their forms.
 Flicker
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -7564,7 +7580,7 @@ Flicker|(textbf
  In that state, it is all too easy to get used to half-dreaming.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 When a Luminous reverts to Mundane Form after transforming, she suffers
  Flicker.
  She is ever so slightly distracted by the dreams and imaginations that
@@ -7576,7 +7592,7 @@ When a Luminous reverts to Mundane Form after transforming, she suffers
  complications due to this, she gains a Beat.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 If it was caused by transformation, the Flicker penalty reduces by one every
  ten minutes.
  This duration increases to an hour (or a scene, whichever is shorter) if
@@ -7588,7 +7604,7 @@ If it was caused by transformation, the Flicker penalty reduces by one every
  separately and use the higher penalty.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 While she enters Dream Form when she dreams, this does not trigger Flicker
  until her Reverie increases to 6 or above.
  Afterwards, she suffers Flicker with an duration of one hour whenever she
@@ -7607,7 +7623,7 @@ Flicker|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7661,7 +7677,7 @@ name "sec:Echo"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -7680,13 +7696,13 @@ The Dream binds together all of humanity in one tapestry.
  words.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Echo function in both Mundane Form and Dream Form.
  Its influence is subtle and hard to notice, however, and only affects those
  already close to the Luminous.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7707,7 +7723,7 @@ Echos, like Hope, are core to what Luminous are.
 Read the Winds
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous are innately aware of the general feeling and mood of any location
  they enter through their Echo.
  This does not depend on its present occupants, but rather the impression
@@ -7717,7 +7733,7 @@ Luminous are innately aware of the general feeling and mood of any location
  or even simply relaxing in a place next to impossible.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -7731,7 +7747,7 @@ TODO: Note the various types of taint and Astral conditions that Read the
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7757,7 +7773,7 @@ help
 Interwoven Dreams 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous and those who are close to them dream of each other, and with each
  other.
  Those who are friends with the Luminous find themselves bound by a weave
@@ -7797,7 +7813,7 @@ Luminous and those with Medium Intimacy dream of each other in vague terms,
 Lesser degrees of Intimacy are not strong enough to have any effect.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 This effect applies separately to a Hopeful's Mundane and Dream forms, and
  these dreams do not penetrate the protection of Dual Identity at Strong
  Intimacy or weaker.
@@ -7805,7 +7821,7 @@ This effect applies separately to a Hopeful's Mundane and Dream forms, and
  breach those protections by nature.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7823,7 +7839,7 @@ Luminous draw those who they are close to close together passively.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Sidebar
 status open
 
@@ -7874,14 +7890,14 @@ gets it
 Reflected Light
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Even in their waking life, a Luminous' Echo allows her and those closer
  to her to draw on each other for strength.
  Remembering the feelings they wove into their shared dreams, they may draw
  on each other's best traits when their own resolve wavers.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Once per scene, either may spend two Willpower to reflect a Virtue, Dream,
  Wish or other Anchor from someone they have Strong or Connected Intimacy
  with for that scene.
@@ -7889,7 +7905,7 @@ Once per scene, either may spend two Willpower to reflect a Virtue, Dream,
  9-Again on all actions that follow that Anchor.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -7958,7 +7974,7 @@ feels
 Aria
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -7977,7 +7993,7 @@ The words you read and hear in a dream aren't always...
  words can't.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Thus, Aria isn't truly a language, it's that language of dreams reflected
  through a Luminous' Echo.
  When one speaks Aria, she says words in sounds that never quite resolve
@@ -7986,7 +8002,7 @@ Thus, Aria isn't truly a language, it's that language of dreams reflected
  words that resolve into a piano melody rather than any voice.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Still, anyone who hears her statement understands her fully, at a depth
  that is not possible through ordinary language.
  Aria gives anyone listening to her an automatic success on rolls to determine
@@ -7994,7 +8010,7 @@ Still, anyone who hears her statement understands her fully, at a depth
  the deeper meanings of what she said.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 While it has no innate written form, any media that can convey sound (such
  as video calls over the internet, or a plain phone call) also conveys Aria.
  Recordings of Aria only keep its magical properties for about 5 minutes,
@@ -8002,7 +8018,7 @@ While it has no innate written form, any media that can convey sound (such
  sounds.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Anyone who hears Aria recognizes it for what it is.
  Through their language of dreams, the Luminous may allow themselves to
  be recognized, even in their mundane forms.
@@ -8018,7 +8034,7 @@ Aria|)
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -8049,12 +8065,17 @@ splat language
 Nakama
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
 TODO: Write this chapter.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
