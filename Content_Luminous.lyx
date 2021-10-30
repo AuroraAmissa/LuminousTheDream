@@ -781,41 +781,7 @@ Luminous: the Dream
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex LumPartQuote
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-
-\family sans
-“If someone ever tells me it's a mistake to hope, then, I'll just tell them
- they're wrong.
-\begin_inset Newline newline
-\end_inset
-
-I'll keep telling them until they believe! No matter how many times it takes...”
- 
-\family default
-\emph on
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph off
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\family sans
-\emph default
-Madoka Kaname, 
-\series bold
-Puella Magi Madoka Magica
-\end_layout
-
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2956,18 +2922,67 @@ Luminous are those caught between reality and dreams, the mundane and the
  They refuse to reject either, instead embracing both with all their heart.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Flex LumChapQuote
+status collapsed
+
 \begin_layout Chapter
 Chapter 3: Children of Twilight
 \end_layout
 
-\begin_layout Standard
-Luminous are at once human, and Dreamborn – drawing on something in between
- to make a real difference in the world.
- The rules in this chapter show you how to create a Luminous character,
- and the special rule that apply to them in play.
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\family sans
+\emph on
+“If someone ever tells me it's a mistake to hope, then, I'll just tell them
+ they're wrong.
+\begin_inset Newline newline
+\end_inset
+
+I'll keep telling them until they believe! No matter how many times it takes...”
+\emph default
+ 
+\family default
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\family sans
+\emph default
+Madoka Kaname, 
+\series bold
+Puella Magi Madoka Magica
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex TwoColumnBox
+status open
+
+\begin_layout Plain Layout
+Luminous are at once a living dream and a normal person – drawing on that
+ unison to bring the future they imagine into reality.
+ The rules in this chapter show you how to create a Luminous character,
+ and the special rules and abilities they possess.
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -3007,7 +3022,7 @@ at a glance
 Character Creation
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -3017,15 +3032,19 @@ Character Creation|(textbf
 
 \end_inset
 
-To play a Luminous in a way that works in a structured tabletop roleplay,
- you have to flesh out the heart of who she is in terms of its rules.
- Every player should have a character sheet for Luminous – either the online
- version designed for text games, or the offline printable version for in-person
- games.
- Regardless of which you choose, it will be your guide to character creation.
+In a roleplay system like 
+\series bold
+Chronicles of Darkness
+\series default
+, you have to flesh out the heart of who your character is in terms of its
+ rules.
+ Every player will need a character sheet for Luminous – either the online
+ version designed for internet games, or the offline printable version for
+ in-person games.
+ That sheet will be your guide to character creation.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 All the players in a chronicle should create their characters together if
  at all possible.
  
@@ -3041,7 +3060,7 @@ Luminous: the Dream
 Step One: Character Concept
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The first part of character creation is to come up with a rough idea of
  who your character is at the heart.
  What kind of person do you want to play? What was her upbringing like,
@@ -3050,7 +3069,7 @@ The first part of character creation is to come up with a rough idea of
  world, and what does she want to do about them?
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Ideally, you can solidify her whole concept into a single coherent high
  concept, such as 
 \begin_inset Quotes xld
@@ -3081,7 +3100,7 @@ peacekeeper for Seattle's supernatural beings
  what option fits your character better.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Commentary
 status open
 
@@ -3100,7 +3119,7 @@ I was never really good at collapsing down my characters into an easily
 Aspirations
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Aspirations are the main way your character earns beats, and thus advances
  their abilities.
  Furthermore, they help the Storyteller know where you want to go with your
@@ -3110,7 +3129,7 @@ Aspirations are the main way your character earns beats, and thus advances
  may take a whole Chapter.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Hopeful have two more aspirations than usual, for a total of five.
  Two Aspirations belong to your character's Mundane Form and must relate
  to the waking world or her mundane life, the other two belong to her Dream
@@ -3122,7 +3141,7 @@ Hopeful have two more aspirations than usual, for a total of five.
  to make the waking world a better place?
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Don't be afraid of writing Aspirations that add little bits of context to
  your character, even if they are easy to fulfill.
  For example, a simple one like 
@@ -3157,7 +3176,7 @@ name "Sec-AttributeSelection"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -3190,7 +3209,7 @@ hyperref[Sec-TransformedAttrs]{dream attributes}
  Start with one dot in each, then distribute 8 dots between them.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Two dots in an attribute is normal human ability.
  One dots is a notable difficiency, three dots is above average, four is
  remarkable, and five is the limits of human ability.
@@ -3204,7 +3223,7 @@ Two dots in an attribute is normal human ability.
 Step Three: Select Skills 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -3240,7 +3259,7 @@ hyperref[Sec-TransformedSkills]{Weaving Skills}
 Step Four: Skill Specialties
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 You start with three Skill Specialties in your mundane skills.
  They represent your character's best skills in a given field, as opposed
  to the broader competence Skill dots represent.
@@ -3256,7 +3275,7 @@ e to your character.
 Step Five: Add Luminous Template 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 At this point, you're ready to deal with the outright magical aspects of
  your character.
 \end_layout
@@ -3265,7 +3284,7 @@ At this point, you're ready to deal with the outright magical aspects of
 Luminary
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 When she Blossoms, a Luminous grasps at the symbols of the Dream to truly
  stabilize the nascent power she would come to wield.
  The first of these she takes on is her 
@@ -3283,7 +3302,7 @@ noprefix "false"
  on Regalia, Domains or Charms.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight),
  and choose the one that fits your character concept the best.
  It may well be that she could fit into multiple Luminaries.
@@ -3296,7 +3315,7 @@ Read over the three Luminaries you may pick (Sunlight, Moonlight and Starlight),
 Archetype 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Whether your character would be a shining hero, an idol whose songs change
  the world, or a shrine maiden that upholds the boundary between worlds,
  she is yet still a Luminous.
@@ -3307,7 +3326,7 @@ Whether your character would be a shining hero, an idol whose songs change
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Read over the 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -3327,7 +3346,7 @@ noprefix "false"
 Kingdom 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Starlit Dream stabilized into eight great 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -3351,7 +3370,7 @@ noprefix "false"
 Dream & Wish
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Choose your character's 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -3383,7 +3402,7 @@ noprefix "false"
 Invocations
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Each 
 \begin_inset ERT
 status open
@@ -3404,7 +3423,7 @@ hyperref[Sec-Invocations]{Invocation}
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Each Luminous starts with three dots in Invocations, one of which must be
  placed in her Kingdom's Invocation.
  Kingdomless Luminous instead choose two Invocations to have affinity for.
@@ -3416,7 +3435,7 @@ Each Luminous starts with three dots in Invocations, one of which must be
 Regalia, Domains and Charms
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -3434,7 +3453,7 @@ TODO: Oh god...
 Reverie
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "Sec-Reverie"
@@ -3452,7 +3471,7 @@ noprefix "false"
  turn, and the number of Regalia she may sustain.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Luminous begin with a free dot of Reverie.
  You may purchase additional dots for five of your starting Merit dots each.
 \end_layout
@@ -3461,7 +3480,7 @@ Luminous begin with a free dot of Reverie.
 Step Six: Merits 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Your character starts with 10 dots of Merits due to being a supernatural
  being.
  You may spend them on any merits your character qualifies for.
@@ -3486,7 +3505,7 @@ hyperref[sec:Merits]{Merits}
 Step Seven: Determine Advantages 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 All characters have certain characteristics that are derived from their
  Attributes, Skills and Merits.
  Calculate the following, and note them on your character sheet.
@@ -3515,33 +3534,6 @@ Willpower:
 \series default
  Transformed Resistance + Transformed Finesse
 \end_layout
-
-\begin_layout Standard
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Flex TwoColumnBox
-status open
 
 \begin_layout Subsubsection*
 Mundane Form
@@ -3615,22 +3607,17 @@ Defense:
  (Lower of Resistance and Finesse) + Flow
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
 Character Creation|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

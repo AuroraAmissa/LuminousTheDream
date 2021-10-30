@@ -2034,9 +2034,28 @@ lumnormalchapskip
 
 
 \backslash
+newcommand
+\backslash
+titlenohyphen{
+\backslash
+hyphenpenalty=10000
+\backslash
+raggedright}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
 renewcommand*{
 \backslash
 parttitlefont}{
+\backslash
+titlenohyphen
 \backslash
 fontsize{38}{34}
 \backslash
@@ -2050,6 +2069,8 @@ vtitlefont}
 renewcommand*{
 \backslash
 chaptitlefont}{
+\backslash
+titlenohyphen
 \backslash
 fontsize{38}{34}
 \backslash
@@ -2068,6 +2089,8 @@ centering}
 \backslash
 setsecheadstyle{
 \backslash
+titlenohyphen
+\backslash
 fontsize{28}{30}
 \backslash
 vtitlefont
@@ -2081,6 +2104,8 @@ vtitlecentered}
 \backslash
 setsubsecheadstyle{
 \backslash
+titlenohyphen
+\backslash
 vsubsecsize
 \backslash
 vtitlefont
@@ -2093,6 +2118,8 @@ vtitlecentered}
 
 \backslash
 setsubsubsecheadstyle{
+\backslash
+titlenohyphen
 \backslash
 vsubsubsecsize
 \backslash
