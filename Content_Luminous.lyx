@@ -789,8 +789,13 @@ status open
 \align center
 
 \family sans
-“If someone tells me that it's wrong to hope, I'll tell them that they're
- wrong every time.” 
+“If someone ever tells me it's a mistake to hope, then, I'll just tell them
+ they're wrong.
+\begin_inset Newline newline
+\end_inset
+
+I'll keep telling them until they believe! No matter how many times it takes...”
+ 
 \family default
 \emph on
 
@@ -1198,44 +1203,82 @@ Both the main protagonists, Angela and Roland have their own dark pasts
 
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Flex LumChapQuote
+status open
+
 \begin_layout Chapter
 Chapter 1: Shining Lights
 \end_layout
 
-\begin_layout Standard
-The Luminous and their predecessors built the Dream they draw their magic
- from over the generations, hiding it away in the edges of their dreams,
- in a place where the dreams of humanity naturally bleed together.
- Their nature is as fluid and shifting as any other dream.
- Before Luminous were magical girls, they were the paladins in shining armor,
- the angels with wings of light, the witch in the forest, the village shaman.
- All dreaming of a better world, where they and those they love could simply
- live happily.
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\emph on
+"Under this great big sky, there are thousands, no, tens of thousands of
+ people.
+\begin_inset Newline newline
+\end_inset
+
+All kinds of people with all sorts of wishes and feelings hiding inside."
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\emph default
+Nanoha Takamachi, 
+\series bold
+Magical Girl Lyrical Nanoha
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-In the moment they Blossom, they shape their soul into a world they call
- their Soulspace.
- They weave the symbols of the Dream together into a world reflecting their
- own deepest truths, and through that, they take on its power for their
- own.
- Three central symbols define who they are as a Luminous:
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
+Hidden in the depths of our dreams, they all meld into one.
+ A world of stories woven from countless imaginations.
+ A dream of futures that could be, of the light we all know 
+\emph on
+could 
+\emph default
+exist in the depths of our heart.
+ Some people find that dream, remembering the paths they took to find it.
+ Some...
+ choose to stay, building themselves a second life in their dreams.
+ Some believed, knowing that future could come true if only we tried.
 \end_layout
 
-\begin_layout Itemize
-Their Luminary forms the foundation of their magic, reflecting their approach
- to the world.
+\begin_layout Plain Layout
+...
+ and when they try to bring that dream into the waking world, when they
+ stand up for the ideals they saw...
+ a few, a rare few, Realize a deeper truth.
+ Why we dream.
+ The power that sprouted in their hearts when they began dreaming...
+ If they could believe in that power, coax it into reality, they would hold
+ for a moment all the dreams, memories, hopes and imaginations the Dream
+ remembers.
+ Guided by those lights, they weave their dreaming and waking lives into
+ one.
 \end_layout
 
-\begin_layout Itemize
-The Kingdom they are a citizen of in their dreams, reflecting their vision
- of a better world.
- 
-\end_layout
-
-\begin_layout Itemize
-Their Archetype shapes their Dream Form and how they project their will
- upon the world.
+\begin_layout Plain Layout
+Thus, they ignite the magic that would make them Luminous.
 \end_layout
 
 \begin_layout Section
@@ -1249,60 +1292,17 @@ name "Sec-Luminary"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Index idx
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-Luminary|textbf 
+TODO: Write this section.
 \end_layout
 
 \end_inset
 
-In the times before history even began, we looked to the skies for guidance.
- We saw the sun as a shining beacon that watched over all, the moon a mysterious
- guide that shone through the night, and the stars a fountain of mystery
- and wonder.
- So many of our stories were written around those lights...
-\end_layout
 
-\begin_layout Standard
-When the lights of heaven no longer suffice, the Hopeful may still be the
- shining protectors and guides of this generation.
- When a Luminous Blossoms, they draw on the stories of those lights and
- use it as a foundation for all the rest of their magic.
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Those who pattern their magic after Sunlight become shining heroes of light,
- who wield Regalia that shine as bright as the sun itself.
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Those who pattern their magic after Moonlight become mystical guides, shaping
- the world around them as the moon shapes the tides.
-\end_layout
-
-\begin_layout Itemize
-\noindent
-Those who pattern their magic after Starlight become esoteric witches, wielding
- charms and spells as diverse and colorful as the stars themselves.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The Luminous X-Splat.
- There's fewer of them than most splats, but that's made up for by using
- having Archetypes and more Y-Splats than normal.
- The idea is that these three – due to how broad they are – can describe
- all characters already, and they tie into both a strong flavor linchpin
- and the splat's mechanics.
 \end_layout
 
 \end_inset
@@ -1338,6 +1338,56 @@ Sunlight
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+
+\emph on
+\begin_inset Quotes xld
+\end_inset
+
+This is my ultimate strength...
+ everything I've got.
+ Starlight Breaker!
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\family sans
+\emph default
+Nanoha Takamachi, 
+\series bold
+Magical Girl Lyrical Nanoha
+\family default
+\series default
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -1347,74 +1397,135 @@ Luminary!Sunlight|textbf
 
 \end_inset
 
-So bright is the Sun, that its light defines the cycle of day and night
- itself.
- Those who follow the path of Sunlight vow to themselves do the same.
- They vow to be the ones to turn night to day, to shine for those who are
- lost in the dark.
- They are the beacons others look to, and the ones who light the path for
- others to follow.
+ The sun stood proud in the sky, rising every day to beat back the dark
+ night.
+ So it had always been.
+ Its light defined day and night, its dance across the sky defined the seasons.
+ Even if just one star could not light a whole world, it still tries.
+ It is much the same for those Luminous who embrace the role of Sunlit.
 \end_layout
 
-\begin_layout Standard
-They are the heroic warriors whose legends outlive them long after their
- time is over, the field scientists whose discoveries are cited decades
- later, the activist organizers who march among those they lead.
- The Sunlit, more than anything else, are the ones who shine brightly for
- all to see, the ones who act visibly in the open.
+\begin_layout Plain Layout
+They were often those lost in darkness alongside everyone else – trapped
+ in a world full of people who didn't care and weren't allowed to care.
+ They were the ones who still tried to help, even as they themselves were
+ lost.
+ Of course it wasn't enough; they couldn't even save themselves.
+ No one person could.
+ When their defiance could sustain them no longer, the Dream calls most
+ to them...
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Magic:
-\series default
- The magic of the Sunlit tends to be bright, colorful and personal, leaving
- neither what they intend to do nor their own nature particularly hard to
- read.
- Their transformations too are as colorful and distinctive as their magic,
- decorated with a crystal clear personal touch revealing their innermost
- truths.
+\begin_layout Plain Layout
+When they Realize their own light, they vow to be the shining beacon they
+ tried to be all that time, to give a hand to those still lost in the dark,
+ to stand alongside those who wish to care but cannot find the will to,
+ to lead the charge against the world's shadows.
+ To act, to shine as the Sun does.
 \end_layout
 
-\begin_layout Standard
-The boy who was always bullied for how much he loved old stories of knighthood
- shines in defiance of the world every time he transforms.
- He carries on that dream regardless, wearing the same shining silver armor
- he always imagined when he read those stories, covered in both fantastical
- heraldry and futuristic lights and glows.
+\begin_layout Subsubsection*
+Heart
 \end_layout
 
-\begin_layout Standard
-The elementary school teacher who always encouraged her students to be their
- best self teaches by example every time she transforms.
- She embraces her own childish nature, appearing as a young girl in a classical
- frilled magical girl costume long into adulthood.
- At the same time, she refuses to be defined as lesser for it, taking the
- lead as confidently, and expecting others to follow her regardless of her
- appearance.
+\begin_layout Plain Layout
+It isn't that most people don't want to help those lost in the dark, that
+ they don't want to change anything.
+ Few people truly like to see others suffer.
+ But...
+ what they can do about it? To stand up against the world means to earn
+ its ire.
+ It means to be the nail that gets hammered down.
+ So people don't.
+ They come up with reasons why those less fortunate deserve it, hide away
+ from the flaws of the world and pretend the shadows don't exist.
  
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Benefits:
-\series default
- Luminous who resonate with Sunlight have a particular affinity for Regalia.
- They may maintain up to three Regalia with no bound Invocations without
- cost, and have one additional Regalia Capacity.
- Furthermore, they qualify for Regalia upgrade requirements as if they had
- one more dot in each Invocation they have at least one dot in.
- 
+\begin_layout Plain Layout
+Some try anyway.
+ Some stand against the world, vowing to change it for the better.
+ Some beat back the dark forces of the world by hand, without a thought
+ to stealth.
+ Some inspire others through their bright cheer and personalities.
+ Others protect those they love, as little suns.
+ All of them are driven by the same feeling.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+The will to stand in the center of the storm, aiming to outshine it all.
+ Defiance and desperation and passion, all woven together.
+ A candle that burns faster should it flickers too dim.
+ A fire that announces dawn.
+ Such is the dream of Sunlight.
+ The will to act.
+\end_layout
+
+\begin_layout Plain Layout
+Even when they have no more to give, they don't give up.
+ Even if it burns themselves away in the process.
+ The shadows the Sun casts are those of self-destructive desperation.
+ All Weavers feel the press of Sensitivity, but for Sunlit it too easily
+ warps into an all-consuming passion – driving them to unreasonable self-sacrifi
+ce.
+\end_layout
+
+\begin_layout Plain Layout
 
 \series bold
-Inspirations:
+Resolve:
 \series default
- Nanoha Takamachi (Lyrical Nanoha), Sayaka Miki (Madoka Magica) 
+ Once per scene, a Sunlit may take a point of severe Hope damage to regain
+ two temporary Willpower for the Scene.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Shadows:
+\series default
+ Whenever a Sunlit abandons or refuses to take an Aspiration from Sensitivity
+ with severe Hope damage marked, they gain a Hope condition.
+\end_layout
+
+\begin_layout Subsubsection*
+Dreams
+\end_layout
+
+\begin_layout Plain Layout
+The Sunlit dream brightly, usually appearing as magical girls, superheroes,
+ paladins, or knights in their Dream Forms.
+ All manners of the heroes of epic myth, old and new.
+ The rest of the supernatural world always imagined the Sunlit when they
+ hear of the Luminous, and it is no wonder.
+ They are the ones who stand out the most, most willing to stand in the
+ limelight.
+\end_layout
+
+\begin_layout Plain Layout
+They wield their magic no differently than any would expect.
+ They are direct and bright, favoring power and immediate action.
+ They would sooner rather blast through a building directly at their target
+ than reach it through infiltration.
+ The collateral damage doesn't matter – it disappears when their magic fades.
+ Of course, the transience of their magic frustrates them just as easily
+ when they really want the whole building gone.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Radiance:
+\series default
+ Sunlit have a particular affinity for Regalia.
+ They may sustain Regalia for one less Luminance (to a minimum of 1), and
+ treat each Ideals and Domains they possess as one dot higher when qualifying
+ for Regalia.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4432,7 +4543,7 @@ Whenever a Hopeful witnesses or learns about a situation that caused someone
  to her Sensitivity.
  Deliberate acts of cruelty add a dice to this attack, and particularly
  heinous acts (such as prolonged deliberate torture) may add up to three
- dice, or cause severe Hope damage instead in extreme cases.
+ dice, or even cause severe Hope damage instead in extreme cases.
 \end_layout
 
 \begin_layout Standard
@@ -12038,36 +12149,7 @@ Storytelling
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex LumPartQuote
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-"Under this great big sky, there are thousands, no, tens of thousands of
- people.
-\begin_inset Newline newline
-\end_inset
-
-All kinds of people with all sorts of wishes and feelings hiding inside."
-\emph on
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph off
-
-\begin_inset VSpace medskip
-\end_inset
-
-
-\emph default
-Nanoha Takamachi, 
-\series bold
-Magical Girl Lyrical Nanoha
-\end_layout
-
+\begin_inset Newpage newpage
 \end_inset
 
 
