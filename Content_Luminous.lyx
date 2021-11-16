@@ -113,6 +113,13 @@ InsetLayout Flex:LumChapQuote
   LatexName             lumchapquote
   ResetsFont            true
 End
+
+InsetLayout Flex:Foldable          # Define a new "flex" inset called "Foldable"
+  LyxType         custom           # Add to Insert > Custom Insets
+  LatexType       none             # Export contents to latex as-is, ignoring the wrapper.
+  Decoration      minimalistic     # Do not show a label, only the outer box, when not folded.
+  ContentAsLabel  true             # When folded show truncated contents as label.
+End
 \end_local_layout
 \language english
 \language_package default
@@ -2380,7 +2387,7 @@ setnormallayout
 status open
 
 \begin_layout Chapter
-Chapter 2: Distant Dreams
+Chapter 2: Distant Echoes
 \end_layout
 
 \begin_layout Plain Layout
@@ -2929,7 +2936,7 @@ Luminous are those caught between reality and dreams, the mundane and the
 status open
 
 \begin_layout Chapter
-Chapter 3: Children of Twilight
+Chapter 3: A Faint Dream
 \end_layout
 
 \begin_layout Plain Layout
@@ -2976,8 +2983,10 @@ Puella Magi Madoka Magica
 status open
 
 \begin_layout Plain Layout
-Luminous are at once a living dream and a normal person – drawing on that
- unison to bring the future they imagine into reality.
+Luminous find themselves caught between two worlds, existing at once as
+ a living dream and an ordinary human.
+ Somewhere in between, they find the power they wield to create the future
+ they wish for.
  The rules in this chapter show you how to create a Luminous character,
  and the special rules and abilities they possess.
 \end_layout
@@ -4257,6 +4266,10 @@ lumsidebarnormal
 \begin_inset Flex TwoColumnBoxFill
 status open
 
+\begin_layout Plain Layout
+\begin_inset Flex Foldable
+status open
+
 \begin_layout Section
 Shining Heart
 \end_layout
@@ -4274,14 +4287,12 @@ Anchors
 \end_layout
 
 \begin_layout Plain Layout
-Luminous aren't lost in a dream, not quite.
- For all they embrace the Dream, they do not forget the waking world in
- the process.
- Rather than grounding themselves to a Virtue and a Vice as most mortals
- do, they hold onto their Dream of a better world, and their Wish for who
- they want to be.
- It isn't so much they were changed so much they lost them, but simply that
- they ground themselves in the things meaningful in both worlds.
+The Luminous are not quite lost in the Dream they embrace.
+ They do not forget the waking world, living two lives in two worlds – and
+ drawing on the power of both.
+ Rather than a Virtue and a Vice, they cling to the things that matter in
+ either world: their Dream of a better future, and their Wish for who they
+ want to be in it.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4289,20 +4300,40 @@ Luminous aren't lost in a dream, not quite.
 status open
 
 \begin_layout Plain Layout
-Even though Luminous are a near-human splat like Mage, I felt it wasn't
- too thematically appropriate to keep Virtue/Vice to reflect that.
- Keeping them is clever of Mage, but...
- it is missing out an opportunity to add to more important themes.
- Alternative anchors are really fun.
- They ask players to express the heart of who their character is in theme
- appropriate terms.
+Mage did something very clever in keeping the human Virtue/Vice to double
+ down on its theme that they...
+ stay mostly human, but I personally feel it's something of a mistake.
+ 
+\begin_inset Quotes xld
+\end_inset
+
+Clever
+\begin_inset Quotes xrd
+\end_inset
+
+ isn't what makes design good, it's how it reinforces themes.
+ The 
+\begin_inset Quotes xld
+\end_inset
+
+almost-human
+\begin_inset Quotes xrd
+\end_inset
+
+ part was...
+ not a core theme of Mage, not in a significant way.
+ Especially not with the superiority complex it seems most of the Awakened
+ Orders have.
 \end_layout
 
 \begin_layout Plain Layout
-Unlike most splats, notably, the Dream and Wish are not meant to be in conflict
- with each other.
+After all, well.
+ Alternative anchors are fun.
+ They ask players to express the heart of who their character is in theme
+ appropriate terms.
+ Notably, the Dream and Wish are not meant to be in conflict with each other.
  They are more like Needle/Thread in that they reinforce each other, painting
- a complete picture in that way.
+ a complete picture rather than defining a conflict.
 \end_layout
 
 \end_inset
@@ -4331,23 +4362,16 @@ Dream|textbf
 
 \end_inset
 
-The Luminous know the waking world can better.
- In the Dream, they see reflected upon it all the little ways the waking
- world tears at those within it like thorns.
- They see the long-reaching echoes and lasting pains wrought by all the
- little injustices people say mean nothing.
- The little things matter.
- Something must change for everyone's sake.
+Despite all the injustices of the waking world, and the shadows they cast
+ on the Dream, the Luminous yet still dream of better.
+ When they awaken their magic, they once saw within their own soul a vision
+ of a world they would wish up to.
+ The one bright future she wishes for most among everything that could be.
+ A world she could comfortably live in for herself and those who she loves.
 \end_layout
 
 \begin_layout Plain Layout
-When a Luminous first Blossoms, she sees within her own soul a world she
- would wish to wake up to.
- That vision is called her Dream.
- It is the one future out of endless brighter possibilities she considers
- truly her own, and one that she could comfortably live in for herself and
- those who she loves.
- At the end of a scene, if she takes a risk to make her Dream a reality,
+At the end of a scene, if a Luminous takes a risk to make her Dream a reality,
  even in a small way, she regains one Willpower.
  If she makes noticeable progress in realizing her Dream, she regains all
  Willpower.
@@ -4374,25 +4398,43 @@ Wish|textbf
 
 \end_inset
 
-However she sees herself in relation to the Dream and the waking world,
- a Luminous must live somehow.
- Perhaps she finds a place to hide away and live quietly in her dreams,
- spending her waking life helping those in need without a break.
- Perhaps she tries to live as fully as possible in all worlds.
- Regardless...
- a life spent merely chasing a better future yet to come isn't truly worth
- living.
+Everybody has to live.
+ They can't simply fight every waking moment of their lives, not without
+ burning away in a blink of the eye.
+ Maybe she hides away and lives a quiet live in the Dream, helping others
+ without a break in the waking world.
+ Maybe she tries to live as fully as she can in all worlds.
+ However she does it...
+ a life merely spent chasing a better future yet to come isn't worth living.
 \end_layout
 
 \begin_layout Plain Layout
-A Luminous' Wish is the life she wishes to have, and how she finds comfort
- in two worlds besieged by darkness.
- It is deeply a reflection of her own self, and as much about who she wants
- to be as much as it is about who she is.
+A Luminous' Wish reflects that truth.
+ It is the life she wishes to have, and how she finds comfort in two worlds
+ besieged by darkness.
+ It is a reflection of her own self, and as much about who she wants to
+ be as much as it is about who she is.
  At the end of a scene, if she overcame a challenge or took a risk to express
  her Wish, she regain one Willpower.
  If she takes a significant risk or abandoned an important task to express
  her Wish, she regains all Willpower.
+\end_layout
+
+\begin_layout Subsubsection*
+Example Anchors
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write some example anchors
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -4409,16 +4451,23 @@ Aspirations
 
 \end_inset
 
-Luminous care about a lot.
- Most have a mundane life to live, and often duties in the Dream to fulfill.
- They almost never have the luxury to abandon one aspect of their life in
- favor of another.
- To reflect this, they have five aspirations instead of the usual three.
- Two of them must relate to the waking world or her mundane life and two
- of them.
- Two of them must relate to the Dream, the supernatural world, or her goals
- as a supernatural being.
- The last may be chosen freely.
+ Most supernatural beings are caught between two worlds, finding themselves
+ stuck in the middle.
+ But Luminous are...
+ split between two worlds, asked to live fully in both.
+ They cannot truly leave either.
+ At the end of the night, everybody wakes from their dreams; at the end
+ of the day, everyone must sleep...
+ and thus dream.
+\end_layout
+
+\begin_layout Plain Layout
+They have to care about both.
+ They have two additional Aspirations, reflecting their life in the Dream.
+ Those Aspirations must relate to their life in the Dream or the supernatural
+ world.
+ Furthermore, two of her remaining Aspirations must relate to her mundane
+ life or her duties to the waking world.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4426,9 +4475,11 @@ Luminous care about a lot.
 status open
 
 \begin_layout Plain Layout
-Similar to P:tH Dream Version's titular mechanic, I suppose.
- Luminous balance two lives, and this is a means to make players think about
- how their characters live, not just the supernatural monster of the day.
+P:tH messed with Aspirations too in both its versions, and this is a somewhat
+ different implementation of a similar idea.
+ It pushes Luminous to care about both the mundane and the supernatural,
+ while adding some wiggle room for the version of Sensitivity in Luminous
+ to do what it is meant to.
 \end_layout
 
 \end_inset
@@ -4437,7 +4488,7 @@ Similar to P:tH Dream Version's titular mechanic, I suppose.
 \end_layout
 
 \begin_layout Subsection
-Sensitivity 
+Sensitivity
 \end_layout
 
 \begin_layout Plain Layout
@@ -4450,19 +4501,37 @@ Sensitivity|(textbf
 
 \end_inset
 
- The Dream is woven out of emotion and stories.
- There is no ignoring the emotions of others, when they are a part of the
- landscape that can be felt the same as the rocks and trees can be seen.
- Luminous carry a shard of that empathy into the waking world, feeling the
- triumphs and pains of those around them as if they were their own – whether
- they would like to or not.
+ In the Dream, the emotions of those within become part of the landscape;
+ a part of the world as real the rocks and trees.
+ Even in their waking lives, some part of that still defines how Luminous
+ see the world – still feeling the triumphs and pains of the world around
+ them as if they were their own.
+ Their innate magic is to connect hearts, dream together, and feel the flows
+ of the world, after all.
 \end_layout
 
 \begin_layout Plain Layout
-While there is nothing innately supernatural about such strong empathy,
- the magic of the Luminous makes it inevitable that they will eventually
- gain it.
- Even perfectly mundane humans can have Sensitivity through a merit.
+They can hardly avoid feeling the world in that way, even without their
+ magic's direct influence.
+ They call that supernatural power their 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Echo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, and the strong and mundane empathy that backs it Sensitivity.
+ Though Sensitivity is not truly supernatural, the powers of the Luminous
+ inflame it greatly.
+\end_layout
+
+\begin_layout Plain Layout
+In game terms, Sensitivity is a die pool much like attributes or skills.
+ For Luminous, it increases according to their Reverie.
+ For mortals, its value depends on the number of dots they have in the merit.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4470,10 +4539,34 @@ While there is nothing innately supernatural about such strong empathy,
 status open
 
 \begin_layout Plain Layout
-The kind of strong empathy that Sensitivity reflects isn't just an magical
- ailment/drawback as Princess' writing implies, and it has strong and useful
- upsides.
- All of a Luminous' supernatural empathy is their Echo, not Sensitivity.
+I have...
+ feelings about Sensitivity as it is portrayed in Princess.
+ Suffice to say, this is one of the only mechanics that remains effectively
+ unchanged from the Princess version, and that is very much because of how
+ core the idea is to, well, the heart of a magical girl splat.
+ Princess treats it as the primary downside rather than the driving force
+ behind how Princesses 
+\emph on
+are
+\emph default
+.
+\end_layout
+
+\begin_layout Plain Layout
+In Luminous, Sensitivity isn't meant as a purely supernatural drawback as
+ Princess' writing implies.
+ The enhanced emotion is more part of the Hope mechanic, and their supernatural
+ empathy is part of their Echo in this version.
+\end_layout
+
+\begin_layout Plain Layout
+Sensitivity itself is a mundane trait that is available as a merit to all
+ characters (who don't have it as part of splat baseline).
+ This is...
+ subtly, the Luminous version of Circle, in a sense.
+ Having friends and confidants with the Sensitivity trait (supernatural
+ or otherwise) contribute to their Hope recovery, hence, it needs to be
+ more broadly accessible than just for other Lucid.
 \end_layout
 
 \end_inset
@@ -4482,29 +4575,27 @@ The kind of strong empathy that Sensitivity reflects isn't just an magical
 \end_layout
 
 \begin_layout Subsubsection*
-Take their Hand 
+Take their Hand
 \end_layout
 
 \begin_layout Plain Layout
-There is power in caring for others.
- So many people are adrift, with nobody who truly understands them on their
- own terms.
+So many people are adrift, with nobody who truly understands them.
+ Few people try, fewer succeed.
  Even if they can't perfectly close the gap...
- it's at least easier for Luminous and those like them.
- Sensitivity grants the following bonuses in social interactions:
+ it's at least easier for the Luminous and those like them to show they
+ care.
+ They feel the world genuinely, know the same pains, even if only in reflection...
 \end_layout
 
-\begin_layout Itemize
-You add your Sensitivity as a bonus to rolls to understand how someone feels,
- comfort them, or assure them of their own worth and value.
-\end_layout
-
-\begin_layout Itemize
-You may attempt to comfort someone facing a breaking point, reassuring them
- that at the very least, they are not alone.
- Roll Presence + Sensitivity.
- Take Hope damage equal to your number of successes, and add that many dice
- as a bonus to your target's roll.
+\begin_layout Plain Layout
+Characters may add Sensitivity as a bonus to mundane rolls to understand
+ how someone feels, comfort them, or assure them that they understand.
+ Should another character face a breaking point in their presence, they
+ may try to comfort them.
+ Roll Presence + Sensitivity, and take mild Hope damage equal to the number
+ of successes.
+ The other character adds that many dice as a bonus to their breaking point
+ roll.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4513,21 +4604,10 @@ status open
 
 \begin_layout Plain Layout
 In short, the kinds of upsides you should expect from feeling others' pain.
- The last ability especially encourages Luminous to take on those who also
- have Sensitivity (whether they're mundane, Luminous, or something stranger),
- because those are the people who would understand their struggles.
-\end_layout
-
-\begin_layout Plain Layout
-Luminous live in a dark world where most people don't...
- 
-\emph on
-get it
-\emph default
-, after all.
- This is the second reason for Sensitivity to be a mundane merit – a mechanical
- way to represent the kinda people who know the struggle of the Luminous,
- even if they don't aren't magical girls for it.
+ Caring about people can be a powerful tool, just...
+ one that can end up hurting you as much as the people around you are already
+ hurting.
+ A double-edged sword if there ever was one.
 \end_layout
 
 \end_inset
@@ -4540,24 +4620,42 @@ Reflected Wounds
 \end_layout
 
 \begin_layout Plain Layout
-A Luminous fuels her power with the strength of her emotions, and far too
- often, the weight of the world can turn it back onto her.
- She cannot help but feel an echo of the emotional pain those who are suffering
- feels, even as she does her best to help those around her.
+The world isn't a kind place.
+ Some people can avoid it, others simply pretend it's not all so bad.
+ Maybe they come to believe they deserve it.
+ Those like the Luminous...
+ can't.
+ They feel all of the pain as if it were their own, and the only thing they
+ can think to do to stop it is to try and make things better.
+ That, more than anything else, is what drives the Hopeful forward.
 \end_layout
 
 \begin_layout Plain Layout
-Whenever a Hopeful witnesses or learns about a situation that caused someone
- significant emotional pain, she takes a mild Hope attack with dice equal
- to her Sensitivity.
- Deliberate acts of cruelty add a dice to this attack, and particularly
- heinous acts (such as prolonged deliberate torture) may add up to three
- dice, or even cause severe Hope damage instead in extreme cases.
+...
+ it still hurts.
+ No matter how much they do, no matter how much they try to change things,
+ it still hurts to see all the pain and shadows of the world and then to
+ feel it for themselves.
+ When such characters witness someone in significant emotional distress
+ or has suffered an meaningful injustice, they suffer a mild Hope attack
+ with dice equal to their Sensitivity rating.
+ Similar events may only trigger a Hope attack once per scene, and a single
+ event can only trigger a Hope attack once.
+\end_layout
+
+\begin_layout Plain Layout
+This has fewer and more limitations than one may expect.
+ Luminous come to understand the kinds of injustices and the alien emotions
+ of strange beings easily through their Echo, but it is still filtered through
+ their own nature.
+ Through exposure, they may become familiar with the alien needs and desires
+ of the spirits and fae, but the pain a truly horrible person feels when
+ they are prevented from harming another could never resonate.
 \end_layout
 
 \begin_layout Plain Layout
 Afterwards, she may immediately replace a short-term aspiration with one
- to alleviate the pain, or prevent the one who caused it from doing so again.
+ to alleviate the pain, or prevent a similar injustice from repeating.
  When she completes such an Aspiration, she gains an additional beat and
  recovers mild Hope damage equal to her Sensitivity.
  If the Aspiration was a Long-Term Aspiration, she recovers all mild Hope
@@ -4572,7 +4670,7 @@ Sensitivity|)
 
 \end_inset
 
- 
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -4580,24 +4678,17 @@ Sensitivity|)
 status open
 
 \begin_layout Plain Layout
-Sensitivity is both a source of Hope recovery and a source of Hope damage.
- It biases towards the former if you try to do something about Sensitivity
- triggers, however.
-\end_layout
-
-\begin_layout Plain Layout
-That's the point.
- To give players that sense of desperation that Luminous should feel in-characte
-r, that need to 
+Sensitivity is simpler in Hopeful, but contributes in a great way to the
+ flow of the game.
+ It creates mechanically a sense of wanting to solve the problem 
 \emph on
-do something, anything
+immediately
 \emph default
-.
- That they have to do something about the problems and small cruelties of
- the world they run into every day, and reflecting the fact that people
- like that tend to...
- not feel great over it when they just...
- can't.
+ when bad things happen, and that...
+ feels great in play.
+ The Luminous version refines this, trading some of the immediacy for the
+ simplicity in tying in the mechanics with Hope and Aspirations rather than
+ an entirely separate system of Shadows.
 \end_layout
 
 \end_inset
@@ -4606,7 +4697,7 @@ do something, anything
 \end_layout
 
 \begin_layout Subsection
-Intimacy 
+Intimacy
 \end_layout
 
 \begin_layout Plain Layout
@@ -4619,9 +4710,11 @@ Intimacy|(textbf
 
 \end_inset
 
-The Dream is woven out of the countless bonds and ties that connect people,
- combining into a greater whole.
- The strength of that connection between two people is called Intimacy.
+The magic of the dream connects people, weaving a network reflecting the
+ countless bonds and relationships that the waking world weaves.
+ Drawing on that power, many magics of the Luminous are easier to use or
+ more powerful on those they have closer bonds with.
+ Intimacy measures that closeness, and forms an integral part of their character.
 \end_layout
 
 \begin_layout Itemize
@@ -4629,11 +4722,11 @@ The Dream is woven out of the countless bonds and ties that connect people,
 \series bold
 Connected:
 \series default
- The two people are so close that the distinction between them does not
- matter, often being bound by magical vows and ties.
- This usually applies to extremely close lovers, platonic life partners,
- and those bound by vows such as those between a Changeling and the Avowed
- or the 
+ Two people have Connected Intimacy if they are close enough as to be effectivel
+y inseparable, often as a result of magical bonds or vows.
+ Such people are usually extremely close (perhaps to the point of codependence)
+ lovers, those bound by vows such as those between a Changeling and an Avowed,
+ or those who have taken on the 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sec:Weave-of-Bonds"
@@ -4651,11 +4744,10 @@ noprefix "false"
 \series bold
 Strong:
 \series default
- The two people are very close to each other, often sharing much of their
- lives with each other and confiding in each other for comfort and support.
- This often applies to those such as typical married couples, very close
- friends, parents and their children, or family of choice.
- 
+ Two people have Strong Intimacy when they share much of their lives with
+ each other, often confiding in each other for comfort and support.
+ Often, these people are married couples, very close friends, parents and
+ their children, or see each other as family of choice.
 \end_layout
 
 \begin_layout Itemize
@@ -4663,11 +4755,10 @@ Strong:
 \series bold
 Medium:
 \series default
- The two people are on friendly terms with each other and come to know each
- other on deeper terms.
- This often applies to those such as good friends, confidants, siblings,
- or a typical dating couple.
- 
+ Two people have Medium Intimacy when they are on friendly terms with each
+ other and know about each other's lives in broad terms.
+ Good friends, confidants, siblings or a typical dating couple would usually
+ fall under this category.
 \end_layout
 
 \begin_layout Itemize
@@ -4675,13 +4766,12 @@ Medium:
 \series bold
 Weak:
 \series default
- The two people have met each other before, and interact on occasion but
- rarely in particular depth.
- This often applies to those such as coworkers, gaming partners, extended
- family, or a friend of a friend.
- Hostile or unfriendly relationships also fall under this category, though
- some kinds of ambiguous relationships (such as a passionate rivalry) can
- justify stronger Intimacy.
+ Two people have Weak Intimacy if they have met before, but rarely with
+ any particular emotional depth.
+ Such people may be coworkers, gaming partners, extended family or the friend
+ of a friend.
+ Hostile or unfriendly relationships too often fall under this category,
+ although not always.
 \end_layout
 
 \begin_layout Itemize
@@ -4689,32 +4779,29 @@ Weak:
 \series bold
 Described:
 \series default
- You have a basic idea of who the person is, but have not interacted directly
- in any significant manner.
+ Two people have Described Intimacy if one knows the other exists and has
+ a basic description of who they are.
+ Luminous magic struggles to function with such a loose connection, and
+ simply fails to function with anything even less significant.
 \end_layout
 
 \begin_layout Plain Layout
-Only mutual bonds have the power to shift the Dream.
- If two people have different feelings towards each other, the lower Intimacy
- implied holds.
- For example, a therapist and her patient often only have Weak Intimacy,
- simply because the therapist is effectively forbidden from having a relationshi
-p with her patients beyond a professional one.
- Similarly, unrequited love from a stalker rarely produces more than Weak
- Intimacy unless reciprocated.
+Regardless of the depth of the connection, the feelings must be mutual.
+ If the two participants have different feelings towards each other, the
+ lower Intimacy implied is used.
+ A therapist may know a lot about her patients, but this often only results
+ in Weak Intimacy because they rarely truly form mutual bonds in their professio
+n.
+ As much as the fans of an idol may know about her, the Intimacy is still
+ Described due to those fans blending into a faceless crowd to her.
 \end_layout
 
 \begin_layout Plain Layout
-Sometimes, Intimacy is called upon as a bonus or penalty for a supernatural
- ability.
- When used as a penalty, Connected Intimacy causes no penalty, Strong causes
- -2, Medium causes -4, Weak causes -8, and Described causes -12.
- When used as a bonus, Connected Intimacy provides a +6 bonus, Strong provides
- +4, Medium provides +2.
- Lower Intimacy provides no bonus.
- Furthermore, when using such an ability, you may use the Intimacy of a
- person you are touching, at the cost of decreasing the Intimacy by one
- level.
+When Intimacy is used as a bonus to a supernatural ability, Connected provides
+ a +6 bonus, Strong provides +4, Medium provides +2, and lesser strengths
+ provide no bonus.
+ When it is used as a penalty, Strong inflicts -2, Medium inflicts -4, Weak
+ inflicts -8, and Described inflicts -12.
 \begin_inset Index idx
 status open
 
@@ -4732,10 +4819,12 @@ Intimacy|)
 status open
 
 \begin_layout Plain Layout
-Sympathy being a Princess mechanic always felt weird to me.
- I liked Intimacy in Dream version way better for being...
- more like what a magical girl should care about.
- They care about relationships, not locks of hair.
+Ultimately inspired by the P:tH Dream version of the mechanic, which was
+ used as an alternative to Sympathy (as used in Vocation version).
+ Intimacy is far more core to Luminous' mechanics than in Princess to push
+ the theme of relationships and connections harder.
+ After all, it's one of the core themes of a lot of magical girl works;
+ why shouldn't it be one for this game?
 \end_layout
 
 \end_inset
@@ -4744,7 +4833,7 @@ Sympathy being a Princess mechanic always felt weird to me.
 \end_layout
 
 \begin_layout Subsection
-Hope 
+Hope
 \end_layout
 
 \begin_layout Plain Layout
@@ -4757,26 +4846,37 @@ Hope|(textbf
 
 \end_inset
 
- When a Luminous first Blossoms, she becomes the dreams and wonders she
- always knew as a child.
- She reclaims the emotion and imagination that she once knew, feeling her
- triumphs and struggles as strongly as she did the first time she truly
- opened her eyes to the world.
- The challenges of life and the shadows of the world around her hurt her
- so deeply.
- But...
- she can always turn to the wonders remaining in the world.
- Cling to them for strength, bouncing back than any normal person could
- ever hope to.
+The Lucid are living dreams, born of the union between the ways of two worlds.
+ The deep and fevered emotions of the Dream are woven deeply into their
+ beings, such that they experience all the triumphs and struggles of the
+ world with all the intensity as when they first experienced the world in
+ childhood.
+ The cruelties of the world hurt deeply, as much as the quiet happiness
+ hidden underneath drives them forward.
 \end_layout
 
 \begin_layout Plain Layout
 Luminous have Hope instead of Integrity, a measurement of her emotional
- well being and will to fight.
- When her Hope is damaged, she feels down and drained, and the conviction
- to continue her work starts slipping away.
- At more severe Hope damage, she begins feeling outright helpless in the
+ strength and well being.
+ When they are full of light and confidence, Hope fuels their magic and
+ drives them forward.
+ When their Hope is depleted, they feel drained and the conviction needed
+ to continue their work in the world starts feeling distant.
+ With more severe Hope damage, she begins feeling outright helpless in the
  face of the world's darkness.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Hope Conditions? How exactly do Shadows come into play?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -4784,27 +4884,27 @@ Luminous have Hope instead of Integrity, a measurement of her emotional
 status open
 
 \begin_layout Plain Layout
-Appropriately for a magical girl splat, Hope is the beating heart of their
- mechanics.
- Everything leads back into Hope – either recovering it or damaging it.
- Compared to P:tH, this merges Shadows and Belief into a single mechanic.
- Like the Changeling Clarity mechanic Hope is inspired by, it serves as
- a far better representation of short-term mental stability than the slow
- fight against insanity of Integrity.
+Hope is, certainly the heart of Luminous' mechanics, serving as both an
+ Integrity mechanic and their Supernatural Fuel.
+ Most of their splat mechanics deal with it in one way or another.
+ Why shouldn't it.
+ It's a 
+\emph on
+magical girl
+\emph default
+ splat.
+ They were always stories about hope and friendship triumphing over the
+ dark.
 \end_layout
 
 \begin_layout Plain Layout
-Like Beast too, it serves as both Supernatural Fuel and Integrity.
- Unlike Beast, it's an Integrity mechanic first and foremost.
- Hence, Luminous do not have a proper 
-\begin_inset Quotes xld
-\end_inset
-
-Fuel recovery
-\begin_inset Quotes xrd
-\end_inset
-
- condition – it's flavored more as a way of unwinding and destressing.
+As more of a genre consideration than anything else, Hope is a Clarity-like
+ damage track rather than a representation of longer-term mental stability
+ like Integrity.
+ In a sense, Princess already works like this – it simply considers Shadows
+ and Belief separate.
+ Hope is a simplification over those two mechanics, pinning it all down
+ into one thing.
 \end_layout
 
 \end_inset
@@ -4813,7 +4913,7 @@ Fuel recovery
 \end_layout
 
 \begin_layout Subsubsection*
-Hope Track 
+Hope Track and Damage
 \end_layout
 
 \begin_layout Plain Layout
@@ -4826,29 +4926,7 @@ Luminous have a Hope track equal to their transformed Power + Resistance
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Luminous are always High Integrity.
- They aren't deeply scarred in the same way as Changelings, hence they shouldn't
- have the same capped Integrity despite their similar mechanics in Hope
- and Clarity.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-Hope Damage and Recovery 
-\end_layout
-
-\begin_layout Plain Layout
-Events that shake a Hopeful's resolve or strain her emotions cause her to
- suffer an attack against her Hope.
- She may take two kinds of Hope damage as a result.
+A Hope track may be marked with two different kinds of damage.
  Mild Hope damage represents simpler emotional strain from her overexerting
  her magic or simply the weight of life bearing down on her without a release.
  Severe Hope damage represents fundamentally deeper pains that linger, even
@@ -4866,10 +4944,51 @@ Each time a Luminous takes Hope damage, mark it off her Hope track using
 \end_layout
 
 \begin_layout Plain Layout
-Once a day, whenever she spends time relaxing or otherwise doing something
- she enjoys without expectation or consequences for failure, roll Hope.
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+While Hope is similar to Clarity, it isn't being used for a splat that is
+ as deeply scarred as how Changelings are.
+ For interactions with other parts of the World of Darkness, their Integrity
+ is relatively high even at very low help.
+ Otherwise, the structure is effectively the same.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Hope Recovery
+\end_layout
+
+\begin_layout Plain Layout
+Life is hard, but...
+ it isn't all bad.
+ The Hopeful are not the only ones who work towards a better world.
+ The happy moments in between, more than anything else, gives Luminous the
+ strength they use to fight their battles.
+\end_layout
+
+\begin_layout Plain Layout
+Once a day, whenever a Luminous does something relaxing or that she otherwise
+ enjoys, roll Hope as a dice pool.
  She clears a box of mild Hope damage equal to her successes.
- 
+ If she there are still consequences for failure, or is she is putting off
+ important matters to accomplish this, she may only restore up to one Hope
+ damage in this way.
+\end_layout
+
+\begin_layout Plain Layout
+Severe Hope damage or otherwise extreme stress are harder to work through.
+ Once a week, in place of the usual Hope recovery, she may take a significant
+ amount of time confiding in someone she is close to, or whom otherwise
+ understands the struggles of the Luminous.
+ When she does so, she adds a bonus to her Hope recovery equal to the Intimacy
+ bonus + her confidant's Sensitivity, and may clear boxes of severe Hope
+ damage in addition to mild.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4877,7 +4996,8 @@ Once a day, whenever she spends time relaxing or otherwise doing something
 status open
 
 \begin_layout Plain Layout
-TODO: Intimacy-based recovery.
+TODO: Be more clear about how this works with the Dream being so core to
+ the Luminous.
 \end_layout
 
 \end_inset
@@ -4890,23 +5010,12 @@ TODO: Intimacy-based recovery.
 status open
 
 \begin_layout Plain Layout
-A subtle mechanic, and one that serves a lot of purposes.
- Hope is a pretty mild mechanic as long as you keep damage low.
- But emotional strain has a way of spiraling, and the Hope mechanic reflects
- that.
- Since the dice pool for recovering Hope is remaining Hope, you simply 
-\emph on
-can't
-\emph default
- heal any more on your own once you have no remaining undamaged boxes.
- You have to rely on the people you are close too to pull you out of such
- a state.
-\end_layout
-
-\begin_layout Plain Layout
-Take Their Hand is pretty core to the economy here too.
- People like you...
- get it better, understand better how to help others like them.
+A subtle mechanic that serves a lot of purposes not explicitly stated.
+ Hope is a pretty mild mechanic that can quickly turn dangerous; after all,
+ your recovery scales with your undamaged Hope.
+ Emotional strain has a way of spiraling like that.
+ When things seem so hopeless, the Luminous must rely on those who they
+ are close to in order to pull themselves out of it.
 \end_layout
 
 \begin_layout Plain Layout
@@ -4931,18 +5040,21 @@ Attacks against Hope
 \end_layout
 
 \begin_layout Plain Layout
-When something shakes a Princess' resolve or emotional stability, they take
+When something shakes a Luminous' resolve or emotional stability, she takes
  an attack against Hope.
- Attacks can be mild or severe and have a dice rating.
- Roll a dice pool equal to the die rating of the attack.
- The Luminous takes a number of the stated severity of Hope damage equal
- to the corresponding to the number of successes.
+ Attacks have a die rating and may deal mild or severe Hope damage.
+ To resolve one, roll that number of dice.
+ Your character takes damage equal to the number of successes of the correspondi
+ng type.
 \end_layout
 
 \begin_layout Plain Layout
 If she took any damage from this process and her rightmost box of Hope is
  marked with damage afterwards, she gains a Hope Condition, chosen by the
- player from the following list: 
+ player from the following list:
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -5001,11 +5113,11 @@ Hope|)
 
 \end_inset
 
- 
+
 \end_layout
 
 \begin_layout Subsection
-Defiant Will
+Dreamer's Will
 \end_layout
 
 \begin_layout Plain Layout
@@ -5013,39 +5125,46 @@ Defiant Will
 status open
 
 \begin_layout Plain Layout
-Defiant Will|textbf
+Dreamer's Will|textbf
 \end_layout
 
 \end_inset
 
- Luminous hold a willpower and emotional strength enough to overturn the
- laws of the world, and attempts to influence their minds must overcome
- that will.
- Supernatural attempts to do so trigger a Clash of Wills versus a dice pool
+ All that a Guardian is rests in her heart, her emotions, her dreams.
+ Unlike other magical creatures, her body and soul were never changed by
+ her magic.
+ So she must cling to what she has...Thankfully...
+ the Dream blesses her with the means to protect it.
+ Luminous may draw on their own dual nature to resist attempts to influence
+ their minds or emotions, grounding themselves in the part of their self
+ that is dispersed into the Dream's flows.
+\end_layout
+
+\begin_layout Plain Layout
+Supernatural attempts to do so trigger a Clash of Wills versus a dice pool
  of Reverie + Hope.
  Mundane attempts beyond social influence or coercion (such as drugs or
  advanced technology) simply fail.
- The Luminous is always aware of such attempts, and may spend Willpower
+ Furthermore, they are always aware of such attempts and may spend Willpower
  on the Clash or elect to not contest the effect.
 \end_layout
 
 \begin_layout Plain Layout
 This protection applies against effects that outright manipulate things
  such as her emotions, thought process, memory, relationships.
- More subtle effects such as those that change her perceptions, read her
- mind, or communicate information to her (even if it is distracting or false)
- do not trigger Defiant Will.
- It also does not work on effects cast by someone with Connected Intimacy
- with the Luminous, or who already has mental influence over such a person.
+ More subtle effects such as illusions, those read her mind, or communicate
+ information to her (even if it is distracting or false) do not trigger
+ Dreamer's Will.
 \end_layout
 
 \begin_layout Plain Layout
-While Defiant Will also works against more indirect powers such as a Demon's
+While Dreamer's Will also works against more indirect powers such as a Demon's
  reality manipulation or a Mage's Sympathy manipulation, this is far more
  obviously supernatural.
- The Luminous counteracts such with her own influence over reality – this
- is a blatantly magical act, and cannot be explained away as simply her
- being a strong-willed mortal.
+ Rather than simply passively relying on her nature, she is forced to actively
+ counteract the power with her own influence over reality.
+ This is a blatantly magical act, and cannot be explained away as simply
+ her being a strong-willed mortal.
 \end_layout
 
 \begin_layout Plain Layout
@@ -5058,21 +5177,26 @@ I've never heard of a magical girl anime where the villain beats them by
  Breaking them first and mind controlling them...
  yes.
  But they have to go through that first step.
- Defiant Will adds massive penalties that most supernaturals can't reasonably
- overcome – especially when powers of this nature tend to already have resists
- or contests.
-\end_layout
-
-\begin_layout Plain Layout
-In Princess, this is a charm that might as well as be mandatory.
- If everyone is likely to take it anyway, why not make it a base mechanic
- instead?
+ Dreamer's Will causes a Clash of Wills against a dice pool unusually large
+ for Clashes (Power Stat + Attribute + Attribute rather than Power Stat
+ + Five Dot Rating).
+ Unless their Hope is depleted, overcoming it through sheer force requires
+ exceptional power.
 \end_layout
 
 \end_inset
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Foldable
+status collapsed
 
 \begin_layout Section
 Bright Dreams
@@ -7666,6 +7790,15 @@ most
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Foldable
+status collapsed
+
 \begin_layout Section
 Echo 
 \begin_inset CommandInset label
@@ -8061,6 +8194,11 @@ splat language
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Nakama
 \end_layout
@@ -8260,8 +8398,8 @@ Effect:
 \series default
  Your character may retaliate against attempts to mentally influence her
  with her Echo.
- If she wins a Clash of Wills caused by Defiant Will, she may spend a Willpower
- to cause the opposing effect to become a Dramatic Failure.
+ If she wins a Clash of Wills caused by Dreamer's Will, she may spend a
+ Willpower to cause the opposing effect to become a Dramatic Failure.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -8504,7 +8642,7 @@ Luminous aren't the only ones who get it, who are empathic enough to be
 \end_layout
 
 \begin_layout Chapter
-Chapter 4: The Power of Love 
+Chapter 4: The Power of Hope 
 \begin_inset CommandInset label
 LatexCommand label
 name "Chapter-PowerOfLove"
@@ -10020,7 +10158,7 @@ Little things like this make crossover games far more interesting and fun,
 status open
 
 \begin_layout Chapter
-Chapter 5: A Sea of Stars
+Chapter 5: The Sea of Stars
 \end_layout
 
 \begin_layout Plain Layout
