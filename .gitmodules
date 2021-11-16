@@ -1,0 +1,3 @@
+[submodule "RulebookShared"]
+	path = RulebookShared
+	url = https://github.com/AuroraAmissa/RulebookShared.git
