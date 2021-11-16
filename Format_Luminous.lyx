@@ -274,23 +274,6 @@ definesection{maou}%
 
 
 \backslash
-definesection{lumst}%
-\end_layout
-
-\begin_layout Plain Layout
-
-	{Quicksand Semi Bold}{fonts/Quicksand-SemiBold.ttf}%
-\end_layout
-
-\begin_layout Plain Layout
-
-	{ebf8ff}{e0f4ff}{b2ddf5}{6ec2f2}%
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 setsection{forward}
 \end_layout
 
