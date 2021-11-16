@@ -177,7 +177,7 @@ End
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "Format_Common.lyx"
+filename "RulebookShared/Format_Common.lyx"
 
 \end_inset
 

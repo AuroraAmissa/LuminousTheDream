@@ -304,7 +304,7 @@ filename "Format_Luminous.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "Format_Sheets.lyx"
+filename "RulebookShared/Format_Sheets.lyx"
 
 \end_inset
 
