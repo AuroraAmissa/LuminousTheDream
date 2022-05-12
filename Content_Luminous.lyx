@@ -4403,7 +4403,16 @@ Anchors
 \end_layout
 
 \begin_layout Plain Layout
-The magic and wonders the Luminous find in the Dream change them.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Anchors|(textbf
+\end_layout
+
+\end_inset
+
+ The magic and wonders the Luminous find in the Dream change them.
  In the flows of the Dream, they could walk from story to story, always
  taking a different role in each.
  In the mundane world, they must survive like any other person.
@@ -4545,6 +4554,19 @@ status open
 
 \begin_layout Plain Layout
 TODO: Write some example anchors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Anchors|)
 \end_layout
 
 \end_inset
@@ -6105,7 +6127,7 @@ The refilling Mote Pool, then, mitigates you casting from Integrity just
 
 \begin_layout Plain Layout
 \begin_inset Flex Foldable
-status open
+status collapsed
 
 \begin_layout Section
 One Soul, Two Worlds
@@ -6137,8 +6159,8 @@ Transformation|(textbf
  Rather than accepting being torn between dreams and reality, the Luminous
  wished for a different path.
  Grasping the first sparks of magic they awoke in their Realization, they
- weave together their two lives, becoming something more than they could
- have been in either world alone.
+ found a path to unify their dual nature, becoming something more than they
+ could have in either world alone.
 \end_layout
 
 \begin_layout Plain Layout
@@ -6155,15 +6177,14 @@ Luminous have a Mundane Form reflecting their life on Earth and a Dream
 \begin_layout Plain Layout
 Transformation is a powerful and obvious act of Dreamweaving, usually manifestin
 g as the Weaver's form shifting in colorful displays of light and sound.
- Though she may control the imagery she uses, such a blatant defiance of
- the rules of reality creates distortions around her.
- For a few moments, the space around her feels slightly less real as the
+ Though her Transformation's appearance is under her control, such a blatant
+ defiance of reality's laws distorts the space around her.
+ For a few moment, the world around her feels slightly less real as the
  concepts of her Dream leak through.
  Onlookers cant help but notice that something strange is happening, and
  their attention is always subtly pulled towards the Transformation.
  Noticing this consciously requires a Wits + Empathy check.
- Other Dreamborn automatically succeed this check and recgonize it for what
- it is.
+ Dreamborn automatically notice and recognize Transformation without a roll.
  
 \begin_inset Index idx
 status open
@@ -6715,76 +6736,6 @@ Luminous are meant to live, to rely on their friends.
 \end_layout
 
 \begin_layout Subsection
-Dreamer's Will
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dreamer's Will|textbf
-\end_layout
-
-\end_inset
-
- Every Starborn's soul is in some way entwined with the Dream, partly dispersed
- into its flows.
- Luminous may call upon that part of themselves to resist attempts to influence
- their mind or emotions, grounding themselves in a true self out of reach
- to most magic.
- Similarly, they are always aware of such attempts to influence them and
- may spend Willpower on any roll to contest such effects or elect not to
- do so.
-\end_layout
-
-\begin_layout Plain Layout
-When resisting supernatural influences in this way, the Luminous rolls a
- Clash of Wills versus the power with a dice pool of Reverie + Hope.
- When resisting extraordinary (but still mundane) means of mental influence
- such as drugs or advanced technology, she simply ignores the attempt.
- If she choses to do so, she immediately suffers Flicker as if she had transform
-ed.
- This is not obviously a supernatural effect, and cannot be easily distinguished
- from the resistance of a particularly strong willed mortals.
-\end_layout
-
-\begin_layout Plain Layout
-This power applies against effects that outright manipulate things such
- as her emotions, thought process, memory, relationships.
- More subtle effects such as illusions, those read her mind, or communicate
- information to her (even if it is distracting or false) do not trigger
- Dreamer's Will.
- However, it does still apply against powers that indirectly manipulate
- her such as those that work through manipulation of underlying reality
- or concepts.
- This is an active act of Dreamweaving and cannot be mistaken for any level
- of mortal resistance.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-I've never heard of a magical girl anime where the villain beats them by
- just mind controlling them.
- Breaking them first and mind controlling them...
- yes.
- But they have to go through that first step.
- Dreamer's Will causes a Clash of Wills against a dice pool unusually large
- for Clashes (Power Stat + Attribute + Attribute rather than Power Stat
- + Five Dot Rating).
- Unless their Hope is depleted, overcoming it through sheer force requires
- exceptional power.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 Flicker
 \end_layout
 
@@ -6922,23 +6873,13 @@ Resonance|(textbf
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
-The Dream binds together all of humanity in one tapestry.
- All dreams are part of something greater.
- Luminous may draw on those connections, touching the heart of everyone
- they treasure and love dearly.
- Their Echo brings people together in the deepest reaches of sleep, teaching
- those it touches to understand each other on a level that goes beyond simple
- words.
-\end_layout
-
-\begin_layout Plain Layout
-Echo function in both Mundane Form and Dream Form.
- Its influence is subtle and hard to notice, however, and only affects those
- already close to the Luminous.
+ Crossing the Sea of Stars, all the dreams of humanity join together and
+ flow into the Kingdoms' shores.
+ Though Luminous are at home in both the worlds it joins, their true origin
+ lies among the stars.
+ Their souls intertwine with the Sea's paths, dispersing into its flows.
+ Resonance is a Luminou's innate power born of that intertwining, allowing
+ them to feel the connections between worlds and people alike
 \end_layout
 
 \begin_layout Plain Layout
@@ -6946,7 +6887,7 @@ Echo function in both Mundane Form and Dream Form.
 status open
 
 \begin_layout Plain Layout
-Echos, like Hope, are core to what Luminous are.
+Resonance, like Hope, are core to what Luminous are.
  It is their power to connect hearts through the power of dreams.
  It is what makes relationships so important to them.
  It's their Aura, technically, but works through dreams in a way that makes
@@ -6963,27 +6904,33 @@ Read the Winds
 \end_layout
 
 \begin_layout Plain Layout
-Luminous are innately aware of the general feeling and mood of any location
- they enter through their Echo.
- This does not depend on its present occupants, but rather the impression
- those who frequent the zone leave on the Dream, especially those with the
- strongest emotions.
- While this never directly triggers Sensitivity, it can make Hope recovery
- or even simply relaxing in a place next to impossible.
+The Dream reflects the wishes, feelings, impressions of the waking world
+ at its surface.
+ Every place is reflected in the dreams of someone, becoming its own place
+ in a world of illusion and stories.
+ Reflected across the Sea of Stars, a mall known for shootings and violence
+ slowly twists into an warzone.
+ A college known for its academic brilliance comes to become a larger-than-life
+ monument to the gods of knowledge, and the school known for its restrictions
+ and heavy-handed authority twists in the Dream such that classrooms seem
+ more like jail cells than places of learning.
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Note the various types of taint and Astral conditions that Read the
- Winds will find.
-\end_layout
-
-\end_inset
-
-
+Luminous are innately aware of this connection between worlds.
+ On Earth, they always know the general feeling and mood of any location
+ they enter.
+ As a reflection of the Dream, this impression reflects more the accumulated
+ impressions of people who frequent the area over the course of weeks, rather
+ than simply those who are present in the moment.
+ Those places where the Dream's reflection of a place begins to influence
+ its origin back are especially distinct for a Luminous.
+ They automatically sense that this is happening, and have a general idea
+ of the stories and concepts that the Dream influences the waking world
+ through.
+ Similarly in the Dream, they are aware of the general circumstances in
+ the real world that have created such an reflection in the Dream, and whether
+ it is at risk of influencing the waking world in return.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7008,55 +6955,85 @@ help
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Colors from Beyond
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The Dream is not the only world that can influence Earth.
+ The spirits of the Shadow come to reflect the material world in a way not
+ much unlike the Dream.
+ Those places frequented by Fae become entwined with their world, each door
+ a gateway to a world of terrible wonders.
+ When faced with such circumstances, Luminous still sense a vague feeling
+ that there are forces from beyond at play, but they cannot pin down the
+ exact nature of the influence or its origin.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Interwoven Dreams
 \end_layout
 
 \begin_layout Plain Layout
-Luminous and those who are close to them dream of each other, and with each
- other.
- Those who are friends with the Luminous find themselves bound by a weave
- of interconnecting Echoes, all their dreams coming to influence one another.
-\end_layout
-
-\begin_layout Itemize
-Luminous share their dreams they have Connected Intimacy with.
- In their dreams, they face the same challenges and see the same wonders
- side by side, perspective sometimes blurring between the two in the Dream's
- depths.
- They come to know each other's depths through those half-remembered dreams.
- Luminous and those with Connected ties to them gain an automatic success
- on all mundane skill rolls to understand or emphasize with each other.
-\end_layout
-
-\begin_layout Itemize
-Luminous and those they have Strong Intimacy with often dream of each other,
- sometimes sharing their dreams entirely.
- They gain the rote quality on all mundane skill rolls to understand or
- emphasize with each other.
- Furthermore, they know by heart each other's Anchors and any similarly
- character defining traits such as Bans, a Changeling's Taboos, or a Mage's
- Obsessions.
-\end_layout
-
-\begin_layout Itemize
-Luminous and those with Medium Intimacy dream of each other in vague terms,
- catching glimpses of each other's depths they would not otherwise see in
- their waking lives.
- They gain 9-Again on mundane skill rolls to understand or emphasize with
- each other.
-\end_layout
-
-\begin_layout Itemize
-Lesser degrees of Intimacy are not strong enough to have any effect.
+Most dreamers never meet another, never finding the path from their own
+ dreams into the Sea.
+ That quiet wish for an escape, that wish that first led the Luminous to
+ the Kingdoms still resonates with them after their Realization.
+ Reaching out through their Resonance, their soul still years for the more
+ distant dreams.
+ Through it, they rewrite the Sea ever so slightly, drawing their own dreams
+ closer to those of they already love, those they wish to know better.
 \end_layout
 
 \begin_layout Plain Layout
-This effect applies separately to a Hopeful's Mundane and Dream forms, and
- these dreams do not penetrate the protection of Dual Identity at Strong
- Intimacy or weaker.
- However, the dreams of those with Connected Intimacy will almost certainly
- breach those protections by nature.
+Their personal dreams become entwined with those they have at least Medium
+ Intimacy with, catching glimpses of each other's inner depths that they
+ would not normally see in their waking lives.
+ Even if they rarely directly meet, the ideas and themes of their dreams
+ still intermingle.
+ At this level, both dreamers gain 9-Again on all rolls made to understand
+ or emphasize with each other.
+\end_layout
+
+\begin_layout Plain Layout
+With Strong Intimacy, rather than simply sharing a dream world, they come
+ to be parts of the same stories, seeing the same wonders and facing the
+ same challenges together.
+ The bonus from Medium Intimacy grants a rote quality instead of 9-Again,
+ and both dreamers know by heart each other's Anchors and any similarly
+ character defining traits such as Bans or a Mage's Obsessions.
+ Furthermore, the Luminous may lead the other dreamer into the Kingdoms
+ proper or other parts of the Astral Realms without the use of any powers
+ or checks.
+\end_layout
+
+\begin_layout Plain Layout
+At Connected Intimacy, the shared dreams grow ever more intense.
+ Sometimes the dreamers dream as each other, as the same person, from each
+ other's perspectives.
+ Through that, they come to know the truth of each other's hearts.
+ Both partners gain an automatic success on any rolls Strong Intimacy grants
+ a bonus to.
+ Unlike lower intimacy levels, this inherently breaches any protection Veiling
+ and similar abilities provides.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7095,28 +7072,34 @@ Dreaming of the Night
 \end_layout
 
 \begin_layout Plain Layout
-Quite a few Luminous have a habit of poking their noses in places they would
- rather not be, or getting involved in problems way over their own heads.
- In the process, they often become close to other kinds of supernatural
- creatures.
- Their Echo guides the way, granting them glimmers of insight beyond what
- outsider may usually see.
+The more Luminous try to help lessen the burdens of the mundane world, the
+ more they find them inexorably tied with supernatural forces – often ones
+ far over their heads to solve.
+ It's natural them, that they often meet and become close to other kinds
+ of supernatural beings.
+ Their Resonance guides the way, granting them glimmers of insight to their
+ inner world an outsider normally could never pierce.
 \end_layout
 
 \begin_layout Plain Layout
-Through their shared dreams, a Luminous gains an intuitive understanding
+Through such shared dreams, a Luminous gains an intuitive understanding
  of what broadly drives any kind of supernatural creature she has Medium
  Intimacy with.
- She gains an deeper understanding at Strong Intimacy, usually gaining deeper
- insights in how they see the world and their place in it – especially if
- when she draws on it herself through Reflected Light.
- At Connected Intimacy, she simply 
-\emph on
-gets it
-\emph default
-.
- In those dreams, she learns deeply and personally what it would be like
- to be something else, had she been changed before she found the Dream.
+ At Strong Intimacy, she gains deeper insights into how they see the world
+ and their place in it – especially when she draws on it herself through
+ Reflected Light.
+ At Connected Intimacy, her shared dreams shows her deeply and personally
+ what it would be like to be...
+ something else, had she been touched by a different force before her Realizatio
+n.
+\end_layout
+
+\begin_layout Plain Layout
+Luminous who have befriended another kind of supernatural being have a deeper
+ resonance with the force they draw on as well.
+ With at least Strong Intimacy to such a being, she may apply Read the Winds
+ to broadly understand circumstances imposed upon the waking world by worlds
+ outside the Dream.
 \end_layout
 
 \end_inset
@@ -7129,16 +7112,36 @@ Reflected Light
 \end_layout
 
 \begin_layout Plain Layout
-Even in their waking life, a Luminous' Echo allows her and those closer
- to her to draw on each other for strength.
- Remembering the feelings they wove into their shared dreams, they may draw
- on each other's best traits when their own resolve wavers.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Anchors
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Reflected Light
+\end_layout
+
+\end_inset
+
+ Even in their waking life, a Luminous may draw on her Resonance and the
+ connections it creates.
+ Luminous and those they share Strong Intimacy with may call on each other's
+ strengths and approaches when their own no longer suffices, drawing on
+ their memories of the dreams they share.
 \end_layout
 
 \begin_layout Plain Layout
-Once per scene, either may spend two Willpower to reflect a Virtue, Dream,
- Wish or other Anchor from someone they have Strong or Connected Intimacy
- with for that scene.
+Once per scene, either dreamer may spend two Willpower to reflect a Virtue,
+ Dream, Wish or other Anchor from someone they have Strong or Connected
+ Intimacy with for that scene.
  They gain the Anchor for all purposes including Willpower recovery, and
  9-Again on all actions that follow that Anchor.
 \end_layout
@@ -7209,7 +7212,7 @@ feels
 \end_layout
 
 \begin_layout Subsection
-Aria
+Dreamer's Will
 \end_layout
 
 \begin_layout Plain Layout
@@ -7217,59 +7220,52 @@ Aria
 status open
 
 \begin_layout Plain Layout
-Aria|(textbf
+Dreamer's Will|textbf
 \end_layout
 
 \end_inset
 
-The words you read and hear in a dream aren't always...
- well, words.
- If you look at them too closely, they don't make sense, they don't even
- make letters.
- But, if you take them for granted, and simply take a dream for a dream
- – they weave together into an unspoken song, conveying meaning in a way
- words can't.
+ A Luminous' soul is entwined in the Sea, partly dispersed into its flows.
+ Luminous may call upon that part of themselves to resist attempts to influence
+ their mind or emotions, grounding themselves in a true self out of reach
+ to most magic.
+ They are always aware of such attempts to influence them and may spend
+ Willpower on any roll to contest such effects or elect not to do so.
 \end_layout
 
 \begin_layout Plain Layout
-Thus, Aria isn't truly a language, it's that language of dreams reflected
- through a Luminous' Echo.
- When one speaks Aria, she says words in sounds that never quite resolve
- into words, yet whose character reflects her own nature.
- One who styles herself a witch may speak in tongues, a musician may sing
- words that resolve into a piano melody rather than any voice.
+When resisting supernatural influences in this way, the Luminous rolls a
+ Clash of Wills versus the power with a dice pool of Reverie + Hope.
+ If the power would change how she feels about one or more people she has
+ a positive relationship with, she gains the highest Intimacy bonus among
+ the people affected to her roll.
+ However, this same protection can be turned against them.
+ Should someone she has Intimacy with support the effort, or encourge her
+ to fall into it (whether of their free will or otherwise), she suffers
+ a penality to both her resistance roll against the ability and her Clash
+ of Wills equal to their Intimacy bonus.
 \end_layout
 
 \begin_layout Plain Layout
-Still, anyone who hears her statement understands her fully, at a depth
- that is not possible through ordinary language.
- Aria gives anyone listening to her an automatic success on rolls to determine
- her emotional state, the true intent and context behind her words, and
- the deeper meanings of what she said.
+When resisting extraordinary (but still mundane) means of mental influence
+ such as drugs or advanced technology, she simply ignores the attempt.
+ If she choses to do so, she immediately suffers Flicker as if she had transform
+ed.
+ This is not obviously a supernatural effect, and cannot be easily distinguished
+ from the resistance of a particularly strong willed mortals.
 \end_layout
 
 \begin_layout Plain Layout
-While it has no innate written form, any media that can convey sound (such
- as video calls over the internet, or a plain phone call) also conveys Aria.
- Recordings of Aria only keep its magical properties for about 5 minutes,
- after which listeners no longer understand it as anything other than pretty
- sounds.
-\end_layout
-
-\begin_layout Plain Layout
-Anyone who hears Aria recognizes it for what it is.
- Through their language of dreams, the Luminous may allow themselves to
- be recognized, even in their mundane forms.
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Aria|)
-\end_layout
-
-\end_inset
-
-
+This power applies against effects that outright manipulate things such
+ as her emotions, thought process, memory, relationships.
+ More subtle effects such as illusions, those read her mind, or communicate
+ information to her (even if it is distracting or false) do not trigger
+ Dreamer's Will.
+ However, it does still apply against powers that indirectly manipulate
+ her such as those that work through manipulation of underlying reality
+ or concepts.
+ This is an active act of Dreamweaving and cannot be mistaken for any level
+ of mortal resistance.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7277,21 +7273,16 @@ Aria|)
 status open
 
 \begin_layout Plain Layout
-The 
-\begin_inset Quotes xld
-\end_inset
-
-splat language
-\begin_inset Quotes xrd
-\end_inset
-
- of the Luminous.
- This is both their means to identify Luminous (who wish to be known) and
- their way to talk to each other secretly.
- An...
- actual language doesn't feel quite right for an splat as ephemeral feeling
- as them.
- Aria fits the Luminous in the same way the Royal Tongue fits Princesses.
+I've never heard of a magical girl anime where the villain beats them by
+ just mind controlling them.
+ Breaking them first and mind controlling them...
+ yes.
+ But they have to go through that first step.
+ Dreamer's Will causes a Clash of Wills against a dice pool unusually large
+ for Clashes (Power Stat + Attribute + Attribute rather than Power Stat
+ + Five Dot Rating).
+ Unless their Hope is depleted already, overcoming it through sheer force
+ requires exceptional power.
 \end_layout
 
 \end_inset
@@ -7390,7 +7381,7 @@ noprefix "false"
 
 \begin_layout Plain Layout
 \begin_inset Flex Commentary
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Pretty unchanged from P:tH on the surface level, although used far differently.
