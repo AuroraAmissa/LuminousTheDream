@@ -15,8 +15,6 @@ jobs:
           lfs: true
       - name: Install dependencies
         run: sudo apt-get install -y lyx qpdf texlive-latex-recommended texlive-xetex
-      - name: Debug
-        run: env
       - name: Retrieve gitinfo
         run: RulebookShared/hooks/post-checkout
       - name: Run build script
@@ -44,6 +42,8 @@ jobs:
           name: dist-packages
           path: artifacts
           
+      - name: Remove git hooks (hack to make action-create-tag work)
+        run: 'rm -rfv .git/hooks/*'
       - uses: rickstaa/action-create-tag@v1
         with:
           tag: ${{ env.VERSION_STR }}
