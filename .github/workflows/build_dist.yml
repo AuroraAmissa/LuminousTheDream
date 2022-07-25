@@ -15,6 +15,8 @@ jobs:
           lfs: true
       - name: Install dependencies
         run: sudo apt-get install -y lyx qpdf texlive-latex-recommended texlive-xetex
+      - name: Retrieve gitinfo
+        run: RulebookShared/hooks/post-checkout
       - name: Run build script
         run: ./build.sh
       - uses: actions/upload-artifact@v2
