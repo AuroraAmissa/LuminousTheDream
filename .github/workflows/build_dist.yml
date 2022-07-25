@@ -58,3 +58,4 @@ jobs:
           prerelease: true
           files: artifacts/**
           fail_on_unmatched_files: true
+          generate_release_notes: true
