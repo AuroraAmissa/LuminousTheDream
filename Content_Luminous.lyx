@@ -138,7 +138,7 @@ End
 \use_microtype true
 \use_dash_ligatures false
 \graphics xetex
-\default_output_format pdf4
+\default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
@@ -263,9 +263,10 @@ Chronicles of Darkness
 mahou shoujo
 \emph default
  genre of anime and manga.
- Players take on the role of those caught between the waking world and their
- own dreams, drawing a faint power from somewhere in between and who wield
- that power to bring about a better future for all.
+ Players take on the role of those caught between the waking world and the
+ world of dreams.
+ Wielding a faint power from their unison, they seek to bring a better future
+ for both worlds and all within.
 \end_layout
 
 \begin_layout Standard
@@ -307,7 +308,7 @@ status open
 
 
 \backslash
-href{https://github.com/Lymia/LuminousTheDream/tree/
+href{https://github.com/AuroraAmissa/LuminousTheDream/tree/
 \backslash
 gitHash}{Github}
 \end_layout
@@ -362,8 +363,8 @@ Its authors wasn't able to commit to a coherent theme in the way White Wolf's
 
 \begin_layout Plain Layout
 It is a story about those who are caught between reality and their dreams,
- and who see what the world could be and hence can't stand seeing the way
- it is now.
+ and in seeing what the world could be in their dreams cannot bear to see
+ the world remain shrouded in shadows.
  It is a story about those who burn bright with the hope and wonder of childhood
 , carrying that light into a world that had long chosen to forget it.
 \end_layout
@@ -436,7 +437,7 @@ Ellie, who has provided me a great deal of support through the earlier parts
 \end_layout
 
 \begin_layout Itemize
-Hanako, who taught me the way of the dark magical girl.
+Hanako, who taught me the ways of the dark magical girl.
  :)
 \end_layout
 
@@ -492,7 +493,7 @@ Changeling: the Dreaming
 \shape default
 \emph default
  became more and more of an inspiration for me, as I tried connecting the
- themes of dreams, activism and magical girls.
+ themes of dreams, activism and magical girl anime.
  Luminous very much began becoming a spiritual successor to it over time.
 \end_layout
 
@@ -573,33 +574,6 @@ Luminous
 \series default
 .
  Safety techniques for such things are discussed in [TODO: Chapter link].
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A standard content warning, really.
- Typeset in red, because stuff like this really needs to be read.
- It may not be needed for every CofD splat, but Luminous has good reason
- for one – touching on multiple themes I know some people have trouble with.
- 
-\emph on
-Changeling: the Lost
-\emph default
- similarly had one of these for very good reasons.
-\end_layout
-
-\begin_layout Plain Layout
-Please don't be afraid to put these in your systems, if yours is similar.
- Don't feel obligated if your system doesn't touch on so much sensitive
- topics.
 \end_layout
 
 \end_inset
@@ -759,7 +733,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Flex Commentary
-status open
+status collapsed
 
 \begin_layout Plain Layout
 This is the author commentary version of Luminous, and contains notes on
@@ -787,57 +761,55 @@ hyperref[chap:Foreword]{foreword}
 \end_layout
 
 \begin_layout Plain Layout
-All of us are born knowing how to dream, seeing all the wonder and beauty
- of the world.
- So many forget.
+We were all born knowing how to dream of the wonder and beauty of the world,
+ and what it could become.
+ In the dark of night, too many of us forget...
 \end_layout
 
 \begin_layout Plain Layout
-Humanity always lived under the shadow of horrors, human and inhuman alike.
- To dream of a better world, to confront the shadows and beat them back
- was always too risky, always too audacious.
- Better to lay low and survive.
- To try for better means to maybe lose what you already have.
- So...
- it is, that we are taught not to dream.
- That is the nature of survival.
+So many are lost to poverty, war, famine.
+ So many others are lost to small cruelties, of discrimination or simple
+ lack of will to understand.
+ You saw outcasts, loners, those abandoned by everyone else.
+ You couldn't understand why nobody cared.
+ Why you were the only one to try.
+ But...
+ the world would not yield for anyone.
 \end_layout
 
 \begin_layout Plain Layout
-...
- but someone has to try, right? You dreamed even in the darkest of nights,
- knowing that the day will break as always.
- You held your dreams close, never letting the worlds convince you to let
- them go.
+So you wrote...
+ so you sang, let it out however you could.
+ So you dreamed...
+ of another, brighter world.
+ A world where there were others by your side, where you did not have to
+ struggle alone.
+ Where...
+ you could do something to help.
+ Where you had all the magic of dreams in your hands.
 \end_layout
 
 \begin_layout Plain Layout
-Those dreams of better worlds, where humanity triumphs over the trials of
- life.
- In those dreams, you weren't alone.
- You dreamed with others who believed in the same future.
- Just maybe, it wasn't just an passing fantasy.
- Maybe there is more to this world, true meaning in that dream.
- Pushing away the little voice in the corner of your mind, that such things
- are impossible, you clung onto that hope.
+Those around you told you to let go.
+ That you couldn't help them, that your own troubles were all 
+\emph on
+your
+\emph default
+ fault.
+ That...
+ it was for your own good to give up those dreams.
+ But...
+ you couldn't.
 \end_layout
 
 \begin_layout Plain Layout
-Even as the world pushed you into a corner, asked for you to yield...
- you stood.
- When everything was on the line, you refused to break, let the world turn
- you into another cog in the machine.
+Not when you saw a path forward.
+ One day, when you felt you had no other choice, you grasp for that light
+ you always wielded in your dreams.
 \end_layout
 
 \begin_layout Plain Layout
-In a fleeting moment, you saw that dream again.
- But, this time, you held all its power in your own hands.
- You shaped it into a light to call your own, awakening into an endless
- waking dream.
-\end_layout
-
-\begin_layout Plain Layout
-With the light of two worlds, just maybe, you could really make a difference.
+For once, the world itself would yield...
 \end_layout
 
 \begin_layout Section
@@ -853,61 +825,46 @@ Luminous: the Dream
 \series bold
 Chronicles of Darkness
 \series default
-, a world much like our own but caught between bleak mundanity and terrifying
+, a world much like our own – only caught between bleak mundanity and terrifying
  supernatural horrors.
- Night fell long ago, and the humanity still struggles against both the
- supernatural darkness that envelops it and its own faults.
+ Perhaps, even more so than our own world, humanity gave up on doing more
+ than survive.
+ They forgot how to hope, how to enjoy life for what it is.
 \end_layout
 
 \begin_layout Plain Layout
-...
- even in such a world, there is beauty, small lights hidden away in the
- night.
- In the depths of everyone's dreams, paths lead into a grand shared dream.
- Long ago, eight great Dream Kingdoms were imagined within, each an reflection
- of a world that could one day be real.
- A rare few chose to stay, live a second life in those worlds.
- A rarer few found a shining power in themselves, drawing on the light of
- both.
+In this game, you play a Luminous, one of those champions of dreams and
+ imagination who still wishes to change the world, who still hopes for more
+ in a world not meant for them.
 \end_layout
 
 \begin_layout Plain Layout
-They are the Luminous.
- In a moment they call their Realization, they all once awoke a power deep
- in their soul.
- Wielding that light, they weave their dreams into reality, taking on the
- form they always imagined.
+Helpless to change the world that caused them and those they loved so much
+ suffering, they once escaped into the depths of their own dreams.
+ Beyond their own imagination, they found a shared dream of eight great
+ Dream Kingdoms, built by those who came before.
+ In that world, they would find a place where they learn to truly live,
+ learn to wield the magic of dreams.
 \end_layout
 
 \begin_layout Plain Layout
-Their story is not a happy one.
- Every Luminous was once hurt by the world in one way or another; asked
- to stop dreaming so brightly, stop caring so much.
- For all the power they hold, the shadows of the world seem far too vast
- for any one person – magical or otherwise – to fix.
- But they still try.
- Someone has to.
+In time, they came to realize that light shone in the waking world too.
+ They weren't alone.
+ There were others who still cared, others who did their best through small
+ acts of kindness.
+ When they could bear it no longer, when they stood up and fought for all
+ they believed in, no matter how powerless they thought they were...
 \end_layout
 
 \begin_layout Plain Layout
-In the Dream, they feel all the pains and joys of the world as deeply as
- their own.
- A dream so broken, hurt and scarred by all that had happened.
- Alongside the idyllic forests and shining cities, our pains and sorrows
- reflect just as clearly in humanity's Dream.
- Even there, the light is fleeting.
-\end_layout
-
-\begin_layout Plain Layout
-Maybe that's okay.
- In time, even such a world can be healed, brick by brick, dream by dream
- and person by person.
- That is the task that falls to the Luminous.
+Something sparked deep in their soul.
+ A way to join the power of two worlds, to bring the magic they dreamed
+ of into the waking world.
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset Flex Commentary
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Luminous, like all Chronicles of Darkness splats is an outsider story.
@@ -977,13 +934,13 @@ mahou shoujo
 \emph default
  genre of anime.
  Stories of hope, of imagination, of love.
- Stories that don't shy away from the darker aspects of life, but refuse
- to let them consume it.
+ Stories of a path forward that don't shy away from the darker aspects of
+ life, but rather refuse to let them consume it.
 \end_layout
 
 \begin_layout Plain Layout
 \begin_inset Flex Commentary
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The heart of every Chronicles of Darkness splat are its themes.
@@ -997,24 +954,31 @@ The heart of every Chronicles of Darkness splat are its themes.
 \end_layout
 
 \begin_layout Subsection*
-Crossing Paths
+The Journey of Hope
 \end_layout
 
 \begin_layout Plain Layout
-Every person in the world has their own colorful lives to live, all woven
- together into one whole.
- Everyone relies on another, has been hurt by another, loves another.
+For most, growing up means to give up on hope.
+ Tomorrow always seemed too far away to care about, better to struggle through
+ today.
 \end_layout
 
 \begin_layout Plain Layout
-Luminous is a game about those connections, and the chance encounters that
- create them.
- They rely on each other for hope when things are too dark for them to stand
- alone.
- Through their magic of dreams, they come to understand and rely on the
- very different people and supernatural creatures they share a world with.
- Shining together as a constellation, they can achieve things they could
- never alone.
+They're wrong, of course.
+ You see, in the margins, how much even a small wish can change the world,
+ even without the magic you wield.
+ But...
+ you still understand – how scary it is to try, when everyone else has given
+ up.
+ How hard it is to make the first move, when you know more likely than not,
+ you would be hurt for it.
+ In a corner of your heart, you are still afraid.
+\end_layout
+
+\begin_layout Plain Layout
+To learn to truly hope again means to learn again what the world could truly
+ be – to unlearn those lessons you learned when you thought you had to grew
+ up...
 \end_layout
 
 \begin_layout Subsection*
@@ -1022,74 +986,48 @@ Lights and Shadows
 \end_layout
 
 \begin_layout Plain Layout
-For all its flaws, the world still has its bright places, hidden among the
- shadows.
- For all its problems, the world is still beautiful.
- Little shops in the corner full of life, gardens tucked away between the
- city blocks...
+There are always small moments of happiness, hidden away places of beauty
+ to look forward to.
+ No matter how hard things get, life is always worth living for those moments.
 \end_layout
 
 \begin_layout Plain Layout
-It's all to think life nothing but suffering.
- It's easier to accept how the world is, if you pretend there's no point
- in trying for better.
- It's all too easy to bury your head in the sand, and pretend survival is
- living.
- But, someone who doesn't see the world as it is won't see the hidden beauty
- hidden in plain sight.
- To see the world as it is means to accept all of it.
+After all, the Luminous know, the magic of dreams itself comes from them.
+ They know how small moments of light can add up to something so much greater.
+ That...
+ even if they can't change the whole world, if nothing else, they can still
+ take the hand of those who forgot, reminded them once more why they struggle
+ so much for survival.
+ Show them that it is still possible to have a happy life...
+\end_layout
+
+\begin_layout Plain Layout
+Even if it could only touch the heart of a single person, that alone, will
+ brighten the world just a little bit.
 \end_layout
 
 \begin_layout Subsection*
-The Cost of Hope
+Crossing Paths
 \end_layout
 
 \begin_layout Plain Layout
-To survive always comes at the cost of hope.
- Trying to make things better for yourself and those you love always risks
- what you already have.
- You can only help so many people before you don't have enough for yourself.
+Nobody is ever truly alone in our world.
+ Every person relies on another, loves another, has been hurt by another.
+ The Luminous know that truth better than anyone else.
+ The Sea of Stars they draw their magic from was woven of those connections,
+ after all.
+ And reading its flows, they know – there will always be those they can
+ rely on, those they will one day come to rely on.
 \end_layout
 
 \begin_layout Plain Layout
-In holding on hope anyway, the Luminous risk all they already have.
- They fight a battle that is meant to be hopeless; so that people don't
- dare to dream.
- They fight in the name those they care about, in a world that expects people
- to keep their heads down so they aren't next in line.
- Just maybe, one day, they will turn the tides.
- That is what it means to hope.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-In a sense, this is my answer to 
-\begin_inset Quotes xld
-\end_inset
-
-Fighting Fear
-\begin_inset Quotes xrd
-\end_inset
-
-, the central theme of Princess.
- It is still important, but this is a different way to present it that meshes
- better with all the rest of my writing.
- People don't hope, don't wish for better, because they are trying to cling
- to what they already have.
- That's the core feeling behind it all.
-\end_layout
-
-\begin_layout Plain Layout
-This sets the stage for the darker aspects of the world, the things that
- isolate the Luminous, for the very thing that makes them such shining heroes.
-\end_layout
-
-\end_inset
-
-
+On their journey between dreams and reality, they come to understand and
+ rely on the very different people and supernatural creatures they share
+ a world with.
+ Alone, the best they can do is live.
+ But...
+ together, with others sharing the same dream, perhaps, they may change
+ something for real.
 \end_layout
 
 \begin_layout Section
@@ -1903,7 +1841,7 @@ The eight Dream Kingdoms a Luminous may reside in are:
 \begin_layout Itemize
 
 \series bold
-Avalon, the Last Garden
+Avalon, the First Garden
 \series default
 : A beautiful kingdom led by nobility sworn to serve the needs of their
  people.
@@ -2041,7 +1979,7 @@ setsplatlayout
 \end_layout
 
 \begin_layout Subsection
-Avalon, the Last Garden
+Avalon, the First Garden
 \end_layout
 
 \begin_layout Standard
@@ -4389,13 +4327,13 @@ Innocent Heart
 \end_layout
 
 \begin_layout Plain Layout
-When a Luminous to awakens from her Realization, she finds herself lost
- in the twilight between her dreams and a world far larger and far more
- colorful than she ever knew.
- In that space in between, the concerns of the mundane world are at all
- further away and closer than ever before.
- Perhaps, somewhere on that path, is the way to bring together the dreams
- she sees and the world she loves together.
+When a Luminous awakens from her Realization, she finds herself lost between
+ the dreams she always escaped to and a world far larger and far more colorful
+ than she ever knew.
+ The concerns of the mundane world are at once further away and more pressing
+ than ever before.
+ After all, for the first time...
+ they could do something about them.
 \end_layout
 
 \begin_layout Subsection
@@ -4412,13 +4350,14 @@ Anchors|(textbf
 
 \end_inset
 
- The magic and wonders the Luminous find in the Dream change them.
- In the flows of the Dream, they could walk from story to story, always
- taking a different role in each.
- In the mundane world, they must survive like any other person.
- So as to not be cast adriift, they cling to things that could matter to
- them, no matter the world and no matter the story they find themselves
- in.
+ In the flows of the Dream, the Starborn could walk from story to story,
+ always being thrust into a different role in each.
+ What is a virtue in one world is a mortal sin in another.
+ In the mundane world, they are as bound by its rules as any other, surviving
+ like anyone else does.
+ As to not be cast adrift, as to not lose sight of themselves, the Luminous
+ cling to those things they know are their own, no matter where they end
+ up or what kind of role they are thrust into.
 \end_layout
 
 \begin_layout Plain Layout
@@ -6269,7 +6208,7 @@ Mundane Form|(textbf
  The waking world isn't defined by the stars that shine the brightest but...
  the quiet flow of everyday life.
  Even those who would simply be background characters in the dream are deeply
- interwoven into their world's intricriate stories.
+ interwoven into the waking world's intricate stories.
 \end_layout
 
 \begin_layout Plain Layout
@@ -6439,9 +6378,9 @@ on of others.
 \begin_layout Plain Layout
 Luminous purchase dots of Dream Attributes separately from their mundane
  attributes, and use them in place of the corresponding mundane attributes
- in Dream Form.
- If this would cause a roll to use the same attribute twice, the roll is
- slightly modified.
+ in Dream Form for all purposes.
+ If this would cause a roll or calculation to use the same attribute twice,
+ the roll is modified.
  Resistance
 \begin_inset space ~
 \end_inset
@@ -6658,7 +6597,11 @@ Transformation!Veiling|(textbf
 
 \end_inset
 
- By the nature of their Transformation, a Luminous rarely truly has to reveal
+ 
+\end_layout
+
+\begin_layout Plain Layout
+By the nature of their Transformation, a Luminous rarely truly has to reveal
  that...
  they are the same person under it all, the shining dreamer and the ordinary
  mortal.
@@ -6666,7 +6609,7 @@ Transformation!Veiling|(textbf
  of those around her to hide that fact.
  Regardless of how similar a Luminous looks in her two forms, anyone who
  meets her in both forms has an innate impression that they are different
- people and do not recgonize the similarlity on appearances or mannerisms
+ people and do not recognize the similarity on appearances or mannerisms
  alone.
 \end_layout
 
@@ -6688,6 +6631,9 @@ Even supernatural powers are fooled by this presumption.
  Even powers that read thoughts or emotions do not reveal thoughts more
  closely aligned to her Dream Form.
  
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -6879,7 +6825,7 @@ Resonance|(textbf
  lies among the stars.
  Their souls intertwine with the Sea's paths, dispersing into its flows.
  Resonance is a Luminou's innate power born of that intertwining, allowing
- them to feel the connections between worlds and people alike
+ them to feel the connections between worlds and people alike.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7317,13 +7263,583 @@ Dreamweaving
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex TODO Note (inline)
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
- Pretty much everything here is from an old version, and needs rewriting/integra
-tion into other sections.
+Dreamweaving|(textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+In a world of living dreams, to imagine a thing is the same as to do it.
+ There are no law of physics to say that someone couldn't ride the winds
+ through the sky, or dive into the deepest depths of the ocean.
+ Nothing could clip those wings, short for the will of another dreamer.
+ Without any laws of reality to bind them, the Dream could only ever be
+ a reflection of all wishes of those souls within.
+\end_layout
+
+\begin_layout Plain Layout
+The art of Dreamweaving was born of that world.
+ To weave together creativity and will, breathing life into colorful imagination
+s and beautiful dreams.
+ When cruel nightmares besieged the Kingdom, the Starborn could fight back
+ with swords woven of courage and lances woven of fury.
+ No matter how helpless they were when they awoke, they...
+ for that moment, they could shine...
+\end_layout
+
+\begin_layout Plain Layout
+Every Luminous was once such a person, chasing after half-remembered memories
+ of an impossible light.
+ Holding it in their hands now...
+ they come face to face with the hidden horrors and familiar cruelties of
+ the world alike.
+ This time, they need not only dream.
+\end_layout
+
+\begin_layout Subsection
+Mutability
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Mutability|(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The Dream and the Sea of Stars are a few worlds among countless others,
+ all with their own natures.
+ If they would not yield their power as the Dream does, the will of the
+ world itself could still be pushed aside as any other dreamer's.
+ Mutability is a measure of how strongly a world resists the power of the
+ Luminous, and the amount of effort needed to Weave anyway within them.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Low Mutability:
+\series default
+ Worlds bound by physical or supernatural laws have Low Mutability.
+ Dreamweaving in these spaces is impossible for any being other than a transform
+ed Luminous or other powerful Dream entities, and even then, they must contend
+ with the full effects of Transience.
+ The waking world, the Shadow, and most supernatural realms fall under this
+ category.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Medium Mutability:
+\series default
+ Worlds influenced by a great number of dreamers have Medium Mutability.
+ Any being may use basic Dreamweaving here, and the effects of Transience
+ are lessened compared to more solid worlds.
+ The Records, the Dream Kingdoms, and more stable regions of the Dream fall
+ under this category.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+High Mutability:
+\series default
+ Worlds outside of the influence of any gestalt will or reality have High
+ Mutability.
+ Weaving is completely unrestricted in these spaces, and may be used by
+ any being.
+ The Sea of Stars, personal dreams, and most of the Dream fall under this
+ category.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Mutability|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Weaving Actions
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Actions|(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Weaving, imagination and action are all the same in a dream.
+ There is no true difference between imagining walking through a forest,
+ and imagining all the flowers coming into bloom at once.
+ There is no need to put one foot in front of the other, coordinating all
+ of a body's muscles.
+ Just...
+ to imagine you did.
+ That alone is enough in the Dream.
+ Rather than needing to perform every little step of her action by hand,
+ she only need understand the principles of what she is doing as the Dream
+ fills in the gaps.
+\end_layout
+
+\begin_layout Plain Layout
+Dreamweaving is performed using such Weaving Actions, using a separate set
+ of skills instead of the usual mundane set.
+ Any roll may be rolled with the closest matching Weaving Skill rather than
+ the usual mundane Skill, as long as the character can currently Dreamweave.
+ If this is done as part of a proactive action on her part, it becomes a
+ Weaving Action.
+\end_layout
+
+\begin_layout Plain Layout
+While this isn't blatantly supernatural, it still usually leaves subtle
+ tells that nothing is right.
+ Perhaps she defies gravity, drifting in the air far longer than she should,
+ jumping from building to building.
+ Perhaps the motion of her feet don't line up with how fast she moves as
+ she runs across the field.
+ Any witnesses may roll Perception to notice the incongruence in her actions.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Actions|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Commentary
+status open
+
+\begin_layout Plain Layout
+Another of the things that defines the feel of Luminous.
+ They don't interact with the world as mortals or even most supernatural
+ beings do.
+ To them, they move by intent as in a dream.
+ Imagine moving in impossible ways and simply doing so.
+ Strange body plans and unfamiliar body parts don't phase them the slightest
+ – before they learn how to control them physically they can simply Weave
+ their way through the adjustment period.
+\end_layout
+
+\begin_layout Plain Layout
+Mechanically, this serves as one of their major advantages.
+ They have higher dice pools on average between Dream Attributes and Weaving
+ Actions.
+ In fact, this replaces the normal supernatural trait added to supernatural
+ powers.
+ Since this gives them larger dice pools already, it's not entirely necessary
+ for the Luminous.
+\end_layout
+
+\begin_layout Plain Layout
+This also is meant as a partial patch to the problem some supernatural splats
+ have that...
+ powers require very specific Skills, limiting builds in a strange way.
+ Why does a Changeling who lives in a city with no wilderness for ages have
+ a Survival skill? Especially when its entire purpose is to cast Elemental
+ Weapon? Because Luminous powers always use Weaving Skills, this problem
+ is far lessened.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Weaving Skills 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-TransformedSkills"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+A Weaving Skill represents how well a character understands the underlying
+ principles that connect an entire category of actions.
+ Any character with significant ties to the Dream (whether as natives, or
+ Starborn) may purchase Weaving Skills in the same way as regular Skills.
+ Characters attempting to use Weaving Skills untrained suffer a -3 penalty.
+ This penalty is reduced to -1 for Luminous.
+\end_layout
+
+\begin_layout Subsubsection*
+Force
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Force
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+One will triumphs over another, dictating the shape of the Dream.
+ The strong still triumph over the weak, only in a contest of will and determina
+tion rather than muscle and steel.
+ Force is the skill reflecting the use of raw willpower to enforce your
+ will upon others or prevent them from affecting you as they wish.
+ It is used for feats of strength, magic, or endurance, directly contesting
+ your talents against another.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Knock down a door.
+ Stare someone down.
+ Overpower someone with magic.
+ Shove a door closed against a monster.
+\end_layout
+
+\begin_layout Subsubsection*
+Flow
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The winds flow over the tallest mountain peaks and through the narrowest
+ of passages.
+ To yield does not mean to give up, merely to find another direction from
+ which to act.
+ Flow is the skill reflecting grace and the solving problems by working
+ around them.
+ It is used for moving gracefully through adversary, solving problems via
+ trickery, or redirecting forces.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Fly through a windstorm.
+ Dance gracefully.
+ Dodge a blow.
+ Pick a lock.
+\end_layout
+
+\begin_layout Subsubsection*
+Learn
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Learn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+All knowledge was once unknown, and all the principles that our modern era
+ was built on was once discovered by someone.
+ Just because something isn't yet known isn't at all an obstacle.
+ Learn is the skill reflecting discovery, experimentation and observation.
+ It is used for discovering new truths or investigating mysterious circumstances.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Intuit the meaning behind a riddle.
+ Investigate a murder scene.
+ Perform a scientific experiment.
+ Predict the future from the stars.
+\end_layout
+
+\begin_layout Subsubsection*
+Lore
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Lore
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The world of today is built on the shoulder of giants.
+ Every discovery, tradition, piece of art is merely the latest in a history
+ lasting countless eras.
+ Lore is the skill reflecting the wisdom and knowledge of the past, and
+ the customs that allowed them to be discovered.
+ It is used to apply a body of knowledge, remember the stories of the past,
+ and draw new conclusions from old information.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Hack a computer network.
+ Diagnose a disease.
+ Recall useful facts.
+ Summon a creature from a fairy tale.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Subsubsection*
+Heart
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Connect
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Plain words alone were never enough to communicate the depths of one's own
+ truth.
+ Thus, we invented a thousand arts, a thousand ways to touch the souls and
+ emotions of others.
+ Heart is the skill reflecting expression and force of personality.
+ It is used to convince others through heartfelt appeals, express one's
+ truths to others, and protect one's own self against impositions.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Write a poem.
+ Convince someone of their own worth.
+ Physically manifest emotions into magic.
+ Unweave a charm cast upon one's own mind.
+\end_layout
+
+\begin_layout Subsubsection*
+Resonate
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Resonate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+More people walk the Earth than stars shine in the galaxy, each unique yet
+ bound into a single whole.
+ Together, they may become something greater than any of them could alone.
+ Resonate is the skill reflecting connections between people and understanding
+ of the greater whole.
+ It is used to understand another's feelings, connect with another deeply,
+ or see the broader picture beyond the details.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Reach out to someone in need.
+ Comfort your best friend.
+ Understand the social dynamics of a business.
+ Read the emotion behind a spell.
+\end_layout
+
+\begin_layout Subsubsection*
+Shape
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Shape
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Shape is the principle of creation.
+ It is used to create or fix things and engineer new designs.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Example Actions:
+\series default
+ Design a building.
+ Write a computer program.
+ Repair a car.
+\end_layout
+
+\begin_layout Subsubsection*
+Shade
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills!Shade
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Shade is the principle of concealment.
+ It is used to deceive others from the truth and resonate with hidden truths.
+\series bold
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+Example Actions: 
+\series default
+Hide your true feelings.
+ Avoid being seen.
+ Pickpocket someone's keys.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Skills|)
 \end_layout
 
 \end_inset
@@ -7412,417 +7928,12 @@ sorry your build doesn't work
 
 \end_layout
 
-\begin_layout Subsection
-Weaving Actions
-\end_layout
-
 \begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
-Weaving|(textbf
-\end_layout
-
-\end_inset
-
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Actions|(textbf
-\end_layout
-
-\end_inset
-
-In a dream, there isn't a difference between a dreamer's imagination and
- the world around them.
- She don't need to put one foot in front of the other or move a muscle to
- walk forward...
- just, will it to be so.
-\end_layout
-
-\begin_layout Plain Layout
-The Luminous call that kind of action Weaving – to act by imagination as
- in a dream.
- They blur the line between reality and dreams, and learn to Weaving their
- will into the world as naturally as they move.
- It doesn't matter if she doesn't have the coordination to leap nimbly from
- roof to roof in her mundane life, she merely has to imagine doing so.
- It doesn't matter if she's never touched a gun before in reality, she must
- simply weave together a story where she hits.
-\end_layout
-
-\begin_layout Plain Layout
-Transformed Luminous may use an appropriate Weaving Skill in place of a
- normal skill as part of any roll they make.
- When she does so as a part of an proactive action on her part, it becomes
- a Weaving Action.
- Weaving Skills are a separate set of eight skills, that the Luminous buys
- separately as with Dream Attributes.
-\end_layout
-
-\begin_layout Plain Layout
-Acting in such a way isn't blatantly supernatural, but often still leaves
- subtle tells that not everything is right.
- Maybe she defies gravity, drifting in the air far longer than she should.
- Maybe the motion of her feet doesn't quite line up with how fast she moves.
- Any witnesses may roll Perception to notice the nonphysical nature of her
- actions.
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Actions|)
-\end_layout
-
-\end_inset
-
-
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Another of the things that defines the feel of Luminous.
- They don't interact with the world as mortals or even most supernatural
- beings do.
- To them, they move by intent as in a dream.
- Imagine moving in impossible ways and simply doing so.
- Strange body plans and unfamiliar body parts don't phase them the slightest
- – before they learn how to control them physically they can simply Weave
- their way through the adjustment period.
-\end_layout
-
-\begin_layout Plain Layout
-Mechanically, this serves as one of their major advantages.
- They have higher dice pools on average between Dream Attributes and Weaving
- Actions.
- In fact, this replaces the normal supernatural trait added to supernatural
- powers.
- Since this gives them larger dice pools already, it's not entirely necessary
- for the Luminous.
-\end_layout
-
-\begin_layout Plain Layout
-This also is meant as a partial patch to the problem some supernatural splats
- have that...
- powers require very specific Skills, limiting builds in a strange way.
- Why does a Changeling who lives in a city with no wilderness for ages have
- a Survival skill? Especially when its entire purpose is to cast Elemental
- Weapon? Because Luminous powers always use Weaving Skills, this problem
- is far lessened.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Weaving Skills 
-\begin_inset CommandInset label
-LatexCommand label
-name "Sec-TransformedSkills"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills|(textbf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-Force
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Force
-\end_layout
-
-\end_inset
-
-Force is the principle of forceful action.
- It is used for actions that directly contest your will versus those around
- you and the world itself.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Knock down a door.
- Stare someone down.
- Overpower someone with magic.
-\end_layout
-
-\begin_layout Subsubsection*
-Flow
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Flow
-\end_layout
-
-\end_inset
-
-Flow is the principle of movement.
- It is used for graceful actions, and moving about the world with purpose.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Fly over or climb a wall.
- Dance gracefully.
- Dodge a blow.
-\end_layout
-
-\begin_layout Subsubsection*
-Learn
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Learn
-\end_layout
-
-\end_inset
-
-Learn is the principle of discovery.
- It is used to seek new truths, and uncover things about the world that
- nobody has learned before.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Research an old book.
- Examine evidence.
- Decipher an arcane riddle.
-\end_layout
-
-\begin_layout Subsubsection*
-Lore
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Lore
-\end_layout
-
-\end_inset
-
-Lore is the principle of knowledge.
- It is used to apply a body of knowledge, and draw new conclusions from
- old information.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Hack a computer network.
- Call out false information.
- Diagnose a disease.
-\end_layout
-
-\begin_layout Subsubsection*
-Heart
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Connect
-\end_layout
-
-\end_inset
-
-Heart is the principle of expression.
- It is used to express one's own truths and convince others by force of
- personality.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Write a poem.
- Convince someone to help you.
- Make a speech.
-\end_layout
-
-\begin_layout Subsubsection*
-Resonate
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Resonate
-\end_layout
-
-\end_inset
-
-Resonate is the principle of connection.
- It is used to understand another's feelings and connect emotionally.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Reach out to someone in need.
- Detect a lie.
- Comfort your best friend.
-\end_layout
-
-\begin_layout Subsubsection*
-Shape
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Shape
-\end_layout
-
-\end_inset
-
-Shape is the principle of creation.
- It is used to create or fix things and engineer new designs.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Example Actions:
-\series default
- Design a building.
- Write a computer program.
- Repair a car.
-\end_layout
-
-\begin_layout Subsubsection*
-Shade
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills!Shade
-\end_layout
-
-\end_inset
-
-Shade is the principle of concealment.
- It is used to hide in all kinds of ways and deceive others.
-\series bold
-
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-Example Actions: 
-\series default
-Hide your true feelings.
- Avoid being seen.
- Pickpocket someone's keys.
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Weaving!Weaving Skills|)
+Dreamweaving|)
 \end_layout
 
 \end_inset
@@ -7895,24 +8006,10 @@ Alternate Identity
 \end_layout
 
 \begin_layout Plain Layout
-The Alternate Identity merit [CofD 50] costs one less experience for Luminous
- establishing a Dream Form in waking society, as they only require appropriate
- documentation, not the basic groundwork.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Borrowed from Princess: the Hopeful.
- Luminous have the same stronger protection for their Dream Form than the
- one dot of this merit provides.Thus, it deserves a discount.
-\end_layout
-
-\end_inset
-
-
+A Luminous' Veiling inherently provides the protection Alternate Identity
+ [CofD 50] normally provides at one dot.
+ Luminous may take it for one less experience when establishing documentation
+ for their Dream Form, and may not take it at one dot.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -11480,39 +11577,22 @@ Clarity and Hope are very similar mechanics, both serving as a health-like
  but the Fortifying Presence Contract can heal Hope as easily as Clarity.
 \end_layout
 
-\begin_layout Plain Layout
-If one of a Changeling's Touchstones possesses Sensitivity, they may use
- Take their Hand to heal Clarity, not only Hope.
-\end_layout
-
-\begin_layout Plain Layout
-At the Storyteller's discretion, Changelings with the Sensitivity merit
- may suffer Clarity damage and Clarity conditions rather than Hope conditions
- alone, using the same mechanics as for Luminous.
- Roll Clarity attacks caused by Sensitivity using the rules for Hope attacks
- – the Changeling simply takes mild Clarity damage equal to the number of
- successes the attack shows.
-\end_layout
-
 \begin_layout Subsubsection*
 The Hedge and The Dream
 \end_layout
 
 \begin_layout Plain Layout
-The magic of the Luminous is centered upon shaping their own Dreams, and
- imposing it upon reality to begin with.
- Hedgespinning comes as naturally to them as any fae creature, and they
- may simply pay Motes in place of Glamour.
- They cannot shape the Hedge as they do the Dream – while it responds to
- emotion and thought, it is still a solid world of its own.
+The fae know the art of Dreamweaving as well as the Luminous, even if they
+ cannot impose them upon the waking world as a Luminous can.
 \end_layout
 
 \begin_layout Plain Layout
-Similarly, Changelings in the Dream (as the Luminous define it) may Dreamweave
- as in personal dreams.
- They lose this power in the hearts of the Dream Kingdoms or the Deep Dream.
- She may apply Dreamweaving successes make Conceptual Attacks if her actions
- could justify doing so.
+Changelings may learn and use Luminous Dreamweaving as if they were Starborn
+ and may use their innate Dreamweaving in any space with High Mutability.
+ Luminous and powerful Dreamborn may treat the Hedge as if it had Medium
+ Mutability.
+ Lesser dreamers have neither the force of will or innate connection to
+ the Wyrd required to shape the Hedge.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -11524,23 +11604,97 @@ Luminous have a Charm that allow them to join to Wyrd-bound Pacts as a full
  participant.
  This has farther reaching consequences than it may seem at first glance.
  Membership in Freeholds is an Oath, and so is membership in their courts.
+ Joining a Freehold has no innate particular mechanical implications, beyond
+ justifying Status and similar merits.
+\end_layout
+
+\begin_layout Section
+Deviant
 \end_layout
 
 \begin_layout Plain Layout
-Joining a Freehold has no particular mechanical implications, beyond justifying
- Status and similar merits.
- With Storyteller permission, Luminous may take Mantle or Court Goodwill
- in chronicles where it is appropriate.
- Mantle influences a Luminous' Dream Form, do not retain the Glamour gain
- clause, and Luminous spend Motes in place of Glamour.
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Chronicles
 \end_layout
 
 \begin_layout Plain Layout
-Some powers of Mantles may need to be altered to fit Luminous.
- For the default seasonal courts: Spring •••• applies with your character's
- Dream, Spring ••••• applies to Hope rather than Clarity conditions.
- Autumn ••• applies to the Mote cost of Evocations, Autumn ••••• counts
- as an Evocation and is subject to Transience.
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interactions
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Intimacy
+\end_layout
+
+\begin_layout Plain Layout
+Divergence fundamentally scars the souls of the Broken, twisting their relation
+ with the Dream as much as any other part of their being.
+ Divergents do not create any Intimacy normally, and instead have Connected
+ Intimacy with all their Touchstones of any type – subject to the normal
+ restrictions on mutual relationships.
+\end_layout
+
+\begin_layout Subsubsection*
+Reflected Light
+\end_layout
+
+\begin_layout Plain Layout
+Resonance reaches out for the Broken as with any other person, with all
+ the chaos and complications such a connection brings.
+ While Deviants have no Anchors a Luminous may draw on, she may instead
+ use Reflected Light to gain one of their Touchstones or a temporary Loyalty
+ Touchstone towards them.
+ In doing so, she is subject to a pale (but still painful) reflection of
+ the implications of Divergence.
+ Should she Falter or has not gained Willpower from the Touchstone before
+ the end of the scene, she immediately takes a severe Hope damage.
+\end_layout
+
+\begin_layout Plain Layout
+Similarly, Deviants cannot reflect a Luminous' own Anchors through her Resonance
+, and may instead gain a Touchstone of the same kind they have with her
+ towards a person she has Strong or Connected Intimacy with.
+ This does not provide additional Loyalty but may be used to regain Willpower
+ and heal Instability in the same way as any other Touchstone.
+ If they do not gain Willpower from the Touchstone before the end of the
+ scene, it causes a minor Instability.
 \end_layout
 
 \begin_layout Section
@@ -11984,7 +12138,308 @@ Dreaming
 \end_layout
 
 \begin_layout Chapter
-Appendix B: Conditions
+Appendix B: Crossover Options
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
+This chapter lists modifications to options in other Chronicles of Darkness
+ books for crossover games with Luminous.
+\end_layout
+
+\begin_layout Section
+Changeling: the Lost
+\end_layout
+
+\begin_layout Subsection
+Avowed Luminous
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Avowed Luminous – Weave/Origin Rules
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Luminous Merits
+\end_layout
+
+\begin_layout Plain Layout
+Luminous may touch upon the Wyrd unusually well due to its close ties with
+ dreams.
+ With Storyteller permission, Luminous with well developed connections to
+ the fae may take certain merits normally open to Changelings.
+\end_layout
+
+\begin_layout Subsubsection*
+Court Goodwill (• to •••••)
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Prerequisites: 
+\series default
+Shining Vow, membership in a Freehold
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Luminous who are members of a Freehold may gain Court Goodwill as a Changeling
+ does.
+ The usual modifications to Mantle applies should she have 3 or more dots.
+\end_layout
+
+\begin_layout Subsubsection*
+Mantle (• to •••••)
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Prerequisites: 
+\series default
+Shining Vow, membership in a Freehold and one of its Courts
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Luminous who seal themselves to the Oaths of a Freehold and one of its
+ Courts gains its Mantle as any Changeling would.
+ Her Dream Form's appearance shifts to include the Mantle's effects, she
+ is treated as if her Wyrd were equal to her Reverie and she spends Motes
+ in place of Glamour.
+ She does not gain any benefits from the additional way to gain Glamour,
+ and may not gain Contracts through it.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Spring ••••:
+\series default
+ Luminous gain an additional Willpower when they act according to their
+ Wish rather than Needle.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Spring ••••• / Morning
+\series default
+ 
+\series bold
+•••••
+\series default
+: Luminous may apply this benefit to Hope rather than Clarity.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autumn ••• / Day ••••:
+\series default
+ Luminous may instead reduce the Mote cost of Evocations when these benefits
+ apply.
+ This does not reduce the Luminosity required to maintain them.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autumn •••••:
+\series default
+ Effects Luminous mimic in this way count as Evocations, and are subject
+ to Transience.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Summer Loeg •••• / Winter Loeg •••• / Ebb Tide ••••:
+\series default
+ Luminous may increase their effective Resistance by one in Dream Form when
+ the conditions are met.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Flood Tide •••••:
+\series default
+ As Luminous cannot Portal, they do not gain the usual benefits of this
+ Mantle.
+ They instead reduce the Mote cost of Evocations used to escape confinement
+ or other restraints by one.
+ This does not reduce the Luminosity required to maintain them.
+\end_layout
+
+\begin_layout Section
+Chronicles of Darkness: The Contagion Chronicle
+\end_layout
+
+\begin_layout Subsection*
+Vector Edges
+\end_layout
+
+\begin_layout Plain Layout
+Luminous gain edges from the following Vectors as if they were members of
+ the following types of supernatural creatures:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Hunters:
+\series default
+ Surveillance, The Boss Is In, Comprehension, Define, Eyes on Target, Ocular
+ Mapping, Intel Package, Purge Weakness
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Changelings:
+\series default
+ Panopticon, The Big Lie, Purification, Divine Revelation, Modern Miracle,
+ Breakdown, Discovery, Plutomancy, Shift Contamination
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Beasts:
+\series default
+ Cleansing Flame, Breach, Contagion Shroud
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Mages:
+\series default
+ Warning Imagery
+\end_layout
+
+\begin_layout Plain Layout
+Luminous gain unique Edges for the following Vectors:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Babble:
+\series default
+ Oracles with ties to the Dream may twist its flows into itself, inverting
+ the ties between speaker and listener.
+ When the Babble vector is used by a character with this edge, other characters
+ understand their speech as what they expect them to say rather than gibberish,
+ communicating no truly new information.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Godhead:
+\series default
+ Your power to defy the world's laws grows shaper than ever before.
+ While this vector is active, you treat all spaces as if their Mutability
+ was one level higher for your Dreamweaving.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Renewal:
+\series default
+ When your form is woven of your own imagination, the line between physical
+ and mental afflictions is not so clear.
+ A character with this edge can suppress any Condition they could clear
+ with Dreamweaving rather than only physical ones.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Improve:
+\series default
+ You seal an ephemeral power into your sigil, bestowing the same gifts you
+ enjoy in your dreams.
+ Luminous may bestow a single Dream Attribute or Weaving Skill with their
+ sigil in place of the usual three, allowing the recipients to apply them
+ in place of their mundane equivalents.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Evolve:
+\series default
+ A faint echo of the initial link remains even after it fades, resonating
+ with the emotions of both parties.
+ You know the emotional state of the other party at all times, and gain
+ a +3 bonus to all rolls to understand or emphasize with them.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fire for Effect:
+\series default
+ The bonds tying together all of humanity burn strongly in your heart, and
+ may draw closer upon them in moments of crisis.
+ You gain 3 temporary Motes in your Mote Pool, which may only be spent on
+ Evocations used to support your Allies.
+ These may exceed the usual limit, but disappear if not used once the vector
+ is over.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Drain Energy:
+\series default
+ A Luminous using Drain Energy gains Motes equal the size of her Mote Pool,
+ up to a maximum of twice its usual capacity.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Control Contagion:
+\series default
+ Luminous gain the same benefits as Hunters when using Control Contagion.
+ For the chapter, the Luminous is treated as an Angel by supernatural powers
+ in Dream Form and Read the Winds functions on Infrastructure rather than
+ any of its usual targets.
+ Furthermore, she gains the Open and Infrastructure conditions as the God-Machin
+e weaves her into its plans.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Appendix C: Conditions
 \end_layout
 
 \begin_layout Standard
