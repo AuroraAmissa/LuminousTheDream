@@ -42,16 +42,6 @@ InsetLayout Flex:Sidebar
   ResetsFont            true
 End
 
-InsetLayout Flex:Commentary
-  LyXType               custom
-  Decoration            classic
-  LabelString           "Commentary"
-  LatexType             command
-  LatexName             lumcommentary
-  ResetsFont            true
-  BgColor               pink
-End
-
 InsetLayout Flex:ContentWarning
   LyXType               custom
   Decoration            classic
@@ -323,93 +313,6 @@ gitHash}{Github}
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This version of Luminous: the Dream contains author commentary by AuroraAmissa.
- It contains extra text (typeset in pinkish boxes like this one) that explain
- how various design decisions in this fansplat came about, and help people
- who are writing roleplay systems understand the subtler themes and design
- that goes into things like this.
- For Storytellers too, it will likely give quite a good deal of insight
- into how to run the game on subtle points that are hard to include in the
- main text.
-\end_layout
-
-\begin_layout Plain Layout
-A lot of the D&D/Pathfinder homebrew on the Giant in the Playground forums
- once used collapsibles for a similar purpose, and seeing that helped me
- develop my own sense for game design early on.
- Mark Rosewater's blog on the design of Magic: the Gathering and its mechanics
- was similarly invaluable for that.
- This commentary is a love letter to them, of passing on the torch.
-\end_layout
-
-\begin_layout Plain Layout
-Princess, to me, feels as if it became diluted over the course of its developmen
-t process.
- It kept every individual piece of the original Princess: the Fading pitch
- by Cruton, but lost its core feel in the process.
- There were those who felt it was too similar to Changeling: the Dreaming,
- and tried to distinguish it.
- People had different opinions on how dark Princess should be, struggled
- and disagreed about how to tell a dark story about those who hope.
-\end_layout
-
-\begin_layout Plain Layout
-Its authors wasn't able to commit to a coherent theme in the way White Wolf's
- works do.
- I don't want to repeat that mistake.
- Luminous chooses a theme, rather than trying to be a little bit of something
- for everyone.
-\end_layout
-
-\begin_layout Plain Layout
-It is a story about those who are caught between reality and their dreams,
- and in seeing what the world could be in their dreams cannot bear to see
- the world remain shrouded in shadows.
- It is a story about those who burn bright with the hope and wonder of childhood
-, carrying that light into a world that had long chosen to forget it.
-\end_layout
-
-\begin_layout Plain Layout
-The Dream is not some Trap.
- Sensitivity is not some price to pay.
- There is no Darkness to blame for humanity's faults.
- ...
- if Luminous is like Dreaming, I choose to embrace that comparison.
- If it would be the brightest fansplat, even more so than Changeling: the
- Lost or Geist or Princess, than so be it.
- It's a story I feel is worth telling, and worth playing.
-\end_layout
-
-\begin_layout Plain Layout
-In exchange, Luminous can't appeal to everyone Princess appeals to.
- That's fine.
- It'll be a better game for it.
- The same aspects of Princess I've discarded would be done more justice
- by a splat that more concretely focuses on them too.
- 
-\end_layout
-
-\begin_layout Plain Layout
-The one way to write something 
-\emph on
-great
-\emph default
- is to write for yourself, and the vision you want to convey.
- Not every possible person who could possibly want to read your works.
- You can't satisfy everyone.
- You can't write something amazing that way.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section*
@@ -735,35 +638,6 @@ Introduction
 status open
 
 \begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This is the author commentary version of Luminous, and contains notes on
- design by its primary designer.
- If you're confused, please read the 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[chap:Foreword]{foreword}
-\end_layout
-
-\end_inset
-
- instead of skipping to the introduction.
- :P
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 We were all born knowing how to dream of the wonder and beauty of the world,
  and what it could become.
  In the dark of night, too many of us forget...
@@ -866,35 +740,6 @@ Something sparked deep in their soul.
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The key thread that binds together every Chronicles of Darkness splatline,
- it feels like, is that they're all outsider stories.
-\end_layout
-
-\begin_layout Plain Layout
-Luminous aren't the kind of people the world is built for either, not any
- more than the supernatural horrors the other splat lines are about.
- Though they are, in a real sense, still human, they are still outsiders.
- They dream too brightly for a World of Darkness, hope for too much.
- Normally voices like theirs are snuffed out by those who can't bare to
- see others fail to realize their dreams like they once did.
- Some are jealous, Some are scared, some are fearful.
- They would rather just accept those cruelties as part of life, and...
- survive.
-\end_layout
-
-\begin_layout Plain Layout
-Like with Hunter, they are still human...
- and at once outsiders.
- That, more than anything else, is the core theme of the Chronicles monster
- games.
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -915,21 +760,6 @@ mahou shoujo
  Stories of hope, of imagination, of love.
  Stories of a path forward that don't shy away from the darker aspects of
  life, but rather refuse to let them consume it.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The heart of every Chronicles of Darkness splat are its themes.
- This isn't an advertisement copy or an elevator pitch.
- It's the anchor for the entire splat.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection*
@@ -1167,119 +997,6 @@ exist in the depths of our heart.
 
 \begin_layout Plain Layout
 Thus, they ignite the magic that would make them Luminous.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Section*
-Luminous Nomenclature
-\end_layout
-
-\begin_layout Plain Layout
-Every CofD splat has a variety of terms for its supernatural beings, and
- Luminous is no exception.
- Main reason is it helps writing flow smoother, more than anything else.
- The main inspirations for terms in Luminous are:
-\end_layout
-
-\begin_layout Itemize
-Luminous terms tend to be flowery (but rather plain otherwise) English or
- Italian in origin.
- 
-\end_layout
-
-\begin_layout Itemize
-Dreamborn terms tend to be flowery English (implicit translation convention),
- or Irish/Irish-like.
-\end_layout
-
-\begin_layout Itemize
-Maou terms (in the rare cases where Luminous use it as the primary term)
- tend to be Latin in origin.
-\end_layout
-
-\begin_layout Plain Layout
-In specific, some of the important terms with synonyms:
-\end_layout
-
-\begin_layout Itemize
-The main term for the splat is Luminous.
- Other terms in use are 
-\begin_inset Quotes xld
-\end_inset
-
-the Hopeful
-\begin_inset Quotes xrd
-\end_inset
-
-, 
-\begin_inset Quotes xld
-\end_inset
-
-a Light
-\begin_inset Quotes xrd
-\end_inset
-
-/
-\begin_inset Quotes xrd
-\end_inset
-
-the Lights
-\begin_inset Quotes xrd
-\end_inset
-
-, or 
-\begin_inset Quotes xld
-\end_inset
-
-a Weaver
-\begin_inset Quotes xrd
-\end_inset
-
-/
-\begin_inset Quotes xrd
-\end_inset
-
-the Weavers
-\begin_inset Quotes xrd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-The residents of the Dream are known as 
-\begin_inset Quotes xld
-\end_inset
-
-Dreamborn
-\begin_inset Quotes xrd
-\end_inset
-
-, and those from the waking world are known as 
-\begin_inset Quotes xld
-\end_inset
-
-Starborn
-\begin_inset Quotes xrd
-\end_inset
-
-.
- Luminous are not normally classified this way, usually being seen more
- as something in between.
-\end_layout
-
-\begin_layout Itemize
-Dreamer is a generic term that may be applied to both Luminous and Starborn.
- They are...
- well, very quite literally dreamers in one way or another.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -1908,33 +1625,6 @@ Not all Luminous become a member of a kingdom when they Blossom.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The Luminous Y-Splat.
- It's ultimately not too different from Princess' Courts, but without the
- royalty theme.
- Only Avalon still has any connotations of being Noble, because it aligns
- with its core themes and ideas.
-\end_layout
-
-\begin_layout Plain Layout
-I feel Twilight Courts were one of the bigger mistakes of Princess.
- They were extreme (or otherwise tainted) versions of perfectly workable
- worldviews, and almost seemed to present those worldviews as necessarily
- twilight, not simply embedded in corrupted Courts.
- Most of these Kingdoms are modified from P:tH's courts, modified to be
- more comprehensive and less...
- strangely opinionated.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2532,39 +2222,6 @@ But...
  has in a thousand ways....
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The Dream was hard to fully solidify on.
- I had to work around the fact that there's three different official splats
- all with their own, different things to say.
- The Primordial Dream of the Beasts, the Astral of the Mages, the Oneiromancy
- of the Changelings.
-\end_layout
-
-\begin_layout Plain Layout
-The trick is to make it a difference of in-character viewpoints too.
- Luminous are those who live in the surface of the Dream (by their reckoning),
- which is still personal like the Oneiros, yet having some of the interconnected
-ness of the Temenos.
- They become part of those dreams, see it as a place to live alongside Earth.
- In that way, they differ from both Mages and Beasts – that one core difference
- in thematics drives a lot of their different terminology and their different
- experience of the Dream/Astral.
-\end_layout
-
-\begin_layout Plain Layout
-It is the same world, just interpreted through so many different views...
- Like many things in the world.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 The Dream Kingdoms
 \end_layout
@@ -2829,64 +2486,6 @@ TODO: Probably move this up to the Dream, and redo this section.
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Was it a great shattering, in which the world was covered in a Lie? Where
- we replaced the gods with tyrants just as bad, breaking the world in the
- process?
-\end_layout
-
-\begin_layout Plain Layout
-Was it a sundering, where the primal fury and wisdom of the Shadow was split
- from the Flesh? When Pangaea ended, and the savage, beautiful, interconnected
- nature was for the first time tamed?
-\end_layout
-
-\begin_layout Plain Layout
-Was it when a thousand voices drowned out the Primordial Dream that should
- guide us on the right path?
-\end_layout
-
-\begin_layout Plain Layout
-Was it when a great curse was laid on us all, giving birth to monsters of
- blood and their blood ties that bound that curse to the rest of humanity?
-\end_layout
-
-\begin_layout Plain Layout
-Was it when the first True Fae was born, reshaping Arcadia into something
- it never should have been?
-\end_layout
-
-\begin_layout Plain Layout
-Every splat talks of a deep past in vague terms.
- Some are more explicit it about others, but that bittersweet note of loss
- never leaves most splats.
- Luminous is no different.
- In their Dream, they see signs of worlds that once were, things that were
- beautiful, things once lost.
- They blame the start of the generational trauma humanity faces on those
- eras, only made worse by our darkened world.
- They too hope for better.
-\end_layout
-
-\begin_layout Plain Layout
-As the Lost build their freeholds, as the Mages seek Ascension, the Luminous
- seek to change the world.
- They are caught between two worlds, and want 
-\emph on
-both
-\emph default
- to shine as brightly as they possibly can.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Blossoming
 \end_layout
@@ -3022,42 +2621,6 @@ Luminous find themselves caught between two worlds, existing at once as
  and the special rules and abilities they possess.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This is one of the sections that I tried to improve on the standard Chronicles
- of Darkness splatbook format with.
-\end_layout
-
-\begin_layout Plain Layout
-It's more focused on the mechanics, giving only a basic description of any
- part of what being a Luminous is like, and leaving more detailed 
-\begin_inset Quotes xld
-\end_inset
-
-what it feels like
-\begin_inset Quotes xrd
-\end_inset
-
- fluff to Chapter 2.
- Hopefully this serves better to explain the mechanical heart of them 
-\begin_inset Quotes xld
-\end_inset
-
-at a glance
-\begin_inset Quotes xrd
-\end_inset
-
- like so.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Character Creation
 \end_layout
@@ -3138,21 +2701,6 @@ peacekeeper for Seattle's supernatural beings
 .
  You can refer back to it when deciding what options fit your character
  better, and refine it as your character develops.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-I was never really good at collapsing down my characters into an easily
- expressed high concept.
- Still, I don't know any better advice to give.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -7422,46 +6970,6 @@ Dreamweaving!Weaving Actions|)
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Another of the things that defines the feel of Luminous.
- They don't interact with the world as mortals or even most supernatural
- beings do.
- To them, they move by intent as in a dream.
- Imagine moving in impossible ways and simply doing so.
- Strange body plans and unfamiliar body parts don't phase them the slightest
- – before they learn how to control them physically they can simply Weave
- their way through the adjustment period.
-\end_layout
-
-\begin_layout Plain Layout
-Mechanically, this serves as one of their major advantages.
- They have higher dice pools on average between Dream Attributes and Weaving
- Actions.
- In fact, this replaces the normal supernatural trait added to supernatural
- powers.
- Since this gives them larger dice pools already, it's not entirely necessary
- for the Luminous.
-\end_layout
-
-\begin_layout Plain Layout
-This also is meant as a partial patch to the problem some supernatural splats
- have that...
- powers require very specific Skills, limiting builds in a strange way.
- Why does a Changeling who lives in a city with no wilderness for ages have
- a Survival skill? Especially when its entire purpose is to cast Elemental
- Weapon? Because Luminous powers always use Weaving Skills, this problem
- is far lessened.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Weaving Skills 
 \begin_inset CommandInset label
@@ -7875,39 +7383,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex Commentary
-status collapsed
-
-\begin_layout Plain Layout
-Pretty unchanged from P:tH on the surface level, although used far differently.
- For one, I try to not encourage arguments with the Storyteller over whether
- your character should really have four dots of Specchio, or whether she
- really aligns with tenet 2 of the Court's beliefs.
- 
-\begin_inset Quotes xld
-\end_inset
-
-Your character might need a teacher for the Invocation
-\begin_inset Quotes xrd
-\end_inset
-
- is far easier a pill to swallow than 
-\begin_inset Quotes xld
-\end_inset
-
-sorry your build doesn't work
-\begin_inset Quotes xrd
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Index idx
 status open
 
@@ -8104,30 +7579,6 @@ Your character has a significantly different personality in her Dream Form.
  once in a scene.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Pretty simple.
- This acknowledges a rather common trope in magical girl works in a 
-\begin_inset Quotes xld
-\end_inset
-
-quiet
-\begin_inset Quotes xrd
-\end_inset
-
- way.
- This is somewhat weaker than Vice-Ridden or Virtuous because supernatural
- anchors are already stronger baseline.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Childish (••) 
 \end_layout
@@ -8204,21 +7655,6 @@ Drawback:
  cannot use other variants.
  When you take this merit, or when you gain further Upgrades, you must choose
  whether it applies to your Dream Form.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A basic design trick.
- This lets you mechanically reflect a large variety of different physical
- forms, without the long list of supernatural merits Exalted has.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -8326,25 +7762,6 @@ status open
 
 \begin_layout Plain Layout
 TODO: Mundane Merits.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Luminous aren't the only ones who get it, who are empathic enough to be
- hurt by it.
- Making Sensitivity a mundane merit is important for Luminous Hope economy,
- and pushes the themes that...
- well.
- There are just people like that out in the world, magical or not.
- They just have to find each other.
 \end_layout
 
 \end_inset
@@ -9192,21 +8609,6 @@ Dramatic Failure:
  attempt to read their story.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A simple Charm with powerful applications.
- The base ability here is weaker than with most Charms, because it works
- with any Invocation.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Upgrade: Prismatic Echo
 \end_layout
@@ -9543,21 +8945,6 @@ This Charm fails if she does not mean her promise genuinely.
  action, not anything more complex.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A very magical girlish way to seal your own promises.
- Royal Witness in P:tH was fun, but things like this...
- feel more by the genre.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Upgrade: Knight's Code 
 \end_layout
@@ -9650,21 +9037,6 @@ Effects:
  the oath, the Charm reveals their deception to all involved parties, and
  has no further effects.
  
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Although...
- Invocations are still allowed to shift the genre.
- :)
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -9871,21 +9243,6 @@ Changeling: the Lost 2e
  powers of Shining Vow are the most they can do on their own.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Little things like this make crossover games far more interesting and fun,
- without being significantly in the way of normal play.
- Would recommend.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -10069,21 +9426,6 @@ In addition, Luminous Transformation works differently in the Dream.
  powers as if she were a mortal.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This is just Beast/Changeling/Mage's Dream Form, of course.
- Standard mechanic, but explained in terms of the Luminous Dream Form in
- this system due to how central it is for the main splat.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Dream Combat
 \end_layout
@@ -10119,36 +9461,6 @@ Instead of a sword, a Luminous could wield a cutting argument, imposing
 
 \begin_layout Standard
 That is the heart of dream combat.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-It always felt weird to me that dream combat in Mt:Aw mostly boiled down
- to the same as physical combat.
- Changeling is better with Shifts and such mechanics, by far.
-\end_layout
-
-\begin_layout Plain Layout
-In my case, I'm using mechanics inspired by Shaping Combat in the Graceful
- Wicked Masques splatbook for Exalted 2e and to a latter extent how combat
- flows in Exalted 3e.
- So, I suppose, this is the part where I go full Jenna Moran.
- Compared to that system, this is simplified and more abstract, but it is
- still the core inspiration.
-\end_layout
-
-\begin_layout Plain Layout
-Dream combat isn't brutal like combat in the waking world, but that doesn't
- mean it isn't scary in its own ways.
- After all, your soul is laid bare to your opponent's will should you fail.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -10241,40 +9553,6 @@ Fading Luminous no longer regain Willpower form rest, and suffer a box of
  light.
  The same occurs if their Dream Health is exhausted, or they suffers the
  Soul Shocked Condition for any other reason.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-...
- a final plot beat for a Luminous at the end of their story, and a long-term
- roleplaying opportunity.
- A name call back to the original pitch for Princess: the Hopeful, at that.
-\end_layout
-
-\begin_layout Plain Layout
-Physical realities such as old age, dying, or not having a soul don't quite
- affect the Luminous nearly as hard as they should.
- After all, they are people who have become dreams.
- Still, it's not...
- exactly easy to do.
- They just fade away if they run out of Hope, and the constant Severe Hope
- damage makes it hard.
-\end_layout
-
-\begin_layout Plain Layout
-On base Intimacy mechanics alone, they can still only clear one Severe damage
- a day – breaking even in the process.
- It takes the Take Their Hand power from Sensitivity to get ahead of existing
- Severe damage.
- Difficult but possible, as intended.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -10678,53 +9956,6 @@ The latter especially tend to be responsible for the strangest of phenomenon.
  they Blossom the first time.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Weaves and Origins serve as the core of Luminous crossover support, as Embassies
- do in Princess.
- They...
- do support a lot of Luminous themes, hence why they're presented as a full
- chapter, not an appendix.
-\end_layout
-
-\begin_layout Plain Layout
-Luminous embrace the stranger things of the world.
- They aren't the kind of people to shy away from being strange, or accepting
- that which most people would reject.
- The Weave of Names threatens to fracture a Luminous' identity, if they
- had not already been multiple.
- The Weave of Bonds threatens to make its participants lose themselves in
- each other.
- It's no wonder then, that they would see no issue in accepting forces that
- were never quite humanity's to begin with.
-\end_layout
-
-\begin_layout Plain Layout
-Unlike in Beast, in Luminous, crossover is about the bonds outcasts forge
- with each other.
- They have no overarching story for what binds them together with other
- supernatural creatures, because they don't need one.
- They connect with the human side of other supernatural creatures, and such
- interpersonal bonds can break through any remaining differences in supernatural
- nature.
-\end_layout
-
-\begin_layout Plain Layout
-In their Origins, they embrace what being a different kind of supernatural
- creature would mean for them, abandoning even the caution that Princesses
- show in their Embassies.
- They come out changed, but no less bright for it.
- That's the point.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Accepting Weaves
 \end_layout
@@ -10742,31 +9973,6 @@ Whether a Luminous takes on on a Weave when she first Blossoms, or later
 She gains ranks in the Weave for every dot of her Inner Light, and gains
  one more every time it increases.
  For each rank, she may buy a single Perk associated with her Weave.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Weaves have a pretty similar structure to Entitlements, though simplified
- into something more like a Feat tree or Exalted-style Charm tree.
- This makes them pretty good for focused concepts that define something
- core to the character (e.g.
- the Weave of Bonds and the Weave of Names), or those focus strongly on
- a single core concept (e.g.
- the Weave of Daydreams).
-\end_layout
-
-\begin_layout Plain Layout
-In that sense, they function more as a second template than anything else.
- Not inappropriate, considering they are usually more about things a Luminous
- can be, than powers she wields.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -10843,28 +10049,6 @@ When a Luminous takes on a Weave, she accepts another force into her soul,
  a foreign force.
  Abilities may affect and detect such Luminous and their powers using anything
  that can detect the powers of the Dream, Will, or their Origin.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Origins serve as a point of customization, as the same concept could often
- be achieved through multiple foreign forces – or even the Dream's own touch.
- They serve a pair of related purposes.
-\end_layout
-
-\begin_layout Plain Layout
-First, it makes it easier for Storytellers and players to write Weaves,
- since their complexity is limited to their core features.
- Secondly, they function as an unified set of downsides, so Weaves don't
- need particularly troublesome downsides (or any at all) to function.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -10969,37 +10153,6 @@ nt exposure to her element and suffers a box of mild Hope damage daily.
  may be enough to drain her.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The abuse of the term 
-\begin_inset Quotes xld
-\end_inset
-
-Resonance
-\begin_inset Quotes xrd
-\end_inset
-
- here is somewhat intentional.
- It's easier to understand than going full-in with Werewolf terms like 
-\emph on
-umia
-\emph default
- or 
-\emph on
-ilthum
-\emph default
- – and it's close enough to the intended meaning that most readers familiar
- with Wolf will still know what is meant.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Favor of the Shadow
 \end_layout
@@ -11035,25 +10188,6 @@ TODO: After finishing Domain mechanics, work Resonance into them.
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Influences are a 
-\emph on
-weird
-\emph default
- power in PC hands.
- Thus, we rely on softer things like equipment bonuses and the existing
- Domains system.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Wyrd
 \end_layout
@@ -11076,29 +10210,6 @@ When a Hopeful accepts the powers of the Wyrd, she dreams of a memory of
  By the terms of that accord between the Hopeful and fae, she discards her
  usual transformation in favor of the Mask that veils all fae from mortal
  eyes.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Dreams and fae magic were always well connected, so this is probably the
- least unexpected of all the Origins.
- As long as this text is, it basically boils down to this:
-\end_layout
-
-\begin_layout Plain Layout
-Luminous with ties to Wyrd have a Mask and are locked into Dream Form.
- They are vulnerable to iron.
- Finally, the Mask veils her from being easily detected as a Luminous and
- hides the stranger traits of her Dream Form the same way it hides a Changeling'
-s Kith/Seeming effects.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
