@@ -18,7 +18,7 @@ jobs:
       - name: Retrieve gitinfo
         run: RulebookShared/hooks/post-checkout
       - name: Run build script
-        run: ./build.sh
+        run: ./build.sh ci
       - uses: actions/upload-artifact@v2
         with:
           name: dist-packages
