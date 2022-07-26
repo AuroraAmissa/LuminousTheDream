@@ -6355,23 +6355,6 @@ Resonance|(textbf
  them to feel the connections between worlds and people alike.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Resonance, like Hope, are core to what Luminous are.
- It is their power to connect hearts through the power of dreams.
- It is what makes relationships so important to them.
- It's their Aura, technically, but works through dreams in a way that makes
- it not really interact well with other splat's Auras.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Read the Winds
 \end_layout
@@ -6404,28 +6387,6 @@ Luminous are innately aware of this connection between worlds.
  Similarly in the Dream, they are aware of the general circumstances in
  the real world that have created such an reflection in the Dream, and whether
  it is at risk of influencing the waking world in return.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Mage Sight drives Mages towards Mysteries, and Read the Winds drives Luminous
- towards places where they can 
-\emph on
-help
-\emph default
-.
- This is meant as a thing Storytellers weave into descriptions constantly,
- one of the things that makes Luminous not able to ignore the fact they're
- supernatural in daily life, even if they solve their problems in mundane
- ways.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -6507,24 +6468,6 @@ At Connected Intimacy, the shared dreams grow ever more intense.
  a bonus to.
  Unlike lower intimacy levels, this inherently breaches any protection Veiling
  and similar abilities provides.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Luminous draw those who they are close to close together passively.
- Their power connects dreams, and through it, creates an lasting and deep
- understanding in waking life.
- Plus, this serves somewhat as a Luminous' answer to Beast Kinship.
- Rather than an innate connection, they come to understand those they are
- close to in general – supernatural or otherwise.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -6619,71 +6562,6 @@ Once per scene, either dreamer may spend two Willpower to reflect a Virtue,
  9-Again on all actions that follow that Anchor.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A Luminous can draw on her relationships with others, drawing on their own
- strengths for her own.
- They are magical girls after all.
- This is the cumulation of their theme of relationships, of the ties between
- people.
- I do very much like designs like this.
- Anchors and Aspirations are not only useful as out of character traits;
- their manipulation is the best representation there is in the Storyteller
- system for representing magics that shape one's own heart.
-\end_layout
-
-\begin_layout Plain Layout
-Balance-wise, 9-again isn't...
- quite as strong as it sounds.
- As a quick rundown of the probability math behind CofD, each dice produces
- 
-\begin_inset Formula $\frac{1}{3}$
-\end_inset
-
- successes on average with 10-again, and 
-\begin_inset Formula $\frac{3}{8}$
-\end_inset
-
- successes per die with 9-again.
- That is only an additional 
-\begin_inset Formula $\frac{1}{24}$
-\end_inset
-
- successes per die, or in other words, the equivalent of a +1 bonus per
- 8 dice.
- In general, for 
-\begin_inset Formula $n$
-\end_inset
-
--again, the average number of successes rolled per die is 
-\begin_inset Formula $\frac{3}{n-1}$
-\end_inset
-
-.
- Furthermore, it doesn't help at all when you only care if you succeed or
- fail – it only makes it easier to get a large number of successes.
-\end_layout
-
-\begin_layout Plain Layout
-Still, 9-again 
-\emph on
-feels
-\emph default
- impactful, and this this acts as a subtle roleplay push towards actually
- acting out the implications of drawing on the strengths of your friends.
- The Anchor does the rest – in the hands of a good roleplayer, Reflected
- Light means Luminous can pull a full Willpower recovery out of a large
- variety of scenes.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Dreamer's Will
 \end_layout
@@ -6739,28 +6617,6 @@ This power applies against effects that outright manipulate things such
  or concepts.
  This is an active act of Dreamweaving and cannot be mistaken for any level
  of mortal resistance.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-I've never heard of a magical girl anime where the villain beats them by
- just mind controlling them.
- Breaking them first and mind controlling them...
- yes.
- But they have to go through that first step.
- Dreamer's Will causes a Clash of Wills against a dice pool unusually large
- for Clashes (Power Stat + Attribute + Attribute rather than Power Stat
- + Five Dot Rating).
- Unless their Hope is depleted already, overcoming it through sheer force
- requires exceptional power.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -6831,146 +6687,6 @@ Every Luminous was once such a person, chasing after half-remembered memories
 \end_layout
 
 \begin_layout Subsection
-Mutability
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dreamweaving!Mutability|(
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-The Dream and the Sea of Stars are a few worlds among countless others,
- all with their own natures.
- If they would not yield their power as the Dream does, the will of the
- world itself could still be pushed aside as any other dreamer's.
- Mutability is a measure of how strongly a world resists the power of the
- Luminous, and the amount of effort needed to Weave anyway within them.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Low Mutability:
-\series default
- Worlds bound by physical or supernatural laws have Low Mutability.
- Dreamweaving in these spaces is impossible for any being other than a transform
-ed Luminous or other powerful Dream entities, and even then, they must contend
- with the full effects of Transience.
- The waking world, the Shadow, and most supernatural realms fall under this
- category.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Medium Mutability:
-\series default
- Worlds influenced by a great number of dreamers have Medium Mutability.
- Any being may use basic Dreamweaving here, and the effects of Transience
- are lessened compared to more solid worlds.
- The Records, the Dream Kingdoms, and more stable regions of the Dream fall
- under this category.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-High Mutability:
-\series default
- Worlds outside of the influence of any gestalt will or reality have High
- Mutability.
- Weaving is completely unrestricted in these spaces, and may be used by
- any being.
- The Sea of Stars, personal dreams, and most of the Dream fall under this
- category.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dreamweaving!Mutability|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Weaving Actions
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dreamweaving!Weaving Actions|(
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Weaving, imagination and action are all the same in a dream.
- There is no true difference between imagining walking through a forest,
- and imagining all the flowers coming into bloom at once.
- There is no need to put one foot in front of the other, coordinating all
- of a body's muscles.
- Just...
- to imagine you did.
- That alone is enough in the Dream.
- Rather than needing to perform every little step of her action by hand,
- she only need understand the principles of what she is doing as the Dream
- fills in the gaps.
-\end_layout
-
-\begin_layout Plain Layout
-Dreamweaving is performed using such Weaving Actions, using a separate set
- of skills instead of the usual mundane set.
- Any roll may be rolled with the closest matching Weaving Skill rather than
- the usual mundane Skill, as long as the character can currently Dreamweave.
- If this is done as part of a proactive action on her part, it becomes a
- Weaving Action.
-\end_layout
-
-\begin_layout Plain Layout
-While this isn't blatantly supernatural, it still usually leaves subtle
- tells that nothing is right.
- Perhaps she defies gravity, drifting in the air far longer than she should,
- jumping from building to building.
- Perhaps the motion of her feet don't line up with how fast she moves as
- she runs across the field.
- Any witnesses may roll Perception to notice the incongruence in her actions.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Dreamweaving!Weaving Actions|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
 Weaving Skills 
 \begin_inset CommandInset label
 LatexCommand label
@@ -6979,6 +6695,17 @@ name "Sec-TransformedSkills"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+In a dream, imagination and action are much the same thing.
+ There is no need to put one foot in front of the other to move, coordinating
+ all of a body's muscles.
+ The principles behind an action matter far more than knowing how to perform
+ every little step.
+ Those truly familiar with the Dream's flows may act directly through those
+ principles, rather than translating their real world knowledge into their
+ dreams.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7157,10 +6884,6 @@ Example Actions:
  Summon a creature from a fairy tale.
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \begin_layout Subsubsection*
 Heart
 \end_layout
@@ -7263,8 +6986,12 @@ Dreamweaving!Weaving Skills!Shape
 \end_layout
 
 \begin_layout Plain Layout
-Shape is the principle of creation.
- It is used to create or fix things and engineer new designs.
+In a world of stories and imagination, all limitations are self-imposed.
+ Those who can shape dreams may overturn the laws of the world and all its
+ restrictions alike.
+ Shape is the skill reflecting creativity and imagination.
+ It is used to bring what you imagine into being, repair or reshape things,
+ and to control the essence of one's own self.
 \series bold
 
 \begin_inset VSpace smallskip
@@ -7276,9 +7003,10 @@ Shape is the principle of creation.
 
 Example Actions:
 \series default
- Design a building.
- Write a computer program.
  Repair a car.
+ Write a computer program.
+ Unweave a limitation placed upon another.
+ Manifest imagination into reality with magic.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -7299,8 +7027,11 @@ Dreamweaving!Weaving Skills!Shade
 \end_layout
 
 \begin_layout Plain Layout
-Shade is the principle of concealment.
- It is used to deceive others from the truth and resonate with hidden truths.
+Not everything bright in the world can survive in the light of day.
+ Some things are more beautiful hidden by the mists of secrecy and time.
+ Shade is the skill reflecting deception and understanding of mystery.
+ It is used to intuit hidden mystical truths, conceal things or emotions
+ from others, and to hide secrets in plain sight.
 \series bold
 
 \begin_inset VSpace smallskip
@@ -7316,9 +7047,10 @@ Shade is the principle of concealment.
 \series bold
 Example Actions: 
 \series default
-Hide your true feelings.
- Avoid being seen.
- Pickpocket someone's keys.
+Hide a secret message in plain sight.
+ Conceal one's emotions.
+ Decode a mystical diagram.
+ Render something unnoticeable with magic.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7335,14 +7067,7 @@ Dreamweaving!Weaving Skills|)
 \end_layout
 
 \begin_layout Subsection
-Ideals 
-\begin_inset CommandInset label
-LatexCommand label
-name "Sec-Invocations"
-
-\end_inset
-
-
+Weaving Actions
 \end_layout
 
 \begin_layout Plain Layout
@@ -7350,36 +7075,390 @@ name "Sec-Invocations"
 status open
 
 \begin_layout Plain Layout
-Ideals|textbf
+Dreamweaving!Weaving Actions|(
 \end_layout
 
 \end_inset
 
- Each Dream Kingdom was woven around an Ideal, a reflection of all the stories
- once dreamed by every person who once resided in it.
- Luminous may buy up to 5 dots in each Ideal, reflecting their understanding
- of the worldviews and emotions that underlie the symbols of the Kingdom.
+
 \end_layout
 
 \begin_layout Plain Layout
-To come to that understanding, a Luminous normally has to at least partly
- agree with the Ideal themselves.
- If they agree to the basic foundations of the Ideal, they may learn up
- to three dots of an Ideal intuitively.
- A Luminous who agrees with all its beliefs in at least vague terms (or
- is a member of the Kingdom) may learn all five dots of it intuitively.
- Beyond that, they must study extensively under a teacher or else glean
- the deeper meaning behind an Ideal through their 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Echo"
-plural "false"
-caps "false"
-noprefix "false"
+Whenever a character uses a Weaving Skill – acting through her dreams and
+ imagination, she performs a Weaving Action.
+ Without specific Evocations or other abilities, only characters in Dream
+ Form may use Weaving Actions.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Time in Dreams.
+ For now: These are Instant Actions.
+\end_layout
 
 \end_inset
 
-.
+
+\end_layout
+
+\begin_layout Subsubsection*
+Simple Weaving
+\end_layout
+
+\begin_layout Plain Layout
+For those with the magic of dreams, the line between mundane and magical
+ blurs.
+ Any character in Dream Form may use their closest matching Weaving Skill
+ rather than the usual mundane skill for any roll.
+ When she does so to due to someone else's powers or abilities, she may
+ do so automatically even if she is not aware of the effect.
+\end_layout
+
+\begin_layout Plain Layout
+When she does so as part of an proactive action on her part, this counts
+ as a Weaving Action.
+ While this isn't blatantly supernatural, it still usually leaves subtle
+ tells that something is amiss.
+ Perhaps she defies gravity, drifting in the air far longer than she should,
+ jumping from building to building.
+ Perhaps the motion of her feet don't line up with how fast she moves as
+ she runs across the field.
+ Any witnesses may roll Perception to notice the incongruence in her actions.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Weaving Actions|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Evocations
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Evocations|(textbf
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Evocations|(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Rewrite
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The Dream is woven of the light of all of humanity.
+ Memories, emotion and stories melded together into a single unimaginable
+ world.
+ Through their Evocations, the Luminous draw a small thread of its light
+ into the waking world, overturning its laws with those of the Dream.
+ For an ephemeral moment, the stories and hope they see in their dreams
+ may exist in their waking life too.
+\end_layout
+
+\begin_layout Plain Layout
+Even if they aren't truly real as the powers of other supernatural beings,
+ those fleeting moments are all the Luminous need, in the end.
+ The stories they layer over the waking world allow them to do impossible
+ things still, even if all traces of their magic fade back into illusion
+ when all is done
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Evocations|)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Evocations|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Transience
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transience|(textbf
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Transience|(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Rewrite
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Evocations, and all their direct effects upon the world are a story.
+ Stories bright enough to overturn the world's law for a moment, perhaps,
+ but stories nevertheless.
+ When they fade, all their direct disappear as if they were never cast.
+ Videos of the magic fade as if nothing happened – leaving only the barest
+ traces superimposed as if pasted on top to explain truly impossible actions.
+ Even wounds and apparent death caused by a Luminous' magic fades like a
+ dream when all is said and done.
+\end_layout
+
+\begin_layout Plain Layout
+An Evocation automatically fades at the end of the Scene in which it were
+ cast, and may be ended prematurely by its caster by spending a Willpower.
+\end_layout
+
+\begin_layout Plain Layout
+Only a precious few of an Evocation's effects can remain when it ends.
+ Memories of the event, and any mental changes created by them are not affected.
+ Nor are effects wrought upon a Luminous' Dream Form or other Dreamborn
+ – as they were never real in the first place.
+ Otherwise, to make permanent changes, the Luminous must confirm her magic
+ with mundane action – after all, those are still 
+\emph on
+real
+\emph default
+ to the waking world, even if they were only possible because of an illusion.
+\end_layout
+
+\begin_layout Plain Layout
+Though a Luminous couldn't simply banish toxins from the soil, she could
+ collect them into a pool with her magic, then collect them in a bottle.
+ She couldn't teleport the items out of a safe, but she could blow off the
+ door and simply carry them off.
+ And well...
+ when words fail and fights break out, she may ensure her opponent stays
+ dead as any mortal may.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Transience|)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Transience|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Mutability
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Mutability|(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The Dream and the Sea of Stars are a few worlds among countless others,
+ all with their own natures.
+ If they would not yield their power as the Dream does, the will of the
+ world itself could still be pushed aside as any other dreamer's.
+ Mutability is a measure of how strongly a world resists the power of the
+ Luminous, and the amount of effort needed to Weave anyway within them.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Low Mutability:
+\series default
+ Worlds bound by physical or supernatural laws have Low Mutability.
+ Dreamweaving in these spaces is impossible for any being other than a transform
+ed Luminous or other powerful Dream entities, and even then, they must contend
+ with the full effects of Transience.
+ The waking world, the Shadow, and most supernatural realms fall under this
+ category.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Medium Mutability:
+\series default
+ Worlds influenced by a great number of dreamers have Medium Mutability.
+ Any being may use basic Dreamweaving here, and the effects of Transience
+ are lessened compared to more solid worlds.
+ The Records, the Dream Kingdoms, and more stable regions of the Dream fall
+ under this category.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+High Mutability:
+\series default
+ Worlds outside of the influence of any gestalt will or reality have High
+ Mutability.
+ Weaving is completely unrestricted in these spaces, and may be used by
+ any being.
+ The Sea of Stars, personal dreams, and most of the Dream fall under this
+ category.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dreamweaving!Mutability|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Clash of Wills 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Clash of Wills|(textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Sometimes, the easiest way through another dreamer is to directly contradicting
+ their Weaving.
+ When two supernatural beings use powers that directly oppose each other,
+ it triggers a Clash of Wills.
+\end_layout
+
+\begin_layout Plain Layout
+Each Luminous involved rolls the Weaving Skill associated with their power.
+ The character who rolls the highest wins, and their ability takes effect.
+ If there is no Weaving Skill associated with the power, roll the Luminous'
+ highest Weaving Skill instead.
+ On a tie, reroll the contest until one character accumulates more successes
+ than the other.
+ Other types of supernatural being have their own dice pools for Clash of
+ Wills, which can be found in their source books.
+\end_layout
+
+\begin_layout Plain Layout
+Characters involved in a Clash of Wills may spend Willpower on the clash,
+ but only if they're physically present and aware that their magic is being
+ clashed.
+ Certain powers, such as those with exceptionally long durations, are more
+ enduring in a clash.
+ Day-long effects add one die to the clash roll, week-long effects add two,
+ month-long three, and effects that could last a year or longer add four.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Clash of Wills|)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -7393,23 +7472,6 @@ Dreamweaving|)
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Nakama
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex TODO Note (inline)
-status collapsed
-
-\begin_layout Plain Layout
-TODO: Write this section.
 \end_layout
 
 \end_inset
@@ -7775,6 +7837,30 @@ TODO: Mundane Merits.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Evocation List
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Subsection
+TODO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 \align center
 \begin_inset Flex LumChapQuote
@@ -7833,53 +7919,6 @@ Through their Regalia, the Luminous weave further extensions of their will
 All forms of Luminous magic are innately Weaving Actions.
  They aren't mundane acts, but rather ways to imagine and then Weave those
  imaginings into the waking world.
-\end_layout
-
-\begin_layout Section
-Clash of Wills 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Update Clash of Wills for new power structure.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Sometimes, opposing supernatural beings will use their powers in ways where
- both can't succeed at the same time and it isn't clear which ability should
- trump another.
- When the effects of supernatural abilities clash in this way, it triggers
- a Clash of Wills.
-\end_layout
-
-\begin_layout Standard
-Each Luminous involved rolls Reverie + the highest Invocation involved in
- the power.
- The player who rolls the highest wins, and their ability takes effect.
- If no Invocations can be applied to the power, use the Luminous' highest
- Invocation instead.
- On a tie, reroll the contest until one player rolls more successes than
- each other player.
- Other types of supernatural being have their own dice pools for Clash of
- Wills, which can be found in their source books.
-\end_layout
-
-\begin_layout Standard
-Characters may spend Willpower to bolster the contested roll, but only if
- they are physically present and aware that their powers are clashing.
- Certain powers, such as those with exceptionally long durations, are more
- enduring in a clash.
- Day-long effects add one die to the clash roll, week-long effects add two,
- month-long three, and effects that could last a year or longer add four.
- 
 \end_layout
 
 \begin_layout Section
