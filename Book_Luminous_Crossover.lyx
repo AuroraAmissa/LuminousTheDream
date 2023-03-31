@@ -225,7 +225,7 @@ status open
 
 
 \backslash
-lumcustomtitle{Luminous: the Dream}{Appendix: Crossing Paths}
+lumcustomtitle{Luminous: the Dream}{Crossing Paths}
 \end_layout
 
 \begin_layout Plain Layout
@@ -367,21 +367,6 @@ Kinship between the Luminous and Begotten are strained by the Luminous'
  Family Dinner, likewise, often does not apply – Hope recovery alone never
  counts, although Luminous are often still driven to hunt in ways that can
  satisfy its conditions.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-There is no flavor reason to fuck over Thicker than Water here – this is
- mostly a mechanical fix to avoid weirdness around Luminous changing their
- Kinship category so often.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -690,33 +675,6 @@ The Weave of Bonds fundamentally destroys the separation Liar's Tongue relies
  consider this a benefit more than an downside.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-This was a hard one to figure out.
- Demons lie, their deceptions and the Pacts that force them are so core
- to their splat.
- Luminous have a power that connects hearts.
- Every Demon power that reflects their abilities to lie draw on the separation
- between their bodies and their minds.
- Which...
- doesn't help much when Luminous connect minds directly.
-\end_layout
-
-\begin_layout Plain Layout
-Still, it isn't any good if Demons are stymied from making Pacts with a
- Luminous even tangentially involved.
- Hence, the Echo is...
- a danger for Demons, but not one that stops them from trying.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Pacts
 \end_layout
@@ -738,28 +696,6 @@ Similarly, a Soul Pact treats her two forms separately.
 ing her entirely.
  This has the usual effects of a Demon attempting to take a supernatural
  soul as a Cover.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Making a Pact 
-\emph on
-with
-\emph default
- a Luminous, though.
- Now 
-\emph on
-that
-\emph default
- justifies some complications.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -793,22 +729,6 @@ In the context of Mage, Defiant Will is somewhat broader than its description
  a Luminous' relationships with anyone them have Strong or Connected Intimacy
  with also trigger Defiant Will, in addition to the obvious Mind effects.
  More indirect Arcana like Fate or Time are not impeded.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Withstand is complicated.
- I really wish I could make Hope factor into Withstand somehow, but the
- scaling never quite worked out without extreme complexity.
- Easier to just hit their dice pool.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -885,36 +805,6 @@ Similarly, a Luminous' Hope is simply a measurement of their mental stability.
  Conditions, not heal the underlying Hope damage.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Transferring Motes would cause a lot of balance issues.
- They regenerate per scene, and...
- that's a subtle but powerful advantage of theirs.
- It shouldn't at all be easily shared.
-\end_layout
-
-\begin_layout Plain Layout
-Giving anyone the ability to restore Hope by fiat would also break the game's
- themes.
- Luminous have to struggle versus Hope, and any powerful enough healing
- ability, in my opinion, will damage that severely.
- Changeling's Clarity recovery Contract works because it's so mild, and
- has a significant social interaction component.
- It makes 
-\emph on
-sense
-\emph default
- in context of Luminous.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Soul Magic
 \end_layout
@@ -959,41 +849,6 @@ Maou are far less interesting in this regard.
  They do not innately lose their ability to use their magic when Soulless;
  however because Willpower is their core resources, they will suffer magically
  for it as well.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Here, have a free roleplaying opportunity.
- :3
-\end_layout
-
-\begin_layout Plain Layout
-I don't really like how a lot of fanworks (or at least players of them)
- treat Mage' opinion of what is what as the core canonical answer.
- Luminous think of their Soulspaces as their soul, even if Mages would say
- it's actually their Oneiros.
- There's no point in bending the rest of the book for Mage's sake – I use
- the terms that are most understandable and 
-\begin_inset Quotes xld
-\end_inset
-
-feel right
-\begin_inset Quotes xrd
-\end_inset
-
- for conveying the tone I want.
-\end_layout
-
-\begin_layout Plain Layout
-I can always explain later how it looks to Mages.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section

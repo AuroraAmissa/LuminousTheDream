@@ -292,27 +292,12 @@ status open
 
 
 \backslash
-playtesttext {Luminous: the Dream}
+repotext {Luminous: the Dream}{AuroraAmissa/LuminousTheDream}
 \end_layout
 
 \end_inset
 
- Source code for the system document can be found on 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-href{https://github.com/AuroraAmissa/LuminousTheDream/tree/
-\backslash
-gitHash}{Github}
-\end_layout
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Section*
@@ -638,9 +623,38 @@ Introduction
 status open
 
 \begin_layout Plain Layout
-We were all born knowing how to dream of the wonder and beauty of the world,
- and what it could become.
- In the dark of night, too many of us forget...
+We all knew how to dream when we were young.
+ We played innocently in our backyards, weaving a story of being princesses
+ and knights with each other.
+ We shared our imaginary friends with the world, and through those interactions,
+ breathed a spark of life into them.
+ We watched and read stories of heroes of light who would save the world
+ against the encroaching dark – and knew in our hearts that, one day, we
+ could be such heroes.
+\end_layout
+
+\begin_layout Plain Layout
+As they say, .
+ But then, we weren't supposed to.
+\end_layout
+
+\begin_layout Plain Layout
+We were told make-belief was for little kids.
+ We were told imaginary friends weren't real, that talking about them was
+ silly.
+ We were told that magic wasn't real, that we would never change the world
+ like that.
+\end_layout
+
+\begin_layout Plain Layout
+We were bullied for dreaming, and trying to find wonder in the world.
+\end_layout
+
+\begin_layout Plain Layout
+When we were older, we learned more of the truth of the world.
+ There weren't really forces of darkness that could rip away the world,
+ and that real royalty weren't as kind as in fairy tales.
+ 
 \end_layout
 
 \begin_layout Plain Layout
@@ -737,10 +751,6 @@ In time, they came to realize that light shone in the waking world too.
 Something sparked deep in their soul.
  A way to join the power of two worlds, to bring the magic they dreamed
  of into the waking world.
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Section
@@ -3847,7 +3857,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Flex Foldable
-status collapsed
+status open
 
 \begin_layout Section
 Innocent Heart
@@ -3885,52 +3895,6 @@ Anchors|(textbf
  As to not be cast adrift, as to not lose sight of themselves, the Luminous
  cling to those things they know are their own, no matter where they end
  up or what kind of role they are thrust into.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Mage did something very clever in keeping the human Virtue/Vice to double
- down on its theme that they...
- stay mostly human, but I personally feel it's something of a mistake.
- 
-\begin_inset Quotes xld
-\end_inset
-
-Clever
-\begin_inset Quotes xrd
-\end_inset
-
- isn't what makes design good, it's how it reinforces themes.
- The 
-\begin_inset Quotes xld
-\end_inset
-
-almost-human
-\begin_inset Quotes xrd
-\end_inset
-
- part was...
- not a core theme of Mage, not in a significant way.
- Especially not with the superiority complex it seems most of the Awakened
- Orders have.
-\end_layout
-
-\begin_layout Plain Layout
-After all, well.
- Alternative anchors are fun.
- They ask players to express the heart of who their character is in theme
- appropriate terms.
- Notably, the Dream and Wish are not meant to be in conflict with each other.
- They are more like Needle/Thread in that they reinforce each other, painting
- a complete picture rather than defining a conflict.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4063,23 +4027,6 @@ lities in the waking world, and must select at least two relating to the
  supernatural world or their life in the Dream.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-P:tH messed with Aspirations too in both its versions, and this is a somewhat
- different implementation of a similar idea.
- It pushes Luminous to care about both the mundane and the supernatural,
- while adding some wiggle room for the version of Sensitivity in Luminous
- to do what it is meant to.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Intimacy
 \end_layout
@@ -4199,24 +4146,6 @@ Intimacy|)
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Ultimately inspired by the P:tH Dream version of the mechanic, which was
- used as an alternative to Sympathy (as used in Vocation version).
- Intimacy is far more core to Luminous' mechanics than in Princess to push
- the theme of relationships and connections harder.
- After all, it's one of the core themes of a lot of magical girl works;
- why shouldn't it be one for this game?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Hope
 \end_layout
@@ -4250,39 +4179,6 @@ Hope represents that drive, the emotional strength that Luminous draw on.
  and more difficulty holding onto the dreams that power their magic.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Hope is, certainly the heart of Luminous' mechanics, serving as both an
- Integrity mechanic and their Supernatural Fuel.
- Most of their splat mechanics deal with it in one way or another.
- Why shouldn't it.
- It's a 
-\emph on
-magical girl
-\emph default
- splat.
- They were always stories about hope and friendship triumphing over the
- dark.
-\end_layout
-
-\begin_layout Plain Layout
-As more of a genre consideration than anything else, Hope is a Clarity-like
- damage track rather than a representation of longer-term mental stability
- like Integrity.
- In a sense, Princess already works like this – it simply considers Shadows
- and Belief separate.
- Hope is a simplification over those two mechanics, pinning it all down
- into one thing.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Hope Track and Damage
 \end_layout
@@ -4312,23 +4208,6 @@ Each time a Luminous takes Hope damage, mark it off her Hope track using
  only mild damage.
  Whenever a Princess takes mild Hope damage when her rightmost Hope box
  is filled, she instead takes a point of severe Hope damage.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-While Hope is similar to Clarity, it isn't being used for a splat that is
- as deeply scarred as how Changelings are.
- For interactions with other parts of the World of Darkness, their Integrity
- is relatively high even at very low help.
- Otherwise, the structure is effectively the same.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4365,36 +4244,6 @@ status open
 \begin_layout Plain Layout
 TODO: Be more clear about how this works with the Dream being so core to
  the Luminous.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A subtle mechanic that serves a lot of purposes not explicitly stated.
- Hope is a pretty mild mechanic that can quickly turn dangerous; after all,
- your recovery scales with your undamaged Hope.
- Emotional strain has a way of spiraling like that.
- When things seem so hopeless, the Luminous must rely on those who they
- are close to in order to pull themselves out of it.
-\end_layout
-
-\begin_layout Plain Layout
-Finally, this is the keystone that encourages Luminous to have some kind
- of a mundane life.
- Hope recovery is slow and takes time – they thrive in situations where
- they can live a quieter life, and keep their magical work somewhat separate
- from it.
- They can't easily handle having no time to rest, when the supernatural
- follows them home.
- Thus, Dual Identity and maintaining that secrecy becomes all the more important
- for them.
 \end_layout
 
 \end_inset
@@ -4448,22 +4297,6 @@ status open
 \begin_layout Plain Layout
 TODO: Die value example list.
  Sensitivity should be rolled into this, probably.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Clarity is weird.
- You roll a dice pool to check the severity of the damage, then a second
- pool based on Wyrd to see how much you actually take (if any).
- Hope attacks are far simpler, since they have no reason to scale with Reverie.
 \end_layout
 
 \end_inset
@@ -5503,36 +5336,6 @@ Reverie is a Luminous' power stat, granting her Supernatural Potency and
  Supernatural Tolerance [CofD 70].
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-There's a lot going on here; Power Stat tables tend to have that.
- Luminous have some improvement or another with every dot of Reverie, as
- all supernatural splats should.
-\end_layout
-
-\begin_layout Plain Layout
-The highest possible Luminous trait cap is 15, not 10.
- This is a minor advantage that mainly serves to make up for the fact that
- their dice pools do not add +Reverie or +Invocation unlike most splats.
- Weaving Skills can be increased faster than Dream Attributes to encourage
- these huge dice pools to be more specialized than general.
-\end_layout
-
-\begin_layout Plain Layout
-Furthermore, Luminous do not have a Motes/turn cap like most splats.
- Rather, their major power limiter is Luminance.
- This, naturally, makes them dangerous in the Dream itself, because Luminance
- limits no longer apply.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Motes
 \end_layout
@@ -5556,34 +5359,6 @@ Motes|textbf
  For every Mote a Luminous spends with an empty Mote Pool, she takes a box
  of mild Hope damage, leaving her feeling down and exhausted until she has
  time to recover.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A Luminous' supernatural fuel isn't Motes.
- It's Hope.
- Hope serves as both a Clarity-like Integrity mechanic, and a Luminous'
- supernatural fuel.
- However, the idea of Motes gives me to name what you pay when you use your
- magic (saying Hope directly sounds...
- wrong in its implications).
-\end_layout
-
-\begin_layout Plain Layout
-The refilling Mote Pool, then, mitigates you casting from Integrity just
- a little.
- It also serves a secondary purpose of encouraging Luminous to use small
- amounts of magic often – magical girls solving relatively trivial issues
- with magic tends to be a common theme in any show that doesn't make a point
- about using magic responsibly.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -5657,29 +5432,6 @@ status open
 
 \begin_layout Plain Layout
 Transformation|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The heart of what makes Luminous a magical girl splat, more than anything
- else.
- They 
-\emph on
-transform
-\emph default
-, becoming their ideal self in the process.
- I've kept a transformation roll, since it reflects a pretty common theme
- and plot beat in magical girl anime.
- They either transform despite their own compromised emotions by act of
- will, or fail and suffer more emotionally for it.
 \end_layout
 
 \end_inset
@@ -5783,25 +5535,6 @@ Mundane Form|)
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Luminous campaigns are in part a mortal campaign.
- Unlike most supernatural splats, Luminous can be legitimately powerless
- in the way mortals can be, if they are in a situation where transforming
- is not a good options.
- Thus, mortal game Chronicle-style opponents are a good match for the Luminous,
- forcing them to make the choice to approach them as mortals would or take
- the risks of transforming.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Dream Form
 \end_layout
@@ -5839,26 +5572,6 @@ Luminous in Dream Form are emphermeral beings in phase with the Dream.
  Evocations that allow them to do so.
  Furthermore, she may use her Dreamweaving even in worlds that do not normally
  allow it.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-A Luminous' Dream Form is the exact same mechanic as in Changeling: the
- Lost or Mage: the Awakening.
- However, it's serving a dual purpose here as also...
- well, a magical girl splat's magical girl form.
- This pushes somewhat the thematics of them being beings that take the best
- of two worlds, and turn both to their advantage.
- Plus...
- is just a cool way to execute magical girls.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5971,21 +5684,6 @@ Dream Attributes|)
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Standard ephemeral rules.
- This is mainly a bit of clarification since Luminous are meant to be a
- full playable splat.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Dream Health
 \end_layout
@@ -6026,38 +5724,6 @@ Dream Form!Dream Health|)
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Magical girls don't worry about dying to a little breeze.
- That goes against so many premises of the genre, even ones where combat
- is common.
- Dream Health means a Luminous' opponents must specifically want to 
-\emph on
-kill
-\emph default
- her to permanently kill her, not simply collapse her transformation.
- Of course, again, this is repurposed from general CofD Dream Health rules.
-\end_layout
-
-\begin_layout Plain Layout
-In Princess, Holy Shield served this purpose.
- You can't just pop a strong Princess by rolling 8 dice on your attack due
- to a few exploding dice; you have to actually exhaust their Wisp supply
- before you can do that.
- It's...
- frankly a little overpowered.
- Dream Health achieves this same goal without giving them overwhelming protectio
-n.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Dream Form Traits 
 \end_layout
@@ -6090,24 +5756,6 @@ Initiative is equal to Finesse + Resistance.
 
 \begin_layout Itemize
 Speed is equal to Power + Finesse + 5.
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-Again, Luminous is a fully playable splat, and their Dream Form is a core
- mechanic.
- None of the official source books make it clear what exactly Dream Forms
- use for these traits, and that's not too bad because it's not nearly as
- core to them as they are to Luminous.
- This is inferred from the ephemeral rules.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -6183,31 +5831,6 @@ Transformation!Veiling|)
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-I've written this as an uncontested power along the level of Liar's Tongue.
- I don't think even Clashes of Will versus Veiling is particularly good
- gameplay.
- Luminous have enough ways to let slip their secret, and usually leave enough
- holes for investigation to slip through.
-\end_layout
-
-\begin_layout Plain Layout
-Luminous are meant to live, to rely on their friends.
- They can't do the perfect spycraft or operational security that Demons
- rely on usually.
- Hence, their power papers over the largest gaps, while still demanding
- they take some amount of (more reasonable) care.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Flicker
 \end_layout
@@ -6266,49 +5889,6 @@ status open
 
 \begin_layout Plain Layout
 Flicker|)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex Commentary
-status open
-
-\begin_layout Plain Layout
-The actual downside of the Luminous.
- It always felt strange to me that in Princess, their downside is also their
- core driving motive.
- It felt...
- strange, and like an almost weirdly cold portrayal of hyperempathy.
- To care to that amount hurts you, yes, but...
- it is ultimately what drives you.
- And what lets you keep caring in a world that would rather you not.
-\end_layout
-
-\begin_layout Plain Layout
-Flicker, then, is something that the dream themes of Luminous make possible.
- They get used to falling into their dreams, letting those winds carry them
- around.
- They get used to dreaming in the waking world.
- When they revert to their Mundane Form, it crashes back on them.
- This draws attention to the fine line they walk, gives strong roleplay
- opportunities for people to portray what this looks like in practice.
-\end_layout
-
-\begin_layout Plain Layout
-It also forces 
-\emph on
-most
-\emph default
- Luminous to be careful about when they transform, without artificial limits
- like the rolls to stay transformed that Princess uses.
- Subtly though, it still allows you to play Mirrory Luminous without a specific
- mechanic that allows you to do so.
- After all, you suffer no effects from Flicker if you simply do not untransform.
- Both modes avoid the downside, with their own complications on either end.
 \end_layout
 
 \end_inset
@@ -6555,11 +6135,7 @@ Reflected Light
 \end_layout
 
 \begin_layout Plain Layout
-Once per scene, either dreamer may spend two Willpower to reflect a Virtue,
- Dream, Wish or other Anchor from someone they have Strong or Connected
- Intimacy with for that scene.
- They gain the Anchor for all purposes including Willpower recovery, and
- 9-Again on all actions that follow that Anchor.
+Once per scene, either dreamer may spend two Willpower
 \end_layout
 
 \begin_layout Subsection
@@ -6617,6 +6193,10 @@ This power applies against effects that outright manipulate things such
  or concepts.
  This is an active act of Dreamweaving and cannot be mistaken for any level
  of mortal resistance.
+ to reflect a Virtue, Dream, Wish or other Anchor from someone they have
+ Strong or Connected Intimacy with for that scene.
+ They gain the Anchor for all purposes including Willpower recovery, and
+ 9-Again on all actions that follow that Anchor.
 \end_layout
 
 \begin_layout Plain Layout
@@ -6637,7 +6217,368 @@ Resonance|)
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Merits 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Merits"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status collapsed
+
+\begin_layout Subsection
+Modified Merits
+\end_layout
+
 \begin_layout Plain Layout
+Certain Merits are modified for Luminous characters.
+ This covers merits found in the Chronicles of Darkness core, and the World
+ of Darkness: Innocents book.
+ Further adjustments may be needed for merits from other sourcebooks.
+\end_layout
+
+\begin_layout Subsubsection*
+Alternate Identity 
+\end_layout
+
+\begin_layout Plain Layout
+A Luminous' Veiling inherently provides the protection Alternate Identity
+ [CofD 50] normally provides at one dot.
+ Luminous may take it for one less experience when establishing documentation
+ for their Dream Form, and may not take it at one dot.
+\end_layout
+
+\begin_layout Subsubsection*
+Giant and Small-Framed
+\end_layout
+
+\begin_layout Plain Layout
+The Giant [CofD 47] and Small-Framed [CofD 49] merits do not apply to a
+ Luminous' Dream Form.
+ She may purchase the Giant merit for free if her Dream Form is Size 6,
+ and may purchase the Small-Framed merit for free if her Dream Form is Size
+ 4 or smaller.
+\end_layout
+
+\begin_layout Subsubsection*
+Unseen Sense 
+\end_layout
+
+\begin_layout Plain Layout
+Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
+ or Dreams.
+\end_layout
+
+\begin_layout Plain Layout
+Will may be used to detect Maou, transformed Luminous, and their powers.
+ Dreams may be used to detect Asura, Incursions, transformed Luminous, other
+ beings affiliated with the Dream, and any powers used by them.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Note that Dual Identity protects Luminous from being detected by either
+ means in Mundane Form as long as they do not use any of their powers.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Update for Maou being split into another book.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Vice-Ridden and Virtuous 
+\end_layout
+
+\begin_layout Plain Layout
+Neither Maou nor Luminous may purchase either Vice-Ridden or Virtuous [CofD
+ 46], as they use different Anchors.
+ The 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[subsec:Another-Dream]{Another Dream}
+\end_layout
+
+\end_inset
+
+ merit does something similar, while being compatible with Luminous.
+\end_layout
+
+\begin_layout Subsubsection*
+Giant and Tiny (Innocents) 
+\end_layout
+
+\begin_layout Plain Layout
+The Giant [WoD:I 104] and Tiny [WoD:I 105] merits do not apply to a Luminous'
+ Dream Form.
+ She may purchase the Giant merit for free if her Dream Form is of size
+ 6.
+ She may purchase the Tiny merit for free if her Dream Form is of Size 3.
+\end_layout
+
+\begin_layout Subsection
+Luminous Merits 
+\end_layout
+
+\begin_layout Plain Layout
+These Merits may only be taken by Luminous.
+\end_layout
+
+\begin_layout Subsubsection*
+Another Dream (••) 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Another-Dream"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect: 
+\series default
+Your character has a significantly different personality in her Dream Form.
+ She has a different Dream or Wish in her Dream Form, and may use either
+ Anchor in either form to defend against social maneuvering or supernatural
+ abilities.
+ She may still not recover Willpower from the same kind of anchor more than
+ once in a scene.
+\end_layout
+
+\begin_layout Subsubsection*
+Childish (••) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character appears as a younger child when transformed.
+ She is of Size 3 in Dream Form, and gains a +3 bonus to any attempt to
+ hide, go unnoticed, or other actions her size may help with.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Drawback: 
+\series default
+Your character is treated as someone as old as she appears.
+ She receives a -3 modifier to any attempt to physically intimidate another
+ or pass as an adult (regardless of whether she is one).
+\end_layout
+
+\begin_layout Subsubsection*
+Dream's Rebuke (•••)
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character may retaliate against attempts to mentally influence her
+ with her Echo.
+ If she wins a Clash of Wills caused by Dreamer's Will, she may spend a
+ Willpower to cause the opposing effect to become a Dramatic Failure.
+\end_layout
+
+\begin_layout Subsubsection*
+Innate Regalia (••)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: How do I do this?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character has a Regalia that is innate to her Dream Form.
+ She automatically summons it when she transforms at no Mote cost.
+ This merit may be taken a second time.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Drawback:
+\series default
+ The Regalia cannot be disabled in any way.
+ If it has variants, you must choose one when you take this merit – you
+ cannot use other variants.
+ When you take this merit, or when you gain further Upgrades, you must choose
+ whether it applies to your Dream Form.
+\end_layout
+
+\begin_layout Subsubsection*
+Paragon (•) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character's Dream Form is particularly large, towering over most others.
+ She is Size 6 in Dream Form, and gains a +2 bonus to any rolls to physically
+ intimidate another, reassure someone that she can protect them, or other
+ actions her size may help with.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Drawback:
+\series default
+ Fitting into small spaces is difficult at best, and often impossible.
+ Hiding is rarely an option.
+ You take a -2 penalty to rolls to hide or go unnoticed.
+\end_layout
+
+\begin_layout Subsubsection*
+Silent Aria (••)
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character may hide their Aria in different forms of communication,
+ such as a text message, spoken sentence, or piano song.
+ This is not obviously supernatural, unlike Aria normally.
+\end_layout
+
+\begin_layout Subsubsection*
+Tomoyo's Touch (•) 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: How do I do this?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character may appear in whatever outfit she wishes when she transforms
+ into her Dream Form.
+ She still looks to be the same person, just in a different outfit.
+ This does not let her hide supernatural features, except by covering them
+ with clothes.
+\end_layout
+
+\begin_layout Subsubsection*
+Youthful (•) 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Effect:
+\series default
+ Your character is diminutive when transformed.
+ She is Size 4 in Dream Form, and gains a +2 bonus to any rolls to hide,
+ or other actions her size may help with.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Drawback: 
+\series default
+Your character might be overlooked or not taken seriously by some people.
+ She takes a -2 penalty to rolls to physically intimidate or threaten others.
+\end_layout
+
+\begin_layout Subsection
+Mundane Merits 
+\end_layout
+
+\begin_layout Plain Layout
+These merits are entirely mundane, and are open to any character type.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Mundane Merits.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \begin_inset Flex Foldable
 status open
 
@@ -6698,11 +6639,8 @@ name "Sec-TransformedSkills"
 \end_layout
 
 \begin_layout Plain Layout
-In a dream, imagination and action are much the same thing.
- There is no need to put one foot in front of the other to move, coordinating
- all of a body's muscles.
- The principles behind an action matter far more than knowing how to perform
- every little step.
+In a dream, the principles behind an action matter far more than knowing
+ how to perform every little step.
  Those truly familiar with the Dream's flows may act directly through those
  principles, rather than translating their real world knowledge into their
  dreams.
@@ -7170,34 +7108,60 @@ Dreamweaving!Evocations|(
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: Rewrite
-\end_layout
-
-\end_inset
-
-
+Imagination alone limits the wonders that fill the Sea of Stars.
+ In one dream, a couple flies through the skies on wings of light.
+ In another, they follow a path carved into the stars to an unknown paradise.
+ In dreams, all the colors and images of the subconscious and imagination
+ are drawn together into one world.
 \end_layout
 
 \begin_layout Plain Layout
-The Dream is woven of the light of all of humanity.
- Memories, emotion and stories melded together into a single unimaginable
- world.
- Through their Evocations, the Luminous draw a small thread of its light
- into the waking world, overturning its laws with those of the Dream.
- For an ephemeral moment, the stories and hope they see in their dreams
- may exist in their waking life too.
+Evocations are the brightest power of the Dreamweavers, allowing them to
+ create and do things that can only exist in the world of dreams.
+ Through them, they may weave their own wonders into the Sea, reshape the
+ darkest nightmare into a happy dream, or even overturn the laws of reality
+ for a brief moment.
+\end_layout
+
+\begin_layout Subsubsection*
+Ideals
+\end_layout
+
+\begin_layout Subsubsection*
+Aspects
 \end_layout
 
 \begin_layout Plain Layout
-Even if they aren't truly real as the powers of other supernatural beings,
- those fleeting moments are all the Luminous need, in the end.
- The stories they layer over the waking world allow them to do impossible
- things still, even if all traces of their magic fade back into illusion
- when all is done
+Luminous do not use their Weaving Skills directly for their Evocations.
+ Instead, they require a deeper understanding of a particular Aspect of
+ the dream's 
+\end_layout
+
+\begin_layout Plain Layout
+Characters with the ability to Dreamweave may buy Evocations for 5 Experiences
+ each, and Upgrades for Evocations they possess for 2 Experiences each.
+ While Evocations are picked from a list, this is an abstraction for the
+ convenience of the players.
+ In truth, they represent a far more fluid understanding of the principles
+ behind the Dream, and ways to manipulate those flows.
+\end_layout
+
+\begin_layout Plain Layout
+While a list of Evocations is given for the convenience of the players,
+ in truth, 
+\end_layout
+
+\begin_layout Plain Layout
+While Evocations are purchased from a list of powers, they do not represent
+ discrete abilities as the Luminous would think of them.
+\end_layout
+
+\begin_layout Plain Layout
+Luminous, in addition, have an affinity for two Weaving Skills.
+ They treat those skills as if they were two dots higher when qualifying
+ for Evocations and their Upgrades.
+ Furthermore, they pay one less Experience when buying Evocations and Upgrades
+ associated with those skills.
 \end_layout
 
 \begin_layout Plain Layout
@@ -7223,7 +7187,7 @@ Dreamweaving!Evocations|)
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection*
 Transience
 \end_layout
 
@@ -7403,7 +7367,7 @@ Dreamweaving!Mutability|)
 \end_layout
 
 \begin_layout Subsection
-Clash of Wills 
+Clash of Wills
 \end_layout
 
 \begin_layout Plain Layout
@@ -7445,7 +7409,6 @@ Characters involved in a Clash of Wills may spend Willpower on the clash,
  enduring in a clash.
  Day-long effects add one die to the clash roll, week-long effects add two,
  month-long three, and effects that could last a year or longer add four.
- 
 \end_layout
 
 \begin_layout Plain Layout
@@ -7479,11 +7442,6 @@ Dreamweaving|)
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
@@ -7492,14 +7450,7 @@ Dreamweaving|)
 \end_layout
 
 \begin_layout Section
-Merits 
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Merits"
-
-\end_inset
-
-
+Ideals
 \end_layout
 
 \begin_layout Standard
@@ -7507,58 +7458,7 @@ name "sec:Merits"
 status open
 
 \begin_layout Subsection
-Modified Merits
-\end_layout
-
-\begin_layout Plain Layout
-Certain Merits are modified for Luminous characters.
- This covers merits found in the Chronicles of Darkness core, and the World
- of Darkness: Innocents book.
- Further adjustments may be needed for merits from other sourcebooks.
-\end_layout
-
-\begin_layout Subsubsection*
-Alternate Identity 
-\end_layout
-
-\begin_layout Plain Layout
-A Luminous' Veiling inherently provides the protection Alternate Identity
- [CofD 50] normally provides at one dot.
- Luminous may take it for one less experience when establishing documentation
- for their Dream Form, and may not take it at one dot.
-\end_layout
-
-\begin_layout Subsubsection*
-Giant and Small-Framed
-\end_layout
-
-\begin_layout Plain Layout
-The Giant [CofD 47] and Small-Framed [CofD 49] merits do not apply to a
- Luminous' Dream Form.
- She may purchase the Giant merit for free if her Dream Form is Size 6,
- and may purchase the Small-Framed merit for free if her Dream Form is Size
- 4 or smaller.
-\end_layout
-
-\begin_layout Subsubsection*
-Unseen Sense 
-\end_layout
-
-\begin_layout Plain Layout
-Characters may purchase the Unseen Sense merit [CofD 60] aligned to Will
- or Dreams.
-\end_layout
-
-\begin_layout Plain Layout
-Will may be used to detect Maou, transformed Luminous, and their powers.
- Dreams may be used to detect Asura, Incursions, transformed Luminous, other
- beings affiliated with the Dream, and any powers used by them.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Note that Dual Identity protects Luminous from being detected by either
- means in Mundane Form as long as they do not use any of their powers.
+The Garden of Myths
 \end_layout
 
 \begin_layout Plain Layout
@@ -7566,122 +7466,16 @@ Note that Dual Identity protects Luminous from being detected by either
 status open
 
 \begin_layout Plain Layout
-TODO: Update for Maou being split into another book.
+TODO: Write
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection*
-Vice-Ridden and Virtuous 
-\end_layout
-
-\begin_layout Plain Layout
-Neither Maou nor Luminous may purchase either Vice-Ridden or Virtuous [CofD
- 46], as they use different Anchors.
- The 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hyperref[subsec:Another-Dream]{Another Dream}
-\end_layout
-
-\end_inset
-
- merit does something similar, while being compatible with Luminous.
-\end_layout
-
-\begin_layout Subsubsection*
-Giant and Tiny (Innocents) 
-\end_layout
-
-\begin_layout Plain Layout
-The Giant [WoD:I 104] and Tiny [WoD:I 105] merits do not apply to a Luminous'
- Dream Form.
- She may purchase the Giant merit for free if her Dream Form is of size
- 6.
- She may purchase the Tiny merit for free if her Dream Form is of Size 3.
 \end_layout
 
 \begin_layout Subsection
-Luminous Merits 
-\end_layout
-
-\begin_layout Plain Layout
-These Merits may only be taken by Luminous.
-\end_layout
-
-\begin_layout Subsubsection*
-Another Dream (••) 
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Another-Dream"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect: 
-\series default
-Your character has a significantly different personality in her Dream Form.
- She has a different Dream or Wish in her Dream Form, and may use either
- Anchor in either form to defend against social maneuvering or supernatural
- abilities.
- She may still not recover Willpower from the same kind of anchor more than
- once in a scene.
-\end_layout
-
-\begin_layout Subsubsection*
-Childish (••) 
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character appears as a younger child when transformed.
- She is of Size 3 in Dream Form, and gains a +3 bonus to any attempt to
- hide, go unnoticed, or other actions her size may help with.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Drawback: 
-\series default
-Your character is treated as someone as old as she appears.
- She receives a -3 modifier to any attempt to physically intimidate another
- or pass as an adult (regardless of whether she is one).
-\end_layout
-
-\begin_layout Subsubsection*
-Dream's Rebuke (•••)
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character may retaliate against attempts to mentally influence her
- with her Echo.
- If she wins a Clash of Wills caused by Dreamer's Will, she may spend a
- Willpower to cause the opposing effect to become a Dramatic Failure.
-\end_layout
-
-\begin_layout Subsubsection*
-Innate Regalia (••)
+Flames of the Heart
 \end_layout
 
 \begin_layout Plain Layout
@@ -7689,141 +7483,117 @@ Innate Regalia (••)
 status open
 
 \begin_layout Plain Layout
-TODO: How do I do this?
+TODO: Write
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character has a Regalia that is innate to her Dream Form.
- She automatically summons it when she transforms at no Mote cost.
- This merit may be taken a second time.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Drawback:
-\series default
- The Regalia cannot be disabled in any way.
- If it has variants, you must choose one when you take this merit – you
- cannot use other variants.
- When you take this merit, or when you gain further Upgrades, you must choose
- whether it applies to your Dream Form.
-\end_layout
-
-\begin_layout Subsubsection*
-Paragon (•) 
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character's Dream Form is particularly large, towering over most others.
- She is Size 6 in Dream Form, and gains a +2 bonus to any rolls to physically
- intimidate another, reassure someone that she can protect them, or other
- actions her size may help with.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Drawback:
-\series default
- Fitting into small spaces is difficult at best, and often impossible.
- Hiding is rarely an option.
- You take a -2 penalty to rolls to hide or go unnoticed.
-\end_layout
-
-\begin_layout Subsubsection*
-Silent Aria (••)
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character may hide their Aria in different forms of communication,
- such as a text message, spoken sentence, or piano song.
- This is not obviously supernatural, unlike Aria normally.
-\end_layout
-
-\begin_layout Subsubsection*
-Tomoyo's Touch (•) 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Flex TODO Note (inline)
-status open
-
-\begin_layout Plain Layout
-TODO: How do I do this?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character may appear in whatever outfit she wishes when she transforms
- into her Dream Form.
- She still looks to be the same person, just in a different outfit.
- This does not let her hide supernatural features, except by covering them
- with clothes.
-\end_layout
-
-\begin_layout Subsubsection*
-Youthful (•) 
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Effect:
-\series default
- Your character is diminutive when transformed.
- She is Size 4 in Dream Form, and gains a +2 bonus to any rolls to hide,
- or other actions her size may help with.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-Drawback: 
-\series default
-Your character might be overlooked or not taken seriously by some people.
- She takes a -2 penalty to rolls to physically intimidate or threaten others.
 \end_layout
 
 \begin_layout Subsection
-Mundane Merits 
+Étude for the Lost
 \end_layout
 
 \begin_layout Plain Layout
-These merits are entirely mundane, and are open to any character type.
-\end_layout
-
-\begin_layout Subsubsection*
 \begin_inset Flex TODO Note (inline)
 status open
 
 \begin_layout Plain Layout
-TODO: Mundane Merits.
+TODO: Write
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The River of Drifting Petals
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Breath of the First World
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Manifestations:
+\series default
+ A rainbow flame that 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Spire of Pristine Crystal
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Oath of Stone Spears
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dance of the Four Winds
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write
 \end_layout
 
 \end_inset
@@ -7844,7 +7614,7 @@ TODO: Mundane Merits.
 \end_layout
 
 \begin_layout Section
-Evocation List
+Aspects
 \end_layout
 
 \begin_layout Standard
@@ -9951,6 +9721,28 @@ Honkai Impact 3rd
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
+Outside the Dream Kingdoms,
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Kingdom is one small part of a far more vast Dream.
+ Beyond them, stranger beings dreamed of their own lives, their own ideals.
+\end_layout
+
+\begin_layout Standard
 The Luminous only wove a small part of the Dream all of humanity shares
  into their Kingdoms.
  Beyond them, the skies are dyed in so many colors, touched by so many strange
@@ -10411,6 +10203,100 @@ name "sec:Weave-of-Bonds"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\emph on
+"I promise I will never leave your side.
+ I promise that we'll shine brighter together..."
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
+Even back before we ever sowed seeds into the earth, one promise was always
+ held in the highest regard in our hearts.
+ Whether spoken to a lover, a friend or a sibling, we promised to never
+ leave one another's side.
+ We wished for a power that could bind ourselves and the world to that vow...
+\end_layout
+
+\begin_layout Plain Layout
+In a sense, the Weave of Bonds had always existed, even before the Light.
+ The Luminous are merely the latest to inherit its power.
+ After all, even before we first spoke, we took one another's hands, and
+ made a silent promise.
+ When the forests were still young, Father Wolf made that same promise to
+ Mother Luna.
+ Before the first forest sprouted from the Earth, the Fae pledged to never
+ leave each other's sides, and scattered trees twisted together into grand
+ canopies.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+The Weave of Bonds may be used with any Origin.
+ Uniquely, it must be taken at the same time as another character, and those
+ two are bonded by this Weave permanently.
+ This requires both such Nobles to be aware of what creating such a link
+ entails, and for both to agree to it in their deepest heart without deception
+ or trickery.
+ Otherwise, the nascent bond breaks apart in its first moments.
+\end_layout
+
+\begin_layout Plain Layout
+Both Luminous share a pool of ranks equal to half their combined Inner Light
+ divided by two (rounded up) and buy Perks collectively.
+ All Perks gained as a part of this Weave affect both partners.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Weave of Bonds (•••, Weave)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Weave of Bonds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Weave of Names
 \end_layout
 
 \begin_layout Standard
