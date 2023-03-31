@@ -110,6 +110,32 @@ InsetLayout Flex:Foldable          # Define a new "flex" inset called "Foldable"
   Decoration      minimalistic     # Do not show a label, only the outer box, when not folded.
   ContentAsLabel  true             # When folded show truncated contents as label.
 End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	    1
+  EndArgument
+End
+
+InsetLayout Flex:LumIncompleteSection
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Section"
+  LatexType             command
+  LatexName             lumincompletesection
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	    1
+  EndArgument
+End
 \end_local_layout
 \language english
 \language_package default
