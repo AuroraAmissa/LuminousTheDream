@@ -293,13 +293,6 @@ status open
 
 
 \backslash
-lumcustomtitle{Luminous: the Dream}{A Storytelling Game of Distant Dreams}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 setsection{luminous}
 \end_layout
 
@@ -308,10 +301,11 @@ setsection{luminous}
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C0_1_Foreward.lyx"
+\begin_layout Chapter
+Foreword 
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Foreword"
 
 \end_inset
 
@@ -319,205 +313,45 @@ filename "Contents_LtD_C0_1_Foreward.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
 
-
+\series bold
+\shape italic
+\emph on
+Luminous: the Dream
+\series default
+\shape default
+\emph default
+ is a fanmade roleplaying game for the 
+\series bold
+Chronicles of Darkness
+\series default
+, inspired by the 
+\emph on
+mahou shoujo
+\emph default
+ genre of anime and manga.
+ Players take on the role of those caught between the waking world and the
+ world of dreams.
+ Wielding a faint power from their unison, they seek to bring a better future
+ for both worlds and all within.
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
+The 
+\series bold
+Chronicles of Darkness
+\series default
+ book is needed to use this book.
+ At the time of preparation, that book is available from 
+\begin_inset CommandInset href
+LatexCommand href
+name "DriveThru RPG"
+target "https://www.drivethrurpg.com/"
+literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C0_2_Introduction.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C1_Splats.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Flex LumIncomplete
-status open
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Chapter 2: Distant Echoes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-—
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C2_Lore.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C3_Mechanics.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Flex LumIncomplete
-status open
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Chapter 4: The Sea of Stars
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-—
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C4_World.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Flex LumIncomplete
-status open
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Chapter 5: Rainbow Skies
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-—
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C5_Weaves.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_CxA_Conditions.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -528,12 +362,303 @@ status open
 
 
 \backslash
-lumcustomfooter
+repotext {Luminous: the Dream}{AuroraAmissa/LuminousTheDream}
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section*
+Credits
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+\emph on
+Luminous: the Dream
+\series default
+\shape default
+\emph default
+ is primary written by AuroraAmissa, with help with several contributors.
+ Without their help, this project would likely have not been possible.
+\end_layout
+
+\begin_layout Itemize
+Suzune, who helped immensely with the core ideas behind Luminous' mechanics
+ and core lore.
+\end_layout
+
+\begin_layout Itemize
+Ellie, who has provided me a great deal of support through the earlier parts
+ of the project, and provided very valuable feedback throughout.
+\end_layout
+
+\begin_layout Itemize
+Hanako, who taught me the ways of the dark magical girl.
+ :)
+\end_layout
+
+\begin_layout Itemize
+Xelsius, who has been a consistent source of feedback and encouragement
+ throughout the project.
+\end_layout
+
+\begin_layout Itemize
+MushroomBadger whose work on Beloved showed many alternative ways of how
+ something like what I am doing could be done.
+\end_layout
+
+\begin_layout Itemize
+TrueMrMultiverse, WillOfTheWinds, and all the others who helped immensely
+ with their feedback and suggestions for Archetypes and similar details.
+\end_layout
+
+\begin_layout Standard
+Beyond those who worked with me directly, Luminous has been inspired by
+ many other works that came before.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\shape italic
+\emph on
+Luminous: the Dream
+\series default
+\shape default
+\emph default
+ started as a rewrite of 
+\series bold
+\shape italic
+\emph on
+Princess: the Hopeful
+\series default
+\shape default
+\emph default
+ before it diverged greatly later on in development.
+ Even if few traces of it remain in Luminous, Princess still paved the way
+ for fanworks like this and inspired this project.
+\end_layout
+
+\begin_layout Itemize
+Over time, 
+\series bold
+\shape italic
+\emph on
+Changeling: the Dreaming
+\series default
+\shape default
+\emph default
+ became more and more of an inspiration for me, as I tried connecting the
+ themes of dreams, activism and magical girl anime.
+ Luminous very much began becoming a spiritual successor to it over time.
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+Exalted 2e
+\series default
+ sourcebook, 
+\series bold
+Graceful Wicked Masques
+\series default
+, despite its very different theme, was an ample source of inspiration as
+ to how to present the Astral/Dream in a way befitting its nature.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\shape italic
+\emph on
+Chronicles of Darkness
+\series default
+\emph default
+ 
+\shape default
+and all its splats shine as a bright example as to what tabletop can be.
+ There is much to learn from their authors and their works for most game
+ designers, and how they improved on its earlier editions.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+A Wind in the Door
+\series default
+, the novel that first taught me so long ago what it meant to dream and
+ 
+\emph on
+hope
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex ContentWarning
+status open
+
+\begin_layout Section*
+Content Warning
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Luminous: the Dream
+\series default
+ tells stories of the line between the escapism of dreams and the cruelties
+ of reality.
+ This book discusses subject matters such as poverty, sexism, racism, and
+ all kinds of the mundane and small cruelties that are too often overlooked.
+ Beyond that, its supernatural elements involve themes of irreality, blurred
+ boundaries between people, and rejection of reality.
+\end_layout
+
+\begin_layout Plain Layout
+If you are sensitive to such content, please take care when reading or playing
+ 
+\series bold
+Luminous
+\series default
+.
+ Safety techniques for such things are discussed in [TODO: Chapter link].
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Legal Stuff
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+\emph on
+Luminous: the Dream
+\series default
+\shape default
+\emph default
+ was originally inspired by the Vocations version of 
+\series bold
+\shape italic
+\emph on
+Princess: the Hopeful
+\series default
+\shape default
+\emph default
+.
+ That version of 
+\series bold
+\shape italic
+\emph on
+Princess: the Hopeful
+\series default
+\shape default
+\emph default
+ was a collaborative effort of many posters who contributed to its development
+ on the RPGnet forums, including Cruton, Azunth, Michael Brazier, EarthScorpion,
+ Luc "Nickname" French, hazard151, Huitzil, Leliel, Kearin, TheKingsRaven,
+ Naomi Li, MagicSwordsman, Martin Padilla, SaulotTheGentle, and Jordy Vanderstuk
+ken.
+ It is available under the CC Attribution-ShareAlike 3.0 Unported License.
+ It can be downloaded from its 
+\begin_inset CommandInset href
+LatexCommand href
+name "homepage"
+target "https://sites.google.com/site/princessthehopeful/home"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This work is licensed under the Creative Commons Attribution-ShareAlike
+ 4.0 Unported License.
+ To view a copy of this license, visit 
+\begin_inset CommandInset href
+LatexCommand href
+name "their website"
+target "http://creativecommons.org/licenses/by-sa/4.0/"
+literal "false"
+
+\end_inset
+
+ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
+ View, California, 94041, USA.
+\end_layout
+
+\begin_layout Standard
+This work uses fonts licensed under the 
+\begin_inset CommandInset href
+LatexCommand href
+name "SIL Open Font License, Version 1.1"
+target "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+literal "false"
+
+\end_inset
+
+.
+ It uses the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Dancing Script"
+target "https://github.com/impallari/DancingScript"
+literal "false"
+
+\end_inset
+
+ font by Pablo Impallari, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Fira Sans"
+target "https://github.com/mozilla/Fira"
+literal "false"
+
+\end_inset
+
+ by Carrois Apostrophe, and 
+\begin_inset CommandInset href
+LatexCommand href
+name "DejaVu Sans Mono"
+target "https://dejavu-fonts.github.io/"
+literal "false"
+
+\end_inset
+
+ by various contributors.
+\end_layout
+
+\begin_layout Standard
+The mention of or reference to any company or product in these pages is
+ not a challenge to the trademark or copyright concerned.
+\end_layout
+
+\begin_layout Standard
+This work uses the supernatural for settings, characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainme
+nt purposes only.
+ Furthermore, this book contains mature content.
+ Reader discretion is advised.
+ 
 \end_layout
 
 \end_body

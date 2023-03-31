@@ -1,0 +1,917 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Hidden Text"
+  LatexType             command
+  LatexName             lumsharednorender
+  ResetsFont            true
+
+  Preamble
+    \newcommand\lumsharednorender[1]\relax
+  EndPreamble
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_ignorethis {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	        1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnbox
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnboxfill
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	        1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_newcommand {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:Foldable
+  LyxType               custom
+  LatexType             none
+  Decoration            minimalistic
+  ContentAsLabel        true
+  
+  HTMLTag               div
+  HTMLIsBlock           true
+End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_lumincomplete {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:LumIncompleteSection
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Section"
+  LatexType             command
+  LatexName             lumincompletesection
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_lumincompletesection {
+      display: none;
+    }
+  EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_title "Luminous: the Dream"
+\pdf_author "AuroraAmissa"
+\pdf_subject "A Storytelling game of Distant Dreams"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_Luminous.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{luminous}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Flex LumChapQuote
+status open
+
+\begin_layout Chapter
+Chapter 4: The Sea of Stars
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\emph on
+“Did you count the stars or something?”
+\begin_inset Newline newline
+\end_inset
+
+“We don’t have to count them,” Meg said.
+ “They just need to be known by Name.”
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+Madeleine L'Engle, 
+\series bold
+A Wind in the Door
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Dream
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Nomenclature
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Other supernatural beings and occult experts have their own name for the
+ Dream, and their own views of its structure.
+ In general, compared to them, the Luminous prefer simple plain language
+ terms, or ones drawn from popular culture over the more formal language
+ most of them employ.
+\end_layout
+
+\begin_layout Plain Layout
+Maou, Mages, and human scholars of the Astral use very technical terms for
+ the Dream, making literature references to esoteric concepts.
+ They see the Astral as a journey from the world below, into ever more true
+ worlds above – from personal dreams, to the higher truths of humanity,
+ to the higher truths of the world, and to more esoteric things beyond.
+ They refer to a Soulspace as a 
+\emph on
+Oneiros
+\emph default
+ (plural 
+\emph on
+Oneiroi
+\emph default
+), the Dream as the 
+\emph on
+Temenos
+\emph default
+, the Foundation as the 
+\emph on
+Omphalos
+\emph default
+ or Boundary Stone, and the World Dream as the Anima Mundi.
+ They call the Dreamborn (including Luminous, really) 
+\emph on
+Goetia
+\emph default
+ and do not typically draw the distinction between Dreamborn and Actors.
+\end_layout
+
+\begin_layout Plain Layout
+The Begotten use plain language terms similar to the Luminous, mixed with
+ the more formal terms of human academics.
+ They are home in the Primordial Dream, a layer deeper than most Luminous
+ ever touch upon, and their perspective sees much of the Dream the Luminous
+ know of as 
+\begin_inset Quotes xld
+\end_inset
+
+above
+\begin_inset Quotes xrd
+\end_inset
+
+ their own dream.
+ To them, the Dream as the Luminous call it and the Sea of Stars are the
+ Bright Dream.
+ The Foundation is the Cave, and the World Dream is the Mother's Land.
+ They share the Luminous terms of Actors and Dreamborn.
+ For everything else or when they need to make finer distinctions, they
+ tend to use the same terms as human scholars.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dream Form
+\end_layout
+
+\begin_layout Standard
+A Luminous' Dream Form is nothing truly unique in a world of dreams.
+ All visitors in the Dream (or other mental spaces) manifest a Dream Form
+ rather than their physical bodies.
+ The Dream Forms of mortals (and most other kinds of supernatural beings)
+ have their own limitations, however, compared to those of the Luminous:
+\end_layout
+
+\begin_layout Itemize
+Instead of using the highest of his attributes, a mortal's Dream Attributes
+ are based on his mental attributes.
+ He uses Intelligence for Power, Wits for Finesse, and Resolve for Resistance.
+\end_layout
+
+\begin_layout Itemize
+Mortals suffer wound penalties to Dream Health as usual.
+ Neither Luminous or mortals have any protection against physical attacks
+ in the Dream, as all attacks are partly magical in a sense.
+\end_layout
+
+\begin_layout Itemize
+Mortals cannot perform Weaving Actions, have no Weaving Skills, and do not
+ have Dual Identity.
+ As such, they add Athletics instead of Flow to their Defense.
+\end_layout
+
+\begin_layout Standard
+In addition, Luminous Transformation works differently in the Dream.
+ They treat their Dream Form as their default form, and must roll in order
+ to transform into their Mundane Form.
+ They lose none of their powers or abilities in Mundane Form, but still
+ has the benefits of Dual Identity and is still affected by supernatural
+ powers as if she were a mortal.
+\end_layout
+
+\begin_layout Section
+Dream Combat
+\end_layout
+
+\begin_layout Standard
+The Dream is not quite a peaceful place.
+ Conflict happens in every world, for better or worse.
+ ...
+ and, just like in the waking world, sometimes there is no option but to
+ force your way through another.
+\end_layout
+
+\begin_layout Standard
+You could fight in a dream the same way you do in reality.
+ You pull out a sword, slicing away at your opponent's (dream) flesh.
+ But...
+ a Luminous sees deeper by nature.
+ After all, she is in part a native of the Dream.
+ A sword is mere a symbol for imposing one's will on another.
+ The wounds the sword inflicts are an unmistakable mark of your will on
+ another – they cannot simply imagine it away, because they were not the
+ one to imagine it in the first place.
+\end_layout
+
+\begin_layout Standard
+Instead of a sword, a Luminous could wield a cutting argument, imposing
+ on her target's mind in a way that reaches beyond mundane persuasion.
+ She could weave a story of an party all too loud for the introvert, forcing
+ them to retreat.
+ A dream weapon only has to be a reflection of one's will, and the wounds
+ it inflicts any mark that cannot simply be imagined away.
+\end_layout
+
+\begin_layout Standard
+That is the heart of dream combat.
+\end_layout
+
+\begin_layout Subsection
+Intent
+\end_layout
+
+\begin_layout Standard
+In dream combat, intent doesn't simply give focus to why a fight is happening
+ – it is the fundamental basis of the world itself.
+ When someone resorts to force in the Dream, they initiate Dream Combat,
+ and all participants must declare their Intent.
+ Intent determines their win condition, and the kind of story they must
+ tell to achieve it.
+\end_layout
+
+\begin_layout Standard
+If you wish to destroy a Goetia you don't like, you're probably limited
+ to a story of violence of one sort or another.
+ If you simply want to get past a door guard unharmed, you have far more
+ options.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: aaaa.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Notions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Notions section; the Luminous Token-like.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fading
+\end_layout
+
+\begin_layout Standard
+When they Blossom, the Luminous become living dreams.
+ Though those dreams never truly stop being human at their heart, they are
+ still what will remain of the Luminous at the very end.
+ As long as their dreams live, they do too, even when their mundane body
+ withers away from time.
+\end_layout
+
+\begin_layout Standard
+If a Hopeful dies in her Mundane Form while still able to transform, she
+ may transform one last time, burning away her Mundane Form entirely in
+ the process.
+ She immediately refills her Motes Pool and heals all Hope damage.
+ Her physical body is lost to her and she begins to Fade.
+ The same may happen if she retreats into the dream and lets her mundane
+ body wither away, or simply outlives her natural lifespan while transformed.
+\end_layout
+
+\begin_layout Standard
+Regardless of how it comes to be, the Luminous begin to dissolve into the
+ Dream, as the stray thoughts of humanity and foreign emotions lap at the
+ edges of their mind.
+ They anchor themselves against those tides by force of will, clinging tight
+ to those they love, to the place they know they have in the world.
+ Hope sustains them in the same way food and air does a mundane human.
+\end_layout
+
+\begin_layout Standard
+Fading Luminous no longer regain Willpower form rest, and suffer a box of
+ severe Hope damage every day.
+ Should their entire Hope track be filled with severe Damage, their will
+ dissipates fully into the Dream and their body dissolves into motes of
+ light.
+ The same occurs if their Dream Health is exhausted, or they suffers the
+ Soul Shocked Condition for any other reason.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Elder Luminous...?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+While they can theoretically live indefinitely, no Luminous older than a
+ century and a half or so have shown themselves to the broader community.
+ Some say it's because of how difficult it is for a Luminous to hang on,
+ especially as their friends pass away with the passage of time.
+ Before the internet and the Information Age, finding others who got it
+ was always a struggle.
+\end_layout
+
+\begin_layout Plain Layout
+Perhaps a few group of truly elder Luminous have hidden themselves away
+ in some corner of the Dream or some deep forest together.
+ A close-knit Nakama of elder Luminous may indeed be able to sustain themselves
+ like that.
+ But...
+ if they exist, they've certainly since secluded themselves away or chosen
+ to guide the world from the shadows as the Maou do.
+ Others say even that's unlikely – that such isolation would itself tear
+ at the Luminous and that they wouldn't survive like that.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Lucid
+\end_layout
+
+\begin_layout Standard
+The Dream Kingdoms are not only inhabited by the Luminous.
+ The vast majority of those who came to dream in their grounds never Blossom,
+ never realize that there is more to it than a particularly stable recurring
+ dream.
+\end_layout
+
+\begin_layout Section
+Young Luminous
+\end_layout
+
+\begin_layout Standard
+Far too many Hopeful do not have the luxury of waiting until adulthood to
+ grasp the power of the Dream.
+ The cruelties of the world always start far too early.
+ Especially compared with other types of supernatural beings, Luminous tend
+ to Blossom very early, with all the complications and benefits it comes
+ with.
+ On one hand...
+ becoming something else is too often effectively the end of their childhood.
+ On the other hand, too often that childhood is one they would not wish
+ to continue even if they had the choice.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Luminous: the Dream
+\series default
+ may be used with the rules for child characters found in 
+\series bold
+World of Darkness: Innocents
+\series default
+.
+ While such a game is fundamentally a Luminous chronicle at its heart, those
+ rules are still useful to represent a characters' significant younger Mundane
+ Form.
+ The Luminous template may be used in combination with the Innocent template.
+ Create the character as a normal Luminous with the following modifications:
+\end_layout
+
+\begin_layout Itemize
+She has a lower number of mundane skill dots equal to the normal total for
+ her age, and may not place dots in a category exceeding the normal maximum
+ for her age's primary category.
+\end_layout
+
+\begin_layout Itemize
+Her mundane skills have a cap of three dots, which increases to four dots
+ at Reverie 2 and five dots at Reverie 4.
+ At Reverie 4, refund all Prodigy merits under the Sanctity of Merits.
+\end_layout
+
+\begin_layout Itemize
+She has the Study skill instead of Academics and Science.
+ It counts as part of the Learn Weaving skill.
+\end_layout
+
+\begin_layout Itemize
+She may buy the Youthful merit for free.
+\end_layout
+
+\begin_layout Itemize
+In Mundane Form, the usual rules for young characters apply to her.
+ For example, she suffers increased wounds penalties, is easy to beat down,
+ and has a significant disadvantage versus adults.
+\end_layout
+
+\begin_layout Itemize
+Luminous do not suffer any of the usual drawbacks of childhood in their
+ Dream Form.
+ While their mundane actions versus adults are still penalized, this does
+ not apply to Weaving Actions or the use of magic.
+\end_layout
+
+\begin_layout Itemize
+With some cunning, Luminous may acquire social merits normally forbidden
+ to young characters – up to and including a full adult Alternate Identity
+ given enough persistence and an appropriate Dream Form.
+\end_layout
+
+\begin_layout Subsection*
+World of Darkness: Innocents Summary 
+\end_layout
+
+\begin_layout Standard
+This section contains a brief summary of the important rules for child character
+s found in 
+\series bold
+World of Darkness: Innocents
+\series default
+.
+ Using the full source book is very much recommended as it also provides
+ useful thematic guidelines and flavor context as to the rules.
+ This summary, then, is meant for use as a quick reference, as a backup
+ if you do not have access to 
+\series bold
+Innocents
+\series default
+, and to serve as a partial update to Chronicles of Darkness rules.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Virtue/Vice:
+\series default
+ Children use Virtue/Vice like other mortals.
+ While in Innocents, they have different Anchors called Asset/Fault, these
+ work identically to CofD's version of Virtue/Vice.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Morality and Triggers:
+\series default
+ Children use Integrity like other mortals.
+ As Triggers were a replacement for derangements in Innocents, they are
+ superseded by breaking point conditions.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attributes:
+\series default
+ Children allocate attributes the same way as older characters.
+ As their dots are compared to the average of their age, they are still
+ worse than adults with the same scores.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Skills:
+\series default
+ Young characters are normally capped to 3 dots in each skill.
+ Furthermore, they have fewer skill points to allocate based on their age.
+ 7-year-old children allocate 6/5/2 skills, 8-year-olds allocate 7/4/2,
+ 9-year-olds allocate 7/4/2, 10-year-olds allocate 8/5/3, 11-year-olds allocate
+ 8/5/3, 12-year-olds allocate 9/5/3, and teenagers allocate 10/6/4.
+ Children younger than 10 have 1 skill specialty, children 10 or older have
+ 2 skill specialties.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Skill List:
+\series default
+ Children have a Study skill representing their skill at studying and schoolwork.
+ This replaces their Academics and Science skills.
+ They may not have the Drive skill except in special circumstances that
+ would logically allow it.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Escape:
+\series default
+ Children are especially skilled at escaping from combat.
+ As long as their opponent is not fully focused on them, a child may attempt
+ to escape or hide.
+ Escape requires an Dexterity + Wits vs Wits + Composure roll, and hiding
+ requires a Dexterity + Stealth vs Wits + Composure roll.
+ Notably, in the context of Luminous, a transformation is certainly enough
+ of a distraction to invoke this rule.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Firearms:
+\series default
+ The first time in a combat a character under about the age of 12 unused
+ to gunfire is shot at, must spend a point of Willpower or be Beaten Down.
+ Furthermore, when such a character attempts to shoot a firearm at someone
+ for the first time, she must pass a Resolve + Composure roll or she misses
+ and must roll again the next time she tries.
+ Luminous who have fought in Dream Form before are exempt from this penalty.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Wound Penalties:
+\series default
+ Children are especially vulnerable to wound penalties compared to adults.
+ Instead of the normal benchmarks, she suffers a -1 penalty to all actions
+ when her fifth-to-last health box is damaged, loses 10-again when her fourth-to
+-last is marked, suffers a -2 penalty when her third-to-last health box
+ is damaged, cannot spend Willpower to boost rolls when her second-to-last
+ is marked, and suffers a -3 penalty when her last box is damaged.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Stunning:
+\series default
+ The Stunning rules in Innocents are superseded by Beaten Down & Surrender
+ optional rule.
+ That rule always applies to children, even in chronicles where it doesn't
+ to adults.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Adults vs Children:
+\series default
+ Adults gain 8-again on all rolls against children, except when they try
+ to hide or escape.
+ Unarmed attacks by children against adults suffer a penalty equal to their
+ Stamina.
+\end_layout
+
+\begin_layout Subsection*
+Growing Up
+\end_layout
+
+\begin_layout Standard
+One day, childhood must end even for the most imaginative or innocent of
+ people.
+ Even the Luminous, who are caught in the middle of the responsibility of
+ adulthood and the wonders and dreams of childhood, are burdened with everchangi
+ng obligations and restrictions in their mundane life.
+ While many choose to spend their younger years continuing their fight,
+ others often lay low for quite a while to establish themselves further
+ in adult life.
+ To skip a child character to adulthood, apply the following changes:
+\end_layout
+
+\begin_layout Itemize
+Remove any merits that no longer make sense and refund them under the Sanctity
+ of Merits.
+\end_layout
+
+\begin_layout Itemize
+Reduce all mundane skills the character has dots in by one dot (down to
+ a minimum of one dot), then give them mundane skill dots up to the normal
+ adult total of 22 if they have less.
+ For Luminous characters, if this would reduce one of their transformed
+ skills, she gains transformed skill dots to make up the difference.
+ If this would increase her transformed skills, she loses transformed skill
+ dots to make up the difference if possible.
+\end_layout
+
+\begin_layout Itemize
+Grant the character 20 experiences + 1 experience for every year that has
+ passed.
+\end_layout
+
+\begin_layout Itemize
+Luminous characters gain a dot of Reverie in addition.
+\end_layout
+
+\end_body
+\end_document

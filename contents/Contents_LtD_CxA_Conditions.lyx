@@ -293,13 +293,6 @@ status open
 
 
 \backslash
-lumcustomtitle{Luminous: the Dream}{A Storytelling Game of Distant Dreams}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
 setsection{luminous}
 \end_layout
 
@@ -308,26 +301,20 @@ setsection{luminous}
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C0_1_Foreward.lyx"
-
-\end_inset
-
-
+\begin_layout Chapter
+Appendix A: Conditions
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
+This chapter lists Conditions that may apply to characters in the course
+ of a Luminous chronicle.
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
+\begin_layout Section
+Sealed Vow (persistent) 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sealed-Vow-(persistent)"
 
 \end_inset
 
@@ -335,192 +322,20 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
+The character is bound to their word through the power of a Luminous' magic.
+ Should she abandon her promise or act in violation of it, she takes a box
+ of severe Hope damage (if she has Hope, or a similar track) and receives
+ a Hope Condition.
+ The next time each person she made her promise to talks with her, they
+ become aware of her transgression.
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C0_2_Introduction.lyx"
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C1_Splats.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Flex LumIncomplete
-status open
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Chapter 2: Distant Echoes
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-—
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C2_Lore.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C3_Mechanics.lyx"
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Flex LumIncomplete
-status open
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Chapter 4: The Sea of Stars
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-—
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C4_World.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\begin_inset Flex LumIncomplete
-status open
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Chapter 5: Rainbow Skies
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-—
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_C5_Weaves.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "Contents_LtD_CxA_Conditions.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\series bold
+Possible Sources:
+\series default
+ The 
 \begin_inset ERT
 status open
 
@@ -528,12 +343,46 @@ status open
 
 
 \backslash
-lumcustomfooter
+hyperref[subsec:Upgrade:-Binding-Oaths]{Binding Oaths}
 \end_layout
 
 \end_inset
 
+ or 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[subsec:Variant:-Sealing-Thread]{Sealing Thread}
+\end_layout
+
+\end_inset
+
+ upgrade to Shining Vow.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Resolution:
+\series default
+ The promise becomes moot because a premise of it is no longer true, or
+ it reaches its natural conclusion.
+ Sealed Vow also ends without providing a beat if the character violates
+ its terms.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Beat:
+\series default
+ The character suffers significant hardship, or abandons other goals in
+ favor of upholding her promise.
 \end_layout
 
 \end_body

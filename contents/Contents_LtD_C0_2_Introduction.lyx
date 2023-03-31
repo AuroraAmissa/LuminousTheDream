@@ -1,0 +1,622 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Hidden Text"
+  LatexType             command
+  LatexName             lumsharednorender
+  ResetsFont            true
+
+  Preamble
+    \newcommand\lumsharednorender[1]\relax
+  EndPreamble
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_ignorethis {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	        1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnbox
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnboxfill
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	        1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_newcommand {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:Foldable
+  LyxType               custom
+  LatexType             none
+  Decoration            minimalistic
+  ContentAsLabel        true
+  
+  HTMLTag               div
+  HTMLIsBlock           true
+End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_lumincomplete {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:LumIncompleteSection
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Section"
+  LatexType             command
+  LatexName             lumincompletesection
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_lumincompletesection {
+      display: none;
+    }
+  EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_title "Luminous: the Dream"
+\pdf_author "AuroraAmissa"
+\pdf_subject "A Storytelling game of Distant Dreams"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_Luminous.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{luminous}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnBoxFill
+status open
+
+\begin_layout Plain Layout
+We all knew how to dream when we were young.
+ We played innocently in our backyards, weaving a story of being princesses
+ and knights with each other.
+ We shared our imaginary friends with the world, and through those interactions,
+ breathed a spark of life into them.
+ We watched and read stories of heroes of light who would save the world
+ against the encroaching dark – and knew in our hearts that, one day, we
+ could be such heroes.
+\end_layout
+
+\begin_layout Plain Layout
+As they say, .
+ But then, we weren't supposed to.
+\end_layout
+
+\begin_layout Plain Layout
+We were told make-belief was for little kids.
+ We were told imaginary friends weren't real, that talking about them was
+ silly.
+ We were told that magic wasn't real, that we would never change the world
+ like that.
+\end_layout
+
+\begin_layout Plain Layout
+We were bullied for dreaming, and trying to find wonder in the world.
+\end_layout
+
+\begin_layout Plain Layout
+When we were older, we learned more of the truth of the world.
+ There weren't really forces of darkness that could rip away the world,
+ and that real royalty weren't as kind as in fairy tales.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+So many are lost to poverty, war, famine.
+ So many others are lost to small cruelties, of discrimination or simple
+ lack of will to understand.
+ You saw outcasts, loners, those abandoned by everyone else.
+ You couldn't understand why nobody cared.
+ Why you were the only one to try.
+ But...
+ the world would not yield for anyone.
+\end_layout
+
+\begin_layout Plain Layout
+So you wrote...
+ so you sang, let it out however you could.
+ So you dreamed...
+ of another, brighter world.
+ A world where there were others by your side, where you did not have to
+ struggle alone.
+ Where...
+ you could do something to help.
+ Where you had all the magic of dreams in your hands.
+\end_layout
+
+\begin_layout Plain Layout
+Those around you told you to let go.
+ That you couldn't help them, that your own troubles were all 
+\emph on
+your
+\emph default
+ fault.
+ That...
+ it was for your own good to give up those dreams.
+ But...
+ you couldn't.
+\end_layout
+
+\begin_layout Plain Layout
+Not when you saw a path forward.
+ One day, when you felt you had no other choice, you grasp for that light
+ you always wielded in your dreams.
+\end_layout
+
+\begin_layout Plain Layout
+For once, the world itself would yield...
+\end_layout
+
+\begin_layout Section
+Setting
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Luminous: the Dream
+\series default
+ is a roleplaying game set in the 
+\series bold
+Chronicles of Darkness
+\series default
+, a world much like our own – only caught between bleak mundanity and terrifying
+ supernatural horrors.
+ Perhaps, even more so than our own world, humanity gave up on doing more
+ than survive.
+ They forgot how to hope, how to enjoy life for what it is.
+\end_layout
+
+\begin_layout Plain Layout
+In this game, you play a Luminous, one of those champions of dreams and
+ imagination who still wishes to change the world, who still hopes for more
+ in a world not meant for them.
+\end_layout
+
+\begin_layout Plain Layout
+Helpless to change the world that caused them and those they loved so much
+ suffering, they once escaped into the depths of their own dreams.
+ Beyond their own imagination, they found a shared dream of eight great
+ Dream Kingdoms, built by those who came before.
+ In that world, they would find a place where they learn to truly live,
+ learn to wield the magic of dreams.
+\end_layout
+
+\begin_layout Plain Layout
+In time, they came to realize that light shone in the waking world too.
+ They weren't alone.
+ There were others who still cared, others who did their best through small
+ acts of kindness.
+ When they could bear it no longer, when they stood up and fought for all
+ they believed in, no matter how powerless they thought they were...
+\end_layout
+
+\begin_layout Plain Layout
+Something sparked deep in their soul.
+ A way to join the power of two worlds, to bring the magic they dreamed
+ of into the waking world.
+\end_layout
+
+\begin_layout Section
+Themes
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Luminous
+\series default
+ is built to tell stories like darker adaptations of the 
+\emph on
+mahou shoujo
+\emph default
+ genre of anime.
+ Stories of hope, of imagination, of love.
+ Stories of a path forward that don't shy away from the darker aspects of
+ life, but rather refuse to let them consume it.
+\end_layout
+
+\begin_layout Subsection*
+The Journey of Hope
+\end_layout
+
+\begin_layout Plain Layout
+For most, growing up means to give up on hope.
+ Tomorrow always seemed too far away to care about, better to struggle through
+ today.
+\end_layout
+
+\begin_layout Plain Layout
+They're wrong, of course.
+ You see, in the margins, how much even a small wish can change the world,
+ even without the magic you wield.
+ But...
+ you still understand – how scary it is to try, when everyone else has given
+ up.
+ How hard it is to make the first move, when you know more likely than not,
+ you would be hurt for it.
+ In a corner of your heart, you are still afraid.
+\end_layout
+
+\begin_layout Plain Layout
+To learn to truly hope again means to learn again what the world could truly
+ be – to unlearn those lessons you learned when you thought you had to grew
+ up...
+\end_layout
+
+\begin_layout Subsection*
+Lights and Shadows
+\end_layout
+
+\begin_layout Plain Layout
+There are always small moments of happiness, hidden away places of beauty
+ to look forward to.
+ No matter how hard things get, life is always worth living for those moments.
+\end_layout
+
+\begin_layout Plain Layout
+After all, the Luminous know, the magic of dreams itself comes from them.
+ They know how small moments of light can add up to something so much greater.
+ That...
+ even if they can't change the whole world, if nothing else, they can still
+ take the hand of those who forgot, reminded them once more why they struggle
+ so much for survival.
+ Show them that it is still possible to have a happy life...
+\end_layout
+
+\begin_layout Plain Layout
+Even if it could only touch the heart of a single person, that alone, will
+ brighten the world just a little bit.
+\end_layout
+
+\begin_layout Subsection*
+Crossing Paths
+\end_layout
+
+\begin_layout Plain Layout
+Nobody is ever truly alone in our world.
+ Every person relies on another, loves another, has been hurt by another.
+ The Luminous know that truth better than anyone else.
+ The Sea of Stars they draw their magic from was woven of those connections,
+ after all.
+ And reading its flows, they know – there will always be those they can
+ rely on, those they will one day come to rely on.
+\end_layout
+
+\begin_layout Plain Layout
+On their journey between dreams and reality, they come to understand and
+ rely on the very different people and supernatural creatures they share
+ a world with.
+ Alone, the best they can do is live.
+ But...
+ together, with others sharing the same dream, perhaps, they may change
+ something for real.
+\end_layout
+
+\begin_layout Section
+Media
+\end_layout
+
+\begin_layout Plain Layout
+I recommend the following works of media as possible inspiration in line
+ with Luminous' themes.
+\end_layout
+
+\begin_layout Subsection*
+Senki Zesshou Symphogear
+\end_layout
+
+\begin_layout Plain Layout
+Symphogear follows the story of Hibiki, an ordinary girl who ends up bound
+ to an ancient relic, allowing her to transform and fight the Noise that
+ threaten the world.
+ At its heart, it is a story of heartfelt communication, the determination
+ to protect those you love, and the sacrifices one makes to do so.
+ About the scars of the past, and what must be done to heal them.
+\end_layout
+
+\begin_layout Plain Layout
+Hibiki stays strong in her belief to reach to the heart throughout, fighting
+ against people's despair as much she does the Noise.
+ When the members of the cast suffer tragedy, it is true their bonds with
+ each other that they're able to stand up again.
+\end_layout
+
+\begin_layout Subsection*
+Magia Record
+\end_layout
+
+\begin_layout Plain Layout
+Magia Record is the spiritual successor to Puella Magi Madoka Magica, a
+ dark magical girl story that helped to popularized the genre.
+ For all its original is known for its darkness, though, it is still a story
+ of hope and love.
+ It is no wonder then, that its successor too fits well as an inspiration
+ for 
+\series bold
+Luminous
+\series default
+ chronicles.
+\end_layout
+
+\begin_layout Plain Layout
+The anime and video game pivots the focus more to human responses to the
+ woes of magic.
+ It embraces the personal stories that underlie Madoka's cosmic level story,
+ focusing on the relationships between magical girls and the friends that
+ pull them back from the brink of despair.
+ The phone game, in particular, tells the kinds of slice-of-life story Luminous
+ embraces – of magical girls who care for and love each other.
+\end_layout
+
+\begin_layout Subsection*
+Library of Runia
+\end_layout
+
+\begin_layout Plain Layout
+Library of Runia is a video game by Project Moon, following the story of
+ librarians who staff a magical library.
+ Through its powers, they learn the stories of the City they live in and
+ explore the past traumas and emotional scars.
+ In that sense, it is a deeply emotional story, about people, emotions,
+ growth and change more than anything else.
+\end_layout
+
+\begin_layout Plain Layout
+Both the main protagonists, Angela and Roland have their own dark pasts
+ and scars that are revealed through the game's progress.
+ As dark as the City it portrays is, it shows the little glimmers of hope
+ that lie within, and how Angela and Roland alike come to regain the hope
+ that things can be better.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

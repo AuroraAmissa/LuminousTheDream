@@ -1,0 +1,765 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:IgnoreThis
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Hidden Text"
+  LatexType             command
+  LatexName             lumsharednorender
+  ResetsFont            true
+
+  Preamble
+    \newcommand\lumsharednorender[1]\relax
+  EndPreamble
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_ignorethis {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	        1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:ContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Content Warning"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumnBox
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnbox
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:TwoColumnBoxFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns Fill"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnboxfill
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	        1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_newcommand {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:LumPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:LumChapQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:Foldable
+  LyxType               custom
+  LatexType             none
+  Decoration            minimalistic
+  ContentAsLabel        true
+  
+  HTMLTag               div
+  HTMLIsBlock           true
+End
+
+InsetLayout Flex:LumIncomplete
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_lumincomplete {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:LumIncompleteSection
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Section"
+  LatexType             command
+  LatexName             lumincompletesection
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_lumincompletesection {
+      display: none;
+    }
+  EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_title "Luminous: the Dream"
+\pdf_author "AuroraAmissa"
+\pdf_subject "A Storytelling game of Distant Dreams"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_Luminous.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{luminous}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Flex LumChapQuote
+status open
+
+\begin_layout Chapter
+Chapter 2: Distant Echoes
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\family sans
+\emph on
+“If someone ever tells me it's a mistake to hope, then, I'll just tell them
+ they're wrong.
+\begin_inset Newline newline
+\end_inset
+
+I'll keep telling them until they believe! No matter how many times it takes...”
+\emph default
+ 
+\family default
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\family sans
+\emph default
+Madoka Kaname, 
+\series bold
+Puella Magi Madoka Magica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To most people, dreams are simply your brain processing old memories, recycling
+ them in endless variations.
+ Meaningless, nothing worth paying attention to.
+ So it is with the small joys in life, the little glimmers of light that
+ shine in even a World of Darkness.
+ People are afraid to acknowledge them for what they may mean.
+ They are afraid to see the joy in things, too grounded in the things they
+ can touch and see to truly 
+\emph on
+feel
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+They were taught that it is childish to believe.
+ That one must grow up.
+ That it is wrong to dream, to hope.
+\end_layout
+
+\begin_layout Standard
+You couldn't stop.
+ You never could.
+ In your heart, you knew there was power in dreams.
+ In your heart, you knew the wonders the world still had to offer.
+\end_layout
+
+\begin_layout Standard
+In your heart, you know those wonders and dreams could be yours to hold.
+\end_layout
+
+\begin_layout Standard
+All you had to do is reach out.
+\end_layout
+
+\begin_layout Section
+The Dream
+\end_layout
+
+\begin_layout Standard
+Everyone has people they love, their responsibilities to others, and those
+ people they depend on.
+ Our world is deeply interconnected, woven through and through by loves
+ and friendships, by inventions, by beliefs and ideals, by cultures and
+ nations.
+ All depending on one another, all dreaming together.
+ That is the world as the Luminous know it, and it is those dreams that
+ give their own power shape.
+\end_layout
+
+\begin_layout Standard
+In the hidden corners of every dream, one soul blurs into another.
+ The dreams of a couple weave together into a hidden grove, the dreams of
+ a school club weave together into a small world.
+ In the depths of the Dream, those worlds weave together into a greater
+ whole.
+ Every fiction that has ever be written, every idea that had ever been dreamed...
+ A bright reflection of the loves and passions born in the waking world.
+\end_layout
+
+\begin_layout Standard
+In the Dream's skies, a thousand millions souls shine, each a single star.
+ In the depths of the Dream, twisting pathways lead to a world of higher
+ minded ideals, small dreams melding into worlds representing all cities,
+ or all wars.
+\end_layout
+
+\begin_layout Standard
+But...
+ in the twilight in between, the Dream sustains something like a second
+ Earth – a world reflecting all the complexity and wonder the waking world
+ has in a thousand ways....
+\end_layout
+
+\begin_layout Subsection
+The Dream Kingdoms
+\end_layout
+
+\begin_layout Standard
+Most people never know that their dreams are part of a greater whole...
+ Most people wander into those ties between souls once in a while, but few
+ realize them for what they are.
+ Few think of it as more than yet another nonsensical dream.
+ Those rare few that notice, still can rarely find a moment of clarity.
+ After all, in a world of dreams, how do you know when you are dreaming
+ with someone and not simply of someone?
+\end_layout
+
+\begin_layout Standard
+Identity, reality and illusion all blur together in a dream.
+ It is so hard to tell what is true and what is imagined.
+ Most give up, dismissing it all as nonsense...
+\end_layout
+
+\begin_layout Standard
+But...
+ others.
+ They feel drawn into it all.
+ Maybe they never cared.
+ Maybe they always knew deep in their hearts that there is a greater truth
+ under it all.
+ They find those pathways in their dreams, drawn to them by a nameless yearning
+ they so often do not even realize.
+ In that twilight, their own dreaming mind shaped the Dream around them,
+ bringing a touch of their own wishes into it.
+\end_layout
+
+\begin_layout Standard
+Over generations, something clicked into place.
+ Those who dreamed alike were drawn together, came to the same dream over
+ and over.
+ With so many seeing them, those dreams came together into something like
+ a world – the seeds of the eight Dream Kingdoms.
+\end_layout
+
+\begin_layout Subsection
+Residents of a Dream
+\end_layout
+
+\begin_layout Standard
+The nascent Dream Kingdoms looked like the waking world, so it became like
+ it.
+ A town could not be empty and still be called a town, a city that does
+ not bustle feels empty.
+ Thus, the Dream gave birth to new souls, new live to fill those voids.
+ Even in a world governed by the laws of story and emotion, to those born
+ there, the Dream was simply home.
+\end_layout
+
+\begin_layout Standard
+They became its true residents.
+ They had personalities, thoughts, memories, beliefs, goals, ambitions all
+ the same as all the visitors from the waking world.
+ They too influenced it, with their own wishes.
+ They wanted a life, a meaningful place to call home.
+ Their wishes too shaped the world, and crystallized into the eight Dream
+ Kingdoms.
+\end_layout
+
+\begin_layout Standard
+Life demand stability, challenges, conflicts, a reason to be.
+ The Dream was all too happy to tell such a story.
+\end_layout
+
+\begin_layout Standard
+And, well.
+ If the Dream Kingdoms were to be a world to live in, some of those Dreamers
+ wished to embrace it too.
+ In the depths of their hearts, they would live a second life in their dreams
+ in those Kingdoms, their personal dreams melding into its weave.
+ Most did not even realize there was anything special to it.
+ They lived in a second life in their dreams, and that was simply how they
+ were.
+\end_layout
+
+\begin_layout Standard
+Other stories tell of Dreamborn who were born in the waking world too, their
+ story entwining with that of a newborn child.
+ They would dream of the waking world, waking up to the stories they were
+ born in.
+ Maybe they really found a way to dream of the waking world from a Dream.
+ Maybe they were simply Dreamers who forgot which world they were truly
+ born into.
+\end_layout
+
+\begin_layout Standard
+It didn't truly matter.
+ They were true residents of both worlds, and in each world dreamed of the
+ other.
+ In a way, to them, both were equally true.
+\end_layout
+
+\begin_layout Subsection
+Shadows of Memory
+\end_layout
+
+\begin_layout Standard
+It wasn't only the happy moments, ephemeral fantasies that formed the nascent
+ Dream.
+ Humanity never had an easy life in the waking world, and that too reflected
+ in their dreams.
+ Terror-filled nightmares of predators, of earthquakes, of great floods,
+ of what lurks in the darkness.
+ The insidious pains from human cruelties and the realities of war.
+ All of those things too reflected into the Dream.
+\end_layout
+
+\begin_layout Standard
+The Dream too is an often dark place, in its own ways.
+ The Kingdoms offer sanctuary, and even they can sometimes be darkened by
+ the broader world.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Finish this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Scars of a Forgotten Past
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Waking World
+\end_layout
+
+\begin_layout Standard
+Every dream ends for better or worse, even if it may continue another night.
+ The world one awakens to is...
+ dark, shadowed, more solid.
+ It is not a happy place for most Dreamers.
+\end_layout
+
+\begin_layout Standard
+The scars of generations, small cruelties added up over the generations.
+ In the modern era, people have stopped believing in wonders.
+ They simply seek to survive, and forget about the wonders.
+ They dismiss people who ask for better by saying 
+\begin_inset Quotes xld
+\end_inset
+
+welcome to the real world
+\begin_inset Quotes xrd
+\end_inset
+
+ and such things.
+ Even from the our start, all of us were marked with the invisible scars
+ of a forgotten past.
+\end_layout
+
+\begin_layout Standard
+Luminous see a better world in their sleep – but few truly want to abandon
+ the waking world either.
+ Beyond all the darkness and sadness, there are simple pleasures in this
+ world.
+ Rather than the bright and colorful dream vistas they see their sleep,
+ there are quieter things.
+ A walk down the beach, hand in hand with a lover.
+ Quiet birdsong in a serene forest.
+ A bridge over a raging river, splashing those that cross with cool mist.
+ A quiet art store whose owner spreads joy through their crafts.
+\end_layout
+
+\begin_layout Standard
+In hidden corners, under the surface of even the most dull place this world
+ should be colorful too.
+ Perhaps that alone isn't enough to starve off the pains of the world.
+ Still, it's enough to try.
+ It's enough to give hope...
+\end_layout
+
+\begin_layout Subsection
+Scars of a Forgotten Past
+\end_layout
+
+\begin_layout Standard
+The pain was there from the very start, back before we ever spoke a word
+ to each other, back before we started our first fire.
+ In the depths of the Dream, there were always ruins of 
+\emph on
+something
+\emph default
+ that came before.
+\end_layout
+
+\begin_layout Standard
+In an forgotten age, we divided ourselves from the world by forging a Boundary
+ Stone, marking the start of our dreams and the end of the world's.
+ It so clearly came from before, marked with so many languages that resembles
+ no known language.
+ The first work of a great civilization, from long ago, surely.
+ But...
+ that was not to be.
+ Some great cataclysm erased them so thoroughly, that all the Dream remembers
+ is vague impressions of rituals, of religions, of festivals that once were.
+\end_layout
+
+\begin_layout Standard
+The Dream don't even remember what happened well enough to fear it.
+ The Luminous once searched the realms of fear for an answer, only to see
+ that even the horrors that lived there only remember that there...
+ was something to fear, not its shape or color.
+ But the fear remained.
+ But the scars and burdens remained...
+ Our legacy may be our own, but ours scars began far earlier.
+\end_layout
+
+\begin_layout Standard
+Humanity found its footing again, of course.
+ But it never bore those wounds well, especially not in a world they – in
+ a deep corner of their minds – knew was darker than the world that should
+ have been.
+ Perhaps that was what made people give up hope so easily.
+ Generations of wars, famines, epidemics added onto those ancient scars,
+ and something...
+ broke.
+\end_layout
+
+\begin_layout Standard
+In the current day, so many have even abandoned their own dreams, accepting
+ a dark world in the hopes that they can at least have scraps of light for
+ themselves if they did.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO: Probably move this up to the Dream, and redo this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Blossoming
+\end_layout
+
+\begin_layout Standard
+The Dreamers could never stand for the shadows of the world.
+ Dreams are not quite like the waking world – boundaries between concepts
+ and people blur, and understanding is far easier.
+ They know the pains those people feel, how much the pressures of the world
+ hurt them.
+ They know how much those they advise to dream less brightly suffer for
+ it.
+\end_layout
+
+\begin_layout Standard
+In the waking world, they can't help but care.
+ They can't help but dream of better.
+ After all.
+ In their dreams, they see an reflection of how the world could be better,
+ if only they could teach others to dream too.
+\end_layout
+
+\begin_layout Standard
+It isn't even the large cruelties that hurt the most.
+ It's the small things that wear down on everyone's souls.
+ People at least acknowledge racism matters, that people shouldn't be judged
+ for the the color of their skin or who they love.
+ It's the small things nobody thinks to remark on, because it's become so
+ normal.
+\end_layout
+
+\begin_layout Standard
+Parents isolate their children from their friends as punishment and call
+ it grounding.
+ Teachers drown their students with test after test, making them afraid
+ that if they don't pass, they simply won't have a chance to live.
+ In schools, they say 
+\begin_inset Quotes xld
+\end_inset
+
+study is what is important right now
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ In adulthood, they say 
+\begin_inset Quotes xld
+\end_inset
+
+work is what is important right now
+\begin_inset Quotes xrd
+\end_inset
+
+.
+ When do people get a chance to live?
+\end_layout
+
+\begin_layout Standard
+Everywhere they go, they see people being crushed under those things, large
+ and small.
+ They catch glimpses of it through their ties to the Dream, through 
+\end_layout
+
+\begin_layout Section
+Daydreams
+\end_layout
+
+\begin_layout Standard
+Luminous are those caught between reality and dreams, the mundane and the
+ supernatural.
+ They refuse to reject either, instead embracing both with all their heart.
+\end_layout
+
+\end_body
+\end_document
