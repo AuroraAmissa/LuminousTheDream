@@ -177,7 +177,7 @@ End
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "RulebookShared/Format_Common.lyx"
+filename "../RulebookShared/Format_Common.lyx"
 
 \end_inset
 
@@ -228,7 +228,7 @@ definesection{forward}%
 
 \begin_layout Plain Layout
 
-	{Dancing Script Bold}{fonts/DancingScript-Bold.ttf}%
+	{Dancing Script Bold}{../fonts/DancingScript-Bold.ttf}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -245,7 +245,7 @@ definesection{luminous}%
 
 \begin_layout Plain Layout
 
-	{Dancing Script Bold}{fonts/DancingScript-Bold.ttf}%
+	{Dancing Script Bold}{../fonts/DancingScript-Bold.ttf}%
 \end_layout
 
 \begin_layout Plain Layout
@@ -262,7 +262,7 @@ definesection{maou}%
 
 \begin_layout Plain Layout
 
-	{Cormorant Infant Bold}{fonts/CormorantInfant-Bold.ttf}%
+	{Cormorant Infant Bold}{../fonts/CormorantInfant-Bold.ttf}%
 \end_layout
 
 \begin_layout Plain Layout
