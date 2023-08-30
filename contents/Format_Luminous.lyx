@@ -264,6 +264,74 @@ filename "../RulebookShared/Format_Common.lyx"
 
 \end_layout
 
+\begin_layout In Preamble
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% In Latex preamble
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifdefined
+\backslash
+includeonceformatluminouspreamble 
+\backslash
+relax 
+\backslash
+else
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+includeonceformatluminouspreamble {--}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=0.7in,rmargin=0.7in,f
+ootskip=0.78in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand
+\backslash
+overridegeometry{--}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
@@ -355,6 +423,24 @@ definesection{maou}%
 
 \backslash
 setsection{forward}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength
+\backslash
+columnsep{0.2in}
 \end_layout
 
 \end_inset

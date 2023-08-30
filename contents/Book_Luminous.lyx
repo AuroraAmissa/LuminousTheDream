@@ -335,9 +335,38 @@ filename "Contents_LtD_C0_2_Introduction.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex IncompleteChapter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Chapter 1: Shining Lights
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+—
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_LtD_C1_Splats.lyx"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -389,9 +418,35 @@ filename "Contents_LtD_C2_Lore.lyx"
 \end_inset
 
 
+\begin_inset Flex IncompleteChapter
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Chapter 2: A Faint Dream
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+—
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_LtD_C3_Mechanics.lyx"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 

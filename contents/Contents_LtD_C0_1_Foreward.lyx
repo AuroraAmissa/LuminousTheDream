@@ -311,8 +311,8 @@ mahou shoujo
  genre of anime and manga.
  Players take on the role of those caught between the waking world and the
  world of dreams.
- Wielding a faint power from their unison, they seek to bring a better future
- for both worlds and all within.
+ Wielding a fleeting power born from that boundary, they seek to create
+ a better future for all who live within every world.
 \end_layout
 
 \begin_layout Standard
@@ -321,7 +321,7 @@ The
 Chronicles of Darkness
 \series default
  book is needed to use this book.
- At the time of preparation, that book is available from 
+ At the time this book was written, it can be purchased from 
 \begin_inset CommandInset href
 LatexCommand href
 name "DriveThru RPG"
@@ -356,24 +356,15 @@ Credits
 \begin_layout Standard
 
 \series bold
-\shape italic
-\emph on
 Luminous: the Dream
 \series default
-\shape default
-\emph default
- is primary written by AuroraAmissa, with help with several contributors.
+ is written by AuroraAmissa, with a lot of assistant from several contributors.
  Without their help, this project would likely have not been possible.
 \end_layout
 
 \begin_layout Itemize
-Suzune, who helped immensely with the core ideas behind Luminous' mechanics
- and core lore.
-\end_layout
-
-\begin_layout Itemize
-Ellie, who has provided me a great deal of support through the earlier parts
- of the project, and provided very valuable feedback throughout.
+AnemoneMeer, Suzune and Ellie, whose input helped immensely with the core
+ ideas behind Luminous' mechanics and core lore.
 \end_layout
 
 \begin_layout Itemize
@@ -382,18 +373,8 @@ Hanako, who taught me the ways of the dark magical girl.
 \end_layout
 
 \begin_layout Itemize
-Xelsius, who has been a consistent source of feedback and encouragement
- throughout the project.
-\end_layout
-
-\begin_layout Itemize
-MushroomBadger whose work on Beloved showed many alternative ways of how
- something like what I am doing could be done.
-\end_layout
-
-\begin_layout Itemize
-TrueMrMultiverse, WillOfTheWinds, and all the others who helped immensely
- with their feedback and suggestions for Archetypes and similar details.
+Xelsius, TrueMrMultiverse, MushroomBadger, and all the others who helped
+ immensely with their feedback and suggestions later on in the project.
 \end_layout
 
 \begin_layout Standard
@@ -402,15 +383,7 @@ Beyond those who worked with me directly, Luminous has been inspired by
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-\shape italic
-\emph on
-Luminous: the Dream
-\series default
-\shape default
-\emph default
- started as a rewrite of 
+Luminous started as a project to make a third version of 
 \series bold
 \shape italic
 \emph on
@@ -418,51 +391,30 @@ Princess: the Hopeful
 \series default
 \shape default
 \emph default
- before it diverged greatly later on in development.
- Even if few traces of it remain in Luminous, Princess still paved the way
- for fanworks like this and inspired this project.
+.
+ In time, I began drawing more on the very earliest drafts, back when it
+ was called 
+\series bold
+Princess: the Fading
+\series default
+.
+ Luminous has since diverged entirely from Princess, but its inspiration
+ is still what put me on the path of writing a fansplat in the first time.
 \end_layout
 
 \begin_layout Itemize
-Over time, 
+Of the official Storyteller system sourcebooks, 
 \series bold
-\shape italic
-\emph on
 Changeling: the Dreaming
 \series default
-\shape default
-\emph default
- became more and more of an inspiration for me, as I tried connecting the
- themes of dreams, activism and magical girl anime.
- Luminous very much began becoming a spiritual successor to it over time.
-\end_layout
-
-\begin_layout Itemize
-The 
-\series bold
-Exalted 2e
-\series default
- sourcebook, 
+ and 
 \series bold
 Graceful Wicked Masques
 \series default
-, despite its very different theme, was an ample source of inspiration as
- to how to present the Astral/Dream in a way befitting its nature.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\shape italic
-\emph on
-Chronicles of Darkness
-\series default
-\emph default
- 
-\shape default
-and all its splats shine as a bright example as to what tabletop can be.
- There is much to learn from their authors and their works for most game
- designers, and how they improved on its earlier editions.
+ were major inspirations for Luminous.
+ The former was always an inspiration to Princess before it lessened over
+ time, and the latter – as different as its themes are – show how the system
+ can portray a world of dreams and stories in a truly appropriate way.
 \end_layout
 
 \begin_layout Itemize
@@ -498,12 +450,11 @@ Content Warning
 \series bold
 Luminous: the Dream
 \series default
- tells stories of the line between the escapism of dreams and the cruelties
- of reality.
+ tells stories of both the escapism of dreams and the cruelties of reality.
  This book discusses subject matters such as poverty, sexism, racism, and
  all kinds of the mundane and small cruelties that are too often overlooked.
- Beyond that, its supernatural elements involve themes of irreality, blurred
- boundaries between people, and rejection of reality.
+ Beyond that, its supernatural elements involve themes of rejection of reality,
+ and blurred boundaries between people.
 \end_layout
 
 \begin_layout Plain Layout
