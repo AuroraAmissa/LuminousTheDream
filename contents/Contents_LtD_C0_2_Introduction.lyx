@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -13,13 +13,11 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
-
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
-
 InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
@@ -32,7 +30,6 @@ InsetLayout Flex:Sidebar
   EndArgument
   ResetsFont            true
 End
-
 InsetLayout Flex:SidebarContentWarning
   LyXType               custom
   Decoration            classic
@@ -41,7 +38,6 @@ InsetLayout Flex:SidebarContentWarning
   LatexName             cw-sidebarenv
   ResetsFont            true
 End
-
 InsetLayout Flex:TwoColumns
   LyXType               custom
   Decoration            classic
@@ -49,14 +45,12 @@ InsetLayout Flex:TwoColumns
   LatexType             environment
   LatexName             lumsharedtwocolumnbox
   ResetsFont            true
-
   Preamble
     \newenvironment{lumsharedtwocolumnbox}
       {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
       {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
   EndPreamble
 End
-
 InsetLayout Flex:TwoColumnsFill
   LyXType               custom
   Decoration            classic
@@ -64,14 +58,12 @@ InsetLayout Flex:TwoColumnsFill
   LatexType             environment
   LatexName             lumsharedtwocolumnboxfill
   ResetsFont            true
-
   Preamble
     \newenvironment{lumsharedtwocolumnboxfill}
       {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
       {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
   EndPreamble
 End
-
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
@@ -87,7 +79,6 @@ InsetLayout Flex:NewCommand
   Argument 2
     LabelString         "Argument Count"
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -96,7 +87,6 @@ InsetLayout Flex:NewCommand
     }
   EndHTMLStyle
 End
-
 InsetLayout Flex:CofDPartQuote
   LyXType               custom
   Decoration            classic
@@ -105,7 +95,6 @@ InsetLayout Flex:CofDPartQuote
   LatexName             lumpartquote
   ResetsFont            true
 End
-
 InsetLayout Flex:CofDChapterQuote
   LyXType               custom
   Decoration            classic
@@ -114,17 +103,14 @@ InsetLayout Flex:CofDChapterQuote
   LatexName             lumchapquote
   ResetsFont            true
 End
-
 InsetLayout Flex:CollapsableRegion
   LyxType               custom
   LatexType             none
   Decoration            minimalistic
   ContentAsLabel        true
-  
   HTMLTag               div
   HTMLIsBlock           true
 End
-
 InsetLayout Flex:IncompleteChapter
   LyXType               custom
   Decoration            classic
@@ -136,7 +122,6 @@ InsetLayout Flex:IncompleteChapter
     LabelString         "Name"
     Mandatory	        1
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -145,7 +130,6 @@ InsetLayout Flex:IncompleteChapter
     }
   EndHTMLStyle
 End
-
 InsetLayout Flex:IncompleteSection
   LyXType               custom
   Decoration            classic
@@ -157,7 +141,6 @@ InsetLayout Flex:IncompleteSection
     LabelString         "Name"
     Mandatory	        1
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -169,8 +152,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +161,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +173,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 10
 \spacing single
 \use_hyperref true
@@ -203,7 +190,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +211,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -237,7 +226,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip medskip
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -245,11 +234,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +252,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_Luminous.lyx"
+literal "true"
 
 \end_inset
 
@@ -289,34 +284,39 @@ Introduction
 status open
 
 \begin_layout Plain Layout
-When we were young, we looked to the world with wonder.
- We looked to the flowers and trees and birds and every little thing about
- them felt magical.
- We saw the stars, and imagined holding them in our hands.
- We saw the great heroes of the world and thought we could be like them
- as well.
- We read fantastical stories of magical girls and knights and princesses
- and wished they were real.
- We thought we could change the world, and make it a better place for all.
+When we were young,
+ we looked to the world with wonder.
+ We looked to the flowers and trees and birds and every little thing about them felt magical.
+ We saw the stars,
+ and imagined holding them in our hands.
+ We saw the great heroes of the world and thought we could be like them as well.
+ We read fantastical stories of magical girls and knights and princesses and wished they were real.
+ We thought we could change the world,
+ and make it a better place for all.
 \end_layout
 
 \begin_layout Plain Layout
-So, why was the world the way it was?
+So,
+ why was the world the way it was?
 \end_layout
 
 \begin_layout Plain Layout
-As we grew, we were taught that the world was a dark and dull place.
+As we grew,
+ we were taught that the world was a dark and dull place.
  The natural world was something to fear.
  The stars were too far away to reach.
  The great heroes of the world were special and we weren't.
  We wouldn't amount to anything unless we gave up on hope and followed along.
- Only someone childish, someone naive could believe otherwise.
+ Only someone childish,
+ someone naive could believe otherwise.
 \end_layout
 
 \begin_layout Plain Layout
-We were taught to forget those stories we once loved, of children carrying
- on innocent hope to save the world.
- Stories for adults were darker, more realistic, more 
+We were taught to forget those stories we once loved,
+ of children carrying on innocent hope to save the world.
+ Stories for adults were darker,
+ more realistic,
+ more 
 \emph on
 true
 \emph default
@@ -326,20 +326,22 @@ true
 \begin_layout Plain Layout
 
 \series bold
-Luminous: the Dream
+Luminous:
+ the Dream
 \series default
- is such a childish and puerile story, of hope, of warriors who draw the
- magic from the world of dreams itself.
+ is such a childish and puerile story,
+ of hope,
+ of warriors who draw the magic from the world of dreams itself.
 \end_layout
 
 \begin_layout Plain Layout
-It is a story about unlearning the lies of adulthood, and remembering the
- hope we had for a better world.
- It is a story about learning to see the wonders of the world again, and
- protecting them with all our might.
- It is the story about embracing the wonder and hope of childhood, not because
- we know nothing else or hide from the world's shadows, but because that
- is the correct way forward.
+It is a story about unlearning the lies of adulthood,
+ and remembering the hope we had for a better world.
+ It is a story about learning to see the wonders of the world again,
+ and protecting them with all our might.
+ It is the story about embracing the wonder and hope of childhood,
+ not because we know nothing else or hide from the world's shadows,
+ but because that is the correct way forward.
 \end_layout
 
 \begin_layout Section
@@ -349,60 +351,72 @@ Setting
 \begin_layout Plain Layout
 
 \series bold
-Luminous: the Dream
+Luminous:
+ the Dream
 \series default
  is a roleplaying game set in the world of the 
 \series bold
 Chronicles of Darkness
 \series default
-, a world much like our own - caught between the familiar horrors of the
- mundane and the unfamiliar horrors of the supernatural.
- More than in our own world, humanity learned to keep its head down to survive.
- This game, though, isn't about doing that.
+,
+ a world much like our own - caught between the familiar horrors of the mundane and the unfamiliar horrors of the supernatural.
+ More than in our own world,
+ humanity learned to keep its head down to survive.
+ This game,
+ though,
+ isn't about doing that.
 \end_layout
 
 \begin_layout Plain Layout
-In the depths of the collective dreams of humanity, there was a forgotten
- Dream Kingdom.
- In it, we built countless visions of what the world could be if only we
- worked hard enough.
- There, we lit the first faint sparks of a power we could truly call our
- own.
- There, we made our first stand against the malice of the world.
+In the depths of the collective dreams of humanity,
+ there was a forgotten Dream Kingdom.
+ In it,
+ we built countless visions of what the world could be if only we worked hard enough.
+ There,
+ we lit the first faint sparks of a power we could truly call our own.
+ There,
+ we made our first stand against the malice of the world.
 \end_layout
 
 \begin_layout Plain Layout
-The spark was too faint in the end, and the wonders too distant.
- When we found a different path, one of science and cold rationality over
- the warmth of love and the romance of stories, we forgot the Dream Kingdom
- as any more than a story.
+The spark was too faint in the end,
+ and the wonders too distant.
+ When we found a different path,
+ one of science and cold rationality over the warmth of love and the romance of stories,
+ we forgot the Dream Kingdom as any more than a story.
 \end_layout
 
 \begin_layout Plain Layout
-You play a Luminous in this game, a champion of the Dream Kingdom in an
- era where people no longer believe in the power of dreams.
+You play a Luminous in this game,
+ a champion of the Dream Kingdom in an era where people no longer believe in the power of dreams.
 \end_layout
 
 \begin_layout Plain Layout
-Helpless to change the world that caused them and all they loved so much
- suffering, they escaped into the depths of their dreams.
- There, though, they found that lost Kingdom, and the ancient stories of
- hope and wonder it told of.
- They met others who held the same hope they do, who wished to change the
- world as they did, in any small way they can.
+Helpless to change the world that caused them and all they loved so much suffering,
+ they escaped into the depths of their dreams.
+ There,
+ though,
+ they found that lost Kingdom,
+ and the ancient stories of hope and wonder it told of.
+ They met others who held the same hope they do,
+ who wished to change the world as they did,
+ in any small way they can.
  They saw the small acts of kindness that existed even in the waking world.
 \end_layout
 
 \begin_layout Plain Layout
-Somehow, through all that, a long forgotten power awoke in their soul –
- to weave their imagination into reality, and stand against the world once
- more in the name of dreams.
+Somehow,
+ through all that,
+ a long forgotten power awoke in their soul – to weave their imagination into reality,
+ and stand against the world once more in the name of dreams.
 \end_layout
 
 \begin_layout Plain Layout
 The path forward would be difficult and full of suffering and pain.
- But, how could they take any other path? After all, they alone held the
- power to change all that.
+ But,
+ how could they take any other path?
+ After all,
+ they alone held the power to change all that.
 \end_layout
 
 \begin_layout Plain Layout
@@ -410,6 +424,113 @@ The path forward would be difficult and full of suffering and pain.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Source Books
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Luminous:
+ the Dream
+\series default
+ is a fangame for 
+\series bold
+Chronicles of Darkness
+\series default
+ and does not contain the core rules needed to play the Storyteller system.
+ You will require one of the following books:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Chronicles of Darkness
+\series default
+ (
+\begin_inset CommandInset href
+LatexCommand href
+name "DriveThruRPG"
+target "https://preview.drivethrurpg.com/en/product/168428/Chronicles-of-Darkness"
+literal "false"
+
+\end_inset
+
+) contains the core rules for the Storyteller system.
+\end_layout
+
+\begin_layout Itemize
+The core book for an official supernatural splat (such as 
+\series bold
+Changeling:
+ the Lost 2e
+\series default
+ or 
+\series bold
+Promethean:
+ the Created
+\series default
+) also contain the core rules for the system.
+ The page references found in this book will not be accurate,
+ but conversions may be found in the appendix.
+\end_layout
+
+\begin_layout Plain Layout
+In addition,
+ the following books are recommended for traditional magical girl chronicles involving younger characters,
+ but are not required:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fragile Innocence
+\series default
+ by Erica Mahoney (
+\begin_inset CommandInset href
+LatexCommand href
+name "Storyteller's Vault"
+target "https://www.storytellersvault.com/product/462836/Fragile-Innocence"
+literal "false"
+
+\end_inset
+
+) contains updated rules for playing child and teenager characters in 
+\series bold
+Chronicles of Darkness
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+World of Darkness:
+ Innocents
+\series default
+ (
+\begin_inset CommandInset href
+LatexCommand href
+name "DriveThruRPG"
+target "https://preview.drivethrurpg.com/en/product/55727/World-of-Darkness-Innocents"
+literal "false"
+
+\end_inset
+
+) is a source book for such characters from an earlier edition of 
+\series bold
+World of Darkness
+\series default
+.
+ The rules are outdated and superseded by 
+\series bold
+Fragile Innocence
+\series default
+,
+ but the roleplaying hints,
+ chronicle ideas and merits found in this book are still usable.
 \end_layout
 
 \begin_layout Section
@@ -426,9 +547,10 @@ Luminous
 mahou shoujo
 \emph default
  genre of anime.
- Those stories embrace the darkest corners of life without shy away, and
- yet, refuse to let them consume them, showing how hope can live on even
- in a dark world.
+ Those stories embrace the darkest corners of life without shy away,
+ and yet,
+ refuse to let them consume them,
+ showing how hope can live on even in a dark world.
 \end_layout
 
 \begin_layout Subsection*
@@ -436,29 +558,34 @@ The Journey of Hope
 \end_layout
 
 \begin_layout Plain Layout
-For most, growing up means to give up on hope.
- It's what you were taught growing up, after all.
- Tomorrow always seemed too far away to care about, better to struggle through
- today.
+For most,
+ growing up means to give up on hope.
+ It's what you were taught growing up,
+ after all.
+ Tomorrow always seemed too far away to care about,
+ better to struggle through today.
  It's better to not stick your head out.
- Put childish things behind you, so you won't suffer any longer.
- After all, if things can't be changed, you don't have to think so hard
- about how bad the world is.
+ Put childish things behind you,
+ so you won't suffer any longer.
+ After all,
+ if things can't be changed,
+ you don't have to think so hard about how bad the world is.
  It is as good as it could ever be.
 \end_layout
 
 \begin_layout Plain Layout
 You know it's wrong.
- You saw how much even a small wish can change the world, even without the
- spark of magic.
- You see that if people truly try, the cruelties of the world could be changed.
+ You saw how much even a small wish can change the world,
+ even without the spark of magic.
+ You see that if people truly try,
+ the cruelties of the world could be changed.
  But doubt still rings in your ears.
 \end_layout
 
 \begin_layout Plain Layout
 The lie that the world can't be changed is still seductive.
- To hold onto the hope, and truly wield it to change the world also means
- to confront all the malice of its world in its full horror.
+ To hold onto the hope,
+ and truly wield it to change the world also means to confront all the malice of its world in its full horror.
 \end_layout
 
 \begin_layout Subsection*
@@ -466,26 +593,62 @@ Crossing Paths
 \end_layout
 
 \begin_layout Plain Layout
-Everyone's lives leads them in different directions, and yet we are all
- interconnected.
+Everyone's lives leads them in different directions,
+ and yet we are all interconnected.
  Nobody is truly alone.
- Every person relies on another, loves another, has been hurt by another.
+ Every person relies on another,
+ loves another,
+ has been hurt by another.
  The Luminous know that truth better than anyone else.
- Their Dream Kingdom, after all, was built in the Sea of Stars that connects
- the dreams of all humanity together.
+ Their Dream Kingdom,
+ after all,
+ was built in the Sea of Stars that connects the dreams of all humanity together.
 \end_layout
 
 \begin_layout Plain Layout
-It's all too easy to reject those who are different, cast them away as outsiders.
- In coming to understand them, though, it becomes clear that they are all
- part of a greater whole and each part is valuable as the rest.
+It's all too easy to reject those who are different,
+ cast them away as outsiders.
+ In understanding them,
+ you learn that they simply want to live like everyone else,
+ another part of the greater whole.
 \end_layout
 
 \begin_layout Plain Layout
-On their journey walking in between dreams and reality, the Luminous come
- to rely on and understand the very different people and supernatural creatures
- they share a world with.
- With the help of those others, their dream seems every the more possible.
+On their journey walking in between dreams and reality,
+ the Luminous come to rely on and understand the very different people and supernatural creatures they share a world with.
+ With the help of those others,
+ their dream seems every the more possible.
+\end_layout
+
+\begin_layout Subsection*
+Lights in the Dark
+\end_layout
+
+\begin_layout Plain Layout
+Despite the problems of the world,
+ there are still small moments of happiness and hidden places of beauty everywhere.
+ It's all too easy to explain them away,
+ and dismiss them as not worth it or simply boring.
+ For every grand spectacles,
+ there are a thousand small wonders.
+ In truth,
+ the places we escape to in our vacations aren't all that different,
+ we just give ourselves permission to truly feel the joy in those small things.
+\end_layout
+
+\begin_layout Plain Layout
+Even if they can't change the whole world,
+ even if they can't stop their Kingdom from fading away,
+ the Luminous can still protect those small moments.
+ By living a life full of wonder,
+ they could show the world around them that there is still hope and light in the world.
+\end_layout
+
+\begin_layout Plain Layout
+The Dream was woven from such small things in the first place,
+ and grew into a force that still burns on in its darkest era.
+ Surely,
+ that flame could be ignited again.
 \end_layout
 
 \begin_layout Plain Layout
@@ -504,41 +667,12 @@ columnbreak
 
 \end_layout
 
-\begin_layout Subsection*
-Lights in the Dark
-\end_layout
-
-\begin_layout Plain Layout
-Despite the problems of the world, there are still small moments of happiness
- and hidden places of beauty everywhere.
- It's all too easy to explain them away, and dismiss them as not worth it
- or simply boring.
- For every grand spectacles, there are a thousand small wonders.
- In truth, the places we escape to in our vacations aren't all that different,
- we just give ourselves permission to truly feel the joy in those small
- things.
-\end_layout
-
-\begin_layout Plain Layout
-Even if they can't change the whole world, even if they can't stop their
- Kingdom from fading away, the Luminous can still protect those small moments.
- By living a life full of wonder, they could show the world around them
- that there is still hope and light in the world.
-\end_layout
-
-\begin_layout Plain Layout
-The Dream was woven from such small things in the first place, and grew
- into a force that still burns on in its darkest era.
- Surely, that flame could be ignited again.
-\end_layout
-
 \begin_layout Section
 Inspirations
 \end_layout
 
 \begin_layout Plain Layout
-The following is a small sample of stories and works that have inspired
- 
+The following is a small sample of stories and works that have inspired 
 \series bold
 Luminous
 \series default
@@ -550,19 +684,22 @@ Senki Zesshou Symphogear
 \end_layout
 
 \begin_layout Plain Layout
-Symphogear follows the story of Hibiki, an ordinary girl who ends up bound
- to an ancient relic, allowing her to transform and fight the Noise that
- threaten the world.
- At its heart, it is a story of heartfelt communication, the determination
- to protect those you love, and the sacrifices one makes to do so.
- About the scars of the past, and what must be done to heal them.
+Symphogear follows the story of Hibiki,
+ an ordinary girl who ends up bound to an ancient relic,
+ allowing her to transform and fight the Noise that threaten the world.
+ At its heart,
+ it is a story of heartfelt communication,
+ the determination to protect those you love,
+ and the sacrifices one makes to do so.
+ About the scars of the past,
+ and what must be done to heal them.
 \end_layout
 
 \begin_layout Plain Layout
-Hibiki stays strong in her belief to reach to the heart throughout, fighting
- against people's despair as much she does the Noise.
- When the members of the cast suffer tragedy, it is true their bonds with
- each other that they're able to stand up again.
+Hibiki stays strong in her belief to reach to the heart throughout,
+ fighting against people's despair as much she does the Noise.
+ When the members of the cast suffer tragedy,
+ it is true their bonds with each other that they're able to stand up again.
 \end_layout
 
 \begin_layout Subsection*
@@ -570,12 +707,13 @@ Magia Record
 \end_layout
 
 \begin_layout Plain Layout
-Magia Record is the spiritual successor to Puella Magi Madoka Magica, a
- dark magical girl story that helped to popularized the genre.
- For all its original is known for its darkness, though, it is still a story
- of hope and love.
- It is no wonder then, that its successor too fits well as an inspiration
- for 
+Magia Record is the spiritual successor to Puella Magi Madoka Magica,
+ a dark magical girl story that helped to popularized the genre.
+ For all its original is known for its darkness,
+ though,
+ it is still a story of hope and love.
+ It is no wonder then,
+ that its successor too fits well as an inspiration for 
 \series bold
 Luminous
 \series default
@@ -583,13 +721,12 @@ Luminous
 \end_layout
 
 \begin_layout Plain Layout
-The anime and video game pivots the focus more to human responses to the
- woes of magic.
- It embraces the personal stories that underlie Madoka's cosmic story, focusing
- on the relationships between magical girls and the friends that pull them
- back from the brink of despair.
- The phone game, in particular, tells the kinds of slice-of-life story Luminous
- embraces – of magical girls who care for and love each other.
+The anime and video game pivots the focus more to human responses to the woes of magic.
+ It embraces the personal stories that underlie Madoka's cosmic story,
+ focusing on the relationships between magical girls and the friends that pull them back from the brink of despair.
+ The phone game,
+ in particular,
+ tells the kinds of slice-of-life story Luminous embraces – of magical girls who care for and love each other.
 \end_layout
 
 \begin_layout Subsection*
@@ -597,19 +734,18 @@ Library of Ruina
 \end_layout
 
 \begin_layout Plain Layout
-Library of Ruina is a video game by Project Moon, following the story of
- the people who staff a magical library.
- Through its powers, they learn the stories of the City they live in and
- thus explore the traumas and emotional scars of both the librarians and
- the residents of the City.
- The story is deeply emotional, focusing on people's reactions to a dark
- world and how they – and the world can still change.
+Library of Ruina is a video game by Project Moon,
+ following the story of the people who staff a magical library.
+ Through its powers,
+ they learn the stories of the City they live in and thus explore the traumas and emotional scars of both the librarians and the residents of the City.
+ The story is deeply emotional,
+ focusing on people's reactions to a dark world and how they – and the world can still change.
 \end_layout
 
 \begin_layout Plain Layout
-Both the main protagonists, Angela and Roland have their own dark pasts
- and scars that are revealed through the game's progress, and learn to overcome
- them to see the hope that still remains in their world.
+Both the main protagonists,
+ Angela and Roland have their own dark pasts and scars that are revealed through the game's progress,
+ and learn to overcome them to see the hope that still remains in their world.
 \end_layout
 
 \begin_layout Subsection
@@ -617,22 +753,18 @@ Honkai Impact 3rd
 \end_layout
 
 \begin_layout Plain Layout
-Honkai Impact 3rd is a long running video game by Hoyoverse, about a group
- of young girls growing up as they fight to protect they world they live
- in.
- In time, they learn the truth behind the Houkai that threatens their world
- and how greatly their world was influenced by the civilizations of the
- past.
+Honkai Impact 3rd is a long running video game by Hoyoverse,
+ about a group of young girls growing up as they fight to protect they world they live in.
+ In time,
+ they learn the truth behind the Houkai that threatens their world and how greatly their world was influenced by the civilizations of the past.
 \end_layout
 
 \begin_layout Plain Layout
-The contrast between the stories of the Previous Era and Current Era especially
- resonate with the themes of 
+The contrast between the stories of the Previous Era and Current Era especially resonate with the themes of 
 \series bold
 Luminous
 \series default
- – showing how humanity has a real decision to make in what they believe
- in and what kind of world they create.
+ – showing how humanity has a real decision to make in what they believe in and what kind of world they create.
 \end_layout
 
 \end_inset

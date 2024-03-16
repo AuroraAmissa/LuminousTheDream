@@ -237,7 +237,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip medskip
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -319,11 +319,15 @@ A Wind in the Door
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex TwoColumnsFill
+status open
+
 \begin_layout Section
 The Dream
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -336,7 +340,7 @@ TODO: Write this section.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Sidebar
 status open
 
@@ -350,6 +354,10 @@ Nomenclature
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -422,7 +430,7 @@ above
 Dream Form
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A Luminous' Dream Form is nothing truly unique in a world of dreams.
  All visitors in the Dream (or other mental spaces) manifest a Dream Form
  rather than their physical bodies.
@@ -448,7 +456,7 @@ Mortals cannot perform Weaving Actions, have no Weaving Skills, and do not
  As such, they add Athletics instead of Flow to their Defense.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In addition, Luminous Transformation works differently in the Dream.
  They treat their Dream Form as their default form, and must roll in order
  to transform into their Mundane Form.
@@ -461,7 +469,7 @@ In addition, Luminous Transformation works differently in the Dream.
 Dream Combat
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Dream is not quite a peaceful place.
  Conflict happens in every world, for better or worse.
  ...
@@ -469,7 +477,7 @@ The Dream is not quite a peaceful place.
  force your way through another.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 You could fight in a dream the same way you do in reality.
  You pull out a sword, slicing away at your opponent's (dream) flesh.
  But...
@@ -481,7 +489,7 @@ You could fight in a dream the same way you do in reality.
  one to imagine it in the first place.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Instead of a sword, a Luminous could wield a cutting argument, imposing
  on her target's mind in a way that reaches beyond mundane persuasion.
  She could weave a story of an party all too loud for the introvert, forcing
@@ -490,7 +498,7 @@ Instead of a sword, a Luminous could wield a cutting argument, imposing
  it inflicts any mark that cannot simply be imagined away.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 That is the heart of dream combat.
 \end_layout
 
@@ -498,7 +506,7 @@ That is the heart of dream combat.
 Intent
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In dream combat, intent doesn't simply give focus to why a fight is happening
  – it is the fundamental basis of the world itself.
  When someone resorts to force in the Dream, they initiate Dream Combat,
@@ -507,7 +515,7 @@ In dream combat, intent doesn't simply give focus to why a fight is happening
  tell to achieve it.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 If you wish to destroy a Goetia you don't like, you're probably limited
  to a story of violence of one sort or another.
  If you simply want to get past a door guard unharmed, you have far more
@@ -515,7 +523,7 @@ If you wish to destroy a Goetia you don't like, you're probably limited
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -532,7 +540,7 @@ TODO: aaaa.
 Notions
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex TODO Note (inline)
 status open
 
@@ -549,7 +557,7 @@ TODO: Notions section; the Luminous Token-like.
 Fading
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 When they Blossom, the Luminous become living dreams.
  Though those dreams never truly stop being human at their heart, they are
  still what will remain of the Luminous at the very end.
@@ -557,7 +565,7 @@ When they Blossom, the Luminous become living dreams.
  withers away from time.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 If a Hopeful dies in her Mundane Form while still able to transform, she
  may transform one last time, burning away her Mundane Form entirely in
  the process.
@@ -567,7 +575,7 @@ If a Hopeful dies in her Mundane Form while still able to transform, she
  body wither away, or simply outlives her natural lifespan while transformed.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Regardless of how it comes to be, the Luminous begin to dissolve into the
  Dream, as the stray thoughts of humanity and foreign emotions lap at the
  edges of their mind.
@@ -576,7 +584,7 @@ Regardless of how it comes to be, the Luminous begin to dissolve into the
  Hope sustains them in the same way food and air does a mundane human.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Fading Luminous no longer regain Willpower form rest, and suffer a box of
  severe Hope damage every day.
  Should their entire Hope track be filled with severe Damage, their will
@@ -586,7 +594,7 @@ Fading Luminous no longer regain Willpower form rest, and suffer a box of
  Soul Shocked Condition for any other reason.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex Sidebar
 status open
 
@@ -633,263 +641,677 @@ Perhaps a few group of truly elder Luminous have hidden themselves away
 The Lucid
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The Dream Kingdoms are not only inhabited by the Luminous.
  The vast majority of those who came to dream in their grounds never Blossom,
  never realize that there is more to it than a particularly stable recurring
  dream.
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Young Luminous
+Young Characters
 \end_layout
 
-\begin_layout Standard
-Far too many Hopeful do not have the luxury of waiting until adulthood to
- grasp the power of the Dream.
- The cruelties of the world always start far too early.
- Especially compared with other types of supernatural beings, Luminous tend
- to Blossom very early, with all the complications and benefits it comes
- with.
- On one hand...
- becoming something else is too often effectively the end of their childhood.
- On the other hand, too often that childhood is one they would not wish
- to continue even if they had the choice.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
 Luminous: the Dream
 \series default
- may be used with the rules for child characters found in 
+ is designed to be used with the rules for child and teenager characters
+ found in 
+\series bold
+Fragile Innocence
+\series default
+.
+ In addition, the earlier 
 \series bold
 World of Darkness: Innocents
 \series default
+ source book is recommended as it provides useful thematic guidelines for
+ handling such characters and their stories, although the rules are for
+ an older version of the core rules.
+ The merits from that book may still be used if they work in 
+\series bold
+Chronicles of Darkness
+\series default
 .
- While such a game is fundamentally a Luminous chronicle at its heart, those
- rules are still useful to represent a characters' significant younger Mundane
- Form.
- The Luminous template may be used in combination with the Innocent template.
- Create the character as a normal Luminous with the following modifications:
-\end_layout
-
-\begin_layout Itemize
-She has a lower number of mundane skill dots equal to the normal total for
- her age, and may not place dots in a category exceeding the normal maximum
- for her age's primary category.
-\end_layout
-
-\begin_layout Itemize
-Her mundane skills have a cap of three dots, which increases to four dots
- at Reverie 2 and five dots at Reverie 4.
- At Reverie 4, refund all Prodigy merits under the Sanctity of Merits.
-\end_layout
-
-\begin_layout Itemize
-She has the Study skill instead of Academics and Science.
- It counts as part of the Learn Weaving skill.
-\end_layout
-
-\begin_layout Itemize
-She may buy the Youthful merit for free.
-\end_layout
-
-\begin_layout Itemize
-In Mundane Form, the usual rules for young characters apply to her.
- For example, she suffers increased wounds penalties, is easy to beat down,
- and has a significant disadvantage versus adults.
-\end_layout
-
-\begin_layout Itemize
-Luminous do not suffer any of the usual drawbacks of childhood in their
- Dream Form.
- While their mundane actions versus adults are still penalized, this does
- not apply to Weaving Actions or the use of magic.
-\end_layout
-
-\begin_layout Itemize
-With some cunning, Luminous may acquire social merits normally forbidden
- to young characters – up to and including a full adult Alternate Identity
- given enough persistence and an appropriate Dream Form.
 \end_layout
 
 \begin_layout Subsection*
-World of Darkness: Innocents Summary 
+Innocent Dreams
 \end_layout
 
-\begin_layout Standard
-This section contains a brief summary of the important rules for child character
-s found in 
-\series bold
-World of Darkness: Innocents
-\series default
-.
- Using the full source book is very much recommended as it also provides
- useful thematic guidelines and flavor context as to the rules.
- This summary, then, is meant for use as a quick reference, as a backup
- if you do not have access to 
-\series bold
-Innocents
-\series default
-, and to serve as a partial update to Chronicles of Darkness rules.
+\begin_layout Plain Layout
+The Dream calls especially strongly to children, through their natural imaginati
+veness and their helplessness in their waking life alike.
+ Too often, those children are drawn into confrontations with mundane and
+ supernatural horrors alike – awakening their magic through their sheer
+ desperation.
+ Even those with a kinder story have their own reasons – whether they simply
+ could not stand for what they saw in the world, or wished to dream of far
+ more than mundane reality could grant them.
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Virtue/Vice:
-\series default
- Children use Virtue/Vice like other mortals.
- While in Innocents, they have different Anchors called Asset/Fault, these
- work identically to CofD's version of Virtue/Vice.
+\begin_layout Plain Layout
+Luminous chronicles, by their nature, walk the line between the supernatural
+ and the mundane.
+ For all their brilliant magic, such Luminous are still children in their
+ mundane forms, and must deal with all the limitations and challenges that
+ brings.
+ The Luminous template may be applied normally over the Innocent template.
+ Create a child or teenaged Luminous as normal, with the following changes:
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Morality and Triggers:
-\series default
- Children use Integrity like other mortals.
- As Triggers were a replacement for derangements in Innocents, they are
- superseded by breaking point conditions.
+When you choose your character's mundane skills, follow the rules for an
+ Innocent of her age rather than the usual process for Luminous.
+ In addition, her mundane Size and Species Factor is adjusted based on her
+ age as usual.
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Attributes:
-\series default
- Children allocate attributes the same way as older characters.
- As their dots are compared to the average of their age, they are still
- worse than adults with the same scores.
+Your character cannot gain mundane skills over the normal cap for her age
+ group.
+ At Reverie 2, her skill cap becomes four dots, even if it would normally
+ be lower.
+ At Reverie 4, her skill cap becomes five dots and she refunds all Prodigy
+ merits under the Sanctity of Merits.
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Skills:
-\series default
- Young characters are normally capped to 3 dots in each skill.
- Furthermore, they have fewer skill points to allocate based on their age.
- 7-year-old children allocate 6/5/2 skills, 8-year-olds allocate 7/4/2,
- 9-year-olds allocate 7/4/2, 10-year-olds allocate 8/5/3, 11-year-olds allocate
- 8/5/3, 12-year-olds allocate 9/5/3, and teenagers allocate 10/6/4.
- Children younger than 10 have 1 skill specialty, children 10 or older have
- 2 skill specialties.
+When she Invokes the Dream with a social or mental skill, uses weaving skills
+ or uses her supernatural abilities, your character does not suffer the
+ usual penalties for conflict with older characters and they do not gain
+ the usual bonuses for facing younger characters.
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Skill List:
-\series default
- Children have a Study skill representing their skill at studying and schoolwork.
- This replaces their Academics and Science skills.
- They may not have the Drive skill except in special circumstances that
- would logically allow it.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Escape:
-\series default
- Children are especially skilled at escaping from combat.
- As long as their opponent is not fully focused on them, a child may attempt
- to escape or hide.
- Escape requires an Dexterity + Wits vs Wits + Composure roll, and hiding
- requires a Dexterity + Stealth vs Wits + Composure roll.
- Notably, in the context of Luminous, a transformation is certainly enough
- of a distraction to invoke this rule.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Firearms:
-\series default
- The first time in a combat a character under about the age of 12 unused
- to gunfire is shot at, must spend a point of Willpower or be Beaten Down.
- Furthermore, when such a character attempts to shoot a firearm at someone
- for the first time, she must pass a Resolve + Composure roll or she misses
- and must roll again the next time she tries.
- Luminous who have fought in Dream Form before are exempt from this penalty.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Wound Penalties:
-\series default
- Children are especially vulnerable to wound penalties compared to adults.
- Instead of the normal benchmarks, she suffers a -1 penalty to all actions
- when her fifth-to-last health box is damaged, loses 10-again when her fourth-to
--last is marked, suffers a -2 penalty when her third-to-last health box
- is damaged, cannot spend Willpower to boost rolls when her second-to-last
- is marked, and suffers a -3 penalty when her last box is damaged.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Stunning:
-\series default
- The Stunning rules in Innocents are superseded by Beaten Down & Surrender
- optional rule.
- That rule always applies to children, even in chronicles where it doesn't
- to adults.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Adults vs Children:
-\series default
- Adults gain 8-again on all rolls against children, except when they try
- to hide or escape.
- Unarmed attacks by children against adults suffer a penalty equal to their
- Stamina.
+You may buy the Youthful merit for free.
+ With some cunning, Luminous may acquire social merits normally not available
+ to young characters – up to and including a full adult Alternate Identity.
 \end_layout
 
 \begin_layout Subsection*
-Growing Up
+Simplified Innocents Rules 
 \end_layout
 
-\begin_layout Standard
-One day, childhood must end even for the most imaginative or innocent of
- people.
- Even the Luminous, who are caught in the middle of the responsibility of
- adulthood and the wonders and dreams of childhood, are burdened with everchangi
-ng obligations and restrictions in their mundane life.
- While many choose to spend their younger years continuing their fight,
- others often lay low for quite a while to establish themselves further
- in adult life.
- To skip a child character to adulthood, apply the following changes:
+\begin_layout Plain Layout
+If you do not have access to 
+\series bold
+Fragile Innocence
+\series default
+, you may use a simplified version of its rules for younger characters.
+ Child and teenaged characters have the following advantages and disadvantages:
 \end_layout
 
 \begin_layout Itemize
-Remove any merits that no longer make sense and refund them under the Sanctity
- of Merits.
+
+\series bold
+Conflict vs Adults:
+\series default
+ Children suffer a -2 penalty to all rolls made in conflict against adults,
+ and a -1 penalty against characters who are at least 2 years older.
+ Teenagers suffer a -1 penalty to all rolls made in conflict against adults.
+ Adults in conflict with teenagers or children roll an exceptional success
+ with 3 successes rather than 5.
 \end_layout
 
 \begin_layout Itemize
-Reduce all mundane skills the character has dots in by one dot (down to
- a minimum of one dot), then give them mundane skill dots up to the normal
- adult total of 22 if they have less.
- For Luminous characters, if this would reduce one of their transformed
- skills, she gains transformed skill dots to make up the difference.
- If this would increase her transformed skills, she loses transformed skill
- dots to make up the difference if possible.
+
+\series bold
+Base Statistics:
+\series default
+ Adjust the character's skill points and number of specialties at character
+ creation, maximum dots in mundane skills, base size, and species factor
+ to speed based on the following table:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="5">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="bottom" width="0.35in">
+<column alignment="left" valignment="bottom" width="0.98in">
+<column alignment="left" valignment="bottom" width="0.7in">
+<column alignment="left" valignment="bottom" width="0.3in">
+<column alignment="left" valignment="bottom" width="0.3in">
+<row>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Age
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="bottom" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Skill Points
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Specialities
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Size
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Speed
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+crw
+\end_layout
+
+\end_inset
+
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6/4/2 (3 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7/4/2 (3 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+crw
+\end_layout
+
+\end_inset
+
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7/4/3 (3 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8/5/3 (3 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+crw
+\end_layout
+
+\end_inset
+
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8/5/3 (3 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9/5/3 (3 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+crw
+\end_layout
+
+\end_inset
+
+13-15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10/6/4 (4 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16-18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10/6/4 (5 max)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Time Skips
+\end_layout
+
+\begin_layout Plain Layout
+Many Luminous – whether through their newfound magic or sheer mundane determinat
+ion – overcome the circumstances that lead to their early awakening to the
+ Dream.
+ At the end of such a story, they may choose to simply live out the rest
+ of their childhood as a normal mortal.
+ To continue such a chronicle later in their adulthood, follow these rules:
+\end_layout
+
+\begin_layout Itemize
+Remove any traits or changes exclusive to the Innocents template.
+\end_layout
+
+\begin_layout Itemize
+Refund any merits that are exclusive to Innocents or Teenagers under the
+ Sanctity of Merits.
+ Luminous who still appear as children in their Dream Forms may choose to
+ retain some of these merits when transformed – although most are not appropriat
+e even for such characters.
+\end_layout
+
+\begin_layout Itemize
+Reduce any mundane skills the character has dots in by one dot (to a minimum
+ of one dot), then give them mundane skill dots up to the normal adult total
+ of 22 if they have less.
 \end_layout
 
 \begin_layout Itemize
 Grant the character 20 experiences + 1 experience for every year that has
  passed.
+ Luminous characters gain a dot of Reverie in addition.
 \end_layout
 
-\begin_layout Itemize
-Luminous characters gain a dot of Reverie in addition.
+\end_inset
+
+
 \end_layout
 
 \end_body

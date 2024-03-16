@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass memoir
+\begin_preamble
+% Added by lyx2lyx
+\setlength{\parskip}{halfline}
+\setlength{\parindent}{0pt}
+\end_preamble
 \use_default_options true
 \begin_modules
 todonotes
@@ -13,13 +18,11 @@ enumitem
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
-
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
-
 InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
@@ -32,7 +35,6 @@ InsetLayout Flex:Sidebar
   EndArgument
   ResetsFont            true
 End
-
 InsetLayout Flex:SidebarContentWarning
   LyXType               custom
   Decoration            classic
@@ -41,7 +43,6 @@ InsetLayout Flex:SidebarContentWarning
   LatexName             cw-sidebarenv
   ResetsFont            true
 End
-
 InsetLayout Flex:TwoColumns
   LyXType               custom
   Decoration            classic
@@ -49,14 +50,12 @@ InsetLayout Flex:TwoColumns
   LatexType             environment
   LatexName             lumsharedtwocolumnbox
   ResetsFont            true
-
   Preamble
     \newenvironment{lumsharedtwocolumnbox}
       {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
       {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
   EndPreamble
 End
-
 InsetLayout Flex:TwoColumnsFill
   LyXType               custom
   Decoration            classic
@@ -64,14 +63,12 @@ InsetLayout Flex:TwoColumnsFill
   LatexType             environment
   LatexName             lumsharedtwocolumnboxfill
   ResetsFont            true
-
   Preamble
     \newenvironment{lumsharedtwocolumnboxfill}
       {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
       {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
   EndPreamble
 End
-
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
@@ -87,7 +84,6 @@ InsetLayout Flex:NewCommand
   Argument 2
     LabelString         "Argument Count"
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -96,7 +92,6 @@ InsetLayout Flex:NewCommand
     }
   EndHTMLStyle
 End
-
 InsetLayout Flex:CofDPartQuote
   LyXType               custom
   Decoration            classic
@@ -105,7 +100,6 @@ InsetLayout Flex:CofDPartQuote
   LatexName             lumpartquote
   ResetsFont            true
 End
-
 InsetLayout Flex:CofDChapterQuote
   LyXType               custom
   Decoration            classic
@@ -114,17 +108,14 @@ InsetLayout Flex:CofDChapterQuote
   LatexName             lumchapquote
   ResetsFont            true
 End
-
 InsetLayout Flex:CollapsableRegion
   LyxType               custom
   LatexType             none
   Decoration            minimalistic
   ContentAsLabel        true
-  
   HTMLTag               div
   HTMLIsBlock           true
 End
-
 InsetLayout Flex:IncompleteChapter
   LyXType               custom
   Decoration            classic
@@ -136,7 +127,6 @@ InsetLayout Flex:IncompleteChapter
     LabelString         "Name"
     Mandatory	        1
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -145,7 +135,6 @@ InsetLayout Flex:IncompleteChapter
     }
   EndHTMLStyle
 End
-
 InsetLayout Flex:IncompleteSection
   LyXType               custom
   Decoration            classic
@@ -157,7 +146,6 @@ InsetLayout Flex:IncompleteSection
     LabelString         "Name"
     Mandatory	        1
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -169,8 +157,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +166,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +178,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 10
 \spacing single
 \use_hyperref true
@@ -203,7 +195,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +216,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -245,11 +239,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +257,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "../RulebookShared/Format_Common.lyx"
+literal "true"
 
 \end_inset
 
@@ -303,8 +303,7 @@ includeonceformatluminouspreamble {--}
 
 
 \backslash
-geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=0.7in,rmargin=0.7in,f
-ootskip=0.78in}
+geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=0.7in,rmargin=0.7in,footskip=0.78in}
 \end_layout
 
 \begin_layout Plain Layout
@@ -366,6 +365,23 @@ includeonceformatluminous{--}
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+definesection{lumtitle}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	{Dancing Script Bold}{../fonts/DancingScript-Bold.ttf}%
+\end_layout
+
+\begin_layout Plain Layout
+
+	{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}%
+\end_layout
 
 \begin_layout Plain Layout
 

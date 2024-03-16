@@ -183,7 +183,7 @@ End
 \font_tt_scale 100 100
 \use_microtype true
 \use_dash_ligatures false
-\graphics xetex
+\graphics default
 \default_output_format default
 \output_sync 0
 \bibtex_command default
@@ -236,7 +236,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip medskip
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -271,7 +271,7 @@ status open
 
 
 \backslash
-lumcustomtitle{Luminous: the Dream}{Crossing Paths}
+lumcustomtitle{Luminous: the Dream}{Crossing Paths}{lumtitle}
 \end_layout
 
 \begin_layout Plain Layout
@@ -281,6 +281,23 @@ lumcustomtitle{Luminous: the Dream}{Crossing Paths}
 setsection{luminous}
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Contents_LtDCP_C0_1_Forward.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -953,6 +970,65 @@ Dreaming
 
 \end_layout
 
+\begin_layout Section
+Chronicles of Darkness: The Contagion Chronicle
+\end_layout
+
+\begin_layout Subsection*
+Vector Interactions
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+The Boss Is In:
+\series default
+ Dreamer's Will applies to this vector, but only as it affects the Luminous
+ directly.
+ They may still be deceived for mundane reasons as the organization around
+ them accepts the lie.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Panopticon: 
+\series default
+This vector targets the Dream and Mundane forms of a Luminous seperately.
+ If they switch to their other form while being observed, the vector malfunction
+s in ways that make it clear a supernatural force is interfering with the
+ connection, but not necessarily why or how.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Renewal:
+\series default
+ When activating this ability in Dream Form, Luminous must display a part
+ of their body that appears artifical or augmented, even if it is not truly
+ one.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Eyes on Target:
+\series default
+ While the vector does not pierce Dual Identity, it will reveal a Luminous
+ as supernatural in her Dream Form.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Chiasma & Contagion Resistant:
+\series default
+ Luminous explicitly do not benefit from these vectors.
+ Though they are similar enough to Dyads to count from an in-universe perspectiv
+e, their mechanics for vectors already take this into account.
+\end_layout
+
 \end_inset
 
 
@@ -1130,7 +1206,7 @@ Luminous gain edges from the following Vectors as if they were members of
 \series bold
 Hunters:
 \series default
- Surveillance, The Boss Is In, Comprehension, Define, Eyes on Target, Ocular
+ Surveillance, Cleansing Flame, Comprehension, Define, Eyes on Target, Ocular
  Mapping, Intel Package, Purge Weakness
 \end_layout
 
@@ -1139,8 +1215,8 @@ Hunters:
 \series bold
 Changelings:
 \series default
- Panopticon, The Big Lie, Purification, Divine Revelation, Modern Miracle,
- Breakdown, Discovery, Plutomancy, Shift Contamination
+ Plutomancy, Panopticon, The Big Lie, Purification, Divine Revelation, Modern
+ Miracle, Discovery, Breakdown, Shift Contamination
 \end_layout
 
 \begin_layout Itemize
@@ -1148,7 +1224,7 @@ Changelings:
 \series bold
 Beasts:
 \series default
- Cleansing Flame, Breach, Contagion Shroud
+ Name, Breach, Contagion Shroud
 \end_layout
 
 \begin_layout Itemize
@@ -1166,13 +1242,15 @@ Luminous gain unique Edges for the following Vectors:
 \begin_layout Itemize
 
 \series bold
-Babble:
+The Boss Is In:
 \series default
- Oracles with ties to the Dream may twist its flows into itself, inverting
- the ties between speaker and listener.
- When the Babble vector is used by a character with this edge, other characters
- understand their speech as what they expect them to say rather than gibberish,
- communicating no truly new information.
+ For Dreamborn, form and shapes are mutable and the roles they play are
+ essential.
+ A character with this edge may use this vector no matter how unfitting
+ she appears for her role in the organization, will not be noticed as supernatur
+al by members of the organization and may manifest approprate physical elements
+ as if using a Mantle.
+ This requires no Luminosity to maintain, and ends when the vector ends.
 \end_layout
 
 \begin_layout Itemize
@@ -1180,9 +1258,24 @@ Babble:
 \series bold
 Godhead:
 \series default
- Your power to defy the world's laws grows shaper than ever before.
- While this vector is active, you treat all spaces as if their Mutability
- was one level higher for your Dreamweaving.
+ The power you knew from your dreams burns brighter than ever before, eclipsing
+ the world's laws entirely.
+ While this vector is active, you are forced into Dream Form and may Weave
+ as if you were in a place one step more Mutable.
+ After it ends, you suffer Flicker as if you had stayed transformed for
+ a week.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Babble:
+\series default
+ Meanings twist onto themselve and are distorted by the perceptions of a
+ thousand listeners as they propagate across the collective unconscious.
+ A character with this edge may fragment their victim's communications entirely,
+ causing the listeners to hear what they expect the speaker to say, rather
+ than any meaningful new information.
 \end_layout
 
 \begin_layout Itemize
@@ -1190,10 +1283,11 @@ Godhead:
 \series bold
 Renewal:
 \series default
- When your form is woven of your own imagination, the line between physical
- and mental afflictions is not so clear.
- A character with this edge can suppress any Condition they could clear
- with Dreamweaving rather than only physical ones.
+ The Luminous know how the line between mental and physical can be breached.
+ A character with this edge can suppress any Condition representing a mental
+ influence or affliction rather than only physical ones.
+ Further, they use their transformed Resistance dots in place of their Stamina
+ for determining how many Renewal points they gain.
 \end_layout
 
 \begin_layout Itemize
@@ -1203,20 +1297,21 @@ Improve:
 \series default
  You seal an ephemeral power into your sigil, bestowing the same gifts you
  enjoy in your dreams.
- Luminous may bestow a single Dream Attribute or Weaving Skill with their
- sigil in place of the usual three, allowing the recipients to apply them
- in place of their mundane equivalents.
+ Luminous may bestow a single Dream Attribute or Art with their sigil in
+ place of the usual three, allowing the recipients to apply them in place
+ of their mundane equivalents.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Evolve:
+Evolve: 
 \series default
- A faint echo of the initial link remains even after it fades, resonating
- with the emotions of both parties.
- You know the emotional state of the other party at all times, and gain
- a +3 bonus to all rolls to understand or emphasize with them.
+The nature of a Dreamer ties deeply to the relationships between people,
+ and the bonds they create are emotional as much as supernatural.
+ Both people bound by this vector dream of each other as if they had Strong
+ Intimacy, even if the recipient fails their check to keep the actual supernatua
+l power granted.
 \end_layout
 
 \begin_layout Itemize
@@ -1224,10 +1319,10 @@ Evolve:
 \series bold
 Fire for Effect:
 \series default
- The bonds tying together all of humanity burn strongly in your heart, and
- may draw closer upon them in moments of crisis.
- You gain 3 temporary Motes in your Mote Pool, which may only be spent on
- Evocations used to support your Allies.
+ You understand innately the way people interrelate and support each other,
+ whether in mundane life or combat.
+ During the combat, you gain 3 temporary Motes in your Mote Pool, which
+ may only be spent on Evocations used to support your allies.
  These may exceed the usual limit, but disappear if not used once the vector
  is over.
 \end_layout
@@ -1246,7 +1341,8 @@ Drain Energy:
 \series bold
 Control Contagion:
 \series default
- Luminous gain the same benefits as Hunters when using Control Contagion.
+ Luminous gain the same common as Beasts, Hunters and Werewolves when using
+ Control Contagion.
  For the chapter, the Luminous is treated as an Angel by supernatural powers
  in Dream Form and Read the Winds functions on Infrastructure rather than
  any of its usual targets.

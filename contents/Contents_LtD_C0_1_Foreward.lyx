@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -13,13 +13,11 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
-
 PackageOptions xcolor table
 PackageOptions todonotes colorinlistoftodos
-
 InsetLayout Flex:Sidebar
   LyXType               custom
   Decoration            classic
@@ -32,7 +30,6 @@ InsetLayout Flex:Sidebar
   EndArgument
   ResetsFont            true
 End
-
 InsetLayout Flex:SidebarContentWarning
   LyXType               custom
   Decoration            classic
@@ -41,7 +38,6 @@ InsetLayout Flex:SidebarContentWarning
   LatexName             cw-sidebarenv
   ResetsFont            true
 End
-
 InsetLayout Flex:TwoColumns
   LyXType               custom
   Decoration            classic
@@ -49,14 +45,12 @@ InsetLayout Flex:TwoColumns
   LatexType             environment
   LatexName             lumsharedtwocolumnbox
   ResetsFont            true
-
   Preamble
     \newenvironment{lumsharedtwocolumnbox}
       {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
       {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
   EndPreamble
 End
-
 InsetLayout Flex:TwoColumnsFill
   LyXType               custom
   Decoration            classic
@@ -64,14 +58,12 @@ InsetLayout Flex:TwoColumnsFill
   LatexType             environment
   LatexName             lumsharedtwocolumnboxfill
   ResetsFont            true
-
   Preamble
     \newenvironment{lumsharedtwocolumnboxfill}
       {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
       {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
   EndPreamble
 End
-
 InsetLayout Flex:NewCommand
   LyXType               custom
   Decoration            classic
@@ -87,7 +79,6 @@ InsetLayout Flex:NewCommand
   Argument 2
     LabelString         "Argument Count"
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -96,7 +87,6 @@ InsetLayout Flex:NewCommand
     }
   EndHTMLStyle
 End
-
 InsetLayout Flex:CofDPartQuote
   LyXType               custom
   Decoration            classic
@@ -105,7 +95,6 @@ InsetLayout Flex:CofDPartQuote
   LatexName             lumpartquote
   ResetsFont            true
 End
-
 InsetLayout Flex:CofDChapterQuote
   LyXType               custom
   Decoration            classic
@@ -114,17 +103,14 @@ InsetLayout Flex:CofDChapterQuote
   LatexName             lumchapquote
   ResetsFont            true
 End
-
 InsetLayout Flex:CollapsableRegion
   LyxType               custom
   LatexType             none
   Decoration            minimalistic
   ContentAsLabel        true
-  
   HTMLTag               div
   HTMLIsBlock           true
 End
-
 InsetLayout Flex:IncompleteChapter
   LyXType               custom
   Decoration            classic
@@ -136,7 +122,6 @@ InsetLayout Flex:IncompleteChapter
     LabelString         "Name"
     Mandatory	        1
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -145,7 +130,6 @@ InsetLayout Flex:IncompleteChapter
     }
   EndHTMLStyle
 End
-
 InsetLayout Flex:IncompleteSection
   LyXType               custom
   Decoration            classic
@@ -157,7 +141,6 @@ InsetLayout Flex:IncompleteSection
     LabelString         "Name"
     Mandatory	        1
   EndArgument
-
   HTMLTag               div
   HTMLIsBlock           true
   HTMLStyle
@@ -169,8 +152,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,16 +161,20 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
 \use_dash_ligatures false
-\graphics xetex
+\graphics default
 \default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 10
 \spacing single
 \use_hyperref true
@@ -203,7 +190,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -224,7 +211,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -237,7 +226,7 @@ End
 \secnumdepth -2
 \tocdepth 5
 \paragraph_separation skip
-\defskip medskip
+\defskip halfline
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style plain
@@ -245,11 +234,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -258,6 +252,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_Luminous.lyx"
+literal "true"
 
 \end_inset
 
@@ -280,57 +275,17 @@ setsection{luminous}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
 \begin_layout Chapter
-Foreword 
-\begin_inset CommandInset label
-LatexCommand label
-name "chap:Foreword"
+Credits
+\end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\shape italic
-\emph on
-Luminous: the Dream
-\series default
-\shape default
-\emph default
- is a fanmade roleplaying game for the 
-\series bold
-Chronicles of Darkness
-\series default
-, inspired by the 
-\emph on
-mahou shoujo
-\emph default
- genre of anime and manga.
- Players take on the role of those caught between the waking world and the
- world of dreams.
- Wielding a fleeting power born from that boundary, they seek to create
- a better future for all who live within every world.
-\end_layout
-
-\begin_layout Standard
-The 
-\series bold
-Chronicles of Darkness
-\series default
- book is needed to use this book.
- At the time this book was written, it can be purchased from 
-\begin_inset CommandInset href
-LatexCommand href
-name "DriveThru RPG"
-target "https://www.drivethrurpg.com/"
-literal "false"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -341,130 +296,162 @@ status open
 
 
 \backslash
-repotext {Luminous: the Dream}{AuroraAmissa/LuminousTheDream}
+addcontentsline{toc}{chapter}{Credits}
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Foreword"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\begin_inset Flex TwoColumns
+status open
+
+\begin_layout Subsubsection*
 Credits
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \series bold
-Luminous: the Dream
+Developer:
+
 \series default
- is written by AuroraAmissa, with a lot of assistant from several contributors.
- Without their help, this project would likely have not been possible.
-\end_layout
-
-\begin_layout Itemize
-AnemoneMeer, Suzune and Ellie, whose input helped immensely with the core
- ideas behind Luminous' mechanics and core lore.
-\end_layout
-
-\begin_layout Itemize
-Hanako, who taught me the ways of the dark magical girl.
- :)
-\end_layout
-
-\begin_layout Itemize
-Xelsius, TrueMrMultiverse, MushroomBadger, and all the others who helped
- immensely with their feedback and suggestions later on in the project.
-\end_layout
-
-\begin_layout Standard
-Beyond those who worked with me directly, Luminous has been inspired by
- many other works that came before.
-\end_layout
-
-\begin_layout Itemize
-Luminous started as a project to make a third version of 
+ AuroraAmissa
 \series bold
-\shape italic
-\emph on
-Princess: the Hopeful
+
+\begin_inset Newline newline
+\end_inset
+
+Writers:
+
 \series default
-\shape default
-\emph default
+ AuroraAmissa
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Art:
+
+\series default
+ Generated with NovelAI (Temporarily)
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Layout:
+
+\series default
+ AuroraAmissa
+\end_layout
+
+\begin_layout Subsubsection*
+Special Thanks
+\end_layout
+
+\begin_layout Plain Layout
+AnemoneMeer,
+ Suzune,
+ Ellie,
+ MushroomBadger,
+ Hanako,
+ Xelsius,
+ and so many more members of the Discord who helped me refine the fansplat and find direction early on.
+\end_layout
+
+\begin_layout Plain Layout
+All the authors of 
+\series bold
+Princess:
+ the Hopeful
+\series default
+,
+ whose project inspired this one - especially back in the days when it was still 
+\series bold
+Princess:
+ the Fading
+\series default
 .
- In time, I began drawing more on the very earliest drafts, back when it
- was called 
-\series bold
-Princess: the Fading
-\series default
-.
- Luminous has since diverged entirely from Princess, but its inspiration
- is still what put me on the path of writing a fansplat in the first time.
 \end_layout
 
-\begin_layout Itemize
-Of the official Storyteller system sourcebooks, 
+\begin_layout Plain Layout
+The authors of 
 \series bold
-Changeling: the Dreaming
+Changeling:
+ the Dreaming
 \series default
  and 
 \series bold
 Graceful Wicked Masques
 \series default
- were major inspirations for Luminous.
- The former was always an inspiration to Princess before it lessened over
- time, and the latter – as different as its themes are – show how the system
- can portray a world of dreams and stories in a truly appropriate way.
+,
+ whose works taught me how to do such things.
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-A Wind in the Door
-\series default
-, the novel that first taught me so long ago what it meant to dream and
- 
-\emph on
-hope
-\emph default
-.
+\begin_layout Plain Layout
+Madeleine L'Engle,
+ whose books taught me what it meant to dream.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+columnbreak
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Flex SidebarContentWarning
 status open
 
-\begin_layout Section*
+\begin_layout Subsubsection*
 Content Warning
 \end_layout
 
 \begin_layout Plain Layout
 
 \series bold
-Luminous: the Dream
+Luminous:
+ the Dream
 \series default
  tells stories of both the escapism of dreams and the cruelties of reality.
- This book discusses subject matters such as poverty, sexism, racism, and
- all kinds of the mundane and small cruelties that are too often overlooked.
- Beyond that, its supernatural elements involve themes of rejection of reality,
+ This book discusses subject matters such as poverty,
+ sexism,
+ racism,
+ and all kinds of the mundane and small cruelties that are too often overlooked.
+ Beyond that,
+ its supernatural elements involve themes of rejection of reality,
  and blurred boundaries between people.
 \end_layout
 
 \begin_layout Plain Layout
-If you are sensitive to such content, please take care when reading or playing
- 
+If you are sensitive to such content,
+ please take care when reading or playing 
 \series bold
 Luminous
 \series default
 .
- Safety techniques for such things are discussed in [TODO: Chapter link].
+ Safety techniques for such things are discussed in [TODO:
+ Chapter link].
 \end_layout
 
 \end_inset
@@ -472,72 +459,128 @@ Luminous
 
 \end_layout
 
-\begin_layout Section*
-Legal Stuff
+\begin_layout Plain Layout
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Notice
 \end_layout
 
-\begin_layout Standard
+\end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
+The 
 \series bold
-\shape italic
-\emph on
-Luminous: the Dream
+Chronicles of Darkness
 \series default
-\shape default
-\emph default
- was originally inspired by the Vocations version of 
-\series bold
-\shape italic
-\emph on
-Princess: the Hopeful
-\series default
-\shape default
-\emph default
-.
- That version of 
-\series bold
-\shape italic
-\emph on
-Princess: the Hopeful
-\series default
-\shape default
-\emph default
- was a collaborative effort of many posters who contributed to its development
- on the RPGnet forums, including Cruton, Azunth, Michael Brazier, EarthScorpion,
- Luc "Nickname" French, hazard151, Huitzil, Leliel, Kearin, TheKingsRaven,
- Naomi Li, MagicSwordsman, Martin Padilla, SaulotTheGentle, and Jordy Vanderstuk
-ken.
- It is available under the CC Attribution-ShareAlike 3.0 Unported License.
- It can be downloaded from its 
+ book is needed to use this book.
+ At the time this book was written,
+ it can be purchased from 
 \begin_inset CommandInset href
 LatexCommand href
-name "homepage"
-target "https://sites.google.com/site/princessthehopeful/home"
+name "DriveThru RPG"
+target "https://www.drivethrurpg.com/"
 literal "false"
 
 \end_inset
 
 .
+ The rulebooks for other gamelines may be used instead,
+ but the page numbers provided in this book are for the core book.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+repotext {Luminous:
+ the Dream}{AuroraAmissa/LuminousTheDream}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-This work is licensed under the Creative Commons Attribution-ShareAlike
- 4.0 Unported License.
- To view a copy of this license, visit 
+\begin_inset Float table
+placement b
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[align=c,width=2cm]{../resources/by-nc-sa} 
+\backslash
+hspace{0.5em}
+\end_layout
+
+\end_inset
+
+ AuroraAmissa,
+ 2023-2024
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+© 2023-2024 by AuroraAmissa.
+ This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+ To view a copy of this license,
+ visit 
 \begin_inset CommandInset href
 LatexCommand href
 name "their website"
-target "http://creativecommons.org/licenses/by-sa/4.0/"
+target "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 literal "false"
 
 \end_inset
 
- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
- View, California, 94041, USA.
-\end_layout
-
-\begin_layout Standard
-This work uses fonts licensed under the 
+ or send a letter to Creative Commons,
+ 444 Castro Street,
+ Suite 900,
+ Mountain View,
+ California,
+ 94041,
+ USA.
+ This work uses fonts licensed under the 
 \begin_inset CommandInset href
 LatexCommand href
 name "SIL Open Font License, Version 1.1"
@@ -556,7 +599,8 @@ literal "false"
 
 \end_inset
 
- font by Pablo Impallari, 
+ font by Pablo Impallari,
+ 
 \begin_inset CommandInset href
 LatexCommand href
 name "Fira Sans"
@@ -565,7 +609,8 @@ literal "false"
 
 \end_inset
 
- by Carrois Apostrophe, and 
+ by Carrois Apostrophe,
+ and 
 \begin_inset CommandInset href
 LatexCommand href
 name "DejaVu Sans Mono"
@@ -575,20 +620,33 @@ literal "false"
 \end_inset
 
  by various contributors.
+ The mention of or reference to any company or product in these pages is not a challenge to the trademark or copyright concerned.
 \end_layout
 
-\begin_layout Standard
-The mention of or reference to any company or product in these pages is
- not a challenge to the trademark or copyright concerned.
+\begin_layout Plain Layout
+
+\size small
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-This work uses the supernatural for settings, characters and themes.
- All mystical and supernatural elements are fiction and intended for entertainme
-nt purposes only.
- Furthermore, this book contains mature content.
+\begin_layout Plain Layout
+
+\size small
+This work uses the supernatural for settings,
+ characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainment purposes only.
+ Furthermore,
+ this book contains mature content.
  Reader discretion is advised.
  
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
