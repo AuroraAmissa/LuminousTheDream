@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass memoir
+\begin_preamble
+% Added by lyx2lyx
+\setlength{\parskip}{halfline}
+\setlength{\parindent}{0pt}
+\end_preamble
 \use_default_options true
 \begin_modules
 enumitem
@@ -13,7 +18,7 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
 
@@ -169,8 +174,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +183,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +195,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 10
 \spacing single
 \use_hyperref true
@@ -202,7 +211,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -223,7 +232,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -244,11 +255,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -257,6 +273,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_Luminous.lyx"
+literal "true"
 
 \end_inset
 
@@ -327,6 +344,7 @@ Credits
 
 \series bold
 Developer:
+
 \series default
  AuroraAmissa
 \series bold
@@ -335,6 +353,7 @@ Developer:
 \end_inset
 
 Writers:
+
 \series default
  AuroraAmissa
 \series bold
@@ -343,6 +362,7 @@ Writers:
 \end_inset
 
 Art:
+
 \series default
  [TO BE DETERMINED]
 \series bold
@@ -351,6 +371,7 @@ Art:
 \end_inset
 
 Layout:
+
 \series default
  AuroraAmissa
 \end_layout
@@ -390,18 +411,22 @@ Content Warning
 \begin_layout Plain Layout
 
 \series bold
-Luminous: the Dream
+Luminous:
+ the Dream
 \series default
  tells stories of both the escapism of dreams and the cruelties of reality.
- This book discusses subject matters such as poverty, sexism, racism, and
- all kinds of the mundane and small cruelties that are too often overlooked.
- Beyond that, its supernatural elements involve themes of rejection of reality,
+ This book discusses subject matters such as poverty,
+ sexism,
+ racism,
+ and all kinds of the mundane and small cruelties that are too often overlooked.
+ Beyond that,
+ its supernatural elements involve themes of rejection of reality,
  and blurred boundaries between people.
 \end_layout
 
 \begin_layout Plain Layout
-If you are sensitive to such content, please take care when reading or playing
- 
+If you are sensitive to such content,
+ please take care when reading or playing 
 \series bold
 Luminous
 \series default
@@ -434,7 +459,8 @@ Notice
 \begin_layout Plain Layout
 The core book for 
 \series bold
-Luminous: the Dream
+Luminous:
+ the Dream
 \series default
  is needed to use this book.
  The core book should have been provided in the same archive as this document.
@@ -446,7 +472,8 @@ The
 Chronicles of Darkness
 \series default
  book is needed to use this book.
- At the time this book was written, it can be purchased from 
+ At the time this book was written,
+ it can be purchased from 
 \begin_inset CommandInset href
 LatexCommand href
 name "DriveThru RPG"
@@ -456,8 +483,8 @@ literal "false"
 \end_inset
 
 .
- The rulebooks for other gamelines may be used instead, but the page numbers
- provided in this book are for the core book.
+ The rulebooks for other gamelines may be used instead,
+ but the page numbers provided in this book are for the core book.
 \end_layout
 
 \begin_layout Plain Layout
@@ -468,7 +495,8 @@ status open
 
 
 \backslash
-repotext {Luminous: the Dream}{AuroraAmissa/LuminousTheDream}
+repotext {Luminous:
+ the Dream}{AuroraAmissa/LuminousTheDream}
 \end_layout
 
 \end_inset
@@ -489,6 +517,7 @@ repotext {Luminous: the Dream}{AuroraAmissa/LuminousTheDream}
 \begin_layout Standard
 \begin_inset Float table
 placement b
+alignment document
 wide false
 sideways false
 status open
@@ -501,14 +530,15 @@ status open
 
 
 \backslash
-includegraphics[align=c,width=2cm]{../resources/by-sa} 
+includegraphics[align=c,width=2cm]{../resources/by-nc-sa} 
 \backslash
 hspace{0.5em}
 \end_layout
 
 \end_inset
 
- AuroraAmissa, 2023
+ AuroraAmissa,
+ 2023-2024
 \end_layout
 
 \begin_layout Plain Layout
@@ -521,20 +551,25 @@ hspace{0.5em}
 \begin_layout Plain Layout
 
 \size small
-© 2023 by AuroraAmissa.
- This work is licensed under the Creative Commons Attribution-ShareAlike
- 4.0 Unported License.
- To view a copy of this license, visit 
+© 2023-2024 by AuroraAmissa.
+ This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+ To view a copy of this license,
+ visit 
 \begin_inset CommandInset href
 LatexCommand href
 name "their website"
-target "http://creativecommons.org/licenses/by-sa/4.0/"
+target "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 literal "false"
 
 \end_inset
 
- or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain
- View, California, 94041, USA.
+ or send a letter to Creative Commons,
+ 444 Castro Street,
+ Suite 900,
+ Mountain View,
+ California,
+ 94041,
+ USA.
  This work uses fonts licensed under the 
 \begin_inset CommandInset href
 LatexCommand href
@@ -554,7 +589,8 @@ literal "false"
 
 \end_inset
 
- font by Pablo Impallari, 
+ font by Pablo Impallari,
+ 
 \begin_inset CommandInset href
 LatexCommand href
 name "Fira Sans"
@@ -563,7 +599,8 @@ literal "false"
 
 \end_inset
 
- by Carrois Apostrophe, and 
+ by Carrois Apostrophe,
+ and 
 \begin_inset CommandInset href
 LatexCommand href
 name "DejaVu Sans Mono"
@@ -573,8 +610,7 @@ literal "false"
 \end_inset
 
  by various contributors.
- The mention of or reference to any company or product in these pages is
- not a challenge to the trademark or copyright concerned.
+ The mention of or reference to any company or product in these pages is not a challenge to the trademark or copyright concerned.
 \end_layout
 
 \begin_layout Plain Layout
@@ -589,10 +625,11 @@ literal "false"
 \begin_layout Plain Layout
 
 \size small
-This work uses the supernatural for settings, characters and themes.
- All mystical and supernatural elements are fiction and intended for entertainme
-nt purposes only.
- Furthermore, this book contains mature content.
+This work uses the supernatural for settings,
+ characters and themes.
+ All mystical and supernatural elements are fiction and intended for entertainment purposes only.
+ Furthermore,
+ this book contains mature content.
  Reader discretion is advised.
 \end_layout
 

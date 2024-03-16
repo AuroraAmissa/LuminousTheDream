@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -13,7 +13,7 @@ fixltx2e
 InStar
 pdfform
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \begin_local_layout
 Format 66
 
@@ -169,8 +169,8 @@ End
 \end_local_layout
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -178,7 +178,9 @@ End
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype true
@@ -188,6 +190,8 @@ End
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
+\float_placement class
+\float_alignment class
 \paperfontsize 10
 \spacing single
 \use_hyperref true
@@ -202,7 +206,7 @@ End
 \pdf_colorlinks true
 \pdf_backref section
 \pdf_pdfusetitle true
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -223,7 +227,9 @@ End
 \suppress_date true
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -244,11 +250,16 @@ End
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 1
 \html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -257,6 +268,7 @@ End
 \begin_inset CommandInset include
 LatexCommand input
 filename "Format_Luminous.lyx"
+literal "true"
 
 \end_inset
 
@@ -271,7 +283,8 @@ status open
 
 
 \backslash
-lumcustomtitle{Luminous: the Dream}{Crossing Paths}{lumtitle}
+lumcustomtitle{Luminous:
+ the Dream}{Crossing Paths}{lumtitle}
 \end_layout
 
 \begin_layout Plain Layout
@@ -290,6 +303,7 @@ setsection{luminous}
 \begin_inset CommandInset include
 LatexCommand input
 filename "Contents_LtDCP_C0_1_Forward.lyx"
+literal "true"
 
 \end_inset
 
@@ -304,7 +318,8 @@ filename "Contents_LtDCP_C0_1_Forward.lyx"
 \end_layout
 
 \begin_layout Chapter
-Appendix A: Crossing Paths 
+Appendix A:
+ Crossing Paths 
 \begin_inset CommandInset label
 LatexCommand label
 name "chap:Chapter-1:-Crossing"
@@ -319,10 +334,9 @@ name "chap:Chapter-1:-Crossing"
 status open
 
 \begin_layout Plain Layout
-The World of Darkness is filled with all kinds of supernatural beings, all
- with their own stories and paths.
- Luminous often cross paths with them in the course of their duties and
- explorations.
+The World of Darkness is filled with all kinds of supernatural beings,
+ all with their own stories and paths.
+ Luminous often cross paths with them in the course of their duties and explorations.
  This chapter provides guidelines on Luminous crossover campaigns.
 \end_layout
 
@@ -331,33 +345,34 @@ Beast
 \end_layout
 
 \begin_layout Plain Layout
-Luminous and the Begotten are at once all too similar, and all too different.
- Both are native to the Dream in their own ways, one from the bright dreams
- of humanity and the other from their deepest fears.
+Luminous and the Begotten are at once all too similar,
+ and all too different.
+ Both are native to the Dream in their own ways,
+ one from the bright dreams of humanity and the other from their deepest fears.
 \end_layout
 
 \begin_layout Plain Layout
-Their fundamental natures too often put them at odds with each other, regardless
- of their will or what they want.
- A Luminous' ties to the Dream cause her to feel the emotions of the community
- and those around her as deeply as if they were her own, and yet a Beast
- must fill it with fear in order to survive, driven by their own Hunger.
+Their fundamental natures too often put them at odds with each other,
+ regardless of their will or what they want.
+ A Luminous' ties to the Dream cause her to feel the emotions of the community and those around her as deeply as if they were her own,
+ and yet a Beast must fill it with fear in order to survive,
+ driven by their own Hunger.
 \end_layout
 
 \begin_layout Plain Layout
 Few beasts can (or often want to) feed in a way that don't hurt the Luminous.
- They can rarely avoid each other forever, and their powers inevitably draw
- them together.
+ They can rarely avoid each other forever,
+ and their powers inevitably draw them together.
 \end_layout
 
 \begin_layout Plain Layout
 ...
- and as much as both have powers that connect people, it rarely can truly
- overcome that incompatibility.
- Most Beasts see the Luminous as another kind of Hero, and Luminous see
- the Begotten as another kind of Distorted.
- This barrier is not insurmountable, by any means – but their relationship
- is defined by high highs and low lows.
+ and as much as both have powers that connect people,
+ it rarely can truly overcome that incompatibility.
+ Most Beasts see the Luminous as another kind of Hero,
+ and Luminous see the Begotten as another kind of Distorted.
+ This barrier is not insurmountable,
+ by any means – but their relationship is defined by high highs and low lows.
 \end_layout
 
 \begin_layout Subsection
@@ -365,46 +380,53 @@ Chronicles
 \end_layout
 
 \begin_layout Plain Layout
-Luminous and Beast share a fair number of themes, for all their conflicts.
- With work, a Chronicle focusing on Beasts and Luminous can work.
+Luminous and Beast share a fair number of themes,
+ for all their conflicts.
+ With work,
+ a Chronicle focusing on Beasts and Luminous can work.
 \end_layout
 
 \begin_layout Plain Layout
-Both have powers that lead them towards them encountering broad rather than
- specific supernatural problems, leading them naturally towards crossover.
- With both involved in a Chronicle, it's hard to avoid this shared theme.
- Storytellers should certainly embrace it, but not lead to a feeling that
- all is 
+Both have powers that lead them towards them encountering broad rather than specific supernatural problems,
+ leading them naturally towards crossover.
+ With both involved in a Chronicle,
+ it's hard to avoid this shared theme.
+ Storytellers should certainly embrace it,
+ but not lead to a feeling that all is 
 \emph on
 known
 \emph default
 .
- Not all problems would be recognizable to any kind of supernatural being
- – some are Outsiders, some are just what they are.
+ Not all problems would be recognizable to any kind of supernatural being – some are Outsiders,
+ some are just what they are.
 \end_layout
 
 \begin_layout Plain Layout
-Both too, have an underlying theme of family and community.
- They seek companionship in those like them, and accept their inner natures,
+Both too,
+ have an underlying theme of family and community.
+ They seek companionship in those like them,
+ and accept their inner natures,
  drawing on them for power.
- There is a connection to be forged, and a Chronicle with the two would
- likely have a feeling of family to it – of a small group that does their
- best in a world that would like neither to exist.
+ There is a connection to be forged,
+ and a Chronicle with the two would likely have a feeling of family to it – of a small group that does their best in a world that would like neither to exist.
 \end_layout
 
 \begin_layout Plain Layout
-In other words, whether they call it a Brood or Nakama, that is likely what
- a mixed group of Luminous and Beasts would amount to.
+In other words,
+ whether they call it a Brood or Nakama,
+ that is likely what a mixed group of Luminous and Beasts would amount to.
 \end_layout
 
 \begin_layout Plain Layout
-Their conflicts, though...
- cannot be fully avoided, even then.
- Sensitivity and Hunger will always lead the two to conflict, and it will
- always define Chronicles shared between the two.
- The Storyteller should certainly be aware of this conflict, and drive it
- in directions that benefit the overall story, inflaming it sometimes if
- needed.
+Their conflicts,
+ though...
+ cannot be fully avoided,
+ even then.
+ Sensitivity and Hunger will always lead the two to conflict,
+ and it will always define Chronicles shared between the two.
+ The Storyteller should certainly be aware of this conflict,
+ and drive it in directions that benefit the overall story,
+ inflaming it sometimes if needed.
 \end_layout
 
 \begin_layout Subsection
@@ -412,8 +434,7 @@ Interactions
 \end_layout
 
 \begin_layout Plain Layout
-Luminous and Begotten draw their power from different parts of the same
- whole.
+Luminous and Begotten draw their power from different parts of the same whole.
  Their powers often interact as the mirrors they are.
 \end_layout
 
@@ -422,14 +443,14 @@ Kinship
 \end_layout
 
 \begin_layout Plain Layout
-Kinship between the Luminous and Begotten are strained by the Luminous'
- strong ties to the mundane.
- Luminous have only partial Kinship with Beasts in Dream Form, and none
- in Mundane Form.
+Kinship between the Luminous and Begotten are strained by the Luminous' strong ties to the mundane.
+ Luminous have only partial Kinship with Beasts in Dream Form,
+ and none in Mundane Form.
  Thicker Than Water has no effect on Luminous in either form.
- Family Dinner, likewise, often does not apply – Hope recovery alone never
- counts, although Luminous are often still driven to hunt in ways that can
- satisfy its conditions.
+ Family Dinner,
+ likewise,
+ often does not apply – Hope recovery alone never counts,
+ although Luminous are often still driven to hunt in ways that can satisfy its conditions.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -439,8 +460,9 @@ Nightmares
 \begin_layout Plain Layout
 Most Luminous dream of a world that isn't afraid to step into a bright future,
  fighting against the force of fear itself.
- As such, Nightmares based on them are rarely so much based on their dreams
- or ideals, but rather the powers they use towards that goal.
+ As such,
+ Nightmares based on them are rarely so much based on their dreams or ideals,
+ but rather the powers they use towards that goal.
  Common examples include ones that break down a target's grasp on reality,
  or drowning them in their own imagination.
 \end_layout
@@ -450,23 +472,22 @@ Power of Dreams
 \end_layout
 
 \begin_layout Plain Layout
-While Beasts are also natives of the Dream, Evocations do not have permanent
- effect on them as they do with Luminous as they are still more flesh than
- dream.
- Lairs, and their Horror, however, are vulnerable to the full force of a
- Luminous' Evocations.
+While Beasts are also natives of the Dream,
+ Evocations do not have permanent effect on them as they do with Luminous as they are still more flesh than dream.
+ Lairs,
+ and their Horror,
+ however,
+ are vulnerable to the full force of a Luminous' Evocations.
 \end_layout
 
 \begin_layout Plain Layout
-The Luminous draw on the Dream's fundamental power to connect people and
- concepts through their Journeys and Intimacy, and Beasts through their
- Kinship and Burrows.
- Burrows can be drawn between a Luminous' Soulspace and a Chamber in the
- same way as Brood Layers.
- Luminous may forge and redefine such connections, taking a point of severe
- Hope Damage in place of spending Satiety.
- When redefining or resisting unwanted connections, she may add Hope as
- a bonus to her Clash of Wills.
+The Luminous draw on the Dream's fundamental power to connect people and concepts through their Journeys and Intimacy,
+ and Beasts through their Kinship and Burrows.
+ Burrows can be drawn between a Luminous' Soulspace and a Chamber in the same way as Brood Layers.
+ Luminous may forge and redefine such connections,
+ taking a point of severe Hope Damage in place of spending Satiety.
+ When redefining or resisting unwanted connections,
+ she may add Hope as a bonus to her Clash of Wills.
 \end_layout
 
 \begin_layout Section
@@ -474,31 +495,36 @@ Changeling
 \end_layout
 
 \begin_layout Plain Layout
-The Lost were once hurt in Arcadia, and...
+The Lost were once hurt in Arcadia,
+ and...
  the Luminous on Earth.
- Both know of wonders far beyond the mundane world, and learned the power
- to wield them for themselves.
+ Both know of wonders far beyond the mundane world,
+ and learned the power to wield them for themselves.
  Both are lost in a world they do not fully fit into.
 \end_layout
 
 \begin_layout Plain Layout
-For their far different backgrounds, something of their hearts are resonant.
+For their far different backgrounds,
+ something of their hearts are resonant.
  Both...
  understand.
- They find comfort in community, support each other, want to build something
- better to protect each other and those they love.
- Through that shared resonance, they bond with an ease unusual among differing
- kinds of supernatural being.
+ They find comfort in community,
+ support each other,
+ want to build something better to protect each other and those they love.
+ Through that shared resonance,
+ they bond with an ease unusual among differing kinds of supernatural being.
 \end_layout
 
 \begin_layout Plain Layout
-Still, their differing supernatural natures can still be problematic, especially
- when it comes to first reactions.
- Luminous reach for a power that erodes the boundary between dreams and
- reality, in a way all too familiar to the Lost.
- Luminous magic reminds of Arcadia, and that...
- can be a painful remainder at best, and actively damaging to a changeling's
- grasp on reality at worst.
+Still,
+ their differing supernatural natures can still be problematic,
+ especially when it comes to first reactions.
+ Luminous reach for a power that erodes the boundary between dreams and reality,
+ in a way all too familiar to the Lost.
+ Luminous magic reminds of Arcadia,
+ and that...
+ can be a painful remainder at best,
+ and actively damaging to a changeling's grasp on reality at worst.
 \end_layout
 
 \begin_layout Subsection
@@ -510,7 +536,8 @@ Chronicles
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
+TODO:
+ Write this section.
 \end_layout
 
 \end_inset
@@ -523,11 +550,10 @@ Interactions
 \end_layout
 
 \begin_layout Plain Layout
-Changelings and Luminous both touch on dreams and stories, if from opposite
- directions.
+Changelings and Luminous both touch on dreams and stories,
+ if from opposite directions.
  Both seek comfort in their friends and support systems.
- Those similarities lead to a few interactions between their powers and
- worlds.
+ Those similarities lead to a few interactions between their powers and worlds.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -535,12 +561,10 @@ Clarity and Hope
 \end_layout
 
 \begin_layout Plain Layout
-Clarity and Hope are very similar mechanics, both serving as a health-like
- track that replaces Integrity.
- Supernatural powers that can effect either Hope or Clarity should apply
- to the other without modifications.
- Supernatural powers that do not involve some component of genuine interaction
- cannot heal Hope.
+Clarity and Hope are very similar mechanics,
+ both serving as a health-like track that replaces Integrity.
+ Supernatural powers that can effect either Hope or Clarity should apply to the other without modifications.
+ Supernatural powers that do not involve some component of genuine interaction cannot heal Hope.
  A Mage spell would not have much significant effect in restoring Hope,
  but the Fortifying Presence Contract can heal Hope as easily as Clarity.
 \end_layout
@@ -550,17 +574,14 @@ The Hedge and The Dream
 \end_layout
 
 \begin_layout Plain Layout
-The fae know the art of Dreamweaving as well as the Luminous, even if they
- cannot impose them upon the waking world as a Luminous can.
+The fae know the art of Dreamweaving as well as the Luminous,
+ even if they cannot impose them upon the waking world as a Luminous can.
 \end_layout
 
 \begin_layout Plain Layout
-Changelings may learn and use Luminous Dreamweaving as if they were Starborn
- and may use their innate Dreamweaving in any space with High Mutability.
- Luminous and powerful Dreamborn may treat the Hedge as if it had Medium
- Mutability.
- Lesser dreamers have neither the force of will or innate connection to
- the Wyrd required to shape the Hedge.
+Changelings may learn and use Luminous Dreamweaving as if they were Starborn and may use their innate Dreamweaving in any space with High Mutability.
+ Luminous and powerful Dreamborn may treat the Hedge as if it had Medium Mutability.
+ Lesser dreamers have neither the force of will or innate connection to the Wyrd required to shape the Hedge.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -568,12 +589,12 @@ Oaths
 \end_layout
 
 \begin_layout Plain Layout
-Luminous have a Charm that allow them to join to Wyrd-bound Pacts as a full
- participant.
+Luminous have a Charm that allow them to join to Wyrd-bound Pacts as a full participant.
  This has farther reaching consequences than it may seem at first glance.
- Membership in Freeholds is an Oath, and so is membership in their courts.
- Joining a Freehold has no innate particular mechanical implications, beyond
- justifying Status and similar merits.
+ Membership in Freeholds is an Oath,
+ and so is membership in their courts.
+ Joining a Freehold has no innate particular mechanical implications,
+ beyond justifying Status and similar merits.
 \end_layout
 
 \begin_layout Section
@@ -585,7 +606,8 @@ Deviant
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
+TODO:
+ Write this section.
 \end_layout
 
 \end_inset
@@ -602,7 +624,8 @@ Chronicles
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
+TODO:
+ Write this section.
 \end_layout
 
 \end_inset
@@ -619,7 +642,8 @@ Interactions
 status open
 
 \begin_layout Plain Layout
-TODO: Write this section.
+TODO:
+ Write this section.
 \end_layout
 
 \end_inset
@@ -632,11 +656,10 @@ Intimacy
 \end_layout
 
 \begin_layout Plain Layout
-Divergence fundamentally scars the souls of the Broken, twisting their relation
- with the Dream as much as any other part of their being.
- Divergents do not create any Intimacy normally, and instead have Connected
- Intimacy with all their Touchstones of any type – subject to the normal
- restrictions on mutual relationships.
+Divergence fundamentally scars the souls of the Broken,
+ twisting their relation with the Dream as much as any other part of their being.
+ Divergents do not create any Intimacy normally,
+ and instead have Connected Intimacy with all their Touchstones of any type – subject to the normal restrictions on mutual relationships.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -644,25 +667,23 @@ Reflected Light
 \end_layout
 
 \begin_layout Plain Layout
-Resonance reaches out for the Broken as with any other person, with all
- the chaos and complications such a connection brings.
- While Deviants have no Anchors a Luminous may draw on, she may instead
- use Reflected Light to gain one of their Touchstones or a temporary Loyalty
- Touchstone towards them.
- In doing so, she is subject to a pale (but still painful) reflection of
- the implications of Divergence.
- Should she Falter or has not gained Willpower from the Touchstone before
- the end of the scene, she immediately takes a severe Hope damage.
+Resonance reaches out for the Broken as with any other person,
+ with all the chaos and complications such a connection brings.
+ While Deviants have no Anchors a Luminous may draw on,
+ she may instead use Reflected Light to gain one of their Touchstones or a temporary Loyalty Touchstone towards them.
+ In doing so,
+ she is subject to a pale (but still painful) reflection of the implications of Divergence.
+ Should she Falter or has not gained Willpower from the Touchstone before the end of the scene,
+ she immediately takes a severe Hope damage.
 \end_layout
 
 \begin_layout Plain Layout
-Similarly, Deviants cannot reflect a Luminous' own Anchors through her Resonance
-, and may instead gain a Touchstone of the same kind they have with her
- towards a person she has Strong or Connected Intimacy with.
- This does not provide additional Loyalty but may be used to regain Willpower
- and heal Instability in the same way as any other Touchstone.
- If they do not gain Willpower from the Touchstone before the end of the
- scene, it causes a minor Instability.
+Similarly,
+ Deviants cannot reflect a Luminous' own Anchors through her Resonance,
+ and may instead gain a Touchstone of the same kind they have with her towards a person she has Strong or Connected Intimacy with.
+ This does not provide additional Loyalty but may be used to regain Willpower and heal Instability in the same way as any other Touchstone.
+ If they do not gain Willpower from the Touchstone before the end of the scene,
+ it causes a minor Instability.
 \end_layout
 
 \begin_layout Section
@@ -670,19 +691,20 @@ Luminous x Demon
 \end_layout
 
 \begin_layout Plain Layout
-If there is anything the Luminous and Unchained have in common, it is that
- they are good at hiding.
- Demons live many lives, wear many faces, each seeming just as mundane as
- the others.
- Luminous hide behind their Mundane Form, only revealing their true dreams
- when they must.
- In that sense, most of the time the two hardly even know they are interacting
- with another supernatural being.
+If there is anything the Luminous and Unchained have in common,
+ it is that they are good at hiding.
+ Demons live many lives,
+ wear many faces,
+ each seeming just as mundane as the others.
+ Luminous hide behind their Mundane Form,
+ only revealing their true dreams when they must.
+ In that sense,
+ most of the time the two hardly even know they are interacting with another supernatural being.
 \end_layout
 
 \begin_layout Plain Layout
-When they do find out, it's usually the awkward result of one of a Demon's
- Pacts.
+When they do find out,
+ it's usually the awkward result of one of a Demon's Pacts.
 \end_layout
 
 \begin_layout Subsection*
@@ -690,12 +712,13 @@ Interactions
 \end_layout
 
 \begin_layout Plain Layout
-Luminous hold the power to connect people's hearts, and Demons hide powers
- to lie to the world itself.
- Their powers inevitably conflict, and worse yet, the two cannot simply
- avoid each other.
- Both veil themselves as mundane humans, and they cannot recognize each
- other for what they are.
+Luminous hold the power to connect people's hearts,
+ and Demons hide powers to lie to the world itself.
+ Their powers inevitably conflict,
+ and worse yet,
+ the two cannot simply avoid each other.
+ Both veil themselves as mundane humans,
+ and they cannot recognize each other for what they are.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -704,38 +727,39 @@ Bonds and Lies
 
 \begin_layout Plain Layout
 A Demon's may lies fool the Dream itself.
- If he hides his true feelings from the one he loves, he may suppress bonds
- of Intimacy that would normally be woven.
- If he presents himself as feeling closer to someone than he does, he may
- create bonds of Intimacy he does not truly mean.
- However, to create a false bond of Intimacy like that means to put one's
- self at the mercy of a Luminous' Echo.
- Her power was not meant to be lied to, and it acts unwittingly to create
- a bond rather than reinforce one that already exists.
+ If he hides his true feelings from the one he loves,
+ he may suppress bonds of Intimacy that would normally be woven.
+ If he presents himself as feeling closer to someone than he does,
+ he may create bonds of Intimacy he does not truly mean.
+ However,
+ to create a false bond of Intimacy like that means to put one's self at the mercy of a Luminous' Echo.
+ Her power was not meant to be lied to,
+ and it acts unwittingly to create a bond rather than reinforce one that already exists.
 \end_layout
 
 \begin_layout Plain Layout
-As long as a Demon fakes Strong Intimacy with a Luminous, her Echo conducts
- Social Maneuvering against the Demon with the goal to bring his true feelings
- in line with his false Intimacy.
- Every week, she rolls Power + Resonate - the Demon's Composure to attempt
- to open a door.
- Should he fake an Connected Intimacy instead, this roll gains the rote
- quality and occurs once per night.
+As long as a Demon fakes Strong Intimacy with a Luminous,
+ her Echo conducts Social Maneuvering against the Demon with the goal to bring his true feelings in line with his false Intimacy.
+ Every week,
+ she rolls Power + Resonate - the Demon's Composure to attempt to open a door.
+ Should he fake an Connected Intimacy instead,
+ this roll gains the rote quality and occurs once per night.
 \end_layout
 
 \begin_layout Plain Layout
-Echoes, thankfully, cannot reveal a Demon's nature to the Luminous.
- It treats a Demon's Covers as if they were protected by a Luminous' Dual
- Identity, even at Strong or Connected Intimacy.
+Echoes,
+ thankfully,
+ cannot reveal a Demon's nature to the Luminous.
+ It treats a Demon's Covers as if they were protected by a Luminous' Dual Identity,
+ even at Strong or Connected Intimacy.
  This does not require a roll and is not Spoofing.
 \end_layout
 
 \begin_layout Plain Layout
-The Weave of Bonds fundamentally destroys the separation Liar's Tongue relies
- on – it has no effect on a Demon's Partner.
- Any Demon who would willingly accept such a Weave, though, would likely
- consider this a benefit more than an downside.
+The Weave of Bonds fundamentally destroys the separation Liar's Tongue relies on – it has no effect on a Demon's Partner.
+ Any Demon who would willingly accept such a Weave,
+ though,
+ would likely consider this a benefit more than an downside.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -743,22 +767,22 @@ Pacts
 \end_layout
 
 \begin_layout Plain Layout
-Demon Pacts do not pierce a Luminous' Dual Identity, unless the Demon is
- aware of it and specifically writes the Pact to account for her two forms.
- Thus, a Luminous could trade away her relationship with a friend in Mundane
- Form to a Demon, and still maintain that relationship in her Dream Form
- – and in fact, this is the default for Demons unaware of her nature.
+Demon Pacts do not pierce a Luminous' Dual Identity,
+ unless the Demon is aware of it and specifically writes the Pact to account for her two forms.
+ Thus,
+ a Luminous could trade away her relationship with a friend in Mundane Form to a Demon,
+ and still maintain that relationship in her Dream Form – and in fact,
+ this is the default for Demons unaware of her nature.
 \end_layout
 
 \begin_layout Plain Layout
-Similarly, a Soul Pact treats her two forms separately.
- A Soul Pact with a Luminous' Mundane Form gives the Demon her entire mundane
- life as usual – however, the Luminous may live on through her Dream Form
- (with the usual effects of Fading).
- A Soul Pact with a Luminous' Dream Form consumes both her identities, annihilat
-ing her entirely.
- This has the usual effects of a Demon attempting to take a supernatural
- soul as a Cover.
+Similarly,
+ a Soul Pact treats her two forms separately.
+ A Soul Pact with a Luminous' Mundane Form gives the Demon her entire mundane life as usual – however,
+ the Luminous may live on through her Dream Form (with the usual effects of Fading).
+ A Soul Pact with a Luminous' Dream Form consumes both her identities,
+ annihilating her entirely.
+ This has the usual effects of a Demon attempting to take a supernatural soul as a Cover.
 \end_layout
 
 \begin_layout Section
@@ -770,8 +794,8 @@ Interactions
 \end_layout
 
 \begin_layout Plain Layout
-Mages touch all parts of the world with their magic, and the Luminous and
- Maou are no different.
+Mages touch all parts of the world with their magic,
+ and the Luminous and Maou are no different.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -779,18 +803,17 @@ Defiant Will
 \end_layout
 
 \begin_layout Plain Layout
-While Mages hae a separate system of Withstand instead of the usual contested
- or resisted rolls, Defiant Will still applies penalties to their Dice Pools
- in addition to the usual Withstand.
+While Mages hae a separate system of Withstand instead of the usual contested or resisted rolls,
+ Defiant Will still applies penalties to their Dice Pools in addition to the usual Withstand.
  
 \end_layout
 
 \begin_layout Plain Layout
-In the context of Mage, Defiant Will is somewhat broader than its description
- would imply.
- Attempts to use Death to influence a Willful's soul, or use Space to affect
- a Luminous' relationships with anyone them have Strong or Connected Intimacy
- with also trigger Defiant Will, in addition to the obvious Mind effects.
+In the context of Mage,
+ Defiant Will is somewhat broader than its description would imply.
+ Attempts to use Death to influence a Willful's soul,
+ or use Space to affect a Luminous' relationships with anyone them have Strong or Connected Intimacy with also trigger Defiant Will,
+ in addition to the obvious Mind effects.
  More indirect Arcana like Fate or Time are not impeded.
 \end_layout
 
@@ -799,38 +822,37 @@ Arcana and Willful Magic
 \end_layout
 
 \begin_layout Plain Layout
-Evocations are a projection of stories and imagination upon the world, and
- thus fall under the combined purview of the Mind, Fate and Prime Arcana.
- Active Mage Sight bound to any of the three may detect the casting of an
- Evocation – however, afterwards, the Dream's laws come into effect.
- In Mage Sight, an active Evocation feels as if the true Supernal symbols
- underlying the Fallen World are buried under those of the Evocation.
+Evocations are a projection of stories and imagination upon the world,
+ and thus fall under the combined purview of the Mind,
+ Fate and Prime Arcana.
+ Active Mage Sight bound to any of the three may detect the casting of an Evocation – however,
+ afterwards,
+ the Dream's laws come into effect.
+ In Mage Sight,
+ an active Evocation feels as if the true Supernal symbols underlying the Fallen World are buried under those of the Evocation.
 \end_layout
 
 \begin_layout Plain Layout
 While those underlying truths reassert themselves when the glamour fades,
- Awakened magic still treats all things created or modified by an Evocation
- as what they appear to be – as with all things of the Astral.
- Thus, a dreamwoven rock falls under the purview of the Matter Arcana as
- if it were fully real.
+ Awakened magic still treats all things created or modified by an Evocation as what they appear to be – as with all things of the Astral.
+ Thus,
+ a dreamwoven rock falls under the purview of the Matter Arcana as if it were fully real.
 \end_layout
 
 \begin_layout Plain Layout
-A Luminous' Dream Form is obviously a projection of her dreams under Mind
- Mage Sight, and other Arcana treat her as what she appears to be.
- Normally Life is required to affect her as with most living beings, but
- some Luminous may have less conventional forms that require different Arcana.
- Mages cannot force transformation or detransformation directly, and Mind
- Shield provides no protection against Evocations that do not affect the
- mind directly.
+A Luminous' Dream Form is obviously a projection of her dreams under Mind Mage Sight,
+ and other Arcana treat her as what she appears to be.
+ Normally Life is required to affect her as with most living beings,
+ but some Luminous may have less conventional forms that require different Arcana.
+ Mages cannot force transformation or detransformation directly,
+ and Mind Shield provides no protection against Evocations that do not affect the mind directly.
 \end_layout
 
 \begin_layout Plain Layout
 A Luminous' Echo is best studied with Mind and Space.
- Bonds of Intimacy are usually similar to the corresponding Sympathetic
- ties.
- If needed, a Mage may add Mind 1 to Space spells to specifically view or
- manipulate Intimacy.
+ Bonds of Intimacy are usually similar to the corresponding Sympathetic ties.
+ If needed,
+ a Mage may add Mind 1 to Space spells to specifically view or manipulate Intimacy.
 \end_layout
 
 \begin_layout Plain Layout
@@ -838,7 +860,9 @@ A Luminous' Echo is best studied with Mind and Space.
 status open
 
 \begin_layout Plain Layout
-TODO: Maou mechanics? Likely depends on what their final mechanics are.
+TODO:
+ Maou mechanics?
+ Likely depends on what their final mechanics are.
 \end_layout
 
 \end_inset
@@ -851,21 +875,23 @@ Motes and Hope
 \end_layout
 
 \begin_layout Plain Layout
-To Mages, Motes are something very similar to Willpower – simply found in
- an abnormal abundance for a normal human.
- As it is not truly a form of energy, the most Mages can do is drain a Mote
- Pool as a Mind Unraveling spell.
+To Mages,
+ Motes are something very similar to Willpower – simply found in an abnormal abundance for a normal human.
+ As it is not truly a form of energy,
+ the most Mages can do is drain a Mote Pool as a Mind Unraveling spell.
 \end_layout
 
 \begin_layout Plain Layout
-Similarly, a Luminous' Hope is simply a measurement of their mental stability.
- To a Mage, does not feel as if a source of supernatural power at all.
- A Mage may cause mild Hope damage equal to Potency with a Mind Flaying
- spell, or severe damage with a Mind Unraveling spell.
- Healing Hope damage is far harder as magically granted emotional strength
- does not fuel a Luminous' magic.
- In mechanical terms, the most a Mage can do to help with Hope is cure Hope
- Conditions, not heal the underlying Hope damage.
+Similarly,
+ a Luminous' Hope is simply a measurement of their mental stability.
+ To a Mage,
+ does not feel as if a source of supernatural power at all.
+ A Mage may cause mild Hope damage equal to Potency with a Mind Flaying spell,
+ or severe damage with a Mind Unraveling spell.
+ Healing Hope damage is far harder as magically granted emotional strength does not fuel a Luminous' magic.
+ In mechanical terms,
+ the most a Mage can do to help with Hope is cure Hope Conditions,
+ not heal the underlying Hope damage.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -873,11 +899,13 @@ Soul Magic
 \end_layout
 
 \begin_layout Plain Layout
-While the Luminous call their dream worlds Soulspaces, they is more a modificati
-on of their Oneiros than a soul as a Mage would call it.
- They still have a true soul, which is treated as an Awakened Soul, even
- in Mundane Form.
- Dual Identity cloaks this fact, and a Mage who tries to use the spell 
+While the Luminous call their dream worlds Soulspaces,
+ they is more a modification of their Oneiros than a soul as a Mage would call it.
+ They still have a true soul,
+ which is treated as an Awakened Soul,
+ even in Mundane Form.
+ Dual Identity cloaks this fact,
+ and a Mage who tries to use the spell 
 \begin_inset Quotes xld
 \end_inset
 
@@ -885,33 +913,31 @@ Sever Soul
 \begin_inset Quotes xrd
 \end_inset
 
- on an untransformed Luminous does not learn why her spell has failed and
- her powers do not detect her soul as anything other than mundane.
+ on an untransformed Luminous does not learn why her spell has failed and her powers do not detect her soul as anything other than mundane.
 \end_layout
 
 \begin_layout Plain Layout
-Furthermore, Luminous do not suffer from Soul Loss as most beings do.
- The root cause of Fading is not the lack of a physical body – but rather
- their lack of a soul as Mages would recognize it.
+Furthermore,
+ Luminous do not suffer from Soul Loss as most beings do.
+ The root cause of Fading is not the lack of a physical body – but rather their lack of a soul as Mages would recognize it.
  Luminous suffer a variant of Fading instead of Soul Loss.
- As long her as her physical body remains alive, she may still transform
- and still has a Mundane Form.
- Should she Fade in such a state, she loses all Luminous powers and gains
- the Thrall condition [M:tAw 318].
+ As long her as her physical body remains alive,
+ she may still transform and still has a Mundane Form.
+ Should she Fade in such a state,
+ she loses all Luminous powers and gains the Thrall condition [M:tAw 318].
 \end_layout
 
 \begin_layout Plain Layout
 As a Luminous can more or less sustain herself indefinitely without a soul,
- it's far from unheard of for Luminous aware of this fact to offer their
- own souls to save someone from Soul Loss.
+ it's far from unheard of for Luminous aware of this fact to offer their own souls to save someone from Soul Loss.
 \end_layout
 
 \begin_layout Plain Layout
 Maou are far less interesting in this regard.
  Their souls are treated as Awakened Souls.
  They do not innately lose their ability to use their magic when Soulless;
- however because Willpower is their core resources, they will suffer magically
- for it as well.
+ however because Willpower is their core resources,
+ they will suffer magically for it as well.
 \end_layout
 
 \begin_layout Section
@@ -919,8 +945,8 @@ Princess
 \end_layout
 
 \begin_layout Plain Layout
-For their very different origins, Luminous and Princesses get along with
- little trouble.
+For their very different origins,
+ Luminous and Princesses get along with little trouble.
 \end_layout
 
 \begin_layout Plain Layout
@@ -941,28 +967,25 @@ The Elephant in the Room
 \end_layout
 
 \begin_layout Plain Layout
-Luminous began as a version of Princess, before its themes diverged too
- much to be recognizable.
- While the two can coexist, two splats built around magical girls themes
- and changing the world for the better can often create an unfortunate thematic
- redundancy.
+Luminous began as a version of Princess,
+ before its themes diverged too much to be recognizable.
+ While the two can coexist,
+ two splats built around magical girls themes and changing the world for the better can often create an unfortunate thematic redundancy.
 \end_layout
 
 \begin_layout Plain Layout
-Unless you have a good idea as to how to take advantage of their differences
- and similarities as a Storyteller, it is probably better to choose one
- or the other for your chronicle.
+Unless you have a good idea as to how to take advantage of their differences and similarities as a Storyteller,
+ it is probably better to choose one or the other for your chronicle.
 \end_layout
 
 \begin_layout Plain Layout
-In general, this would involve pushing further the theme of Princesses being
- in a fight against the Darkness (something Luminous are not amazing at
- participating in), and pushing the more 
+In general,
+ this would involve pushing further the theme of Princesses being in a fight against the Darkness (something Luminous are not amazing at participating in),
+ and pushing the more 
 \series bold
 Dreaming
 \series default
--like themes of Luminous such as their stewardship over dreams or their
- opposition to Disbelief.
+-like themes of Luminous such as their stewardship over dreams or their opposition to Disbelief.
 \end_layout
 
 \end_inset
@@ -971,7 +994,8 @@ Dreaming
 \end_layout
 
 \begin_layout Section
-Chronicles of Darkness: The Contagion Chronicle
+Chronicles of Darkness:
+ The Contagion Chronicle
 \end_layout
 
 \begin_layout Subsection*
@@ -982,51 +1006,55 @@ Vector Interactions
 
 \series bold
 The Boss Is In:
+
 \series default
- Dreamer's Will applies to this vector, but only as it affects the Luminous
- directly.
- They may still be deceived for mundane reasons as the organization around
- them accepts the lie.
+ Dreamer's Will applies to this vector,
+ but only as it affects the Luminous directly.
+ They may still be deceived for mundane reasons as the organization around them accepts the lie.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Panopticon: 
+Panopticon:
+ 
 \series default
 This vector targets the Dream and Mundane forms of a Luminous seperately.
- If they switch to their other form while being observed, the vector malfunction
-s in ways that make it clear a supernatural force is interfering with the
- connection, but not necessarily why or how.
+ If they switch to their other form while being observed,
+ the vector malfunctions in ways that make it clear a supernatural force is interfering with the connection,
+ but not necessarily why or how.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Renewal:
+
 \series default
- When activating this ability in Dream Form, Luminous must display a part
- of their body that appears artifical or augmented, even if it is not truly
- one.
+ When activating this ability in Dream Form,
+ Luminous must display a part of their body that appears artifical or augmented,
+ even if it is not truly one.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Eyes on Target:
+
 \series default
- While the vector does not pierce Dual Identity, it will reveal a Luminous
- as supernatural in her Dream Form.
+ While the vector does not pierce Dual Identity,
+ it will reveal a Luminous as supernatural in her Dream Form.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Chiasma & Contagion Resistant:
+
 \series default
  Luminous explicitly do not benefit from these vectors.
- Though they are similar enough to Dyads to count from an in-universe perspectiv
-e, their mechanics for vectors already take this into account.
+ Though they are similar enough to Dyads to count from an in-universe perspective,
+ their mechanics for vectors already take this into account.
 \end_layout
 
 \end_inset
@@ -1035,7 +1063,8 @@ e, their mechanics for vectors already take this into account.
 \end_layout
 
 \begin_layout Chapter
-Appendix B: Crossover Options
+Appendix B:
+ Crossover Options
 \end_layout
 
 \begin_layout Standard
@@ -1043,12 +1072,12 @@ Appendix B: Crossover Options
 status open
 
 \begin_layout Plain Layout
-This chapter lists modifications to options in other Chronicles of Darkness
- books for crossover games with Luminous.
+This chapter lists modifications to options in other Chronicles of Darkness books for crossover games with Luminous.
 \end_layout
 
 \begin_layout Section
-Changeling: the Lost
+Changeling:
+ the Lost
 \end_layout
 
 \begin_layout Subsection
@@ -1060,7 +1089,8 @@ Avowed Luminous
 status open
 
 \begin_layout Plain Layout
-TODO: Avowed Luminous – Weave/Origin Rules
+TODO:
+ Avowed Luminous – Weave/Origin Rules
 \end_layout
 
 \end_inset
@@ -1073,10 +1103,9 @@ Luminous Merits
 \end_layout
 
 \begin_layout Plain Layout
-Luminous may touch upon the Wyrd unusually well due to its close ties with
- dreams.
- With Storyteller permission, Luminous with well developed connections to
- the fae may take certain merits normally open to Changelings.
+Luminous may touch upon the Wyrd unusually well due to its close ties with dreams.
+ With Storyteller permission,
+ Luminous with well developed connections to the fae may take certain merits normally open to Changelings.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1086,18 +1115,20 @@ Court Goodwill (• to •••••)
 \begin_layout Plain Layout
 
 \series bold
-Prerequisites: 
+Prerequisites:
+ 
 \series default
-Shining Vow, membership in a Freehold
+Shining Vow,
+ membership in a Freehold
 \end_layout
 
 \begin_layout Plain Layout
 
 \series bold
 Effect:
+
 \series default
- Luminous who are members of a Freehold may gain Court Goodwill as a Changeling
- does.
+ Luminous who are members of a Freehold may gain Court Goodwill as a Changeling does.
  The usual modifications to Mantle applies should she have 3 or more dots.
 \end_layout
 
@@ -1108,21 +1139,22 @@ Mantle (• to •••••)
 \begin_layout Plain Layout
 
 \series bold
-Prerequisites: 
+Prerequisites:
+ 
 \series default
-Shining Vow, membership in a Freehold and one of its Courts
+Shining Vow,
+ membership in a Freehold and one of its Courts
 \end_layout
 
 \begin_layout Plain Layout
 
 \series bold
 Effect:
+
 \series default
- Luminous who seal themselves to the Oaths of a Freehold and one of its
- Courts gains its Mantle as any Changeling would.
- Her Dream Form's appearance shifts to include the Mantle's effects, she
- is treated as if her Wyrd were equal to her Reverie and she spends Motes
- in place of Glamour.
+ Luminous who seal themselves to the Oaths of a Freehold and one of its Courts gains its Mantle as any Changeling would.
+ Her Dream Form's appearance shifts to include the Mantle's effects,
+ she is treated as if her Wyrd were equal to her Reverie and she spends Motes in place of Glamour.
  She does not gain any benefits from the additional way to gain Glamour,
  and may not gain Contracts through it.
 \end_layout
@@ -1131,9 +1163,9 @@ Effect:
 
 \series bold
 Spring ••••:
+
 \series default
- Luminous gain an additional Willpower when they act according to their
- Wish rather than Needle.
+ Luminous gain an additional Willpower when they act according to their Wish rather than Needle.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1145,16 +1177,17 @@ Spring ••••• / Morning
 \series bold
 •••••
 \series default
-: Luminous may apply this benefit to Hope rather than Clarity.
+:
+ Luminous may apply this benefit to Hope rather than Clarity.
 \end_layout
 
 \begin_layout Plain Layout
 
 \series bold
 Autumn ••• / Day ••••:
+
 \series default
- Luminous may instead reduce the Mote cost of Evocations when these benefits
- apply.
+ Luminous may instead reduce the Mote cost of Evocations when these benefits apply.
  This does not reduce the Luminosity required to maintain them.
 \end_layout
 
@@ -1162,34 +1195,36 @@ Autumn ••• / Day ••••:
 
 \series bold
 Autumn •••••:
+
 \series default
- Effects Luminous mimic in this way count as Evocations, and are subject
- to Transience.
+ Effects Luminous mimic in this way count as Evocations,
+ and are subject to Transience.
 \end_layout
 
 \begin_layout Plain Layout
 
 \series bold
 Summer Loeg •••• / Winter Loeg •••• / Ebb Tide ••••:
+
 \series default
- Luminous may increase their effective Resistance by one in Dream Form when
- the conditions are met.
+ Luminous may increase their effective Resistance by one in Dream Form when the conditions are met.
 \end_layout
 
 \begin_layout Plain Layout
 
 \series bold
 Flood Tide •••••:
+
 \series default
- As Luminous cannot Portal, they do not gain the usual benefits of this
- Mantle.
- They instead reduce the Mote cost of Evocations used to escape confinement
- or other restraints by one.
+ As Luminous cannot Portal,
+ they do not gain the usual benefits of this Mantle.
+ They instead reduce the Mote cost of Evocations used to escape confinement or other restraints by one.
  This does not reduce the Luminosity required to maintain them.
 \end_layout
 
 \begin_layout Section
-Chronicles of Darkness: The Contagion Chronicle
+Chronicles of Darkness:
+ The Contagion Chronicle
 \end_layout
 
 \begin_layout Subsection*
@@ -1197,40 +1232,58 @@ Vector Edges
 \end_layout
 
 \begin_layout Plain Layout
-Luminous gain edges from the following Vectors as if they were members of
- the following types of supernatural creatures:
+Luminous gain edges from the following Vectors as if they were members of the following types of supernatural creatures:
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Hunters:
+
 \series default
- Surveillance, Cleansing Flame, Comprehension, Define, Eyes on Target, Ocular
- Mapping, Intel Package, Purge Weakness
+ Surveillance,
+ Cleansing Flame,
+ Comprehension,
+ Define,
+ Eyes on Target,
+ Ocular Mapping,
+ Intel Package,
+ Purge Weakness
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Changelings:
+
 \series default
- Plutomancy, Panopticon, The Big Lie, Purification, Divine Revelation, Modern
- Miracle, Discovery, Breakdown, Shift Contamination
+ Plutomancy,
+ Panopticon,
+ The Big Lie,
+ Purification,
+ Divine Revelation,
+ Modern Miracle,
+ Discovery,
+ Breakdown,
+ Shift Contamination
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Beasts:
+
 \series default
- Name, Breach, Contagion Shroud
+ Name,
+ Breach,
+ Contagion Shroud
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Mages:
+
 \series default
  Warning Imagery
 \end_layout
@@ -1243,94 +1296,98 @@ Luminous gain unique Edges for the following Vectors:
 
 \series bold
 The Boss Is In:
+
 \series default
- For Dreamborn, form and shapes are mutable and the roles they play are
- essential.
- A character with this edge may use this vector no matter how unfitting
- she appears for her role in the organization, will not be noticed as supernatur
-al by members of the organization and may manifest approprate physical elements
- as if using a Mantle.
- This requires no Luminosity to maintain, and ends when the vector ends.
+ For Dreamborn,
+ form and shapes are mutable and the roles they play are essential.
+ A character with this edge may use this vector no matter how unfitting she appears for her role in the organization,
+ will not be noticed as supernatural by members of the organization and may manifest approprate physical elements as if using a Mantle.
+ This requires no Luminosity to maintain,
+ and ends when the vector ends.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Godhead:
+
 \series default
- The power you knew from your dreams burns brighter than ever before, eclipsing
- the world's laws entirely.
- While this vector is active, you are forced into Dream Form and may Weave
- as if you were in a place one step more Mutable.
- After it ends, you suffer Flicker as if you had stayed transformed for
- a week.
+ The power you knew from your dreams burns brighter than ever before,
+ eclipsing the world's laws entirely.
+ While this vector is active,
+ you are forced into Dream Form and may Weave as if you were in a place one step more Mutable.
+ After it ends,
+ you suffer Flicker as if you had stayed transformed for a week.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Babble:
+
 \series default
- Meanings twist onto themselve and are distorted by the perceptions of a
- thousand listeners as they propagate across the collective unconscious.
+ Meanings twist onto themselve and are distorted by the perceptions of a thousand listeners as they propagate across the collective unconscious.
  A character with this edge may fragment their victim's communications entirely,
- causing the listeners to hear what they expect the speaker to say, rather
- than any meaningful new information.
+ causing the listeners to hear what they expect the speaker to say,
+ rather than any meaningful new information.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Renewal:
+
 \series default
  The Luminous know how the line between mental and physical can be breached.
- A character with this edge can suppress any Condition representing a mental
- influence or affliction rather than only physical ones.
- Further, they use their transformed Resistance dots in place of their Stamina
- for determining how many Renewal points they gain.
+ A character with this edge can suppress any Condition representing a mental influence or affliction rather than only physical ones.
+ Further,
+ they use their transformed Resistance dots in place of their Stamina for determining how many Renewal points they gain.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Improve:
+
 \series default
- You seal an ephemeral power into your sigil, bestowing the same gifts you
- enjoy in your dreams.
- Luminous may bestow a single Dream Attribute or Art with their sigil in
- place of the usual three, allowing the recipients to apply them in place
- of their mundane equivalents.
+ You seal an ephemeral power into your sigil,
+ bestowing the same gifts you enjoy in your dreams.
+ Luminous may bestow a single Dream Attribute or Art with their sigil in place of the usual three,
+ allowing the recipients to apply them in place of their mundane equivalents.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Evolve: 
+Evolve:
+ 
 \series default
 The nature of a Dreamer ties deeply to the relationships between people,
  and the bonds they create are emotional as much as supernatural.
- Both people bound by this vector dream of each other as if they had Strong
- Intimacy, even if the recipient fails their check to keep the actual supernatua
-l power granted.
+ Both people bound by this vector dream of each other as if they had Strong Intimacy,
+ even if the recipient fails their check to keep the actual supernatual power granted.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Fire for Effect:
+
 \series default
  You understand innately the way people interrelate and support each other,
  whether in mundane life or combat.
- During the combat, you gain 3 temporary Motes in your Mote Pool, which
- may only be spent on Evocations used to support your allies.
- These may exceed the usual limit, but disappear if not used once the vector
- is over.
+ During the combat,
+ you gain 3 temporary Motes in your Mote Pool,
+ which may only be spent on Evocations used to support your allies.
+ These may exceed the usual limit,
+ but disappear if not used once the vector is over.
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Drain Energy:
+
 \series default
  A Luminous using Drain Energy gains Motes equal the size of her Mote Pool,
  up to a maximum of twice its usual capacity.
@@ -1340,14 +1397,14 @@ Drain Energy:
 
 \series bold
 Control Contagion:
+
 \series default
- Luminous gain the same common as Beasts, Hunters and Werewolves when using
- Control Contagion.
- For the chapter, the Luminous is treated as an Angel by supernatural powers
- in Dream Form and Read the Winds functions on Infrastructure rather than
- any of its usual targets.
- Furthermore, she gains the Open and Infrastructure conditions as the God-Machin
-e weaves her into its plans.
+ Luminous gain the same common as Beasts,
+ Hunters and Werewolves when using Control Contagion.
+ For the chapter,
+ the Luminous is treated as an Angel by supernatural powers in Dream Form and Read the Winds functions on Infrastructure rather than any of its usual targets.
+ Furthermore,
+ she gains the Open and Infrastructure conditions as the God-Machine weaves her into its plans.
 \end_layout
 
 \end_inset
@@ -1356,12 +1413,12 @@ e weaves her into its plans.
 \end_layout
 
 \begin_layout Chapter
-Appendix C: Conditions
+Appendix C:
+ Conditions
 \end_layout
 
 \begin_layout Standard
-This chapter lists Conditions that may apply to characters in the course
- of a Luminous chronicle.
+This chapter lists Conditions that may apply to characters in the course of a Luminous chronicle.
 \end_layout
 
 \begin_layout Section
@@ -1377,17 +1434,18 @@ name "sec:Sealed-Vow-(persistent)"
 
 \begin_layout Standard
 The character is bound to their word through the power of a Luminous' magic.
- Should she abandon her promise or act in violation of it, she takes a box
- of severe Hope damage (if she has Hope, or a similar track) and receives
- a Hope Condition.
- The next time each person she made her promise to talks with her, they
- become aware of her transgression.
+ Should she abandon her promise or act in violation of it,
+ she takes a box of severe Hope damage (if she has Hope,
+ or a similar track) and receives a Hope Condition.
+ The next time each person she made her promise to talks with her,
+ they become aware of her transgression.
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 Possible Sources:
+
 \series default
  The 
 \begin_inset ERT
@@ -1422,11 +1480,11 @@ hyperref[subsec:Variant:-Sealing-Thread]{Sealing Thread}
 
 \series bold
 Resolution:
+
 \series default
- The promise becomes moot because a premise of it is no longer true, or
- it reaches its natural conclusion.
- Sealed Vow also ends without providing a beat if the character violates
- its terms.
+ The promise becomes moot because a premise of it is no longer true,
+ or it reaches its natural conclusion.
+ Sealed Vow also ends without providing a beat if the character violates its terms.
  
 \end_layout
 
@@ -1434,9 +1492,10 @@ Resolution:
 
 \series bold
 Beat:
+
 \series default
- The character suffers significant hardship, or abandons other goals in
- favor of upholding her promise.
+ The character suffers significant hardship,
+ or abandons other goals in favor of upholding her promise.
 \end_layout
 
 \begin_layout Standard
