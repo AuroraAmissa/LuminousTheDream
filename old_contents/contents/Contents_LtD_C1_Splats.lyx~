@@ -1,0 +1,1607 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children no
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	        1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:SidebarContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar (Content Warning)"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumns
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns (Fill)"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnbox
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:TwoColumnsFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns (Fill)"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnboxfill
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Rich Text Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	        1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_newcommand {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:CofDPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "CofD Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:CofDChapterQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "CofD Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:CollapsableRegion
+  LyxType               custom
+  LatexType             none
+  Decoration            minimalistic
+  ContentAsLabel        true
+  
+  HTMLTag               div
+  HTMLIsBlock           true
+End
+
+InsetLayout Flex:IncompleteChapter
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_incompletechapter {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:IncompleteSection
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Section"
+  LatexType             command
+  LatexName             lumincompletesection
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_incompletesection {
+      display: none;
+    }
+  EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\float_placement class
+\float_alignment class
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_title "Luminous: the Dream"
+\pdf_author "AuroraAmissa"
+\pdf_subject "A Storytelling game of Distant Dreams"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letter
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_Luminous.lyx"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{luminous}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Flex CofDChapterQuote
+status open
+
+\begin_layout Chapter
+Chapter 1:
+ Shining Lights
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\emph on
+"Under this great big sky,
+ there are thousands,
+ no,
+ tens of thousands of people.
+\begin_inset Newline newline
+\end_inset
+
+All kinds of people with all sorts of wishes and feelings hiding inside."
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\emph default
+Nanoha Takamachi,
+ 
+\series bold
+Magical Girl Lyrical Nanoha
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnsFill
+status open
+
+\begin_layout Plain Layout
+Long ago,
+ the first Luminous were lost among the chaos of humanity's earliest dreams.
+ They fell into a newborn world,
+ the first spark of a shared dream that could connect a thousand scattered tribes.
+ Back then,
+ they only had themselves to rely on,
+ to learn the ways of the Dream,
+ discover what they meant in their waking life.
+\end_layout
+
+\begin_layout Plain Layout
+When you found that same world beyond your dreams,
+ you came across the waystones left behind by those first Luminous.
+ At the heart of 
+\end_layout
+
+\begin_layout Plain Layout
+You found that same world beyond your dreams,
+ among countless wonders and stories.
+ In this era,
+ the light of Annwn,
+ the Kingdom of Dreams,
+ guides your jorney.
+\end_layout
+
+\begin_layout Plain Layout
+You found that same world beyond your dreams,
+ in a very different era.
+ The light of Annwn,
+ the Kingdom of Dreams,
+ guides your own journey.
+\end_layout
+
+\begin_layout Section
+Luminary 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Luminary"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Luminary|textbf
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+When you first dreamed of the Kingdom,
+ you were a passing visitor.
+\end_layout
+
+\begin_layout Plain Layout
+Once you were a visitor in the Dream Kingdom,
+ a passing dreamer with no place and no name.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Write this section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsplatlayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sunlight
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\emph on
+\begin_inset Quotes xld
+\end_inset
+
+This is my ultimate strength...
+ everything I've got.
+ Starlight Breaker!
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\family sans
+\emph default
+Nanoha Takamachi,
+ 
+\series bold
+Magical Girl Lyrical Nanoha
+\family default
+\series default
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnsFill
+status open
+
+\begin_layout Plain Layout
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Luminary!Sunlight|textbf
+\end_layout
+
+\end_inset
+
+ The sun stood proud in the sky,
+ rising every day to beat back the dark night.
+ So it had always been.
+ Its light defined day and night,
+ its dance across the sky defined the seasons.
+ Even if just one star could not light a whole world,
+ it still tries.
+ It is much the same for those Luminous who embrace the role of Sunlit.
+\end_layout
+
+\begin_layout Plain Layout
+They were often those lost in darkness alongside everyone else – trapped in a world full of people who didn't care and weren't allowed to care.
+ They were the ones who still tried to help,
+ even as they themselves were lost.
+ Of course it wasn't enough;
+ they couldn't even save themselves.
+ No one person could.
+ When their defiance could sustain them no longer,
+ the Dream calls most to them...
+\end_layout
+
+\begin_layout Plain Layout
+When they Realize their own light,
+ they vow to be the shining beacon they tried to be all that time,
+ to give a hand to those still lost in the dark,
+ to stand alongside those who wish to care but cannot find the will to,
+ to lead the charge against the world's shadows.
+ To act,
+ to shine as the Sun does.
+\end_layout
+
+\begin_layout Subsubsection*
+Heart
+\end_layout
+
+\begin_layout Plain Layout
+It isn't that most people don't want to help those lost in the dark,
+ that they don't want to change anything.
+ Few people truly like to see others suffer.
+ But...
+ what they can do about it?
+ To stand up against the world means to earn its ire.
+ It means to be the nail that gets hammered down.
+ So people don't.
+ They come up with reasons why those less fortunate deserve it,
+ hide away from the flaws of the world and pretend the shadows don't exist.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Some try anyway.
+ Some stand against the world,
+ vowing to change it for the better.
+ Some beat back the dark forces of the world by hand,
+ without a thought to stealth.
+ Some inspire others through their bright cheer and personalities.
+ Others protect those they love,
+ as little suns.
+ All of them are driven by the same feeling.
+\end_layout
+
+\begin_layout Plain Layout
+The will to stand in the center of the storm,
+ aiming to outshine it all.
+ Defiance and desperation and passion,
+ all woven together.
+ A candle that burns faster should it flickers too dim.
+ A fire that announces dawn.
+ Such is the dream of Sunlight.
+ The will to act.
+\end_layout
+
+\begin_layout Plain Layout
+Even when they have no more to give,
+ they don't give up.
+ Even if it burns themselves away in the process.
+ The shadows the Sun casts are those of self-destructive desperation.
+ All Weavers feel the press of Sensitivity,
+ but for Sunlit it too easily warps into an all-consuming passion – driving them to unreasonable self-sacrifice.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Resolve:
+
+\series default
+ Once per scene,
+ a Sunlit may take a point of severe Hope damage to regain two temporary Willpower for the Scene.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Shadows:
+
+\series default
+ Whenever a Sunlit abandons or refuses to take an Aspiration from Sensitivity with severe Hope damage marked,
+ they gain a Hope condition.
+\end_layout
+
+\begin_layout Subsubsection*
+Dreams
+\end_layout
+
+\begin_layout Plain Layout
+The Sunlit dream brightly,
+ usually appearing as magical girls,
+ superheroes,
+ paladins,
+ or knights in their Dream Forms.
+ All manners of the heroes of epic myth,
+ old and new.
+ The rest of the supernatural world always imagined the Sunlit when they hear of the Luminous,
+ and it is no wonder.
+ They are the ones who stand out the most,
+ most willing to stand in the limelight.
+\end_layout
+
+\begin_layout Plain Layout
+They wield their magic no differently than any would expect.
+ They are direct and bright,
+ favoring power and immediate action.
+ They would sooner rather blast through a building directly at their target than reach it through infiltration.
+ The collateral damage doesn't matter – it disappears when their magic fades.
+ Of course,
+ the transience of their magic frustrates them just as easily when they really want the whole building gone.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Radiance:
+
+\series default
+ Sunlit have a particular affinity for Regalia.
+ They may sustain Regalia for one less Luminance (to a minimum of 1),
+ and treat each Ideals and Domains they possess as one dot higher when qualifying for Regalia.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Moonlight
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Luminary!Moonlight|textbf
+\end_layout
+
+\end_inset
+
+The moon is no mere reflection of the sun's light.
+ Its pale reflected light still guides lost travelers,
+ and its presence alone drives the rise and fall of the tides.
+ Those who follow the path of Moonlight embody that same strength of being,
+ subtly influencing the world around them without showing their hand.
+\end_layout
+
+\begin_layout Standard
+They are the shrine maidens whose presence preserves the barrier of worlds,
+ the lovers whose kind words let the hero fight another day,
+ the dryad who guides visitors through the forest from the shadows.
+ The Moonlit,
+ more than anything else,
+ are the ones who improve the world quietly in the shadows,
+ pulling the world towards its best future.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Magic:
+
+\series default
+ The magic of the Moonlit is subtle yet powerful,
+ reflecting the innermost nature of the caster in muted tones.
+ It is mysterious and occulted,
+ seeming to just happen around the Moonlit as a simple fact of their being,
+ without them being seen doing anything.
+ Their transformations are similarly shrouded,
+ often easily passing for mundane clothing save for the occasional easily overlooked touch of the supernatural.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Write example characters section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Write Benefits section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Inspirations:
+
+\series default
+ Will Vandom (W.I.T.C.H.),
+ Aelita (Code Lyoko),
+ Aura (.hack//)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Starlight 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Luminary!Starlight|textbf
+\end_layout
+
+\end_inset
+
+A thousand stars shine in the skies,
+ each their own distant worlds in the faraway heavens.
+ We look to the stars,
+ and a thousand possible futures among them,
+ each just as colorful as the rest.
+ Those who follow the path of Starlight seek to embody those colorful worlds,
+ each inspiring themselves and others to shine brightly in their own unique ways.
+\end_layout
+
+\begin_layout Standard
+They are the dreamers who write fanciful stories of the worlds that could be,
+ the girl who inspires her shy friend out of her shell through her own bright cheeriness,
+ the art teacher who encourages her students to draw what they truly want.
+ The Starlit,
+ more than anything else,
+ are the ones who show others what is possible,
+ that they could do the same themselves if they dared.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Magic:
+
+\series default
+ The magic of the Starlit is quiet but colorful,
+ reflecting the caster's true self in a thousand different little ways.
+ Even when it isn't obvious what truth it reflects,
+ it undeniably is a reflection of something the Starlit values.
+ The transformations are the most varied of all Luminous,
+ reflecting their ideal self with no regard for any other concerns.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Write example characters section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Benefits:
+
+\series default
+ Luminous who resonate with Starlight have a particular affinity for Charms.
+ They may Invoke a single Invocation for no Mote cost when they cast a Charm.
+ Furthermore,
+ they qualify for Charm upgrade requirements as if they had one more dot in each Invocation they have at least one dot in.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Inspirations:
+
+\series default
+ Sakura Kinomoto (Cardcaptor Sakura),
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setnormallayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Archetype 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Archetype"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Archetype|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Write text here.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Kingdoms 
+\begin_inset CommandInset label
+LatexCommand label
+name "Sec-Kingdoms"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Kingdom|textbf
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+range none
+pageformat default
+status open
+
+\begin_layout Plain Layout
+Invocations
+\end_layout
+
+\end_inset
+
+The Dream that the Luminous visit in their sleep and draw their power from is itself a true world,
+ if one built out of stories and feelings rather than the matter and physics of the real world.
+ In that world of dreams,
+ their predecessors wove eight Kingdoms of Light over the years,
+ dream-like visions of what the world could be some day in the future.
+ Those visions shape the Invocations the Nobles use to shape their magic,
+ written by like-minded Luminous over the generations and preserved in the depths of the Dream.
+\end_layout
+
+\begin_layout Standard
+The Kingdom is not quite like the Luminary or Archetype of a Luminous.
+ Rather than being a part of their Dreamscape,
+ it is rather the physical location their Dreamscape resides in.
+ Whether its Threshold appears as a mansion in a major city or an out-of-the-way hollow in an unsuspecting tree,
+ its physical presence in the Kingdom itself is what defines a Noble unambiguously as a member of it.
+\end_layout
+
+\begin_layout Standard
+The eight Dream Kingdoms a Luminous may reside in are:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Avalon,
+ the First Garden
+\series default
+:
+ A beautiful kingdom led by nobility sworn to serve the needs of their people.
+ Its Invocation is Rosa,
+ of social order and responsibility.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aztlan,
+ the Torchlit Freehold
+\series default
+:
+ A sprawling country whose residents pride themselves on their passions and true values.
+ Its Invocation is Solare,
+ of decisive action and rebellion.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Elysium,
+ the Record of the Lost
+\series default
+:
+ A sanctuary city that preserves the histories of the world as it is and once was.
+ Its Invocation is Ricordo,
+ of preserving history and protecting that which you love.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Konohana,
+ the Forest of Cycles
+\series default
+:
+ A peaceful forest where all things live in harmony with each other.
+ Its Invocation is Flori,
+ of adaptation and harmony with the world.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ildathach,
+ the Colorful Dream
+\series default
+:
+ A dream-like vision of a world triumphing over even the laws of reality.
+ Its Invocation is Prisma,
+ of uncompromising idealism and defiance against what must be.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Muirias,
+ the Crystal Isles
+\series default
+:
+ A nation built on a series of islands filled with wonders of science and magic.
+ Its Invocation is Brillare,
+ of learning and wonder at the world.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sancus,
+ the Pyre Alliance
+\series default
+:
+ A close-knit alliance of city-states built over the generations of hard work.
+ Its Invocation is Accordi,
+ of duties to one another and military might.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Tengri,
+ the Confederacy of Winds
+\series default
+:
+ A mountain range populated by colorful and varied nomadic tribes.
+ Its Invocation is Cieli,
+ of the freedom of the skies and acceptance for all peoples.
+\end_layout
+
+\begin_layout Standard
+Not all Luminous become a member of a kingdom when they Blossom.
+ Unaffiliated Nobles have affinity with two Invocations of their choice (including for buying the Invocation itself),
+ but gain no Kingdom Benefit.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsplatlayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Avalon,
+ the First Garden
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Avalon writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Aztlan,
+ the Torchlit Freehold
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Aztlan writeup.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Elysium,
+ the Record of the Lost
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Elysium writeup.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Konohana,
+ the Forest of Cycles
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Konohana writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ildathach,
+ the Colorful Dream
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Ildathach writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Muirias,
+ the Archipelago of Stars
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align center
+
+\emph on
+"The universe is beautiful,
+ whether you look at the big things or the small
+\begin_inset Newline newline
+\end_inset
+
+Some day the world will remember that..."
+\end_layout
+
+\begin_layout Standard
+In legend,
+ the Tuatha de Danann sailed onto the island of Ireland from four myth-shrouded cities:
+ Falias,
+ Goirias,
+ Findias,
+ and Muirias.
+ They brought their sciences,
+ arts and ways of magic,
+ teaching the natives all they knew to be their equal.
+\end_layout
+
+\begin_layout Standard
+Naming their Kingdom after the great sea city of the Tuatha de Danann,
+ the Luminous of Muirias vow to teach all they know the world to offer.
+ They dream of a world where people seek to learn of the sciences and stories,
+ not only for the sake of what practical value they may hold,
+ but to experience the wonders of the world through them.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Member Nicknames:
+
+\series default
+ Stargazers,
+ Seekers
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Benefit:
+
+\series default
+ Stargazers are always eager to share the stories and knowledge they learn over their years.
+ Once per scene,
+ when you tell a story or teach something new to a person or a small group,
+ roll Presence
+\begin_inset space ~
+\end_inset
+
++
+\begin_inset space ~
+\end_inset
+
+an appropriate skill.
+ If you succeed,
+ they gain their choice of Inspired or Informed on the subject matter.
+\end_layout
+
+\begin_layout Subsubsection*
+The Crystal Isles 
+\end_layout
+
+\begin_layout Standard
+In their dream of Muirias,
+ the Stargazers wove an archipelago connected by boats,
+ bridges of solidified light,
+ and other yet more exotic means of transport.
+ Its cities strongly resemble modern civilization,
+ but in a way that highlights the magic and knowledge they hold in their hands.
+ Their gleaming cities are built of crystalline spires of polished ceramic,
+ stone,
+ and glass.
+ Further out into the wilderness,
+ their towns and villas seem to girdle the beaches with diamond spires.
+\end_layout
+
+\begin_layout Standard
+The ground floor of the towers are lined with the essential facilities of everyday life – grocery stores,
+ restaurants and so forth.
+ Behind the crystal exteriors and shining spires that rise above,
+ the Crystal Isles are filled with the hallmarks of modern industry,
+ workshops producing magical wonders,
+ and schools and colleges both small and large.
+\end_layout
+
+\begin_layout Subsubsection*
+Beliefs 
+\end_layout
+
+\begin_layout Standard
+Above all else,
+ Muirias brings together those Luminous where people value knowledge,
+ without losing sight of the fundamental wonder and curiosity that drives people to discover.
+ To them,
+ to reduce the world to what is physically true is to rob it of the magic that drives that curiosity forward.
+ The marvels of the world cannot be seen simply through textbooks and rote memorization.
+ So many meaningful truths can only be learned when you experience them for yourself.
+\end_layout
+
+\begin_layout Standard
+When you understand well enough the truth behind those wonders and what makes them wonderful,
+ then you can weave your own.
+ When the world is known,
+ there is no more reason to fear what is unknown.
+ Thus,
+ the only way forward is to pierce the mists of ignorance.
+\end_layout
+
+\begin_layout Standard
+Society's greatest achievements were always made when we learned more of the world around us.
+ Towards that end,
+ knowledge must be shared,
+ not hoarded.
+ People must be shown the world,
+ not have it reduced to mathematical laws and cold facts.
+ There is a brighter future in learning and information.
+ The more minds that we can work with,
+ the better we all will be.
+\end_layout
+
+\begin_layout Subsubsection*
+Invocation:
+ Brillare 
+\end_layout
+
+\begin_layout Standard
+Brillare is born of the joys of learning,
+ of childlike curiosity and wonder at the world.
+ It encourages one to always seek to know the world better,
+ and reach for the unknown rather than fearing it.
+ Those who resonate with Brilliare are charged to reveal the secrets that made the world dark for so long.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ What does Brillare *do*?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Stories
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+An elementary school teacher tries to teach her students the wonders behind the dry science in the textbooks,
+ fighting against the children just a grade up who bully those who like to learn.
+ She works two jobs just to feed herself and her family.
+ Even so,
+ she persists,
+ because she knows she can make a difference.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Her own son gets it.
+ He explores the world on his own terms,
+ going out into town often.
+ He was always bringing back stories of the places he saw and the people he met out there,
+ but it always felt as if he was leaving something out.
+ She understood the curiosity he had,
+ but never so much the secrecy.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+One day,
+ she followed him under the cover of night,
+ wanting to know what he was truly up to.
+ She chased him into a long abandoned building,
+ only to find herself chased by the creature of nightmares her son was fighting.
+ When her son could no longer protect her from it,
+ she took it into her own hands,
+ Blossoming to stand by his side.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+A young boy wants to explore the world in all its colors.
+ He wanted to see the fairies in the forest,
+ the mermaids in the sea.
+ He was told that it wasn't worth it.
+ That those wonders didn't exist...
+ One day,
+ he went anyway on his own,
+ into that park forest.
+ There weren't the fairies of his fairy tales,
+ but every time he turned over a new rock,
+ he saw a new and wonderful bug he never had before.
+ There weren't mermaids in the ponds,
+ but he saw plants he never knew before by the lake's side.
+ In the end,
+ he found what he had come for after all.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Even a year later,
+ he still liked it in the woods.
+ It was...
+ somehow different still,
+ a place to just watch all the animals,
+ observe all the little intricacies of how they lived their lives.
+ But,
+ that day,
+ he found something different.
+ A wisp fluttered on the winds,
+ glowing with an impossible light.
+ He chose to believe.
+ He followed it deeper into the forest than he had ever gone before,
+ off the trails and past raging creeks.
+ When it eluded him past a raging river,
+ he reached for an nameless power inside him he always knew was there...
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Flying over that river with wings of starlight,
+ she saw a witch on the other side with her students.
+ She didn't know how to explain him to them,
+ how to handle the sudden disruption of her own lesson.
+ Instead,
+ seeing that same spark in his eyes she always knew,
+ she offered to teach him as well,
+ Awakened or not.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sancus,
+ the Pyre Alliance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Sancus writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tengri,
+ the Confederacy of Winds
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Tengri writeup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setnormallayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

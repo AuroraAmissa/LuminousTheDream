@@ -1,0 +1,30 @@
+%
+% Starlit Skies formatting
+%
+\definesection{forward}{\fontQuicksand\bfseries}{F5EBFF}{E9E0FF}{B9B0F5}{7F6DF2}%
+\definesection{starlit}{\fontQuicksand\bfseries}{F5EBFF}{E9E0FF}{B9B0F5}{7F6DF2}%
+\newcommand\fourstar{{\fontGothicA\bfseries ✧}}
+
+%
+% Starlit Skies basic layout
+%
+\geometry{verbose,letterpaper,tmargin=1.1in,bmargin=1.1in,lmargin=0.85in,rmargin=0.85in,footskip=0.9in}
+\newcommand\overridegeometry{--}
+
+\renewcommand{\labelitemi}{\fourstar}
+
+\renewcommand\vsecsize{\fontsize{23.5}{33}}
+\renewcommand\vsubsecsize{\fontsize{18}{22.5}}
+\renewcommand\vsubsubsecsize{\fontsize{13.5}{18}}
+
+\renewcommand\footertextsize{\fontsize{9.5}{0}}
+\renewcommand\vgitmarksize{\fontsize{8.5}{0}}
+\renewcommand\gitmarkheight{0.2in}
+
+\renewcommand{\baselinestretch}{1.15}
+
+%
+% Starlit Skies chapter headings
+%
+\renewcommand*{\printchaptertitle}[1]{\chaptitlefont{\fourstar{} #1 \fourstar{}}}
+\renewcommand*{\printtoctitle}[1]{}

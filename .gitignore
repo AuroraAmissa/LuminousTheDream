@@ -1,6 +1,6 @@
-\#*
-*~
-*.kate-swp
-/*.pdf
-/*.tex
-/dist
+/build
+/venv
+/.sass-cache
+/deploy_test.sh
+/.idea
+/template/fonts/nonfree

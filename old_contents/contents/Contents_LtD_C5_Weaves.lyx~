@@ -1,0 +1,1015 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass memoir
+\begin_preamble
+% Added by lyx2lyx
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+todonotes
+fixltx2e
+InStar
+pdfform
+\end_modules
+\maintain_unincluded_children no
+\begin_local_layout
+Format 66
+
+PackageOptions xcolor table
+PackageOptions todonotes colorinlistoftodos
+
+InsetLayout Flex:Sidebar
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar"
+  LatexType             environment
+  LatexName             lumsidebar
+  Argument 1
+    LabelString         "Title"
+    Mandatory	        1
+  EndArgument
+  ResetsFont            true
+End
+
+InsetLayout Flex:SidebarContentWarning
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Sidebar (Content Warning)"
+  LatexType             environment
+  LatexName             cw-sidebarenv
+  ResetsFont            true
+End
+
+InsetLayout Flex:TwoColumns
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns (Fill)"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnbox
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnbox}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols}{2}}
+      {\end{multicols} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:TwoColumnsFill
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Two Columns (Fill)"
+  LatexType             environment
+  LatexName             lumsharedtwocolumnboxfill
+  ResetsFont            true
+
+  Preamble
+    \newenvironment{lumsharedtwocolumnboxfill}
+      {\lumsidebartwocolumn \twocolumnparagraphsplitting \begin{multicols*}{2}}
+      {\end{multicols*} \defaultparagraphsplitting \lumsidebarnormal}
+  EndPreamble
+End
+
+InsetLayout Flex:NewCommand
+  LyXType               custom
+  Decoration            classic
+  LabelString           "New Rich Text Command"
+  LatexType             command
+  LatexName             newcommand
+  ResetsFont            true
+  Argument 1
+    LabelString         "Command"
+    Mandatory	        1
+    PassThruChars       "\[]{}_"
+  EndArgument
+  Argument 2
+    LabelString         "Argument Count"
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_newcommand {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:CofDPartQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "CofD Part Quote"
+  LatexType             command
+  LatexName             lumpartquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:CofDChapterQuote
+  LyXType               custom
+  Decoration            classic
+  LabelString           "CofD Chapter Quote"
+  LatexType             command
+  LatexName             lumchapquote
+  ResetsFont            true
+End
+
+InsetLayout Flex:CollapsableRegion
+  LyxType               custom
+  LatexType             none
+  Decoration            minimalistic
+  ContentAsLabel        true
+  
+  HTMLTag               div
+  HTMLIsBlock           true
+End
+
+InsetLayout Flex:IncompleteChapter
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Chapter"
+  LatexType             command
+  LatexName             lumincomplete
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_incompletechapter {
+      display: none;
+    }
+  EndHTMLStyle
+End
+
+InsetLayout Flex:IncompleteSection
+  LyXType               custom
+  Decoration            classic
+  LabelString           "Incomplete Section"
+  LatexType             command
+  LatexName             lumincompletesection
+  ResetsFont            true
+  Argument 1
+    LabelString         "Name"
+    Mandatory	        1
+  EndArgument
+
+  HTMLTag               div
+  HTMLIsBlock           true
+  HTMLStyle
+    div.flex_incompletesection {
+      display: none;
+    }
+  EndHTMLStyle
+End
+\end_local_layout
+\language english
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics xetex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\float_placement class
+\float_alignment class
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_title "Luminous: the Dream"
+\pdf_author "AuroraAmissa"
+\pdf_subject "A Storytelling game of Distant Dreams"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize letter
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\footskip 0.5in
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 1
+\html_be_strict true
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Format_Luminous.lyx"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsection{luminous}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Flex CofDChapterQuote
+status open
+
+\begin_layout Chapter
+Chapter 5:
+ Rainbow Skies
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\emph on
+\begin_inset Quotes xld
+\end_inset
+
+They've been guiding me,
+ and showing me all the beautiful things in the world
+\begin_inset Newline newline
+\end_inset
+
+I love them,
+ and I love what they love.
+\begin_inset Quotes xrd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\emph default
+Kiana Kaslana,
+ 
+\series bold
+\emph off
+Honkai Impact 3rd
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnsFill
+status open
+
+\begin_layout Plain Layout
+In the far corners of the Sea,
+ human nightmares and fantasias intermingle with the bizarre dreams of alien beings – whether the fevered feuds and tales of the Fae,
+ the pastoral dreams of the Earth's spirits,
+ or stranger beings still.
+\end_layout
+
+\begin_layout Plain Layout
+connects the dreams of humans and alien beings alike – joining to to the fevered story-dreams of the Fae,
+ the Soulspace of Earth herself,
+ and the dreams of stranger beings still.
+\end_layout
+
+\begin_layout Plain Layout
+Long ago,
+ a rare few adventerous Luminous learned how to reach beyond the shores of Annwn and weave those foreign dreams into their own beings.
+\end_layout
+
+\begin_layout Plain Layout
+Reaching beyond the shores of Annwn,
+ the Luminous may draw on all the colors of the Sea,
+ weaving into themselves miracles they could never otherwise create.
+\end_layout
+
+\begin_layout Plain Layout
+Even if a Luminous once awakened to the Dream's power under Annwn's skies,
+ in truth,
+ they have 
+\end_layout
+
+\begin_layout Plain Layout
+Through their Tied as they are to the Sea,
+ Luminous may draw on a sliver of that power – embracing the power and 
+\end_layout
+
+\begin_layout Plain Layout
+Beyond the shores of Annwn,
+ the Sea of Stars shines with the dreams of all kinds of alien beings.
+ In their closed off paradise,
+ the Fae weave their tales of love and conflict.
+ In the depths of the Records,
+ the world's soul dreams of a lost paradise.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Kingdom is one small part of a far more vast Dream.
+ Beyond them,
+ stranger beings dreamed of their own lives,
+ their own ideals.
+\end_layout
+
+\begin_layout Standard
+The Luminous only wove a small part of the Dream all of humanity shares into their Kingdoms.
+ Beyond them,
+ the skies are dyed in so many colors,
+ touched by so many strange powers.
+ Long ago,
+ a rare few Hopeful seeked to understand them,
+ dove deeply enough into their mysteries,
+ that some nameless barrier broke.
+\end_layout
+
+\begin_layout Standard
+Beyond that barrier,
+ they saw a path.
+ They would reach out into the Dream again as when they first Blossomed,
+ to Blossom again under the light of a different power.
+ They wove something stranger,
+ further off notions into their Soulspaces alongside those they always wielded,
+ allowing their new Weave and Origin to infuse every aspect of their magic and being.
+\end_layout
+
+\begin_layout Standard
+Back then,
+ Weaves were a means of survival.
+ The Luminous were vulnerable in that era before they knew how to fight with the Dream or how to weave a Dual Identity.
+ They masqueraded as other creatures,
+ hiding among their ranks for protection.
+\end_layout
+
+\begin_layout Standard
+In the current day,
+ the reasons the Hopeful take on Weaves are as colorful as the Hopeful themselves.
+ Some wish to show the world that even stranger powers still can be used in the name of good.
+ Some still wish to live among the other creatures of the night,
+ feeling a kinship with they they cannot find elsewhere.
+ Some live in places where the protection of Dual Identity isn't enough to protect them.
+ Then,
+ there are those who simply wish to,
+ feeling some nameless rightness in what they would become.
+\end_layout
+
+\begin_layout Standard
+The latter especially tend to be responsible for the strangest of phenomenon.
+ Not all Luminous who take on a Weave must Blossom twice.
+ Some resonate so much with a particular power that they take it on when they Blossom the first time.
+\end_layout
+
+\begin_layout Section
+Accepting Weaves
+\end_layout
+
+\begin_layout Standard
+Whether a Luminous takes on on a Weave when she first Blossoms,
+ or later on in a second Blossoming,
+ the effect is the same.
+ She spends 3 Experiences,
+ and chooses an Origin compatible with her Weave.
+ She gains the Weave's base ability and all the Origin's effects.
+ Thereafter,
+ she is forever changed.
+ Thus,
+ no Luminous may ever take on more than one Weave.
+\end_layout
+
+\begin_layout Standard
+She gains ranks in the Weave for every dot of her Inner Light,
+ and gains one more every time it increases.
+ For each rank,
+ she may buy a single Perk associated with her Weave.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Stranger Forces
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Weaves are built of a mix of the power of the Dream and foreign powers.
+ In even rarer cases still,
+ a Luminous may take on a power not of the Dream at all in the first place.
+\end_layout
+
+\begin_layout Plain Layout
+Some other supernatural forces have such titles of their own such as a Changeling's Entitlements or a Mage's Legacies – and given the right situation,
+ a Luminous may find herself burdened with their arcane responsibilities.
+ She gains an Origin that reflects what she accepted an power from.
+ The Storyteller should adjudicate how exactly such foreign powers affect the Luminous – in general,
+ it becomes something more like a Weave in structure while keeping its own core themes.
+\end_layout
+
+\begin_layout Plain Layout
+Guidelines for such things may be found in the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperref[chap:Chapter-1:-Crossing]{Crossing Paths}
+\end_layout
+
+\end_inset
+
+ chapter.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Origins 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Origins"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When a Luminous takes on a Weave,
+ she accepts another force into her soul,
+ embracing it as she once did the Dream.
+ Such a blatant embrace of the supernatural burns away some measure of the mundanity she once enjoyed,
+ and binds all of her magic with the touch of a foreign force.
+ Abilities may affect and detect such Luminous and their powers using anything that can detect the powers of the Dream,
+ Will,
+ or their Origin.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Innate Origins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Luminous who had been touched by other supernatural forces before they Blossomed start play with an Origin.
+ An Avowed Luminous has an Wyrd Origin,
+ and an Wolf-Touched Luminous has a Spirit Origin.
+ In exchange,
+ she retains the full supernatural force of a single minor template she once possessed.
+\end_layout
+
+\begin_layout Plain Layout
+Such Hopeful pay 5 experiences to take on a Weave instead of 3,
+ as the downsides of her Origin cannot fully compensate for its powers.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Spirit
+\end_layout
+
+\begin_layout Standard
+The world itself dreams too,
+ hidden far in the World Dream beyond the Foundation.
+ As the waking world reflects onto the Shadow,
+ so too do the spirits that live in it reflect into the World Dream.
+ Long ago,
+ a Luminous braved the Gales to reach its heart,
+ and learned of the powers the Spirits dreamed of.
+ Nobody remembers why.
+ Perhaps it was desperation,
+ perhaps it was in pursuit of some nameless calling.
+ Regardless,
+ a memory of the journey remains in the Dream Kingdoms in this day.
+\end_layout
+
+\begin_layout Standard
+When a Hopeful draws on that memory once more,
+ she is thrown into an dangerous and all too real dream reflection of the Shadow.
+ She feels small in comparison to the savage and passionate creatures of the natural world,
+ yet catching a glimpse of the delicate balance they uphold through conflict.
+ Grasping for power as they all do,
+ she takes on a Resonance to call her own.
+ Asserting herself against the flows of the world,
+ she craves herself a place in the World Dream.
+\end_layout
+
+\begin_layout Subsubsection*
+Spiritual Nature
+\end_layout
+
+\begin_layout Standard
+The Spirit is a savage world where each fends for themselves.
+ Even if she seeks to find a better way for spirits and humans alike,
+ she must also embrace a measure of it to draw on the Shadow's power.
+ She finds a Resonance to call her own,
+ drawing forth a portion of that Essence to weave into her own Dream Form.
+\end_layout
+
+\begin_layout Standard
+When your character first gains the Spirit origin,
+ choose a physical element or emotion she resonates with.
+ She may choose concepts as broad-ranging as fire,
+ love,
+ rain,
+ light,
+ hope,
+ or winter – as long as it is something relatively common in her environment.
+ In her Dream Form,
+ she is treated as a spirit of that Resonance instead of a Dreamborn.
+ She gains an Ban and Bane as with a spirit of Rank 3.
+ This can lead to complications;
+ powers that attempt to detect her creature type read her as a Claimed or Ridden of some variety in either of her forms.
+\end_layout
+
+\begin_layout Standard
+Furthermore,
+ Luminous who claim the power of the spirits depend on their Resonances as they do.
+ For typical elements,
+ she begins feeling drained after a week without significant exposure to her element and suffers a box of mild Hope damage daily.
+ After a whole month,
+ this increases to severe Hope damage.
+ For cyclic concepts like rain or winter,
+ this duration is usually longer – a Luminous will begin feeling restless in the late Summer or after a month of drought,
+ but certainly not after a week.
+ For particularly commonplace elements like light or water,
+ a day or so may be enough to drain her.
+\end_layout
+
+\begin_layout Subsubsection*
+Favor of the Shadow
+\end_layout
+
+\begin_layout Standard
+A Hopeful of Spirit treats any amount of her Resonance in her vicinity as equipment,
+ providing her an equipment bonus of up to +5 depending on the amount of the element present.
+ A nearby fireplace could roar to life to burn down a locked door in her way,
+ the rain parts way for the ancient books she holds close to her arms – even as it soaks her person.
+\end_layout
+
+\begin_layout Standard
+Her Weaving Actions manifest touches of her element,
+ and require no perception roll to detect as obviously supernatural.
+ In the presence of a large amount of her element,
+ it may even attempt to assist her in her mundane actions.
+ She may benefit from a equipment bonus up to +1 or +2,
+ and anyone who witnesses her actions may make a Perception roll to notice the supernatural assistance.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ After finishing Domain mechanics,
+ work Resonance into them.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wyrd
+\end_layout
+
+\begin_layout Standard
+Ancient vows and pacts older than the Gentry themselves bind the Dream and the world of the fae together.
+ Whatever its origin,
+ the Dreaming Roads were born before any Luminous or True Fae laid eyes on the world.
+ Far too often,
+ the Luminous found themselves walking those roads into a world more real than a dream.
+ There,
+ they first touched the power of Wyrd.
+\end_layout
+
+\begin_layout Standard
+When a Hopeful accepts the powers of the Wyrd,
+ she dreams of a memory of a fae world from long ago.
+ She makes an oath to a beautiful fairy queen,
+ the voice of the world itself – or whatever she imagines the Wyrd's face to be.
+ By the terms of that accord between the Hopeful and fae,
+ she discards her usual transformation in favor of the Mask that veils all fae from mortal eyes.
+\end_layout
+
+\begin_layout Subsubsection*
+Fae Nature
+\end_layout
+
+\begin_layout Standard
+The Wyrd asks the Luminous join the agreements of the fae in exchange for its power.
+ She counts as an Avowed for all interactions related to the Wyrd,
+ although she still must use the charm 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "subsec:Shining-Vow"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ to join the Oaths of the fae.
+\end_layout
+
+\begin_layout Standard
+As such,
+ iron forevermore considers her an enemy.
+ The Wyrd permeates her magic,
+ and so it too cannot defend her against the touch of iron.
+ Iron pierces through her Regalia that provide Armor or enhanced Defense,
+ and her attempts to use her Domains on it fail.
+ Cold iron furthermore acts as a bane to her.
+ She suffers aggravated damage from its touch.
+\end_layout
+
+\begin_layout Subsubsection*
+Veiled Dream
+\end_layout
+
+\begin_layout Standard
+The Luminous' Transformation is fundamentally changed by the Wyrd.
+ She is locked into her Dream Form,
+ and cannot intentionally revert to her Mundane Form.
+ In exchange,
+ her Dream Form is hidden under a fae Mask.
+ She spends Motes instead of Glamour when interacting with the Mask.
+ While she may break her Mask,
+ this has no benefits or drawbacks for the Luminous beyond revealing their supernatural nature.
+\end_layout
+
+\begin_layout Standard
+Regardless of how she looked before,
+ her Dream Form under her Mask gains a fantastical,
+ mystical feel that marks her as clearly supernatural.
+ What was once a flower worn in their hair grows into a tangle of vines and blooms.
+ A hairstyle that evoked the feel of fire instead becomes an actual smoldering blaze.
+\end_layout
+
+\begin_layout Standard
+Should she be forced out of Dream Form,
+ she reverts to her Mundane Form.
+ She reflexively transforms as soon as she is able to,
+ and suffers constant Flicker at the maximum penalty allowed by her Reverie as long as she is untransformed.
+\end_layout
+
+\begin_layout Standard
+For all these troubles,
+ her Mask veils her native powers from detection.
+ Supernatural effects detect her as nothing more than a Changeling.
+ Likewise,
+ it causes mortals to explain away or miss the supernatural nature of her Form Merits or Weaving Actions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Sidebar
+status open
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fae Mask and Mein
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+The fae conceal themselves from the mundane world behind a powerful illusion deeply embedded into their nature.
+ To all mortal senses and mundane technology,
+ anything touched by fae magic looks to be ordinary.
+ Mortals do not notice the smell of lilacs come from the fae's hair,
+ but simply assume it perfume.
+ Even the coldness of an ice elemental's skin doesn't seem remarkable when veiled by the fae illusion.
+\end_layout
+
+\begin_layout Plain Layout
+This illusion is called a fae being or object's Mask,
+ and their true form is called their Mein.
+ Unlike a Luminous' Mundane Form,
+ this illusion has no effect on magical forces.
+ The mundane senses of magical beings are fooled,
+ but their powers are not.
+\end_layout
+
+\begin_layout Plain Layout
+Fae only see the Mein of their fellows.
+ They must spend a Glamour to see another's mask for a few brief seconds.
+ In response,
+ another fae may spend a Glamour to reinforce her mask,
+ hiding her Mein even from other fae – leaving only a few tells such as her true form in her her shadow.
+ Alternatively,
+ a fae may spend a Glamour to burn away her Mask for a scene,
+ revealing her true form in a dazzling magical display not unlike a Princess' transformation.
+ This increases the effectiveness of the fae's Contracts and rends open gateways to Faerie nearby her.
+\end_layout
+
+\begin_layout Plain Layout
+For detailed information on this mechanic,
+ see pages 81-83 and pages 107-108 of Changeling:
+ the Lost 2e.
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setsecsplatlayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Weave of Bonds 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Weave-of-Bonds"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\emph on
+"I promise I will never leave your side.
+ I promise that we'll shine brighter together..."
+\begin_inset Newline newline
+\end_inset
+
+
+\emph off
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TwoColumnsFill
+status open
+
+\begin_layout Plain Layout
+Even back before we ever sowed seeds into the earth,
+ one promise was always held in the highest regard in our hearts.
+ Whether spoken to a lover,
+ a friend or a sibling,
+ we promised to never leave one another's side.
+ We wished for a power that could bind ourselves and the world to that vow...
+\end_layout
+
+\begin_layout Plain Layout
+In a sense,
+ the Weave of Bonds had always existed,
+ even before the Light.
+ The Luminous are merely the latest to inherit its power.
+ After all,
+ even before we first spoke,
+ we took one another's hands,
+ and made a silent promise.
+ When the forests were still young,
+ Father Wolf made that same promise to Mother Luna.
+ Before the first forest sprouted from the Earth,
+ the Fae pledged to never leave each other's sides,
+ and scattered trees twisted together into grand canopies.
+\end_layout
+
+\begin_layout Plain Layout
+The Weave of Bonds may be used with any Origin.
+ Uniquely,
+ it must be taken at the same time as another character,
+ and those two are bonded by this Weave permanently.
+ This requires both such Nobles to be aware of what creating such a link entails,
+ and for both to agree to it in their deepest heart without deception or trickery.
+ Otherwise,
+ the nascent bond breaks apart in its first moments.
+\end_layout
+
+\begin_layout Plain Layout
+Both Luminous share a pool of ranks equal to half their combined Inner Light divided by two (rounded up) and buy Perks collectively.
+ All Perks gained as a part of this Weave affect both partners.
+\end_layout
+
+\begin_layout Subsection*
+Weave of Bonds (•••,
+ Weave)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Weave of Bonds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Weave of Names
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex TODO Note (inline)
+status open
+
+\begin_layout Plain Layout
+TODO:
+ Weave of Bonds
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setnormallayout
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

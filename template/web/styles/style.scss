@@ -1,0 +1,35 @@
+@use 'PandocRulebookBase/scss/theme_chromatic' with (
+  $theme_color: 230,
+  $bg_alpha: 0.85,
+  $theme_chroma_mult: 0.5,
+  $theme_chroma_mult_highlight: 1.0,
+  $font_title: "Quicksand",
+  $font_text: "Signika Negative",
+  $marker_li: "☆",
+  $marker_li_2: "◇",
+  $marker_title: "✦",
+  $title_selector: ".h0",
+  $font_weight_main: 350,
+  $font_weight_strong: 550,
+  $background: #dcf8ef url('starlit-skies-web-bg.jpeg') repeat fixed 0 -60px,
+);
+
+.h-card {
+  top: 0.135em;
+}
+
+.h0 {
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+.c, .symc {
+  font-family: "Signika Negative", "Gothic A1";
+  font-weight: 550;
+  margin: 0;
+}
+
+p {
+  line-height: 125%;
+}

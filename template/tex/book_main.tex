@@ -1,0 +1,20 @@
+%! suppress = FileNotFound
+
+\input{common_meta}
+\documentclass[letterpaper,11pt,extrafontsizes,oneside]{memoir}
+\newcommand\pdfTitle{Starlit Skies}
+\input{common_header}
+\input{style}
+\input{common_style}
+
+\begin{document}
+    \titlePage{Starlit Skies}{}{forward}
+    \setsection{starlit}
+
+    \input{tex_sections/credits_page}
+    \newpage
+
+    \input{chapters/ch0-forward}
+    \input{chapters/ch1-introduction}
+    \input{chapters/ch2-how-to-play}
+\end{document}
