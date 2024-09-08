@@ -6,7 +6,7 @@ modified_mode = "none"
 
 [entry]
 name = "Luminous the Dream (Web)"
-path = "xtitle.html"
+path = "luminous/title.html"
 
 [pdf]
 top-level-division = "chapter"
