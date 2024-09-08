@@ -35,13 +35,13 @@ The path forward would be difficult and full of suffering and pain. But, how cou
 
 Luminous: the Dream is a fangame for Chronicles of Darkness and does not contain the core rules needed to play the Storyteller system. You will require one of the following books:
 
-* Chronicles of Darkness ([DriveThruRPG](https://preview.drivethrurpg.com/en/product/168428/Chronicles-of-Darkness)) contains the core rules for the Storyteller system.
-* The core book for an official supernatural splat (such as Changeling: the Lost 2e or Promethean: the Created) also contain the core rules for the system. The page references found in this book will not be accurate, but conversions may be found in the appendix.
+* **Chronicles of Darkness** ([DriveThruRPG](https://preview.drivethrurpg.com/en/product/168428/Chronicles-of-Darkness)) contains the core rules for the Storyteller system.
+* The core book for an official supernatural splat (such as **Changeling: the Lost 2e** or **Promethean: the Created**) also contain the core rules for the system. The page references found in this book will not be accurate, but conversions may be found in the appendix.
 
 In addition, the following books are recommended for traditional magical girl chronicles involving younger characters, but are not required:
 
-* Fragile Innocence by Erica Mahoney ([Storyteller's Vault](https://www.storytellersvault.com/product/462836/Fragile-Innocence)) contains updated rules for playing child and teenager characters in Chronicles of Darkness.
-* World of Darkness: Innocents ([DriveThruRPG](https://preview.drivethrurpg.com/en/product/55727/World-of-Darkness-Innocents)) is a source book for such characters from an earlier edition of World of Darkness. The rules are outdated and superseded by Fragile Innocence, but the roleplaying hints, chronicle ideas and merits found in this book are still usable.
+* **Fragile Innocence** by Erica Mahoney ([Storyteller's Vault](https://www.storytellersvault.com/product/462836/Fragile-Innocence)) contains updated rules for playing child and teenager characters in Chronicles of Darkness.
+* **World of Darkness: Innocents** ([DriveThruRPG](https://preview.drivethrurpg.com/en/product/55727/World-of-Darkness-Innocents)) is a source book for such characters from an earlier edition of World of Darkness. The rules are outdated and superseded by Fragile Innocence, but the roleplaying hints, chronicle ideas and merits found in this book are still usable.
 
 ## Themes
 

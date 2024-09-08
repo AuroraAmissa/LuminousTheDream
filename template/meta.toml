@@ -1,6 +1,7 @@
 [config]
 author = "Rimi Kanokawa"
 title = "Luminous: the Dream"
+archive_title = "LuminousTheDream"
 resource_root = "LuminousTheDreamFiles"
 modified_mode = "none"
 
