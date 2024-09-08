@@ -6,13 +6,14 @@ modified_mode = "none"
 
 [entry]
 name = "Luminous the Dream (Web)"
-path = "chapters/title.html"
+path = "xtitle.html"
 
 [pdf]
 top-level-division = "chapter"
 fonts = [
-    "Signika Negative,Main,Weight=400,BoldWeight=650",
-    "Quicksand,Title",
+    "Fira Sans,Main,BoldWeight=500",
+    "Dancing Script,Title",
+    "Cormorant Infant",
     "Gothic A1,Fallback",
 ]
 no_c_span_space = true
