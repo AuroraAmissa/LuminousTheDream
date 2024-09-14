@@ -1,19 +1,32 @@
 # Introduction
 
 ::::: {.twocolumnfill}
-When we were young, we looked to the world with wonder. We looked to the flowers and trees and birds and every little thing about them felt magical. We saw the stars, and imagined holding them in our hands. We saw the great heroes of the world and thought we could be like them as well. We read fantastical stories of magical girls and knights and princesses and wished they were real. We thought we could change the world, and make it a better place for all.
 
-So, why was the world the way it was?
+When we were young, we looked upon the world with wonder. We saw magic in the flowers and birds, and every other little thing. We looked up to the stars, and imagined holding them in our hands. When we read stories of great heroes and magical girls and knights and princesses, we were inspired. We thought we could truly be like them, and make the world a better place...
 
-As we grew, we were taught that the world was a dark and dull place. The natural world was something to fear. The stars were too far away to reach. The great heroes of the world were special and we weren't. We wouldn't amount to anything unless we gave up on hope and followed along. Only someone childish, someone naive could believe otherwise.
+If only our dreams could come true, we could save our friends from their cruel parents and our families from the uncaring world — but, those dreams never came to pass, as years and then decades went by...
 
-We were taught to forget those stories we once loved, of children carrying on innocent hope to save the world. Stories for adults were darker, more realistic, more true.
+When we were older, we were taught that the world was supposed to be a dark and pitiless place. That the wonders of nature were something to fear, and that the stars were too far away to reach. Those people who truly could change the world were special, out of reach, and nobody like us could ever hope to try. It was hubris. We weren't meant to amount to anything. All we could do to survive is give up on hope, and follow along. Only someone childish, someone naive could believe otherwise.
 
-**Luminous: the Dream** is such a childish and puerile story, of hope, of warriors who draw the magic from the world of dreams itself.
-
-It is a story about unlearning the lies of adulthood, and remembering the hope we had for a better world. It is a story about learning to see the wonders of the world again, and protecting them with all our might. It is the story about embracing the wonder and hope of childhood, not because we know nothing else or hide from the world's shadows, but because that is the correct way forward.
+**Luminous: the Dream** is a story of those who stand in defiance against that cynicism, dreaming of the better future we were meant to forget. About growing up to unlearn the lies of adulthood, and remembering the hope we had for a better world and the wonders we were taught to overlook.
 
 ## Setting
+
+**Luminous: the Dream** is a roleplaying game set in the world of the **Chronicles of Darkness**, where humanity is caught between supernatural horrors hide under the surface and the familiar cruelties of modern life. More than in our world, humanity learned that the only way to survive was to keep their heads down, pretend everything was alright.
+
+This isn't a game about that.
+
+Once, long ago, humanity did dream of a better world. We dreamed of the light that would pierce the darkest of nights, delivering us into a world we would truly wish for.
+
+Once, long ago, humanity faced the darkness with dignity, dreaming of a light would pierce the black night. Long ago, we believed in heroes that would defend us from horrors and magic that could change the world. From that dream, the first faint sparks of a power we could truly call our own were lit. In the depths of the Sea of Dreams, 
+
+In the depths of humanity's collective dreams, a forgotten Dream Kingdom was born. In it, we built countless visions of what kind of world we could one day build. We pushed forward by the guidance of dreams, and the promise of tomorrow...
+
+... but it wasn't to last. The sparks were too faint, and the dreams they spoke of too distant. The Dream Kingdom is fading away. Because... humanity gave up on dreaming, that the future could be better, that there was anything more for them than a World of Darkness.
+
+In this game, you play one of the Luminous — one of the last champions of the Dream Kingdom, still carrying forth the light of a dying dream into the world.  
+
+
 
 **Luminous: the Dream** is a roleplaying game set in the world of the **Chronicles of Darkness**, a world much like our own - caught between the familiar horrors of the mundane and the unfamiliar horrors of the supernatural. More than in our own world, humanity learned to keep its head down to survive. This game, though, isn't about doing that.
 
@@ -36,7 +49,7 @@ The path forward would be difficult and full of suffering and pain. But, how cou
 Luminous: the Dream is a fangame for Chronicles of Darkness and does not contain the core rules needed to play the Storyteller system. You will require one of the following books:
 
 * **Chronicles of Darkness** ([DriveThruRPG](https://preview.drivethrurpg.com/en/product/168428/Chronicles-of-Darkness)) contains the core rules for the Storyteller system.
-* The core book for an official supernatural splat (such as **Changeling: the Lost 2e** or **Promethean: the Created**) also contain the core rules for the system. The page references found in this book will not be accurate, but conversions may be found in the appendix.
+* The core book for an official supernatural splat (such as **Changeling: the Lost 2e** or **Promethean: the Created**) also contain the core rules for the system. The page numbers found in this book will not be accurate, but conversions may be found in the appendix.
 
 In addition, the following books are recommended for traditional magical girl chronicles involving younger characters, but are not required:
 
@@ -100,4 +113,5 @@ Both the main protagonists, Angela and Roland have their own dark pasts and scar
 Honkai Impact 3rd is a long running video game by Hoyoverse, about a group of young girls growing up as they fight to protect they world they live in. In time, they learn the truth behind the Houkai that threatens their world and how greatly their world was influenced by the civilizations of the past.
 
 The contrast between the stories of the Previous Era and Current Era especially resonate with the themes of **Luminous** – showing how humanity has a real decision to make in what they believe in and what kind of world they create.
+
 :::::
