@@ -1,17 +1,16 @@
 %
 % Luminous: the Dream formatting
 %
-\definesection{lumtitle}{\fontDancingScript\bfseries}{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}
-\definesection{forward}{\fontDancingScript\bfseries}{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}
-\definesection{luminous}{\fontDancingScript\bfseries}{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}
-\definesection{maou}{\fontCormorantInfant\bfseries}{f3ebff}{ede0ff}{ccb2f5}{ae83f2}
+\newcommand\markerSquare{{\fontGothicA\bfseries ❖}}
+\definesection{lumtitle}{\fontDancingScript\bfseries}{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}{\markerSquare{}}
+\definesection{forward}{\fontDancingScript\bfseries}{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}{\markerSquare{}}
+\definesection{luminous}{\fontDancingScript\bfseries}{ffebf2}{ffe0ea}{f5b0c8}{f26d9b}{\markerSquare{}}
+\definesection{maou}{\fontCormorantInfant\bfseries}{f3ebff}{ede0ff}{ccb2f5}{ae83f2}{\markerSquare{}}
 \setsection{forward}
 
 %
 % Luminous: the Dream basic layout
 %
-\newcommand\markerSquare{{\fontGothicA\bfseries ❖}}
 \geometry{verbose,letterpaper,tmargin=1in,bmargin=1in,lmargin=0.7in,rmargin=0.7in,footskip=0.78in}
 \newcommand\overridegeometry{--}
-\renewcommand{\labelitemi}{\markerSquare{}}
 \setlength\columnsep{0.2in}

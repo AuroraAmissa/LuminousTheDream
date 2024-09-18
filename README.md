@@ -11,7 +11,7 @@ Rendering
 ---------
 
 Luminous is typeset using [LuaLaTeX]. This repository should contain everything you need to render it, as long as
-you have the needed software. You will need to install [TeX Live] and the [Nix] package manager.
+you have the needed software. You will need to install [TeX Live 2024] (or later) and the [Nix] package manager.
 
 Use the `./build.sh draft` command to render a draft document.
 
@@ -26,7 +26,7 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Unpo
 [Chronicles of Darkness]: http://theonyxpath.com/category/worlds/chroniclesofdarkness/
 [Github]: https://github.com/AuroraAmissa/LuminousTheDream/releases
 [LuaLaTeX]: https://www.luatex.org/
-[TeX Live]: https://www.tug.org/texlive/acquire-netinstall.html
+[TeX Live 2024]: https://www.tug.org/texlive/acquire-netinstall.html
 [Nix]: https://nixos.org/
 [WSL2]: https://learn.microsoft.com/en-us/windows/wsl/about
 [Discord server]: https://discord.gg/aeMaxU6PDx
