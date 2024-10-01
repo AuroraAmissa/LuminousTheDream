@@ -12,44 +12,26 @@ When we were older, we were taught that the world was supposed to be a dark and 
 
 ## Setting
 
-**Luminous: the Dream** is a roleplaying game set in the world of the **Chronicles of Darkness**, where humanity is caught between supernatural horrors hide under the surface and the familiar cruelties of modern life. More than in our world, humanity learned that the only way to survive was to keep their heads down, pretend everything was alright.
+**Luminous: the Dream** is a roleplaying game inspired by the *mahou shoujo* genre of anime. It is set in the world of the **Chronicles of Darkness**, where humanity is caught between supernatural horrors hide under the surface and the familiar cruelties of modern life. More than in our world, humanity learned that the only way to survive was to keep their heads down, pretend everything was alright.
 
-This isn't a game about that.
+It wasn't always that way. We once dreamed of a better future, and the magic we would use to reclaim the world from its horrors. That hope ignited across a sea of fragmented dreams. When they joined together, they gave birth to the Dream Kingdom we named Annwn, shining with all our brightest dreams of the day we would conquer the dark...
 
-Once, long ago, humanity did dream of a better world. We dreamed of the light that would pierce the darkest of nights, delivering us into a world we would truly wish for.
+There, the first glimmers of a magic we could truly call our own were first formed.
 
-Once, long ago, humanity faced the darkness with dignity, dreaming of a light would pierce the black night. Long ago, we believed in heroes that would defend us from horrors and magic that could change the world. From that dream, the first faint sparks of a power we could truly call our own were lit. In the depths of the Sea of Dreams, 
+... but it wasn't to last. Our dreams were too far away. Now, the Dream Kingdom is fading away, forgotten by a world that no longer believes in hope. To a world that believed that they must give up their future to survive just another day... dreams were foolish. Dreams were dangerous, and childish.
 
-In the depths of humanity's collective dreams, a forgotten Dream Kingdom was born. In it, we built countless visions of what kind of world we could one day build. We pushed forward by the guidance of dreams, and the promise of tomorrow...
+In this game, you play one of the Luminous — one of the last champions of the Dream Kingdom, wielding an ancient magic that never had a chance to truly shine... and carry forth the light of a dying dream once more into the world.
 
-... but it wasn't to last. The sparks were too faint, and the dreams they spoke of too distant. The Dream Kingdom is fading away. Because... humanity gave up on dreaming, that the future could be better, that there was anything more for them than a World of Darkness.
-
-In this game, you play one of the Luminous — one of the last champions of the Dream Kingdom, still carrying forth the light of a dying dream into the world.  
-
-
-
-**Luminous: the Dream** is a roleplaying game set in the world of the **Chronicles of Darkness**, a world much like our own - caught between the familiar horrors of the mundane and the unfamiliar horrors of the supernatural. More than in our own world, humanity learned to keep its head down to survive. This game, though, isn't about doing that.
-
-In the depths of the collective dreams of humanity, there was a forgotten Dream Kingdom. In it, we built countless visions of what the world could be if only we worked hard enough. There, we lit the first faint sparks of a power we could truly call our own. There, we made our first stand against the malice of the world.
-
-The spark was too faint in the end, and the wonders too distant. When we found a different path, one of science and cold rationality over the warmth of love and the romance of stories, we forgot the Dream Kingdom as any more than a story.
-
-You play a Luminous in this game, a champion of the Dream Kingdom in an era where people no longer believe in the power of dreams.
-
-Helpless to change the world that caused them and all they loved so much suffering, they escaped into the depths of their dreams. There, though, they found that lost Kingdom, and the ancient stories of hope and wonder it told of. They met others who held the same hope they do, who wished to change the world as they did, in any small way they can. They saw the small acts of kindness that existed even in the waking world.
-
-Somehow, through all that, a long forgotten power awoke in their soul – to weave their imagination into reality, and stand against the world once more in the name of dreams.
-
-The path forward would be difficult and full of suffering and pain. But, how could they take any other path? After all, they alone held the power to change all that.
+Of course... that path would be difficult and full of pain. But, what other option is there? After all, there is a brighter future to fight for.
 
 \newpage{}
 
-## Source Books
+## Required Books
 
-Luminous: the Dream is a fangame for Chronicles of Darkness and does not contain the core rules needed to play the Storyteller system. You will require one of the following books:
+**Luminous: the Dream** is a fangame for Chronicles of Darkness and does not contain the core rules needed to play the Storyteller system. You will require one of the following books:
 
 * **Chronicles of Darkness** ([DriveThruRPG](https://preview.drivethrurpg.com/en/product/168428/Chronicles-of-Darkness)) contains the core rules for the Storyteller system.
-* The core book for an official supernatural splat (such as **Changeling: the Lost 2e** or **Promethean: the Created**) also contain the core rules for the system. The page numbers found in this book will not be accurate, but conversions may be found in the appendix.
+* The core book for an official supernatural splat (such as **Changeling: the Lost 2e** or **Mage: the Awakening 2e**) also contain the core rules for the system. The page numbers found in this book will not be accurate, but conversions may be found in the appendix.
 
 In addition, the following books are recommended for traditional magical girl chronicles involving younger characters, but are not required:
 
@@ -58,31 +40,33 @@ In addition, the following books are recommended for traditional magical girl ch
 
 ## Themes
 
-**Luminous** is built to tell stories in the tone of the darker adaptations of the mahou shoujo genre of anime. Those stories embrace the darkest corners of life without shy away, and yet, refuse to let them consume them, showing how hope can live on even in a dark world.
+**Luminous** is built to tell stories in the tone of the darker examples of the _mahou shoujo_ or "magical girl" genre of anime. Those stories don't shy away from the serious pains and adult concerns of the world, and yet still tell of the hope that exists even in the worst of circumstances and how those living in such a world can grow beyond the traumas it caused.
 
 ### The Journey of Hope
 
-For most, growing up means to give up on hope. It's what you were taught growing up, after all. Tomorrow always seemed too far away to care about, better to struggle through today. It's better to not stick your head out. Put childish things behind you, so you won't suffer any longer. After all, if things can't be changed, you don't have to think so hard about how bad the world is. It is as good as it could ever be.
+For most, growing up means to give up on hope. In everyone else's eyes, you're supposed to accept the world as it is, and stop fighting. They say it's _more mature_, it's the _right thing to do_. They say that to believe the world could be better is childish, and that is something to hold contempt for.
 
-You know it's wrong. You saw how much even a small wish can change the world, even without the spark of magic. You see that if people truly try, the cruelties of the world could be changed. But doubt still rings in your ears.
+You know in your heart that that's wrong. You saw how much the world can change when people try, even without any special power.
 
-The lie that the world can't be changed is still seductive. To hold onto the hope, and truly wield it to change the world also means to confront all the malice of its world in its full horror.
+But... that doesn't mean it's easy either. The world isn't easy to change, and it became the way it is for a reason. Even if you know it's a lie, it's still seductive to believe that the world can't be changed, so... it's okay to not try. It's still tempting to simply give up and tell yourself that all it means is that you've grown up now. It's still easy to fall into blind idealism, ignoring the dark side of the world entirely...
+
+The stories of magical girl media are about _growing up_, to come to understand the world you live in for all its faults and brightness... and find your own path through it regardless.
 
 ### Crossing Paths
 
-Everyone's lives leads them in different directions, and yet we are all interconnected. Nobody is truly alone. Every person relies on another, loves another, has been hurt by another. The Luminous know that truth better than anyone else. Their Dream Kingdom, after all, was built in the Sea of Stars that connects the dreams of all humanity together.
+Everyone's lives are different. That doesn't mean, though, that we are alone. We all still rely on others, love others, have been hurt by others.
 
-It's all too easy to reject those who are different, cast them away as outsiders. In understanding them, you learn that they simply want to live like everyone else, another part of the greater whole.
+The Luminous come to understand that truth better than anyone else. Their magic draws on their bonds with those around them, and thus, to them... their relationships aren't only a source of emotional strength and support, but the very magic they use to better the world.
 
-On their journey walking in between dreams and reality, the Luminous come to rely on and understand the very different people and supernatural creatures they share a world with. With the help of those others, their dream seems every the more possible.
+In their stories, they come to meet those far different from them. People with different ideals, people who see the world differently and supernatural beings with fundamentally different minds and needs. Sometimes, conflict is unavoidable. But, other times... even seemingly impossible rifts can be bridged through simple understanding.
 
 ### Lights in the Dark
 
-Despite the problems of the world, there are still small moments of happiness and hidden places of beauty everywhere. It's all too easy to explain them away, and dismiss them as not worth it or simply boring. For every grand spectacles, there are a thousand small wonders. In truth, the places we escape to in our vacations aren't all that different, we just give ourselves permission to truly feel the joy in those small things.
+The world isn't all dark. No matter how bad the situation gets, no matter how far the world slips into darkness... there will always be light in the world. Luminous, at its heart, is a story about those lights.
 
-Even if they can't change the whole world, even if they can't stop their Kingdom from fading away, the Luminous can still protect those small moments. By living a life full of wonder, they could show the world around them that there is still hope and light in the world.
+There will always be small moments of happiness and hidden places of beauty hidden away. Even if the Luminous fail to change the world, and even if they can't stop Annwn from fading away... those small moments still mattered. The Dream was woven from tiny sparks after all, rather than some grand tale...
 
-The Dream was woven from such small things in the first place, and grew into a force that still burns on in its darkest era. Surely, that flame could be ignited again.
+For the Luminous, it is those small and precious moments that push them forward, and give them the strength to fight. And... they hope, it will be those that inspire others to fight alongside them.
 
 \columnbreak{}
 
